@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[1]:
+# In[ ]:
 
 
 import json
@@ -22,7 +22,7 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 
 # ### Metadata
 
-# In[2]:
+# In[ ]:
 
 
 # Map from test suite tag to high-level circuit.
@@ -40,7 +40,7 @@ tag_to_circuit = {tag: circuit
                   for tag in tags}
 
 
-# In[3]:
+# In[ ]:
 
 
 os.chdir("..")
@@ -48,7 +48,7 @@ ppl_data_path = Path("data/raw/perplexity.csv")
 test_suite_results_path = Path("data/raw/test_suite_results.csv")
 
 
-# In[9]:
+# In[ ]:
 
 
 perplexity_df = pd.read_csv(ppl_data_path, index_col=["model", "corpus", "seed"])
@@ -64,7 +64,7 @@ results_df["tag"] = results_df.test_suite.transform(lambda s: re.split(r"[-_0-9]
 results_df["circuit"] = results_df.tag.map(tag_to_circuit)
 
 
-# In[10]:
+# In[ ]:
 
 
 results_df.head()
@@ -72,7 +72,7 @@ results_df.head()
 
 # ### Checks
 
-# In[12]:
+# In[ ]:
 
 
 # Each model--corpus--seed should have perplexity data.
@@ -101,7 +101,7 @@ if diff:
 # 
 # e.g. to maintain consistent hues across model graphs, etc.
 
-# In[20]:
+# In[ ]:
 
 
 model_order = sorted(set(results_df.model))
@@ -111,7 +111,7 @@ circuit_order = sorted(set(results_df.circuit))
 
 # ### Data prep
 
-# In[24]:
+# In[ ]:
 
 
 # Join PPL and accuracy data.
@@ -120,7 +120,7 @@ joined_data = pd.DataFrame(joined_data).join(perplexity_df).reset_index()
 joined_data.head()
 
 
-# In[56]:
+# In[ ]:
 
 
 # Join PPL and accuracy data, splitting on circuit.
@@ -129,7 +129,7 @@ joined_data_circuits = pd.DataFrame(joined_data_circuits).reset_index().set_inde
 joined_data_circuits.head()
 
 
-# In[57]:
+# In[ ]:
 
 
 # Analyze stability to modification.
@@ -151,7 +151,7 @@ results_df_mod.head()
 
 # ### Accuracy across models
 
-# In[14]:
+# In[ ]:
 
 
 sns.barplot(data=results_df.reset_index(), x="model", y="correct")
@@ -162,7 +162,7 @@ plt.ylabel("Accuracy")
 
 # ### Accuracy vs perplexity
 
-# In[17]:
+# In[ ]:
 
 
 corpus_to_size = {
@@ -175,7 +175,7 @@ model_colors = dict(zip(model_order,
                         ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf']))
 
 
-# In[22]:
+# In[ ]:
 
 
 f, ax = plt.subplots()
@@ -187,7 +187,7 @@ sns.scatterplot(data=joined_data, x="test_ppl", y="correct",
                 hue_order=model_order, size_order=corpus_order)
 
 
-# In[52]:
+# In[ ]:
 
 
 g = sns.FacetGrid(data=joined_data_circuits, col="circuit")
@@ -197,7 +197,7 @@ g.map(sns.scatterplot, "test_ppl", "correct", "model",
 
 # ### Variance in accuracy vs variance in perplexity
 
-# In[39]:
+# In[ ]:
 
 
 catplot_ticks = ["correct", "test_ppl"]
@@ -209,7 +209,7 @@ g = sns.catplot(data=catplot_data,
 
 # ### Circuit–circuit correlations
 
-# In[55]:
+# In[ ]:
 
 
 f, axs = plt.subplots(len(circuit_order), len(circuit_order), figsize=(20, 20))
@@ -231,7 +231,7 @@ plt.title("Circuit--circuit correlations")
 
 # ### Stability to modification
 
-# In[59]:
+# In[ ]:
 
 
 plt.subplots(figsize=(15, 10))
@@ -239,7 +239,7 @@ sns.barplot(data=results_df_mod, x="model", y="correct", hue="has_modifier")
 plt.title("Stability to modification")
 
 
-# In[61]:
+# In[ ]:
 
 
 avg_mod_results = results_df_mod.groupby(["model", "test_suite_base", "has_modifier"]).correct.agg({"acc": "mean"}).sort_index()
