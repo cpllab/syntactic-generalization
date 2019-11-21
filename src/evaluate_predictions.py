@@ -52,7 +52,7 @@ def evaluate_test_suite(to_eval):
     with open(DUMMY_RESULTS_PREFIX + suite, "r") as inf:
         results = json.load(inf)
 
-    model = results["meta"]["name"]
+    model = results["meta"]["model"]
     preds = results["meta"]["string_predictions"]
     preds = [x.replace(";",",").replace("%","'") for x in preds]
 
