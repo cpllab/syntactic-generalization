@@ -153,14 +153,16 @@ joined_data_circuits.head()
 
 # Analyze stability to modification.
 def has_modifier(ts):
-    if "no-modifier" in ts:
-        return False
-    elif "modifier" in ts:
+    if ts.endswith(("_modifier", "_mod")):
         return True
     else:
         return None
 results_df["has_modifier"] = results_df.suite.transform(has_modifier)
 
+# Mark "non-modifier" test suites
+modifier_ts = results_df[results_df.has_modifier == True].suite.unique()
+no_modifier_ts = [re.sub(r"_mod(ifier)?$", "", ts) for ts in modifier_ts]
+results_df.loc[results_df.suite.isin(no_modifier_ts), "has_modifier"] = False
 # Store subset of test suites which have definite modifier/no-modifier marking
 results_df_mod = results_df[~(results_df.has_modifier.isna())]
 # Get base test suite (without modifier/no-modifier marking)
@@ -264,7 +266,7 @@ plt.title("Stability to modification")
 # In[ ]:
 
 
-avg_mod_results = results_df_mod.groupby(["model_name", "test_suite_base", "has_modifier"]).correct.agg({"acc": "mean"}).sort_index()
+avg_mod_results = results_df_mod.groupby(["model_name", "test_suite_base", "has_modifier"]).correct.agg({"correct": "mean"}).sort_index()
 avg_mod_diffs = avg_mod_results.xs(True, level="has_modifier") - avg_mod_results.xs(False, level="has_modifier")
 
 plt.subplots(figsize=(15, 10))
