@@ -283,9 +283,33 @@ plt.subplots(figsize=(10, 10))
 sns.heatmap(data=corr_df.pivot("key_1", "key_2", "corr"))
 
 
+# In[22]:
+
+
+plt.subplots(figsize=(10, 10))
+sns.distplot(results_df.groupby(["suite", "item"]).correct.agg("mean"), bins=20)
+plt.title("Distribution of item-level accuracy means")
+
+
+# In[23]:
+
+
+plt.subplots(figsize=(10, 10))
+sns.distplot(results_df.groupby(["suite", "item"]).correct.agg("std"), bins=20)
+plt.title("Distribution of item-level accuracy stdevs")
+
+
+# In[24]:
+
+
+plt.subplots(figsize=(10, 10))
+sns.distplot(suites_df.correct, bins=20)
+plt.title("Distribution of suite-level accuracy means")
+
+
 # ### Variance in accuracy vs variance in perplexity
 
-# In[22]:
+# In[25]:
 
 
 catplot_ticks = ["correct", "test_ppl"]
@@ -300,7 +324,7 @@ g = sns.catplot(data=catplot_data,
 
 # ### Circuit–circuit correlations
 
-# In[23]:
+# In[26]:
 
 
 f, axs = plt.subplots(len(circuit_order), len(circuit_order), figsize=(20, 20))
@@ -323,7 +347,7 @@ plt.suptitle("Circuit--circuit correlations")
 
 # ### Stability to modification
 
-# In[24]:
+# In[27]:
 
 
 plt.subplots(figsize=(15, 10))
@@ -331,7 +355,7 @@ sns.barplot(data=results_df_mod, x="model_name", y="correct", hue="has_modifier"
 plt.title("Stability to modification")
 
 
-# In[25]:
+# In[28]:
 
 
 plt.subplots(figsize=(15, 10))
@@ -339,14 +363,14 @@ sns.barplot(data=results_df_mod, x="corpus", y="correct", hue="has_modifier")
 plt.title("Stability to modification")
 
 
-# In[26]:
+# In[29]:
 
 
 g = sns.FacetGrid(data=results_df_mod, col="model_name", height=7)
 g.map(sns.barplot, "corpus", "correct", "has_modifier")
 
 
-# In[27]:
+# In[30]:
 
 
 avg_mod_results = results_df_mod.groupby(["model_name", "test_suite_base", "has_modifier"]).correct.agg({"correct": "mean"}).sort_index()
