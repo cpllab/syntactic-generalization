@@ -257,7 +257,7 @@ g.map(sns.scatterplot, "test_ppl", "correct", "model_name",
 g.add_legend()
 
 
-# In[ ]:
+# In[19]:
 
 
 joined_data_circuits.groupby(["model_name", "corpus", "circuit"]).correct.mean()
@@ -265,7 +265,7 @@ joined_data_circuits.groupby(["model_name", "corpus", "circuit"]).correct.mean()
 
 # ### Item-level prediction correlations across models
 
-# In[ ]:
+# In[20]:
 
 
 item_predictions = results_df.set_index(["suite", "item"]).sort_index().groupby(["model_name", "corpus", "seed"]).correct.apply(np.array)
@@ -276,7 +276,7 @@ for k1, k2 in itertools.combinations(list(item_predictions.index), 2):
 corr_df = pd.DataFrame(model_correlations, columns=["key_1", "model_1", "corpus_1", "seed_1", "key_2", "model_2", "corpus_2", "seed_2", "corr"])
 
 
-# In[ ]:
+# In[21]:
 
 
 plt.subplots(figsize=(10, 10))
@@ -285,7 +285,7 @@ sns.heatmap(data=corr_df.pivot("key_1", "key_2", "corr"))
 
 # ### Variance in accuracy vs variance in perplexity
 
-# In[ ]:
+# In[22]:
 
 
 catplot_ticks = ["correct", "test_ppl"]
@@ -300,7 +300,7 @@ g = sns.catplot(data=catplot_data,
 
 # ### Circuit–circuit correlations
 
-# In[ ]:
+# In[23]:
 
 
 f, axs = plt.subplots(len(circuit_order), len(circuit_order), figsize=(20, 20))
@@ -323,7 +323,7 @@ plt.suptitle("Circuit--circuit correlations")
 
 # ### Stability to modification
 
-# In[ ]:
+# In[24]:
 
 
 plt.subplots(figsize=(15, 10))
@@ -331,7 +331,7 @@ sns.barplot(data=results_df_mod, x="model_name", y="correct", hue="has_modifier"
 plt.title("Stability to modification")
 
 
-# In[ ]:
+# In[25]:
 
 
 plt.subplots(figsize=(15, 10))
@@ -339,14 +339,14 @@ sns.barplot(data=results_df_mod, x="corpus", y="correct", hue="has_modifier")
 plt.title("Stability to modification")
 
 
-# In[ ]:
+# In[26]:
 
 
 g = sns.FacetGrid(data=results_df_mod, col="model_name", height=7)
 g.map(sns.barplot, "corpus", "correct", "has_modifier")
 
 
-# In[ ]:
+# In[27]:
 
 
 avg_mod_results = results_df_mod.groupby(["model_name", "test_suite_base", "has_modifier"]).correct.agg({"correct": "mean"}).sort_index()
