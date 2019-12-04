@@ -59,7 +59,7 @@ ppl_data_path = Path("data/raw/perplexity.csv")
 test_suite_results_path = Path("data/raw/test_suite_results")
 
 
-# In[5]:
+# In[6]:
 
 
 perplexity_df = pd.read_csv(ppl_data_path, index_col=["model", "corpus", "seed"])
@@ -70,7 +70,7 @@ results_df = pd.concat([pd.read_csv(f) for f in test_suite_results_path.glob("*.
 # Split model_id into constituent parts
 model_ids = results_df.model.str.split("_", expand=True).rename(columns={0: "model_name", 1: "corpus", 2: "seed"})
 results_df = pd.concat([results_df, model_ids], axis=1).drop(columns=["model"])
-results_df["seed"] = results_df.seed.astype(int)
+results_df["seed"] = results_df.seed.fillna("0").astype(int)
 
 # Exclude test suites
 exclude_filter = results_df.suite.str.contains(exclude_suite_re)
@@ -86,7 +86,7 @@ if tags_missing_circuit:
     print("Tags missing circuit: ", ", ".join(tags_missing_circuit))
 
 
-# In[6]:
+# In[7]:
 
 
 results_df.head()
@@ -94,7 +94,7 @@ results_df.head()
 
 # ### Checks
 
-# In[7]:
+# In[8]:
 
 
 # Each model--corpus--seed should have perplexity data.
@@ -107,7 +107,7 @@ if diff:
     #raise ValueError("Each model--corpus--seed must have perplexity data.")
 
 
-# In[8]:
+# In[9]:
 
 
 # Every model--corpus--seed should have results for all test suite items.
@@ -149,7 +149,7 @@ if len(not_shared) > 0:
 # 
 # e.g. to maintain consistent hues across model graphs, etc.
 
-# In[9]:
+# In[10]:
 
 
 model_order = sorted(set(results_df.model_name))
@@ -159,7 +159,7 @@ circuit_order = sorted([c for c in results_df.circuit.dropna().unique()])
 
 # ### Data prep
 
-# In[10]:
+# In[11]:
 
 
 suites_df = results_df.groupby(["model_name", "corpus", "seed", "suite"]).correct.mean().reset_index()
@@ -167,7 +167,7 @@ suites_df["tag"] = suites_df.suite.transform(lambda s: re.split(r"[-_0-9]", s)[0
 suites_df["circuit"] = suites_df.tag.map(tag_to_circuit)
 
 
-# In[11]:
+# In[12]:
 
 
 # Join PPL and accuracy data.
@@ -176,7 +176,7 @@ joined_data = pd.DataFrame(joined_data).join(perplexity_df).reset_index()
 joined_data.head()
 
 
-# In[12]:
+# In[13]:
 
 
 # Join PPL and accuracy data, splitting on circuit.
@@ -185,7 +185,7 @@ joined_data_circuits = pd.DataFrame(joined_data_circuits).reset_index().set_inde
 joined_data_circuits.head()
 
 
-# In[13]:
+# In[14]:
 
 
 # Analyze stability to modification.
@@ -207,9 +207,27 @@ results_df_mod["test_suite_base"] = results_df_mod.suite.transform(lambda ts: ts
 results_df_mod.head()
 
 
+# ### `ngram` sanity checks
+
+# In[15]:
+
+
+plt.subplots(figsize=(40, 10))
+sns.barplot(data=suites_df[suites_df.model_name == "ngram"], x="suite", y="correct")
+plt.title("ngram test suite results, averaged across corpus size")
+
+
+# In[24]:
+
+
+plt.subplots(figsize=(40, 10))
+sns.barplot(data=suites_df[suites_df.model_name == "ngram-no-rand"], x="suite", y="correct")
+plt.title("ngram-no-rand test suite results, averaged across corpus size")
+
+
 # ### Accuracy across models
 
-# In[14]:
+# In[16]:
 
 
 sns.barplot(data=results_df.reset_index(), x="model_name", y="correct")
@@ -220,7 +238,7 @@ plt.ylabel("Accuracy")
 
 # ### Accuracy vs perplexity
 
-# In[15]:
+# In[17]:
 
 
 f, ax = plt.subplots(figsize=(10, 10))
@@ -232,7 +250,7 @@ plt.ylabel("SyntaxGym score")
 plt.legend(bbox_to_anchor=(1.04,1), loc="upper left")
 
 
-# In[16]:
+# In[18]:
 
 
 g = sns.lmplot(data=joined_data, x="test_ppl", y="correct",
@@ -240,7 +258,7 @@ g = sns.lmplot(data=joined_data, x="test_ppl", y="correct",
 g.ax.set_ylim((0, 1))
 
 
-# In[17]:
+# In[19]:
 
 
 g = sns.lmplot(data=joined_data, x="test_ppl", y="correct",
@@ -248,7 +266,7 @@ g = sns.lmplot(data=joined_data, x="test_ppl", y="correct",
 g.ax.set_ylim((0, 1))
 
 
-# In[18]:
+# In[20]:
 
 
 g = sns.FacetGrid(data=joined_data_circuits, col="circuit", height=5)
@@ -257,7 +275,7 @@ g.map(sns.scatterplot, "test_ppl", "correct", "model_name",
 g.add_legend()
 
 
-# In[19]:
+# In[21]:
 
 
 joined_data_circuits.groupby(["model_name", "corpus", "circuit"]).correct.mean()
@@ -265,7 +283,7 @@ joined_data_circuits.groupby(["model_name", "corpus", "circuit"]).correct.mean()
 
 # ### Item-level prediction correlations across models
 
-# In[20]:
+# In[22]:
 
 
 item_predictions = results_df.set_index(["suite", "item"]).sort_index().groupby(["model_name", "corpus", "seed"]).correct.apply(np.array)
@@ -276,14 +294,14 @@ for k1, k2 in itertools.combinations(list(item_predictions.index), 2):
 corr_df = pd.DataFrame(model_correlations, columns=["key_1", "model_1", "corpus_1", "seed_1", "key_2", "model_2", "corpus_2", "seed_2", "corr"])
 
 
-# In[21]:
+# In[ ]:
 
 
 plt.subplots(figsize=(10, 10))
 sns.heatmap(data=corr_df.pivot("key_1", "key_2", "corr"))
 
 
-# In[22]:
+# In[ ]:
 
 
 plt.subplots(figsize=(10, 10))
@@ -291,7 +309,7 @@ sns.distplot(results_df.groupby(["suite", "item"]).correct.agg("mean"), bins=20)
 plt.title("Distribution of item-level accuracy means")
 
 
-# In[23]:
+# In[ ]:
 
 
 plt.subplots(figsize=(10, 10))
@@ -299,7 +317,7 @@ sns.distplot(results_df.groupby(["suite", "item"]).correct.agg("std"), bins=20)
 plt.title("Distribution of item-level accuracy stdevs")
 
 
-# In[24]:
+# In[ ]:
 
 
 plt.subplots(figsize=(10, 10))
@@ -309,7 +327,7 @@ plt.title("Distribution of suite-level accuracy means")
 
 # ### Variance in accuracy vs variance in perplexity
 
-# In[25]:
+# In[ ]:
 
 
 catplot_ticks = ["correct", "test_ppl"]
@@ -324,7 +342,7 @@ g = sns.catplot(data=catplot_data,
 
 # ### Circuit–circuit correlations
 
-# In[26]:
+# In[ ]:
 
 
 f, axs = plt.subplots(len(circuit_order), len(circuit_order), figsize=(20, 20))
@@ -347,7 +365,7 @@ plt.suptitle("Circuit--circuit correlations")
 
 # ### Stability to modification
 
-# In[27]:
+# In[ ]:
 
 
 plt.subplots(figsize=(15, 10))
@@ -355,7 +373,7 @@ sns.barplot(data=results_df_mod, x="model_name", y="correct", hue="has_modifier"
 plt.title("Stability to modification")
 
 
-# In[28]:
+# In[ ]:
 
 
 plt.subplots(figsize=(15, 10))
@@ -363,14 +381,14 @@ sns.barplot(data=results_df_mod, x="corpus", y="correct", hue="has_modifier")
 plt.title("Stability to modification")
 
 
-# In[29]:
+# In[ ]:
 
 
 g = sns.FacetGrid(data=results_df_mod, col="model_name", height=7)
 g.map(sns.barplot, "corpus", "correct", "has_modifier")
 
 
-# In[30]:
+# In[ ]:
 
 
 avg_mod_results = results_df_mod.groupby(["model_name", "test_suite_base", "has_modifier"]).correct.agg({"correct": "mean"}).sort_index()
