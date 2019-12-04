@@ -47,6 +47,7 @@ tag_to_circuit = {tag: circuit
 
 # Exclusions
 exclude_suite_re = re.compile(r"^fgd-embed[34]|^gardenpath")
+exclude_models = ["1gram"]
 
 
 # ### Load
@@ -77,6 +78,11 @@ exclude_filter = results_df.suite.str.contains(exclude_suite_re)
 print("Dropping %i results / %i suites due to exclusions:"
       % (exclude_filter.sum(), len(results_df[exclude_filter].suite.unique())))
 print(" ".join(results_df[exclude_filter].suite.unique()))
+results_df = results_df[~exclude_filter]
+
+# Exclude models
+exclude_filter = results_df.model_name.isin(exclude_models)
+print("Dropping %i results due to dropping models:" % exclude_filter.sum(), list(results_df[exclude_filter].model_name.unique()))
 results_df = results_df[~exclude_filter]
 
 # Add tags
@@ -226,17 +232,18 @@ sns.barplot(data=suites_df[suites_df.model_name == "ngram-no-rand"], x="suite", 
 plt.title("ngram-no-rand test suite results, averaged across corpus size")
 
 
-# In[33]:
+# In[17]:
 
 
-plt.subplots(figsize=(40, 10))
-sns.barplot(data=suites_df[suites_df.model_name == "1gram"], x="suite", y="correct")
-plt.title("1gram test suite results, averaged across corpus size")
+if "1gram" in suites_df.model_name.unique():
+    plt.subplots(figsize=(40, 10))
+    sns.barplot(data=suites_df[suites_df.model_name == "1gram"], x="suite", y="correct")
+    plt.title("1gram test suite results, averaged across corpus size")
 
 
 # ### Accuracy across models
 
-# In[16]:
+# In[18]:
 
 
 sns.barplot(data=results_df.reset_index(), x="model_name", y="correct")
@@ -247,7 +254,7 @@ plt.ylabel("Accuracy")
 
 # ### Accuracy vs perplexity
 
-# In[17]:
+# In[19]:
 
 
 f, ax = plt.subplots(figsize=(10, 10))
@@ -259,7 +266,7 @@ plt.ylabel("SyntaxGym score")
 plt.legend(bbox_to_anchor=(1.04,1), loc="upper left")
 
 
-# In[18]:
+# In[20]:
 
 
 g = sns.lmplot(data=joined_data, x="test_ppl", y="correct",
@@ -267,7 +274,7 @@ g = sns.lmplot(data=joined_data, x="test_ppl", y="correct",
 g.ax.set_ylim((0, 1))
 
 
-# In[19]:
+# In[21]:
 
 
 g = sns.lmplot(data=joined_data, x="test_ppl", y="correct",
@@ -275,7 +282,7 @@ g = sns.lmplot(data=joined_data, x="test_ppl", y="correct",
 g.ax.set_ylim((0, 1))
 
 
-# In[20]:
+# In[22]:
 
 
 g = sns.FacetGrid(data=joined_data_circuits, col="circuit", height=5)
@@ -284,15 +291,17 @@ g.map(sns.scatterplot, "test_ppl", "correct", "model_name",
 g.add_legend()
 
 
-# In[21]:
+# In[23]:
 
 
 joined_data_circuits.groupby(["model_name", "corpus", "circuit"]).correct.mean()
 
 
-# ### Item-level prediction correlations across models
+# ### Item-level statistics
 
-# In[22]:
+# #### Item-level prediction correlations across models
+
+# In[24]:
 
 
 item_predictions = results_df.set_index(["suite", "item"]).sort_index().groupby(["model_name", "corpus", "seed"]).correct.apply(np.array)
@@ -303,14 +312,14 @@ for k1, k2 in itertools.combinations(list(item_predictions.index), 2):
 corr_df = pd.DataFrame(model_correlations, columns=["key_1", "model_1", "corpus_1", "seed_1", "key_2", "model_2", "corpus_2", "seed_2", "corr"])
 
 
-# In[23]:
+# In[25]:
 
 
 plt.subplots(figsize=(10, 10))
 sns.heatmap(data=corr_df.pivot("key_1", "key_2", "corr"))
 
 
-# In[24]:
+# In[ ]:
 
 
 plt.subplots(figsize=(10, 10))
@@ -318,7 +327,7 @@ sns.distplot(results_df.groupby(["suite", "item"]).correct.agg("mean"), bins=20)
 plt.title("Distribution of item-level accuracy means")
 
 
-# In[25]:
+# In[ ]:
 
 
 plt.subplots(figsize=(10, 10))
@@ -326,7 +335,7 @@ sns.distplot(results_df.groupby(["suite", "item"]).correct.agg("std"), bins=20)
 plt.title("Distribution of item-level accuracy stdevs")
 
 
-# In[26]:
+# In[ ]:
 
 
 plt.subplots(figsize=(10, 10))
@@ -336,7 +345,7 @@ plt.title("Distribution of suite-level accuracy means")
 
 # ### Variance in accuracy vs variance in perplexity
 
-# In[27]:
+# In[ ]:
 
 
 catplot_ticks = ["correct", "test_ppl"]
@@ -351,7 +360,7 @@ g = sns.catplot(data=catplot_data,
 
 # ### Circuit–circuit correlations
 
-# In[28]:
+# In[ ]:
 
 
 f, axs = plt.subplots(len(circuit_order), len(circuit_order), figsize=(20, 20))
@@ -374,7 +383,7 @@ plt.suptitle("Circuit--circuit correlations")
 
 # ### Stability to modification
 
-# In[29]:
+# In[ ]:
 
 
 plt.subplots(figsize=(15, 10))
@@ -382,7 +391,7 @@ sns.barplot(data=results_df_mod, x="model_name", y="correct", hue="has_modifier"
 plt.title("Stability to modification")
 
 
-# In[30]:
+# In[ ]:
 
 
 plt.subplots(figsize=(15, 10))
@@ -390,14 +399,14 @@ sns.barplot(data=results_df_mod, x="corpus", y="correct", hue="has_modifier")
 plt.title("Stability to modification")
 
 
-# In[31]:
+# In[ ]:
 
 
 g = sns.FacetGrid(data=results_df_mod, col="model_name", height=7)
 g.map(sns.barplot, "corpus", "correct", "has_modifier")
 
 
-# In[32]:
+# In[ ]:
 
 
 avg_mod_results = results_df_mod.groupby(["model_name", "test_suite_base", "has_modifier"]).correct.agg({"correct": "mean"}).sort_index()
