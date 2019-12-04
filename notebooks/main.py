@@ -30,11 +30,11 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 # Map from test suite tag to high-level circuit.
 circuits = {
     "Licensing": ["npi", "reflexive"],
-    "Long-Distance Dependencies": ["fgd", "position", "embed", "number", "comparison"],
+    "Long-Distance Dependencies": ["fgd", "embed", "number", "comparison"],
     "Garden-Path Effects": ["gardenpath", "npz", "mvrr"],
-    "Gross Syntactic State": ["subordination"],
+    "Gross Syntactic State": ["subordination", "nn"],
     "Center Embedding": ["center"],
-    "Transformations": ["passive", "cleft"],
+    "Transformations": ["cleft"],
 }
 
 tag_to_circuit = {tag: circuit
@@ -46,7 +46,7 @@ tag_to_circuit = {tag: circuit
 
 
 # Exclusions
-exclude_suite_re = re.compile(r"^cleft_modifier|^fgd-embed[34]|^npz_(ambig)|^gardenpath")
+exclude_suite_re = re.compile(r"^fgd-embed[34]|^npz_(ambig)|^gardenpath")
 
 
 # ### Load
@@ -71,9 +71,6 @@ results_df = pd.concat([pd.read_csv(f) for f in test_suite_results_path.glob("*.
 model_ids = results_df.model.str.split("_", expand=True).rename(columns={0: "model_name", 1: "corpus", 2: "seed"})
 results_df = pd.concat([results_df, model_ids], axis=1).drop(columns=["model"])
 results_df["seed"] = results_df.seed.astype(int)
-
-# Manual fixes
-results_df.loc[results_df.model_name.isin(("bllip-lg", "bllip-md", "bllip-sm", "bllip-xs")), "model_name"] = "vanilla"
 
 # Exclude test suites
 exclude_filter = results_df.suite.str.contains(exclude_suite_re)
@@ -110,7 +107,7 @@ if diff:
     #raise ValueError("Each model--corpus--seed must have perplexity data.")
 
 
-# In[50]:
+# In[8]:
 
 
 # Every model--corpus--seed should have results for all test suite items.
@@ -152,7 +149,7 @@ if len(not_shared) > 0:
 # 
 # e.g. to maintain consistent hues across model graphs, etc.
 
-# In[51]:
+# In[9]:
 
 
 model_order = sorted(set(results_df.model_name))
@@ -162,7 +159,7 @@ circuit_order = sorted([c for c in results_df.circuit.dropna().unique()])
 
 # ### Data prep
 
-# In[52]:
+# In[10]:
 
 
 suites_df = results_df.groupby(["model_name", "corpus", "seed", "suite"]).correct.mean().reset_index()
@@ -170,7 +167,7 @@ suites_df["tag"] = suites_df.suite.transform(lambda s: re.split(r"[-_0-9]", s)[0
 suites_df["circuit"] = suites_df.tag.map(tag_to_circuit)
 
 
-# In[53]:
+# In[11]:
 
 
 # Join PPL and accuracy data.
@@ -179,7 +176,7 @@ joined_data = pd.DataFrame(joined_data).join(perplexity_df).reset_index()
 joined_data.head()
 
 
-# In[54]:
+# In[12]:
 
 
 # Join PPL and accuracy data, splitting on circuit.
@@ -188,7 +185,7 @@ joined_data_circuits = pd.DataFrame(joined_data_circuits).reset_index().set_inde
 joined_data_circuits.head()
 
 
-# In[55]:
+# In[32]:
 
 
 # Analyze stability to modification.
@@ -204,7 +201,7 @@ modifier_ts = results_df[results_df.has_modifier == True].suite.unique()
 no_modifier_ts = [re.sub(r"_mod(ifier)?$", "", ts) for ts in modifier_ts]
 results_df.loc[results_df.suite.isin(no_modifier_ts), "has_modifier"] = False
 # Store subset of test suites which have definite modifier/no-modifier marking
-results_df_mod = results_df[~(results_df.has_modifier.isna())]
+results_df_mod = results_df[~(results_df.has_modifier.isna())].copy()
 # Get base test suite (without modifier/no-modifier marking)
 results_df_mod["test_suite_base"] = results_df_mod.suite.transform(lambda ts: ts.strip("_no-modifier").strip("_modifier"))
 results_df_mod.head()
@@ -212,7 +209,7 @@ results_df_mod.head()
 
 # ### Accuracy across models
 
-# In[56]:
+# In[33]:
 
 
 sns.barplot(data=results_df.reset_index(), x="model_name", y="correct")
@@ -223,36 +220,19 @@ plt.ylabel("Accuracy")
 
 # ### Accuracy vs perplexity
 
-# In[57]:
-
-
-corpus_to_size = {
-    "bllip-xs": 2,
-    "bllip-sm": 8,
-    "bllip-md": 14,
-    "bllip-lg": 20,
-}
-
-model_colors = dict(zip(model_order,
-                        ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf']))
-
-
-# In[58]:
+# In[35]:
 
 
 f, ax = plt.subplots(figsize=(10, 10))
-# sns.regplot(data=graph_data, x="test_ppl", y="correct",
-#             scatter_kws={"s": graph_data["corpus"].map(corpus_to_size),
-#                          "facecolors": graph_data.model.map(model_colors)})
 sns.scatterplot(data=joined_data, x="test_ppl", y="correct",
-                hue="model_name", size="corpus", sizes=(20, 300),
-                hue_order=model_order, size_order=corpus_order)
+                hue="model_name", style="corpus", s=150,
+                hue_order=model_order)
 plt.xlabel("Test corpus perplexity")
 plt.ylabel("SyntaxGym score")
 plt.legend(bbox_to_anchor=(1.04,1), loc="upper left")
 
 
-# In[59]:
+# In[36]:
 
 
 g = sns.lmplot(data=joined_data, x="test_ppl", y="correct",
@@ -260,7 +240,15 @@ g = sns.lmplot(data=joined_data, x="test_ppl", y="correct",
 g.ax.set_ylim((0, 1))
 
 
-# In[60]:
+# In[48]:
+
+
+g = sns.lmplot(data=joined_data, x="test_ppl", y="correct",
+               hue="model_name", truncate=True)
+g.ax.set_ylim((0, 1))
+
+
+# In[37]:
 
 
 g = sns.FacetGrid(data=joined_data_circuits, col="circuit", height=5)
@@ -269,7 +257,7 @@ g.map(sns.scatterplot, "test_ppl", "correct", "model_name",
 g.add_legend()
 
 
-# In[61]:
+# In[38]:
 
 
 joined_data_circuits.groupby(["model_name", "corpus", "circuit"]).correct.mean()
@@ -277,7 +265,7 @@ joined_data_circuits.groupby(["model_name", "corpus", "circuit"]).correct.mean()
 
 # ### Item-level prediction correlations across models
 
-# In[77]:
+# In[39]:
 
 
 item_predictions = results_df.set_index(["suite", "item"]).sort_index().groupby(["model_name", "corpus", "seed"]).correct.apply(np.array)
@@ -288,7 +276,7 @@ for k1, k2 in itertools.combinations(list(item_predictions.index), 2):
 corr_df = pd.DataFrame(model_correlations, columns=["key_1", "model_1", "corpus_1", "seed_1", "key_2", "model_2", "corpus_2", "seed_2", "corr"])
 
 
-# In[80]:
+# In[40]:
 
 
 plt.subplots(figsize=(10, 10))
@@ -297,7 +285,7 @@ sns.heatmap(data=corr_df.pivot("key_1", "key_2", "corr"))
 
 # ### Variance in accuracy vs variance in perplexity
 
-# In[63]:
+# In[41]:
 
 
 catplot_ticks = ["correct", "test_ppl"]
@@ -312,7 +300,7 @@ g = sns.catplot(data=catplot_data,
 
 # ### Circuit–circuit correlations
 
-# In[64]:
+# In[42]:
 
 
 f, axs = plt.subplots(len(circuit_order), len(circuit_order), figsize=(20, 20))
@@ -335,7 +323,7 @@ plt.suptitle("Circuit--circuit correlations")
 
 # ### Stability to modification
 
-# In[65]:
+# In[43]:
 
 
 plt.subplots(figsize=(15, 10))
@@ -343,7 +331,7 @@ sns.barplot(data=results_df_mod, x="model_name", y="correct", hue="has_modifier"
 plt.title("Stability to modification")
 
 
-# In[66]:
+# In[44]:
 
 
 plt.subplots(figsize=(15, 10))
@@ -351,14 +339,14 @@ sns.barplot(data=results_df_mod, x="corpus", y="correct", hue="has_modifier")
 plt.title("Stability to modification")
 
 
-# In[67]:
+# In[45]:
 
 
 g = sns.FacetGrid(data=results_df_mod, col="model_name", height=7)
 g.map(sns.barplot, "corpus", "correct", "has_modifier")
 
 
-# In[68]:
+# In[46]:
 
 
 avg_mod_results = results_df_mod.groupby(["model_name", "test_suite_base", "has_modifier"]).correct.agg({"correct": "mean"}).sort_index()
