@@ -46,7 +46,7 @@ tag_to_circuit = {tag: circuit
 
 
 # Exclusions
-exclude_suite_re = re.compile(r"^fgd-embed[34]|^npz_(ambig)|^gardenpath")
+exclude_suite_re = re.compile(r"^fgd-embed[34]|^gardenpath")
 
 
 # ### Load
@@ -74,8 +74,9 @@ results_df["seed"] = results_df.seed.fillna("0").astype(int)
 
 # Exclude test suites
 exclude_filter = results_df.suite.str.contains(exclude_suite_re)
-print("Dropping %i results / %i suites due to exclusions."
+print("Dropping %i results / %i suites due to exclusions:"
       % (exclude_filter.sum(), len(results_df[exclude_filter].suite.unique())))
+print(" ".join(results_df[exclude_filter].suite.unique()))
 results_df = results_df[~exclude_filter]
 
 # Add tags
@@ -223,6 +224,14 @@ plt.title("ngram test suite results, averaged across corpus size")
 plt.subplots(figsize=(40, 10))
 sns.barplot(data=suites_df[suites_df.model_name == "ngram-no-rand"], x="suite", y="correct")
 plt.title("ngram-no-rand test suite results, averaged across corpus size")
+
+
+# In[33]:
+
+
+plt.subplots(figsize=(40, 10))
+sns.barplot(data=suites_df[suites_df.model_name == "1gram"], x="suite", y="correct")
+plt.title("1gram test suite results, averaged across corpus size")
 
 
 # ### Accuracy across models
