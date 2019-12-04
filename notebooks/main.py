@@ -46,7 +46,7 @@ tag_to_circuit = {tag: circuit
 
 
 # Exclusions
-exclude_suite_re = re.compile(r"^cleft_modifier|^fgd-embed[34]|^npz_(ambig)")
+exclude_suite_re = re.compile(r"^cleft_modifier|^fgd-embed[34]|^npz_(ambig)|^gardenpath")
 
 
 # ### Load
@@ -110,6 +110,32 @@ if diff:
     #raise ValueError("Each model--corpus--seed must have perplexity data.")
 
 
+# In[50]:
+
+
+# Every model--corpus--seed should have results for all test suite items.
+item_list = {model_key: set(results.suite)
+             for model_key, results in results_df.groupby(["model_name", "corpus", "seed"])}
+not_shared = set()
+for k1, k2 in itertools.combinations(item_list.keys(), 2):
+    l1, l2 = item_list[k1], item_list[k2]
+    if l1 != l2:
+        print("SyntaxGym test suite results for %s and %s don't match" % (k1, k2))
+        print("\tIn %s but not in %s:\n\t\t%s" % (k2, k1, l2 - l1))
+        print("\tIn %s but not in %s:\n\t\t%s" % (k1, k2, l1 - l2))
+        print()
+        
+        not_shared |= l2 - l1
+        not_shared |= l1 - l2
+        
+print(not_shared)
+
+if len(not_shared) > 0:
+    to_drop = results_df[results_df.suite.isin(not_shared)]
+    print("Dropping these test suites (%i rows) for now. Yikes." % len(to_drop))
+    results_df = results_df[~results_df.suite.isin(not_shared)]
+
+
 # ## Main analyses
 # 
 # 1. barplot ranking model accuracies
@@ -126,7 +152,7 @@ if diff:
 # 
 # e.g. to maintain consistent hues across model graphs, etc.
 
-# In[8]:
+# In[51]:
 
 
 model_order = sorted(set(results_df.model_name))
@@ -136,7 +162,7 @@ circuit_order = sorted([c for c in results_df.circuit.dropna().unique()])
 
 # ### Data prep
 
-# In[9]:
+# In[52]:
 
 
 suites_df = results_df.groupby(["model_name", "corpus", "seed", "suite"]).correct.mean().reset_index()
@@ -144,7 +170,7 @@ suites_df["tag"] = suites_df.suite.transform(lambda s: re.split(r"[-_0-9]", s)[0
 suites_df["circuit"] = suites_df.tag.map(tag_to_circuit)
 
 
-# In[10]:
+# In[53]:
 
 
 # Join PPL and accuracy data.
@@ -153,7 +179,7 @@ joined_data = pd.DataFrame(joined_data).join(perplexity_df).reset_index()
 joined_data.head()
 
 
-# In[11]:
+# In[54]:
 
 
 # Join PPL and accuracy data, splitting on circuit.
@@ -162,7 +188,7 @@ joined_data_circuits = pd.DataFrame(joined_data_circuits).reset_index().set_inde
 joined_data_circuits.head()
 
 
-# In[12]:
+# In[55]:
 
 
 # Analyze stability to modification.
@@ -186,7 +212,7 @@ results_df_mod.head()
 
 # ### Accuracy across models
 
-# In[13]:
+# In[56]:
 
 
 sns.barplot(data=results_df.reset_index(), x="model_name", y="correct")
@@ -197,7 +223,7 @@ plt.ylabel("Accuracy")
 
 # ### Accuracy vs perplexity
 
-# In[14]:
+# In[57]:
 
 
 corpus_to_size = {
@@ -211,7 +237,7 @@ model_colors = dict(zip(model_order,
                         ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf']))
 
 
-# In[15]:
+# In[58]:
 
 
 f, ax = plt.subplots(figsize=(10, 10))
@@ -226,7 +252,7 @@ plt.ylabel("SyntaxGym score")
 plt.legend(bbox_to_anchor=(1.04,1), loc="upper left")
 
 
-# In[16]:
+# In[59]:
 
 
 g = sns.lmplot(data=joined_data, x="test_ppl", y="correct",
@@ -234,7 +260,7 @@ g = sns.lmplot(data=joined_data, x="test_ppl", y="correct",
 g.ax.set_ylim((0, 1))
 
 
-# In[17]:
+# In[60]:
 
 
 g = sns.FacetGrid(data=joined_data_circuits, col="circuit", height=5)
@@ -243,7 +269,7 @@ g.map(sns.scatterplot, "test_ppl", "correct", "model_name",
 g.add_legend()
 
 
-# In[18]:
+# In[61]:
 
 
 joined_data_circuits.groupby(["model_name", "corpus", "circuit"]).correct.mean()
@@ -251,19 +277,27 @@ joined_data_circuits.groupby(["model_name", "corpus", "circuit"]).correct.mean()
 
 # ### Item-level prediction correlations across models
 
-# In[19]:
+# In[77]:
 
 
 item_predictions = results_df.set_index(["suite", "item"]).sort_index().groupby(["model_name", "corpus", "seed"]).correct.apply(np.array)
-# model_correlations = []
-# for k1, k2 in itertools.combinations(list(item_predictions.index), 2):
-#     #model_correlations.append((k1, k2, stats.spearmanr(item_predictions.loc[k1], item_predictions.loc[k2])))
-# model_correlations
+model_correlations = []
+for k1, k2 in itertools.combinations(list(item_predictions.index), 2):
+    model_correlations.append(("_".join(map(str, k1)), *k1, "_".join(map(str, k2)), *k2, stats.spearmanr(item_predictions.loc[k1], item_predictions.loc[k2])[0]))
+
+corr_df = pd.DataFrame(model_correlations, columns=["key_1", "model_1", "corpus_1", "seed_1", "key_2", "model_2", "corpus_2", "seed_2", "corr"])
+
+
+# In[80]:
+
+
+plt.subplots(figsize=(10, 10))
+sns.heatmap(data=corr_df.pivot("key_1", "key_2", "corr"))
 
 
 # ### Variance in accuracy vs variance in perplexity
 
-# In[20]:
+# In[63]:
 
 
 catplot_ticks = ["correct", "test_ppl"]
@@ -278,7 +312,7 @@ g = sns.catplot(data=catplot_data,
 
 # ### Circuit–circuit correlations
 
-# In[21]:
+# In[64]:
 
 
 f, axs = plt.subplots(len(circuit_order), len(circuit_order), figsize=(20, 20))
@@ -301,7 +335,7 @@ plt.suptitle("Circuit--circuit correlations")
 
 # ### Stability to modification
 
-# In[22]:
+# In[65]:
 
 
 plt.subplots(figsize=(15, 10))
@@ -309,7 +343,7 @@ sns.barplot(data=results_df_mod, x="model_name", y="correct", hue="has_modifier"
 plt.title("Stability to modification")
 
 
-# In[23]:
+# In[66]:
 
 
 plt.subplots(figsize=(15, 10))
@@ -317,14 +351,14 @@ sns.barplot(data=results_df_mod, x="corpus", y="correct", hue="has_modifier")
 plt.title("Stability to modification")
 
 
-# In[24]:
+# In[67]:
 
 
 g = sns.FacetGrid(data=results_df_mod, col="model_name", height=7)
 g.map(sns.barplot, "corpus", "correct", "has_modifier")
 
 
-# In[25]:
+# In[68]:
 
 
 avg_mod_results = results_df_mod.groupby(["model_name", "test_suite_base", "has_modifier"]).correct.agg({"correct": "mean"}).sort_index()
