@@ -30,9 +30,10 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 # Map from test suite tag to high-level circuit.
 circuits = {
     "Licensing": ["npi", "reflexive"],
-    "Long-Distance Dependencies": ["fgd", "embed", "number", "comparison"],
-    "Garden-Path Effects": ["gardenpath", "npz", "mvrr"],
-    "Gross Syntactic State": ["subordination", "nn"],
+    "Long-Distance Dependencies": ["fgd"],
+    "Agreement": ["number"],
+    "Garden-Path Effects": ["npz", "mvrr"],
+    "Gross Syntactic State": ["subordination"],
     "Center Embedding": ["center"],
     "Transformations": ["cleft"],
 }
@@ -47,7 +48,7 @@ tag_to_circuit = {tag: circuit
 
 # Exclusions
 exclude_suite_re = re.compile(r"^fgd-embed[34]|^gardenpath")
-exclude_models = ["1gram", "ngram-no-rand"]
+exclude_models = ["1gram", "ngram-no-rand", "nn-nv"]
 
 
 # ### Load
@@ -379,11 +380,11 @@ g = sns.catplot(data=catplot_data,
 
 # ### Circuit–circuit correlations
 
-# In[31]:
+# In[37]:
 
 
 f, axs = plt.subplots(len(circuit_order), len(circuit_order), figsize=(20, 20))
-plt.subplots_adjust(hspace=0.5, wspace=0.5)
+plt.subplots_adjust(hspace=1, wspace=0.5)
 
 for c1, row in zip(circuit_order, axs):
     for c2, ax in zip(circuit_order, row):
