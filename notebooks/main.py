@@ -296,10 +296,17 @@ g.map(sns.scatterplot, "test_ppl", "correct", "model_name",
 g.add_legend()
 
 
-# In[23]:
+# In[39]:
 
 
 joined_data_circuits.groupby(["model_name", "corpus", "circuit"]).correct.mean()
+
+
+# In[44]:
+
+
+plt.subplots(figsize=(20, 10))
+sns.barplot(data=joined_data_circuits, x="circuit", y="correct", hue="model_name")
 
 
 # ### Item-level statistics
@@ -379,11 +386,11 @@ g = sns.catplot(data=catplot_data,
 
 # ### Circuit–circuit correlations
 
-# In[31]:
+# In[37]:
 
 
 f, axs = plt.subplots(len(circuit_order), len(circuit_order), figsize=(25, 25))
-plt.subplots_adjust(hspace=1, wspace=1)
+plt.subplots_adjust(hspace=0.6, wspace=0.6)
 
 for c1, row in zip(circuit_order, axs):
     for c2, ax in zip(circuit_order, row):
