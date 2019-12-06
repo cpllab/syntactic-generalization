@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[126]:
 
 
 import itertools
@@ -24,7 +24,7 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 
 # ### Metadata
 
-# In[2]:
+# In[127]:
 
 
 # Map from test suite tag to high-level circuit.
@@ -42,7 +42,7 @@ tag_to_circuit = {tag: circuit
                   for tag in tags}
 
 
-# In[3]:
+# In[128]:
 
 
 # Exclusions
@@ -50,16 +50,22 @@ exclude_suite_re = re.compile(r"^fgd-embed[34]|^gardenpath")
 exclude_models = ["1gram", "ngram-no-rand", "nn-nv"]
 
 
+# In[129]:
+
+
+ngram_models = ["ngram", "ngram-single"]
+
+
 # ### Load
 
-# In[4]:
+# In[130]:
 
 
 ppl_data_path = Path("../data/raw/perplexity.csv")
 test_suite_results_path = Path("../data/raw/test_suite_results")
 
 
-# In[5]:
+# In[131]:
 
 
 perplexity_df = pd.read_csv(ppl_data_path, index_col=["model", "corpus", "seed"])
@@ -92,15 +98,34 @@ if tags_missing_circuit:
     print("Tags missing circuit: ", ", ".join(tags_missing_circuit))
 
 
-# In[6]:
+# In[132]:
 
 
 results_df.head()
 
 
+# In[133]:
+
+
+# Average across seeds of each ngram model.
+# The only difference between "seeds" of these model types are random differences in tie-breaking decisions.
+# If we didn't collapse before averaging quantities across seeds (e.g. average score for a test suite),
+# we would likely vastly under-estimate the mean.
+
+for ngram_model in ngram_models:
+    # Create a synthetic results_df with one ngram model, where each item is correct if more than half of
+    # the ngram seeds vote.
+    ngram_results_df = (results_df[results_df.model_name == ngram_model].copy().groupby(["model_name", "corpus", "suite", "item", "tag", "circuit"]).agg({"correct": "mean"}) > 0.5).reset_index()
+    ngram_results_df["seed"] = 0
+    
+    # Drop existing model results.
+    results_df = pd.concat([results_df[~(results_df.model_name == ngram_model)],
+                            ngram_results_df], sort=True)
+
+
 # ### Checks
 
-# In[7]:
+# In[134]:
 
 
 # Each model--corpus--seed should have perplexity data.
@@ -113,7 +138,7 @@ if diff:
     #raise ValueError("Each model--corpus--seed must have perplexity data.")
 
 
-# In[8]:
+# In[135]:
 
 
 # Every model--corpus--seed should have results for all test suite items.
@@ -140,7 +165,7 @@ else:
     print("OK")
 
 
-# In[9]:
+# In[136]:
 
 
 # Second sanity check: same number of results per model--corpus--seed
@@ -156,7 +181,7 @@ if len(result_counts.unique()) > 1:
 # 
 # e.g. to maintain consistent hues across model graphs, etc.
 
-# In[10]:
+# In[137]:
 
 
 model_order = sorted(set(results_df.model_name))
@@ -166,35 +191,34 @@ circuit_order = sorted([c for c in results_df.circuit.dropna().unique()])
 
 # ### Data prep
 
-# In[11]:
+# In[138]:
 
 
 suites_df = results_df.groupby(["model_name", "corpus", "seed", "suite"]).correct.mean().reset_index()
 suites_df["tag"] = suites_df.suite.transform(lambda s: re.split(r"[-_0-9]", s)[0])
 suites_df["circuit"] = suites_df.tag.map(tag_to_circuit)
+suites_df["correct_delta"] = suites_df.correct - suites_df.groupby("suite").correct.transform("mean")
 
-# TODO compute delta w.r.t. by-suite mean
 
-
-# In[12]:
+# In[139]:
 
 
 # Join PPL and accuracy data.
-joined_data = suites_df.groupby(["model_name", "corpus", "seed"]).correct.agg("mean")
+joined_data = suites_df.groupby(["model_name", "corpus", "seed"])[["correct", "correct_delta"]].agg("mean")
 joined_data = pd.DataFrame(joined_data).join(perplexity_df).reset_index()
 joined_data.head()
 
 
-# In[13]:
+# In[140]:
 
 
 # Join PPL and accuracy data, splitting on circuit.
-joined_data_circuits = suites_df.groupby(["model_name", "corpus", "seed", "circuit"]).correct.agg("mean")
+joined_data_circuits = suites_df.groupby(["model_name", "corpus", "seed", "circuit"])[["correct", "correct_delta"]].agg("mean")
 joined_data_circuits = pd.DataFrame(joined_data_circuits).reset_index().set_index(["model_name", "corpus", "seed"]).join(perplexity_df).reset_index()
 joined_data_circuits.head()
 
 
-# In[14]:
+# In[141]:
 
 
 # Analyze stability to modification.
@@ -218,7 +242,7 @@ results_df_mod.head()
 
 # ### `ngram` sanity checks
 
-# In[15]:
+# In[142]:
 
 
 plt.subplots(figsize=(40, 10))
@@ -226,7 +250,7 @@ sns.barplot(data=suites_df[suites_df.model_name == "ngram"], x="suite", y="corre
 plt.title("ngram test suite results, averaged across corpus size")
 
 
-# In[16]:
+# In[143]:
 
 
 if "ngram-no-rand" in suites_df.model_name.unique():
@@ -235,7 +259,7 @@ if "ngram-no-rand" in suites_df.model_name.unique():
     plt.title("ngram-no-rand test suite results, averaged across corpus size")
 
 
-# In[17]:
+# In[144]:
 
 
 if "1gram" in suites_df.model_name.unique():
@@ -246,7 +270,7 @@ if "1gram" in suites_df.model_name.unique():
 
 # ### Accuracy across models
 
-# In[18]:
+# In[145]:
 
 
 plt.subplots(figsize=(15, 10))
@@ -256,7 +280,7 @@ plt.xlabel("Model")
 plt.ylabel("Accuracy")
 
 
-# In[19]:
+# In[146]:
 
 
 plt.subplots(figsize=(15, 10))
@@ -266,22 +290,48 @@ plt.xlabel("Model")
 plt.ylabel("Accuracy")
 
 
-# In[20]:
+# In[147]:
 
 
-# TODO Compare SG deltas w.r.t. test suite mean rather than absolute values.
+# Compare SG deltas w.r.t. test suite mean rather than absolute values.
 # This makes for a more easily interpretable visualization
 
-# plt.subplots(figsize=(15, 10))
-# sns.barplot(data=suites_df.reset_index(), x="model_name", y="correct_delta")
+plt.subplots(figsize=(15, 10))
+sns.barplot(data=suites_df.reset_index(), x="model_name", y="correct_delta")
 
 plt.xlabel("Model")
-plt.ylabel("Accuracy")
+plt.ylabel("Delta from per-suite mean accuracy")
+plt.title("Model averages: delta from mean accuracy")
+
+
+# In[148]:
+
+
+plt.subplots(figsize=(15, 10))
+sns.barplot(data=suites_df.reset_index(), x="corpus", y="correct_delta")
+
+plt.xlabel("Corpus")
+plt.ylabel("Delta from per-suite mean accuracy")
+plt.title("Corpus averages: delta from mean accuracy")
+
+
+# In[149]:
+
+
+plt.subplots(figsize=(20, 10))
+sns.barplot(data=joined_data_circuits, x="circuit", y="correct", hue="model_name")
+
+
+# In[150]:
+
+
+plt.subplots(figsize=(20, 10))
+sns.barplot(data=joined_data_circuits, x="circuit", y="correct_delta", hue="model_name")
 
 
 # ### Accuracy vs perplexity
 
-# In[47]:
+# In[151]:
 
 
 f, ax = plt.subplots(figsize=(10, 10))
@@ -289,7 +339,7 @@ sns.scatterplot(data=joined_data, x="test_ppl", y="correct",
                 hue="model_name", style="corpus", s=150,
                 hue_order=model_order)
 plt.xlabel("Test corpus perplexity")
-plt.ylabel("SyntaxGym score")
+plt.ylabel("SyntaxGym absolute scores vs. perplexity")
 plt.legend(bbox_to_anchor=(1.04,1), loc="upper left")
 
 # Add horizontal lines for models without ppl estimates.
@@ -304,23 +354,47 @@ for model_name, rows in no_ppl_data.groupby("model_name"):
 # TODO add chance line
 
 
-# In[22]:
+# In[152]:
 
 
-g = sns.lmplot(data=joined_data, x="test_ppl", y="correct",
+f, ax = plt.subplots(figsize=(10, 10))
+sns.scatterplot(data=joined_data, x="test_ppl", y="correct_delta",
+                hue="model_name", style="corpus", s=150,
+                hue_order=model_order)
+plt.xlabel("Test corpus perplexity")
+plt.ylabel("SyntaxGym delta score")
+plt.legend(bbox_to_anchor=(1.04,1), loc="upper left")
+plt.title("SyntaxGym delta scores vs. perplexity")
+
+# Add horizontal lines for models without ppl estimates.
+no_ppl_data = joined_data[joined_data.test_ppl.isna()]
+for model_name, rows in no_ppl_data.groupby("model_name"):
+    y = rows.correct_delta.mean()
+    # TODO match legend color
+    # TODO show error region?
+    ax.axhline(y, linestyle="dashed")
+    ax.text(200, y + 0.0025, model_name, alpha=0.7)
+    
+# TODO add chance line
+
+
+# In[153]:
+
+
+g = sns.lmplot(data=joined_data, x="test_ppl", y="correct_delta",
                hue="corpus", truncate=True)
-g.ax.set_ylim((0, 1))
+g.ax.set_ylim((joined_data.correct_delta.min() - 0.1, joined_data.correct_delta.max() + 0.1))
 
 
-# In[23]:
+# In[154]:
 
 
-g = sns.lmplot(data=joined_data, x="test_ppl", y="correct",
+g = sns.lmplot(data=joined_data, x="test_ppl", y="correct_delta",
                hue="model_name", truncate=True)
-g.ax.set_ylim((0, 1))
+g.ax.set_ylim((joined_data.correct_delta.min() - 0.1, joined_data.correct_delta.max() + 0.1))
 
 
-# In[24]:
+# In[155]:
 
 
 g = sns.FacetGrid(data=joined_data_circuits, col="circuit", height=5)
@@ -329,24 +403,11 @@ g.map(sns.scatterplot, "test_ppl", "correct", "model_name",
 g.add_legend()
 
 
-# In[25]:
-
-
-joined_data_circuits.groupby(["model_name", "corpus", "circuit"]).correct.mean()
-
-
-# In[26]:
-
-
-plt.subplots(figsize=(20, 10))
-sns.barplot(data=joined_data_circuits, x="circuit", y="correct", hue="model_name")
-
-
 # ### Item-level statistics
 
 # #### Item-level prediction correlations across models
 
-# In[27]:
+# In[170]:
 
 
 item_predictions = results_df.set_index(["suite", "item"]).sort_index().groupby(["model_name", "corpus", "seed"]).correct.apply(np.array)
@@ -364,21 +425,21 @@ corr_df = pd.DataFrame(model_correlations, columns=["key_1", "model_1", "corpus_
 agree_df = pd.DataFrame(model_agreement, columns=["key_1", "model_1", "corpus_1", "seed_1", "key_2", "model_2", "corpus_2", "seed_2", "agreement"])
 
 
-# In[28]:
+# In[171]:
 
 
 plt.subplots(figsize=(10, 10))
 sns.heatmap(data=corr_df.pivot("key_1", "key_2", "corr"))
 
 
-# In[29]:
+# In[172]:
 
 
 plt.subplots(figsize=(10, 10))
 sns.heatmap(data=agree_df.pivot("key_1", "key_2", "agreement"))
 
 
-# In[30]:
+# In[173]:
 
 
 plt.subplots(figsize=(10, 10))
@@ -386,7 +447,7 @@ sns.distplot(results_df.groupby(["suite", "item"]).correct.agg("mean"), bins=20)
 plt.title("Distribution of item-level accuracy means")
 
 
-# In[31]:
+# In[174]:
 
 
 plt.subplots(figsize=(10, 10))
@@ -394,7 +455,7 @@ sns.distplot(results_df.groupby(["suite", "item"]).correct.agg("std"), bins=20)
 plt.title("Distribution of item-level accuracy stdevs")
 
 
-# In[32]:
+# In[175]:
 
 
 plt.subplots(figsize=(10, 10))
@@ -404,7 +465,7 @@ plt.title("Distribution of suite-level accuracy means")
 
 # ### Variance in accuracy vs variance in perplexity
 
-# In[33]:
+# In[176]:
 
 
 catplot_ticks = ["correct", "test_ppl"]
@@ -419,14 +480,14 @@ g = sns.catplot(data=catplot_data,
 
 # ### Circuit–circuit correlations
 
-# In[52]:
+# In[177]:
 
 
 # Exclude some models from circuit correlation analysis.
 EXCLUDE_FROM_CIRCUIT_ANALYSIS = ["ngram", "1gram", "ngram-single"]
 
 
-# In[56]:
+# In[178]:
 
 
 f, axs = plt.subplots(len(circuit_order), len(circuit_order), figsize=(25, 25))
@@ -451,13 +512,19 @@ plt.suptitle("Circuit--circuit correlations")
 
 # ### Stability to modification
 
-# In[35]:
+# In[184]:
+
+
+# TODO work at suite level, not item level
+
+
+# In[179]:
 
 
 results_df_mod.suite.unique()
 
 
-# In[36]:
+# In[180]:
 
 
 plt.subplots(figsize=(15, 10))
@@ -465,7 +532,7 @@ sns.barplot(data=results_df_mod, x="model_name", y="correct", hue="has_modifier"
 plt.title("Stability to modification")
 
 
-# In[37]:
+# In[181]:
 
 
 plt.subplots(figsize=(15, 10))
@@ -473,14 +540,14 @@ sns.barplot(data=results_df_mod, x="corpus", y="correct", hue="has_modifier")
 plt.title("Stability to modification")
 
 
-# In[38]:
+# In[182]:
 
 
 g = sns.FacetGrid(data=results_df_mod, col="model_name", height=7)
 g.map(sns.barplot, "corpus", "correct", "has_modifier")
 
 
-# In[39]:
+# In[183]:
 
 
 avg_mod_results = results_df_mod.groupby(["model_name", "test_suite_base", "has_modifier"]).correct.agg({"correct": "mean"}).sort_index()
