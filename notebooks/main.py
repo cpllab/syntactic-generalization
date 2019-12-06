@@ -56,6 +56,55 @@ exclude_models = ["1gram", "ngram-no-rand", "nn-nv"]
 ngram_models = ["ngram", "ngram-single"]
 
 
+# In[193]:
+
+
+suite_baselines = """center_embed    50%
+center_embed_mod    50%
+cleft_modifier    50%
+cleft    50%
+fgd_heirarchy    25%
+fgd_object    25%
+fgd_pp    25%
+fgd_subject 25%
+fgd-embed3    25%
+fgd-embed4    25%
+mvrr_mod    12.5%
+mvrr     12.5%
+npi_orc_any    12.5%
+npi_orc_ever    12.5%
+npi_src_any    12.5%
+npi_src_ever    12.5%
+npz_ambig_mod    12.5%
+npz_ambig     12.5%
+npz_obj_mod    12.5%
+npz_obj     12.5%
+number_orc    25%
+number_prep    25%
+number_src    25%
+reflexive_orc_fem    25%
+reflexive_orc_masc    25%
+reflexive_prep_fem    25%
+reflexive_prep_masc    25%
+reflexive_src_fem    25%
+reflexive_src_masc    25%
+subordination_orc-orc    25%
+subordination_pp-pp    25%
+subordination_sr-src    25%
+subordination     25%"""
+
+from io import StringIO
+suite_baselines = pd.read_csv(StringIO(suite_baselines), delim_whitespace=True, header=None, names=["suite", "correct"])
+suite_baselines["correct"] = suite_baselines.correct.transform(lambda x: float(x[:-1]) / 100)
+suite_baselines.head()
+
+
+# In[194]:
+
+
+suite_baselines.correct.mean()
+
+
 # ### Load
 
 # In[130]:
