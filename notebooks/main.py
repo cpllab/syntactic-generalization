@@ -419,11 +419,20 @@ g = sns.catplot(data=catplot_data,
 
 # ### Circuit–circuit correlations
 
-# In[34]:
+# In[52]:
+
+
+# Exclude some models from circuit correlation analysis.
+EXCLUDE_FROM_CIRCUIT_ANALYSIS = ["ngram", "1gram", "ngram-single"]
+
+
+# In[56]:
 
 
 f, axs = plt.subplots(len(circuit_order), len(circuit_order), figsize=(25, 25))
 plt.subplots_adjust(hspace=0.6, wspace=0.6)
+
+source_df = suites_df[~suites_df.model_name.isin(EXCLUDE_FROM_CIRCUIT_ANALYSIS)]
 
 for c1, row in zip(circuit_order, axs):
     for c2, ax in zip(circuit_order, row):
@@ -431,8 +440,8 @@ for c1, row in zip(circuit_order, axs):
             ax.axis("off")
             continue
             
-        xs = results_df[results_df.circuit == c1].groupby(["model_name", "corpus", "seed"]).correct.agg({c1: "mean"})
-        ys = results_df[results_df.circuit == c2].groupby(["model_name", "corpus", "seed"]).correct.agg({c2: "mean"})
+        xs = source_df[source_df.circuit == c1].groupby(["model_name", "corpus", "seed"]).correct.agg({c1: "mean"})
+        ys = source_df[source_df.circuit == c2].groupby(["model_name", "corpus", "seed"]).correct.agg({c2: "mean"})
         df = pd.concat([xs, ys], axis=1)
         ax.set_title("%s /\n %s" % (c1, c2))
         sns.regplot(data=df, x=c1, y=c2, ax=ax)
