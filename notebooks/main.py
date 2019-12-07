@@ -55,7 +55,7 @@ exclude_models = ["1gram", "ngram", "ngram-no-rand"]
 
 
 ngram_models = ["1gram", "ngram", "ngram-single"]
-baseline_models = ngram_models + ["random"]
+baseline_models = ["random"]
 
 # Models for which we designed a controlled training regime
 controlled_models = ["ordered-neurons", "vanilla", "rnng"]
@@ -112,23 +112,17 @@ results_df.head()
 # In[8]:
 
 
-# Average across seeds of each baseline model, since we're only interested in baseline aggregate behavior.
-#
-# (For ngram, the only difference between "seeds" of these model types are random differences in tie-breaking decisions.)
-# (For random, different "seeds" correspond to different random samples.)
-#
-# If we didn't collapse before averaging quantities across seeds (e.g. average score for a test suite),
-# we would likely vastly under-estimate the mean.
-
-for baseline_model in baseline_models:
+# Average across seeds of each ngram model.
+# The only difference between "seeds" of these model types are random differences in tie-breaking decisions.
+for ngram_model in ngram_models:
     # Create a synthetic results_df with one ngram model, where each item is correct if more than half of
     # the ngram seeds vote.
-    baseline_results_df = (results_df[results_df.model_name == baseline_model].copy().groupby(["model_name", "corpus", "suite", "item", "tag", "circuit"]).agg({"correct": "mean"}) > 0.5).reset_index()
-    baseline_results_df["seed"] = 0
+    ngram_results_df = (results_df[results_df.model_name == ngram_model].copy().groupby(["model_name", "corpus", "suite", "item", "tag", "circuit"]).agg({"correct": "mean"}) > 0.5).reset_index()
+    ngram_results_df["seed"] = 0
     
     # Drop existing model results.
-    results_df = pd.concat([results_df[~(results_df.model_name == baseline_model)],
-                            baseline_results_df], sort=True)
+    results_df = pd.concat([results_df[~(results_df.model_name == ngram_model)],
+                            ngram_results_df], sort=True)
 
 
 # ### Checks
@@ -233,7 +227,7 @@ joined_data_circuits = pd.DataFrame(joined_data_circuits).reset_index().set_inde
 joined_data_circuits.head()
 
 
-# In[47]:
+# In[16]:
 
 
 # Analyze stability to modification.
@@ -406,12 +400,18 @@ g.add_legend()
 
 # ### Item-level statistics
 
-# #### Item-level prediction correlations across models
-
 # In[30]:
 
 
-item_predictions = results_df.set_index(["suite", "item"]).sort_index().groupby(["model_name", "corpus", "seed"]).correct.apply(np.array)
+EXCLUDE_FROM_ITEM_ANALYSIS = ["random"]
+
+
+# #### Item-level prediction correlations across models
+
+# In[31]:
+
+
+item_predictions = results_df[~results_df.model_name.isin(EXCLUDE_FROM_ITEM_ANALYSIS)]     .set_index(["suite", "item"]).sort_index().groupby(["model_name", "corpus", "seed"]).correct.apply(np.array)
 model_correlations, model_agreement = [], []
 for k1, k2 in itertools.combinations(list(item_predictions.index), 2):
     k1_key = " ".join(map(str, k1))
@@ -426,50 +426,42 @@ corr_df = pd.DataFrame(model_correlations, columns=["key_1", "model_1", "corpus_
 agree_df = pd.DataFrame(model_agreement, columns=["key_1", "model_1", "corpus_1", "seed_1", "key_2", "model_2", "corpus_2", "seed_2", "agreement"])
 
 
-# In[31]:
+# In[32]:
 
 
 plt.subplots(figsize=(10, 10))
 sns.heatmap(data=corr_df.pivot("key_1", "key_2", "corr"))
 
 
-# In[32]:
+# In[33]:
 
 
 plt.subplots(figsize=(10, 10))
 sns.heatmap(data=agree_df.pivot("key_1", "key_2", "agreement"))
 
 
-# In[33]:
-
-
-plt.subplots(figsize=(10, 10))
-sns.distplot(results_df.groupby(["suite", "item"]).correct.agg("mean"), bins=20)
-plt.title("Distribution of item-level accuracy means")
-
-
 # In[34]:
 
 
 plt.subplots(figsize=(10, 10))
-sns.distplot(results_df.groupby(["suite", "item"]).correct.agg("std"), bins=20)
-plt.title("Distribution of item-level accuracy stdevs")
+sns.distplot(results_df[~results_df.model_name.isin(EXCLUDE_FROM_ITEM_ANALYSIS)].groupby(["suite", "item"]).correct.agg("mean"), bins=20)
+plt.title("Distribution of item-level accuracy means")
 
 
 # In[35]:
 
 
 plt.subplots(figsize=(10, 10))
-sns.distplot(suites_df.correct, bins=20)
-plt.title("Distribution of suite-level accuracy means")
+sns.distplot(results_df[~results_df.model_name.isin(EXCLUDE_FROM_ITEM_ANALYSIS)].groupby(["suite", "item"]).correct.agg("std"), bins=20)
+plt.title("Distribution of item-level accuracy stdevs")
 
 
-# In[65]:
+# In[36]:
 
 
 # Get items for which all models fail / succeed
-all_fail = results_df[results_df.model_name.isin(controlled_models)].groupby(["suite", "item"]).correct.max() == False
-all_succeed = results_df[results_df.model_name.isin(controlled_models)].groupby(["suite", "item"]).correct.min() == True
+all_fail = results_df[~results_df.model_name.isin(EXCLUDE_FROM_ITEM_ANALYSIS) & results_df.model_name.isin(controlled_models)].groupby(["suite", "item"]).correct.max() == False
+all_succeed = results_df[~results_df.model_name.isin(EXCLUDE_FROM_ITEM_ANALYSIS) & results_df.model_name.isin(controlled_models)].groupby(["suite", "item"]).correct.min() == True
 
 # Get items for which each condition is true
 all_fail = all_fail[all_fail]
@@ -479,31 +471,24 @@ print("All fail\n", all_fail)
 print("All succeed\n", all_succeed)
 
 
-# ### Variance in accuracy vs variance in perplexity
-
-# In[36]:
+# In[37]:
 
 
-catplot_ticks = ["correct", "test_ppl"]
-catplot_data = joined_data.copy()
-catplot_data["correct"] *= 100
-catplot_data = catplot_data.melt(id_vars=set(catplot_data.columns) - set(catplot_ticks))
-# catplot_data["corpus_size"] = catplot_data.corpus.map(corpus_to_size)
-
-g = sns.catplot(data=catplot_data,
-                x="variable", y="value", hue="model_name")
+plt.subplots(figsize=(10, 10))
+sns.distplot(suites_df[~suites_df.model_name.isin(EXCLUDE_FROM_ITEM_ANALYSIS)].correct, bins=20)
+plt.title("Distribution of suite-level accuracy means")
 
 
 # ## Circuit–circuit correlations
 
-# In[37]:
+# In[39]:
 
 
 # Exclude some models from circuit correlation analysis.
 EXCLUDE_FROM_CIRCUIT_ANALYSIS = ["random", "ngram", "1gram", "ngram-single"]
 
 
-# In[38]:
+# In[40]:
 
 
 f, axs = plt.subplots(len(circuit_order), len(circuit_order), figsize=(25, 25))
@@ -526,7 +511,7 @@ for c1, row in zip(circuit_order, axs):
 plt.suptitle("Circuit--circuit correlations")
 
 
-# In[39]:
+# In[41]:
 
 
 # Estimate lower-bound Spearman r for each circuit-circuit relation
@@ -551,7 +536,7 @@ for c1, c2 in tqdm(list(itertools.combinations(circuit_order, 2))):
     corr_data.loc[c1, c2] = sns.utils.ci(sns.algorithms.bootstrap(df, units=df.model_key, n_boot=n_boot, func=estimate_r))
 
 
-# In[40]:
+# In[42]:
 
 
 corr_data
@@ -559,13 +544,13 @@ corr_data
 
 # ### Stability to modification
 
-# In[48]:
+# In[43]:
 
 
 suites_df_mod.suite.unique()
 
 
-# In[49]:
+# In[44]:
 
 
 plt.subplots(figsize=(15, 10))
@@ -573,7 +558,7 @@ sns.barplot(data=suites_df_mod, x="model_name", y="correct", hue="has_modifier")
 plt.title("Stability to modification")
 
 
-# In[50]:
+# In[45]:
 
 
 plt.subplots(figsize=(15, 10))
@@ -581,14 +566,14 @@ sns.barplot(data=suites_df_mod, x="corpus", y="correct", hue="has_modifier")
 plt.title("Stability to modification")
 
 
-# In[51]:
+# In[46]:
 
 
 g = sns.FacetGrid(data=suites_df_mod, col="model_name", height=7)
 g.map(sns.barplot, "corpus", "correct", "has_modifier")
 
 
-# In[52]:
+# In[47]:
 
 
 avg_mod_results = suites_df_mod.groupby(["model_name", "test_suite_base", "has_modifier"]).correct.agg({"correct": "mean"}).sort_index()
