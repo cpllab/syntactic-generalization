@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[104]:
 
 
 import itertools
@@ -17,6 +17,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 from scipy import stats
+from tqdm.notebook import tqdm
 get_ipython().run_line_magic('matplotlib', 'inline')
 
 
@@ -539,7 +540,7 @@ g = sns.catplot(data=catplot_data,
                 x="variable", y="value", hue="model_name")
 
 
-# ### Circuit–circuit correlations
+# ## Circuit–circuit correlations
 
 # In[41]:
 
@@ -548,7 +549,7 @@ g = sns.catplot(data=catplot_data,
 EXCLUDE_FROM_CIRCUIT_ANALYSIS = ["ngram", "1gram", "ngram-single"]
 
 
-# In[42]:
+# In[73]:
 
 
 f, axs = plt.subplots(len(circuit_order), len(circuit_order), figsize=(25, 25))
@@ -571,10 +572,35 @@ for c1, row in zip(circuit_order, axs):
 plt.suptitle("Circuit--circuit correlations")
 
 
-# In[43]:
+# In[107]:
 
 
-# TODO heatmap bootstrapped regularization coefficients
+# Estimate lower-bound Spearman r for each circuit-circuit relation
+# by running a structured bootstrap over model--corpus--seeds: randomly
+# resample model--corpus--seed combinations and recompute Spearman r's.
+def estimate_r(xs):
+    # Calculate Spearman-r on bootstrap sample comparing two circuits (shape n * 2)
+    corr, pval = stats.spearmanr(xs[:, 0], xs[:, 1])
+    return corr
+
+corr_data = pd.DataFrame(index=circuit_order, columns=circuit_order)
+n_boot = 500
+for c1, c2 in tqdm(list(itertools.combinations(circuit_order, 2))):
+    xs = source_df[source_df.circuit == c1].groupby(["model_name", "corpus", "seed"]).correct.agg({c1: "mean"})
+    ys = source_df[source_df.circuit == c2].groupby(["model_name", "corpus", "seed"]).correct.agg({c2: "mean"})
+
+    df = pd.concat([xs, ys], axis=1)
+    # Concatenate model--corpus--seed labels to make structured bootstrapping easier.
+    df["model_key"] = [" ".join(map(str, key)) for key in df.index.tolist()]
+    df = df.reset_index(drop=True)
+
+    corr_data.loc[c1, c2] = sns.utils.ci(sns.algorithms.bootstrap(df, units=df.model_key, n_boot=n_boot, func=estimate_r))
+
+
+# In[108]:
+
+
+corr_data
 
 
 # ### Stability to modification
@@ -625,6 +651,6 @@ sns.boxplot(data=avg_mod_diffs.reset_index(), x="model_name", y="correct")
 plt.title("Change in accuracy due to modification")
 
 
-# ### Quantitative tests
+# ## Quantitative tests
 # 
 # `SG ~ ppl:corpus + model_name + (1 | test_suite)`
