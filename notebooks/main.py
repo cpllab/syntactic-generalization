@@ -464,6 +464,21 @@ sns.distplot(suites_df.correct, bins=20)
 plt.title("Distribution of suite-level accuracy means")
 
 
+# In[65]:
+
+
+# Get items for which all models fail / succeed
+all_fail = results_df[results_df.model_name.isin(controlled_models)].groupby(["suite", "item"]).correct.max() == False
+all_succeed = results_df[results_df.model_name.isin(controlled_models)].groupby(["suite", "item"]).correct.min() == True
+
+# Get items for which each condition is true
+all_fail = all_fail[all_fail]
+all_succeed = all_succeed[all_succeed]
+
+print("All fail\n", all_fail)
+print("All succeed\n", all_succeed)
+
+
 # ### Variance in accuracy vs variance in perplexity
 
 # In[36]:
