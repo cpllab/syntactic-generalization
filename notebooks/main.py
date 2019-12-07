@@ -233,7 +233,7 @@ joined_data_circuits = pd.DataFrame(joined_data_circuits).reset_index().set_inde
 joined_data_circuits.head()
 
 
-# In[16]:
+# In[47]:
 
 
 # Analyze stability to modification.
@@ -242,17 +242,17 @@ def has_modifier(ts):
         return True
     else:
         return None
-results_df["has_modifier"] = results_df.suite.transform(has_modifier)
+suites_df["has_modifier"] = suites_df.suite.transform(has_modifier)
 
 # Mark "non-modifier" test suites
-modifier_ts = results_df[results_df.has_modifier == True].suite.unique()
+modifier_ts = suites_df[suites_df.has_modifier == True].suite.unique()
 no_modifier_ts = [re.sub(r"_mod(ifier)?$", "", ts) for ts in modifier_ts]
-results_df.loc[results_df.suite.isin(no_modifier_ts), "has_modifier"] = False
+suites_df.loc[suites_df.suite.isin(no_modifier_ts), "has_modifier"] = False
 # Store subset of test suites which have definite modifier/no-modifier marking
-results_df_mod = results_df[~(results_df.has_modifier.isna())].copy()
+suites_df_mod = suites_df[~(suites_df.has_modifier.isna())].copy()
 # Get base test suite (without modifier/no-modifier marking)
-results_df_mod["test_suite_base"] = results_df_mod.suite.transform(lambda ts: ts.strip("_no-modifier").strip("_modifier"))
-results_df_mod.head()
+suites_df_mod["test_suite_base"] = suites_df_mod.suite.transform(lambda ts: ts.strip("_no-modifier").strip("_modifier"))
+suites_df_mod.head()
 
 
 # ### Baseline sanity checks
@@ -544,45 +544,39 @@ corr_data
 
 # ### Stability to modification
 
-# In[41]:
+# In[48]:
 
 
-# TODO work at suite level, not item level
+suites_df_mod.suite.unique()
 
 
-# In[42]:
-
-
-results_df_mod.suite.unique()
-
-
-# In[43]:
+# In[49]:
 
 
 plt.subplots(figsize=(15, 10))
-sns.barplot(data=results_df_mod, x="model_name", y="correct", hue="has_modifier")
+sns.barplot(data=suites_df_mod, x="model_name", y="correct", hue="has_modifier")
 plt.title("Stability to modification")
 
 
-# In[44]:
+# In[50]:
 
 
 plt.subplots(figsize=(15, 10))
-sns.barplot(data=results_df_mod, x="corpus", y="correct", hue="has_modifier")
+sns.barplot(data=suites_df_mod, x="corpus", y="correct", hue="has_modifier")
 plt.title("Stability to modification")
 
 
-# In[45]:
+# In[51]:
 
 
-g = sns.FacetGrid(data=results_df_mod, col="model_name", height=7)
+g = sns.FacetGrid(data=suites_df_mod, col="model_name", height=7)
 g.map(sns.barplot, "corpus", "correct", "has_modifier")
 
 
-# In[46]:
+# In[52]:
 
 
-avg_mod_results = results_df_mod.groupby(["model_name", "test_suite_base", "has_modifier"]).correct.agg({"correct": "mean"}).sort_index()
+avg_mod_results = suites_df_mod.groupby(["model_name", "test_suite_base", "has_modifier"]).correct.agg({"correct": "mean"}).sort_index()
 avg_mod_diffs = avg_mod_results.xs(True, level="has_modifier") - avg_mod_results.xs(False, level="has_modifier")
 
 plt.subplots(figsize=(15, 10))
