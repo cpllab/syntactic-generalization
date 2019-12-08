@@ -400,16 +400,23 @@ if RENDER_FINAL:
     render_final(figure_path / "controlled_model.png")
 
 
-# In[27]:
+# In[47]:
 
 
-plt.subplots(figsize=(20, 15))
+f, ax = plt.subplots(figsize=(20, 15))
 # Estimate error intervals with a structured bootstrap: resampling units = model
 sns.barplot(data=controlled_suites_df.reset_index(), x="pretty_corpus", y="correct_delta",
-            units="pretty_model_name", order=corpus_order)
+            units="pretty_model_name", order=corpus_order, ax=ax)
+sns.swarmplot(data=controlled_suites_df.reset_index(), x="pretty_corpus", y="correct_delta",
+              hue="pretty_model_name", order=corpus_order, hue_order=controlled_model_order, alpha=0.5, ax=ax)
+
+handles, labels = ax.get_legend_handles_labels()
+for h in handles:
+    h.set_sizes([300.0])
 
 plt.xlabel("Corpus")
 plt.ylabel(SG_DELTA_LABEL)
+plt.legend(handles, labels, bbox_to_anchor=(1.04,1), loc="upper left", title="Model")
 
 if RENDER_FINAL:
     render_final(figure_path / "controlled_corpus.png")
@@ -587,5 +594,4 @@ for c1, row in zip(circuit_order, axs):
         ax.set_title("%s /\n %s" % (c1, c2))
         sns.regplot(data=df, x=c1, y=c2, ax=ax)
         
-plt.suptitle("Circuit--circuit correlations")
-
+plt.suptitle("Circuit--ci
