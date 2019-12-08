@@ -288,7 +288,7 @@ if len(suite_result_counts.unique()) > 1:
 
 # ## Prepare for data rendering
 
-# In[72]:
+# In[19]:
 
 
 RENDER_FINAL = True
@@ -302,7 +302,7 @@ RENDER_CONTEXT = {
 sns.set(**RENDER_CONTEXT)
 
 
-# In[60]:
+# In[20]:
 
 
 BASELINE_LINESTYLE = {
@@ -311,7 +311,7 @@ BASELINE_LINESTYLE = {
 }
 
 
-# In[63]:
+# In[21]:
 
 
 def render_final(path):
@@ -320,7 +320,16 @@ def render_final(path):
     plt.savefig(path)
 
 
-# In[20]:
+# In[22]:
+
+
+# Standardize axis labels
+SG_ABSOLUTE_LABEL = "SyntaxGym score"
+SG_DELTA_LABEL = "SyntaxGym delta score"
+PERPLEXITY_LABEL = "Test perplexity"
+
+
+# In[23]:
 
 
 # Establish consistent orderings of model names, corpus names, circuit names
@@ -335,7 +344,7 @@ circuit_order = sorted([c for c in results_df.circuit.dropna().unique()])
 
 # ### Basic barplots
 
-# In[77]:
+# In[24]:
 
 
 f, ax = plt.subplots(figsize=(20, 10))
@@ -353,7 +362,7 @@ ax.axhline(suites_df[suites_df.model_name == "random"].correct.mean(), **BASELIN
 ax.set_xticklabels(ax.get_xticklabels(), rotation=20, horizontalalignment="right")
 
 plt.xlabel("Model")
-plt.ylabel("Average accuracy")
+plt.ylabel(SG_ABSOLUTE_LABEL)
 
 if RENDER_FINAL:
     render_final(figure_path / "overall.png")
@@ -361,7 +370,7 @@ if RENDER_FINAL:
 
 # ### Controlled evaluation of model type + dataset size
 
-# In[24]:
+# In[25]:
 
 
 controlled_suites_df = suites_df[suites_df.model_name.isin(controlled_models)]
@@ -369,7 +378,7 @@ controlled_suites_df_mod = suites_df_mod[suites_df_mod.model_name.isin(controlle
 controlled_joined_data_circuits = joined_data_circuits[joined_data_circuits.model_name.isin(controlled_models)]
 
 
-# In[79]:
+# In[26]:
 
 
 # Compare SG deltas w.r.t. test suite mean rather than absolute values.
@@ -385,11 +394,13 @@ sns.swarmplot(data=controlled_suites_df.reset_index(),
               order=controlled_model_order, alpha=0.7, ax=ax)
 
 plt.xlabel("Model")
-plt.ylabel("Delta from per-suite mean accuracy")
-plt.title("Model averages: delta from mean accuracy")
+plt.ylabel(SG_DELTA_LABEL)
+
+if RENDER_FINAL:
+    render_final(figure_path / "controlled_model.png")
 
 
-# In[80]:
+# In[27]:
 
 
 plt.subplots(figsize=(20, 15))
@@ -398,11 +409,13 @@ sns.barplot(data=controlled_suites_df.reset_index(), x="pretty_corpus", y="corre
             units="pretty_model_name", order=corpus_order)
 
 plt.xlabel("Corpus")
-plt.ylabel("Delta from per-suite mean accuracy")
-plt.title("Corpus averages: delta from mean accuracy")
+plt.ylabel(SG_DELTA_LABEL)
+
+if RENDER_FINAL:
+    render_final(figure_path / "controlled_corpus.png")
 
 
-# In[85]:
+# In[28]:
 
 
 f, ax = plt.subplots(figsize=(20, 15))
@@ -413,12 +426,14 @@ ax.set_xticklabels(ax.get_xticklabels(), rotation=20, horizontalalignment="right
 
 # TODO swarmplot split across corpus
 plt.xlabel("Circuit")
-plt.ylabel("Delta from per-suite mean accuracy")
-plt.title("Model averages by circuit: delta from mean accuracy")
+plt.ylabel(SG_DELTA_LABEL)
 plt.legend(bbox_to_anchor=(1.04,1), loc="upper left", title="Model")
 
+if RENDER_FINAL:
+    render_final(figure_path / "controlled_model_circuit.png")
 
-# In[89]:
+
+# In[29]:
 
 
 f, ax = plt.subplots(figsize=(20, 15))
@@ -429,63 +444,73 @@ ax.set_xticklabels(ax.get_xticklabels(), rotation=20, horizontalalignment="right
 
 # TODO swarmplot split across corpus
 plt.xlabel("Circuit")
-plt.ylabel("Delta from per-suite mean accuracy")
-plt.title("Corpus averages by circuit: delta from mean accuracy")
+plt.ylabel(SG_DELTA_LABEL)
 plt.legend(bbox_to_anchor=(1.04,1), loc="upper left", title="Corpus")
+
+if RENDER_FINAL:
+    render_final(figure_path / "controlled_corpus_circuit.png")
 
 
 # #### Stability to modification
 
-# In[29]:
+# In[30]:
 
 
 controlled_suites_df_mod.suite.unique()
 
 
-# In[93]:
+# In[31]:
 
 
-plt.subplots(figsize=(15, 10))
+plt.subplots(figsize=(20, 10))
 sns.barplot(data=controlled_suites_df_mod, x="pretty_model_name", y="correct",
             hue="has_modifier", order=controlled_model_order)
 
 # TODO swarmplot split across corpus
 plt.xlabel("Model")
-plt.ylabel("Accuracy")
-plt.title("Stability to modification by model")
+plt.ylabel(SG_ABSOLUTE_LABEL)
 plt.legend(bbox_to_anchor=(1.04,1), loc="upper left", title="Has modifier")
 
+if RENDER_FINAL:
+    render_final(figure_path / "stability_model.png")
 
-# In[96]:
+
+# In[32]:
 
 
-plt.subplots(figsize=(15, 10))
+plt.subplots(figsize=(20, 10))
 sns.barplot(data=controlled_suites_df_mod, x="pretty_corpus", y="correct",
             hue="has_modifier", order=corpus_order)
 
 # TODO swarmplot split across corpus
 plt.xlabel("Corpus")
-plt.ylabel("Accuracy")
-plt.title("Stability to modification by corpus")
+plt.ylabel(SG_ABSOLUTE_LABEL)
 plt.legend(bbox_to_anchor=(1.04,1), loc="upper left", title="Has modifier")
+
+if RENDER_FINAL:
+    render_final(figure_path / "stability_corpus.png")
 
 
 # ### Accuracy vs perplexity
 
-# In[137]:
+# In[38]:
 
 
 f, ax = plt.subplots(figsize=(20, 20))
 sns.scatterplot(data=joined_data, x="test_ppl", y="correct",
                 hue="pretty_model_name", style="pretty_corpus", s=550,
                 hue_order=model_order, ax=ax)
-plt.xlabel("Test corpus perplexity")
-plt.ylabel("SyntaxGym absolute scores vs. perplexity")
 
 legend_title_map = {"pretty_model_name": "Model",
                     "pretty_corpus": "Corpus"}
 handles, labels = ax.get_legend_handles_labels()
+# Re-map some labels.
 labels = [legend_title_map.get(l, l) for l in labels]
+# Drop some legend entries.
+drop_labels = ["N/A"]
+drop_idxs = [labels.index(l) for l in drop_labels]
+handles = [h for i, h in enumerate(handles) if i not in drop_idxs]
+labels = [l for i, l in enumerate(labels) if i not in drop_idxs]
 for h in handles:
     h.set_sizes([300.0])
 plt.legend(handles, labels, bbox_to_anchor=(1.04,1), loc="upper left")
@@ -502,9 +527,15 @@ for model_name, rows in no_ppl_data.groupby("pretty_model_name"):
     color = tuple(legend_dict[model_name].get_facecolor()[0])
     ax.axhline(y, c=color, linestyle="dashed")
     ax.text(110, y + 0.0025, model_name, alpha=0.7, fontdict={"size": 22})
+    
+plt.xlabel(PERPLEXITY_LABEL)
+plt.ylabel(SG_ABSOLUTE_LABEL)
+
+if RENDER_FINAL:
+    render_final(figure_path / "perplexity.png")
 
 
-# In[141]:
+# In[34]:
 
 
 f, ax = plt.subplots(figsize=(20, 15))
@@ -520,20 +551,26 @@ for h in handles:
 plt.legend(handles, labels, bbox_to_anchor=(1.04,1), loc="upper left", title="Corpus")
 #g.ax.set_ylim((joined_data.correct_delta.min() - 0.1, joined_data.correct_delta.max() + 0.1))
 
+plt.xlabel(PERPLEXITY_LABEL)
+plt.ylabel(SG_DELTA_LABEL)
+
+if RENDER_FINAL:
+    render_final(figure_path / "perplexity_corpus.png")
+
 
 # ## Circuit–circuit correlations
 
-# In[48]:
+# In[35]:
 
 
 # Exclude some models from circuit correlation analysis.
 EXCLUDE_FROM_CIRCUIT_ANALYSIS = ["random", "ngram", "1gram", "ngram-single"]
 
 
-# In[49]:
+# In[40]:
 
 
-f, axs = plt.subplots(len(circuit_order), len(circuit_order), figsize=(25, 25))
+f, axs = plt.subplots(len(circuit_order), len(circuit_order), figsize=(75, 75))
 plt.subplots_adjust(hspace=0.6, wspace=0.6)
 
 source_df = suites_df[~suites_df.model_name.isin(EXCLUDE_FROM_CIRCUIT_ANALYSIS)]
@@ -551,59 +588,4 @@ for c1, row in zip(circuit_order, axs):
         sns.regplot(data=df, x=c1, y=c2, ax=ax)
         
 plt.suptitle("Circuit--circuit correlations")
-
-
-# In[50]:
-
-
-# Estimate lower-bound Spearman r for each circuit-circuit relation
-# by running a structured bootstrap over model--corpus--seeds: randomly
-# resample model--corpus--seed combinations and recompute Spearman r's.
-def estimate_r(xs):
-    # Calculate Spearman-r on bootstrap sample comparing two circuits (shape n * 2)
-    corr, pval = stats.spearmanr(xs[:, 0], xs[:, 1])
-    return corr
-
-corr_data = pd.DataFrame(index=circuit_order, columns=circuit_order)
-n_boot = 500
-for c1, c2 in tqdm(list(itertools.combinations(circuit_order, 2))):
-    xs = source_df[source_df.circuit == c1].groupby(["model_name", "corpus", "seed"]).correct.agg({c1: "mean"})
-    ys = source_df[source_df.circuit == c2].groupby(["model_name", "corpus", "seed"]).correct.agg({c2: "mean"})
-
-    df = pd.concat([xs, ys], axis=1)
-    # Concatenate model--corpus--seed labels to make structured bootstrapping easier.
-    df["model_key"] = [" ".join(map(str, key)) for key in df.index.tolist()]
-    df = df.reset_index(drop=True)
-
-    corr_data.loc[c1, c2] = sns.utils.ci(sns.algorithms.bootstrap(df, units=df.model_key, n_boot=n_boot, func=estimate_r))
-
-
-# In[51]:
-
-
-corr_data
-
-
-# ## Quantitative tests
-# 
-# `SG ~ ppl:corpus + model_name + (1 | test_suite)`
-
-# In[52]:
-
-
-suites_df.to_csv("suites.csv")
-
-
-# In[53]:
-
-
-def get_ppl(r):
-    try:
-        return perplexity_df.loc[(r.model_name, r.corpus, r.seed)].test_ppl
-    except:
-        return None
-
-reg_df = suites_df.copy()
-reg_df["test_ppl"] = reg_df.apply(get_ppl, axis=1)
-reg_df.to_csv("reg_df.csv")
 
