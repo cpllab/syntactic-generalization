@@ -301,36 +301,6 @@ plt.xlabel("Model")
 plt.ylabel("Accuracy")
 
 
-# ### Controlled evaluation of model type + dataset size
-
-# In[203]:
-
-
-# Compare SG deltas w.r.t. test suite mean rather than absolute values.
-# This makes for a more easily interpretable visualization
-
-f, ax = plt.subplots(figsize=(15, 10))
-ax.axhline(0, c="gray", alpha=0.5, linestyle="--")
-sns.barplot(data=suites_df.reset_index(), x="model_name", y="correct_delta", ax=ax)
-#sns.swarmplot(data=suites_df.reset_index(), x="model_name", y="correct_delta")
-
-plt.xlabel("Model")
-plt.ylabel("Delta from per-suite mean accuracy")
-plt.title("Model averages: delta from mean accuracy")
-
-
-# In[204]:
-
-
-plt.subplots(figsize=(15, 10))
-# Estimate error intervals with a structured bootstrap: resampling units = model
-sns.barplot(data=suites_df.reset_index(), x="corpus", y="correct_delta", units="model_name")
-
-plt.xlabel("Corpus")
-plt.ylabel("Delta from per-suite mean accuracy")
-plt.title("Corpus averages: delta from mean accuracy")
-
-
 # In[166]:
 
 
@@ -338,57 +308,96 @@ plt.subplots(figsize=(20, 10))
 sns.barplot(data=joined_data_circuits, x="circuit", y="correct", hue="model_name")
 
 
-# In[167]:
+# ### Controlled evaluation of model type + dataset size
+
+# In[219]:
+
+
+controlled_suites_df = suites_df[suites_df.model_name.isin(controlled_models)]
+controlled_suites_df_mod = suites_df_mod[suites_df_mod.model_name.isin(controlled_models)]
+controlled_joined_data_circuits = joined_data_circuits[joined_data_circuits.model_name.isin(controlled_models)]
+
+
+# In[210]:
+
+
+# Compare SG deltas w.r.t. test suite mean rather than absolute values.
+# This makes for a more easily interpretable visualization
+
+f, ax = plt.subplots(figsize=(15, 10))
+ax.axhline(0, c="gray", alpha=0.5, linestyle="--")
+sns.barplot(data=controlled_suites_df.reset_index(), x="model_name", y="correct_delta", ax=ax)
+sns.swarmplot(data=controlled_suites_df.reset_index(), x="model_name", y="correct_delta", alpha=0.7, ax=ax)
+
+plt.xlabel("Model")
+plt.ylabel("Delta from per-suite mean accuracy")
+plt.title("Model averages: delta from mean accuracy")
+
+
+# In[212]:
+
+
+plt.subplots(figsize=(15, 10))
+# Estimate error intervals with a structured bootstrap: resampling units = model
+sns.barplot(data=controlled_suites_df.reset_index(), x="corpus", y="correct_delta",
+            units="model_name", order=corpus_order)
+
+plt.xlabel("Corpus")
+plt.ylabel("Delta from per-suite mean accuracy")
+plt.title("Corpus averages: delta from mean accuracy")
+
+
+# In[216]:
 
 
 plt.subplots(figsize=(20, 10))
-sns.barplot(data=joined_data_circuits, x="circuit", y="correct_delta", hue="model_name")
+sns.barplot(data=controlled_joined_data_circuits, x="circuit", y="correct_delta", hue="model_name")
 
 # TODO swarmplot split across corpus
 
 
-# In[205]:
+# In[217]:
 
 
 plt.subplots(figsize=(20, 10))
-sns.barplot(data=joined_data_circuits, x="circuit", y="correct_delta", hue="corpus", units="model_name")
+sns.barplot(data=controlled_joined_data_circuits, x="circuit", y="correct_delta", hue="corpus", units="model_name")
 
 
 # #### Stability to modification
 
-# In[169]:
+# In[220]:
 
 
-suites_df_mod.suite.unique()
+controlled_suites_df_mod.suite.unique()
 
 
-# In[170]:
-
-
-plt.subplots(figsize=(15, 10))
-sns.barplot(data=suites_df_mod, x="model_name", y="correct", hue="has_modifier")
-plt.title("Stability to modification")
-
-
-# In[207]:
+# In[221]:
 
 
 plt.subplots(figsize=(15, 10))
-sns.barplot(data=suites_df_mod, x="corpus", y="correct", hue="has_modifier", units="model_name")
+sns.barplot(data=controlled_suites_df_mod, x="model_name", y="correct", hue="has_modifier")
 plt.title("Stability to modification")
 
 
-# In[172]:
+# In[222]:
 
 
-g = sns.FacetGrid(data=suites_df_mod, col="model_name", height=7)
-g.map(sns.barplot, "corpus", "correct", "has_modifier")
+plt.subplots(figsize=(15, 10))
+sns.barplot(data=controlled_suites_df_mod, x="corpus", y="correct", hue="has_modifier", units="model_name")
+plt.title("Stability to modification")
 
 
-# In[173]:
+# In[224]:
 
 
-avg_mod_results = suites_df_mod.groupby(["model_name", "test_suite_base", "has_modifier"]).correct.agg({"correct": "mean"}).sort_index()
+g = sns.FacetGrid(data=controlled_suites_df_mod, col="model_name", height=7)
+g.map(sns.barplot, "corpus", "correct", "has_modifier", order=corpus_order)
+
+
+# In[225]:
+
+
+avg_mod_results = controlled_suites_df_mod.groupby(["model_name", "test_suite_base", "has_modifier"]).correct.agg({"correct": "mean"}).sort_index()
 avg_mod_diffs = avg_mod_results.xs(True, level="has_modifier") - avg_mod_results.xs(False, level="has_modifier")
 
 plt.subplots(figsize=(15, 10))
