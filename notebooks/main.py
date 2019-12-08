@@ -285,14 +285,18 @@ plt.xlabel("Model")
 plt.ylabel("Accuracy")
 
 
-# In[20]:
+# In[58]:
 
 
 # Compare SG deltas w.r.t. test suite mean rather than absolute values.
 # This makes for a more easily interpretable visualization
 
+# TODO include ngram
+# TODO collapse within seed first
+
 plt.subplots(figsize=(15, 10))
 sns.barplot(data=suites_df.reset_index(), x="model_name", y="correct_delta")
+sns.swarmplot(data=suites_df.reset_index(), x="model_name", y="correct_delta")
 
 plt.xlabel("Model")
 plt.ylabel("Delta from per-suite mean accuracy")
@@ -317,11 +321,20 @@ plt.subplots(figsize=(20, 10))
 sns.barplot(data=joined_data_circuits, x="circuit", y="correct", hue="model_name")
 
 
-# In[23]:
+# In[60]:
 
 
 plt.subplots(figsize=(20, 10))
 sns.barplot(data=joined_data_circuits, x="circuit", y="correct_delta", hue="model_name")
+
+# TODO swarmplot split across corpus
+
+
+# In[57]:
+
+
+plt.subplots(figsize=(20, 10))
+sns.barplot(data=joined_data_circuits, x="circuit", y="correct_delta", hue="corpus")
 
 
 # ### Accuracy vs perplexity
@@ -345,8 +358,6 @@ for model_name, rows in no_ppl_data.groupby("model_name"):
     # TODO show error region?
     ax.axhline(y, linestyle="dashed")
     ax.text(200, y + 0.0025, model_name, alpha=0.7)
-    
-# TODO add chance line
 
 
 # In[25]:
@@ -360,8 +371,6 @@ plt.xlabel("Test corpus perplexity")
 plt.ylabel("SyntaxGym delta score")
 plt.legend(bbox_to_anchor=(1.04,1), loc="upper left")
 plt.title("SyntaxGym delta scores vs. perplexity")
-    
-# TODO add chance line
 
 
 # In[26]:
@@ -587,3 +596,23 @@ plt.title("Change in accuracy due to modification")
 # ## Quantitative tests
 # 
 # `SG ~ ppl:corpus + model_name + (1 | test_suite)`
+
+# In[50]:
+
+
+suites_df.to_csv("suites.csv")
+
+
+# In[56]:
+
+
+def get_ppl(r):
+    try:
+        return perplexity_df.loc[(r.model_name, r.corpus, r.seed)].test_ppl
+    except:
+        return None
+
+reg_df = suites_df.copy()
+reg_df["test_ppl"] = reg_df.apply(get_ppl, axis=1)
+reg_df.to_csv("reg_df.csv")
+
