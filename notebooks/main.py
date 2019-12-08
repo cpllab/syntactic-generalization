@@ -264,12 +264,13 @@ RENDER_CONTEXT = {
 }
 
 
-# In[161]:
+# In[229]:
 
 
 # Establish consistent orderings of model names, corpus names, circuit names
 # for figure ordering / coloring
 model_order = sorted(set(results_df.model_name))
+controlled_model_order = sorted(set(results_df.model_name) & set(controlled_models))
 corpus_order = ["bllip-lg", "bllip-md", "bllip-sm", "bllip-xs"]
 circuit_order = sorted([c for c in results_df.circuit.dropna().unique()])
 
@@ -305,7 +306,7 @@ plt.ylabel("Accuracy")
 
 
 plt.subplots(figsize=(20, 10))
-sns.barplot(data=joined_data_circuits, x="circuit", y="correct", hue="model_name")
+sns.barplot(data=joined_data_circuits, x="circuit", y="correct", hue="model_name", hue_order=model_order)
 
 
 # ### Controlled evaluation of model type + dataset size
@@ -318,7 +319,7 @@ controlled_suites_df_mod = suites_df_mod[suites_df_mod.model_name.isin(controlle
 controlled_joined_data_circuits = joined_data_circuits[joined_data_circuits.model_name.isin(controlled_models)]
 
 
-# In[210]:
+# In[230]:
 
 
 # Compare SG deltas w.r.t. test suite mean rather than absolute values.
@@ -326,8 +327,8 @@ controlled_joined_data_circuits = joined_data_circuits[joined_data_circuits.mode
 
 f, ax = plt.subplots(figsize=(15, 10))
 ax.axhline(0, c="gray", alpha=0.5, linestyle="--")
-sns.barplot(data=controlled_suites_df.reset_index(), x="model_name", y="correct_delta", ax=ax)
-sns.swarmplot(data=controlled_suites_df.reset_index(), x="model_name", y="correct_delta", alpha=0.7, ax=ax)
+sns.barplot(data=controlled_suites_df.reset_index(), x="model_name", y="correct_delta", order=controlled_model_order, ax=ax)
+sns.swarmplot(data=controlled_suites_df.reset_index(), x="model_name", y="correct_delta", order=controlled_model_order, alpha=0.7, ax=ax)
 
 plt.xlabel("Model")
 plt.ylabel("Delta from per-suite mean accuracy")
@@ -347,20 +348,20 @@ plt.ylabel("Delta from per-suite mean accuracy")
 plt.title("Corpus averages: delta from mean accuracy")
 
 
-# In[216]:
+# In[231]:
 
 
 plt.subplots(figsize=(20, 10))
-sns.barplot(data=controlled_joined_data_circuits, x="circuit", y="correct_delta", hue="model_name")
+sns.barplot(data=controlled_joined_data_circuits, x="circuit", y="correct_delta", hue="model_name", hue_order=controlled_model_order)
 
 # TODO swarmplot split across corpus
 
 
-# In[217]:
+# In[232]:
 
 
 plt.subplots(figsize=(20, 10))
-sns.barplot(data=controlled_joined_data_circuits, x="circuit", y="correct_delta", hue="corpus", units="model_name")
+sns.barplot(data=controlled_joined_data_circuits, x="circuit", y="correct_delta", hue="corpus", units="model_name", hue_order=corpus_order)
 
 
 # #### Stability to modification
@@ -371,43 +372,44 @@ sns.barplot(data=controlled_joined_data_circuits, x="circuit", y="correct_delta"
 controlled_suites_df_mod.suite.unique()
 
 
-# In[221]:
+# In[233]:
 
 
 plt.subplots(figsize=(15, 10))
-sns.barplot(data=controlled_suites_df_mod, x="model_name", y="correct", hue="has_modifier")
+sns.barplot(data=controlled_suites_df_mod, x="model_name", y="correct", hue="has_modifier", order=controlled_model_order)
 plt.title("Stability to modification")
 
 
-# In[222]:
+# In[234]:
 
 
 plt.subplots(figsize=(15, 10))
-sns.barplot(data=controlled_suites_df_mod, x="corpus", y="correct", hue="has_modifier", units="model_name")
+sns.barplot(data=controlled_suites_df_mod, x="corpus", y="correct", hue="has_modifier", units="model_name", order=corpus_order)
 plt.title("Stability to modification")
 
 
-# In[224]:
+# In[236]:
 
 
 g = sns.FacetGrid(data=controlled_suites_df_mod, col="model_name", height=7)
-g.map(sns.barplot, "corpus", "correct", "has_modifier", order=corpus_order)
+g.map(sns.barplot, "corpus", "correct", "has_modifier", order=corpus_order, hue_order=[False, True])
+g.add_legend()
 
 
-# In[225]:
+# In[238]:
 
 
-avg_mod_results = controlled_suites_df_mod.groupby(["model_name", "test_suite_base", "has_modifier"]).correct.agg({"correct": "mean"}).sort_index()
+avg_mod_results = controlled_suites_df_mod.groupby(["model_name", "test_suite_base", "has_modifier"]).correct.agg(correct="mean").sort_index()
 avg_mod_diffs = avg_mod_results.xs(True, level="has_modifier") - avg_mod_results.xs(False, level="has_modifier")
 
 plt.subplots(figsize=(15, 10))
-sns.boxplot(data=avg_mod_diffs.reset_index(), x="model_name", y="correct")
+sns.boxplot(data=avg_mod_diffs.reset_index(), x="model_name", y="correct", order=controlled_model_order)
 plt.title("Change in accuracy due to modification")
 
 
 # ### Accuracy vs perplexity
 
-# In[174]:
+# In[227]:
 
 
 f, ax = plt.subplots(figsize=(10, 10))
@@ -425,35 +427,35 @@ for model_name, rows in no_ppl_data.groupby("model_name"):
     # TODO match legend color
     # TODO show error region?
     ax.axhline(y, linestyle="dashed")
-    ax.text(200, y + 0.0025, model_name, alpha=0.7)
+    ax.text(110, y + 0.0025, model_name, alpha=0.7)
 
 
-# In[175]:
+# In[239]:
 
 
 f, ax = plt.subplots(figsize=(10, 10))
-sns.scatterplot(data=joined_data, x="test_ppl", y="correct_delta",
+sns.scatterplot(data=joined_data[joined_data.model_name.isin(controlled_models)], x="test_ppl", y="correct_delta",
                 hue="model_name", style="corpus", s=150,
-                hue_order=model_order)
+                hue_order=controlled_model_order)
 plt.xlabel("Test corpus perplexity")
 plt.ylabel("SyntaxGym delta score")
 plt.legend(bbox_to_anchor=(1.04,1), loc="upper left")
 plt.title("SyntaxGym delta scores vs. perplexity")
 
 
-# In[176]:
+# In[240]:
 
 
 g = sns.lmplot(data=joined_data, x="test_ppl", y="correct_delta",
-               hue="corpus", truncate=True)
+               hue="corpus", hue_order=corpus_order, truncate=True)
 g.ax.set_ylim((joined_data.correct_delta.min() - 0.1, joined_data.correct_delta.max() + 0.1))
 
 
-# In[177]:
+# In[241]:
 
 
-g = sns.lmplot(data=joined_data, x="test_ppl", y="correct_delta",
-               hue="model_name", truncate=True)
+g = sns.lmplot(data=joined_data[joined_data.model_name.isin(controlled_models)], x="test_ppl", y="correct_delta",
+               hue="model_name", hue_order=controlled_model_order, truncate=True)
 g.ax.set_ylim((joined_data.correct_delta.min() - 0.1, joined_data.correct_delta.max() + 0.1))
 
 
@@ -466,12 +468,12 @@ g.map(sns.scatterplot, "test_ppl", "correct", "model_name",
 g.add_legend()
 
 
-# In[179]:
+# In[243]:
 
 
-g = sns.FacetGrid(data=joined_data_circuits[~joined_data_circuits.test_ppl.isna()], col="circuit", row="model_name", height=5)
+g = sns.FacetGrid(data=controlled_joined_data_circuits, col="circuit", row="model_name", height=5)
 g.map(sns.scatterplot, "test_ppl", "correct",
-      hue_order=model_order, s=100)
+      hue_order=controlled_model_order, s=100)
 g.add_legend()
 
 
