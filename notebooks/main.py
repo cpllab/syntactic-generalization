@@ -18,6 +18,7 @@ import pandas as pd
 import seaborn as sns
 from scipy import stats
 from tqdm.notebook import tqdm
+tqdm.pandas()
 get_ipython().run_line_magic('matplotlib', 'inline')
 
 from IPython.display import set_matplotlib_formats
@@ -625,22 +626,12 @@ corr_data
 # 
 # `SG ~ ppl:corpus + model_name + (1 | test_suite)`
 
-# In[50]:
+# In[53]:
 
 
-suites_df.to_csv("suites.csv")
+perplexity_map = perplexity_df.test_ppl.to_dict()
 
-
-# In[51]:
-
-
-def get_ppl(r):
-    try:
-        return perplexity_df.loc[(r.model_name, r.corpus, r.seed)].test_ppl
-    except:
-        return None
-
-reg_df = suites_df.copy()
-reg_df["test_ppl"] = reg_df.apply(get_ppl, axis=1)
+reg_df = results_df[results_df.model_name.isin(controlled_models)].copy()
+reg_df["test_ppl"] = pd.Series(list(zip(reg_df.model_name, reg_df.corpus, reg_df.seed))).map(perplexity_map)
 reg_df.to_csv("reg_df.csv")
 
