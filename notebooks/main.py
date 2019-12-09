@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[ ]:
 
 
 import itertools
@@ -18,6 +18,7 @@ import pandas as pd
 import seaborn as sns
 from scipy import stats
 from tqdm.notebook import tqdm
+tqdm.pandas()
 get_ipython().run_line_magic('matplotlib', 'inline')
 
 from IPython.display import set_matplotlib_formats
@@ -28,7 +29,7 @@ set_matplotlib_formats('png')
 
 # ### Metadata
 
-# In[2]:
+# In[ ]:
 
 
 # Map from test suite tag to high-level circuit.
@@ -46,7 +47,7 @@ tag_to_circuit = {tag: circuit
                   for tag in tags}
 
 
-# In[3]:
+# In[ ]:
 
 
 # Exclusions
@@ -54,7 +55,7 @@ exclude_suite_re = re.compile(r"^fgd-embed[34]|^gardenpath|^nn-nv")
 exclude_models = ["1gram", "ngram", "ngram-no-rand"]
 
 
-# In[4]:
+# In[ ]:
 
 
 ngram_models = ["1gram", "ngram", "ngram-single"]
@@ -66,14 +67,14 @@ controlled_models = ["ngram", "ordered-neurons", "vanilla", "rnng"]
 
 # ### Load
 
-# In[5]:
+# In[ ]:
 
 
 ppl_data_path = Path("../data/raw/perplexity.csv")
 test_suite_results_path = Path("../data/raw/test_suite_results")
 
 
-# In[6]:
+# In[ ]:
 
 
 perplexity_df = pd.read_csv(ppl_data_path, index_col=["model", "corpus", "seed"])
@@ -106,13 +107,13 @@ if tags_missing_circuit:
     print("Tags missing circuit: ", ", ".join(tags_missing_circuit))
 
 
-# In[7]:
+# In[ ]:
 
 
 results_df.head()
 
 
-# In[8]:
+# In[ ]:
 
 
 # Average across seeds of each ngram model.
@@ -130,7 +131,7 @@ for ngram_model in ngram_models:
 
 # ### Data prep
 
-# In[9]:
+# In[ ]:
 
 
 suites_df = results_df.groupby(["model_name", "corpus", "seed", "suite"]).correct.mean().reset_index()
@@ -147,7 +148,7 @@ suite_means = suites_df.groupby("suite").apply(get_controlled_mean)
 suites_df["correct_delta"] = suites_df.apply(lambda r: r.correct - suite_means.loc[r.suite] if r.model_name in controlled_models else None, axis=1)
 
 
-# In[10]:
+# In[ ]:
 
 
 # Join PPL and accuracy data.
@@ -156,7 +157,7 @@ joined_data = pd.DataFrame(joined_data).join(perplexity_df).reset_index()
 joined_data.head()
 
 
-# In[11]:
+# In[ ]:
 
 
 # Join PPL and accuracy data, splitting on circuit.
@@ -165,7 +166,7 @@ joined_data_circuits = pd.DataFrame(joined_data_circuits).reset_index().set_inde
 joined_data_circuits.head()
 
 
-# In[12]:
+# In[ ]:
 
 
 # Analyze stability to modification.
@@ -189,7 +190,7 @@ suites_df_mod.head()
 
 # ### Checks
 
-# In[13]:
+# In[ ]:
 
 
 # Each model--corpus--seed should have perplexity data.
@@ -202,7 +203,7 @@ if diff:
     #raise ValueError("Each model--corpus--seed must have perplexity data.")
 
 
-# In[14]:
+# In[ ]:
 
 
 # Every model--corpus--seed should have results for all test suite items.
@@ -229,7 +230,7 @@ else:
     print("OK")
 
 
-# In[15]:
+# In[ ]:
 
 
 # Second sanity check: same number of results per model--corpus--seed
@@ -239,7 +240,7 @@ if len(result_counts.unique()) > 1:
     print(result_counts)
 
 
-# In[16]:
+# In[ ]:
 
 
 # Second sanity check: same number of suite-level results per model--corpus--seed
@@ -251,7 +252,7 @@ if len(suite_result_counts.unique()) > 1:
 
 # ## Prepare for data rendering
 
-# In[17]:
+# In[ ]:
 
 
 RENDER_FINAL = True
@@ -264,7 +265,7 @@ RENDER_CONTEXT = {
 }
 
 
-# In[18]:
+# In[ ]:
 
 
 # Establish consistent orderings of model names, corpus names, circuit names
@@ -279,7 +280,7 @@ circuit_order = sorted([c for c in results_df.circuit.dropna().unique()])
 
 # ### Baseline sanity check
 
-# In[19]:
+# In[ ]:
 
 
 baselines_to_plot = set(baseline_models) & set(suites_df.model_name.unique())
@@ -292,7 +293,7 @@ for baseline_model, ax in zip(baselines_to_plot, np.ravel(axs)):
 
 # ### Basic barplots
 
-# In[20]:
+# In[ ]:
 
 
 plt.subplots(figsize=(10, 7))
@@ -302,7 +303,7 @@ plt.xlabel("Model")
 plt.ylabel("Accuracy")
 
 
-# In[21]:
+# In[ ]:
 
 
 plt.subplots(figsize=(20, 10))
@@ -311,7 +312,7 @@ sns.barplot(data=joined_data_circuits, x="circuit", y="correct", hue="model_name
 
 # ### Controlled evaluation of model type + dataset size
 
-# In[22]:
+# In[ ]:
 
 
 controlled_suites_df = suites_df[suites_df.model_name.isin(controlled_models)]
@@ -319,7 +320,7 @@ controlled_suites_df_mod = suites_df_mod[suites_df_mod.model_name.isin(controlle
 controlled_joined_data_circuits = joined_data_circuits[joined_data_circuits.model_name.isin(controlled_models)]
 
 
-# In[23]:
+# In[ ]:
 
 
 # Compare SG deltas w.r.t. test suite mean rather than absolute values.
@@ -335,7 +336,7 @@ plt.ylabel("Delta from per-suite mean accuracy")
 plt.title("Model averages: delta from mean accuracy")
 
 
-# In[24]:
+# In[ ]:
 
 
 plt.subplots(figsize=(15, 10))
@@ -348,7 +349,7 @@ plt.ylabel("Delta from per-suite mean accuracy")
 plt.title("Corpus averages: delta from mean accuracy")
 
 
-# In[25]:
+# In[ ]:
 
 
 plt.subplots(figsize=(20, 10))
@@ -357,7 +358,7 @@ sns.barplot(data=controlled_joined_data_circuits, x="circuit", y="correct_delta"
 # TODO swarmplot split across corpus
 
 
-# In[26]:
+# In[ ]:
 
 
 plt.subplots(figsize=(20, 10))
@@ -366,13 +367,13 @@ sns.barplot(data=controlled_joined_data_circuits, x="circuit", y="correct_delta"
 
 # #### Stability to modification
 
-# In[27]:
+# In[ ]:
 
 
 controlled_suites_df_mod.suite.unique()
 
 
-# In[28]:
+# In[ ]:
 
 
 plt.subplots(figsize=(15, 10))
@@ -380,7 +381,7 @@ sns.barplot(data=controlled_suites_df_mod, x="model_name", y="correct", hue="has
 plt.title("Stability to modification")
 
 
-# In[29]:
+# In[ ]:
 
 
 plt.subplots(figsize=(15, 10))
@@ -388,7 +389,7 @@ sns.barplot(data=controlled_suites_df_mod, x="corpus", y="correct", hue="has_mod
 plt.title("Stability to modification")
 
 
-# In[30]:
+# In[ ]:
 
 
 g = sns.FacetGrid(data=controlled_suites_df_mod, col="model_name", height=7)
@@ -396,7 +397,7 @@ g.map(sns.barplot, "corpus", "correct", "has_modifier", order=corpus_order, hue_
 g.add_legend()
 
 
-# In[31]:
+# In[ ]:
 
 
 avg_mod_results = controlled_suites_df_mod.groupby(["model_name", "test_suite_base", "has_modifier"]).correct.agg(correct="mean").sort_index()
@@ -409,7 +410,7 @@ plt.title("Change in accuracy due to modification")
 
 # ### Accuracy vs perplexity
 
-# In[32]:
+# In[ ]:
 
 
 f, ax = plt.subplots(figsize=(10, 10))
@@ -430,7 +431,7 @@ for model_name, rows in no_ppl_data.groupby("model_name"):
     ax.text(110, y + 0.0025, model_name, alpha=0.7)
 
 
-# In[33]:
+# In[ ]:
 
 
 f, ax = plt.subplots(figsize=(10, 10))
@@ -443,7 +444,7 @@ plt.legend(bbox_to_anchor=(1.04,1), loc="upper left")
 plt.title("SyntaxGym delta scores vs. perplexity")
 
 
-# In[34]:
+# In[ ]:
 
 
 g = sns.lmplot(data=joined_data, x="test_ppl", y="correct_delta",
@@ -451,7 +452,7 @@ g = sns.lmplot(data=joined_data, x="test_ppl", y="correct_delta",
 g.ax.set_ylim((joined_data.correct_delta.min() - 0.1, joined_data.correct_delta.max() + 0.1))
 
 
-# In[35]:
+# In[ ]:
 
 
 g = sns.lmplot(data=joined_data[joined_data.model_name.isin(controlled_models)], x="test_ppl", y="correct_delta",
@@ -459,7 +460,7 @@ g = sns.lmplot(data=joined_data[joined_data.model_name.isin(controlled_models)],
 g.ax.set_ylim((joined_data.correct_delta.min() - 0.1, joined_data.correct_delta.max() + 0.1))
 
 
-# In[36]:
+# In[ ]:
 
 
 g = sns.FacetGrid(data=joined_data_circuits, col="circuit", height=5)
@@ -468,7 +469,7 @@ g.map(sns.scatterplot, "test_ppl", "correct", "model_name",
 g.add_legend()
 
 
-# In[37]:
+# In[ ]:
 
 
 g = sns.FacetGrid(data=controlled_joined_data_circuits, col="circuit", row="model_name", height=5)
@@ -479,7 +480,7 @@ g.add_legend()
 
 # ### Item-level statistics
 
-# In[38]:
+# In[ ]:
 
 
 EXCLUDE_FROM_ITEM_ANALYSIS = ["random"]
@@ -487,7 +488,7 @@ EXCLUDE_FROM_ITEM_ANALYSIS = ["random"]
 
 # #### Item-level prediction correlations across models
 
-# In[39]:
+# In[ ]:
 
 
 item_predictions = results_df[~results_df.model_name.isin(EXCLUDE_FROM_ITEM_ANALYSIS)]     .set_index(["suite", "item"]).sort_index().groupby(["model_name", "corpus", "seed"]).correct.apply(np.array)
@@ -505,21 +506,21 @@ corr_df = pd.DataFrame(model_correlations, columns=["key_1", "model_1", "corpus_
 agree_df = pd.DataFrame(model_agreement, columns=["key_1", "model_1", "corpus_1", "seed_1", "key_2", "model_2", "corpus_2", "seed_2", "agreement"])
 
 
-# In[40]:
+# In[ ]:
 
 
 plt.subplots(figsize=(10, 10))
 sns.heatmap(data=corr_df.pivot("key_1", "key_2", "corr"))
 
 
-# In[41]:
+# In[ ]:
 
 
 plt.subplots(figsize=(10, 10))
 sns.heatmap(data=agree_df.pivot("key_1", "key_2", "agreement"))
 
 
-# In[42]:
+# In[ ]:
 
 
 plt.subplots(figsize=(10, 10))
@@ -527,7 +528,7 @@ sns.distplot(results_df[~results_df.model_name.isin(EXCLUDE_FROM_ITEM_ANALYSIS)]
 plt.title("Distribution of item-level accuracy means")
 
 
-# In[43]:
+# In[ ]:
 
 
 plt.subplots(figsize=(10, 10))
@@ -535,7 +536,7 @@ sns.distplot(results_df[~results_df.model_name.isin(EXCLUDE_FROM_ITEM_ANALYSIS)]
 plt.title("Distribution of item-level accuracy stdevs")
 
 
-# In[44]:
+# In[ ]:
 
 
 # Get items for which all models fail / succeed
@@ -550,7 +551,7 @@ print("All fail\n", all_fail)
 print("All succeed\n", all_succeed)
 
 
-# In[45]:
+# In[ ]:
 
 
 plt.subplots(figsize=(10, 10))
@@ -560,14 +561,14 @@ plt.title("Distribution of suite-level accuracy means")
 
 # ## Circuit–circuit correlations
 
-# In[46]:
+# In[ ]:
 
 
 # Exclude some models from circuit correlation analysis.
 EXCLUDE_FROM_CIRCUIT_ANALYSIS = ["random", "ngram", "1gram", "ngram-single"]
 
 
-# In[47]:
+# In[ ]:
 
 
 f, axs = plt.subplots(len(circuit_order), len(circuit_order), figsize=(25, 25))
@@ -590,7 +591,7 @@ for c1, row in zip(circuit_order, axs):
 plt.suptitle("Circuit--circuit correlations")
 
 
-# In[48]:
+# In[ ]:
 
 
 # Estimate lower-bound Spearman r for each circuit-circuit relation
@@ -615,7 +616,7 @@ for c1, c2 in tqdm(list(itertools.combinations(circuit_order, 2))):
     corr_data.loc[c1, c2] = sns.utils.ci(sns.algorithms.bootstrap(df, units=df.model_key, n_boot=n_boot, func=estimate_r))
 
 
-# In[49]:
+# In[ ]:
 
 
 corr_data
@@ -625,22 +626,18 @@ corr_data
 # 
 # `SG ~ ppl:corpus + model_name + (1 | test_suite)`
 
-# In[50]:
+# In[ ]:
 
 
-suites_df.to_csv("suites.csv")
+perplexity_map = perplexity_df.test_ppl.to_dict()
 
-
-# In[51]:
-
-
-def get_ppl(r):
-    try:
-        return perplexity_df.loc[(r.model_name, r.corpus, r.seed)].test_ppl
-    except:
-        return None
-
-reg_df = suites_df.copy()
-reg_df["test_ppl"] = reg_df.apply(get_ppl, axis=1)
+reg_df = results_df[results_df.model_name.isin(controlled_models)].copy()
+reg_df["test_ppl"] = pd.Series(list(zip(reg_df.model_name, reg_df.corpus, reg_df.seed))).map(perplexity_map)
 reg_df.to_csv("reg_df.csv")
+
+
+# In[ ]:
+
+
+
 
