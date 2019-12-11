@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[ ]:
 
 
 import itertools
@@ -28,7 +28,7 @@ set_matplotlib_formats('png')
 
 # ### Metadata
 
-# In[2]:
+# In[ ]:
 
 
 # Map from test suite tag to high-level circuit.
@@ -46,7 +46,7 @@ tag_to_circuit = {tag: circuit
                   for tag in tags}
 
 
-# In[3]:
+# In[ ]:
 
 
 # Map codenames to readable names for various columns.
@@ -60,8 +60,8 @@ PRETTY_COLUMN_MAPS = [
         "random": "Random",
          
         "gpt-2": "GPT-2",
-        "gpt-2-xl": "GPT-2 XL",
-        "transformer-xl": "Transformer XL",
+        "gpt-2-xl": "GPT-2-XL",
+        "transformer-xl": "Transformer-XL",
         "grnn": "GRNN",
         "jrnn": "JRNN",
     }),
@@ -71,7 +71,7 @@ PRETTY_COLUMN_MAPS = [
 PRETTY_COLUMNS = ["pretty_%s" % col for col, _ in PRETTY_COLUMN_MAPS]
 
 
-# In[4]:
+# In[ ]:
 
 
 # Exclusions
@@ -79,7 +79,7 @@ exclude_suite_re = re.compile(r"^fgd-embed[34]|^gardenpath|^nn-nv")
 exclude_models = ["1gram", "ngram", "ngram-no-rand"]
 
 
-# In[5]:
+# In[ ]:
 
 
 ngram_models = ["1gram", "ngram", "ngram-single"]
@@ -91,14 +91,14 @@ controlled_models = ["ngram", "ordered-neurons", "vanilla", "rnng"]
 
 # ### Load
 
-# In[6]:
+# In[ ]:
 
 
 ppl_data_path = Path("../data/raw/perplexity.csv")
 test_suite_results_path = Path("../data/raw/test_suite_results")
 
 
-# In[7]:
+# In[ ]:
 
 
 perplexity_df = pd.read_csv(ppl_data_path, index_col=["model", "corpus", "seed"])
@@ -119,7 +119,7 @@ if tags_missing_circuit:
     print("Tags missing circuit: ", ", ".join(tags_missing_circuit))
 
 
-# In[8]:
+# In[ ]:
 
 
 # Exclude test suites
@@ -135,7 +135,7 @@ print("Dropping %i results due to dropping models:" % exclude_filter.sum(), list
 results_df = results_df[~exclude_filter]
 
 
-# In[9]:
+# In[ ]:
 
 
 # Average across seeds of each ngram model.
@@ -153,7 +153,7 @@ for ngram_model in ngram_models:
                             ngram_results_df], sort=True)
 
 
-# In[10]:
+# In[ ]:
 
 
 # Prettify name columns, which we'll carry through data manipulations
@@ -167,7 +167,7 @@ for column, map_fn in PRETTY_COLUMN_MAPS:
 
 # ### Data prep
 
-# In[11]:
+# In[ ]:
 
 
 suites_df = results_df.groupby(["model_name", "corpus", "seed", "suite"] + PRETTY_COLUMNS).correct.mean().reset_index()
@@ -184,7 +184,7 @@ suite_means = suites_df.groupby("suite").apply(get_controlled_mean)
 suites_df["correct_delta"] = suites_df.apply(lambda r: r.correct - suite_means.loc[r.suite] if r.model_name in controlled_models else None, axis=1)
 
 
-# In[12]:
+# In[ ]:
 
 
 # Join PPL and accuracy data.
@@ -193,7 +193,7 @@ joined_data = pd.DataFrame(joined_data).join(perplexity_df).reset_index()
 joined_data.head()
 
 
-# In[13]:
+# In[ ]:
 
 
 # Join PPL and accuracy data, splitting on circuit.
@@ -202,7 +202,7 @@ joined_data_circuits = pd.DataFrame(joined_data_circuits).reset_index().set_inde
 joined_data_circuits.head()
 
 
-# In[14]:
+# In[ ]:
 
 
 # Analyze stability to modification.
@@ -226,7 +226,7 @@ suites_df_mod.head()
 
 # ### Checks
 
-# In[15]:
+# In[ ]:
 
 
 # Each model--corpus--seed should have perplexity data.
@@ -239,7 +239,7 @@ if diff:
     #raise ValueError("Each model--corpus--seed must have perplexity data.")
 
 
-# In[16]:
+# In[ ]:
 
 
 # Every model--corpus--seed should have results for all test suite items.
@@ -266,7 +266,7 @@ else:
     print("OK")
 
 
-# In[17]:
+# In[ ]:
 
 
 # Second sanity check: same number of results per model--corpus--seed
@@ -276,7 +276,7 @@ if len(result_counts.unique()) > 1:
     print(result_counts)
 
 
-# In[18]:
+# In[ ]:
 
 
 # Second sanity check: same number of suite-level results per model--corpus--seed
@@ -288,7 +288,7 @@ if len(suite_result_counts.unique()) > 1:
 
 # ## Prepare for data rendering
 
-# In[19]:
+# In[ ]:
 
 
 RENDER_FINAL = True
@@ -297,21 +297,43 @@ figure_path.mkdir(exist_ok=True, parents=True)
 
 RENDER_CONTEXT = {
     "font_scale": 3.5,
-    "rc": {"lines.linewidth": 2.5}
+    "rc": {"lines.linewidth": 2.5, "hatch.linewidth":3},
+    "style": "ticks",
+    "font": "Liberation Sans"
 }
 sns.set(**RENDER_CONTEXT)
 
 
-# In[20]:
+# In[ ]:
 
 
 BASELINE_LINESTYLE = {
     "color": "gray",
     "linestyle": "--",
 }
+CORPUS_MARKERS = {
+    "BLLIP-LG": "s",
+    "BLLIP-MD": "v",
+    "BLLIP-SM": "P",
+    "BLLIP-XS": "X"
+}
+p = sns.color_palette()[:len(joined_data.model_name.unique())]
+MODEL_COLORS = {
+    "LSTM": p[0],
+    "ON-LSTM": p[3],
+    "RNNG": p[2],
+    "n-gram": "saddlebrown",
+    "Random": "darkgrey",
+         
+    "GPT-2": p[1],
+    "GPT-2-XL": p[4],
+    "Transformer-XL": p[5],
+    "GRNN": p[6],
+    "JRNN": "gold"
+}
 
 
-# In[21]:
+# In[ ]:
 
 
 def render_final(path):
@@ -320,16 +342,16 @@ def render_final(path):
     plt.savefig(path)
 
 
-# In[22]:
+# In[ ]:
 
 
 # Standardize axis labels
-SG_ABSOLUTE_LABEL = "SyntaxGym score"
-SG_DELTA_LABEL = "SyntaxGym delta score"
+SG_ABSOLUTE_LABEL = "Targeted syntactic performance"
+SG_DELTA_LABEL = "Targeted syntactic performance delta"
 PERPLEXITY_LABEL = "Test perplexity"
 
 
-# In[23]:
+# In[ ]:
 
 
 # Establish consistent orderings of model names, corpus names, circuit names
@@ -344,7 +366,7 @@ circuit_order = sorted([c for c in results_df.circuit.dropna().unique()])
 
 # ### Basic barplots
 
-# In[24]:
+# In[ ]:
 
 
 f, ax = plt.subplots(figsize=(20, 10))
@@ -354,23 +376,27 @@ plot_df = suites_df[suites_df.model_name != "random"]
 
 # Sort by decreasing average accuracy.
 order = list(plot_df.groupby("pretty_model_name").correct.mean().sort_values(ascending=False).index)
-sns.barplot(data=plot_df.reset_index(), x="pretty_model_name", y="correct", order=order, ax=ax)
+
+current_palette = sns.color_palette()[:len(order)]
+sns.barplot(data=plot_df.reset_index(), x="pretty_model_name", y="correct", order=order, ax=ax, palette=MODEL_COLORS)#palette=reversed(current_palette))
 
 # Plot random chance baseline
 ax.axhline(suites_df[suites_df.model_name == "random"].correct.mean(), **BASELINE_LINESTYLE)
 
 ax.set_xticklabels(ax.get_xticklabels(), rotation=20, horizontalalignment="right")
 
+ax.set_ylim(0,1)
+
 plt.xlabel("Model")
-plt.ylabel(SG_ABSOLUTE_LABEL)
+plt.ylabel(SG_ABSOLUTE_LABEL, labelpad=36)
 
 if RENDER_FINAL:
-    render_final(figure_path / "overall.png")
+    render_final(figure_path / "overall.pdf")
 
 
 # ### Controlled evaluation of model type + dataset size
 
-# In[25]:
+# In[ ]:
 
 
 controlled_suites_df = suites_df[suites_df.model_name.isin(controlled_models)]
@@ -378,20 +404,56 @@ controlled_suites_df_mod = suites_df_mod[suites_df_mod.model_name.isin(controlle
 controlled_joined_data_circuits = joined_data_circuits[joined_data_circuits.model_name.isin(controlled_models)]
 
 
-# In[26]:
+# In[ ]:
+
+
+_, axes = plt.subplots(nrows=1, ncols=2, sharex=False, sharey=True, figsize=(40,12))
+for i, ax in enumerate(axes):
+    if i == 0:
+        ax.axhline(0, c="gray", alpha=0.5, linestyle="--")
+        sns.barplot(data=controlled_suites_df.reset_index(), 
+                    x="pretty_model_name", y="correct_delta", palette=MODEL_COLORS,
+                    order=controlled_model_order, ax=ax)
+        sns.swarmplot(data=controlled_suites_df.reset_index(),
+                      x="pretty_model_name", y="correct_delta", palette=MODEL_COLORS,
+                      order=controlled_model_order, alpha=0.5, ax=ax, size=9)
+
+        ax.set_xlabel("Model")
+        ax.set_ylabel(SG_DELTA_LABEL)
+    elif i == 1:
+        # Estimate error intervals with a structured bootstrap: resampling units = model
+        sns.barplot(data=controlled_suites_df.reset_index(), x="pretty_corpus", y="correct_delta",
+                    color="Gray", units="pretty_model_name", order=corpus_order, ax=ax)
+        sns.swarmplot(data=controlled_suites_df.reset_index(), x="pretty_corpus", y="correct_delta",
+                      hue="pretty_model_name", order=corpus_order, hue_order=controlled_model_order,
+                      palette=MODEL_COLORS, size=9, alpha=0.7, ax=ax)
+
+        handles, labels = ax.get_legend_handles_labels()
+        for h in handles:
+            h.set_sizes([300.0])
+
+        ax.set_xlabel("Corpus")
+        ax.set_ylabel("")
+        plt.legend(handles, labels, bbox_to_anchor=(1,0.5), loc="center left", title="Model")
+
+if RENDER_FINAL:
+    render_final(figure_path / "controlled.pdf")
+
+
+# In[ ]:
 
 
 # Compare SG deltas w.r.t. test suite mean rather than absolute values.
 # This makes for a more easily interpretable visualization
 
-f, ax = plt.subplots(figsize=(20, 15))
+f, ax = plt.subplots(figsize=(20, 10))
 ax.axhline(0, c="gray", alpha=0.5, linestyle="--")
 sns.barplot(data=controlled_suites_df.reset_index(), 
             x="pretty_model_name", y="correct_delta",
             order=controlled_model_order, ax=ax)
 sns.swarmplot(data=controlled_suites_df.reset_index(),
               x="pretty_model_name", y="correct_delta",
-              order=controlled_model_order, alpha=0.7, ax=ax)
+              order=controlled_model_order, alpha=0.5, ax=ax, size=7)
 
 plt.xlabel("Model")
 plt.ylabel(SG_DELTA_LABEL)
@@ -400,10 +462,10 @@ if RENDER_FINAL:
     render_final(figure_path / "controlled_model.png")
 
 
-# In[47]:
+# In[ ]:
 
 
-f, ax = plt.subplots(figsize=(20, 15))
+f, ax = plt.subplots(figsize=(20, 10))
 # Estimate error intervals with a structured bootstrap: resampling units = model
 sns.barplot(data=controlled_suites_df.reset_index(), x="pretty_corpus", y="correct_delta",
             units="pretty_model_name", order=corpus_order, ax=ax)
@@ -416,16 +478,46 @@ for h in handles:
 
 plt.xlabel("Corpus")
 plt.ylabel(SG_DELTA_LABEL)
-plt.legend(handles, labels, bbox_to_anchor=(1.04,1), loc="upper left", title="Model")
+plt.legend(handles, labels, bbox_to_anchor=(1,0.5), loc="center left", title="Model")
 
 if RENDER_FINAL:
     render_final(figure_path / "controlled_corpus.png")
 
 
-# In[28]:
+# In[ ]:
 
 
-f, ax = plt.subplots(figsize=(20, 15))
+_, axes = plt.subplots(nrows=1, ncols=2, sharex=True, sharey=True, figsize=(40,15))
+for i, ax in enumerate(axes):
+    if i == 0:
+        sns.barplot(data=controlled_joined_data_circuits, x="circuit", y="correct_delta",
+            hue="pretty_model_name", hue_order=controlled_model_order, ax=ax, palette=MODEL_COLORS)
+
+        ax.set_xticklabels(ax.get_xticklabels(), rotation=20, horizontalalignment="right")
+
+        # TODO swarmplot split across corpus
+        ax.set_xlabel("Circuit")
+        ax.set_ylabel(SG_DELTA_LABEL)
+        ax.legend(title="", ncol=3)
+    elif i == 1:
+        sns.barplot(data=controlled_joined_data_circuits, x="circuit", y="correct_delta",
+            hue="pretty_corpus", units="model_name", hue_order=corpus_order, ax=ax, palette="Greys")
+
+        ax.set_xticklabels(ax.get_xticklabels(), rotation=20, horizontalalignment="right")
+
+        # TODO swarmplot split across corpus
+        ax.set_xlabel("Circuit")
+        ax.set_ylabel("")
+        ax.legend(title="", ncol=2)
+
+if RENDER_FINAL:
+    render_final(figure_path / "controlled_circuit.pdf")
+
+
+# In[ ]:
+
+
+f, ax = plt.subplots(figsize=(20, 12))
 sns.barplot(data=controlled_joined_data_circuits, x="circuit", y="correct_delta",
             hue="pretty_model_name", hue_order=controlled_model_order, ax=ax)
 
@@ -434,25 +526,25 @@ ax.set_xticklabels(ax.get_xticklabels(), rotation=20, horizontalalignment="right
 # TODO swarmplot split across corpus
 plt.xlabel("Circuit")
 plt.ylabel(SG_DELTA_LABEL)
-plt.legend(bbox_to_anchor=(1.04,1), loc="upper left", title="Model")
+plt.legend(bbox_to_anchor=(1,0.5), loc="center left", title="Model")
 
 if RENDER_FINAL:
     render_final(figure_path / "controlled_model_circuit.png")
 
 
-# In[29]:
+# In[ ]:
 
 
-f, ax = plt.subplots(figsize=(20, 15))
+f, ax = plt.subplots(figsize=(20, 12))
 sns.barplot(data=controlled_joined_data_circuits, x="circuit", y="correct_delta",
-            hue="pretty_corpus", units="model_name", hue_order=corpus_order, ax=ax)
+            hue="pretty_corpus", units="model_name", hue_order=corpus_order, ax=ax, palette="Greys")
 
 ax.set_xticklabels(ax.get_xticklabels(), rotation=20, horizontalalignment="right")
 
 # TODO swarmplot split across corpus
 plt.xlabel("Circuit")
 plt.ylabel(SG_DELTA_LABEL)
-plt.legend(bbox_to_anchor=(1.04,1), loc="upper left", title="Corpus")
+plt.legend(bbox_to_anchor=(1,0.5), loc="center left", title="Corpus")
 
 if RENDER_FINAL:
     render_final(figure_path / "controlled_corpus_circuit.png")
@@ -460,13 +552,74 @@ if RENDER_FINAL:
 
 # #### Stability to modification
 
-# In[30]:
+# In[ ]:
 
 
 controlled_suites_df_mod.suite.unique()
 
 
-# In[31]:
+# In[ ]:
+
+
+# import matplotlib as mpl
+# mpl.rcParams['hatch.linewidth'] = 2
+
+def add_hatches(patches, hatch="/"):
+    sorted_patches = sorted(patches, key=lambda bar: bar.get_x())
+    for i, bar in enumerate(sorted_patches):
+        if i % 2 != 0:
+            bar.set_hatch(hatch)
+
+_, axes = plt.subplots(nrows=1, ncols=2, sharex=False, sharey=True, figsize=(40,12))
+for i, ax in enumerate(axes):
+    if i == 0:
+        sns.barplot(data=controlled_suites_df_mod, x="pretty_model_name", y="correct",
+                    hue="has_modifier", order=controlled_model_order, ax=ax) #, edgecolor=".2")
+        
+        sorted_patches = sorted(ax.patches, key=lambda bar: bar.get_x())
+        colors = [MODEL_COLORS[controlled_model_order[i]] for i in range(len(controlled_model_order))]
+        for i, bar in enumerate(sorted_patches):
+            bar.set_facecolor(colors[int(i/2)])
+            if i % 2 != 0:
+                bar.set_hatch("/")
+            
+#         add_hatches(ax.patches)
+
+        # TODO swarmplot split across corpus
+        ax.set_xlabel("Model")
+        ax.set_ylabel(SG_ABSOLUTE_LABEL)
+        ax.get_legend().remove()
+    elif i == 1:
+        sns.barplot(data=controlled_suites_df_mod, x="pretty_corpus", y="correct",
+            hue="has_modifier", order=corpus_order, ax=ax, facecolor="white", edgecolor=".2") #color="Gray")
+        
+        add_hatches(ax.patches)
+#         sorted_patches = sorted(ax.patches, key=lambda bar: bar.get_x())
+#         colors = sns.color_palette("Greys", 4)
+#         for i, bar in enumerate(sorted_patches):
+#             bar.set_facecolor(colors[int(i/2)])
+#             if i % 2 != 0:
+#                 bar.set_hatch("/")
+
+        # TODO swarmplot split across corpus
+        ax.set_xlabel("Corpus")
+        ax.set_ylabel("")
+        handles, labels = ax.get_legend_handles_labels()
+        labels[0] = "No modifier"
+        labels[1] = "With modifier"
+#         import matplotlib.patches as mpatches
+#         handles[0] = mpatches.Patch(facecolor="white", edgecolor="k")
+#         handles[1] = mpatches.Patch(facecolor="white", edgecolor="k")
+#         handles[1].set_hatch("/")
+        ax.legend(handles, labels, bbox_to_anchor=(1,0.5), loc="center left", title="")
+        
+
+    
+if RENDER_FINAL:
+    render_final(figure_path / "stability.pdf")
+
+
+# In[ ]:
 
 
 plt.subplots(figsize=(20, 10))
@@ -482,7 +635,7 @@ if RENDER_FINAL:
     render_final(figure_path / "stability_model.png")
 
 
-# In[32]:
+# In[ ]:
 
 
 plt.subplots(figsize=(20, 10))
@@ -500,13 +653,13 @@ if RENDER_FINAL:
 
 # ### Accuracy vs perplexity
 
-# In[38]:
+# In[ ]:
 
 
 f, ax = plt.subplots(figsize=(20, 20))
 sns.scatterplot(data=joined_data, x="test_ppl", y="correct",
-                hue="pretty_model_name", style="pretty_corpus", s=550,
-                hue_order=model_order, ax=ax)
+                hue="pretty_model_name", style="pretty_corpus", s=1300,
+                hue_order=model_order, ax=ax, zorder=2, palette=MODEL_COLORS)
 
 legend_title_map = {"pretty_model_name": "Model",
                     "pretty_corpus": "Corpus"}
@@ -520,7 +673,6 @@ handles = [h for i, h in enumerate(handles) if i not in drop_idxs]
 labels = [l for i, l in enumerate(labels) if i not in drop_idxs]
 for h in handles:
     h.set_sizes([300.0])
-plt.legend(handles, labels, bbox_to_anchor=(1.04,1), loc="upper left")
 
 # Prepare to look up legend color
 legend_dict = dict(zip(labels, handles))
@@ -532,21 +684,96 @@ for model_name, rows in no_ppl_data.groupby("pretty_model_name"):
     # TODO show error region?
     
     color = tuple(legend_dict[model_name].get_facecolor()[0])
-    ax.axhline(y, c=color, linestyle="dashed")
-    ax.text(110, y + 0.0025, model_name, alpha=0.7, fontdict={"size": 22})
+    ax.axhline(y, c=color, linestyle="dashed", zorder=1, linewidth=3)
+    ax.text(130, y + 0.0025, model_name, fontdict={"size": 22}, ha='right')
+    
+from matplotlib.lines import Line2D
+for i, h in enumerate(handles):
+    if labels[i] in no_ppl_data.pretty_model_name.values:
+        print(labels[i])
+        handles[i] = Line2D([0], [0], color=tuple(legend_dict[labels[i]].get_facecolor()[0]), linestyle='--', linewidth=5)
+plt.legend(handles, labels, bbox_to_anchor=(1.04,0.5), loc="center left")
     
 plt.xlabel(PERPLEXITY_LABEL)
 plt.ylabel(SG_ABSOLUTE_LABEL)
 
 if RENDER_FINAL:
-    render_final(figure_path / "perplexity.png")
+    render_final(figure_path / "perplexity.pdf")
 
 
-# In[34]:
+# In[ ]:
+
+
+plt.clf()
+g = sns.lmplot(data=joined_data, x="test_ppl", y="correct_delta",
+               hue="corpus", hue_order=corpus_order, truncate=True)
+g.ax.set_ylim((joined_data.correct_delta.min() - 0.1, joined_data.correct_delta.max() + 0.1))
+
+
+# In[ ]:
+
+
+f, ax = plt.subplots(figsize=(25, 18))
+joined_df_controlled = joined_data.dropna(subset=["test_ppl"])
+sns.scatterplot(data=joined_df_controlled, x="test_ppl", y="correct",
+                hue="pretty_model_name", style="pretty_corpus", s=1500, palette=MODEL_COLORS,
+                hue_order=model_order, markers=CORPUS_MARKERS, ax=ax, zorder=2)
+
+legend_title_map = {"pretty_model_name": "Model",
+                    "pretty_corpus": "Corpus"}
+handles, labels = ax.get_legend_handles_labels()
+# Re-map some labels.
+labels = [legend_title_map.get(l, l) for l in labels]
+# Drop some legend entries.
+drop_labels = ["Random"] # ["N/A", "Model", "Corpus", "Random"]
+drop_labels.extend(no_ppl_data.pretty_model_name.unique())
+drop_idxs = [labels.index(l) for l in drop_labels]
+handles = [h for i, h in enumerate(handles) if i not in drop_idxs]
+labels = [l for i, l in enumerate(labels) if i not in drop_idxs]
+
+# Hand re-ordering of labels for legend.
+label_order = ["Corpus", "Model", "BLLIP-LG", "LSTM", "BLLIP-MD", "ON-LSTM", "BLLIP-SM", "RNNG", "BLLIP-XS"]
+label_order = [labels.index(l) for l in label_order]
+handles = [handles[i] for i in label_order]
+labels = [labels[i] for i in label_order]
+for h in handles:
+    h.set_sizes([500])
+plt.legend(handles, labels, loc='upper center', bbox_to_anchor=(0.55, -0.14), ncol=5, fontsize=40)
+# plt.legend(handles, labels, loc='center left', bbox_to_anchor=(1.4, 0.5)) #, ncol=5, fontsize=40)
+
+# Prepare to look up legend color
+legend_dict = dict(zip(labels, handles))
+
+# Add horizontal lines for models without ppl estimates.
+no_ppl_data = joined_data[joined_data.test_ppl.isna()]
+for model_name, rows in no_ppl_data.groupby("pretty_model_name"):
+    y = rows.correct.mean()
+    # TODO show error region?
+    
+    color = "Gray" #tuple(legend_dict[model_name].get_facecolor()[0])
+    ax.axhline(y, c=color, linestyle="dashed", alpha=0.5, zorder=1)
+    
+    # Do some hand-tweaking of spacing.
+    yoffsets = {
+        "GRNN": -0.017,
+        "JRNN": 0,
+        "Random": -0.01
+    }
+    yoffset = yoffsets[model_name] if model_name in yoffsets else -0.0025
+    ax.text(133, y + yoffset, model_name, fontdict={"size": 40})
+    
+plt.xlabel(PERPLEXITY_LABEL)
+plt.ylabel(SG_ABSOLUTE_LABEL)
+
+if RENDER_FINAL:
+    render_final(figure_path / "perplexity.pdf")
+
+
+# In[ ]:
 
 
 f, ax = plt.subplots(figsize=(20, 15))
-sns.scatterplot(data=joined_data, x="test_ppl", y="correct_delta",
+sns.scatterplot(data=joined_data, x="test_ppl", y="correct_delta", # style="pretty_corpus", markers=CORPUS_MARKERS,
                 hue="pretty_corpus", hue_order=corpus_order, s=550, ax=ax)
 
 handles, labels = ax.get_legend_handles_labels()
@@ -567,14 +794,14 @@ if RENDER_FINAL:
 
 # ## Circuit–circuit correlations
 
-# In[35]:
+# In[ ]:
 
 
 # Exclude some models from circuit correlation analysis.
 EXCLUDE_FROM_CIRCUIT_ANALYSIS = ["random", "ngram", "1gram", "ngram-single"]
 
 
-# In[40]:
+# In[ ]:
 
 
 f, axs = plt.subplots(len(circuit_order), len(circuit_order), figsize=(75, 75))
@@ -594,4 +821,35 @@ for c1, row in zip(circuit_order, axs):
         ax.set_title("%s /\n %s" % (c1, c2))
         sns.regplot(data=df, x=c1, y=c2, ax=ax)
         
-plt.suptitle("Circuit--ci
+plt.suptitle("Circuit--circuit correlations")
+
+
+# In[ ]:
+
+
+f, axes = plt.subplots(nrows=1, ncols=3, sharey=True, figsize=(32,10))
+plt.subplots_adjust(wspace=0.1)
+
+source_df = suites_df[~suites_df.model_name.isin(EXCLUDE_FROM_CIRCUIT_ANALYSIS)]
+
+cy = "Garden-Path Effects"
+cxs = ["Licensing", "Long-Distance Dependencies", "Gross Syntactic State"]
+for i, ax in enumerate(axes):
+    cx = cxs[i]
+    xs = source_df[source_df.circuit == cx].groupby(["model_name", "corpus", "seed"]).correct.agg({cx: "mean"})
+    ys = source_df[source_df.circuit == cy].groupby(["model_name", "corpus", "seed"]).correct.agg({cy: "mean"})
+    df = pd.concat([xs, ys], axis=1)
+    sns.regplot(data=df, x=cx, y=cy, ax=ax, color="tab:grey",
+                line_kws=dict(linewidth=10), scatter_kws=dict(s=200, alpha=0.7))
+    if i > 0:
+        ax.set_ylabel("")
+        
+if RENDER_FINAL:
+    render_final(figure_path / "correlations.pdf")
+
+
+# In[ ]:
+
+
+
+
