@@ -54,8 +54,10 @@ PRETTY_COLUMN_MAPS = [
     ("model_name",
      {
         "vanilla": "LSTM",
+        "vanilla-bpe": "LSTM (BPE)",
         "ordered-neurons": "ON-LSTM",
         "rnng": "RNNG",
+        "rnng-bpe": "RNNG (BPE)",
         "ngram": "n-gram",
         "random": "Random",
          
@@ -80,26 +82,26 @@ exclude_suite_re = re.compile(r"^fgd-embed[34]|^gardenpath|^nn-nv")
 exclude_models = ["1gram", "ngram-no-rand"] # "ngram", 
 
 
-# In[67]:
+# In[5]:
 
 
 ngram_models = ["1gram", "ngram", "ngram-single"]
 baseline_models = ["random"]
 
 # Models for which we designed a controlled training regime
-controlled_models = ["ngram", "ordered-neurons", "vanilla", "rnng", "gpt-2", "gpt-2-nobpe"]
+controlled_models = ["ngram", "ordered-neurons", "vanilla", "rnng", "gpt-2", "gpt-2-nobpe", "vanilla-bpe", "rnng-bpe"]
 
 
 # ### Load
 
-# In[68]:
+# In[6]:
 
 
 ppl_data_path = Path("../data/raw/perplexity.csv")
 test_suite_results_path = Path("../data/raw/test_suite_results")
 
 
-# In[69]:
+# In[7]:
 
 
 perplexity_df = pd.read_csv(ppl_data_path, index_col=["model", "corpus", "seed"])
@@ -120,7 +122,7 @@ if tags_missing_circuit:
     print("Tags missing circuit: ", ", ".join(tags_missing_circuit))
 
 
-# In[70]:
+# In[8]:
 
 
 # Exclude test suites
@@ -136,7 +138,7 @@ print("Dropping %i results due to dropping models:" % exclude_filter.sum(), list
 results_df = results_df[~exclude_filter]
 
 
-# In[71]:
+# In[9]:
 
 
 # Average across seeds of each ngram model.
@@ -154,7 +156,7 @@ for ngram_model in ngram_models:
                             ngram_results_df], sort=True)
 
 
-# In[72]:
+# In[10]:
 
 
 # Prettify name columns, which we'll carry through data manipulations
@@ -168,7 +170,7 @@ for column, map_fn in PRETTY_COLUMN_MAPS:
 
 # ### Data prep
 
-# In[73]:
+# In[11]:
 
 
 suites_df = results_df.groupby(["model_name", "corpus", "seed", "suite"] + PRETTY_COLUMNS).correct.mean().reset_index()
@@ -185,7 +187,7 @@ suite_means = suites_df.groupby("suite").apply(get_controlled_mean)
 suites_df["correct_delta"] = suites_df.apply(lambda r: r.correct - suite_means.loc[r.suite] if r.model_name in controlled_models else None, axis=1)
 
 
-# In[74]:
+# In[12]:
 
 
 # Join PPL and accuracy data.
@@ -194,7 +196,7 @@ joined_data = pd.DataFrame(joined_data).join(perplexity_df).reset_index()
 joined_data.head()
 
 
-# In[75]:
+# In[13]:
 
 
 # Join PPL and accuracy data, splitting on circuit.
@@ -203,7 +205,7 @@ joined_data_circuits = pd.DataFrame(joined_data_circuits).reset_index().set_inde
 joined_data_circuits.head()
 
 
-# In[76]:
+# In[14]:
 
 
 # Analyze stability to modification.
@@ -228,7 +230,7 @@ suites_df_mod.head()
 
 # ### Checks
 
-# In[77]:
+# In[15]:
 
 
 # Each model--corpus--seed should have perplexity data.
@@ -241,7 +243,7 @@ if diff:
     #raise ValueError("Each model--corpus--seed must have perplexity data.")
 
 
-# In[78]:
+# In[16]:
 
 
 # Every model--corpus--seed should have results for all test suite items.
@@ -268,7 +270,7 @@ else:
     print("OK")
 
 
-# In[79]:
+# In[17]:
 
 
 # Second sanity check: same number of results per model--corpus--seed
@@ -278,7 +280,7 @@ if len(result_counts.unique()) > 1:
     print(result_counts)
 
 
-# In[80]:
+# In[18]:
 
 
 # Second sanity check: same number of suite-level results per model--corpus--seed
@@ -290,7 +292,7 @@ if len(suite_result_counts.unique()) > 1:
 
 # ## Prepare for data rendering
 
-# In[81]:
+# In[19]:
 
 
 RENDER_FINAL = False
@@ -306,7 +308,7 @@ RENDER_CONTEXT = {
 sns.set(**RENDER_CONTEXT)
 
 
-# In[82]:
+# In[20]:
 
 
 BASELINE_LINESTYLE = {
@@ -322,8 +324,10 @@ CORPUS_MARKERS = {
 p = sns.color_palette()[:len(joined_data.model_name.unique())]
 MODEL_COLORS = {
     "LSTM": p[0],
+    "LSTM (BPE)": p[9],
     "ON-LSTM": p[3],
     "RNNG": p[2],
+    "RNNG (BPE)": p[8],
     "n-gram": "saddlebrown",
     "Random": "darkgrey",
          
@@ -336,7 +340,7 @@ MODEL_COLORS = {
 }
 
 
-# In[83]:
+# In[21]:
 
 
 def render_final(path):
@@ -345,7 +349,7 @@ def render_final(path):
     plt.savefig(path)
 
 
-# In[84]:
+# In[22]:
 
 
 # Standardize axis labels
@@ -354,7 +358,7 @@ SG_DELTA_LABEL = "SG score delta"
 PERPLEXITY_LABEL = "Test perplexity"
 
 
-# In[85]:
+# In[23]:
 
 
 # Establish consistent orderings of model names, corpus names, circuit names
@@ -369,7 +373,7 @@ circuit_order = sorted([c for c in results_df.circuit.dropna().unique()])
 
 # ### Basic barplots
 
-# In[86]:
+# In[24]:
 
 
 f, ax = plt.subplots(figsize=(20, 10))
@@ -399,7 +403,7 @@ if RENDER_FINAL:
 
 # ### Controlled evaluation of model type + dataset size
 
-# In[87]:
+# In[25]:
 
 
 controlled_suites_df = suites_df[suites_df.model_name.isin(controlled_models)]
@@ -407,7 +411,7 @@ controlled_suites_df_mod = suites_df_mod[suites_df_mod.model_name.isin(controlle
 controlled_joined_data_circuits = joined_data_circuits[joined_data_circuits.model_name.isin(controlled_models)]
 
 
-# In[89]:
+# In[26]:
 
 
 plt.subplots(figsize=(40, 12))
@@ -416,7 +420,7 @@ sns.barplot(data=controlled_suites_df[(controlled_suites_df.model_name == "gpt-2
 plt.title("Controlled GPT-2 SG evaluations by tag and training corpus")
 
 
-# In[90]:
+# In[27]:
 
 
 plt.subplots(figsize=(40, 12))
@@ -425,7 +429,7 @@ sns.barplot(data=controlled_suites_df[controlled_suites_df.model_name == "gpt-2-
 plt.title("Controlled GPT-2 (no BPE) SG evaluations by tag and training corpus")
 
 
-# In[91]:
+# In[40]:
 
 
 _, axes = plt.subplots(nrows=1, ncols=2, sharex=False, sharey=True, figsize=(40,12))
@@ -461,7 +465,7 @@ if RENDER_FINAL:
     render_final(figure_path / "controlled.pdf")
 
 
-# In[92]:
+# In[29]:
 
 
 _, axes = plt.subplots(nrows=1, ncols=2, sharex=True, sharey=True, figsize=(40,15))
@@ -488,7 +492,7 @@ if RENDER_FINAL:
     render_final(figure_path / "controlled_circuit.pdf")
 
 
-# In[93]:
+# In[30]:
 
 
 _, ax = plt.subplots(figsize=(40,12))
@@ -508,13 +512,13 @@ if RENDER_FINAL:
 
 # #### Stability to modification
 
-# In[94]:
+# In[31]:
 
 
 controlled_suites_df_mod.suite.unique()
 
 
-# In[95]:
+# In[32]:
 
 
 HATCH = "/"
@@ -572,7 +576,7 @@ if RENDER_FINAL:
     render_final(figure_path / "stability.pdf")
 
 
-# In[96]:
+# In[33]:
 
 
 # Sort by decreasing average accuracy.
@@ -614,7 +618,7 @@ if RENDER_FINAL:
 
 # ### Accuracy vs perplexity
 
-# In[101]:
+# In[34]:
 
 
 f, ax = plt.subplots(figsize=(20, 20))
@@ -662,7 +666,7 @@ if RENDER_FINAL:
     render_final(figure_path / "perplexity.pdf")
 
 
-# In[98]:
+# In[35]:
 
 
 f, ax = plt.subplots(figsize=(20, 18))
@@ -721,7 +725,7 @@ if RENDER_FINAL:
     render_final(figure_path / "perplexity.pdf")
 
 
-# In[102]:
+# In[36]:
 
 
 f, ax = plt.subplots(figsize=(20, 18))
@@ -790,7 +794,7 @@ if RENDER_FINAL:
     render_final(figure_path / "perplexity.pdf")
 
 
-# In[103]:
+# In[ ]:
 
 
 f, ax = plt.subplots(figsize=(20, 15))
@@ -815,14 +819,14 @@ if RENDER_FINAL:
 
 # ## Circuit–circuit correlations
 
-# In[104]:
+# In[ ]:
 
 
 # Exclude some models from circuit correlation analysis.
 EXCLUDE_FROM_CIRCUIT_ANALYSIS = ["random", "ngram", "1gram", "ngram-single"]
 
 
-# In[105]:
+# In[ ]:
 
 
 f, axs = plt.subplots(len(circuit_order), len(circuit_order), figsize=(75, 75))
@@ -846,7 +850,7 @@ if RENDER_FINAL:
     render_final(figure_path / "all-correlations.pdf")
 
 
-# In[106]:
+# In[ ]:
 
 
 f, axes = plt.subplots(nrows=1, ncols=3, sharey=True, figsize=(32,10))
@@ -873,5 +877,25 @@ if RENDER_FINAL:
 # In[ ]:
 
 
+comp_models = ["gpt-2-nobpe", "vanilla"]
+mydf = controlled_suites_df[controlled_suites_df.model_name.isin(comp_models)]
+scatter_points = mydf.groupby("model_name").apply(lambda rows: rows.groupby("suite").correct.mean()).T
+f, ax = plt.subplots(figsize=(20, 10))
+plot = sns.regplot(data=scatter_points.reset_index(), x=comp_models[0], y=comp_models[1], scatter_kws=dict(s=200, alpha=0.7))#, s=400)
 
+for idx, row in scatter_points.iterrows():
+    plot.text(row[comp_models[0]], row[comp_models[1]], idx, size=12)
+
+
+# In[ ]:
+
+
+comp_models = ["gpt-2-nobpe", "gpt-2"]
+mydf = controlled_suites_df[controlled_suites_df.model_name.isin(comp_models)]
+scatter_points = mydf.groupby("model_name").apply(lambda rows: rows.groupby("suite").correct.mean()).T
+f, ax = plt.subplots(figsize=(20, 10))
+plot = sns.regplot(data=scatter_points.reset_index(), x=comp_models[0], y=comp_models[1], scatter_kws=dict(s=200, alpha=0.7))#, s=400)
+
+for idx, row in scatter_points.iterrows():
+    plot.text(row[comp_models[0]], row[comp_models[1]], idx, size=12)
 
