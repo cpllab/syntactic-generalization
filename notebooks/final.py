@@ -429,7 +429,7 @@ sns.barplot(data=controlled_suites_df[controlled_suites_df.model_name == "gpt-2-
 plt.title("Controlled GPT-2 (no BPE) SG evaluations by tag and training corpus")
 
 
-# In[40]:
+# In[28]:
 
 
 _, axes = plt.subplots(nrows=1, ncols=2, sharex=False, sharey=True, figsize=(40,12))
@@ -618,12 +618,12 @@ if RENDER_FINAL:
 
 # ### Accuracy vs perplexity
 
-# In[34]:
+# In[41]:
 
 
 f, ax = plt.subplots(figsize=(20, 20))
 sns.scatterplot(data=joined_data, x="test_ppl", y="correct",
-                hue="pretty_model_name", style="pretty_corpus", s=500,
+                hue="pretty_model_name", style="pretty_corpus", s=400,
                 hue_order=model_order, ax=ax, zorder=2, palette=MODEL_COLORS, alpha=0.7)
 
 legend_title_map = {"pretty_model_name": "Model",
@@ -666,7 +666,7 @@ if RENDER_FINAL:
     render_final(figure_path / "perplexity.pdf")
 
 
-# In[35]:
+# In[36]:
 
 
 f, ax = plt.subplots(figsize=(20, 18))
@@ -725,7 +725,7 @@ if RENDER_FINAL:
     render_final(figure_path / "perplexity.pdf")
 
 
-# In[36]:
+# In[37]:
 
 
 f, ax = plt.subplots(figsize=(20, 18))
