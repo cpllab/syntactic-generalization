@@ -618,7 +618,7 @@ if RENDER_FINAL:
 
 # ### Accuracy vs perplexity
 
-# In[41]:
+# In[34]:
 
 
 f, ax = plt.subplots(figsize=(20, 20))
@@ -666,7 +666,7 @@ if RENDER_FINAL:
     render_final(figure_path / "perplexity.pdf")
 
 
-# In[36]:
+# In[35]:
 
 
 f, ax = plt.subplots(figsize=(20, 18))
@@ -725,7 +725,7 @@ if RENDER_FINAL:
     render_final(figure_path / "perplexity.pdf")
 
 
-# In[37]:
+# In[36]:
 
 
 f, ax = plt.subplots(figsize=(20, 18))
