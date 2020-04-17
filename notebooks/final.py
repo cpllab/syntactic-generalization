@@ -618,6 +618,12 @@ if RENDER_FINAL:
 
 # ### Accuracy vs perplexity
 
+# In[43]:
+
+
+joined_data[(joined_data.model_name == "vanilla") & (joined_data.corpus == "bllip-lg")].correct.mean()
+
+
 # In[34]:
 
 
@@ -725,7 +731,7 @@ if RENDER_FINAL:
     render_final(figure_path / "perplexity.pdf")
 
 
-# In[36]:
+# In[ ]:
 
 
 f, ax = plt.subplots(figsize=(20, 18))
