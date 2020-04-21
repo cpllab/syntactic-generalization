@@ -185,7 +185,7 @@ suite_means = suites_df.groupby("suite").apply(get_controlled_mean)
 suites_df["correct_delta"] = suites_df.apply(lambda r: r.correct - suite_means.loc[r.suite] if r.model_name in controlled_models else None, axis=1)
 
 
-# In[12]:
+# In[70]:
 
 
 # Join PPL and accuracy data.
@@ -193,8 +193,12 @@ joined_data = suites_df.groupby(["model_name", "corpus", "seed"] + PRETTY_COLUMN
 joined_data = pd.DataFrame(joined_data).join(perplexity_df).reset_index()
 joined_data.head()
 
+# Track BPE + size separately.
+joined_data["corpus_size"] = joined_data.corpus.str.split("-").apply(lambda tokens: tokens[1] if len(tokens) >= 2 else None)
+joined_data["corpus_bpe"] = joined_data.corpus.str.split("-").apply(lambda tokens: tokens[2] if len(tokens) > 2 else ("none" if len(tokens) >= 2 else None))
 
-# In[13]:
+
+# In[48]:
 
 
 # Join PPL and accuracy data, splitting on circuit.
@@ -203,7 +207,7 @@ joined_data_circuits = pd.DataFrame(joined_data_circuits).reset_index().set_inde
 joined_data_circuits.head()
 
 
-# In[14]:
+# In[49]:
 
 
 # Analyze stability to modification.
@@ -228,7 +232,7 @@ suites_df_mod.head()
 
 # ### Checks
 
-# In[15]:
+# In[50]:
 
 
 # Each model--corpus--seed should have perplexity data.
@@ -627,15 +631,22 @@ if RENDER_FINAL:
 
 # ### Accuracy vs perplexity
 
-# In[34]:
+# In[66]:
+
+
+joined_data
+
+
+# In[71]:
 
 
 f, ax = plt.subplots(figsize=(20, 20))
 filled_markers = ('v', '^', '<', '>', '8', 's', 'p', '*', 'h', 'H', 'D', 'd', 'P', 'X')
 sns.scatterplot(data=joined_data, x="test_ppl", y="correct",
-                hue="pretty_model_name", hue_order=model_order, palette=MODEL_COLORS, 
-                style="pretty_corpus", style_order=corpus_order, markers=filled_markers,
-                s=400, ax=ax, zorder=2, alpha=0.7)
+                hue="pretty_model_name", hue_order=model_order, palette=MODEL_COLORS,
+                size="corpus_size", sizes={"lg": 600, "md": 400, "sm": 200, "xs": 50},
+                style="corpus_bpe", #style_order=corpus_order, markers=filled_markers,
+                ax=ax, zorder=2, alpha=0.7)
 
 legend_title_map = {"pretty_model_name": "Model",
                     "pretty_corpus": "Corpus"}
@@ -647,8 +658,9 @@ drop_labels = []
 drop_idxs = [labels.index(l) for l in drop_labels]
 handles = [h for i, h in enumerate(handles) if i not in drop_idxs]
 labels = [l for i, l in enumerate(labels) if i not in drop_idxs]
-for h in handles:
-    h.set_sizes([300.0])
+for l, h in zip(labels, handles):
+    if l not in joined_data.corpus_size.unique():
+        h.set_sizes([300.0])
 
 # Prepare to look up legend color
 legend_dict = dict(zip(labels, handles))
@@ -829,30 +841,30 @@ if RENDER_FINAL:
 
 # ## BPE analyses
 
-# In[40]:
+# In[74]:
 
 
 bpe_df = joined_df_controlled.copy()
 bpe_df = bpe_df[bpe_df.model_name.isin(["gpt-2", "rnng", "vanilla"])]
-bpe_df["size"] = bpe_df.corpus.str.split("-").apply(lambda tokens: tokens[1])
-bpe_df["bpe"] = bpe_df.corpus.str.split("-").apply(lambda tokens: tokens[2] if len(tokens) > 2 else "none")
+bpe_df["corpus_size"] = bpe_df.corpus.str.split("-").apply(lambda tokens: tokens[1])
+bpe_df["corpus_bpe"] = bpe_df.corpus.str.split("-").apply(lambda tokens: tokens[2] if len(tokens) > 2 else "none")
 bpe_df.head()
 
 
-# In[41]:
+# In[75]:
 
 
-bpe_results = bpe_df.groupby(["model_name", "bpe"]).mean().reset_index().pivot("model_name", "bpe", ["correct", "test_ppl"])
+bpe_results = bpe_df.groupby(["model_name", "corpus_bpe"]).mean().reset_index().pivot("model_name", "corpus_bpe", ["correct", "test_ppl"])
 bpe_results
 
 
-# In[42]:
+# In[76]:
 
 
 ax = sns.heatmap(bpe_results.loc[:, pd.IndexSlice["correct", :]])
 
 
-# In[43]:
+# In[77]:
 
 
 ax = sns.heatmap(bpe_results.loc[:, pd.IndexSlice["test_ppl", :]])
