@@ -54,16 +54,14 @@ PRETTY_COLUMN_MAPS = [
     ("model_name",
      {
         "vanilla": "LSTM",
-        "vanilla-bpe": "LSTM (BPE)",
         "ordered-neurons": "ON-LSTM",
         "rnng": "RNNG",
-        "rnng-bpe": "RNNG (BPE)",
         "ngram": "n-gram",
         "random": "Random",
          
+        "gpt-2-pretrained": "GPT-2 (pretrained)",
+        "gpt-2-xl-pretrained": "GPT-2-XL (pretrained)",
         "gpt-2": "GPT-2",
-        "gpt-2-xl": "GPT-2-XL",
-        "gpt-2-nobpe": "GPT-2 (no BPE)",
         "transformer-xl": "Transformer-XL",
         "grnn": "GRNN",
         "jrnn": "JRNN",
@@ -89,7 +87,7 @@ ngram_models = ["1gram", "ngram", "ngram-single"]
 baseline_models = ["random"]
 
 # Models for which we designed a controlled training regime
-controlled_models = ["ngram", "ordered-neurons", "vanilla", "rnng", "gpt-2", "gpt-2-nobpe", "vanilla-bpe", "rnng-bpe"]
+controlled_models = ["ngram", "ordered-neurons", "vanilla", "rnng", "gpt-2"]
 
 
 # ### Load
@@ -308,7 +306,7 @@ RENDER_CONTEXT = {
 sns.set(**RENDER_CONTEXT)
 
 
-# In[20]:
+# In[21]:
 
 
 BASELINE_LINESTYLE = {
@@ -319,28 +317,34 @@ CORPUS_MARKERS = {
     "BLLIP-LG": "s",
     "BLLIP-MD": "v",
     "BLLIP-SM": "P",
-    "BLLIP-XS": "X"
+    "BLLIP-XS": "X",
+    
+    "BLLIP-LG-BPE": "s",
+    "BLLIP-MD-BPE": "v",
+
+    "BLLIP-LG-GPTBPE": "s",
+    "BLLIP-MD-GPTBPE": "v",
+    "BLLIP-SM-GPTBPE": "P",
+    "BLLIP-XS-GPTBPE": "X"
 }
 p = sns.color_palette()[:len(joined_data.model_name.unique())]
 MODEL_COLORS = {
     "LSTM": p[0],
-    "LSTM (BPE)": p[9],
     "ON-LSTM": p[3],
     "RNNG": p[2],
-    "RNNG (BPE)": p[8],
     "n-gram": "saddlebrown",
     "Random": "darkgrey",
          
-    "GPT-2": p[1],
-    "GPT-2-XL": p[4],
-    "GPT-2 (no BPE)": p[7],
+    "GPT-2 (pretrained)": p[1],
+    "GPT-2-XL (pretrained)": p[4],
+    "GPT-2": p[7],
     "Transformer-XL": p[5],
     "GRNN": p[6],
     "JRNN": "gold"
 }
 
 
-# In[21]:
+# In[22]:
 
 
 def render_final(path):
@@ -349,7 +353,7 @@ def render_final(path):
     plt.savefig(path)
 
 
-# In[22]:
+# In[23]:
 
 
 # Standardize axis labels
@@ -358,14 +362,16 @@ SG_DELTA_LABEL = "SG score delta"
 PERPLEXITY_LABEL = "Test perplexity"
 
 
-# In[23]:
+# In[24]:
 
 
 # Establish consistent orderings of model names, corpus names, circuit names
 # for figure ordering / coloring. (NB these refer to prettified names)
 model_order = sorted(set(results_df.pretty_model_name))
 controlled_model_order = sorted(set(results_df[results_df.model_name.isin(controlled_models)].pretty_model_name))
-corpus_order = ["BLLIP-LG", "BLLIP-MD", "BLLIP-SM", "BLLIP-XS"]
+corpus_order = ["BLLIP-LG", "BLLIP-MD", "BLLIP-SM", "BLLIP-XS",
+                "BLLIP-LG-BPE", "BLLIP-LG-GPTBPE", 
+                "BLLIP-MD-GPTBPE", "BLLIP-SM-GPTBPE", "BLLIP-XS-GPTBPE"]
 circuit_order = sorted([c for c in results_df.circuit.dropna().unique()])
 
 
@@ -373,7 +379,7 @@ circuit_order = sorted([c for c in results_df.circuit.dropna().unique()])
 
 # ### Basic barplots
 
-# In[24]:
+# In[25]:
 
 
 f, ax = plt.subplots(figsize=(20, 10))
@@ -403,7 +409,7 @@ if RENDER_FINAL:
 
 # ### Controlled evaluation of model type + dataset size
 
-# In[25]:
+# In[26]:
 
 
 controlled_suites_df = suites_df[suites_df.model_name.isin(controlled_models)]
@@ -411,25 +417,25 @@ controlled_suites_df_mod = suites_df_mod[suites_df_mod.model_name.isin(controlle
 controlled_joined_data_circuits = joined_data_circuits[joined_data_circuits.model_name.isin(controlled_models)]
 
 
-# In[26]:
-
-
-plt.subplots(figsize=(40, 12))
-sns.barplot(data=controlled_suites_df[(controlled_suites_df.model_name == "gpt-2") & ~(controlled_suites_df.corpus == "")].reset_index(),
-            x="tag", hue="corpus", y="correct")
-plt.title("Controlled GPT-2 SG evaluations by tag and training corpus")
-
-
 # In[27]:
 
 
 plt.subplots(figsize=(40, 12))
-sns.barplot(data=controlled_suites_df[controlled_suites_df.model_name == "gpt-2-nobpe"].reset_index(),
+sns.barplot(data=controlled_suites_df[(controlled_suites_df.model_name == "gpt-2")].reset_index(),
+            x="tag", hue="corpus", y="correct")
+plt.title("Controlled GPT-2 SG evaluations by tag and training corpus")
+
+
+# In[28]:
+
+
+plt.subplots(figsize=(40, 12))
+sns.barplot(data=controlled_suites_df[(controlled_suites_df.model_name == "gpt-2") & ~(controlled_suites_df.corpus.str.contains("bpe"))].reset_index(),
             x="tag", hue="corpus", y="correct")
 plt.title("Controlled GPT-2 (no BPE) SG evaluations by tag and training corpus")
 
 
-# In[28]:
+# In[29]:
 
 
 _, axes = plt.subplots(nrows=1, ncols=2, sharex=False, sharey=True, figsize=(40,12))
@@ -465,7 +471,7 @@ if RENDER_FINAL:
     render_final(figure_path / "controlled.pdf")
 
 
-# In[29]:
+# In[30]:
 
 
 _, axes = plt.subplots(nrows=1, ncols=2, sharex=True, sharey=True, figsize=(40,15))
@@ -492,7 +498,7 @@ if RENDER_FINAL:
     render_final(figure_path / "controlled_circuit.pdf")
 
 
-# In[30]:
+# In[31]:
 
 
 _, ax = plt.subplots(figsize=(40,12))
@@ -512,13 +518,13 @@ if RENDER_FINAL:
 
 # #### Stability to modification
 
-# In[31]:
+# In[32]:
 
 
 controlled_suites_df_mod.suite.unique()
 
 
-# In[32]:
+# In[36]:
 
 
 HATCH = "/"
@@ -567,6 +573,9 @@ for i, ax in enumerate(axes):
         ax.set_xlabel("Corpus", labelpad=16)
         ax.set_ylabel("")
         
+        # Ticks.
+        ax.set_xticklabels(ax.get_xticklabels(), rotation=20, horizontalalignment="right")
+        
         # Custom legend.
         handles, _ = ax.get_legend_handles_labels()
         ax.legend(handles, MOD_STABILITY_LABELS, loc="upper right", title="", ncol=2)
@@ -576,7 +585,7 @@ if RENDER_FINAL:
     render_final(figure_path / "stability.pdf")
 
 
-# In[33]:
+# In[34]:
 
 
 # Sort by decreasing average accuracy.
@@ -618,19 +627,15 @@ if RENDER_FINAL:
 
 # ### Accuracy vs perplexity
 
-# In[43]:
-
-
-joined_data[(joined_data.model_name == "vanilla") & (joined_data.corpus == "bllip-lg")].correct.mean()
-
-
-# In[34]:
+# In[41]:
 
 
 f, ax = plt.subplots(figsize=(20, 20))
+filled_markers = ('v', '^', '<', '>', '8', 's', 'p', '*', 'h', 'H', 'D', 'd', 'P', 'X')
 sns.scatterplot(data=joined_data, x="test_ppl", y="correct",
-                hue="pretty_model_name", style="pretty_corpus", s=400,
-                hue_order=model_order, ax=ax, zorder=2, palette=MODEL_COLORS, alpha=0.7)
+                hue="pretty_model_name", hue_order=model_order, palette=MODEL_COLORS, 
+                style="pretty_corpus", style_order=corpus_order, markers=filled_markers,
+                s=400, ax=ax, zorder=2, alpha=0.7)
 
 legend_title_map = {"pretty_model_name": "Model",
                     "pretty_corpus": "Corpus"}
@@ -638,7 +643,7 @@ handles, labels = ax.get_legend_handles_labels()
 # Re-map some labels.
 labels = [legend_title_map.get(l, l) for l in labels]
 # Drop some legend entries.
-drop_labels = ["N/A"]
+drop_labels = []
 drop_idxs = [labels.index(l) for l in drop_labels]
 handles = [h for i, h in enumerate(handles) if i not in drop_idxs]
 labels = [l for i, l in enumerate(labels) if i not in drop_idxs]
@@ -672,7 +677,7 @@ if RENDER_FINAL:
     render_final(figure_path / "perplexity.pdf")
 
 
-# In[35]:
+# In[42]:
 
 
 f, ax = plt.subplots(figsize=(20, 18))
@@ -731,7 +736,7 @@ if RENDER_FINAL:
     render_final(figure_path / "perplexity.pdf")
 
 
-# In[ ]:
+# In[43]:
 
 
 f, ax = plt.subplots(figsize=(20, 18))
@@ -741,7 +746,6 @@ MODEL_MARKERS={
     "ON-LSTM":"P",
     "RNNG": "o",
     "GPT-2": "*",
-    "GPT-2 (no BPE)": "*",
 }
 joined_df_controlled = joined_data.dropna(subset=["test_ppl"])
 sns.scatterplot(data=joined_df_controlled, x="test_ppl", y="correct",
@@ -800,7 +804,7 @@ if RENDER_FINAL:
     render_final(figure_path / "perplexity.pdf")
 
 
-# In[ ]:
+# In[44]:
 
 
 f, ax = plt.subplots(figsize=(20, 15))
@@ -821,6 +825,43 @@ plt.ylabel(SG_DELTA_LABEL)
 
 if RENDER_FINAL:
     render_final(figure_path / "perplexity_corpus.png")
+
+
+# ## BPE analyses
+
+# In[67]:
+
+
+bpe_df = joined_df_controlled.copy()
+bpe_df = bpe_df[bpe_df.model_name.isin(["gpt-2", "rnng", "vanilla"])]
+bpe_df["size"] = bpe_df.corpus.str.split("-").apply(lambda tokens: tokens[1])
+bpe_df["bpe"] = bpe_df.corpus.str.split("-").apply(lambda tokens: tokens[2] if len(tokens) > 2 else "none")
+bpe_df.head()
+
+
+# In[71]:
+
+
+bpe_results = bpe_df.groupby(["model_name", "bpe"]).mean().reset_index().pivot("model_name", "bpe", ["correct", "test_ppl"])
+bpe_results
+
+
+# In[72]:
+
+
+ax = sns.heatmap(bpe_results.loc[:, pd.IndexSlice["correct", :]])
+
+
+# In[73]:
+
+
+ax = sns.heatmap(bpe_results.loc[:, pd.IndexSlice["test_ppl", :]])
+
+
+# In[51]:
+
+
+sns.boxplot(data=bpe_df, x="bpe", y="correct")
 
 
 # ## Circuit–circuit correlations
