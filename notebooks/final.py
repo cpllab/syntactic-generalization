@@ -306,7 +306,7 @@ RENDER_CONTEXT = {
 sns.set(**RENDER_CONTEXT)
 
 
-# In[21]:
+# In[20]:
 
 
 BASELINE_LINESTYLE = {
@@ -344,7 +344,7 @@ MODEL_COLORS = {
 }
 
 
-# In[22]:
+# In[21]:
 
 
 def render_final(path):
@@ -353,7 +353,7 @@ def render_final(path):
     plt.savefig(path)
 
 
-# In[23]:
+# In[22]:
 
 
 # Standardize axis labels
@@ -362,7 +362,7 @@ SG_DELTA_LABEL = "SG score delta"
 PERPLEXITY_LABEL = "Test perplexity"
 
 
-# In[24]:
+# In[23]:
 
 
 # Establish consistent orderings of model names, corpus names, circuit names
@@ -379,7 +379,7 @@ circuit_order = sorted([c for c in results_df.circuit.dropna().unique()])
 
 # ### Basic barplots
 
-# In[25]:
+# In[24]:
 
 
 f, ax = plt.subplots(figsize=(20, 10))
@@ -409,7 +409,7 @@ if RENDER_FINAL:
 
 # ### Controlled evaluation of model type + dataset size
 
-# In[26]:
+# In[25]:
 
 
 controlled_suites_df = suites_df[suites_df.model_name.isin(controlled_models)]
@@ -417,7 +417,7 @@ controlled_suites_df_mod = suites_df_mod[suites_df_mod.model_name.isin(controlle
 controlled_joined_data_circuits = joined_data_circuits[joined_data_circuits.model_name.isin(controlled_models)]
 
 
-# In[27]:
+# In[26]:
 
 
 plt.subplots(figsize=(40, 12))
@@ -426,7 +426,7 @@ sns.barplot(data=controlled_suites_df[(controlled_suites_df.model_name == "gpt-2
 plt.title("Controlled GPT-2 SG evaluations by tag and training corpus")
 
 
-# In[28]:
+# In[27]:
 
 
 plt.subplots(figsize=(40, 12))
@@ -435,7 +435,7 @@ sns.barplot(data=controlled_suites_df[(controlled_suites_df.model_name == "gpt-2
 plt.title("Controlled GPT-2 (no BPE) SG evaluations by tag and training corpus")
 
 
-# In[29]:
+# In[28]:
 
 
 _, axes = plt.subplots(nrows=1, ncols=2, sharex=False, sharey=True, figsize=(40,12))
@@ -471,7 +471,7 @@ if RENDER_FINAL:
     render_final(figure_path / "controlled.pdf")
 
 
-# In[30]:
+# In[29]:
 
 
 _, axes = plt.subplots(nrows=1, ncols=2, sharex=True, sharey=True, figsize=(40,15))
@@ -498,7 +498,7 @@ if RENDER_FINAL:
     render_final(figure_path / "controlled_circuit.pdf")
 
 
-# In[31]:
+# In[30]:
 
 
 _, ax = plt.subplots(figsize=(40,12))
@@ -518,13 +518,13 @@ if RENDER_FINAL:
 
 # #### Stability to modification
 
-# In[32]:
+# In[31]:
 
 
 controlled_suites_df_mod.suite.unique()
 
 
-# In[36]:
+# In[32]:
 
 
 HATCH = "/"
@@ -585,7 +585,7 @@ if RENDER_FINAL:
     render_final(figure_path / "stability.pdf")
 
 
-# In[34]:
+# In[33]:
 
 
 # Sort by decreasing average accuracy.
@@ -627,7 +627,7 @@ if RENDER_FINAL:
 
 # ### Accuracy vs perplexity
 
-# In[41]:
+# In[34]:
 
 
 f, ax = plt.subplots(figsize=(20, 20))
@@ -677,7 +677,7 @@ if RENDER_FINAL:
     render_final(figure_path / "perplexity.pdf")
 
 
-# In[42]:
+# In[35]:
 
 
 f, ax = plt.subplots(figsize=(20, 18))
@@ -736,7 +736,7 @@ if RENDER_FINAL:
     render_final(figure_path / "perplexity.pdf")
 
 
-# In[43]:
+# In[ ]:
 
 
 f, ax = plt.subplots(figsize=(20, 18))
@@ -804,7 +804,7 @@ if RENDER_FINAL:
     render_final(figure_path / "perplexity.pdf")
 
 
-# In[44]:
+# In[36]:
 
 
 f, ax = plt.subplots(figsize=(20, 15))
@@ -829,7 +829,7 @@ if RENDER_FINAL:
 
 # ## BPE analyses
 
-# In[67]:
+# In[40]:
 
 
 bpe_df = joined_df_controlled.copy()
@@ -839,26 +839,26 @@ bpe_df["bpe"] = bpe_df.corpus.str.split("-").apply(lambda tokens: tokens[2] if l
 bpe_df.head()
 
 
-# In[71]:
+# In[41]:
 
 
 bpe_results = bpe_df.groupby(["model_name", "bpe"]).mean().reset_index().pivot("model_name", "bpe", ["correct", "test_ppl"])
 bpe_results
 
 
-# In[72]:
+# In[42]:
 
 
 ax = sns.heatmap(bpe_results.loc[:, pd.IndexSlice["correct", :]])
 
 
-# In[73]:
+# In[43]:
 
 
 ax = sns.heatmap(bpe_results.loc[:, pd.IndexSlice["test_ppl", :]])
 
 
-# In[51]:
+# In[44]:
 
 
 sns.boxplot(data=bpe_df, x="bpe", y="correct")
