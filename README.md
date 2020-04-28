@@ -10,3 +10,11 @@ This repository contains the analysis code and raw data for the following paper,
   year = {2020}
 }
 ```
+
+## Figures
+
+To reproduce the figures in our paper, please run the iPython notebook
+at [notebooks/main.ipynb](notebooks/main.ipynb). The only dependencies
+are basic scientific Python (`numpy`, `pandas`, `scipy`, `matplotlib`, etc.).
+
+The raw data can be found at [data/raw](data/raw).
