@@ -1,0 +1,4756 @@
+{
+    "meta": {
+        "name": "number_orc",
+        "metric": "sum",
+        "comment": "",
+        "reference": "",
+        "author": "",
+        "string_predictions": [
+            "[(7;%match_sing%) < (7;%mismatch_sing%)] & [(7;%match_plural%) < (7;%mismatch_plural%)]"
+        ]
+    },
+    "region_meta": {
+        "1": "intro",
+        "2": "np_sing",
+        "3": "that",
+        "4": "the",
+        "5": "embed_np",
+        "6": "embed_vp",
+        "7": "matrix_v",
+        "8": "continuation"
+    },
+    "predictions": [],
+    "items": [
+        {
+            "item_number": 1,
+            "conditions": [
+                {
+                    "condition_name": "match_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 17.792949444943414
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "author",
+                            "metric_value": {
+                                "sum": 12.795356568487184
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 2.432162079833525
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 9.690693916951583
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "senators",
+                            "metric_value": {
+                                "sum": 5.245230470581756
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "hurt",
+                            "metric_value": {
+                                "sum": 1.4570844147964723
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "is",
+                            "metric_value": {
+                                "sum": 7.205360327472988
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 11.425935476015699
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 15.598356435933642
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "author",
+                            "metric_value": {
+                                "sum": 13.484822309445848
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 10.404587268673586
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 11.789707375455237
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "senators",
+                            "metric_value": {
+                                "sum": 9.80645549703055
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "hurt",
+                            "metric_value": {
+                                "sum": 12.258637812277899
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "are",
+                            "metric_value": {
+                                "sum": 14.413405775982568
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 14.689247052990172
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "match_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 13.671910883979237
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "authors",
+                            "metric_value": {
+                                "sum": 15.488566534269898
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 5.41061650364782
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 3.025956279941983
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "senator",
+                            "metric_value": {
+                                "sum": 17.435602460672122
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "hurt",
+                            "metric_value": {
+                                "sum": 19.84743742698154
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "are",
+                            "metric_value": {
+                                "sum": 19.10772691969177
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 4.806509651369384
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 13.98675339864925
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "authors",
+                            "metric_value": {
+                                "sum": 15.662138038081908
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 17.69314466868343
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 17.45171513562258
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "senator",
+                            "metric_value": {
+                                "sum": 5.3887674954770235
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "hurt",
+                            "metric_value": {
+                                "sum": 6.602242196128856
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "is",
+                            "metric_value": {
+                                "sum": 3.384566962545932
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 19.93498123496982
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 2,
+            "conditions": [
+                {
+                    "condition_name": "match_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 14.848748618464032
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "pilot",
+                            "metric_value": {
+                                "sum": 12.04338264281133
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 10.390925635217995
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 13.16539411917357
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "teachers",
+                            "metric_value": {
+                                "sum": 14.39193781188431
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "injured",
+                            "metric_value": {
+                                "sum": 13.497265960847075
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "brings",
+                            "metric_value": {
+                                "sum": 9.009532683324112
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "love to people",
+                            "metric_value": {
+                                "sum": 17.383762683389715
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 6.564148994297334
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "pilot",
+                            "metric_value": {
+                                "sum": 10.319231803704461
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 10.048992966825912
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 2.48687328721561
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "teachers",
+                            "metric_value": {
+                                "sum": 11.795756250674943
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "injured",
+                            "metric_value": {
+                                "sum": 18.915611515230886
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "bring",
+                            "metric_value": {
+                                "sum": 6.260555331290561
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "love to people",
+                            "metric_value": {
+                                "sum": 18.64583690802237
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 16.110643315143825
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "pilots",
+                            "metric_value": {
+                                "sum": 17.786928086946183
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 14.843619952931876
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 14.124945258347552
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "teacher",
+                            "metric_value": {
+                                "sum": 7.8765697077506225
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "injured",
+                            "metric_value": {
+                                "sum": 6.5618964631564936
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "brings",
+                            "metric_value": {
+                                "sum": 16.043006920488452
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "love to people",
+                            "metric_value": {
+                                "sum": 7.278050070125229
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "match_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 11.383213836959566
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "pilots",
+                            "metric_value": {
+                                "sum": 5.032437908298246
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 15.581357164871429
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 3.363906113311081
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "teacher",
+                            "metric_value": {
+                                "sum": 16.972240289244823
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "injured",
+                            "metric_value": {
+                                "sum": 2.587554261672599
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "bring",
+                            "metric_value": {
+                                "sum": 4.455875842217474
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "love to people",
+                            "metric_value": {
+                                "sum": 14.08303595176884
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 3,
+            "conditions": [
+                {
+                    "condition_name": "match_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 19.063980075808065
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "doctor",
+                            "metric_value": {
+                                "sum": 11.516534084664865
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 3.2906669170613374
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 11.46244329317673
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "guards",
+                            "metric_value": {
+                                "sum": 14.770283263625062
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "doubted",
+                            "metric_value": {
+                                "sum": 13.280477341817573
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "interests",
+                            "metric_value": {
+                                "sum": 17.303373014648976
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "people",
+                            "metric_value": {
+                                "sum": 4.731740777385228
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 13.781545585031477
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "doctor",
+                            "metric_value": {
+                                "sum": 12.371181019443426
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 19.968645149995854
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 6.340801743977849
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "guards",
+                            "metric_value": {
+                                "sum": 14.732063071889065
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "doubted",
+                            "metric_value": {
+                                "sum": 1.0130783881584349
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "interest",
+                            "metric_value": {
+                                "sum": 11.170611265245896
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "people",
+                            "metric_value": {
+                                "sum": 17.094376080644494
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 5.422749054181525
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "doctors",
+                            "metric_value": {
+                                "sum": 13.802467203541715
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 18.685300077017743
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 11.73291340106741
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "guard",
+                            "metric_value": {
+                                "sum": 15.165161808698256
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "doubted",
+                            "metric_value": {
+                                "sum": 18.962254671572044
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "interests",
+                            "metric_value": {
+                                "sum": 13.253311834923931
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "people",
+                            "metric_value": {
+                                "sum": 10.459200499700842
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "match_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 19.010756978877883
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "doctors",
+                            "metric_value": {
+                                "sum": 2.672445873019307
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 13.75119655198647
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 1.5489106371483772
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "guard",
+                            "metric_value": {
+                                "sum": 9.4984846196903
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "doubted",
+                            "metric_value": {
+                                "sum": 14.375354542821452
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "interest",
+                            "metric_value": {
+                                "sum": 14.39907471547757
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "people",
+                            "metric_value": {
+                                "sum": 12.943961025683882
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 4,
+            "conditions": [
+                {
+                    "condition_name": "match_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 6.52832564595927
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "farmer",
+                            "metric_value": {
+                                "sum": 3.101971523747762
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 16.69399352754296
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 4.406233216838384
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "clerks",
+                            "metric_value": {
+                                "sum": 15.88239830320575
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "embarrassed",
+                            "metric_value": {
+                                "sum": 10.167224576553563
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "knows",
+                            "metric_value": {
+                                "sum": 2.521876716086281
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "many people",
+                            "metric_value": {
+                                "sum": 9.78160234928172
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 3.837238551673182
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "farmer",
+                            "metric_value": {
+                                "sum": 7.179338382209511
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 17.382074843688642
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 19.206112509742994
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "clerks",
+                            "metric_value": {
+                                "sum": 6.155804963596763
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "embarrassed",
+                            "metric_value": {
+                                "sum": 2.717126152214915
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "know",
+                            "metric_value": {
+                                "sum": 8.735860765433113
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "many people",
+                            "metric_value": {
+                                "sum": 15.49314951221368
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 8.32456564990257
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "farmers",
+                            "metric_value": {
+                                "sum": 4.696050299962783
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 3.2056166244536533
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 17.570243619568114
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "clerk",
+                            "metric_value": {
+                                "sum": 19.884536867033123
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "embarrassed",
+                            "metric_value": {
+                                "sum": 9.138777119464036
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "knows",
+                            "metric_value": {
+                                "sum": 1.7341117334225322
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "many people",
+                            "metric_value": {
+                                "sum": 7.400846939907554
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "match_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 17.248018875477324
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "farmers",
+                            "metric_value": {
+                                "sum": 4.4073151323682165
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 2.7862527523423815
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 11.986324406028327
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "clerk",
+                            "metric_value": {
+                                "sum": 8.811335077123669
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "embarrassed",
+                            "metric_value": {
+                                "sum": 9.529648692184967
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "know",
+                            "metric_value": {
+                                "sum": 6.2419443566048916
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "many people",
+                            "metric_value": {
+                                "sum": 4.265630369723729
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 5,
+            "conditions": [
+                {
+                    "condition_name": "match_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 9.470149020900253
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "manager",
+                            "metric_value": {
+                                "sum": 10.574766846675441
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 18.74861957772248
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 7.308498326876872
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "architects",
+                            "metric_value": {
+                                "sum": 11.238560499299322
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "disguised",
+                            "metric_value": {
+                                "sum": 7.8233899257437685
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "likes",
+                            "metric_value": {
+                                "sum": 17.719377113227292
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "to gamble",
+                            "metric_value": {
+                                "sum": 14.304729823936576
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 2.2182856518502074
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "manager",
+                            "metric_value": {
+                                "sum": 8.481420386920426
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 11.62746971387579
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 13.218946515085666
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "architects",
+                            "metric_value": {
+                                "sum": 14.960740427139426
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "disguised",
+                            "metric_value": {
+                                "sum": 11.939543324028119
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "like",
+                            "metric_value": {
+                                "sum": 6.981638458679953
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "to gamble",
+                            "metric_value": {
+                                "sum": 1.7433830987616574
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 1.6580773727299736
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "managers",
+                            "metric_value": {
+                                "sum": 12.25130865690856
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 15.637638833811515
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 14.645824192523202
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "architect",
+                            "metric_value": {
+                                "sum": 8.16070585170094
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "disguised",
+                            "metric_value": {
+                                "sum": 15.356893077604584
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "likes",
+                            "metric_value": {
+                                "sum": 12.395760854979857
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "to gamble",
+                            "metric_value": {
+                                "sum": 17.109557580149808
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "match_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 19.04191802640889
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "managers",
+                            "metric_value": {
+                                "sum": 14.357918905947932
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 12.709012014288769
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 19.407026875027086
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "architect",
+                            "metric_value": {
+                                "sum": 4.882033961985272
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "disguised",
+                            "metric_value": {
+                                "sum": 14.354637970522315
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "like",
+                            "metric_value": {
+                                "sum": 7.3709036541280835
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "to gamble",
+                            "metric_value": {
+                                "sum": 16.591389977479537
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 6,
+            "conditions": [
+                {
+                    "condition_name": "match_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 12.19334695589158
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "customer",
+                            "metric_value": {
+                                "sum": 8.771097781572614
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 18.54684531977503
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 9.887650306632422
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "athletes",
+                            "metric_value": {
+                                "sum": 1.5289485240069878
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "hated",
+                            "metric_value": {
+                                "sum": 10.177939189105498
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "enjoys",
+                            "metric_value": {
+                                "sum": 6.709856586585716
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "playing tennis",
+                            "metric_value": {
+                                "sum": 15.58007541721987
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 15.079712494711233
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "customer",
+                            "metric_value": {
+                                "sum": 11.860461647474008
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 9.476025564238752
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 15.213525714428298
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "athletes",
+                            "metric_value": {
+                                "sum": 6.148377411053012
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "hated",
+                            "metric_value": {
+                                "sum": 9.880717218498068
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "enjoy",
+                            "metric_value": {
+                                "sum": 17.00519839080201
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "playing tennis",
+                            "metric_value": {
+                                "sum": 5.4306588512986895
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 8.511383456357176
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "customers",
+                            "metric_value": {
+                                "sum": 19.349512115718184
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 4.151258146913475
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 11.28658833439123
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "athlete",
+                            "metric_value": {
+                                "sum": 16.3298717744171
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "hated",
+                            "metric_value": {
+                                "sum": 3.684902059210306
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "enjoys",
+                            "metric_value": {
+                                "sum": 3.046340968571499
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "playing tennis",
+                            "metric_value": {
+                                "sum": 10.50129398228735
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "match_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 12.644840373079974
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "customers",
+                            "metric_value": {
+                                "sum": 3.08636180155789
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 9.979609964723812
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 2.661250589655471
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "athlete",
+                            "metric_value": {
+                                "sum": 12.2246735006817
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "hated",
+                            "metric_value": {
+                                "sum": 18.714465499320085
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "enjoy",
+                            "metric_value": {
+                                "sum": 5.3001449091766935
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "playing tennis",
+                            "metric_value": {
+                                "sum": 4.825736118667691
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 7,
+            "conditions": [
+                {
+                    "condition_name": "match_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 13.440980696536572
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "officer",
+                            "metric_value": {
+                                "sum": 2.0253223000541185
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 13.782439009221985
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 17.73667668645477
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "actors",
+                            "metric_value": {
+                                "sum": 14.497290129833226
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "liked",
+                            "metric_value": {
+                                "sum": 5.448875125789779
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "is",
+                            "metric_value": {
+                                "sum": 1.0448951595370182
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 14.833068371832
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 18.013155568475163
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "officer",
+                            "metric_value": {
+                                "sum": 16.726839949945703
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 5.256279818756436
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 7.192102708528789
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "actors",
+                            "metric_value": {
+                                "sum": 13.670296344076387
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "liked",
+                            "metric_value": {
+                                "sum": 16.85467162618447
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "are",
+                            "metric_value": {
+                                "sum": 14.58588068091275
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 8.183205849602544
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 15.997030837660352
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "officers",
+                            "metric_value": {
+                                "sum": 2.113602824125681
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 4.5154109882657245
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 3.6185748049393056
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "actor",
+                            "metric_value": {
+                                "sum": 5.3556720292401465
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "liked",
+                            "metric_value": {
+                                "sum": 12.240946138112735
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "is",
+                            "metric_value": {
+                                "sum": 1.8906937026776864
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 8.727013960351305
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "match_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 9.743008984412587
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "officers",
+                            "metric_value": {
+                                "sum": 19.78584872966621
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 5.006313399023961
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 1.982796049033304
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "actor",
+                            "metric_value": {
+                                "sum": 1.5086953800892244
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "liked",
+                            "metric_value": {
+                                "sum": 7.84112225977906
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "are",
+                            "metric_value": {
+                                "sum": 6.521098624497702
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 10.487532536547045
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 8,
+            "conditions": [
+                {
+                    "condition_name": "match_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 17.813671613183853
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "teacher",
+                            "metric_value": {
+                                "sum": 2.106992960147177
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 2.2312197769673774
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 5.777069243121233
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "ministers",
+                            "metric_value": {
+                                "sum": 10.487955910789646
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "hurt",
+                            "metric_value": {
+                                "sum": 17.57437404129343
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "is",
+                            "metric_value": {
+                                "sum": 7.041953529667309
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 12.320477747862652
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 2.760042644357586
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "teacher",
+                            "metric_value": {
+                                "sum": 5.19240313741392
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 7.2682192391601825
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 18.00805947337403
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "ministers",
+                            "metric_value": {
+                                "sum": 13.226973711798706
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "hurt",
+                            "metric_value": {
+                                "sum": 9.952279454699438
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "are",
+                            "metric_value": {
+                                "sum": 1.6122280705219025
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 9.659057390179573
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 8.47504082016161
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "teachers",
+                            "metric_value": {
+                                "sum": 12.275720597114171
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 6.733995717799168
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 7.81715994380748
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "minister",
+                            "metric_value": {
+                                "sum": 15.259076810008972
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "hurt",
+                            "metric_value": {
+                                "sum": 18.663950564204804
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "is",
+                            "metric_value": {
+                                "sum": 19.937111344767228
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 11.789474238341965
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "match_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 3.7456800200438267
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "teachers",
+                            "metric_value": {
+                                "sum": 3.5255453522962243
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 2.5154780801899927
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 2.85303321997429
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "minister",
+                            "metric_value": {
+                                "sum": 13.68484830501407
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "hurt",
+                            "metric_value": {
+                                "sum": 7.679953127651578
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "are",
+                            "metric_value": {
+                                "sum": 9.44693266693086
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 14.147757484583263
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 9,
+            "conditions": [
+                {
+                    "condition_name": "match_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 13.995933869982188
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "senator",
+                            "metric_value": {
+                                "sum": 16.656371919307603
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 19.927046780475763
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 6.713568915664687
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "actors",
+                            "metric_value": {
+                                "sum": 13.692966824584794
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "injured",
+                            "metric_value": {
+                                "sum": 19.695918484977767
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "is",
+                            "metric_value": {
+                                "sum": 12.012572660204988
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 4.454348547239159
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 17.485140808899835
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "senator",
+                            "metric_value": {
+                                "sum": 10.011134554264988
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 13.393843976269059
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 17.71211590236814
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "actors",
+                            "metric_value": {
+                                "sum": 11.939466941340763
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "injured",
+                            "metric_value": {
+                                "sum": 15.334051492215853
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "are",
+                            "metric_value": {
+                                "sum": 11.18137221682704
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 19.22062353196484
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 1.0390676343509835
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "senators",
+                            "metric_value": {
+                                "sum": 19.125885312723316
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 12.634386177902797
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 8.320854058739343
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "actor",
+                            "metric_value": {
+                                "sum": 3.1177026641689136
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "injured",
+                            "metric_value": {
+                                "sum": 14.290434688244023
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "is",
+                            "metric_value": {
+                                "sum": 18.887019288960737
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 19.574992645616952
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "match_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 17.78191277116859
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "senators",
+                            "metric_value": {
+                                "sum": 1.482318128590967
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 9.977408084709365
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 12.958612911064728
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "actor",
+                            "metric_value": {
+                                "sum": 6.981008451870717
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "injured",
+                            "metric_value": {
+                                "sum": 14.542307230610193
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "are",
+                            "metric_value": {
+                                "sum": 2.6873424845298266
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 12.92051023689164
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 10,
+            "conditions": [
+                {
+                    "condition_name": "match_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 17.176002277217336
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "consultant",
+                            "metric_value": {
+                                "sum": 16.68182690742627
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 10.949423886142162
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 19.029467675214654
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "secretaries",
+                            "metric_value": {
+                                "sum": 13.479021438164866
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "doubted",
+                            "metric_value": {
+                                "sum": 6.110002525970322
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "is",
+                            "metric_value": {
+                                "sum": 5.71390199261331
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 13.089613450072545
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 8.58356496636179
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "consultant",
+                            "metric_value": {
+                                "sum": 13.368006915031948
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 8.404749784746897
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 6.30454222834392
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "secretaries",
+                            "metric_value": {
+                                "sum": 18.924030038899488
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "doubted",
+                            "metric_value": {
+                                "sum": 6.9210210442429725
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "are",
+                            "metric_value": {
+                                "sum": 17.03475025146286
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 11.756446650053082
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 12.186832790810952
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "consultants",
+                            "metric_value": {
+                                "sum": 15.226131071825222
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 2.5030502205624057
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 14.145259056291337
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "secretary",
+                            "metric_value": {
+                                "sum": 6.820713690294022
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "doubted",
+                            "metric_value": {
+                                "sum": 15.202889962409396
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "is",
+                            "metric_value": {
+                                "sum": 2.950947128744126
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 4.512300615145645
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "match_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 15.769176882538405
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "consultants",
+                            "metric_value": {
+                                "sum": 10.24905842863252
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 17.27554614480358
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 7.222329172658261
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "secretary",
+                            "metric_value": {
+                                "sum": 17.59362054900419
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "doubted",
+                            "metric_value": {
+                                "sum": 3.0942287055284994
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "are",
+                            "metric_value": {
+                                "sum": 12.537638234792878
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 14.43419889995785
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 11,
+            "conditions": [
+                {
+                    "condition_name": "match_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 11.121875186652584
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "guard",
+                            "metric_value": {
+                                "sum": 5.772316734283277
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 4.96743432159391
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 13.631327716971304
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "executives",
+                            "metric_value": {
+                                "sum": 1.2700747018758642
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "embarrassed",
+                            "metric_value": {
+                                "sum": 10.50758942699424
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "is",
+                            "metric_value": {
+                                "sum": 5.571229636549281
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 18.27257617928441
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 11.812918770255509
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "guard",
+                            "metric_value": {
+                                "sum": 3.707937047684082
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 10.936373586555638
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 9.579202594056623
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "executives",
+                            "metric_value": {
+                                "sum": 12.400494126696744
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "embarrassed",
+                            "metric_value": {
+                                "sum": 9.472862174932866
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "are",
+                            "metric_value": {
+                                "sum": 16.601059249300583
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 9.047495925288276
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 5.826117835923756
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "guards",
+                            "metric_value": {
+                                "sum": 8.200996140839123
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 10.749626106256489
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 13.589345325065619
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "executive",
+                            "metric_value": {
+                                "sum": 9.507215655977955
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "embarrassed",
+                            "metric_value": {
+                                "sum": 7.806281993833162
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "is",
+                            "metric_value": {
+                                "sum": 14.384469890615259
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "playing tennis",
+                            "metric_value": {
+                                "sum": 12.045671489742158
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "match_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 9.621731209395085
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "guards",
+                            "metric_value": {
+                                "sum": 4.061708710611351
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 4.080339616039403
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 18.89877150898331
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "executive",
+                            "metric_value": {
+                                "sum": 6.9283184922386765
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "embarrassed",
+                            "metric_value": {
+                                "sum": 2.867541224494935
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "are",
+                            "metric_value": {
+                                "sum": 16.004417776874885
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "playing tennis",
+                            "metric_value": {
+                                "sum": 10.956406992931663
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 12,
+            "conditions": [
+                {
+                    "condition_name": "match_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 4.8101855806619955
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "clerk",
+                            "metric_value": {
+                                "sum": 1.6215791461922784
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 17.760718349224412
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 16.573394665273213
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "authors",
+                            "metric_value": {
+                                "sum": 6.190557332928994
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "disguised",
+                            "metric_value": {
+                                "sum": 7.10614890987593
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "is",
+                            "metric_value": {
+                                "sum": 3.028440305147581
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 4.803020761266467
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 14.444066005743174
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "clerk",
+                            "metric_value": {
+                                "sum": 14.50081620458092
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 18.858019655267555
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 3.3425551665395172
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "authors",
+                            "metric_value": {
+                                "sum": 10.522774176441729
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "disguised",
+                            "metric_value": {
+                                "sum": 1.3427820368953247
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "are",
+                            "metric_value": {
+                                "sum": 11.081144154691453
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 13.214293360687352
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 15.579732132793863
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "clerks",
+                            "metric_value": {
+                                "sum": 15.507186783375342
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 4.024153591984618
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 6.0593161309375905
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "author",
+                            "metric_value": {
+                                "sum": 4.754692553095345
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "disguised",
+                            "metric_value": {
+                                "sum": 5.2819402760355505
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "is",
+                            "metric_value": {
+                                "sum": 3.0276902039120843
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 11.673854640684624
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "match_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 14.365113633076614
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "clerks",
+                            "metric_value": {
+                                "sum": 15.295340678514368
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 17.763510960534003
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 10.44776829559081
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "author",
+                            "metric_value": {
+                                "sum": 7.099586795799656
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "disguised",
+                            "metric_value": {
+                                "sum": 7.656585997587609
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "are",
+                            "metric_value": {
+                                "sum": 9.389082289748934
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 2.4198235348320956
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 13,
+            "conditions": [
+                {
+                    "condition_name": "match_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 18.306620675298863
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "architect",
+                            "metric_value": {
+                                "sum": 8.342007157554242
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 12.215045407424759
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 15.270062540840112
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "pilots",
+                            "metric_value": {
+                                "sum": 6.826254203483812
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "hated",
+                            "metric_value": {
+                                "sum": 10.239043253146294
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "is",
+                            "metric_value": {
+                                "sum": 14.74220307393372
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 7.567726200025902
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 7.685039770789178
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "architect",
+                            "metric_value": {
+                                "sum": 12.78936112666088
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 4.755308332821565
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 18.73527898581073
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "pilots",
+                            "metric_value": {
+                                "sum": 17.77809944107167
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "hated",
+                            "metric_value": {
+                                "sum": 9.75555514088955
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "are",
+                            "metric_value": {
+                                "sum": 17.863660397062866
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 6.042876852462389
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 17.16940468209278
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "architects",
+                            "metric_value": {
+                                "sum": 14.97988697753132
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 14.58878334392029
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 6.433006033195682
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "pilot",
+                            "metric_value": {
+                                "sum": 1.5834232307287717
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "hated",
+                            "metric_value": {
+                                "sum": 1.3749572463096924
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "is",
+                            "metric_value": {
+                                "sum": 15.165895823526352
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 10.659987729905263
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "match_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 9.632290097070763
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "architects",
+                            "metric_value": {
+                                "sum": 5.262965794913912
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 2.847205234473197
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 13.015869289040921
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "pilot",
+                            "metric_value": {
+                                "sum": 18.643864911833703
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "hated",
+                            "metric_value": {
+                                "sum": 19.29527241801438
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "are",
+                            "metric_value": {
+                                "sum": 4.1891504785304585
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 16.140078484626244
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 14,
+            "conditions": [
+                {
+                    "condition_name": "match_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 3.2823250206191146
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "athlete",
+                            "metric_value": {
+                                "sum": 13.405702164501719
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 10.528313839183955
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 9.393879961964103
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "doctors",
+                            "metric_value": {
+                                "sum": 19.066186685193728
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "admired",
+                            "metric_value": {
+                                "sum": 6.202306869608694
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "brings",
+                            "metric_value": {
+                                "sum": 10.250406159452943
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good feelings",
+                            "metric_value": {
+                                "sum": 11.083728397080883
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 15.149745014350831
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "athlete",
+                            "metric_value": {
+                                "sum": 14.410263586385616
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 17.63147488284031
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 11.5030593060131
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "doctors",
+                            "metric_value": {
+                                "sum": 17.99514225601137
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "admired",
+                            "metric_value": {
+                                "sum": 15.57619256023784
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "bring",
+                            "metric_value": {
+                                "sum": 17.730051680681918
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good feelings",
+                            "metric_value": {
+                                "sum": 3.5729937850981432
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 19.84814320962937
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "athletes",
+                            "metric_value": {
+                                "sum": 3.0262311329816507
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 19.957959173912528
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 1.1775815282041635
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "doctor",
+                            "metric_value": {
+                                "sum": 3.433695514301199
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "admired",
+                            "metric_value": {
+                                "sum": 13.373922944767362
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "brings",
+                            "metric_value": {
+                                "sum": 6.317950732716845
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good feelings",
+                            "metric_value": {
+                                "sum": 5.015481818784268
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "match_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 7.888081716047712
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "athletes",
+                            "metric_value": {
+                                "sum": 18.721044530156323
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 6.830970265047575
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 19.939288031916213
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "doctor",
+                            "metric_value": {
+                                "sum": 4.448051024674504
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "admired",
+                            "metric_value": {
+                                "sum": 7.156125723230726
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "bring",
+                            "metric_value": {
+                                "sum": 3.7845613119580968
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good feelings",
+                            "metric_value": {
+                                "sum": 7.304992223566976
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 15,
+            "conditions": [
+                {
+                    "condition_name": "match_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 1.770122425703833
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "actor",
+                            "metric_value": {
+                                "sum": 16.32482566617725
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 6.205301490481501
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 15.42676273677055
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "farmers",
+                            "metric_value": {
+                                "sum": 5.624985659990149
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "hurt",
+                            "metric_value": {
+                                "sum": 12.755874948272373
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "interests",
+                            "metric_value": {
+                                "sum": 9.200431194192658
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "people",
+                            "metric_value": {
+                                "sum": 5.923330126726599
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 19.475746385144273
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "actor",
+                            "metric_value": {
+                                "sum": 5.061639118113951
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 5.116304472941554
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 15.278846660435143
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "farmers",
+                            "metric_value": {
+                                "sum": 12.547599672266397
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "hurt",
+                            "metric_value": {
+                                "sum": 15.19111483153144
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "interest",
+                            "metric_value": {
+                                "sum": 12.382813631693425
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "people",
+                            "metric_value": {
+                                "sum": 3.9456922395874003
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 2.9187855595972594
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "actors",
+                            "metric_value": {
+                                "sum": 6.62107110401999
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 19.069811727735615
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 7.146228629209634
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "farmer",
+                            "metric_value": {
+                                "sum": 15.215999321538899
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "hurt",
+                            "metric_value": {
+                                "sum": 19.024132078231098
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "interests",
+                            "metric_value": {
+                                "sum": 1.3418951384076254
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "people",
+                            "metric_value": {
+                                "sum": 19.831475521336785
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "match_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 2.635479007952637
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "actors",
+                            "metric_value": {
+                                "sum": 5.100015758580695
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 10.595917626574726
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 12.311121269069046
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "farmer",
+                            "metric_value": {
+                                "sum": 16.53659911105291
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "hurt",
+                            "metric_value": {
+                                "sum": 3.128867949564878
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "interest",
+                            "metric_value": {
+                                "sum": 14.916671359391955
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "people",
+                            "metric_value": {
+                                "sum": 13.139435750788811
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 16,
+            "conditions": [
+                {
+                    "condition_name": "match_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 12.00290080526429
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "minister",
+                            "metric_value": {
+                                "sum": 10.026184333223894
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 2.173598422722067
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 3.7028695101920093
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "managers",
+                            "metric_value": {
+                                "sum": 17.364284169073148
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "injured",
+                            "metric_value": {
+                                "sum": 7.870299691463907
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "knows",
+                            "metric_value": {
+                                "sum": 4.7937780971832105
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "many people",
+                            "metric_value": {
+                                "sum": 6.3662581817264225
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 2.1453636408970436
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "minister",
+                            "metric_value": {
+                                "sum": 14.885691301773772
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 13.744524890034786
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 6.279153763677722
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "managers",
+                            "metric_value": {
+                                "sum": 1.2715822987865273
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "injured",
+                            "metric_value": {
+                                "sum": 4.39031168989871
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "know",
+                            "metric_value": {
+                                "sum": 19.84516862701426
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "many people",
+                            "metric_value": {
+                                "sum": 14.956274550180485
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 15.301611244498716
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "ministers",
+                            "metric_value": {
+                                "sum": 2.1180549769897716
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 4.666150502144544
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 3.4360212188325656
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "manager",
+                            "metric_value": {
+                                "sum": 2.528803884767209
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "injured",
+                            "metric_value": {
+                                "sum": 4.969029023011487
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "knows",
+                            "metric_value": {
+                                "sum": 2.156727688431544
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "tennis",
+                            "metric_value": {
+                                "sum": 6.5886032714827305
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "match_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 8.62000774625552
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "ministers",
+                            "metric_value": {
+                                "sum": 15.330969849982928
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 18.176100402980634
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 1.4593826359042783
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "manager",
+                            "metric_value": {
+                                "sum": 18.304490332783722
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "injured",
+                            "metric_value": {
+                                "sum": 13.988533571408537
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "know",
+                            "metric_value": {
+                                "sum": 3.7643254201097873
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "tennis",
+                            "metric_value": {
+                                "sum": 14.5454031309281
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 17,
+            "conditions": [
+                {
+                    "condition_name": "match_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 7.4415732298209
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "taxi driver",
+                            "metric_value": {
+                                "sum": 7.737472649921527
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 8.473518913137925
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 5.255702212450599
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "customers",
+                            "metric_value": {
+                                "sum": 16.064482478070992
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "doubted",
+                            "metric_value": {
+                                "sum": 8.456455935276566
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "likes",
+                            "metric_value": {
+                                "sum": 3.8482352762016525
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "to gamble",
+                            "metric_value": {
+                                "sum": 9.748554886147168
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 15.033783500376714
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "taxi driver",
+                            "metric_value": {
+                                "sum": 12.797591235480095
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 11.39151548701647
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 1.073675263197233
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "customers",
+                            "metric_value": {
+                                "sum": 12.954617562184714
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "doubted",
+                            "metric_value": {
+                                "sum": 15.16761704573272
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "like",
+                            "metric_value": {
+                                "sum": 13.856991660227319
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "to gamble",
+                            "metric_value": {
+                                "sum": 11.648066900187148
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 4.19720048254027
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "taxi drivers",
+                            "metric_value": {
+                                "sum": 1.547261059123953
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 15.812953032308446
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 15.432388064408146
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "customer",
+                            "metric_value": {
+                                "sum": 19.41601045524311
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "doubted",
+                            "metric_value": {
+                                "sum": 13.512712376709953
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "likes",
+                            "metric_value": {
+                                "sum": 12.599156994321108
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "tennis",
+                            "metric_value": {
+                                "sum": 2.6229542753040698
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "match_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 13.606476196555763
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "taxi drivers",
+                            "metric_value": {
+                                "sum": 19.6179894560165
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 12.710865554710072
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 1.7029881941782976
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "customer",
+                            "metric_value": {
+                                "sum": 6.750701234665655
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "doubted",
+                            "metric_value": {
+                                "sum": 19.08573261717275
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "like",
+                            "metric_value": {
+                                "sum": 10.983136901161883
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "tennis",
+                            "metric_value": {
+                                "sum": 7.317352243601636
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 18,
+            "conditions": [
+                {
+                    "condition_name": "match_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 7.418471486353351
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "secretary",
+                            "metric_value": {
+                                "sum": 19.3832019940966
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 16.739924920543757
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 11.662390134339027
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "officers",
+                            "metric_value": {
+                                "sum": 10.46301954834378
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "embarrassed",
+                            "metric_value": {
+                                "sum": 15.142989434551525
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "enjoys",
+                            "metric_value": {
+                                "sum": 5.347339317825156
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "playing tennis",
+                            "metric_value": {
+                                "sum": 1.989109546689157
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 6.378352058432972
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "secretary",
+                            "metric_value": {
+                                "sum": 1.9148824612767228
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 14.724388284230912
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 2.227004008385682
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "officers",
+                            "metric_value": {
+                                "sum": 5.926271810146486
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "embarrassed",
+                            "metric_value": {
+                                "sum": 8.859982193347694
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "enjoy",
+                            "metric_value": {
+                                "sum": 18.56634323315161
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "playing tennis",
+                            "metric_value": {
+                                "sum": 2.4243886810431867
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 12.390274881301496
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "secretaries",
+                            "metric_value": {
+                                "sum": 17.554704178678634
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 17.556759339797736
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 6.395936322906909
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "officer",
+                            "metric_value": {
+                                "sum": 14.111222856359166
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "embarrassed",
+                            "metric_value": {
+                                "sum": 13.663508619422068
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "enjoys",
+                            "metric_value": {
+                                "sum": 17.051112630923168
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "tennis",
+                            "metric_value": {
+                                "sum": 17.5273797985822
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "match_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 1.3202134292310603
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "secretaries",
+                            "metric_value": {
+                                "sum": 9.571170288707881
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 7.564125260016506
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 2.3640883526124084
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "officer",
+                            "metric_value": {
+                                "sum": 12.081652785005875
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "embarrassed",
+                            "metric_value": {
+                                "sum": 17.00520119483438
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "enjoy",
+                            "metric_value": {
+                                "sum": 16.584422819073993
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "tennis",
+                            "metric_value": {
+                                "sum": 6.1165537659025775
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 19,
+            "conditions": [
+                {
+                    "condition_name": "match_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 8.913821859432101
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "executive",
+                            "metric_value": {
+                                "sum": 1.2905189397636208
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 13.596837654243844
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 16.5951259701217
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "teachers",
+                            "metric_value": {
+                                "sum": 3.464972530964369
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "disguised",
+                            "metric_value": {
+                                "sum": 9.025703423249597
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "is",
+                            "metric_value": {
+                                "sum": 12.696747023948644
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 14.564457160696811
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_sing",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 12.008191806967066
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "executive",
+                            "metric_value": {
+                                "sum": 13.104414545701022
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 13.402435097650164
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 5.461972474329965
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "teachers",
+                            "metric_value": {
+                                "sum": 5.825309622748602
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "disguised",
+                            "metric_value": {
+                                "sum": 11.679124931331497
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "are",
+                            "metric_value": {
+                                "sum": 17.53003702134991
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 14.871796439412458
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "mismatch_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 1.2573740553003672
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "executives",
+                            "metric_value": {
+                                "sum": 12.93608828395725
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 16.972807827981967
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 15.337472942835134
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "teacher",
+                            "metric_value": {
+                                "sum": 1.3606456835726246
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "disguised",
+                            "metric_value": {
+                                "sum": 17.476069342097077
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "is",
+                            "metric_value": {
+                                "sum": 3.624197897113511
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 2.4637950129874406
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "match_plural",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 10.176018292852335
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "executives",
+                            "metric_value": {
+                                "sum": 2.9102917704036204
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 18.908115729031877
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 19.11038890551926
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "teacher",
+                            "metric_value": {
+                                "sum": 19.79670785924924
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "disguised",
+                            "metric_value": {
+                                "sum": 14.957901778797016
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "are",
+                            "metric_value": {
+                                "sum": 7.1878122308264425
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "good",
+                            "metric_value": {
+                                "sum": 19.13244052252593
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

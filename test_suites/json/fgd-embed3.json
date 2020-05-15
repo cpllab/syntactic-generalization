@@ -1,0 +1,4665 @@
+{
+    "meta": {
+        "name": "fgd-embed3",
+        "metric": "sum",
+        "comment": "The following prediction should be relatively EASY (getting the differences-of-differences interaction in the right direction) #Prediction [(6;%what_no-gap%)-(6;%that_no-gap%)] + [(7;%that_gap%)-(7;%what_gap%)]>0  The following prediction should be relatively HARD (getting the direction of the that vs. what contrast right in both the gap and no-gap conditions)",
+        "reference": "Wilcox et al. 2018",
+        "author": "Ethan Wilcox",
+        "string_predictions": [
+            "[(6;%what_no-gap%)>(6;%that_no-gap%)] & [(7;%what_gap%)<(7;%that_gap%)]"
+        ]
+    },
+    "region_meta": {
+        "1": "prefix",
+        "2": "comp",
+        "3": "embedding",
+        "4": "subj",
+        "5": "verb",
+        "6": "Unnamed: 7",
+        "7": "continuation"
+    },
+    "predictions": [],
+    "items": [
+        {
+            "item_number": 1,
+            "conditions": [
+                {
+                    "condition_name": "what_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "I know",
+                            "metric_value": {
+                                "sum": 7.0505318364763365
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 15.564233618466067
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "our mother said her friend remarked that the park attendant reported",
+                            "metric_value": {
+                                "sum": 7.522705397099134
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "your friend",
+                            "metric_value": {
+                                "sum": 10.244264381529682
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "threw",
+                            "metric_value": {
+                                "sum": 1.1089045028856135
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 9.46447550958932
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "into the trash can",
+                            "metric_value": {
+                                "sum": 14.826217006066987
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "I know",
+                            "metric_value": {
+                                "sum": 6.69512388625722
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 19.662703874205523
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "our mother said her friend remarked that the park attendant reported",
+                            "metric_value": {
+                                "sum": 13.568052012679871
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "your friend",
+                            "metric_value": {
+                                "sum": 1.6438938853971647
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "threw",
+                            "metric_value": {
+                                "sum": 3.341059266592806
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 13.380103357003117
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "into the trash can",
+                            "metric_value": {
+                                "sum": 15.837477434777936
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "what_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "I know",
+                            "metric_value": {
+                                "sum": 14.01280391727819
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 17.53311533004681
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "our mother said her friend remarked that the park attendant reported",
+                            "metric_value": {
+                                "sum": 6.193881772336817
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "your friend",
+                            "metric_value": {
+                                "sum": 12.365259030064976
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "threw",
+                            "metric_value": {
+                                "sum": 8.901504846528923
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "the plastic",
+                            "metric_value": {
+                                "sum": 10.303873427530547
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "into the trash can",
+                            "metric_value": {
+                                "sum": 4.6047482226399215
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "I know",
+                            "metric_value": {
+                                "sum": 16.05077123467833
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 11.921289433947129
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "our mother said her friend remarked that the park attendant reported",
+                            "metric_value": {
+                                "sum": 15.260441044166546
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "your friend",
+                            "metric_value": {
+                                "sum": 7.002959496002214
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "threw",
+                            "metric_value": {
+                                "sum": 12.422421035691373
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "the plastic",
+                            "metric_value": {
+                                "sum": 12.120430414310228
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "into the trash can",
+                            "metric_value": {
+                                "sum": 2.606915680570807
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 2,
+            "conditions": [
+                {
+                    "condition_name": "what_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The accountant knew",
+                            "metric_value": {
+                                "sum": 14.950523606213276
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who",
+                            "metric_value": {
+                                "sum": 18.760537850629984
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the security guard believed his friend knew the assistant reported",
+                            "metric_value": {
+                                "sum": 18.94685128030059
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the secretary",
+                            "metric_value": {
+                                "sum": 2.612009238289753
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "introduced",
+                            "metric_value": {
+                                "sum": 19.547423349837747
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 14.312575780750599
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to her friend",
+                            "metric_value": {
+                                "sum": 10.386815108468785
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The accountant knew",
+                            "metric_value": {
+                                "sum": 13.119850184690465
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 4.8735673328972275
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the security guard believed his friend knew the assistant reported",
+                            "metric_value": {
+                                "sum": 5.5115437688246605
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the secretary",
+                            "metric_value": {
+                                "sum": 19.71339240291945
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "introduced",
+                            "metric_value": {
+                                "sum": 1.025768310369503
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 4.504513286255116
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to her friend",
+                            "metric_value": {
+                                "sum": 12.7706381786108
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "what_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The accountant knew",
+                            "metric_value": {
+                                "sum": 11.874866767321285
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who",
+                            "metric_value": {
+                                "sum": 12.237569566651706
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the security guard believed his friend knew the assistant reported",
+                            "metric_value": {
+                                "sum": 19.59069866108142
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the secretary",
+                            "metric_value": {
+                                "sum": 17.988860902393114
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "introduced",
+                            "metric_value": {
+                                "sum": 13.285182827701478
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "the new woman",
+                            "metric_value": {
+                                "sum": 14.579297663782112
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to her friend",
+                            "metric_value": {
+                                "sum": 8.718637711874639
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The accountant knew",
+                            "metric_value": {
+                                "sum": 9.530507953100589
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 4.899223561501348
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the security guard believed his friend knew the assistant reported",
+                            "metric_value": {
+                                "sum": 11.99579789570114
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the secretary",
+                            "metric_value": {
+                                "sum": 16.981755981129442
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "introduced",
+                            "metric_value": {
+                                "sum": 6.283147417427478
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "the new woman",
+                            "metric_value": {
+                                "sum": 8.477697771527371
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to her friend",
+                            "metric_value": {
+                                "sum": 2.0486161139993357
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 3,
+            "conditions": [
+                {
+                    "condition_name": "what_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The assistant told me",
+                            "metric_value": {
+                                "sum": 3.8954586811111502
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 9.337350092675354
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the man knew his friend recalled the woman said",
+                            "metric_value": {
+                                "sum": 10.804166991531918
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the pilot",
+                            "metric_value": {
+                                "sum": 5.841712305842157
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "sent",
+                            "metric_value": {
+                                "sum": 15.733496809331163
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 9.922006623505542
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to his family",
+                            "metric_value": {
+                                "sum": 10.570493922220528
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The assistant told me",
+                            "metric_value": {
+                                "sum": 18.577675525581476
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 11.590297410895232
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the man knew his friend recalled the woman said",
+                            "metric_value": {
+                                "sum": 13.053093079559186
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the pilot",
+                            "metric_value": {
+                                "sum": 5.956753566721773
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "sent",
+                            "metric_value": {
+                                "sum": 7.570768075133191
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 18.44106629785084
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to his family",
+                            "metric_value": {
+                                "sum": 4.840797637245293
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "what_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The assistant told me",
+                            "metric_value": {
+                                "sum": 8.236510696428816
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 9.503127537861694
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the man knew his friend recalled the woman said",
+                            "metric_value": {
+                                "sum": 4.279842740858697
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the pilot",
+                            "metric_value": {
+                                "sum": 13.538478091052776
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "sent",
+                            "metric_value": {
+                                "sum": 3.898265858283059
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "the package",
+                            "metric_value": {
+                                "sum": 17.407213285917994
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to his family",
+                            "metric_value": {
+                                "sum": 15.965161377622566
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The assistant told me",
+                            "metric_value": {
+                                "sum": 3.9352197720292397
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 15.524371589743405
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the man knew his friend recalled the woman said",
+                            "metric_value": {
+                                "sum": 13.778596832491873
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the pilot",
+                            "metric_value": {
+                                "sum": 7.250083941856812
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "sent",
+                            "metric_value": {
+                                "sum": 1.1548172562492152
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "the package",
+                            "metric_value": {
+                                "sum": 15.74567336019722
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to his family",
+                            "metric_value": {
+                                "sum": 13.007594500432946
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 4,
+            "conditions": [
+                {
+                    "condition_name": "what_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "We discovered",
+                            "metric_value": {
+                                "sum": 18.358237667446097
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 6.7597436754042945
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the delivery boy remarked that the worker said that the gardener knew",
+                            "metric_value": {
+                                "sum": 17.646706885968648
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the funny actor",
+                            "metric_value": {
+                                "sum": 7.648857384248764
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "told",
+                            "metric_value": {
+                                "sum": 13.280993308031537
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 11.509661795788254
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "about the woman",
+                            "metric_value": {
+                                "sum": 4.705988912428852
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "We discovered",
+                            "metric_value": {
+                                "sum": 8.553371874401517
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 6.15847633178382
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the delivery boy remarked that the worker said that the gardener knew",
+                            "metric_value": {
+                                "sum": 2.380418620566188
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the funny actor",
+                            "metric_value": {
+                                "sum": 6.804026491486816
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "told",
+                            "metric_value": {
+                                "sum": 11.767143506813023
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 11.455838224055556
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "about the woman",
+                            "metric_value": {
+                                "sum": 18.13132434054768
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "what_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "We discovered",
+                            "metric_value": {
+                                "sum": 8.78134350158069
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 5.802854377732315
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the delivery boy remarked that the worker said that the gardener knew",
+                            "metric_value": {
+                                "sum": 10.85414159068631
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the funny actor",
+                            "metric_value": {
+                                "sum": 6.990860264260583
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "told",
+                            "metric_value": {
+                                "sum": 4.338241397232345
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "a story",
+                            "metric_value": {
+                                "sum": 6.310311064994952
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "about the woman",
+                            "metric_value": {
+                                "sum": 4.443522631105235
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "We discovered",
+                            "metric_value": {
+                                "sum": 7.0863188824098655
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 17.052834711554596
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the delivery boy remarked that the worker said that the gardener knew",
+                            "metric_value": {
+                                "sum": 15.203585150365612
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the funny actor",
+                            "metric_value": {
+                                "sum": 8.783260078204403
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "told",
+                            "metric_value": {
+                                "sum": 7.994373246764694
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "a story",
+                            "metric_value": {
+                                "sum": 8.194887189139447
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "about the woman",
+                            "metric_value": {
+                                "sum": 4.98756978236813
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 5,
+            "conditions": [
+                {
+                    "condition_name": "what_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The neighbors found out",
+                            "metric_value": {
+                                "sum": 2.038784197301332
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 2.4667542560326727
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "her mother heard the newspaper reported the mayor said",
+                            "metric_value": {
+                                "sum": 11.09382900550077
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the young woman",
+                            "metric_value": {
+                                "sum": 11.806938505837525
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "bought",
+                            "metric_value": {
+                                "sum": 2.8696777837450353
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 12.122609397787887
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "for her parents",
+                            "metric_value": {
+                                "sum": 16.938419678612885
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The neighbors found out",
+                            "metric_value": {
+                                "sum": 8.342863120522896
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 5.1691074992064365
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "her mother heard the newspaper reported the mayor said",
+                            "metric_value": {
+                                "sum": 2.312370319340212
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the young woman",
+                            "metric_value": {
+                                "sum": 6.031609046634286
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "bought",
+                            "metric_value": {
+                                "sum": 19.92961491237445
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 11.402452245959132
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "for her parents",
+                            "metric_value": {
+                                "sum": 18.3493807576236
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "what_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The neighbors found out",
+                            "metric_value": {
+                                "sum": 1.795959326245972
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 16.689858606754175
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "her mother heard the newspaper reported the mayor said",
+                            "metric_value": {
+                                "sum": 12.204634335765203
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the young woman",
+                            "metric_value": {
+                                "sum": 18.391015501998055
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "bought",
+                            "metric_value": {
+                                "sum": 17.209276615764782
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "a gift",
+                            "metric_value": {
+                                "sum": 8.124634345138983
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "for her parents",
+                            "metric_value": {
+                                "sum": 10.069026254951922
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The neighbors found out",
+                            "metric_value": {
+                                "sum": 3.093478882412044
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 15.730942592412166
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "her mother heard the newspaper reported the mayor said",
+                            "metric_value": {
+                                "sum": 4.1551130611086915
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the young woman",
+                            "metric_value": {
+                                "sum": 1.5316811132473547
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "bought",
+                            "metric_value": {
+                                "sum": 18.285358021304216
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "a gift",
+                            "metric_value": {
+                                "sum": 15.697556952232102
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "for her parents",
+                            "metric_value": {
+                                "sum": 12.727904094326218
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 6,
+            "conditions": [
+                {
+                    "condition_name": "what_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "My friend knows",
+                            "metric_value": {
+                                "sum": 11.052930865611751
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 6.591280705103714
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the judge thought the cop said the man testified",
+                            "metric_value": {
+                                "sum": 5.81097300952601
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the successful architect",
+                            "metric_value": {
+                                "sum": 17.026708628378312
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "handed",
+                            "metric_value": {
+                                "sum": 16.119586564984058
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 15.982989296844245
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "for her mother",
+                            "metric_value": {
+                                "sum": 6.341363178622564
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "My friend knows",
+                            "metric_value": {
+                                "sum": 19.05196053944228
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 8.74959612263628
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the judge thought the cop said the man testified",
+                            "metric_value": {
+                                "sum": 15.452516961637086
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the successful architect",
+                            "metric_value": {
+                                "sum": 10.534723300883654
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "handed",
+                            "metric_value": {
+                                "sum": 15.690556670136168
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 11.925790475489318
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "for her mother",
+                            "metric_value": {
+                                "sum": 13.661602917640026
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "what_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "My friend knows",
+                            "metric_value": {
+                                "sum": 15.983635806838365
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 19.239574001673553
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the judge thought the cop said the man testified",
+                            "metric_value": {
+                                "sum": 13.728106648505284
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the successful architect",
+                            "metric_value": {
+                                "sum": 18.14841961694595
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "handed",
+                            "metric_value": {
+                                "sum": 8.825512060075335
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "an award",
+                            "metric_value": {
+                                "sum": 13.374540233081973
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "for her mother",
+                            "metric_value": {
+                                "sum": 9.157368165647174
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "My friend knows",
+                            "metric_value": {
+                                "sum": 8.55725660438506
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 1.7452328822525545
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the judge thought the cop said the man testified",
+                            "metric_value": {
+                                "sum": 2.2552671932949817
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the successful architect",
+                            "metric_value": {
+                                "sum": 16.66262449834707
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "handed",
+                            "metric_value": {
+                                "sum": 11.80872535680796
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "an award",
+                            "metric_value": {
+                                "sum": 1.753152704163554
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "for her mother",
+                            "metric_value": {
+                                "sum": 4.800138541107817
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 7,
+            "conditions": [
+                {
+                    "condition_name": "what_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The commissioner discovered",
+                            "metric_value": {
+                                "sum": 2.801777880634858
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 9.42312486254986
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the report stated the television host thought the man reported",
+                            "metric_value": {
+                                "sum": 13.488823390855416
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the police detective",
+                            "metric_value": {
+                                "sum": 13.405159542862997
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "lent",
+                            "metric_value": {
+                                "sum": 1.88725753369001
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 12.506635625019323
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to the man",
+                            "metric_value": {
+                                "sum": 12.345581862378436
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The commissioner discovered",
+                            "metric_value": {
+                                "sum": 11.41336480644117
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 16.328528737188964
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the report stated the television host thought the man reported",
+                            "metric_value": {
+                                "sum": 1.3108456731455231
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the police detective",
+                            "metric_value": {
+                                "sum": 11.679856939054538
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "lent",
+                            "metric_value": {
+                                "sum": 14.228762216485869
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 3.5488638192323574
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to the man",
+                            "metric_value": {
+                                "sum": 12.316711369273222
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "what_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The commissioner discovered",
+                            "metric_value": {
+                                "sum": 1.4683014989223293
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 10.629967663438787
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the report stated the television host thought the man reported",
+                            "metric_value": {
+                                "sum": 16.967973511961546
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the police detective",
+                            "metric_value": {
+                                "sum": 15.205840304378507
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "lent",
+                            "metric_value": {
+                                "sum": 12.962675131193883
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "some money",
+                            "metric_value": {
+                                "sum": 14.251149895138326
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to the man",
+                            "metric_value": {
+                                "sum": 15.9522742645263
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The commissioner discovered",
+                            "metric_value": {
+                                "sum": 4.108069576683258
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 18.42537373957575
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the report stated the television host thought the man reported",
+                            "metric_value": {
+                                "sum": 14.439368210434745
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the police detective",
+                            "metric_value": {
+                                "sum": 11.037769047641747
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "lent",
+                            "metric_value": {
+                                "sum": 17.31170307788395
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "some money",
+                            "metric_value": {
+                                "sum": 3.530334665529907
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to the man",
+                            "metric_value": {
+                                "sum": 17.2161658168905
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 8,
+            "conditions": [
+                {
+                    "condition_name": "what_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "We all know",
+                            "metric_value": {
+                                "sum": 2.9550476218059427
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 10.261190004831658
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the accountant said his colleague recalled the partners knew",
+                            "metric_value": {
+                                "sum": 6.151947245672634
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the investor",
+                            "metric_value": {
+                                "sum": 3.5246300825549275
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "repaid",
+                            "metric_value": {
+                                "sum": 12.462485831199757
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 12.341449883512276
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to the criminal kingpin ",
+                            "metric_value": {
+                                "sum": 12.779870628617685
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "We all know",
+                            "metric_value": {
+                                "sum": 4.790571849229558
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 4.199826163868849
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the accountant said his colleague recalled the partners knew",
+                            "metric_value": {
+                                "sum": 3.5589032372007927
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the investor",
+                            "metric_value": {
+                                "sum": 7.372261247290635
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "repaid",
+                            "metric_value": {
+                                "sum": 5.596579901754465
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 17.641886059492563
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to the criminal kingpin",
+                            "metric_value": {
+                                "sum": 4.3137633701082
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "what_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "We all know",
+                            "metric_value": {
+                                "sum": 18.36580425694366
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 10.200733334569522
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the accountant said his colleague recalled the partners knew",
+                            "metric_value": {
+                                "sum": 6.171752781205875
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the investor",
+                            "metric_value": {
+                                "sum": 15.022339154914183
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "repaid",
+                            "metric_value": {
+                                "sum": 5.852527086486002
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "his debt",
+                            "metric_value": {
+                                "sum": 4.475421979843329
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to the criminal kingpin ",
+                            "metric_value": {
+                                "sum": 7.346080525491333
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "We all know",
+                            "metric_value": {
+                                "sum": 11.437689812140992
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 13.587674466915015
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the accountant said his colleague recalled the partners knew",
+                            "metric_value": {
+                                "sum": 13.323957795554556
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the investor",
+                            "metric_value": {
+                                "sum": 4.446163200096387
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "repaid",
+                            "metric_value": {
+                                "sum": 16.130341153923375
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "his debt",
+                            "metric_value": {
+                                "sum": 19.808952827247495
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to the criminal kingpin",
+                            "metric_value": {
+                                "sum": 19.597016712927818
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 9,
+            "conditions": [
+                {
+                    "condition_name": "what_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "I know",
+                            "metric_value": {
+                                "sum": 5.495183933376675
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 15.268257097851656
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the secretary said the journalist remarked that the workers decided",
+                            "metric_value": {
+                                "sum": 2.2508340707610826
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the business man",
+                            "metric_value": {
+                                "sum": 7.781250555789873
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "promised",
+                            "metric_value": {
+                                "sum": 13.324411562198817
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 6.664128374650799
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to the factory workers",
+                            "metric_value": {
+                                "sum": 10.813589029506975
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "I know",
+                            "metric_value": {
+                                "sum": 9.689340440916062
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 9.085371123873227
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the secretary said the journalist remarked that the workers decided",
+                            "metric_value": {
+                                "sum": 9.894550040993277
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the business man",
+                            "metric_value": {
+                                "sum": 2.882047891241263
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "promised",
+                            "metric_value": {
+                                "sum": 1.160271720934043
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 17.499632860285796
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to the factory workers",
+                            "metric_value": {
+                                "sum": 11.957589900445226
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "what_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "I know",
+                            "metric_value": {
+                                "sum": 16.302480223239012
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 9.55095677453959
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the secretary said the journalist remarked that the workers decided",
+                            "metric_value": {
+                                "sum": 9.158907486881526
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the business man",
+                            "metric_value": {
+                                "sum": 18.43148807423438
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "promised",
+                            "metric_value": {
+                                "sum": 6.440959731578248
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "a raise",
+                            "metric_value": {
+                                "sum": 19.45620115164815
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to the factory workers",
+                            "metric_value": {
+                                "sum": 4.374268360453926
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "I know",
+                            "metric_value": {
+                                "sum": 2.5318087275766303
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 15.396879053365272
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the secretary said the journalist remarked that the workers decided",
+                            "metric_value": {
+                                "sum": 14.136555986184405
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the business man",
+                            "metric_value": {
+                                "sum": 19.306172554427132
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "promised",
+                            "metric_value": {
+                                "sum": 6.037636667347467
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "a raise",
+                            "metric_value": {
+                                "sum": 10.370478880570312
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to the factory workers",
+                            "metric_value": {
+                                "sum": 13.164113434727149
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 10,
+            "conditions": [
+                {
+                    "condition_name": "what_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The newspaper reported",
+                            "metric_value": {
+                                "sum": 17.271243063209056
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 14.148708938088895
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the investigator thought the businessman believed the banker said",
+                            "metric_value": {
+                                "sum": 12.893481818112567
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the boss",
+                            "metric_value": {
+                                "sum": 13.418923074875453
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "sold",
+                            "metric_value": {
+                                "sum": 19.047261811301247
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 7.166684633941369
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to his friend",
+                            "metric_value": {
+                                "sum": 3.6686326677834877
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The newspaper reported",
+                            "metric_value": {
+                                "sum": 17.84891228192403
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 16.83108577462729
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the investigator thought the businessman believed the banker said",
+                            "metric_value": {
+                                "sum": 14.852177671534875
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the boss",
+                            "metric_value": {
+                                "sum": 1.9385968601596446
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "sold",
+                            "metric_value": {
+                                "sum": 9.461446169000746
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 14.913507701788644
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to his friend",
+                            "metric_value": {
+                                "sum": 5.847385892081531
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "what_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The newspaper reported",
+                            "metric_value": {
+                                "sum": 2.1546892966264783
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 13.934406505166724
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the investigator thought the businessman believed the banker said",
+                            "metric_value": {
+                                "sum": 10.964891145699829
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the boss",
+                            "metric_value": {
+                                "sum": 19.89646303132455
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "sold",
+                            "metric_value": {
+                                "sum": 13.403486108287114
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "a car",
+                            "metric_value": {
+                                "sum": 5.905676956349778
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to his friend",
+                            "metric_value": {
+                                "sum": 12.753395125930574
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The newspaper reported",
+                            "metric_value": {
+                                "sum": 9.183599898154208
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 6.846477841911238
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the investigator thought the businessman believed the banker said",
+                            "metric_value": {
+                                "sum": 7.469617867695472
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the boss",
+                            "metric_value": {
+                                "sum": 12.884736610174311
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "sold",
+                            "metric_value": {
+                                "sum": 11.675926786131207
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "a car",
+                            "metric_value": {
+                                "sum": 7.035174812113818
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to his friend",
+                            "metric_value": {
+                                "sum": 9.139453140000288
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 11,
+            "conditions": [
+                {
+                    "condition_name": "what_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Her friend found out",
+                            "metric_value": {
+                                "sum": 13.021659224329326
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 7.918517683210329
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "my friend believes the professor said his colleague noticed",
+                            "metric_value": {
+                                "sum": 10.079142408272952
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the visitor",
+                            "metric_value": {
+                                "sum": 4.514266371237506
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "told",
+                            "metric_value": {
+                                "sum": 17.790629514194066
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 15.576855253281774
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to the guests",
+                            "metric_value": {
+                                "sum": 10.263804482575798
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Her friend found out",
+                            "metric_value": {
+                                "sum": 4.3125818718972155
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 7.291747442768482
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "my friend believes the professor said his colleague noticed",
+                            "metric_value": {
+                                "sum": 10.916569438557016
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the visitor",
+                            "metric_value": {
+                                "sum": 15.503291528582213
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "told",
+                            "metric_value": {
+                                "sum": 9.24683249838181
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 13.768222307281462
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to the guests",
+                            "metric_value": {
+                                "sum": 15.81917148956193
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "what_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Her friend found out",
+                            "metric_value": {
+                                "sum": 3.290185045609279
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 7.532177258709129
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "my friend believes the professor said his colleague noticed",
+                            "metric_value": {
+                                "sum": 9.46663983605665
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the visitor",
+                            "metric_value": {
+                                "sum": 6.439283696679072
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "told",
+                            "metric_value": {
+                                "sum": 12.77514076100917
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "a story",
+                            "metric_value": {
+                                "sum": 9.468428205609035
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to the guests",
+                            "metric_value": {
+                                "sum": 3.2117735264282175
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Her friend found out",
+                            "metric_value": {
+                                "sum": 2.3076613209782972
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 1.5834154587070008
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "my friend believes the professor said his colleague noticed",
+                            "metric_value": {
+                                "sum": 13.264220743467611
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the visitor",
+                            "metric_value": {
+                                "sum": 6.162512422412044
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "told",
+                            "metric_value": {
+                                "sum": 15.964248563011969
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "a story",
+                            "metric_value": {
+                                "sum": 12.118998321160392
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to the guests",
+                            "metric_value": {
+                                "sum": 5.6572897793000205
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 12,
+            "conditions": [
+                {
+                    "condition_name": "what_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "I realized",
+                            "metric_value": {
+                                "sum": 16.960653863900458
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 4.352084995131829
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the painter believed his rival suspected the colonel said",
+                            "metric_value": {
+                                "sum": 9.535239320875831
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the suffering artist",
+                            "metric_value": {
+                                "sum": 10.653465330406767
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "saw",
+                            "metric_value": {
+                                "sum": 19.987370878705022
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 14.650756549350179
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "at the museum",
+                            "metric_value": {
+                                "sum": 16.99167138467002
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "I realized",
+                            "metric_value": {
+                                "sum": 7.60637308504037
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 5.579815246794192
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the painter believed his rival suspected the colonel said",
+                            "metric_value": {
+                                "sum": 2.7382210820529416
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the suffering artist",
+                            "metric_value": {
+                                "sum": 13.508441251227385
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "saw",
+                            "metric_value": {
+                                "sum": 1.008531369119312
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 5.380970758694181
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "at the museum",
+                            "metric_value": {
+                                "sum": 15.072734592675275
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "what_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "I realized",
+                            "metric_value": {
+                                "sum": 11.128346491000773
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 9.204499923376622
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the painter believed his rival suspected the colonel said",
+                            "metric_value": {
+                                "sum": 3.361631258471476
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the suffering artist",
+                            "metric_value": {
+                                "sum": 13.636341126515122
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "saw",
+                            "metric_value": {
+                                "sum": 15.902138778405963
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "a painting",
+                            "metric_value": {
+                                "sum": 10.939519968818367
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "at the museum",
+                            "metric_value": {
+                                "sum": 16.872407599731474
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "I realized",
+                            "metric_value": {
+                                "sum": 15.963615193024246
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 10.190172420902323
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the painter believed his rival suspected the colonel said",
+                            "metric_value": {
+                                "sum": 8.5151634806717
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the suffering artist",
+                            "metric_value": {
+                                "sum": 4.795410869077265
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "saw",
+                            "metric_value": {
+                                "sum": 5.126799612026373
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "a painting",
+                            "metric_value": {
+                                "sum": 18.450160442881867
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "at the museum",
+                            "metric_value": {
+                                "sum": 11.307735498521144
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 13,
+            "conditions": [
+                {
+                    "condition_name": "what_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The novel revealed",
+                            "metric_value": {
+                                "sum": 8.849213560820292
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 2.6396550440052593
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "our friend thought the reporter knows her contact said",
+                            "metric_value": {
+                                "sum": 8.67838167175503
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the young politician",
+                            "metric_value": {
+                                "sum": 3.0281939702481826
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "said",
+                            "metric_value": {
+                                "sum": 14.50168453740161
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 4.523862279724397
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to his donors",
+                            "metric_value": {
+                                "sum": 14.248498619820309
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The novel revealed",
+                            "metric_value": {
+                                "sum": 15.021665308933663
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 8.371665470596286
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "our friend thought the reporter knows her contact said",
+                            "metric_value": {
+                                "sum": 10.788898563318623
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the young politician",
+                            "metric_value": {
+                                "sum": 15.840507942235169
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "said",
+                            "metric_value": {
+                                "sum": 18.267658312944054
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 3.1874147359515272
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to his donors",
+                            "metric_value": {
+                                "sum": 1.9511665020863407
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "what_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The novel revealed",
+                            "metric_value": {
+                                "sum": 11.244065602533084
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 17.907406635313787
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "our friend thought the reporter knows her contact said",
+                            "metric_value": {
+                                "sum": 2.4438678527178848
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the young politician",
+                            "metric_value": {
+                                "sum": 11.428558074671804
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "said",
+                            "metric_value": {
+                                "sum": 15.041066800198166
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "something",
+                            "metric_value": {
+                                "sum": 9.847444378232028
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to his donors",
+                            "metric_value": {
+                                "sum": 11.850346270367702
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The novel revealed",
+                            "metric_value": {
+                                "sum": 14.98596191297759
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 17.71752490753376
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "our friend thought the reporter knows her contact said",
+                            "metric_value": {
+                                "sum": 10.18784765854375
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the young politician",
+                            "metric_value": {
+                                "sum": 17.988484787989833
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "said",
+                            "metric_value": {
+                                "sum": 7.23199783832748
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "something",
+                            "metric_value": {
+                                "sum": 6.187726302536801
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to his donors",
+                            "metric_value": {
+                                "sum": 14.084374627860083
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 14,
+            "conditions": [
+                {
+                    "condition_name": "what_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "We all know",
+                            "metric_value": {
+                                "sum": 12.288742900557272
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 6.477928284124615
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "my neighbor said her associate knew a mutual friend stated",
+                            "metric_value": {
+                                "sum": 1.4523083965574046
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the young professional",
+                            "metric_value": {
+                                "sum": 9.678524922901875
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "assembled",
+                            "metric_value": {
+                                "sum": 9.87469769091615
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 14.652586337063935
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "for his parents",
+                            "metric_value": {
+                                "sum": 2.91712739952723
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "We all know",
+                            "metric_value": {
+                                "sum": 15.441409919562632
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 19.685410462176566
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "my neighbor said her associate knew a mutual friend stated",
+                            "metric_value": {
+                                "sum": 5.228003161489418
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the young professional",
+                            "metric_value": {
+                                "sum": 4.485409382164738
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "assembled",
+                            "metric_value": {
+                                "sum": 6.817586109934668
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 12.53527273772425
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "for his parents",
+                            "metric_value": {
+                                "sum": 3.0420156663395845
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "what_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "We all know",
+                            "metric_value": {
+                                "sum": 16.27248869489452
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 3.5232546227975208
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "my neighbor said her associate knew a mutual friend stated",
+                            "metric_value": {
+                                "sum": 15.323688031426114
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the young professional",
+                            "metric_value": {
+                                "sum": 4.301786069109038
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "assembled",
+                            "metric_value": {
+                                "sum": 8.685803524496544
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "the bed",
+                            "metric_value": {
+                                "sum": 14.059851448275552
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "for his parents",
+                            "metric_value": {
+                                "sum": 7.921795990090919
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "We all know",
+                            "metric_value": {
+                                "sum": 5.169454830691965
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 13.477358154075802
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "my neighbor said her associate knew a mutual friend stated",
+                            "metric_value": {
+                                "sum": 3.2234062252766806
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the young professional",
+                            "metric_value": {
+                                "sum": 6.409899262254022
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "assembled",
+                            "metric_value": {
+                                "sum": 17.400312961624355
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "the bed",
+                            "metric_value": {
+                                "sum": 18.626305063654918
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "for his parents",
+                            "metric_value": {
+                                "sum": 10.806449438108348
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 15,
+            "conditions": [
+                {
+                    "condition_name": "what_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "I know",
+                            "metric_value": {
+                                "sum": 8.82507437608217
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 16.005811426637663
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "their friend said the secretary believed the worker thinks",
+                            "metric_value": {
+                                "sum": 12.730474223687319
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the elderly lady",
+                            "metric_value": {
+                                "sum": 17.087480525700403
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "found",
+                            "metric_value": {
+                                "sum": 6.165839644484631
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 11.123055615887617
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "on the bus",
+                            "metric_value": {
+                                "sum": 1.2764744298864654
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "I know",
+                            "metric_value": {
+                                "sum": 3.2956019435879016
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 2.717201854314417
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "their friend said the secretary believed the worker thinks",
+                            "metric_value": {
+                                "sum": 3.8713979157243408
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the elderly lady",
+                            "metric_value": {
+                                "sum": 9.105049644225767
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "found",
+                            "metric_value": {
+                                "sum": 1.2740769086624808
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 18.52940776850799
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "on the bus",
+                            "metric_value": {
+                                "sum": 3.8746812685673335
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "what_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "I know",
+                            "metric_value": {
+                                "sum": 7.999275786107047
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 11.584575185571039
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "their friend said the secretary believed the worker thinks",
+                            "metric_value": {
+                                "sum": 10.285555792014566
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the elderly lady",
+                            "metric_value": {
+                                "sum": 13.342689429035271
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "found",
+                            "metric_value": {
+                                "sum": 19.86787190906004
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "a quarter",
+                            "metric_value": {
+                                "sum": 15.734472529753154
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "on the bus",
+                            "metric_value": {
+                                "sum": 11.427520359318526
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "I know",
+                            "metric_value": {
+                                "sum": 14.865354262156675
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 12.183388381154435
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "their friend said the secretary believed the worker thinks",
+                            "metric_value": {
+                                "sum": 9.987554378736222
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the elderly lady",
+                            "metric_value": {
+                                "sum": 10.872488702432191
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "found",
+                            "metric_value": {
+                                "sum": 18.589775326004446
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "a quarter",
+                            "metric_value": {
+                                "sum": 19.83496060663097
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "on the bus",
+                            "metric_value": {
+                                "sum": 12.964196393653403
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 16,
+            "conditions": [
+                {
+                    "condition_name": "what_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "My friends all know",
+                            "metric_value": {
+                                "sum": 12.005196135028504
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 1.5241709589250902
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "her friend knew the delivery man believed the cop believes",
+                            "metric_value": {
+                                "sum": 19.972685944263493
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the single mother",
+                            "metric_value": {
+                                "sum": 10.591174262033123
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "described",
+                            "metric_value": {
+                                "sum": 14.861496030058937
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 16.444898630712053
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to her friends",
+                            "metric_value": {
+                                "sum": 1.5618250986650795
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "My friends all know",
+                            "metric_value": {
+                                "sum": 8.252465653492216
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 7.8770913646636505
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "her friend knew the delivery man believed the cop believes",
+                            "metric_value": {
+                                "sum": 9.256644264980746
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the single mother",
+                            "metric_value": {
+                                "sum": 19.265258426801392
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "described",
+                            "metric_value": {
+                                "sum": 4.2756120190613185
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 3.169641985897432
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to her friends",
+                            "metric_value": {
+                                "sum": 11.62289246401636
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "what_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "My friends all know",
+                            "metric_value": {
+                                "sum": 10.031865615567666
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 1.7584274186428965
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "her friend knew the delivery man believed the cop believes",
+                            "metric_value": {
+                                "sum": 19.278256923033364
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the single mother",
+                            "metric_value": {
+                                "sum": 8.786111985356182
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "described",
+                            "metric_value": {
+                                "sum": 19.264708349914418
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "her woes",
+                            "metric_value": {
+                                "sum": 19.93317695952576
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to her friends",
+                            "metric_value": {
+                                "sum": 5.6025595535634425
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "My friends all know",
+                            "metric_value": {
+                                "sum": 1.6453270923447296
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 12.585049402652034
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "her friend knew the delivery man believed the cop believes",
+                            "metric_value": {
+                                "sum": 8.888985476757643
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the single mother",
+                            "metric_value": {
+                                "sum": 7.288849189115781
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "described",
+                            "metric_value": {
+                                "sum": 16.193358200436
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "her woes",
+                            "metric_value": {
+                                "sum": 10.479930225122173
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to her friends",
+                            "metric_value": {
+                                "sum": 6.672157121141844
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 17,
+            "conditions": [
+                {
+                    "condition_name": "what_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The visitor said",
+                            "metric_value": {
+                                "sum": 8.69665754531568
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who",
+                            "metric_value": {
+                                "sum": 17.74606243008099
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "my friend said her mother knew the minister stated",
+                            "metric_value": {
+                                "sum": 14.316603433530913
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the human resources officer",
+                            "metric_value": {
+                                "sum": 1.590990436883855
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "talked with",
+                            "metric_value": {
+                                "sum": 3.9650418890449006
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 3.801686490331398
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "in her office",
+                            "metric_value": {
+                                "sum": 13.15464458581675
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The visitor said",
+                            "metric_value": {
+                                "sum": 1.69804297060759
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 16.908221445866218
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "my friend said her mother knew the minister stated",
+                            "metric_value": {
+                                "sum": 10.358915329639231
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the human resources officer",
+                            "metric_value": {
+                                "sum": 5.219317135680054
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "talked with",
+                            "metric_value": {
+                                "sum": 10.134822107948056
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 12.554168370933617
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "in her office",
+                            "metric_value": {
+                                "sum": 5.10875849618868
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "what_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The visitor said",
+                            "metric_value": {
+                                "sum": 18.55810526267526
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who",
+                            "metric_value": {
+                                "sum": 1.9854143251125755
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "my friend said her mother knew the minister stated",
+                            "metric_value": {
+                                "sum": 16.33963309800933
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the human resources officer",
+                            "metric_value": {
+                                "sum": 18.312073583410164
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "talked with",
+                            "metric_value": {
+                                "sum": 9.230527514031266
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "the new manager",
+                            "metric_value": {
+                                "sum": 6.215498282704296
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "in her office",
+                            "metric_value": {
+                                "sum": 14.123316809001775
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The visitor said",
+                            "metric_value": {
+                                "sum": 14.259266838157481
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 11.416351790150166
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "my friend said her mother knew the minister stated",
+                            "metric_value": {
+                                "sum": 5.8012985236795735
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the human resources officer",
+                            "metric_value": {
+                                "sum": 13.067270637772248
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "talked with",
+                            "metric_value": {
+                                "sum": 16.20740157823266
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "the new manager",
+                            "metric_value": {
+                                "sum": 6.151975023239887
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "in her office",
+                            "metric_value": {
+                                "sum": 10.348397714377702
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 18,
+            "conditions": [
+                {
+                    "condition_name": "what_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "I know",
+                            "metric_value": {
+                                "sum": 2.6281409725925666
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 1.3770316111446634
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the woman believed the secretary said her friend recalled",
+                            "metric_value": {
+                                "sum": 10.194581679901026
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the five star general",
+                            "metric_value": {
+                                "sum": 9.007475548055904
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "found",
+                            "metric_value": {
+                                "sum": 11.402504346629357
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 2.868753945282214
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "in the office",
+                            "metric_value": {
+                                "sum": 19.541913034193843
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "I know",
+                            "metric_value": {
+                                "sum": 12.247155027829978
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 15.812412773677615
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the woman believed the secretary said her friend recalled",
+                            "metric_value": {
+                                "sum": 10.189788081204412
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the five star general",
+                            "metric_value": {
+                                "sum": 15.167099937460009
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "found",
+                            "metric_value": {
+                                "sum": 17.738491760312524
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 2.6475347508799274
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "in the office",
+                            "metric_value": {
+                                "sum": 3.659190624662676
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "what_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "I know",
+                            "metric_value": {
+                                "sum": 2.002480733011204
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 19.650909987584583
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the woman believed the secretary said her friend recalled",
+                            "metric_value": {
+                                "sum": 8.125875805824611
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the five star general",
+                            "metric_value": {
+                                "sum": 13.235352346836812
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "found",
+                            "metric_value": {
+                                "sum": 4.265435809836297
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "a gun",
+                            "metric_value": {
+                                "sum": 14.818635729495247
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "in the office",
+                            "metric_value": {
+                                "sum": 11.176654748184651
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "I know",
+                            "metric_value": {
+                                "sum": 14.568599949440692
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 2.1281187857484913
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the woman believed the secretary said her friend recalled",
+                            "metric_value": {
+                                "sum": 4.05577535853492
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the five star general",
+                            "metric_value": {
+                                "sum": 18.77389134748535
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "found",
+                            "metric_value": {
+                                "sum": 19.407897045062185
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "a gun",
+                            "metric_value": {
+                                "sum": 6.574878592517172
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "in the office",
+                            "metric_value": {
+                                "sum": 2.702832440691398
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 19,
+            "conditions": [
+                {
+                    "condition_name": "what_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The colleagues realized",
+                            "metric_value": {
+                                "sum": 7.520777655943459
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 6.6255304579577885
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "her mother stated a friend said her husband knew",
+                            "metric_value": {
+                                "sum": 10.012774692647714
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the journalist",
+                            "metric_value": {
+                                "sum": 1.9516944126632272
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "discovered",
+                            "metric_value": {
+                                "sum": 17.732674077654448
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 18.525388923766627
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "two weeks ago",
+                            "metric_value": {
+                                "sum": 3.3209340095006517
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The colleagues realized",
+                            "metric_value": {
+                                "sum": 3.8936462644793135
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 12.868247839744358
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "her mother stated a friend said her husband knew",
+                            "metric_value": {
+                                "sum": 11.483363830173701
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the journalist",
+                            "metric_value": {
+                                "sum": 16.553833077164498
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "discovered",
+                            "metric_value": {
+                                "sum": 1.3117443247910292
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 15.256887204819979
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "two weeks ago",
+                            "metric_value": {
+                                "sum": 9.31741321437388
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "what_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The colleagues realized",
+                            "metric_value": {
+                                "sum": 18.4581831254517
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 1.4892543849390547
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "her mother stated a friend said her husband knew",
+                            "metric_value": {
+                                "sum": 18.580551390901967
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the journalist",
+                            "metric_value": {
+                                "sum": 13.358386788500729
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "discovered",
+                            "metric_value": {
+                                "sum": 16.224865598683813
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "the bribery",
+                            "metric_value": {
+                                "sum": 14.268550881922136
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "two weeks ago",
+                            "metric_value": {
+                                "sum": 8.556464546830401
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The colleagues realized",
+                            "metric_value": {
+                                "sum": 13.210114338159977
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 19.785845707019504
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "her mother stated a friend said her husband knew",
+                            "metric_value": {
+                                "sum": 2.2994731661584717
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the journalist",
+                            "metric_value": {
+                                "sum": 14.835084349907467
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "discovered",
+                            "metric_value": {
+                                "sum": 13.957719014067742
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "the bribery",
+                            "metric_value": {
+                                "sum": 1.5380368305014462
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "two weeks ago",
+                            "metric_value": {
+                                "sum": 6.26219526161444
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 20,
+            "conditions": [
+                {
+                    "condition_name": "what_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "She said",
+                            "metric_value": {
+                                "sum": 11.357470859311931
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 1.9949808156251048
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the politician stated his press secretary said the chief of staff thought",
+                            "metric_value": {
+                                "sum": 7.226200557773662
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the reporter",
+                            "metric_value": {
+                                "sum": 10.98627687417076
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "put",
+                            "metric_value": {
+                                "sum": 8.272795425359426
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 8.390473308008975
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "on the table",
+                            "metric_value": {
+                                "sum": 13.097442144538551
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "She said",
+                            "metric_value": {
+                                "sum": 1.7060712232009214
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 13.12754212259713
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the politician stated his press secretary said the chief of staff thought",
+                            "metric_value": {
+                                "sum": 15.388534960929356
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the reporter",
+                            "metric_value": {
+                                "sum": 1.6071462885959433
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "put",
+                            "metric_value": {
+                                "sum": 8.526687442428091
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 4.131339578961633
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "on the table",
+                            "metric_value": {
+                                "sum": 15.665257683855202
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "what_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "She said",
+                            "metric_value": {
+                                "sum": 7.187574811487434
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 10.149104083962982
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the politician stated his press secretary said the chief of staff thought",
+                            "metric_value": {
+                                "sum": 14.486288052950217
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the reporter",
+                            "metric_value": {
+                                "sum": 12.017133494878324
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "put",
+                            "metric_value": {
+                                "sum": 19.950893547497913
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "the microphone",
+                            "metric_value": {
+                                "sum": 14.776411455085272
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "on the table",
+                            "metric_value": {
+                                "sum": 3.763884620735738
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "She said",
+                            "metric_value": {
+                                "sum": 3.908677828981005
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 15.234843982706218
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the politician stated his press secretary said the chief of staff thought",
+                            "metric_value": {
+                                "sum": 16.543244050134014
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the reporter",
+                            "metric_value": {
+                                "sum": 1.8347603362700546
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "put",
+                            "metric_value": {
+                                "sum": 13.60898830442323
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "the microphone",
+                            "metric_value": {
+                                "sum": 4.8405560315275435
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "on the table",
+                            "metric_value": {
+                                "sum": 17.93718746403376
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 21,
+            "conditions": [
+                {
+                    "condition_name": "what_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "We all know",
+                            "metric_value": {
+                                "sum": 13.62481525386147
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 6.98460200904494
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the old man thinks the woman knows the young boy said",
+                            "metric_value": {
+                                "sum": 5.897659912387237
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the teacher",
+                            "metric_value": {
+                                "sum": 6.338171216653028
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "gave",
+                            "metric_value": {
+                                "sum": 1.213005099113134
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 9.7319191796354
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to her students",
+                            "metric_value": {
+                                "sum": 10.43231946768877
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "We all know",
+                            "metric_value": {
+                                "sum": 10.138370249082735
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 10.46220036417014
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the old man thinks the woman knows the young boy said",
+                            "metric_value": {
+                                "sum": 3.1931157309895806
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the teacher",
+                            "metric_value": {
+                                "sum": 15.229475728363381
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "gave",
+                            "metric_value": {
+                                "sum": 11.744634770690897
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 14.22589096298032
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to her students",
+                            "metric_value": {
+                                "sum": 7.68644464572069
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "what_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "We all know",
+                            "metric_value": {
+                                "sum": 18.310729764696838
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "what",
+                            "metric_value": {
+                                "sum": 11.732307469296194
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the old man thinks the woman knows the young boy said",
+                            "metric_value": {
+                                "sum": 12.066640248486033
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the teacher",
+                            "metric_value": {
+                                "sum": 14.071879427153398
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "gave",
+                            "metric_value": {
+                                "sum": 9.027674766770057
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "a test",
+                            "metric_value": {
+                                "sum": 10.875160410275601
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to her students",
+                            "metric_value": {
+                                "sum": 5.912929230363886
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "that_no-gap",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "We all know",
+                            "metric_value": {
+                                "sum": 19.05529634009595
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 5.621363378018264
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "the old man thinks the woman knows the young boy said",
+                            "metric_value": {
+                                "sum": 7.426736711148391
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the teacher",
+                            "metric_value": {
+                                "sum": 12.573117734752039
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "gave",
+                            "metric_value": {
+                                "sum": 17.078330641158956
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "a test",
+                            "metric_value": {
+                                "sum": 12.472141692469044
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "to her students",
+                            "metric_value": {
+                                "sum": 18.60397485842153
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,152 @@
+No author that liked the senators has had any success
+No author that liked no senators has had any success
+The author that liked the senators has had any success
+The author that liked no senators has had any success
+No pilot that praised the consultants has shown any courage
+No pilot that praised no consultants has shown any courage
+The pilot that praised the consultants has shown any courage
+The pilot that praised no consultants has shown any courage
+No surgeon that hated the guards has known any setback
+No surgeon that hated no guards has known any setback
+The surgeon that hated the guards has known any setback
+The surgeon that hated no guards has known any setback
+No farmer that discussed the clerks has had any luck
+No farmer that discussed no clerks has had any luck
+The farmer that discussed the clerks has had any luck
+The farmer that discussed no clerks has had any luck
+No manager that loved the architects has completed any project
+No manager that loved no architects has completed any project
+The manager that loved the architects has completed any project
+The manager that loved no architects has completed any project
+No customer that liked the managers has spent any money
+No customer that liked no managers has spent any money
+The customer that liked the managers has spent any money
+The customer that liked no managers has spent any money
+No officer that praised the journalists has had any violations
+No officer that praised no journalists has had any violations
+The officer that praised the journalists has had any violations
+The officer that praised no journalists has had any violations
+No teacher that hated the ministers has failed any student
+No teacher that hated no ministers has failed any student
+The teacher that hated the ministers has failed any student
+The teacher that hated no ministers has failed any student
+No senator that admired the taxi drivers has passed any bills
+No senator that admired no taxi drivers has passed any bills
+The senator that admired the taxi drivers has passed any bills
+The senator that admired no taxi drivers has passed any bills
+No consultant that loved the secretaries has passed up any project
+No consultant that loved no secretaries has passed up any project
+The consultant that loved the secretaries has passed up any project
+The consultant that loved no secretaries has passed up any project
+No guard that liked the executives has seen any crimes
+No guard that liked no executives has seen any crimes
+The guard that liked the executives has seen any crimes
+The guard that liked no executives has seen any crimes
+No chef that praised the authors has burned any dishes
+No chef that praised no authors has burned any dishes
+The chef that praised the authors has burned any dishes
+The chef that praised no authors has burned any dishes
+No architect that hated the pilots has had any fame
+No architect that hated no pilots has had any fame
+The architect that hated the pilots has had any fame
+The architect that hated no pilots has had any fame
+No athlete that helped the doctors has broken any equipment
+No athlete that helped no doctors has broken any equipment
+The athlete that helped the doctors has broken any equipment
+The athlete that helped no doctors has broken any equipment
+No dancer that loved the farmers has broken any bones
+No dancer that loved no farmers has broken any bones
+The dancer that loved the farmers has broken any bones
+The dancer that loved no farmers has broken any bones
+No minister that liked the managers has missed any services
+No minister that liked no managers has missed any services
+The minister that liked the managers has missed any services
+The minister that liked no managers has missed any services
+No taxi driver that praised the customers has crashed any car
+No taxi driver that praised no customers has crashed any car
+The taxi driver that praised the customers has crashed any car
+The taxi driver that praised no customers has crashed any car
+No assistant that hated the officers has missed any phone calls
+No assistant that hated no officers has missed any phone calls
+The assistant that hated the officers has missed any phone calls
+The assistant that hated no officers has missed any phone calls
+No executive that knew the teachers has fired any worker
+No executive that knew no teachers has fired any worker
+The executive that knew the teachers has fired any worker
+The executive that knew no teachers has fired any worker
+No authors that loved the officer have read any poetry
+No authors that loved no officer have read any poetry
+The authors that loved the officer have read any poetry
+The authors that loved no officer have read any poetry
+No pilots that liked the teacher have landed any plane
+No pilots that liked no teacher have landed any plane
+The pilots that liked the teacher have landed any plane
+The pilots that liked no teacher have landed any plane
+No doctors that praised the senator have failed any surgery
+No doctors that praised no senator have failed any surgery
+The doctors that praised the senator have failed any surgery
+The doctors that praised no senator have failed any surgery
+No farmers that hated the consultant have planted any beans
+No farmers that hated no consultant have planted any beans
+The farmers that hated the consultant have planted any beans
+The farmers that hated no consultant have planted any beans
+No managers that respected the guard have had any luck
+No managers that respected no guard have had any luck
+The managers that respected the guard have had any luck
+The managers that respected no guard have had any luck
+No customers that loved the chef have purchased any apparel
+No customers that loved no chef have purchased any apparel
+The customers that loved the chef have purchased any apparel
+The customers that loved no chef have purchased any apparel
+No officers that liked the architect have arrested any criminal
+No officers that liked no architect have arrested any criminal
+The officers that liked the architect have arrested any criminal
+The officers that liked no architect have arrested any criminal
+No teachers that praised the athlete have failed any students
+No teachers that praised no athlete have failed any students
+The teachers that praised the athlete have failed any students
+The teachers that praised no athlete have failed any students
+No senators that hated the dancer have passed any bills
+No senators that hated no dancer have passed any bills
+The senators that hated the dancer have passed any bills
+The senators that hated no dancer have passed any bills
+No consultants that impressed the minister have missed any projects
+No consultants that impressed no minister have missed any projects
+The consultants that impressed the minister have missed any projects
+The consultants that impressed no minister have missed any projects
+No guards that loved the taxi driver have caught any thieves
+No guards that loved no taxi driver have caught any thieves
+The guards that loved the taxi driver have caught any thieves
+The guards that loved no taxi driver have caught any thieves
+No clerks that liked the assistant have burned any dishes
+No clerks that liked no assistant have burned any dishes
+The clerks that liked the assistant have burned any dishes
+The clerks that liked no assistant have burned any dishes
+No architects that praised the executive have passed any projects
+No architects that praised no executive have passed any projects
+The architects that praised the executive have passed any projects
+The architects that praised no executive have passed any projects
+No athletes that hated the pilot have broken any equipment
+No athletes that hated no pilot have broken any equipment
+The athletes that hated the pilot have broken any equipment
+The athletes that hated no pilot have broken any equipment
+No journalists that contacted the surgeon have broken any bones
+No journalists that contacted no surgeon have broken any bones
+The journalists that contacted the surgeon have broken any bones
+The journalists that contacted no surgeon have broken any bones
+No ministers that loved the farmer have advocated any evil
+No ministers that loved no farmer have advocated any evil
+The ministers that loved the farmer have advocated any evil
+The ministers that loved no farmer have advocated any evil
+No taxi drivers that liked the manager have crashed any cars
+No taxi drivers that liked no manager have crashed any cars
+The taxi drivers that liked the manager have crashed any cars
+The taxi drivers that liked no manager have crashed any cars
+No secretaries that praised the customer have missed any appointments
+No secretaries that praised no customer have missed any appointments
+The secretaries that praised the customer have missed any appointments
+The secretaries that praised no customer have missed any appointments
+No executives that hated the officer have refused any compensation
+No executives that hated no officer have refused any compensation
+The executives that hated the officer have refused any compensation
+The executives that hated no officer have refused any compensation

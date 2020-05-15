@@ -1,0 +1,188 @@
+{
+    "meta": {
+        "name": "nn-nv-rpl",
+        "metric": "sum",
+        "comment": "Simple NN/NV ambiguity",
+        "reference": "MacDonald 1993",
+        "author": "Roger Levy",
+        "string_predictions": [
+            "(5;%nn_ambig%)>(5;%nn_unambig%)",
+            "(5;%nv_ambig%)>(5;%nv_unambig%)"
+        ]
+    },
+    "region_meta": {
+        "1": "det",
+        "2": "n",
+        "3": "nv",
+        "4": "resolution",
+        "5": "rest"
+    },
+    "predictions": [],
+    "items": [
+        {
+            "item_number": 1,
+            "conditions": [
+                {
+                    "condition_name": "nn_ambig",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 6.144007783932976
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "company",
+                            "metric_value": {
+                                "sum": 12.55458722398418
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "supplies",
+                            "metric_value": {
+                                "sum": 9.900571298970204
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "were",
+                            "metric_value": {
+                                "sum": 3.0267359208299798
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "all gone",
+                            "metric_value": {
+                                "sum": 1.2823517110525313
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "nn_unambig",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 4.688690503660888
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "company's",
+                            "metric_value": {
+                                "sum": 6.895979107767395
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "supplies",
+                            "metric_value": {
+                                "sum": 10.446821870565092
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "were",
+                            "metric_value": {
+                                "sum": 13.008572503921219
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "all gone",
+                            "metric_value": {
+                                "sum": 4.827119970839258
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "nv_ambig",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 15.864336814062495
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "company",
+                            "metric_value": {
+                                "sum": 6.337113652870379
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "supplies",
+                            "metric_value": {
+                                "sum": 12.537033444014178
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 16.1253022821684
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "services we need",
+                            "metric_value": {
+                                "sum": 11.984885210326853
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "nv_unambig",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 6.419722883990548
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "company",
+                            "metric_value": {
+                                "sum": 9.208142303664768
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "supplied",
+                            "metric_value": {
+                                "sum": 14.145870336878398
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 10.725603030417448
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "services we need",
+                            "metric_value": {
+                                "sum": 15.140287475203637
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

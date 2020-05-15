@@ -1,0 +1,3817 @@
+{
+    "meta": {
+        "name": "subordination_orc-orc",
+        "metric": "sum",
+        "comment": "Below is the prediction of an interaction (a lower bar). #Prediction [(5;%sub_no-matrix%) - (5;%no-sub_no-matrix%) ] - [(5;%sub_matrix%) - (5;%no-sub_matrix%) ] > 0 Below is Ethan's original prediction -- a higher bar.",
+        "reference": "",
+        "author": "",
+        "string_predictions": [
+            "[(5;%sub_no-matrix%) > (5;%no-sub_no-matrix%) ] & [(5;%sub_matrix%) < (5;%no-sub_matrix%) ]"
+        ]
+    },
+    "region_meta": {
+        "1": "Subordinate clause 1",
+        "2": "subj_modifier",
+        "3": "Subordinate clause 2",
+        "4": "obj_modifier",
+        "5": "Main clause"
+    },
+    "predictions": [],
+    "items": [
+        {
+            "item_number": 1,
+            "conditions": [
+                {
+                    "condition_name": "sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As the doctor",
+                            "metric_value": {
+                                "sum": 4.593811046362017
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the administrator had recently hired",
+                            "metric_value": {
+                                "sum": 2.4609361398978384
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "studied the book",
+                            "metric_value": {
+                                "sum": 12.265451503444284
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that colleagues had written on cancer therapy",
+                            "metric_value": {
+                                "sum": 5.478806924918591
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 1.053791217224249
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The doctor",
+                            "metric_value": {
+                                "sum": 3.3568205436860725
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the administrator had recently hired",
+                            "metric_value": {
+                                "sum": 8.688011448517777
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "studied the book",
+                            "metric_value": {
+                                "sum": 4.297868169091879
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that colleagues had written on cancer therapy",
+                            "metric_value": {
+                                "sum": 8.042107225089303
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 6.475844242650753
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As the doctor",
+                            "metric_value": {
+                                "sum": 2.1250187925888815
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the administrator had recently hired",
+                            "metric_value": {
+                                "sum": 6.710371232179991
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "studied the book",
+                            "metric_value": {
+                                "sum": 13.888916078887055
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that colleagues had written on cancer therapy",
+                            "metric_value": {
+                                "sum": 14.735461763600783
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the nurse walked into the room .",
+                            "metric_value": {
+                                "sum": 5.574798788855815
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The doctor",
+                            "metric_value": {
+                                "sum": 18.840782701126383
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the administrator had recently hired",
+                            "metric_value": {
+                                "sum": 18.380812630923504
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "studied the book",
+                            "metric_value": {
+                                "sum": 1.6100918664822235
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that colleagues had written on cancer therapy",
+                            "metric_value": {
+                                "sum": 19.77740229053666
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the nurse walked into the room .",
+                            "metric_value": {
+                                "sum": 4.066809864245111
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 2,
+            "conditions": [
+                {
+                    "condition_name": "sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the man",
+                            "metric_value": {
+                                "sum": 14.72219974656355
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who a friend had helped",
+                            "metric_value": {
+                                "sum": 2.572123548962783
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "shot the bird",
+                            "metric_value": {
+                                "sum": 3.0398661584169613
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that he had been tracking secretly",
+                            "metric_value": {
+                                "sum": 18.39214594342326
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 7.627391923909666
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The man",
+                            "metric_value": {
+                                "sum": 5.216032692284205
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who a friend had helped",
+                            "metric_value": {
+                                "sum": 18.143551189282125
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "shot the bird",
+                            "metric_value": {
+                                "sum": 5.004750344094175
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that he had been tracking secretly",
+                            "metric_value": {
+                                "sum": 8.235219086832409
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 7.7653775274450485
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the man",
+                            "metric_value": {
+                                "sum": 2.9408833147291715
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who a friend had helped",
+                            "metric_value": {
+                                "sum": 1.0823516028136422
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "shot the bird",
+                            "metric_value": {
+                                "sum": 4.903375688333133
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that he had been tracking secretly",
+                            "metric_value": {
+                                "sum": 4.474063098951224
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", he loaded his gun .",
+                            "metric_value": {
+                                "sum": 19.889313837352475
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The man",
+                            "metric_value": {
+                                "sum": 3.130079115838724
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who a friend had helped",
+                            "metric_value": {
+                                "sum": 15.911900621606446
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "shot the bird",
+                            "metric_value": {
+                                "sum": 8.478115598137304
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that he had been tracking secretly",
+                            "metric_value": {
+                                "sum": 6.741105683609204
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", he loaded his gun .",
+                            "metric_value": {
+                                "sum": 11.8236165117777
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 3,
+            "conditions": [
+                {
+                    "condition_name": "sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Because the students",
+                            "metric_value": {
+                                "sum": 3.102676131473956
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the teacher had in her class",
+                            "metric_value": {
+                                "sum": 5.394868742765058
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "did not like the material",
+                            "metric_value": {
+                                "sum": 9.27248277080976
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the teacher used to cover evolution",
+                            "metric_value": {
+                                "sum": 2.4363826373035535
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 13.86758847328937
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The students",
+                            "metric_value": {
+                                "sum": 19.43907010833789
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the teacher had in her class",
+                            "metric_value": {
+                                "sum": 13.170579771714047
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "did not like the material",
+                            "metric_value": {
+                                "sum": 17.26935727252729
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the teacher used to cover evolution",
+                            "metric_value": {
+                                "sum": 5.024978670117534
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 9.591092529222477
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Because the students",
+                            "metric_value": {
+                                "sum": 13.689089641094519
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the teacher had in her class",
+                            "metric_value": {
+                                "sum": 14.9919315386891
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "did not like the material",
+                            "metric_value": {
+                                "sum": 4.768072972011854
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the teacher used to cover evolution",
+                            "metric_value": {
+                                "sum": 9.508834243985294
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", they complained to the principal .",
+                            "metric_value": {
+                                "sum": 2.3399238175852015
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The students",
+                            "metric_value": {
+                                "sum": 5.421932564026967
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the teacher had in her class",
+                            "metric_value": {
+                                "sum": 2.7135257429420747
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "did not like the material",
+                            "metric_value": {
+                                "sum": 3.0873876468507717
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the teacher used to cover evolution",
+                            "metric_value": {
+                                "sum": 2.946107701619709
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", they complained to the principal .",
+                            "metric_value": {
+                                "sum": 12.08947250863994
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 4,
+            "conditions": [
+                {
+                    "condition_name": "sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "When the general",
+                            "metric_value": {
+                                "sum": 12.249189558902245
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the officer had given a uniform",
+                            "metric_value": {
+                                "sum": 2.788380110313584
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "entered the camp",
+                            "metric_value": {
+                                "sum": 10.27104223708576
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the colonel constructed two years ago",
+                            "metric_value": {
+                                "sum": 1.6897559291423268
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 18.855767278727207
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The general",
+                            "metric_value": {
+                                "sum": 1.9924400284021506
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the officer had given a uniform",
+                            "metric_value": {
+                                "sum": 9.398119604314758
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "entered the camp",
+                            "metric_value": {
+                                "sum": 7.427437947753241
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the colonel constructed two years ago",
+                            "metric_value": {
+                                "sum": 10.92575659137588
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 6.952104175613906
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "When the general",
+                            "metric_value": {
+                                "sum": 6.885465261846814
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the officer had given a uniform",
+                            "metric_value": {
+                                "sum": 17.35523092082951
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "entered the camp",
+                            "metric_value": {
+                                "sum": 8.974534856418039
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the colonel constructed two years ago",
+                            "metric_value": {
+                                "sum": 8.697317612837796
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the soldiers cheered .",
+                            "metric_value": {
+                                "sum": 16.857617736422302
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The general",
+                            "metric_value": {
+                                "sum": 14.014275852349913
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the officer had given a uniform",
+                            "metric_value": {
+                                "sum": 11.582017701483796
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "entered the camp",
+                            "metric_value": {
+                                "sum": 17.98972739944866
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the colonel constructed two years ago",
+                            "metric_value": {
+                                "sum": 3.9917892156001753
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the soldiers cheered .",
+                            "metric_value": {
+                                "sum": 18.485763954515406
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 5,
+            "conditions": [
+                {
+                    "condition_name": "sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the trainer",
+                            "metric_value": {
+                                "sum": 11.255197892297218
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the dog feared",
+                            "metric_value": {
+                                "sum": 4.750765464414268
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "delivered the newspaper",
+                            "metric_value": {
+                                "sum": 2.1047283940668886
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the resident had ordered",
+                            "metric_value": {
+                                "sum": 19.322495339571752
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 8.163120090033816
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The trainer",
+                            "metric_value": {
+                                "sum": 6.680287976678185
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the dog feared",
+                            "metric_value": {
+                                "sum": 19.65242627585968
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "delivered the newspaper",
+                            "metric_value": {
+                                "sum": 5.246480923968591
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the resident had ordered",
+                            "metric_value": {
+                                "sum": 2.8528296190309375
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 17.34071026868623
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the trainer",
+                            "metric_value": {
+                                "sum": 9.128017846880887
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the dog feared",
+                            "metric_value": {
+                                "sum": 17.222325357562752
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "delivered the newspaper",
+                            "metric_value": {
+                                "sum": 8.845066996009706
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the resident had ordered",
+                            "metric_value": {
+                                "sum": 7.3493576468468635
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the dog looked at the door .",
+                            "metric_value": {
+                                "sum": 13.83399388370367
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The trainer",
+                            "metric_value": {
+                                "sum": 19.19052037580861
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the dog feared",
+                            "metric_value": {
+                                "sum": 17.07010031666581
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "delivered the newspaper",
+                            "metric_value": {
+                                "sum": 4.426370754736335
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the resident had ordered",
+                            "metric_value": {
+                                "sum": 1.8342183262479326
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the dog looked at the door .",
+                            "metric_value": {
+                                "sum": 2.102528815146847
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 6,
+            "conditions": [
+                {
+                    "condition_name": "sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the lawyers",
+                            "metric_value": {
+                                "sum": 11.355456110740716
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the client had hired",
+                            "metric_value": {
+                                "sum": 9.538222448188035
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "printed the documents",
+                            "metric_value": {
+                                "sum": 11.536918902735854
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the client never requested",
+                            "metric_value": {
+                                "sum": 19.32299461932082
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 17.67528522650147
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The lawyers",
+                            "metric_value": {
+                                "sum": 3.1125413459309783
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the client had hired",
+                            "metric_value": {
+                                "sum": 7.36512318303815
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "printed the documents",
+                            "metric_value": {
+                                "sum": 11.817984351569162
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the client never requested",
+                            "metric_value": {
+                                "sum": 13.451043947208644
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 17.09759566784818
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the lawyers",
+                            "metric_value": {
+                                "sum": 2.564645079118405
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the client had hired",
+                            "metric_value": {
+                                "sum": 1.8692866870207545
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "printed the documents",
+                            "metric_value": {
+                                "sum": 6.4049612986263575
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the client never requested",
+                            "metric_value": {
+                                "sum": 3.7635020207595793
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the aids made coffee .",
+                            "metric_value": {
+                                "sum": 18.533054381682664
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The lawyers",
+                            "metric_value": {
+                                "sum": 5.696037564864823
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the client had hired",
+                            "metric_value": {
+                                "sum": 15.970080442154776
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "printed the documents",
+                            "metric_value": {
+                                "sum": 9.809257669683204
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the client never requested",
+                            "metric_value": {
+                                "sum": 17.53045540481573
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the aids made coffee .",
+                            "metric_value": {
+                                "sum": 5.4732831415192695
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 7,
+            "conditions": [
+                {
+                    "condition_name": "sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Because the editor",
+                            "metric_value": {
+                                "sum": 9.361844936288467
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the author knew well",
+                            "metric_value": {
+                                "sum": 19.416672056754322
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "liked the draft",
+                            "metric_value": {
+                                "sum": 2.414809289655622
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the celebrity had written",
+                            "metric_value": {
+                                "sum": 15.719316042942754
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 9.249095611680488
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The editor",
+                            "metric_value": {
+                                "sum": 3.2175123464363806
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the author knew well",
+                            "metric_value": {
+                                "sum": 12.615561519726668
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "liked the draft",
+                            "metric_value": {
+                                "sum": 7.838310176489009
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the celebrity had written",
+                            "metric_value": {
+                                "sum": 6.641433586635039
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 13.034036242039631
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Because the editor",
+                            "metric_value": {
+                                "sum": 5.849595919927644
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the author knew well",
+                            "metric_value": {
+                                "sum": 3.2766394704180772
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "liked the draft",
+                            "metric_value": {
+                                "sum": 17.746656295525252
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the celebrity had written",
+                            "metric_value": {
+                                "sum": 16.075534718644143
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", he published it the next month .",
+                            "metric_value": {
+                                "sum": 16.69867274821481
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The editor",
+                            "metric_value": {
+                                "sum": 15.26771171269394
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the author knew well",
+                            "metric_value": {
+                                "sum": 2.1100349499135964
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "liked the draft",
+                            "metric_value": {
+                                "sum": 5.725586504035773
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the celebrity had written",
+                            "metric_value": {
+                                "sum": 13.788261287420495
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", he published it the next month .",
+                            "metric_value": {
+                                "sum": 5.995417438941661
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 8,
+            "conditions": [
+                {
+                    "condition_name": "sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Since the nurse",
+                            "metric_value": {
+                                "sum": 5.281038592787411
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the doctor had met only once",
+                            "metric_value": {
+                                "sum": 13.192821364082281
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "lost her documents",
+                            "metric_value": {
+                                "sum": 10.390867145607434
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that she had bought from an expensive store",
+                            "metric_value": {
+                                "sum": 18.203510817213502
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 17.02166748251738
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The nurse",
+                            "metric_value": {
+                                "sum": 16.09216306103015
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the doctor had met only once",
+                            "metric_value": {
+                                "sum": 2.45965541276074
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "lost her documents",
+                            "metric_value": {
+                                "sum": 6.107003053924485
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that she had bought from an expensive store",
+                            "metric_value": {
+                                "sum": 11.668056531391247
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 4.079336194295141
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Since the nurse",
+                            "metric_value": {
+                                "sum": 14.296738438358364
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the doctor had met only once",
+                            "metric_value": {
+                                "sum": 6.8839896996734895
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "lost her documents",
+                            "metric_value": {
+                                "sum": 17.18317499154811
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that she had bought from an expensive store",
+                            "metric_value": {
+                                "sum": 15.8927070490586
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", she administered the wrong medicine .",
+                            "metric_value": {
+                                "sum": 14.094375039816386
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The nurse",
+                            "metric_value": {
+                                "sum": 10.38895679425206
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the doctor had met only once",
+                            "metric_value": {
+                                "sum": 1.6166183164207557
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "lost her documents",
+                            "metric_value": {
+                                "sum": 9.937896724714108
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that she had bought from an expensive store",
+                            "metric_value": {
+                                "sum": 18.720588239389837
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", she administered the wrong medicine .",
+                            "metric_value": {
+                                "sum": 2.6700749752169637
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 9,
+            "conditions": [
+                {
+                    "condition_name": "sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Because the scientist",
+                            "metric_value": {
+                                "sum": 10.216555229216572
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the contractor had recommended",
+                            "metric_value": {
+                                "sum": 3.7132678794051066
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "broke the computer",
+                            "metric_value": {
+                                "sum": 3.272148659478023
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the administrator moved to the basement",
+                            "metric_value": {
+                                "sum": 13.780521508605581
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 3.0693671084159577
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The scientist",
+                            "metric_value": {
+                                "sum": 1.1266981503574023
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the contractor had recommended",
+                            "metric_value": {
+                                "sum": 4.323897062021089
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "broke the computer",
+                            "metric_value": {
+                                "sum": 1.139271018553854
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the administrator moved to the basement",
+                            "metric_value": {
+                                "sum": 2.632743169318579
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 7.263845280019444
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Because the scientist",
+                            "metric_value": {
+                                "sum": 11.919913879329776
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the contractor had recommended",
+                            "metric_value": {
+                                "sum": 8.429566759819064
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "broke the computer",
+                            "metric_value": {
+                                "sum": 7.526487632791268
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the administrator moved to the basement",
+                            "metric_value": {
+                                "sum": 13.195198257292825
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the administrator wrote everything by hand .",
+                            "metric_value": {
+                                "sum": 18.397227365424467
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The scientist",
+                            "metric_value": {
+                                "sum": 2.179089414411878
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the contractor had recommended",
+                            "metric_value": {
+                                "sum": 19.399318657234872
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "broke the computer",
+                            "metric_value": {
+                                "sum": 13.341149568474396
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the administrator moved to the basement",
+                            "metric_value": {
+                                "sum": 3.9624521708039167
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the administrator wrote everything by hand .",
+                            "metric_value": {
+                                "sum": 4.139072096137976
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 10,
+            "conditions": [
+                {
+                    "condition_name": "sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the minister",
+                            "metric_value": {
+                                "sum": 3.929726784970199
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the mayor had invited",
+                            "metric_value": {
+                                "sum": 18.29406166846435
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "praised the new building",
+                            "metric_value": {
+                                "sum": 19.981101033167896
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the businessman had built downtown",
+                            "metric_value": {
+                                "sum": 4.53924609622878
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 7.952014201085809
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The minister",
+                            "metric_value": {
+                                "sum": 16.62721114644218
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the mayor had invited",
+                            "metric_value": {
+                                "sum": 10.916031014946673
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "praised the new building",
+                            "metric_value": {
+                                "sum": 16.158380943855285
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the businessman had built downtown",
+                            "metric_value": {
+                                "sum": 18.061381411548428
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 1.6424222370438433
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the minister",
+                            "metric_value": {
+                                "sum": 11.324803531100253
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the mayor had invited",
+                            "metric_value": {
+                                "sum": 11.432112452950626
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "praised the new building",
+                            "metric_value": {
+                                "sum": 8.920625907079108
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the businessman had built downtown",
+                            "metric_value": {
+                                "sum": 18.35770130235047
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", it started to rain .",
+                            "metric_value": {
+                                "sum": 5.385434638838069
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The minister",
+                            "metric_value": {
+                                "sum": 1.273383878608497
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the mayor had invited",
+                            "metric_value": {
+                                "sum": 8.959156907127376
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "praised the new building",
+                            "metric_value": {
+                                "sum": 17.607195520203714
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the businessman had built downtown",
+                            "metric_value": {
+                                "sum": 3.3513034284060934
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", it started to rain .",
+                            "metric_value": {
+                                "sum": 4.5887140305516985
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 11,
+            "conditions": [
+                {
+                    "condition_name": "sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Because the architect",
+                            "metric_value": {
+                                "sum": 11.261037007620724
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the mayor respected very much",
+                            "metric_value": {
+                                "sum": 3.075651141424071
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "read the proposal",
+                            "metric_value": {
+                                "sum": 7.259018126720617
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the housing authority drafted",
+                            "metric_value": {
+                                "sum": 13.3399308527712
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 9.284673874696788
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The architect",
+                            "metric_value": {
+                                "sum": 8.383213912432138
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the mayor respected very much",
+                            "metric_value": {
+                                "sum": 8.437360884398178
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "read the proposal",
+                            "metric_value": {
+                                "sum": 14.867529879116596
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the housing authority drafted",
+                            "metric_value": {
+                                "sum": 7.598856729577405
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 13.907544015562676
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Because the architect",
+                            "metric_value": {
+                                "sum": 1.8819520446875702
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the mayor respected very much",
+                            "metric_value": {
+                                "sum": 8.431872195025134
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "read the proposal",
+                            "metric_value": {
+                                "sum": 16.97992821974615
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the housing authority drafted",
+                            "metric_value": {
+                                "sum": 18.92664586217102
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the house was built correctly .",
+                            "metric_value": {
+                                "sum": 17.82022324876056
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The architect",
+                            "metric_value": {
+                                "sum": 19.307281067103386
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the mayor respected very much",
+                            "metric_value": {
+                                "sum": 13.203346542388477
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "read the proposal",
+                            "metric_value": {
+                                "sum": 4.362454168795811
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the housing authority drafted",
+                            "metric_value": {
+                                "sum": 18.022329180768942
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the house was built correctly .",
+                            "metric_value": {
+                                "sum": 19.286632002669545
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 12,
+            "conditions": [
+                {
+                    "condition_name": "sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Before the actor",
+                            "metric_value": {
+                                "sum": 4.56300958406576
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the director praised openly",
+                            "metric_value": {
+                                "sum": 3.8146367149206513
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "delivered the speech",
+                            "metric_value": {
+                                "sum": 5.935880601198974
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the author had written yesterday",
+                            "metric_value": {
+                                "sum": 10.85645490924743
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 18.810872842842326
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The actor",
+                            "metric_value": {
+                                "sum": 3.2398550633616856
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the director praised openly",
+                            "metric_value": {
+                                "sum": 13.78177655131926
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "delivered the speech",
+                            "metric_value": {
+                                "sum": 1.70969760160712
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the author had written yesterday",
+                            "metric_value": {
+                                "sum": 18.890944349905553
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 12.598988824381593
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Before the actor",
+                            "metric_value": {
+                                "sum": 15.4147845279164
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the director praised openly",
+                            "metric_value": {
+                                "sum": 4.505388127681586
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "delivered the speech",
+                            "metric_value": {
+                                "sum": 19.515111478047285
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the author had written yesterday",
+                            "metric_value": {
+                                "sum": 17.28277906187331
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", she took a deep breath .",
+                            "metric_value": {
+                                "sum": 6.660842647019075
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The actor",
+                            "metric_value": {
+                                "sum": 3.4198830017268405
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the director praised openly",
+                            "metric_value": {
+                                "sum": 13.702408838792522
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "delivered the speech",
+                            "metric_value": {
+                                "sum": 5.190495626500645
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the author had written yesterday",
+                            "metric_value": {
+                                "sum": 6.879961865797425
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", she took a deep breath .",
+                            "metric_value": {
+                                "sum": 18.7383473744179
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 13,
+            "conditions": [
+                {
+                    "condition_name": "sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the pianist",
+                            "metric_value": {
+                                "sum": 13.945419908495552
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the critic did not like",
+                            "metric_value": {
+                                "sum": 14.844143630495648
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "practiced the music",
+                            "metric_value": {
+                                "sum": 5.946341809896942
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the composer had written",
+                            "metric_value": {
+                                "sum": 9.088958307359361
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 4.396266805062396
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The pianist",
+                            "metric_value": {
+                                "sum": 14.409527498914054
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the critic did not like",
+                            "metric_value": {
+                                "sum": 5.259039820840556
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "practiced the music",
+                            "metric_value": {
+                                "sum": 18.865987694344224
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the composer had written",
+                            "metric_value": {
+                                "sum": 11.608215293754771
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 17.696790936228027
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the pianist",
+                            "metric_value": {
+                                "sum": 8.655981604312785
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the critic did not like",
+                            "metric_value": {
+                                "sum": 8.313545487131702
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "practiced the music",
+                            "metric_value": {
+                                "sum": 12.785401359521371
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the composer had written",
+                            "metric_value": {
+                                "sum": 1.142575773546981
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the conductor stretched his arms .",
+                            "metric_value": {
+                                "sum": 19.90103652382486
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The pianist",
+                            "metric_value": {
+                                "sum": 7.224300288765115
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the critic did not like",
+                            "metric_value": {
+                                "sum": 7.21522894029669
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "practiced the music",
+                            "metric_value": {
+                                "sum": 12.594252928267368
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the composer had written",
+                            "metric_value": {
+                                "sum": 1.6341286580530316
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the conductor stretched his arms .",
+                            "metric_value": {
+                                "sum": 4.404070848322474
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 14,
+            "conditions": [
+                {
+                    "condition_name": "sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Although the students",
+                            "metric_value": {
+                                "sum": 5.1999601909628685
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the principle had disciplined",
+                            "metric_value": {
+                                "sum": 17.257821921669404
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "enjoyed the novel",
+                            "metric_value": {
+                                "sum": 18.065464766002773
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the school administrator had written",
+                            "metric_value": {
+                                "sum": 9.934756297671893
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 3.281545843513957
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The students",
+                            "metric_value": {
+                                "sum": 6.283125398483587
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the principle had disciplined",
+                            "metric_value": {
+                                "sum": 4.935021599375027
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "enjoyed the novel",
+                            "metric_value": {
+                                "sum": 15.145702724889494
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the school administrator had written",
+                            "metric_value": {
+                                "sum": 4.902822360991517
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 11.958541118061946
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Although the students",
+                            "metric_value": {
+                                "sum": 12.07106815140751
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the principle had disciplined",
+                            "metric_value": {
+                                "sum": 13.717144048120911
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "enjoyed the novel",
+                            "metric_value": {
+                                "sum": 4.9640032701628805
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the school administrator had written",
+                            "metric_value": {
+                                "sum": 8.830122043070329
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the teacher considered it poorly written .",
+                            "metric_value": {
+                                "sum": 8.228188601517257
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The students",
+                            "metric_value": {
+                                "sum": 13.426000288413253
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the principle had disciplined",
+                            "metric_value": {
+                                "sum": 5.6307078875128855
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "enjoyed the novel",
+                            "metric_value": {
+                                "sum": 17.702326650548223
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the school administrator had written",
+                            "metric_value": {
+                                "sum": 19.625941118926296
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the teacher considered it poorly written .",
+                            "metric_value": {
+                                "sum": 4.082528155594819
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 15,
+            "conditions": [
+                {
+                    "condition_name": "sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the maid",
+                            "metric_value": {
+                                "sum": 2.577302307640908
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the chef had yelled at",
+                            "metric_value": {
+                                "sum": 4.799734172872047
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "read the magazine",
+                            "metric_value": {
+                                "sum": 13.010607292299019
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the shift manager left behind",
+                            "metric_value": {
+                                "sum": 5.38664183172082
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 12.082704983858783
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The maid",
+                            "metric_value": {
+                                "sum": 13.714126606450078
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the chef had yelled at",
+                            "metric_value": {
+                                "sum": 12.172811810013082
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "read the magazine",
+                            "metric_value": {
+                                "sum": 16.871902207660153
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the shift manager left behind",
+                            "metric_value": {
+                                "sum": 5.348966031550792
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 19.033293406863894
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the maid",
+                            "metric_value": {
+                                "sum": 12.21221692423256
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the chef had yelled at",
+                            "metric_value": {
+                                "sum": 18.016543322915496
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "read the magazine",
+                            "metric_value": {
+                                "sum": 16.631606507525007
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the shift manager left behind",
+                            "metric_value": {
+                                "sum": 3.262543564086706
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the customer waited at her table .",
+                            "metric_value": {
+                                "sum": 2.4963763156048353
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The maid",
+                            "metric_value": {
+                                "sum": 8.316991847588515
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the chef had yelled at",
+                            "metric_value": {
+                                "sum": 5.850602349940141
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "read the magazine",
+                            "metric_value": {
+                                "sum": 10.545643955372512
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the shift manager left behind",
+                            "metric_value": {
+                                "sum": 7.555989111882373
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the customer waited at her table .",
+                            "metric_value": {
+                                "sum": 7.838619342199268
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 16,
+            "conditions": [
+                {
+                    "condition_name": "sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Before the assistant",
+                            "metric_value": {
+                                "sum": 13.137906629377502
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the boss moved down the hall",
+                            "metric_value": {
+                                "sum": 12.915643088550514
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "wrote the letter",
+                            "metric_value": {
+                                "sum": 2.7277478491155462
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the lawyer threw away",
+                            "metric_value": {
+                                "sum": 7.268304269635763
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 1.295531757863464
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The assistant",
+                            "metric_value": {
+                                "sum": 1.1401918383430818
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the boss moved down the hall",
+                            "metric_value": {
+                                "sum": 17.299624367936943
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "wrote the letter",
+                            "metric_value": {
+                                "sum": 9.017276778311693
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the lawyer threw away",
+                            "metric_value": {
+                                "sum": 10.508686014649976
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 16.527558676489427
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Before the assistant",
+                            "metric_value": {
+                                "sum": 3.6183476116060125
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the boss moved down the hall",
+                            "metric_value": {
+                                "sum": 14.418864050732541
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "wrote the letter",
+                            "metric_value": {
+                                "sum": 19.914313491851665
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the lawyer threw away",
+                            "metric_value": {
+                                "sum": 13.434724061546497
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", she had a cup of coffee .",
+                            "metric_value": {
+                                "sum": 11.061907884524802
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The assistant",
+                            "metric_value": {
+                                "sum": 17.460803167148693
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the boss moved down the hall",
+                            "metric_value": {
+                                "sum": 17.064353018565637
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "wrote the letter",
+                            "metric_value": {
+                                "sum": 3.5669558338273566
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the lawyer threw away",
+                            "metric_value": {
+                                "sum": 2.2028871437210347
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", she had a cup of coffee .",
+                            "metric_value": {
+                                "sum": 17.973759592997894
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 17,
+            "conditions": [
+                {
+                    "condition_name": "sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the diplomat",
+                            "metric_value": {
+                                "sum": 13.305009947369927
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the spy had contacted repeatedly",
+                            "metric_value": {
+                                "sum": 4.430178380466367
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "presented the file",
+                            "metric_value": {
+                                "sum": 14.811168846960593
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the assistant had written",
+                            "metric_value": {
+                                "sum": 15.105856964400768
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 18.215845473715767
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The diplomat",
+                            "metric_value": {
+                                "sum": 13.835514322185883
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the spy had contacted repeatedly",
+                            "metric_value": {
+                                "sum": 5.582373132679415
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "presented the file",
+                            "metric_value": {
+                                "sum": 4.500358782602287
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the assistant had written",
+                            "metric_value": {
+                                "sum": 2.028395931560942
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 12.713230172087995
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the diplomat",
+                            "metric_value": {
+                                "sum": 3.32969425196791
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the spy had contacted repeatedly",
+                            "metric_value": {
+                                "sum": 18.814139127949794
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "presented the file",
+                            "metric_value": {
+                                "sum": 11.878398698808297
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the assistant had written",
+                            "metric_value": {
+                                "sum": 11.971168333626833
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the ambassador gave a speech .",
+                            "metric_value": {
+                                "sum": 18.998605304525405
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The diplomat",
+                            "metric_value": {
+                                "sum": 9.32278971610886
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the spy had contacted repeatedly",
+                            "metric_value": {
+                                "sum": 18.736670236550058
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "presented the file",
+                            "metric_value": {
+                                "sum": 3.2516754071882783
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the assistant had written",
+                            "metric_value": {
+                                "sum": 8.311556506826454
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the ambassador gave a speech .",
+                            "metric_value": {
+                                "sum": 1.4846790090786701
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 18,
+            "conditions": [
+                {
+                    "condition_name": "sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the officials",
+                            "metric_value": {
+                                "sum": 12.09008893371527
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the coaches had bribed handsomely",
+                            "metric_value": {
+                                "sum": 15.0429054581226
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "reviewed the contract",
+                            "metric_value": {
+                                "sum": 13.479106182213016
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the lawyers had written",
+                            "metric_value": {
+                                "sum": 7.1842004559391475
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 11.609146306749691
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The officials",
+                            "metric_value": {
+                                "sum": 9.97731630424379
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the coaches had bribed handsomely",
+                            "metric_value": {
+                                "sum": 7.529256321729709
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "reviewed the contract",
+                            "metric_value": {
+                                "sum": 14.221614180362375
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the lawyers had written",
+                            "metric_value": {
+                                "sum": 4.946896187066185
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 13.802496973759972
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the officials",
+                            "metric_value": {
+                                "sum": 5.9458433425566675
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the coaches had bribed handsomely",
+                            "metric_value": {
+                                "sum": 16.81269217595651
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "reviewed the contract",
+                            "metric_value": {
+                                "sum": 18.861037990914856
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the lawyers had written",
+                            "metric_value": {
+                                "sum": 19.351692993470877
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the players waited nervously .",
+                            "metric_value": {
+                                "sum": 11.505858773005825
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The officials",
+                            "metric_value": {
+                                "sum": 3.9729995250395462
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the coaches had bribed handsomely",
+                            "metric_value": {
+                                "sum": 1.1676949199103175
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "reviewed the contract",
+                            "metric_value": {
+                                "sum": 12.498091484053056
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the lawyers had written",
+                            "metric_value": {
+                                "sum": 18.4531450847867
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the players waited nervously .",
+                            "metric_value": {
+                                "sum": 9.321741585016262
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 19,
+            "conditions": [
+                {
+                    "condition_name": "sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Because the clerk",
+                            "metric_value": {
+                                "sum": 3.3644768926618474
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the citizens liked greatly",
+                            "metric_value": {
+                                "sum": 11.578860420049368
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "lost the plans",
+                            "metric_value": {
+                                "sum": 18.597835955235936
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the city planners had drafted",
+                            "metric_value": {
+                                "sum": 4.22386604235105
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 6.137121336645612
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The clerk",
+                            "metric_value": {
+                                "sum": 8.591367254130038
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the citizens liked greatly",
+                            "metric_value": {
+                                "sum": 13.334294123052302
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "lost the plans",
+                            "metric_value": {
+                                "sum": 9.796946767148043
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the city planners had drafted",
+                            "metric_value": {
+                                "sum": 6.6123606769638545
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 2.2393263637588134
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Because the clerk",
+                            "metric_value": {
+                                "sum": 14.265085714367235
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the citizens liked greatly",
+                            "metric_value": {
+                                "sum": 12.001221171058381
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "lost the plans",
+                            "metric_value": {
+                                "sum": 19.474207100434896
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the city planners had drafted",
+                            "metric_value": {
+                                "sum": 9.852195120269903
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the detective looked elsewhere .",
+                            "metric_value": {
+                                "sum": 14.907246166699512
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The clerk",
+                            "metric_value": {
+                                "sum": 8.919693059504525
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the citizens liked greatly",
+                            "metric_value": {
+                                "sum": 3.816659169014728
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "lost the plans",
+                            "metric_value": {
+                                "sum": 16.773459100201997
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the city planners had drafted",
+                            "metric_value": {
+                                "sum": 14.485186995991233
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the detective looked elsewhere .",
+                            "metric_value": {
+                                "sum": 18.510305055571127
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 20,
+            "conditions": [
+                {
+                    "condition_name": "sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the tourists",
+                            "metric_value": {
+                                "sum": 11.359133151139167
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the locals found strange",
+                            "metric_value": {
+                                "sum": 13.985560953794906
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "read the guide",
+                            "metric_value": {
+                                "sum": 1.0102456534016373
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the maid had given them",
+                            "metric_value": {
+                                "sum": 18.020436534078538
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 11.053536119196366
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The tourists",
+                            "metric_value": {
+                                "sum": 10.342418127000272
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the locals found strange",
+                            "metric_value": {
+                                "sum": 19.47178060265483
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "read the guide",
+                            "metric_value": {
+                                "sum": 5.294736409069229
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the maid had given them",
+                            "metric_value": {
+                                "sum": 18.42436535935577
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 13.844559275808715
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the tourists",
+                            "metric_value": {
+                                "sum": 5.884871819166561
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the locals found strange",
+                            "metric_value": {
+                                "sum": 15.875898821540284
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "read the guide",
+                            "metric_value": {
+                                "sum": 5.774817147923281
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the maid had given them",
+                            "metric_value": {
+                                "sum": 16.627854659031165
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the children played in the sand .",
+                            "metric_value": {
+                                "sum": 15.447352914067947
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The tourists",
+                            "metric_value": {
+                                "sum": 6.3968899543873805
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the locals found strange",
+                            "metric_value": {
+                                "sum": 14.098296883658804
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "read the guide",
+                            "metric_value": {
+                                "sum": 6.805431968233616
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the maid had given them",
+                            "metric_value": {
+                                "sum": 16.832431910588575
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the children played in the sand .",
+                            "metric_value": {
+                                "sum": 1.2867834173699106
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 21,
+            "conditions": [
+                {
+                    "condition_name": "sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "When the politicians",
+                            "metric_value": {
+                                "sum": 2.098721582843941
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the lobbyists trusted",
+                            "metric_value": {
+                                "sum": 8.459892676032869
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "passed the new law",
+                            "metric_value": {
+                                "sum": 4.316744874976298
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that all the shop owners strongly opposed",
+                            "metric_value": {
+                                "sum": 4.759449481811206
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 10.240013609229226
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The politicians",
+                            "metric_value": {
+                                "sum": 3.3322580869893272
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the lobbyists trusted",
+                            "metric_value": {
+                                "sum": 10.695962523212875
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "passed the new law",
+                            "metric_value": {
+                                "sum": 16.577745274849704
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that all the shop owners strongly opposed",
+                            "metric_value": {
+                                "sum": 15.466063141544762
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 2.6839283764516053
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "When the politicians",
+                            "metric_value": {
+                                "sum": 2.9205882665135188
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the lobbyists trusted",
+                            "metric_value": {
+                                "sum": 16.68225244976366
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "passed the new law",
+                            "metric_value": {
+                                "sum": 5.520536906971913
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that all the shop owners strongly opposed",
+                            "metric_value": {
+                                "sum": 13.73365118319566
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the protestors walked down the street .",
+                            "metric_value": {
+                                "sum": 14.970544199393295
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The politicians",
+                            "metric_value": {
+                                "sum": 7.973138281079228
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the lobbyists trusted",
+                            "metric_value": {
+                                "sum": 3.811739153216815
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "passed the new law",
+                            "metric_value": {
+                                "sum": 2.377354795963023
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that all the shop owners strongly opposed",
+                            "metric_value": {
+                                "sum": 12.872732903452919
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the protestors walked down the street .",
+                            "metric_value": {
+                                "sum": 9.077028569474882
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 22,
+            "conditions": [
+                {
+                    "condition_name": "sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "When the police",
+                            "metric_value": {
+                                "sum": 8.015640025934431
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the officer had given pistols",
+                            "metric_value": {
+                                "sum": 13.936911778255231
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "found new evidence",
+                            "metric_value": {
+                                "sum": 13.910787745498752
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the suspect had hidden",
+                            "metric_value": {
+                                "sum": 3.0685424402641104
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 13.86709725944601
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The police",
+                            "metric_value": {
+                                "sum": 17.189253322489762
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the officer had given pistols",
+                            "metric_value": {
+                                "sum": 1.0138521843184267
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "found new evidence",
+                            "metric_value": {
+                                "sum": 17.837374524234033
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the suspect had hidden",
+                            "metric_value": {
+                                "sum": 10.20867159309712
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 5.189179100805746
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "When the police",
+                            "metric_value": {
+                                "sum": 4.648671177234057
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the officer had given pistols",
+                            "metric_value": {
+                                "sum": 8.521941112442946
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "found new evidence",
+                            "metric_value": {
+                                "sum": 10.59784986317311
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the suspect had hidden",
+                            "metric_value": {
+                                "sum": 18.80654093534362
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the judge declared a mistrial .",
+                            "metric_value": {
+                                "sum": 2.6278915051233747
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The police",
+                            "metric_value": {
+                                "sum": 16.78963788171197
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the officer had given pistols",
+                            "metric_value": {
+                                "sum": 7.980459385122006
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "found new evidence",
+                            "metric_value": {
+                                "sum": 10.105425829382751
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the suspect had hidden",
+                            "metric_value": {
+                                "sum": 2.759088568863079
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", the judge declared a mistrial .",
+                            "metric_value": {
+                                "sum": 6.474669616120048
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 23,
+            "conditions": [
+                {
+                    "condition_name": "sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Before the students",
+                            "metric_value": {
+                                "sum": 10.225919119169408
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the committee had praised",
+                            "metric_value": {
+                                "sum": 1.6850643353855879
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "handed in their papers",
+                            "metric_value": {
+                                "sum": 7.35927231911771
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the teacher assigned them",
+                            "metric_value": {
+                                "sum": 2.1907179411699964
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 8.105003765562671
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_no-matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The students",
+                            "metric_value": {
+                                "sum": 19.87763543578824
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the committee had praised",
+                            "metric_value": {
+                                "sum": 6.974412454834019
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "handed in their papers",
+                            "metric_value": {
+                                "sum": 4.293508582069634
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the teacher assigned them",
+                            "metric_value": {
+                                "sum": 16.041214840337133
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ".",
+                            "metric_value": {
+                                "sum": 4.690843792272679
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Before the students",
+                            "metric_value": {
+                                "sum": 3.158402487563322
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the committee had praised",
+                            "metric_value": {
+                                "sum": 10.300095418428505
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "handed in their papers",
+                            "metric_value": {
+                                "sum": 5.107514019989305
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the teacher assigned them",
+                            "metric_value": {
+                                "sum": 9.778202748411013
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", they revised them all night long .",
+                            "metric_value": {
+                                "sum": 19.352841676927685
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-sub_matrix",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The students",
+                            "metric_value": {
+                                "sum": 13.45779931190487
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "who the committee had praised",
+                            "metric_value": {
+                                "sum": 8.357524479921327
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "handed in their papers",
+                            "metric_value": {
+                                "sum": 9.622474226975145
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "that the teacher assigned them",
+                            "metric_value": {
+                                "sum": 4.980828802921012
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": ", they revised them all night long .",
+                            "metric_value": {
+                                "sum": 9.598304587902609
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

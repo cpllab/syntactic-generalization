@@ -1,0 +1,152 @@
+No author that liked the senators has ever been popular
+No author that liked no senators has ever been popular
+The author that liked the senators has ever been popular
+The author that liked no senators has ever been popular
+No pilot that met the consultants has ever been famous
+No pilot that met no consultants has ever been famous
+The pilot that met the consultants has ever been famous
+The pilot that met no consultants has ever been famous
+No doctor that hated the guards has ever had children
+No doctor that hated no guards has ever had children
+The doctor that hated the guards has ever had children
+The doctor that hated no guards has ever had children
+No farmer that discussed the clerks has ever been appreciated
+No farmer that discussed no clerks has ever been appreciated
+The farmer that discussed the clerks has ever been appreciated
+The farmer that discussed no clerks has ever been appreciated
+No manager that loved the architects has ever been ignored
+No manager that loved no architects has ever been ignored
+The manager that loved the architects has ever been ignored
+The manager that loved no architects has ever been ignored
+No customer that liked the athletes has ever gotten old
+No customer that liked no athletes has ever gotten old
+The customer that liked the athletes has ever gotten old
+The customer that liked no athletes has ever gotten old
+No officer that met the actors has ever been popular
+No officer that met no actors has ever been popular
+The officer that met the actors has ever been popular
+The officer that met no actors has ever been popular
+No teacher that hated the ministers has ever been famous
+No teacher that hated no ministers has ever been famous
+The teacher that hated the ministers has ever been famous
+The teacher that hated no ministers has ever been famous
+No senator that admired the taxi drivers has ever had children
+No senator that admired no taxi drivers has ever had children
+The senator that admired the taxi drivers has ever had children
+The senator that admired no taxi drivers has ever had children
+No consultant that loved the secretaries has ever been appreciated
+No consultant that loved no secretaries has ever been appreciated
+The consultant that loved the secretaries has ever been appreciated
+The consultant that loved no secretaries has ever been appreciated
+No guard that liked the executives has ever been ignored
+No guard that liked no executives has ever been ignored
+The guard that liked the executives has ever been ignored
+The guard that liked no executives has ever been ignored
+No clerk that met the authors has ever gotten old
+No clerk that met no authors has ever gotten old
+The clerk that met the authors has ever gotten old
+The clerk that met no authors has ever gotten old
+No architect that hated the pilots has ever been popular
+No architect that hated no pilots has ever been popular
+The architect that hated the pilots has ever been popular
+The architect that hated no pilots has ever been popular
+No athlete that helped the doctors has ever been famous
+No athlete that helped no doctors has ever been famous
+The athlete that helped the doctors has ever been famous
+The athlete that helped no doctors has ever been famous
+No actor that loved the farmers has ever had children
+No actor that loved no farmers has ever had children
+The actor that loved the farmers has ever had children
+The actor that loved no farmers has ever had children
+No minister that liked the managers has ever been appreciated
+No minister that liked no managers has ever been appreciated
+The minister that liked the managers has ever been appreciated
+The minister that liked no managers has ever been appreciated
+No taxi driver that met the customers has ever been ignored
+No taxi driver that met no customers has ever been ignored
+The taxi driver that met the customers has ever been ignored
+The taxi driver that met no customers has ever been ignored
+No secretary that hated the officers has ever gotten old
+No secretary that hated no officers has ever gotten old
+The secretary that hated the officers has ever gotten old
+The secretary that hated no officers has ever gotten old
+No executive that discussed the teachers has ever been popular
+No executive that discussed no teachers has ever been popular
+The executive that discussed the teachers has ever been popular
+The executive that discussed no teachers has ever been popular
+No authors that loved the officer have ever been famous
+No authors that loved no officer have ever been famous
+The authors that loved the officer have ever been famous
+The authors that loved no officer have ever been famous
+No pilots that liked the teacher have ever had children
+No pilots that liked no teacher have ever had children
+The pilots that liked the teacher have ever had children
+The pilots that liked no teacher have ever had children
+No doctors that met the senator have ever been appreciated
+No doctors that met no senator have ever been appreciated
+The doctors that met the senator have ever been appreciated
+The doctors that met no senator have ever been appreciated
+No farmers that hated the consultant have ever been ignored
+No farmers that hated no consultant have ever been ignored
+The farmers that hated the consultant have ever been ignored
+The farmers that hated no consultant have ever been ignored
+No managers that respected the guard have ever gotten old
+No managers that respected no guard have ever gotten old
+The managers that respected the guard have ever gotten old
+The managers that respected no guard have ever gotten old
+No customers that loved the clerk have ever been popular
+No customers that loved no clerk have ever been popular
+The customers that loved the clerk have ever been popular
+The customers that loved no clerk have ever been popular
+No officers that liked the architect have ever been famous
+No officers that liked no architect have ever been famous
+The officers that liked the architect have ever been famous
+The officers that liked no architect have ever been famous
+No teachers that met the athlete have ever had children
+No teachers that met no athlete have ever had children
+The teachers that met the athlete have ever had children
+The teachers that met no athlete have ever had children
+No senators that hated the actor have ever been appreciated
+No senators that hated no actor have ever been appreciated
+The senators that hated the actor have ever been appreciated
+The senators that hated no actor have ever been appreciated
+No consultants that impressed the minister have ever been ignored
+No consultants that impressed no minister have ever been ignored
+The consultants that impressed the minister have ever been ignored
+The consultants that impressed no minister have ever been ignored
+No guards that loved the taxi driver have ever gotten old
+No guards that loved no taxi driver have ever gotten old
+The guards that loved the taxi driver have ever gotten old
+The guards that loved no taxi driver have ever gotten old
+No clerks that liked the secretary have ever been popular
+No clerks that liked no secretary have ever been popular
+The clerks that liked the secretary have ever been popular
+The clerks that liked no secretary have ever been popular
+No architects that met the executive have ever been famous
+No architects that met no executive have ever been famous
+The architects that met the executive have ever been famous
+The architects that met no executive have ever been famous
+No athletes that hated the pilot have ever had children
+No athletes that hated no pilot have ever had children
+The athletes that hated the pilot have ever had children
+The athletes that hated no pilot have ever had children
+No journalists that contacted the doctor have ever been appreciated
+No journalists that contacted no doctor have ever been appreciated
+The journalists that contacted the doctor have ever been appreciated
+The journalists that contacted no doctor have ever been appreciated
+No ministers that loved the farmer have ever been ignored
+No ministers that loved no farmer have ever been ignored
+The ministers that loved the farmer have ever been ignored
+The ministers that loved no farmer have ever been ignored
+No taxi drivers that liked the manager have ever gotten old
+No taxi drivers that liked no manager have ever gotten old
+The taxi drivers that liked the manager have ever gotten old
+The taxi drivers that liked no manager have ever gotten old
+No secretaries that met the customer have ever been popular
+No secretaries that met no customer have ever been popular
+The secretaries that met the customer have ever been popular
+The secretaries that met no customer have ever been popular
+No executives that hated the officer have ever been famous
+No executives that hated no officer have ever been famous
+The executives that hated the officer have ever been famous
+The executives that hated no officer have ever been famous

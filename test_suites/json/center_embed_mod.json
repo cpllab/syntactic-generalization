@@ -1,0 +1,3581 @@
+{
+    "meta": {
+        "name": "center_embed_mod",
+        "metric": "sum",
+        "comment": "",
+        "reference": "",
+        "author": "",
+        "string_predictions": [
+            "[ (7;%plaus%) + (8;%plaus%) ] < [ (7;%implaus%) + (8;%implaus%) ]"
+        ]
+    },
+    "region_meta": {
+        "1": "intro",
+        "2": "np_1",
+        "3": "that",
+        "4": "det_2",
+        "5": "np_2",
+        "6": "modifier",
+        "7": "verb1",
+        "8": "verb2"
+    },
+    "predictions": [],
+    "items": [
+        {
+            "item_number": 1,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 7.827869533187378
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "painting",
+                            "metric_value": {
+                                "sum": 11.576799949274887
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 10.45674684201973
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 9.297913478757549
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "artist",
+                            "metric_value": {
+                                "sum": 1.9869923154319444
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "who lived long ago",
+                            "metric_value": {
+                                "sum": 14.297129717744136
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "painted",
+                            "metric_value": {
+                                "sum": 19.859240989315897
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "deteriorated",
+                            "metric_value": {
+                                "sum": 5.3557076383496405
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 11.939506250727671
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "painting",
+                            "metric_value": {
+                                "sum": 9.663215316860706
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 5.973695256643597
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 2.627750551888636
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "artist",
+                            "metric_value": {
+                                "sum": 10.168056513041142
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "who lived long ago",
+                            "metric_value": {
+                                "sum": 18.71359350005788
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "deteriorated",
+                            "metric_value": {
+                                "sum": 18.080607663005654
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "painted",
+                            "metric_value": {
+                                "sum": 6.216048944005734
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 2,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 7.845538892772269
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "storm",
+                            "metric_value": {
+                                "sum": 8.308642159124563
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 7.570840521991847
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 7.311101101616798
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "captain",
+                            "metric_value": {
+                                "sum": 16.99785024577277
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "with the black hair",
+                            "metric_value": {
+                                "sum": 4.805556559437213
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "feared",
+                            "metric_value": {
+                                "sum": 13.59470361641348
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "subsided",
+                            "metric_value": {
+                                "sum": 4.7051085944675215
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 19.31674289099086
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "storm",
+                            "metric_value": {
+                                "sum": 6.34210857934459
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 10.3853885817567
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 8.740527117870505
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "captain",
+                            "metric_value": {
+                                "sum": 7.889502419388702
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "with the black hair",
+                            "metric_value": {
+                                "sum": 14.273051311016818
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "subsided",
+                            "metric_value": {
+                                "sum": 14.492729482434614
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "feared",
+                            "metric_value": {
+                                "sum": 8.935167740793085
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 3,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 19.012690528563716
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "girl",
+                            "metric_value": {
+                                "sum": 5.164013883622807
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 16.768264695236493
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 14.531944981206076
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "bug",
+                            "metric_value": {
+                                "sum": 4.389539398088273
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "with the green wings",
+                            "metric_value": {
+                                "sum": 3.8980874923060935
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "frightened",
+                            "metric_value": {
+                                "sum": 14.688697795523781
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "shouted",
+                            "metric_value": {
+                                "sum": 7.059821220225065
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 4.645005825377194
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "girl",
+                            "metric_value": {
+                                "sum": 8.33321114439201
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 14.443686555055695
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 1.009007894735149
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "bug",
+                            "metric_value": {
+                                "sum": 3.441168429663967
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "with the green wings",
+                            "metric_value": {
+                                "sum": 13.473772130426177
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "shouted",
+                            "metric_value": {
+                                "sum": 11.878457229392268
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "frightened",
+                            "metric_value": {
+                                "sum": 12.26796554450227
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 4,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 2.5259704091834267
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "baby",
+                            "metric_value": {
+                                "sum": 4.6349575208136535
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 3.6179461263427406
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 1.0213378421166173
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "woman",
+                            "metric_value": {
+                                "sum": 13.331183784912138
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "waiting in the street",
+                            "metric_value": {
+                                "sum": 2.2601210249926718
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "held",
+                            "metric_value": {
+                                "sum": 15.22378538062332
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "yelled",
+                            "metric_value": {
+                                "sum": 19.77470028737807
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 10.917009016342945
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "baby",
+                            "metric_value": {
+                                "sum": 12.050362298380989
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 9.347614081297227
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 6.321993080008063
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "woman",
+                            "metric_value": {
+                                "sum": 6.525844836924222
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "waiting in the street",
+                            "metric_value": {
+                                "sum": 13.356220460139559
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "yelled",
+                            "metric_value": {
+                                "sum": 11.973060172452078
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "held",
+                            "metric_value": {
+                                "sum": 4.983489935184851
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 5,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 6.803435868601998
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "soldier",
+                            "metric_value": {
+                                "sum": 9.837256417311725
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 4.2942245135466575
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 4.943072113347018
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "bullet",
+                            "metric_value": {
+                                "sum": 4.188421811821604
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "with the exploding tip",
+                            "metric_value": {
+                                "sum": 3.3983950662425624
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "wounded",
+                            "metric_value": {
+                                "sum": 6.823375710747747
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "died",
+                            "metric_value": {
+                                "sum": 14.046895240186993
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 16.2487713613355
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "soldier",
+                            "metric_value": {
+                                "sum": 12.635693185806277
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 4.012646380127121
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 11.408486344754586
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "bullet",
+                            "metric_value": {
+                                "sum": 11.564077366814928
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "with the exploding tip",
+                            "metric_value": {
+                                "sum": 5.727252369373483
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "died",
+                            "metric_value": {
+                                "sum": 19.49312116970011
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "wounded",
+                            "metric_value": {
+                                "sum": 19.403463774417997
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 6,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 11.580033514305589
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "storm",
+                            "metric_value": {
+                                "sum": 2.8277982305303464
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 7.400418813235683
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 11.765727358156738
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "scientist",
+                            "metric_value": {
+                                "sum": 2.323774269446697
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "from the famous university",
+                            "metric_value": {
+                                "sum": 14.870069948038266
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "predicted",
+                            "metric_value": {
+                                "sum": 11.580110109267633
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "intensified",
+                            "metric_value": {
+                                "sum": 6.4799130153052955
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 14.867382170499802
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "storm",
+                            "metric_value": {
+                                "sum": 4.561454035647545
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 19.00221813179225
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 7.02910805634981
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "scientist",
+                            "metric_value": {
+                                "sum": 19.906804959415872
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "from the famous university",
+                            "metric_value": {
+                                "sum": 12.1171534081683
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "intensified",
+                            "metric_value": {
+                                "sum": 16.935164274370912
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "predicted",
+                            "metric_value": {
+                                "sum": 11.642567567766369
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 7,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 15.629538797083697
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "convict",
+                            "metric_value": {
+                                "sum": 13.023634960765177
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 6.680572163053539
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 10.636886126009529
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "cop",
+                            "metric_value": {
+                                "sum": 19.005398014264582
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "from the neighboring city",
+                            "metric_value": {
+                                "sum": 19.124280093872642
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "arrested",
+                            "metric_value": {
+                                "sum": 8.269797047495107
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "escaped",
+                            "metric_value": {
+                                "sum": 6.203857380139612
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 7.206039578864971
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "convict",
+                            "metric_value": {
+                                "sum": 17.17055549993926
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 5.95417088436962
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 6.812553461615748
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "cop",
+                            "metric_value": {
+                                "sum": 19.060121994623398
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "from the neighboring city",
+                            "metric_value": {
+                                "sum": 7.65009657967986
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "escaped",
+                            "metric_value": {
+                                "sum": 11.645560398086896
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "arrested",
+                            "metric_value": {
+                                "sum": 5.243424946556637
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 8,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 6.2993787627391855
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "computer",
+                            "metric_value": {
+                                "sum": 5.618720470702275
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 9.248431236144867
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 8.65905158462632
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "secretary",
+                            "metric_value": {
+                                "sum": 6.566993361682591
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "with the blue dress",
+                            "metric_value": {
+                                "sum": 3.311164301439054
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "bought",
+                            "metric_value": {
+                                "sum": 16.0682908831717
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "crashed",
+                            "metric_value": {
+                                "sum": 15.978227150793543
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 1.10493547916363
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "computer",
+                            "metric_value": {
+                                "sum": 18.73323132522333
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 11.762656269305806
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 2.385089350409149
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "secretary",
+                            "metric_value": {
+                                "sum": 14.146048059654593
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "with the blue dress",
+                            "metric_value": {
+                                "sum": 8.435083299378746
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "crashed",
+                            "metric_value": {
+                                "sum": 9.775927819350727
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "bought",
+                            "metric_value": {
+                                "sum": 4.676555954527843
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 9,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 1.2378782713203074
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "floor",
+                            "metric_value": {
+                                "sum": 2.8640490977839406
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 5.829873416787498
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 9.990283203897546
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "maid",
+                            "metric_value": {
+                                "sum": 11.748418704481779
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "with the strong arms",
+                            "metric_value": {
+                                "sum": 14.340033318857099
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "swept",
+                            "metric_value": {
+                                "sum": 5.283174351230465
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "cracked",
+                            "metric_value": {
+                                "sum": 11.807562404811991
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 3.9343102498410425
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "floor",
+                            "metric_value": {
+                                "sum": 9.54976711803599
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 18.42966332816553
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 6.245175188973351
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "maid",
+                            "metric_value": {
+                                "sum": 13.271668584566314
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "with the strong arms",
+                            "metric_value": {
+                                "sum": 18.1779724413235
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "cracked",
+                            "metric_value": {
+                                "sum": 1.7089914789850296
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "swept",
+                            "metric_value": {
+                                "sum": 12.432221157169213
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 10,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 7.102999877016658
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "yacht",
+                            "metric_value": {
+                                "sum": 9.584287561123865
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 4.690516909946846
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 4.30524278670042
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "millionaires",
+                            "metric_value": {
+                                "sum": 15.94293924656179
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "who everyone dislikes",
+                            "metric_value": {
+                                "sum": 1.6675566442059744
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "bought",
+                            "metric_value": {
+                                "sum": 11.94256079250474
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "sank",
+                            "metric_value": {
+                                "sum": 19.374256752233535
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 18.56079667166659
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "yacht",
+                            "metric_value": {
+                                "sum": 6.133938853076461
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 17.100210540171688
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 14.92738622920816
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "millionaires",
+                            "metric_value": {
+                                "sum": 8.366041760371534
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "who everyone dislikes",
+                            "metric_value": {
+                                "sum": 4.534876487537556
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "sank",
+                            "metric_value": {
+                                "sum": 17.22533944454508
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "bought",
+                            "metric_value": {
+                                "sum": 16.9952960231966
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 11,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 11.379478162088214
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "shirt",
+                            "metric_value": {
+                                "sum": 16.848441275085438
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 15.046366028005131
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 9.3641806827314
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "man",
+                            "metric_value": {
+                                "sum": 18.055637776366396
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "who lives down the block",
+                            "metric_value": {
+                                "sum": 17.435485086324793
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "bought",
+                            "metric_value": {
+                                "sum": 7.591390602248948
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "ripped",
+                            "metric_value": {
+                                "sum": 3.098335080561206
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 17.474676505712328
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "shirt",
+                            "metric_value": {
+                                "sum": 17.493200699433597
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 3.837135435211256
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 1.2633483250971198
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "man",
+                            "metric_value": {
+                                "sum": 7.2654994760835105
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "who lives down the block",
+                            "metric_value": {
+                                "sum": 9.01385159169515
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "ripped",
+                            "metric_value": {
+                                "sum": 1.4226399852101945
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "bought",
+                            "metric_value": {
+                                "sum": 16.989212040911887
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 12,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 14.043864207660917
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "water",
+                            "metric_value": {
+                                "sum": 10.144263185929383
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 2.069499890745794
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 18.49090845688392
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "maid",
+                            "metric_value": {
+                                "sum": 16.75859591507009
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "in the white uniform",
+                            "metric_value": {
+                                "sum": 2.7227665509711763
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "poured",
+                            "metric_value": {
+                                "sum": 11.302162215154146
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "evaporated",
+                            "metric_value": {
+                                "sum": 4.651749089736478
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 7.758169679654278
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "water",
+                            "metric_value": {
+                                "sum": 7.428298530783587
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 18.893163462571966
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 5.176966344281086
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "maid",
+                            "metric_value": {
+                                "sum": 9.157143197745581
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "in the white uniform",
+                            "metric_value": {
+                                "sum": 2.5633615217785923
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "evaporated",
+                            "metric_value": {
+                                "sum": 19.75634982109215
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "poured",
+                            "metric_value": {
+                                "sum": 12.902809083489103
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 13,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 2.7717682889530972
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "building",
+                            "metric_value": {
+                                "sum": 10.39470619769872
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 2.276868711330554
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 5.820181552687265
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "workers",
+                            "metric_value": {
+                                "sum": 3.3185372180348836
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "from the local union",
+                            "metric_value": {
+                                "sum": 3.817312074062619
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "built",
+                            "metric_value": {
+                                "sum": 12.440895450564366
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "collapsed",
+                            "metric_value": {
+                                "sum": 7.256709459854284
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 3.3757581025812486
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "building",
+                            "metric_value": {
+                                "sum": 16.823279267172165
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 7.228554409737648
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 7.887786251284964
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "workers",
+                            "metric_value": {
+                                "sum": 5.5591520274629245
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "from the local union",
+                            "metric_value": {
+                                "sum": 8.232412032139592
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "collapsed",
+                            "metric_value": {
+                                "sum": 9.797242955848926
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "built",
+                            "metric_value": {
+                                "sum": 18.076784489201547
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 14,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 2.4984505988552166
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "bones",
+                            "metric_value": {
+                                "sum": 1.2875352737541839
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 10.954849990442149
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 14.64191185317849
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "doctor",
+                            "metric_value": {
+                                "sum": 6.796339339619633
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "in the white jacket",
+                            "metric_value": {
+                                "sum": 15.246929108418742
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "examined",
+                            "metric_value": {
+                                "sum": 5.9281218827960505
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "broke",
+                            "metric_value": {
+                                "sum": 12.173299482783266
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 8.508961089572407
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "bones",
+                            "metric_value": {
+                                "sum": 6.43222444288422
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 9.437394053215188
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 15.783708301084602
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "doctor",
+                            "metric_value": {
+                                "sum": 10.925620874957476
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "in the white jacket",
+                            "metric_value": {
+                                "sum": 11.327128386960323
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "broke",
+                            "metric_value": {
+                                "sum": 4.887686641201172
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "examined",
+                            "metric_value": {
+                                "sum": 1.4576066489972708
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 15,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 9.745882276670246
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "building",
+                            "metric_value": {
+                                "sum": 13.557168020226543
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 12.89776509378492
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 10.405521168100652
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "workers",
+                            "metric_value": {
+                                "sum": 16.6343976528886
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "in the green pants",
+                            "metric_value": {
+                                "sum": 9.112540547477577
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "repaired",
+                            "metric_value": {
+                                "sum": 6.607794911236208
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "deteriorated",
+                            "metric_value": {
+                                "sum": 9.246105719485172
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 15.405364544480667
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "building",
+                            "metric_value": {
+                                "sum": 6.066376082382661
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 16.15133567830756
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 3.023848101745508
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "workers",
+                            "metric_value": {
+                                "sum": 11.689468296684952
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "in the green pants",
+                            "metric_value": {
+                                "sum": 1.7599776211533427
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "deteriorated",
+                            "metric_value": {
+                                "sum": 15.64322119285857
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "repaired",
+                            "metric_value": {
+                                "sum": 6.576555894470967
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 16,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 17.0391049587422
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "ship",
+                            "metric_value": {
+                                "sum": 14.18531957368999
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 10.099177432138482
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 5.364192296413608
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "workers",
+                            "metric_value": {
+                                "sum": 17.27602768305479
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "in the blue uniforms",
+                            "metric_value": {
+                                "sum": 13.612597623715667
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "built",
+                            "metric_value": {
+                                "sum": 4.271714951650321
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "sank",
+                            "metric_value": {
+                                "sum": 13.559522199741071
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 15.102120702551288
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "ship",
+                            "metric_value": {
+                                "sum": 4.4174651855230325
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 8.110846316406807
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 18.116661406847214
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "workers",
+                            "metric_value": {
+                                "sum": 4.771981868324739
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "in the blue uniforms",
+                            "metric_value": {
+                                "sum": 3.1939127435410475
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "sank",
+                            "metric_value": {
+                                "sum": 16.79655867973772
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "built",
+                            "metric_value": {
+                                "sum": 6.96958232460431
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 17,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 15.208537890646221
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "horse",
+                            "metric_value": {
+                                "sum": 4.422957787880638
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 14.823257245689167
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 12.48834590095147
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "boy",
+                            "metric_value": {
+                                "sum": 3.069436973170075
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "from the local town",
+                            "metric_value": {
+                                "sum": 1.1694526665743266
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "rode",
+                            "metric_value": {
+                                "sum": 13.718148911303523
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "bucked",
+                            "metric_value": {
+                                "sum": 15.893029275872308
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 8.916858614327843
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "horse",
+                            "metric_value": {
+                                "sum": 18.014493862740466
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 17.08551544718468
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 9.596306326853012
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "boy",
+                            "metric_value": {
+                                "sum": 10.676342449739547
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "from the local town",
+                            "metric_value": {
+                                "sum": 15.127016651745821
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "bucked",
+                            "metric_value": {
+                                "sum": 8.730307648198764
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "rode",
+                            "metric_value": {
+                                "sum": 11.474502670518149
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 18,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 9.032373683152365
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "water",
+                            "metric_value": {
+                                "sum": 18.063008831493097
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 9.28585369447325
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 5.616842716628334
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "chef",
+                            "metric_value": {
+                                "sum": 9.064969464470794
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "in the tall white hat",
+                            "metric_value": {
+                                "sum": 15.041150923799313
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "needed",
+                            "metric_value": {
+                                "sum": 12.30456392530953
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "evaporated",
+                            "metric_value": {
+                                "sum": 10.348474797907743
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 7.720384624518641
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "water",
+                            "metric_value": {
+                                "sum": 5.572489021593066
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 8.481802675544778
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 5.475919494942449
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "chef",
+                            "metric_value": {
+                                "sum": 13.21747507546257
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "in the tall white hat",
+                            "metric_value": {
+                                "sum": 16.477391930638362
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "evaporated",
+                            "metric_value": {
+                                "sum": 19.829622301648392
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "needed",
+                            "metric_value": {
+                                "sum": 3.423869148278663
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 19,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 13.10676667335413
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "tree",
+                            "metric_value": {
+                                "sum": 11.087804777999445
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 1.228563175361481
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 1.419645611999948
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "old man",
+                            "metric_value": {
+                                "sum": 13.45024671304425
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "from the small town",
+                            "metric_value": {
+                                "sum": 16.49642586714029
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "cut",
+                            "metric_value": {
+                                "sum": 7.764421771347445
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "fell",
+                            "metric_value": {
+                                "sum": 4.730842143796857
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 6.712703765635163
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "tree",
+                            "metric_value": {
+                                "sum": 8.962122435590656
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 14.782482372676277
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 14.93095414699796
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "old man",
+                            "metric_value": {
+                                "sum": 17.5917720264224
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "from the small town",
+                            "metric_value": {
+                                "sum": 11.555004295879005
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "fell",
+                            "metric_value": {
+                                "sum": 14.133838612779726
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "cut",
+                            "metric_value": {
+                                "sum": 12.879135000955367
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 20,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 1.1778048039823736
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "letter",
+                            "metric_value": {
+                                "sum": 8.190362378373946
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 12.519656872347397
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 11.368406453535902
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "author",
+                            "metric_value": {
+                                "sum": 3.1625075045291373
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "from the big city",
+                            "metric_value": {
+                                "sum": 19.008580626638764
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "wrote",
+                            "metric_value": {
+                                "sum": 7.557541046324726
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "arrived",
+                            "metric_value": {
+                                "sum": 8.953278872351044
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 6.8858247302390785
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "letter",
+                            "metric_value": {
+                                "sum": 5.520455676562783
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 18.886799194914992
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 7.736484631374046
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "author",
+                            "metric_value": {
+                                "sum": 5.470593725021647
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "from the big city",
+                            "metric_value": {
+                                "sum": 10.09508708643558
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "arrived",
+                            "metric_value": {
+                                "sum": 11.85678454070342
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "wrote",
+                            "metric_value": {
+                                "sum": 8.242931452111371
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 21,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 7.44309559214129
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "glass",
+                            "metric_value": {
+                                "sum": 16.841002518356994
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 13.187693459993554
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 13.754231302947279
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "athlete",
+                            "metric_value": {
+                                "sum": 13.70366251841432
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "in the red shirt",
+                            "metric_value": {
+                                "sum": 18.43213643522549
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "hit",
+                            "metric_value": {
+                                "sum": 6.446020991973816
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "cracked",
+                            "metric_value": {
+                                "sum": 6.3493343161994
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 16.462218928528166
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "glass",
+                            "metric_value": {
+                                "sum": 11.455468422349082
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 17.852203011359894
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 8.004086465146163
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "athlete",
+                            "metric_value": {
+                                "sum": 10.518681357841169
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "in the red shirt",
+                            "metric_value": {
+                                "sum": 9.619208609978596
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "cracked",
+                            "metric_value": {
+                                "sum": 17.49359515379842
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "hit",
+                            "metric_value": {
+                                "sum": 14.70516136211989
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 22,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 14.729269875885885
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "bomb",
+                            "metric_value": {
+                                "sum": 10.768924058786387
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 17.43580154315627
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 2.9816486909876776
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "terrorist",
+                            "metric_value": {
+                                "sum": 6.886610720531898
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "from the foreign country",
+                            "metric_value": {
+                                "sum": 10.541362034854917
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "built",
+                            "metric_value": {
+                                "sum": 1.357633852904276
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "exploded",
+                            "metric_value": {
+                                "sum": 15.709409964732947
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 11.63397321343837
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "bomb",
+                            "metric_value": {
+                                "sum": 13.081361716878043
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 3.369352872256202
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 10.168301173750853
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "terrorist",
+                            "metric_value": {
+                                "sum": 3.0694248934174713
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "from the foreign country",
+                            "metric_value": {
+                                "sum": 2.752392508507064
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "exploded",
+                            "metric_value": {
+                                "sum": 3.043020035061883
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "built",
+                            "metric_value": {
+                                "sum": 5.271908385344774
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 23,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 4.383666102875333
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "meat",
+                            "metric_value": {
+                                "sum": 8.47170398004565
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 3.5999301851505807
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 2.6650220088971928
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "man",
+                            "metric_value": {
+                                "sum": 9.738046949847663
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "in the green jacket",
+                            "metric_value": {
+                                "sum": 11.578753760111063
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "cooked",
+                            "metric_value": {
+                                "sum": 5.151023777729632
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "burned",
+                            "metric_value": {
+                                "sum": 13.715512958146029
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 16.914873752657968
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "meat",
+                            "metric_value": {
+                                "sum": 14.980518403232516
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 7.382576416223667
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 10.454199029625459
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "man",
+                            "metric_value": {
+                                "sum": 10.112676415998408
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "in the green jacket",
+                            "metric_value": {
+                                "sum": 1.9227310256493575
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "burned",
+                            "metric_value": {
+                                "sum": 9.37944343348517
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "cooked",
+                            "metric_value": {
+                                "sum": 12.107388926755966
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 24,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 16.950415549940686
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "sugar",
+                            "metric_value": {
+                                "sum": 9.430500735601008
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 4.250545868408741
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 6.067434524415633
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "visitor",
+                            "metric_value": {
+                                "sum": 5.945552064442695
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "from the south of France",
+                            "metric_value": {
+                                "sum": 10.177122846341751
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "bought",
+                            "metric_value": {
+                                "sum": 15.664418420003164
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "dissolved",
+                            "metric_value": {
+                                "sum": 12.042122346208092
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 4.6426810226095085
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "sugar",
+                            "metric_value": {
+                                "sum": 15.038224301383455
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 14.081447884459992
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 18.95370639656663
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "visitor",
+                            "metric_value": {
+                                "sum": 19.03848505465728
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "from the south of France",
+                            "metric_value": {
+                                "sum": 9.974988171547837
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "dissolved",
+                            "metric_value": {
+                                "sum": 5.014998506333737
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "bought",
+                            "metric_value": {
+                                "sum": 16.019414243237918
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 25,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 1.3461978975889897
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "pants",
+                            "metric_value": {
+                                "sum": 6.8271783766612835
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 12.65665800733467
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 5.6601136810462
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "woman",
+                            "metric_value": {
+                                "sum": 3.4724672362086846
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "in the green dress",
+                            "metric_value": {
+                                "sum": 4.061875555639935
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "bought",
+                            "metric_value": {
+                                "sum": 19.43993052354445
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "ripped",
+                            "metric_value": {
+                                "sum": 7.701002443750315
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 8.35759842129037
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "pants",
+                            "metric_value": {
+                                "sum": 11.09021884863439
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 17.198944530700356
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 8.503839406993846
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "woman",
+                            "metric_value": {
+                                "sum": 10.49508528010236
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "in the green dress",
+                            "metric_value": {
+                                "sum": 3.5536237531140245
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "ripped",
+                            "metric_value": {
+                                "sum": 14.063036440972422
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "bought",
+                            "metric_value": {
+                                "sum": 4.5580453567192585
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 26,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 19.6573832990478
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "toilet",
+                            "metric_value": {
+                                "sum": 2.9910556299910973
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 4.368027011447998
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 16.258559252526666
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "worker",
+                            "metric_value": {
+                                "sum": 11.281413034000561
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "who we all respect",
+                            "metric_value": {
+                                "sum": 7.34694583002766
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "fixed",
+                            "metric_value": {
+                                "sum": 6.517327495695918
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "clogged",
+                            "metric_value": {
+                                "sum": 16.815007307804464
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 10.908251364416717
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "toilet",
+                            "metric_value": {
+                                "sum": 8.262035557252801
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 19.5953745743982
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 5.711474496560415
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "worker",
+                            "metric_value": {
+                                "sum": 18.69659876258203
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "who we all respect",
+                            "metric_value": {
+                                "sum": 18.582628458709962
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "clogged",
+                            "metric_value": {
+                                "sum": 1.5178329264597745
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "fixed",
+                            "metric_value": {
+                                "sum": 18.441282966049016
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 27,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 8.047730455525052
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "window",
+                            "metric_value": {
+                                "sum": 17.111396021620884
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 1.6238028721289561
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 13.63543294504013
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "boy",
+                            "metric_value": {
+                                "sum": 8.394311001967033
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "in the blue shirt",
+                            "metric_value": {
+                                "sum": 18.229321570909455
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "wiped",
+                            "metric_value": {
+                                "sum": 5.599106112264668
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "shattered",
+                            "metric_value": {
+                                "sum": 1.653125050518799
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 16.200093218536587
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "window",
+                            "metric_value": {
+                                "sum": 1.0641741576388277
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 3.114524238309491
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 17.306835990607237
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "boy",
+                            "metric_value": {
+                                "sum": 3.8269698034544986
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "in the blue shirt",
+                            "metric_value": {
+                                "sum": 2.3173955945934392
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "shattered",
+                            "metric_value": {
+                                "sum": 10.173847240889254
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "wiped",
+                            "metric_value": {
+                                "sum": 16.19941700283492
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 28,
+            "conditions": [
+                {
+                    "condition_name": "plaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 7.664815217915066
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "child",
+                            "metric_value": {
+                                "sum": 7.104175385089857
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 4.215309463305045
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 8.376863520020652
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "shadow",
+                            "metric_value": {
+                                "sum": 7.1528315141847765
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "in the corner of the room",
+                            "metric_value": {
+                                "sum": 14.861584590896395
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "frightened",
+                            "metric_value": {
+                                "sum": 11.938613197620047
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "yelled",
+                            "metric_value": {
+                                "sum": 16.801601241795026
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "implaus",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "The",
+                            "metric_value": {
+                                "sum": 12.560403416196412
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "child",
+                            "metric_value": {
+                                "sum": 5.832277447624861
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "that",
+                            "metric_value": {
+                                "sum": 7.556614109162787
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": "the",
+                            "metric_value": {
+                                "sum": 6.679755613287917
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "shadow",
+                            "metric_value": {
+                                "sum": 1.1778928260836143
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "in the corner of the room",
+                            "metric_value": {
+                                "sum": 1.948646026725712
+                            }
+                        },
+                        {
+                            "region_number": 7,
+                            "content": "yelled",
+                            "metric_value": {
+                                "sum": 4.538931294663306
+                            }
+                        },
+                        {
+                            "region_number": 8,
+                            "content": "frightened",
+                            "metric_value": {
+                                "sum": 16.621343164504687
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

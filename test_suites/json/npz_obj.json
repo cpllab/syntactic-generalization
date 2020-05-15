@@ -1,0 +1,4655 @@
+{
+    "meta": {
+        "name": "npz_obj",
+        "metric": "sum",
+        "comment": "Below is a simple two-criterion GP prediction. #Prediction [(5;%no-obj_no-comma%) > (5;%no-obj_comma%) ] &  [(5;%no-obj_no-comma%) > (5;%obj_no-comma%) ] Below is the more stringent prediction of the interaction. Below is Ethan's original prediction #Prediction [(5;%no-obj_no-comma%) > (5;%no-obj_comma%) ] & [(5;%no-obj_comma%) = (5;%obj_comma%) ]",
+        "reference": "",
+        "author": "",
+        "string_predictions": [
+            "[(5;%no-obj_no-comma%) > (5;%no-obj_comma%) ] &  [(5;%no-obj_no-comma%) > (5;%obj_no-comma%) ] & [[(5;%no-obj_no-comma%) - (5;%no-obj_comma%) ] > [(5;%obj_no-comma%) - (5;%obj_comma%) ]]"
+        ]
+    },
+    "region_meta": {
+        "1": "Start",
+        "2": "Transitive Verb",
+        "3": "Comma",
+        "4": "NP/Z",
+        "5": "Verb",
+        "6": "Continuation"
+    },
+    "predictions": [],
+    "items": [
+        {
+            "item_number": 1,
+            "conditions": [
+                {
+                    "condition_name": "no-obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As the criminal",
+                            "metric_value": {
+                                "sum": 12.76108110524728
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " shot",
+                            "metric_value": {
+                                "sum": 19.37346965405783
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 12.620615306400556
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the woman",
+                            "metric_value": {
+                                "sum": 1.1773705149435485
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "yelled",
+                            "metric_value": {
+                                "sum": 10.786876399072105
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "at the top of her lungs",
+                            "metric_value": {
+                                "sum": 11.835794027165827
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As the criminal",
+                            "metric_value": {
+                                "sum": 19.110278609312253
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " shot his gun",
+                            "metric_value": {
+                                "sum": 14.923741700856173
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 11.345486161961045
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the woman",
+                            "metric_value": {
+                                "sum": 15.482126858488686
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "yelled",
+                            "metric_value": {
+                                "sum": 6.45863783294539
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "at the top of her lungs",
+                            "metric_value": {
+                                "sum": 1.3740783752685481
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As the criminal",
+                            "metric_value": {
+                                "sum": 6.60118577993893
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " shot",
+                            "metric_value": {
+                                "sum": 17.00295143538366
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 11.358715056184662
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the woman",
+                            "metric_value": {
+                                "sum": 19.53460107086464
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "yelled",
+                            "metric_value": {
+                                "sum": 15.143848818421967
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "at the top of her lungs",
+                            "metric_value": {
+                                "sum": 6.2991654291021675
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As the criminal",
+                            "metric_value": {
+                                "sum": 2.7394437751959275
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " shot his gun",
+                            "metric_value": {
+                                "sum": 9.481334785687016
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 18.170653267390044
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the woman",
+                            "metric_value": {
+                                "sum": 6.472889530252161
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "yelled",
+                            "metric_value": {
+                                "sum": 4.549778460188364
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "at the top of her lungs",
+                            "metric_value": {
+                                "sum": 19.794794401207866
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 2,
+            "conditions": [
+                {
+                    "condition_name": "no-obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "When the dog",
+                            "metric_value": {
+                                "sum": 11.383375227662343
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " bit",
+                            "metric_value": {
+                                "sum": 10.533287876318314
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 19.660333308246393
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the doctor",
+                            "metric_value": {
+                                "sum": 5.223335470506765
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " took off",
+                            "metric_value": {
+                                "sum": 15.406261374562362
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " the restraint",
+                            "metric_value": {
+                                "sum": 15.322093162463815
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "When the dog",
+                            "metric_value": {
+                                "sum": 2.687181592717403
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " bit his owner",
+                            "metric_value": {
+                                "sum": 19.473923234199248
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 13.202697015923512
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the doctor",
+                            "metric_value": {
+                                "sum": 19.124828825534937
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " took off",
+                            "metric_value": {
+                                "sum": 13.6721599655621
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " the restraint",
+                            "metric_value": {
+                                "sum": 15.22013428522492
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "When the dog",
+                            "metric_value": {
+                                "sum": 8.594542243988641
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " bit",
+                            "metric_value": {
+                                "sum": 2.81061320252972
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 14.081903817619889
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the doctor",
+                            "metric_value": {
+                                "sum": 5.2972515034674466
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " took off",
+                            "metric_value": {
+                                "sum": 9.65112938876543
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " the restraint",
+                            "metric_value": {
+                                "sum": 12.091713195207504
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "When the dog",
+                            "metric_value": {
+                                "sum": 14.91369790777197
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " bit his owner",
+                            "metric_value": {
+                                "sum": 2.952758608377775
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 7.724315071684939
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the doctor",
+                            "metric_value": {
+                                "sum": 10.939153176960193
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " took off",
+                            "metric_value": {
+                                "sum": 11.233675678765122
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " the restraint",
+                            "metric_value": {
+                                "sum": 8.007737818212686
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 3,
+            "conditions": [
+                {
+                    "condition_name": "no-obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As the ship",
+                            "metric_value": {
+                                "sum": 19.24636600789594
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " crossed",
+                            "metric_value": {
+                                "sum": 9.533173352899157
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 8.954948348610028
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the waters",
+                            "metric_value": {
+                                "sum": 2.8629878756510485
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " remained",
+                            "metric_value": {
+                                "sum": 5.7234970555847005
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " blue and calm",
+                            "metric_value": {
+                                "sum": 1.4650463071360869
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As the ship",
+                            "metric_value": {
+                                "sum": 14.7884098784469
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " crossed the sea",
+                            "metric_value": {
+                                "sum": 8.161989067636927
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 8.327902148521602
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the waters",
+                            "metric_value": {
+                                "sum": 6.52689120703282
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " remained",
+                            "metric_value": {
+                                "sum": 6.837033062070849
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " blue and calm",
+                            "metric_value": {
+                                "sum": 9.2134271139648
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As the ship",
+                            "metric_value": {
+                                "sum": 6.23467464926688
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " crossed",
+                            "metric_value": {
+                                "sum": 19.51318327083033
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 13.354660301405737
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the waters",
+                            "metric_value": {
+                                "sum": 17.450941039953467
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " remained",
+                            "metric_value": {
+                                "sum": 12.590225998977298
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " blue and calm",
+                            "metric_value": {
+                                "sum": 19.957243711169845
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As the ship",
+                            "metric_value": {
+                                "sum": 8.476892240436992
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " crossed the sea",
+                            "metric_value": {
+                                "sum": 16.657365864884873
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 14.355670308589977
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the waters",
+                            "metric_value": {
+                                "sum": 14.593762436801958
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " remained",
+                            "metric_value": {
+                                "sum": 19.68812254632944
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " blue and calm",
+                            "metric_value": {
+                                "sum": 18.528696480767437
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 4,
+            "conditions": [
+                {
+                    "condition_name": "no-obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the newcomers",
+                            "metric_value": {
+                                "sum": 4.605106602809926
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " discussed",
+                            "metric_value": {
+                                "sum": 9.781567728279573
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 1.8371907347569525
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the soldiers",
+                            "metric_value": {
+                                "sum": 11.244647582278517
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "shared",
+                            "metric_value": {
+                                "sum": 16.09383384807944
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " a cigarette",
+                            "metric_value": {
+                                "sum": 11.304275493411332
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the newcomers",
+                            "metric_value": {
+                                "sum": 16.17133196605818
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " discussed the situation",
+                            "metric_value": {
+                                "sum": 17.83357132877881
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 3.719062233685499
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the soldiers",
+                            "metric_value": {
+                                "sum": 1.8787254056744436
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "shared",
+                            "metric_value": {
+                                "sum": 10.951988144486737
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " a cigarette",
+                            "metric_value": {
+                                "sum": 10.485629762976787
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the newcomers",
+                            "metric_value": {
+                                "sum": 5.754548031928344
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " discussed",
+                            "metric_value": {
+                                "sum": 8.660931788183067
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 6.5902887875945355
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the soldiers",
+                            "metric_value": {
+                                "sum": 1.644711292991176
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "shared",
+                            "metric_value": {
+                                "sum": 6.8311991048413345
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " a cigarette",
+                            "metric_value": {
+                                "sum": 5.405818460483106
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the newcomers",
+                            "metric_value": {
+                                "sum": 2.551407261410272
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " discussed the situation",
+                            "metric_value": {
+                                "sum": 7.894482476128293
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 8.823833576331126
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the soldiers",
+                            "metric_value": {
+                                "sum": 11.580935686214847
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "shared",
+                            "metric_value": {
+                                "sum": 13.11858912928804
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " a cigarette",
+                            "metric_value": {
+                                "sum": 11.394583098608628
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 5,
+            "conditions": [
+                {
+                    "condition_name": "no-obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Though the athlete",
+                            "metric_value": {
+                                "sum": 12.456409649832661
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " telephoned",
+                            "metric_value": {
+                                "sum": 17.239639408582008
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 16.55484078213269
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the coach",
+                            "metric_value": {
+                                "sum": 9.917841831091147
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " refused",
+                            "metric_value": {
+                                "sum": 4.935554883842304
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " to praise him",
+                            "metric_value": {
+                                "sum": 8.902540061797673
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Though the athlete",
+                            "metric_value": {
+                                "sum": 9.745336330674963
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " telephoned his manager",
+                            "metric_value": {
+                                "sum": 14.420716656615175
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 14.216078768472658
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the coach",
+                            "metric_value": {
+                                "sum": 4.781070879860334
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " refused",
+                            "metric_value": {
+                                "sum": 19.128358969287504
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " to praise him",
+                            "metric_value": {
+                                "sum": 3.973433972585562
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Though the athlete",
+                            "metric_value": {
+                                "sum": 19.99853080718551
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " telephoned",
+                            "metric_value": {
+                                "sum": 10.53944120519649
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 11.328139006115045
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the coach",
+                            "metric_value": {
+                                "sum": 18.87285142928369
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " refused",
+                            "metric_value": {
+                                "sum": 12.72355908001168
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " to praise him",
+                            "metric_value": {
+                                "sum": 4.6059683698832234
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Though the athlete",
+                            "metric_value": {
+                                "sum": 16.900557186851977
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " telephoned his manager",
+                            "metric_value": {
+                                "sum": 16.77888747413848
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 3.7471406063402712
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the coach",
+                            "metric_value": {
+                                "sum": 10.806077911678626
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " refused",
+                            "metric_value": {
+                                "sum": 18.596683471127772
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " to praise him",
+                            "metric_value": {
+                                "sum": 8.109149609282689
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 6,
+            "conditions": [
+                {
+                    "condition_name": "no-obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the crowd",
+                            "metric_value": {
+                                "sum": 4.836732035772618
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " applauded",
+                            "metric_value": {
+                                "sum": 11.994307030382627
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 1.3504228942439918
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the actor",
+                            "metric_value": {
+                                "sum": 18.64852745204214
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " relaxed",
+                            "metric_value": {
+                                "sum": 9.215320686004926
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "on a chair",
+                            "metric_value": {
+                                "sum": 5.217182622417247
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the crowd",
+                            "metric_value": {
+                                "sum": 16.441022648053504
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " applauded the cast",
+                            "metric_value": {
+                                "sum": 2.2742354662186672
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 3.7166721171092476
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the actor",
+                            "metric_value": {
+                                "sum": 16.326213001104758
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " relaxed",
+                            "metric_value": {
+                                "sum": 15.759596891573604
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "on a chair",
+                            "metric_value": {
+                                "sum": 17.67560417904071
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the crowd",
+                            "metric_value": {
+                                "sum": 4.524581852022587
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " applauded",
+                            "metric_value": {
+                                "sum": 19.15391160395594
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 3.8918011632864746
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the actor",
+                            "metric_value": {
+                                "sum": 12.00925538985607
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " relaxed",
+                            "metric_value": {
+                                "sum": 6.857719986764536
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "on a chair",
+                            "metric_value": {
+                                "sum": 6.707441706285946
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the crowd",
+                            "metric_value": {
+                                "sum": 8.91180460015514
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " applauded the cast",
+                            "metric_value": {
+                                "sum": 19.383000317952735
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 16.074855146500404
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the actor",
+                            "metric_value": {
+                                "sum": 13.81639825776067
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " relaxed",
+                            "metric_value": {
+                                "sum": 19.74521238681554
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "on a chair",
+                            "metric_value": {
+                                "sum": 15.073455162766015
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 7,
+            "conditions": [
+                {
+                    "condition_name": "no-obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the audience",
+                            "metric_value": {
+                                "sum": 16.087296473945667
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " cheered",
+                            "metric_value": {
+                                "sum": 16.980313781151466
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 4.587610171909956
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the actor",
+                            "metric_value": {
+                                "sum": 18.575471008137715
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "delivered",
+                            "metric_value": {
+                                "sum": 12.864891761505163
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "his speech",
+                            "metric_value": {
+                                "sum": 1.9291361745151332
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the audience",
+                            "metric_value": {
+                                "sum": 15.239882623688159
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " cheered the show",
+                            "metric_value": {
+                                "sum": 3.7974885850264166
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 3.8951308215233933
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the actor",
+                            "metric_value": {
+                                "sum": 11.337716469146622
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "delivered",
+                            "metric_value": {
+                                "sum": 6.491541804339666
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "his speech",
+                            "metric_value": {
+                                "sum": 2.430507393741819
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the audience",
+                            "metric_value": {
+                                "sum": 11.68500000710448
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " cheered",
+                            "metric_value": {
+                                "sum": 17.714702359882878
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 6.373746441225415
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the actor",
+                            "metric_value": {
+                                "sum": 14.677678794146587
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "delivered",
+                            "metric_value": {
+                                "sum": 13.738572090686725
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "his speech",
+                            "metric_value": {
+                                "sum": 8.325326182606856
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the audience",
+                            "metric_value": {
+                                "sum": 16.49066480366898
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " cheered the show",
+                            "metric_value": {
+                                "sum": 8.535664123237485
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 1.5651711513867093
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the actor",
+                            "metric_value": {
+                                "sum": 19.33355972938808
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": "delivered",
+                            "metric_value": {
+                                "sum": 14.832983824053088
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "his speech",
+                            "metric_value": {
+                                "sum": 3.408416078212735
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 8,
+            "conditions": [
+                {
+                    "condition_name": "no-obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the students",
+                            "metric_value": {
+                                "sum": 12.709760723007173
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " ate",
+                            "metric_value": {
+                                "sum": 8.430972557217611
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 5.822085866247251
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the coffee",
+                            "metric_value": {
+                                "sum": 19.2569699463541
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " was",
+                            "metric_value": {
+                                "sum": 2.8183334069521617
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " removed",
+                            "metric_value": {
+                                "sum": 14.533869900457832
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the students",
+                            "metric_value": {
+                                "sum": 18.18941433924449
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " ate the food",
+                            "metric_value": {
+                                "sum": 7.166848142939038
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 5.641413851446808
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the coffee",
+                            "metric_value": {
+                                "sum": 16.65693897178718
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " was",
+                            "metric_value": {
+                                "sum": 12.282484515177773
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " removed",
+                            "metric_value": {
+                                "sum": 14.37484906295699
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the students",
+                            "metric_value": {
+                                "sum": 4.466706124054069
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "ate",
+                            "metric_value": {
+                                "sum": 1.8620213120470617
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 11.20222488960746
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the coffee",
+                            "metric_value": {
+                                "sum": 14.30274193027188
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " was",
+                            "metric_value": {
+                                "sum": 14.942066695929864
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " removed",
+                            "metric_value": {
+                                "sum": 2.0608574400571884
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the students",
+                            "metric_value": {
+                                "sum": 19.384673740587022
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " ate the food",
+                            "metric_value": {
+                                "sum": 5.569592341688158
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 9.876254480525697
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the coffee",
+                            "metric_value": {
+                                "sum": 1.2788793353467027
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " was",
+                            "metric_value": {
+                                "sum": 11.697841067994553
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " removed",
+                            "metric_value": {
+                                "sum": 19.39162732761175
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 9,
+            "conditions": [
+                {
+                    "condition_name": "no-obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "When the professor",
+                            "metric_value": {
+                                "sum": 2.5347882119449103
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " taught",
+                            "metric_value": {
+                                "sum": 13.709971130915026
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 15.56388827621172
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the visitors",
+                            "metric_value": {
+                                "sum": 1.0414541307833438
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " lost",
+                            "metric_value": {
+                                "sum": 8.996360922293643
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " interest",
+                            "metric_value": {
+                                "sum": 5.616240009355825
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "When the professor",
+                            "metric_value": {
+                                "sum": 6.177376524286975
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " taught the students",
+                            "metric_value": {
+                                "sum": 16.977162383223877
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 17.836987840291023
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the visitors",
+                            "metric_value": {
+                                "sum": 11.066554517896789
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " lost",
+                            "metric_value": {
+                                "sum": 1.9248388544977948
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " interest",
+                            "metric_value": {
+                                "sum": 16.50755023956474
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "When the professor",
+                            "metric_value": {
+                                "sum": 14.12690209600395
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " taught",
+                            "metric_value": {
+                                "sum": 3.0104468846475596
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 19.789744144246423
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the visitors",
+                            "metric_value": {
+                                "sum": 13.539800856921945
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " lost",
+                            "metric_value": {
+                                "sum": 7.610175423917421
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " interest",
+                            "metric_value": {
+                                "sum": 14.350173089393106
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "When the professor",
+                            "metric_value": {
+                                "sum": 6.976509598225378
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " taught the students",
+                            "metric_value": {
+                                "sum": 11.825310146560682
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 15.672662540101673
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the visitors",
+                            "metric_value": {
+                                "sum": 16.696980079087286
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " lost",
+                            "metric_value": {
+                                "sum": 3.0450324352794413
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " interest",
+                            "metric_value": {
+                                "sum": 17.4158111630703
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 10,
+            "conditions": [
+                {
+                    "condition_name": "no-obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Because the baby",
+                            "metric_value": {
+                                "sum": 8.860308182766115
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "grabbed",
+                            "metric_value": {
+                                "sum": 9.809101477063706
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 9.811110450751933
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the woman",
+                            "metric_value": {
+                                "sum": 19.26820550026382
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " stayed",
+                            "metric_value": {
+                                "sum": 8.088943052801106
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " until the end",
+                            "metric_value": {
+                                "sum": 4.543844950007353
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Because the baby",
+                            "metric_value": {
+                                "sum": 6.217432243943385
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " grabbed the blanket",
+                            "metric_value": {
+                                "sum": 12.815529647697385
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 10.07633751918139
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the woman",
+                            "metric_value": {
+                                "sum": 9.400834361209258
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " stayed",
+                            "metric_value": {
+                                "sum": 16.90283083268322
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " until the end",
+                            "metric_value": {
+                                "sum": 13.261110883511213
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Because the baby",
+                            "metric_value": {
+                                "sum": 19.678962152631392
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " grabbed",
+                            "metric_value": {
+                                "sum": 7.780920383712711
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 3.3434182749623838
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the woman",
+                            "metric_value": {
+                                "sum": 3.790237651325781
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " stayed",
+                            "metric_value": {
+                                "sum": 8.084314495997422
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " until the end",
+                            "metric_value": {
+                                "sum": 9.178546628296901
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Because the baby",
+                            "metric_value": {
+                                "sum": 9.079837505347566
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " grabbed the blanket",
+                            "metric_value": {
+                                "sum": 16.832372180148027
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 2.3441938905547457
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the woman",
+                            "metric_value": {
+                                "sum": 8.796610028012747
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " stayed",
+                            "metric_value": {
+                                "sum": 7.6340145418465255
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " until the end",
+                            "metric_value": {
+                                "sum": 4.05274179735981
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 11,
+            "conditions": [
+                {
+                    "condition_name": "no-obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Because the manager",
+                            "metric_value": {
+                                "sum": 9.9218907325413
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "cheered",
+                            "metric_value": {
+                                "sum": 5.185938556512326
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 1.605735856106352
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the comedian",
+                            "metric_value": {
+                                "sum": 9.678728872518239
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " began",
+                            "metric_value": {
+                                "sum": 5.585077185778151
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " his act",
+                            "metric_value": {
+                                "sum": 15.100192349582683
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Because the manager",
+                            "metric_value": {
+                                "sum": 19.567001288672262
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " cheered the first act",
+                            "metric_value": {
+                                "sum": 9.920514999153468
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 1.5267242616343317
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the comedian",
+                            "metric_value": {
+                                "sum": 16.455167741133298
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " began",
+                            "metric_value": {
+                                "sum": 1.7982519162153412
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " his act",
+                            "metric_value": {
+                                "sum": 17.071624321629
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Because the manager",
+                            "metric_value": {
+                                "sum": 19.945256082152373
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " cheered",
+                            "metric_value": {
+                                "sum": 10.945738643900052
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 8.29742826857502
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the comedian",
+                            "metric_value": {
+                                "sum": 12.230845607021475
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " began",
+                            "metric_value": {
+                                "sum": 18.953887104794052
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " his act",
+                            "metric_value": {
+                                "sum": 6.100151173178834
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "Because the manager",
+                            "metric_value": {
+                                "sum": 5.6049693449995965
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " cheered the first act",
+                            "metric_value": {
+                                "sum": 17.114616088295634
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 8.431028995106725
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the comedian",
+                            "metric_value": {
+                                "sum": 9.740212855642131
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " began",
+                            "metric_value": {
+                                "sum": 8.074523380228719
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " his act",
+                            "metric_value": {
+                                "sum": 4.594567452639071
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 12,
+            "conditions": [
+                {
+                    "condition_name": "no-obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the patient",
+                            "metric_value": {
+                                "sum": 19.89503882487085
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " asked",
+                            "metric_value": {
+                                "sum": 16.19033318283064
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 17.116003159399106
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the nurse",
+                            "metric_value": {
+                                "sum": 11.29184927675389
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " told",
+                            "metric_value": {
+                                "sum": 10.89747184842208
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " her the news",
+                            "metric_value": {
+                                "sum": 9.872683609970874
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the patient",
+                            "metric_value": {
+                                "sum": 3.6199232115815976
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " asked for medicine",
+                            "metric_value": {
+                                "sum": 19.13531860253707
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 17.940146559854497
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the nurse",
+                            "metric_value": {
+                                "sum": 14.247206137539322
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " told",
+                            "metric_value": {
+                                "sum": 6.812131809157177
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " her the news",
+                            "metric_value": {
+                                "sum": 10.00846198101729
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the patient",
+                            "metric_value": {
+                                "sum": 11.401510605596819
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " asked",
+                            "metric_value": {
+                                "sum": 15.769138591678928
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 6.123167932875828
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the nurse",
+                            "metric_value": {
+                                "sum": 2.2321246814120554
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " told",
+                            "metric_value": {
+                                "sum": 1.2636048932029516
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " her the news",
+                            "metric_value": {
+                                "sum": 18.214889474381508
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the patient",
+                            "metric_value": {
+                                "sum": 3.2412462590064184
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " asked for medicine",
+                            "metric_value": {
+                                "sum": 8.722472343717765
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 1.811445855572181
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the nurse",
+                            "metric_value": {
+                                "sum": 14.172131760872862
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " told",
+                            "metric_value": {
+                                "sum": 10.91826814357744
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " her the news",
+                            "metric_value": {
+                                "sum": 9.42530326171365
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 13,
+            "conditions": [
+                {
+                    "condition_name": "no-obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the guard",
+                            "metric_value": {
+                                "sum": 15.213266008435626
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " visited",
+                            "metric_value": {
+                                "sum": 18.142330432093686
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 5.8710426229613555
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the children",
+                            "metric_value": {
+                                "sum": 7.550079544254428
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " jumped",
+                            "metric_value": {
+                                "sum": 7.93651182990396
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " into the pool",
+                            "metric_value": {
+                                "sum": 10.904383516462094
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the guard",
+                            "metric_value": {
+                                "sum": 6.849920365740928
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " visited the children",
+                            "metric_value": {
+                                "sum": 10.793103812197101
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 17.642986083083464
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the children",
+                            "metric_value": {
+                                "sum": 4.534743146973803
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " jumped",
+                            "metric_value": {
+                                "sum": 7.646349340025087
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " into the pool",
+                            "metric_value": {
+                                "sum": 9.745966442150026
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the guard",
+                            "metric_value": {
+                                "sum": 15.926555812063473
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " visited",
+                            "metric_value": {
+                                "sum": 9.169644711414236
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 4.660280496132184
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the children",
+                            "metric_value": {
+                                "sum": 17.17365286079325
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " jumped",
+                            "metric_value": {
+                                "sum": 10.124440497635655
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " into the pool",
+                            "metric_value": {
+                                "sum": 11.76241718242333
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the guard",
+                            "metric_value": {
+                                "sum": 1.2693311054843257
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " visited the children",
+                            "metric_value": {
+                                "sum": 8.430377196904418
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 4.606321448472638
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the children",
+                            "metric_value": {
+                                "sum": 16.627155873241676
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " jumped",
+                            "metric_value": {
+                                "sum": 5.943354424968491
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " into the pool",
+                            "metric_value": {
+                                "sum": 8.572889251956266
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 14,
+            "conditions": [
+                {
+                    "condition_name": "no-obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the dog",
+                            "metric_value": {
+                                "sum": 15.69813594538771
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " signaled",
+                            "metric_value": {
+                                "sum": 17.333727431478277
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 13.80684780941839
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the farmer",
+                            "metric_value": {
+                                "sum": 6.820124788789828
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " went",
+                            "metric_value": {
+                                "sum": 3.4080832197204955
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "into the field",
+                            "metric_value": {
+                                "sum": 11.830429275651442
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the dog",
+                            "metric_value": {
+                                "sum": 13.514130623635914
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " signaled the family",
+                            "metric_value": {
+                                "sum": 17.186252876268007
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 3.4913344976915996
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the farmer",
+                            "metric_value": {
+                                "sum": 15.77347428325241
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " went",
+                            "metric_value": {
+                                "sum": 7.837686582079752
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "into the field",
+                            "metric_value": {
+                                "sum": 17.723637137960434
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the dog",
+                            "metric_value": {
+                                "sum": 8.57418303788109
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " signaled",
+                            "metric_value": {
+                                "sum": 4.239084689231399
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 4.201266583057576
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the farmer",
+                            "metric_value": {
+                                "sum": 16.30140293766316
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " went",
+                            "metric_value": {
+                                "sum": 1.4448462606764267
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "into the field",
+                            "metric_value": {
+                                "sum": 5.9778342987877915
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the dog",
+                            "metric_value": {
+                                "sum": 6.1651345173849545
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " signaled the family",
+                            "metric_value": {
+                                "sum": 10.806850891800003
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 16.348554297512365
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the farmer",
+                            "metric_value": {
+                                "sum": 16.202302708647743
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " went",
+                            "metric_value": {
+                                "sum": 11.619970978350642
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": "into the field",
+                            "metric_value": {
+                                "sum": 6.372124268016446
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 15,
+            "conditions": [
+                {
+                    "condition_name": "no-obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As the class",
+                            "metric_value": {
+                                "sum": 5.024204545676449
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " considered",
+                            "metric_value": {
+                                "sum": 16.839670243440096
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 8.754174201303506
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the teacher",
+                            "metric_value": {
+                                "sum": 7.517171812765961
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " asked",
+                            "metric_value": {
+                                "sum": 9.570482374678605
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " a question",
+                            "metric_value": {
+                                "sum": 11.749333796578794
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As the class",
+                            "metric_value": {
+                                "sum": 15.434289229872622
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " considered the problem",
+                            "metric_value": {
+                                "sum": 4.607703357678238
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 6.086665841722564
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the teacher",
+                            "metric_value": {
+                                "sum": 10.843476395710894
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " asked",
+                            "metric_value": {
+                                "sum": 5.584650645205311
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " a question",
+                            "metric_value": {
+                                "sum": 18.984453845909588
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As the class",
+                            "metric_value": {
+                                "sum": 3.4568379673825085
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " considered",
+                            "metric_value": {
+                                "sum": 9.491932706242716
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 14.034924757480134
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the teacher",
+                            "metric_value": {
+                                "sum": 10.811081291426486
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " asked",
+                            "metric_value": {
+                                "sum": 10.356381769040635
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " a question",
+                            "metric_value": {
+                                "sum": 6.490657586849101
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As the class",
+                            "metric_value": {
+                                "sum": 10.715060466947824
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " considered the problem",
+                            "metric_value": {
+                                "sum": 2.6025952027157535
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 12.024054764293204
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the teacher",
+                            "metric_value": {
+                                "sum": 15.08503760244293
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " asked",
+                            "metric_value": {
+                                "sum": 14.330691615337276
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " a question",
+                            "metric_value": {
+                                "sum": 9.051957791523916
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 16,
+            "conditions": [
+                {
+                    "condition_name": "no-obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the woman",
+                            "metric_value": {
+                                "sum": 4.723334553863068
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " decorated",
+                            "metric_value": {
+                                "sum": 11.649012549351266
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 1.1448972548407848
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the pot",
+                            "metric_value": {
+                                "sum": 8.187737708489468
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " sat",
+                            "metric_value": {
+                                "sum": 12.8259998327026
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " on the counter",
+                            "metric_value": {
+                                "sum": 10.337527333497029
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the woman",
+                            "metric_value": {
+                                "sum": 5.845745493791871
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " decorated the kitchen",
+                            "metric_value": {
+                                "sum": 18.178112434707366
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 12.15630696070095
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the pot",
+                            "metric_value": {
+                                "sum": 8.82412496170906
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " sat",
+                            "metric_value": {
+                                "sum": 14.751472422826254
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " on the counter",
+                            "metric_value": {
+                                "sum": 6.518826330789765
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the woman",
+                            "metric_value": {
+                                "sum": 7.246381471556637
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " decorated",
+                            "metric_value": {
+                                "sum": 13.560262920168814
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 19.225237356909243
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the pot",
+                            "metric_value": {
+                                "sum": 1.1751212741211696
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " sat",
+                            "metric_value": {
+                                "sum": 3.663784591857155
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " on the counter",
+                            "metric_value": {
+                                "sum": 9.059876991685302
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the woman",
+                            "metric_value": {
+                                "sum": 12.886290526841325
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " decorated the kitchen",
+                            "metric_value": {
+                                "sum": 3.220103443685985
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 1.4034405661899276
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the pot",
+                            "metric_value": {
+                                "sum": 4.116287633661698
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " sat",
+                            "metric_value": {
+                                "sum": 3.5301828611930124
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " on the counter",
+                            "metric_value": {
+                                "sum": 8.09406655866915
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 17,
+            "conditions": [
+                {
+                    "condition_name": "no-obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "When the customer",
+                            "metric_value": {
+                                "sum": 8.551694634884438
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " interrupted",
+                            "metric_value": {
+                                "sum": 16.149889004763615
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 11.152995628950249
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the manager",
+                            "metric_value": {
+                                "sum": 8.97512510160314
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " changed",
+                            "metric_value": {
+                                "sum": 19.416695193050938
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " the advertisement",
+                            "metric_value": {
+                                "sum": 1.8325316606423665
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "When the customer",
+                            "metric_value": {
+                                "sum": 5.988028187428807
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " interrupted the clerk",
+                            "metric_value": {
+                                "sum": 3.1404034977237596
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 9.440974446737647
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the manager",
+                            "metric_value": {
+                                "sum": 17.606805594606673
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " changed",
+                            "metric_value": {
+                                "sum": 13.087873149099932
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " the advertisement",
+                            "metric_value": {
+                                "sum": 11.735598894673702
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "When the customer",
+                            "metric_value": {
+                                "sum": 18.984274421712747
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " interrupted",
+                            "metric_value": {
+                                "sum": 9.885454340702866
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 1.320902513605057
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the manager",
+                            "metric_value": {
+                                "sum": 3.3941995172636616
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " changed",
+                            "metric_value": {
+                                "sum": 6.07136512400078
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " the advertisement",
+                            "metric_value": {
+                                "sum": 18.87532272858247
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "When the customer",
+                            "metric_value": {
+                                "sum": 19.384853981538225
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " interrupted the clerk",
+                            "metric_value": {
+                                "sum": 17.250246571157604
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 16.98673876025787
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the manager",
+                            "metric_value": {
+                                "sum": 8.559458307843515
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " changed",
+                            "metric_value": {
+                                "sum": 5.722543883832969
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " the advertisement",
+                            "metric_value": {
+                                "sum": 14.178120964094793
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 18,
+            "conditions": [
+                {
+                    "condition_name": "no-obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As the young man",
+                            "metric_value": {
+                                "sum": 13.62300717188012
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " wiped",
+                            "metric_value": {
+                                "sum": 8.15333268314873
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 10.432398908136568
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the pipe",
+                            "metric_value": {
+                                "sum": 12.765550172020319
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " fell",
+                            "metric_value": {
+                                "sum": 3.1353047124043014
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " to the floor",
+                            "metric_value": {
+                                "sum": 17.537106309238414
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As the young man",
+                            "metric_value": {
+                                "sum": 17.220058953409854
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "wiped the windows",
+                            "metric_value": {
+                                "sum": 10.311211553225814
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 6.60568075975436
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the pipe",
+                            "metric_value": {
+                                "sum": 17.843789087311855
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " fell",
+                            "metric_value": {
+                                "sum": 12.556964674514282
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " to the floor",
+                            "metric_value": {
+                                "sum": 7.546348239348962
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As the young man",
+                            "metric_value": {
+                                "sum": 10.111853249694898
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " wiped",
+                            "metric_value": {
+                                "sum": 8.727594062298348
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 13.782633119328613
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the pipe",
+                            "metric_value": {
+                                "sum": 13.730009970731055
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " fell",
+                            "metric_value": {
+                                "sum": 11.497160538106339
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " to the floor",
+                            "metric_value": {
+                                "sum": 1.5923530786876268
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As the young man",
+                            "metric_value": {
+                                "sum": 10.715159458207898
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "wiped the windows",
+                            "metric_value": {
+                                "sum": 5.128221114407598
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 16.303358869693575
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the pipe",
+                            "metric_value": {
+                                "sum": 19.143028270341862
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " fell",
+                            "metric_value": {
+                                "sum": 14.551833308294892
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " to the floor",
+                            "metric_value": {
+                                "sum": 7.36194357873124
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 19,
+            "conditions": [
+                {
+                    "condition_name": "no-obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the prisoners",
+                            "metric_value": {
+                                "sum": 15.844520348635534
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " attacked",
+                            "metric_value": {
+                                "sum": 6.17739539007113
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 3.538284127846529
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the guards",
+                            "metric_value": {
+                                "sum": 15.053334846404027
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " refused",
+                            "metric_value": {
+                                "sum": 2.8271452761535283
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " to negotiate",
+                            "metric_value": {
+                                "sum": 4.467245190710367
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the prisoners",
+                            "metric_value": {
+                                "sum": 2.1267860549584126
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " attacked the manager",
+                            "metric_value": {
+                                "sum": 9.651962386750286
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 11.496694298329222
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the guards",
+                            "metric_value": {
+                                "sum": 1.413203911775835
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " refused",
+                            "metric_value": {
+                                "sum": 4.1909526512329265
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " to negotiate",
+                            "metric_value": {
+                                "sum": 1.6053163777052086
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the prisoners",
+                            "metric_value": {
+                                "sum": 4.5942558372312
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " attacked",
+                            "metric_value": {
+                                "sum": 12.704288002754838
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 9.555725440267071
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the guards",
+                            "metric_value": {
+                                "sum": 2.1153923579196006
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " refused",
+                            "metric_value": {
+                                "sum": 7.896833344187954
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " to negotiate",
+                            "metric_value": {
+                                "sum": 3.873174876423887
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "While the prisoners",
+                            "metric_value": {
+                                "sum": 4.24354544399832
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " attacked the manager",
+                            "metric_value": {
+                                "sum": 13.690652490788663
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 3.744679193534349
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the guards",
+                            "metric_value": {
+                                "sum": 11.94975017778204
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " refused",
+                            "metric_value": {
+                                "sum": 4.687315039532189
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " to negotiate",
+                            "metric_value": {
+                                "sum": 15.944972884631119
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 20,
+            "conditions": [
+                {
+                    "condition_name": "no-obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As long as the king",
+                            "metric_value": {
+                                "sum": 12.775657637893739
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " governed",
+                            "metric_value": {
+                                "sum": 17.309176192748357
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 18.26950985690736
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " his subjects",
+                            "metric_value": {
+                                "sum": 6.725538531976499
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " feared",
+                            "metric_value": {
+                                "sum": 9.767644974814452
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " his anger",
+                            "metric_value": {
+                                "sum": 10.304568502834242
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As long as the king",
+                            "metric_value": {
+                                "sum": 14.206882148315414
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " governed his lands",
+                            "metric_value": {
+                                "sum": 11.56833745225787
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 6.6960643556708614
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " his subjects",
+                            "metric_value": {
+                                "sum": 7.256635036950474
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " feared",
+                            "metric_value": {
+                                "sum": 13.816925768235906
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " his anger",
+                            "metric_value": {
+                                "sum": 8.66316803444389
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As long as the king",
+                            "metric_value": {
+                                "sum": 9.517403999731783
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " governed",
+                            "metric_value": {
+                                "sum": 8.603509326051077
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 2.0450598610378403
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " his subjects",
+                            "metric_value": {
+                                "sum": 5.066050463690229
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " feared",
+                            "metric_value": {
+                                "sum": 5.366974796004675
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " his anger",
+                            "metric_value": {
+                                "sum": 1.667390109281738
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As long as the king",
+                            "metric_value": {
+                                "sum": 8.734530279931128
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " governed his lands",
+                            "metric_value": {
+                                "sum": 1.5853666425007138
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 5.270701568571475
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " his subjects",
+                            "metric_value": {
+                                "sum": 18.874186076414563
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " feared",
+                            "metric_value": {
+                                "sum": 12.111730270148529
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " his anger",
+                            "metric_value": {
+                                "sum": 10.513023117099145
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 21,
+            "conditions": [
+                {
+                    "condition_name": "no-obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the host",
+                            "metric_value": {
+                                "sum": 5.83392173719208
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " interrupted",
+                            "metric_value": {
+                                "sum": 14.91829192552947
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 7.719876096059216
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the discussion",
+                            "metric_value": {
+                                "sum": 11.857327708203057
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " became",
+                            "metric_value": {
+                                "sum": 9.55713041115052
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " more interesting",
+                            "metric_value": {
+                                "sum": 16.15245245384033
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the host",
+                            "metric_value": {
+                                "sum": 4.0261737000438576
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " interrupted the speaker",
+                            "metric_value": {
+                                "sum": 9.316557507530637
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 1.3822403869469926
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the discussion",
+                            "metric_value": {
+                                "sum": 6.735114962851048
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " became",
+                            "metric_value": {
+                                "sum": 2.5864874255365686
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " more interesting",
+                            "metric_value": {
+                                "sum": 16.761801723791486
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the host",
+                            "metric_value": {
+                                "sum": 12.16715304447048
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " interrupted",
+                            "metric_value": {
+                                "sum": 7.824819662860074
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 15.405586707645272
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the discussion",
+                            "metric_value": {
+                                "sum": 14.349072576040827
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " became",
+                            "metric_value": {
+                                "sum": 14.604137890732629
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " more interesting",
+                            "metric_value": {
+                                "sum": 16.4059480151656
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the host",
+                            "metric_value": {
+                                "sum": 16.18013113601905
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " interrupted the speaker",
+                            "metric_value": {
+                                "sum": 1.553228403000431
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 19.06937207626491
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the discussion",
+                            "metric_value": {
+                                "sum": 17.1143527150162
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " became",
+                            "metric_value": {
+                                "sum": 5.343469372310083
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " more interesting",
+                            "metric_value": {
+                                "sum": 9.736347301558414
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 22,
+            "conditions": [
+                {
+                    "condition_name": "no-obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the woman",
+                            "metric_value": {
+                                "sum": 12.692506232053551
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " dressed",
+                            "metric_value": {
+                                "sum": 6.495979627198573
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 7.4146029967760745
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " her children",
+                            "metric_value": {
+                                "sum": 18.57785831050371
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " thought",
+                            "metric_value": {
+                                "sum": 3.4421990184756575
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " she looked lovely",
+                            "metric_value": {
+                                "sum": 18.322098236573378
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the woman",
+                            "metric_value": {
+                                "sum": 2.469144964137402
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " dressed herself",
+                            "metric_value": {
+                                "sum": 3.450186358204366
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 16.660581300955414
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " her children",
+                            "metric_value": {
+                                "sum": 3.5242918318539136
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " thought",
+                            "metric_value": {
+                                "sum": 11.970846279212845
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " she looked lovely",
+                            "metric_value": {
+                                "sum": 5.257489243905254
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the woman",
+                            "metric_value": {
+                                "sum": 10.389111619766519
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " dressed",
+                            "metric_value": {
+                                "sum": 9.744817491901754
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 9.354938720268022
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " her children",
+                            "metric_value": {
+                                "sum": 18.444355156219174
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " thought",
+                            "metric_value": {
+                                "sum": 13.904300319609034
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " she looked lovely",
+                            "metric_value": {
+                                "sum": 5.957650390030703
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the woman",
+                            "metric_value": {
+                                "sum": 5.5563389780981085
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " dressed herself",
+                            "metric_value": {
+                                "sum": 10.479932568949932
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 18.270453084024222
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " her children",
+                            "metric_value": {
+                                "sum": 11.087836215413871
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " thought",
+                            "metric_value": {
+                                "sum": 2.809326818463467
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " she looked lovely",
+                            "metric_value": {
+                                "sum": 11.063389306852972
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 23,
+            "conditions": [
+                {
+                    "condition_name": "no-obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the soldier",
+                            "metric_value": {
+                                "sum": 5.74710475788237
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "signaled",
+                            "metric_value": {
+                                "sum": 17.47464317957921
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 7.034068878548441
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the doctor",
+                            "metric_value": {
+                                "sum": 3.023806981896266
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " ordered",
+                            "metric_value": {
+                                "sum": 12.694790338894904
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " it to stop",
+                            "metric_value": {
+                                "sum": 7.147750891003814
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the soldier",
+                            "metric_value": {
+                                "sum": 13.290681176617296
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "signaled to the general",
+                            "metric_value": {
+                                "sum": 15.96432432810583
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 6.885918017341121
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the doctor",
+                            "metric_value": {
+                                "sum": 12.271303040738417
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " ordered",
+                            "metric_value": {
+                                "sum": 8.459468185044736
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " it to stop",
+                            "metric_value": {
+                                "sum": 5.973933291834264
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the soldier",
+                            "metric_value": {
+                                "sum": 6.95315975069649
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "signaled",
+                            "metric_value": {
+                                "sum": 11.928536301340053
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 17.865284396972836
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the doctor",
+                            "metric_value": {
+                                "sum": 1.5707604902436478
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " ordered",
+                            "metric_value": {
+                                "sum": 5.8601137065284465
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " it to stop",
+                            "metric_value": {
+                                "sum": 2.3709765662895874
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "After the soldier",
+                            "metric_value": {
+                                "sum": 12.303885086815278
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": "signaled to the general",
+                            "metric_value": {
+                                "sum": 17.07534674571701
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 6.624290178850319
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the doctor",
+                            "metric_value": {
+                                "sum": 4.535093747230109
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " ordered",
+                            "metric_value": {
+                                "sum": 4.994660069245612
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " it to stop",
+                            "metric_value": {
+                                "sum": 15.251229959502172
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "item_number": 24,
+            "conditions": [
+                {
+                    "condition_name": "no-obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As the guard",
+                            "metric_value": {
+                                "sum": 11.123584668323218
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " stopped",
+                            "metric_value": {
+                                "sum": 3.2721661624331704
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 14.69383571940548
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the thieves",
+                            "metric_value": {
+                                "sum": 16.235389646201355
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " grabbed",
+                            "metric_value": {
+                                "sum": 4.149050862633374
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " the money",
+                            "metric_value": {
+                                "sum": 12.70863975202736
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_no-comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As the guard",
+                            "metric_value": {
+                                "sum": 18.63729530034547
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " stopped the alarm",
+                            "metric_value": {
+                                "sum": 8.369560812385568
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": "",
+                            "metric_value": {
+                                "sum": 11.838793445148038
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the thieves",
+                            "metric_value": {
+                                "sum": 18.37350571637467
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " grabbed",
+                            "metric_value": {
+                                "sum": 2.47994625749295
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " the money",
+                            "metric_value": {
+                                "sum": 2.109210494107357
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "no-obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As the guard",
+                            "metric_value": {
+                                "sum": 16.287868288418743
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " stopped",
+                            "metric_value": {
+                                "sum": 16.427480876611014
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 8.536543649633419
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the thieves",
+                            "metric_value": {
+                                "sum": 2.0982832279364874
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " grabbed",
+                            "metric_value": {
+                                "sum": 3.864753100710465
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " the money",
+                            "metric_value": {
+                                "sum": 5.05635488686106
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition_name": "obj_comma",
+                    "regions": [
+                        {
+                            "region_number": 1,
+                            "content": "As the guard",
+                            "metric_value": {
+                                "sum": 19.74403931381034
+                            }
+                        },
+                        {
+                            "region_number": 2,
+                            "content": " stopped the alarm",
+                            "metric_value": {
+                                "sum": 11.757402080717005
+                            }
+                        },
+                        {
+                            "region_number": 3,
+                            "content": ",",
+                            "metric_value": {
+                                "sum": 9.530856859162105
+                            }
+                        },
+                        {
+                            "region_number": 4,
+                            "content": " the thieves",
+                            "metric_value": {
+                                "sum": 2.3561643765787204
+                            }
+                        },
+                        {
+                            "region_number": 5,
+                            "content": " grabbed",
+                            "metric_value": {
+                                "sum": 8.750739084830432
+                            }
+                        },
+                        {
+                            "region_number": 6,
+                            "content": " the money",
+                            "metric_value": {
+                                "sum": 9.511134342860544
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
