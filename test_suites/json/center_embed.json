@@ -30,52 +30,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 8.575846130227065
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "painting",
-                            "metric_value": {
-                                "sum": 18.754206614673606
-                            }
+                            "content": "painting"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 5.988982402988018
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 3.347026923049612
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "artist",
-                            "metric_value": {
-                                "sum": 13.441525749109907
-                            }
+                            "content": "artist"
                         },
                         {
                             "region_number": 6,
-                            "content": "painted",
-                            "metric_value": {
-                                "sum": 15.197937356755112
-                            }
+                            "content": "painted"
                         },
                         {
                             "region_number": 7,
-                            "content": "deteriorated",
-                            "metric_value": {
-                                "sum": 6.020515682798627
-                            }
+                            "content": "deteriorated"
                         }
                     ]
                 },
@@ -84,52 +63,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 3.2490429666627727
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "painting",
-                            "metric_value": {
-                                "sum": 7.368997556511161
-                            }
+                            "content": "painting"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 13.634959138674823
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 2.37064867896197
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "artist",
-                            "metric_value": {
-                                "sum": 7.421642482136713
-                            }
+                            "content": "artist"
                         },
                         {
                             "region_number": 6,
-                            "content": "deteriorated",
-                            "metric_value": {
-                                "sum": 3.4645365005429
-                            }
+                            "content": "deteriorated"
                         },
                         {
                             "region_number": 7,
-                            "content": "painted",
-                            "metric_value": {
-                                "sum": 17.186371730469265
-                            }
+                            "content": "painted"
                         }
                     ]
                 }
@@ -143,52 +101,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 14.576323326467516
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "storm",
-                            "metric_value": {
-                                "sum": 7.543367984122325
-                            }
+                            "content": "storm"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 3.34060299152292
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 14.708735323932206
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "captain",
-                            "metric_value": {
-                                "sum": 19.356241540646284
-                            }
+                            "content": "captain"
                         },
                         {
                             "region_number": 6,
-                            "content": "feared",
-                            "metric_value": {
-                                "sum": 18.3141685891634
-                            }
+                            "content": "feared"
                         },
                         {
                             "region_number": 7,
-                            "content": "subsided",
-                            "metric_value": {
-                                "sum": 4.889554041886284
-                            }
+                            "content": "subsided"
                         }
                     ]
                 },
@@ -197,52 +134,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 15.991111094078603
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "storm",
-                            "metric_value": {
-                                "sum": 14.48061398147346
-                            }
+                            "content": "storm"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 17.119195939288552
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 5.926971672071293
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "captain",
-                            "metric_value": {
-                                "sum": 19.45593891138855
-                            }
+                            "content": "captain"
                         },
                         {
                             "region_number": 6,
-                            "content": "subsided",
-                            "metric_value": {
-                                "sum": 3.12323095957352
-                            }
+                            "content": "subsided"
                         },
                         {
                             "region_number": 7,
-                            "content": "feared",
-                            "metric_value": {
-                                "sum": 11.766971970611408
-                            }
+                            "content": "feared"
                         }
                     ]
                 }
@@ -256,52 +172,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 12.276952402171725
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "girl",
-                            "metric_value": {
-                                "sum": 14.940092850460632
-                            }
+                            "content": "girl"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 4.554292743860942
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 15.188262831273931
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "bug",
-                            "metric_value": {
-                                "sum": 17.200490746657913
-                            }
+                            "content": "bug"
                         },
                         {
                             "region_number": 6,
-                            "content": "frightened",
-                            "metric_value": {
-                                "sum": 5.295516803501245
-                            }
+                            "content": "frightened"
                         },
                         {
                             "region_number": 7,
-                            "content": "shouted",
-                            "metric_value": {
-                                "sum": 6.06723867793648
-                            }
+                            "content": "shouted"
                         }
                     ]
                 },
@@ -310,52 +205,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 6.590733108850916
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "girl",
-                            "metric_value": {
-                                "sum": 6.734191030623944
-                            }
+                            "content": "girl"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 11.836941580696893
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 3.141122760908981
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "bug",
-                            "metric_value": {
-                                "sum": 15.373621172510974
-                            }
+                            "content": "bug"
                         },
                         {
                             "region_number": 6,
-                            "content": "shouted",
-                            "metric_value": {
-                                "sum": 9.391089108739347
-                            }
+                            "content": "shouted"
                         },
                         {
                             "region_number": 7,
-                            "content": "frightened",
-                            "metric_value": {
-                                "sum": 12.624659696407166
-                            }
+                            "content": "frightened"
                         }
                     ]
                 }
@@ -369,52 +243,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 10.290959238804437
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "baby",
-                            "metric_value": {
-                                "sum": 15.562669116611598
-                            }
+                            "content": "baby"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 3.1532403070748045
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 12.804364033532677
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "woman",
-                            "metric_value": {
-                                "sum": 13.150233958758013
-                            }
+                            "content": "woman"
                         },
                         {
                             "region_number": 6,
-                            "content": "held",
-                            "metric_value": {
-                                "sum": 15.738577661432409
-                            }
+                            "content": "held"
                         },
                         {
                             "region_number": 7,
-                            "content": "yelled",
-                            "metric_value": {
-                                "sum": 15.823770700755777
-                            }
+                            "content": "yelled"
                         }
                     ]
                 },
@@ -423,52 +276,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 3.1136042438051685
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "baby",
-                            "metric_value": {
-                                "sum": 9.195403728448794
-                            }
+                            "content": "baby"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 12.07560832597833
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 11.09278868214526
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "woman",
-                            "metric_value": {
-                                "sum": 10.48324946920822
-                            }
+                            "content": "woman"
                         },
                         {
                             "region_number": 6,
-                            "content": "yelled",
-                            "metric_value": {
-                                "sum": 3.440720631903246
-                            }
+                            "content": "yelled"
                         },
                         {
                             "region_number": 7,
-                            "content": "held",
-                            "metric_value": {
-                                "sum": 9.14034621197377
-                            }
+                            "content": "held"
                         }
                     ]
                 }
@@ -482,52 +314,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 6.557709406648959
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "soldier",
-                            "metric_value": {
-                                "sum": 16.098827026196695
-                            }
+                            "content": "soldier"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 13.91295420800004
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 4.599406843495195
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "bullet",
-                            "metric_value": {
-                                "sum": 6.036080034415948
-                            }
+                            "content": "bullet"
                         },
                         {
                             "region_number": 6,
-                            "content": "wounded",
-                            "metric_value": {
-                                "sum": 8.378508213518646
-                            }
+                            "content": "wounded"
                         },
                         {
                             "region_number": 7,
-                            "content": "died",
-                            "metric_value": {
-                                "sum": 14.853707624761705
-                            }
+                            "content": "died"
                         }
                     ]
                 },
@@ -536,52 +347,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 3.432841929396455
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "soldier",
-                            "metric_value": {
-                                "sum": 10.522370283760868
-                            }
+                            "content": "soldier"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 17.85688297754649
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 4.122982468074857
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "bullet",
-                            "metric_value": {
-                                "sum": 10.345492612606854
-                            }
+                            "content": "bullet"
                         },
                         {
                             "region_number": 6,
-                            "content": "died",
-                            "metric_value": {
-                                "sum": 11.819128524810097
-                            }
+                            "content": "died"
                         },
                         {
                             "region_number": 7,
-                            "content": "wounded",
-                            "metric_value": {
-                                "sum": 17.358815191535097
-                            }
+                            "content": "wounded"
                         }
                     ]
                 }
@@ -595,52 +385,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 5.859736523229343
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "storm",
-                            "metric_value": {
-                                "sum": 19.46693065454439
-                            }
+                            "content": "storm"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 16.731243558888924
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 2.1249954915414726
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "scientist",
-                            "metric_value": {
-                                "sum": 19.98196922943935
-                            }
+                            "content": "scientist"
                         },
                         {
                             "region_number": 6,
-                            "content": "predicted",
-                            "metric_value": {
-                                "sum": 4.766483042459292
-                            }
+                            "content": "predicted"
                         },
                         {
                             "region_number": 7,
-                            "content": "intensified",
-                            "metric_value": {
-                                "sum": 10.160056517737106
-                            }
+                            "content": "intensified"
                         }
                     ]
                 },
@@ -649,52 +418,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 1.3114330792131832
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "storm",
-                            "metric_value": {
-                                "sum": 5.494086335087015
-                            }
+                            "content": "storm"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 15.711323461431938
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 6.542787188966919
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "scientist",
-                            "metric_value": {
-                                "sum": 12.252832828912288
-                            }
+                            "content": "scientist"
                         },
                         {
                             "region_number": 6,
-                            "content": "intensified",
-                            "metric_value": {
-                                "sum": 12.721935578593907
-                            }
+                            "content": "intensified"
                         },
                         {
                             "region_number": 7,
-                            "content": "predicted",
-                            "metric_value": {
-                                "sum": 12.86893938363423
-                            }
+                            "content": "predicted"
                         }
                     ]
                 }
@@ -708,52 +456,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 9.514295480556076
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "convict",
-                            "metric_value": {
-                                "sum": 12.584490189583917
-                            }
+                            "content": "convict"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 9.71005240631207
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 14.330574097566622
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "cop",
-                            "metric_value": {
-                                "sum": 8.933501587061773
-                            }
+                            "content": "cop"
                         },
                         {
                             "region_number": 6,
-                            "content": "arrested",
-                            "metric_value": {
-                                "sum": 16.729306882468308
-                            }
+                            "content": "arrested"
                         },
                         {
                             "region_number": 7,
-                            "content": "escaped",
-                            "metric_value": {
-                                "sum": 3.817703289762408
-                            }
+                            "content": "escaped"
                         }
                     ]
                 },
@@ -762,52 +489,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 2.6091020604133597
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "convict",
-                            "metric_value": {
-                                "sum": 14.887994646460509
-                            }
+                            "content": "convict"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 13.95137157458228
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 3.2827963741099278
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "cop",
-                            "metric_value": {
-                                "sum": 7.934953182730586
-                            }
+                            "content": "cop"
                         },
                         {
                             "region_number": 6,
-                            "content": "escaped",
-                            "metric_value": {
-                                "sum": 18.32828677558129
-                            }
+                            "content": "escaped"
                         },
                         {
                             "region_number": 7,
-                            "content": "arrested",
-                            "metric_value": {
-                                "sum": 17.481056413812645
-                            }
+                            "content": "arrested"
                         }
                     ]
                 }
@@ -821,52 +527,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 4.795753957247973
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "computer",
-                            "metric_value": {
-                                "sum": 19.197156013882395
-                            }
+                            "content": "computer"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 14.301878724789036
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 12.949984573564054
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "secretary",
-                            "metric_value": {
-                                "sum": 7.972289744314263
-                            }
+                            "content": "secretary"
                         },
                         {
                             "region_number": 6,
-                            "content": "bought",
-                            "metric_value": {
-                                "sum": 7.35226351203168
-                            }
+                            "content": "bought"
                         },
                         {
                             "region_number": 7,
-                            "content": "crashed",
-                            "metric_value": {
-                                "sum": 17.008031325880918
-                            }
+                            "content": "crashed"
                         }
                     ]
                 },
@@ -875,52 +560,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 7.540926942257693
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "computer",
-                            "metric_value": {
-                                "sum": 16.114550459846395
-                            }
+                            "content": "computer"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 5.208093893232552
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 15.683273870210497
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "secretary",
-                            "metric_value": {
-                                "sum": 16.62776043422153
-                            }
+                            "content": "secretary"
                         },
                         {
                             "region_number": 6,
-                            "content": "crashed",
-                            "metric_value": {
-                                "sum": 9.720214975978832
-                            }
+                            "content": "crashed"
                         },
                         {
                             "region_number": 7,
-                            "content": "bought",
-                            "metric_value": {
-                                "sum": 1.8431211068098534
-                            }
+                            "content": "bought"
                         }
                     ]
                 }
@@ -934,52 +598,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 12.426893776108091
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "floor",
-                            "metric_value": {
-                                "sum": 8.080325199786856
-                            }
+                            "content": "floor"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 4.525149570346992
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 1.481490042948471
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "maid",
-                            "metric_value": {
-                                "sum": 19.73048180797433
-                            }
+                            "content": "maid"
                         },
                         {
                             "region_number": 6,
-                            "content": "swept",
-                            "metric_value": {
-                                "sum": 3.105432392498826
-                            }
+                            "content": "swept"
                         },
                         {
                             "region_number": 7,
-                            "content": "cracked",
-                            "metric_value": {
-                                "sum": 3.517505324831395
-                            }
+                            "content": "cracked"
                         }
                     ]
                 },
@@ -988,52 +631,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 13.556482684531016
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "floor",
-                            "metric_value": {
-                                "sum": 5.402262029525024
-                            }
+                            "content": "floor"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 11.368489593815127
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 18.941699798525892
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "maid",
-                            "metric_value": {
-                                "sum": 6.705501032458483
-                            }
+                            "content": "maid"
                         },
                         {
                             "region_number": 6,
-                            "content": "cracked",
-                            "metric_value": {
-                                "sum": 19.245780865039304
-                            }
+                            "content": "cracked"
                         },
                         {
                             "region_number": 7,
-                            "content": "swept",
-                            "metric_value": {
-                                "sum": 9.179816093396703
-                            }
+                            "content": "swept"
                         }
                     ]
                 }
@@ -1047,52 +669,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 16.56919198444914
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "yacht",
-                            "metric_value": {
-                                "sum": 10.415785875423282
-                            }
+                            "content": "yacht"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 5.720867228076253
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 14.979855640520622
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "millionaires",
-                            "metric_value": {
-                                "sum": 10.877266438058117
-                            }
+                            "content": "millionaires"
                         },
                         {
                             "region_number": 6,
-                            "content": "bought",
-                            "metric_value": {
-                                "sum": 12.330803078913911
-                            }
+                            "content": "bought"
                         },
                         {
                             "region_number": 7,
-                            "content": "sank",
-                            "metric_value": {
-                                "sum": 14.82657816235781
-                            }
+                            "content": "sank"
                         }
                     ]
                 },
@@ -1101,52 +702,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 2.8919636205492107
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "yacht",
-                            "metric_value": {
-                                "sum": 9.099698361468354
-                            }
+                            "content": "yacht"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 7.782986733416766
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 19.671098531909198
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "millionaires",
-                            "metric_value": {
-                                "sum": 18.27346561285875
-                            }
+                            "content": "millionaires"
                         },
                         {
                             "region_number": 6,
-                            "content": "sank",
-                            "metric_value": {
-                                "sum": 10.648956718604502
-                            }
+                            "content": "sank"
                         },
                         {
                             "region_number": 7,
-                            "content": "bought",
-                            "metric_value": {
-                                "sum": 2.8196759267677294
-                            }
+                            "content": "bought"
                         }
                     ]
                 }
@@ -1160,52 +740,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 13.152918829329462
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "shirt",
-                            "metric_value": {
-                                "sum": 7.649713144904977
-                            }
+                            "content": "shirt"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 1.4567380839504567
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 6.212117269209612
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "man",
-                            "metric_value": {
-                                "sum": 1.942238873130345
-                            }
+                            "content": "man"
                         },
                         {
                             "region_number": 6,
-                            "content": "bought",
-                            "metric_value": {
-                                "sum": 4.7034480200008755
-                            }
+                            "content": "bought"
                         },
                         {
                             "region_number": 7,
-                            "content": "ripped",
-                            "metric_value": {
-                                "sum": 10.125551384585249
-                            }
+                            "content": "ripped"
                         }
                     ]
                 },
@@ -1214,52 +773,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 14.736500764958867
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "shirt",
-                            "metric_value": {
-                                "sum": 12.605189625808183
-                            }
+                            "content": "shirt"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 12.401010253929881
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 17.099623108526835
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "man",
-                            "metric_value": {
-                                "sum": 6.828614607090489
-                            }
+                            "content": "man"
                         },
                         {
                             "region_number": 6,
-                            "content": "ripped",
-                            "metric_value": {
-                                "sum": 14.129152495497031
-                            }
+                            "content": "ripped"
                         },
                         {
                             "region_number": 7,
-                            "content": "bought",
-                            "metric_value": {
-                                "sum": 4.847281369515723
-                            }
+                            "content": "bought"
                         }
                     ]
                 }
@@ -1273,52 +811,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 18.488268052765036
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "water",
-                            "metric_value": {
-                                "sum": 17.99703544682491
-                            }
+                            "content": "water"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 14.567388139062905
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 14.531841713142677
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "maid",
-                            "metric_value": {
-                                "sum": 2.650501372275536
-                            }
+                            "content": "maid"
                         },
                         {
                             "region_number": 6,
-                            "content": "poured",
-                            "metric_value": {
-                                "sum": 9.38879690859152
-                            }
+                            "content": "poured"
                         },
                         {
                             "region_number": 7,
-                            "content": "evaporated",
-                            "metric_value": {
-                                "sum": 9.960182374760414
-                            }
+                            "content": "evaporated"
                         }
                     ]
                 },
@@ -1327,52 +844,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 15.306447526540037
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "water",
-                            "metric_value": {
-                                "sum": 15.9458079683629
-                            }
+                            "content": "water"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 16.87236935081062
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 8.157443145416782
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "maid",
-                            "metric_value": {
-                                "sum": 15.035266534398742
-                            }
+                            "content": "maid"
                         },
                         {
                             "region_number": 6,
-                            "content": "evaporated",
-                            "metric_value": {
-                                "sum": 13.505995368603323
-                            }
+                            "content": "evaporated"
                         },
                         {
                             "region_number": 7,
-                            "content": "poured",
-                            "metric_value": {
-                                "sum": 7.536161100452693
-                            }
+                            "content": "poured"
                         }
                     ]
                 }
@@ -1386,52 +882,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 6.744279426089001
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "building",
-                            "metric_value": {
-                                "sum": 4.677762200612747
-                            }
+                            "content": "building"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 19.20700311992622
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 4.024750231730344
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "workers",
-                            "metric_value": {
-                                "sum": 15.70215693171079
-                            }
+                            "content": "workers"
                         },
                         {
                             "region_number": 6,
-                            "content": "built",
-                            "metric_value": {
-                                "sum": 14.217950890840727
-                            }
+                            "content": "built"
                         },
                         {
                             "region_number": 7,
-                            "content": "collapsed",
-                            "metric_value": {
-                                "sum": 19.554088901763368
-                            }
+                            "content": "collapsed"
                         }
                     ]
                 },
@@ -1440,52 +915,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 19.979957508538316
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "building",
-                            "metric_value": {
-                                "sum": 7.1756645504533765
-                            }
+                            "content": "building"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 3.420601801403343
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 6.062291337969025
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "workers",
-                            "metric_value": {
-                                "sum": 10.957742444822523
-                            }
+                            "content": "workers"
                         },
                         {
                             "region_number": 6,
-                            "content": "collapsed",
-                            "metric_value": {
-                                "sum": 19.25953522157909
-                            }
+                            "content": "collapsed"
                         },
                         {
                             "region_number": 7,
-                            "content": "built",
-                            "metric_value": {
-                                "sum": 8.76389100530854
-                            }
+                            "content": "built"
                         }
                     ]
                 }
@@ -1499,52 +953,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 2.9330912847388637
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "bones",
-                            "metric_value": {
-                                "sum": 17.437739649348394
-                            }
+                            "content": "bones"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 8.342837634166198
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 5.337217053220193
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "doctor",
-                            "metric_value": {
-                                "sum": 12.459443334060678
-                            }
+                            "content": "doctor"
                         },
                         {
                             "region_number": 6,
-                            "content": "examined",
-                            "metric_value": {
-                                "sum": 15.359230433072769
-                            }
+                            "content": "examined"
                         },
                         {
                             "region_number": 7,
-                            "content": "broke",
-                            "metric_value": {
-                                "sum": 14.742713851992837
-                            }
+                            "content": "broke"
                         }
                     ]
                 },
@@ -1553,52 +986,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 2.267140248208482
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "bones",
-                            "metric_value": {
-                                "sum": 3.068991520017627
-                            }
+                            "content": "bones"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 13.009243726772548
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 5.561704234443878
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "doctor",
-                            "metric_value": {
-                                "sum": 7.2712804485338065
-                            }
+                            "content": "doctor"
                         },
                         {
                             "region_number": 6,
-                            "content": "broke",
-                            "metric_value": {
-                                "sum": 12.51267951843584
-                            }
+                            "content": "broke"
                         },
                         {
                             "region_number": 7,
-                            "content": "examined",
-                            "metric_value": {
-                                "sum": 7.682331667887114
-                            }
+                            "content": "examined"
                         }
                     ]
                 }
@@ -1612,52 +1024,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 2.3532645857941574
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "building",
-                            "metric_value": {
-                                "sum": 12.573718461219231
-                            }
+                            "content": "building"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 7.564473847683675
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 14.724467812696785
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "workers",
-                            "metric_value": {
-                                "sum": 12.164739701897561
-                            }
+                            "content": "workers"
                         },
                         {
                             "region_number": 6,
-                            "content": "repaired",
-                            "metric_value": {
-                                "sum": 2.5116834074636567
-                            }
+                            "content": "repaired"
                         },
                         {
                             "region_number": 7,
-                            "content": "deteriorated",
-                            "metric_value": {
-                                "sum": 4.037963139464045
-                            }
+                            "content": "deteriorated"
                         }
                     ]
                 },
@@ -1666,52 +1057,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 18.307898485711803
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "building",
-                            "metric_value": {
-                                "sum": 18.253792460248263
-                            }
+                            "content": "building"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 19.061978111385308
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 13.02193842276194
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "workers",
-                            "metric_value": {
-                                "sum": 2.0427356584761585
-                            }
+                            "content": "workers"
                         },
                         {
                             "region_number": 6,
-                            "content": "deteriorated",
-                            "metric_value": {
-                                "sum": 1.3613717675708656
-                            }
+                            "content": "deteriorated"
                         },
                         {
                             "region_number": 7,
-                            "content": "repaired",
-                            "metric_value": {
-                                "sum": 9.477125098737623
-                            }
+                            "content": "repaired"
                         }
                     ]
                 }
@@ -1725,52 +1095,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 15.10502138623139
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "ship",
-                            "metric_value": {
-                                "sum": 11.956780671502948
-                            }
+                            "content": "ship"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 4.754842020367728
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 7.553854772212083
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "workers",
-                            "metric_value": {
-                                "sum": 3.7283328890594998
-                            }
+                            "content": "workers"
                         },
                         {
                             "region_number": 6,
-                            "content": "built",
-                            "metric_value": {
-                                "sum": 16.58939872544007
-                            }
+                            "content": "built"
                         },
                         {
                             "region_number": 7,
-                            "content": "sank",
-                            "metric_value": {
-                                "sum": 6.008322974526529
-                            }
+                            "content": "sank"
                         }
                     ]
                 },
@@ -1779,52 +1128,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 9.493129298522048
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "ship",
-                            "metric_value": {
-                                "sum": 12.870157178396449
-                            }
+                            "content": "ship"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 3.3870677899127024
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 16.15756911350121
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "workers",
-                            "metric_value": {
-                                "sum": 1.2017450589005136
-                            }
+                            "content": "workers"
                         },
                         {
                             "region_number": 6,
-                            "content": "sank",
-                            "metric_value": {
-                                "sum": 16.676736386434904
-                            }
+                            "content": "sank"
                         },
                         {
                             "region_number": 7,
-                            "content": "built",
-                            "metric_value": {
-                                "sum": 17.97664887957938
-                            }
+                            "content": "built"
                         }
                     ]
                 }
@@ -1838,52 +1166,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 12.620695194283117
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "horse",
-                            "metric_value": {
-                                "sum": 3.5438940041146174
-                            }
+                            "content": "horse"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 6.09973572524639
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 4.237917952597493
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "boy",
-                            "metric_value": {
-                                "sum": 6.84641940582254
-                            }
+                            "content": "boy"
                         },
                         {
                             "region_number": 6,
-                            "content": "rode",
-                            "metric_value": {
-                                "sum": 2.6266351108620527
-                            }
+                            "content": "rode"
                         },
                         {
                             "region_number": 7,
-                            "content": "bucked",
-                            "metric_value": {
-                                "sum": 14.111867984728105
-                            }
+                            "content": "bucked"
                         }
                     ]
                 },
@@ -1892,52 +1199,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 8.584833523150813
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "horse",
-                            "metric_value": {
-                                "sum": 11.575256395093607
-                            }
+                            "content": "horse"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 2.141404986696198
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 15.19114451316765
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "boy",
-                            "metric_value": {
-                                "sum": 12.020320503239718
-                            }
+                            "content": "boy"
                         },
                         {
                             "region_number": 6,
-                            "content": "bucked",
-                            "metric_value": {
-                                "sum": 9.666377686269556
-                            }
+                            "content": "bucked"
                         },
                         {
                             "region_number": 7,
-                            "content": "rode",
-                            "metric_value": {
-                                "sum": 4.6350924931192115
-                            }
+                            "content": "rode"
                         }
                     ]
                 }
@@ -1951,52 +1237,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 3.6933074234095993
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "water",
-                            "metric_value": {
-                                "sum": 9.563080580272613
-                            }
+                            "content": "water"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 6.251284629944328
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 14.158368035948001
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "chef",
-                            "metric_value": {
-                                "sum": 14.40913761503836
-                            }
+                            "content": "chef"
                         },
                         {
                             "region_number": 6,
-                            "content": "needed",
-                            "metric_value": {
-                                "sum": 5.0195464553319535
-                            }
+                            "content": "needed"
                         },
                         {
                             "region_number": 7,
-                            "content": "evaporated",
-                            "metric_value": {
-                                "sum": 17.090711156689498
-                            }
+                            "content": "evaporated"
                         }
                     ]
                 },
@@ -2005,52 +1270,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 4.467124574823842
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "water",
-                            "metric_value": {
-                                "sum": 5.19752492931768
-                            }
+                            "content": "water"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 19.246367218668457
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 18.188682789087476
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "chef",
-                            "metric_value": {
-                                "sum": 9.944277836364833
-                            }
+                            "content": "chef"
                         },
                         {
                             "region_number": 6,
-                            "content": "evaporated",
-                            "metric_value": {
-                                "sum": 5.259648830496166
-                            }
+                            "content": "evaporated"
                         },
                         {
                             "region_number": 7,
-                            "content": "needed",
-                            "metric_value": {
-                                "sum": 18.673141082736695
-                            }
+                            "content": "needed"
                         }
                     ]
                 }
@@ -2064,52 +1308,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 19.946531415611723
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "tree",
-                            "metric_value": {
-                                "sum": 19.753714818217063
-                            }
+                            "content": "tree"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 13.61687789566735
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 10.87431047152973
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "old man",
-                            "metric_value": {
-                                "sum": 4.837376450309249
-                            }
+                            "content": "old man"
                         },
                         {
                             "region_number": 6,
-                            "content": "cut",
-                            "metric_value": {
-                                "sum": 12.891795811736323
-                            }
+                            "content": "cut"
                         },
                         {
                             "region_number": 7,
-                            "content": "fell",
-                            "metric_value": {
-                                "sum": 7.94402077048654
-                            }
+                            "content": "fell"
                         }
                     ]
                 },
@@ -2118,52 +1341,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 4.5252565435427226
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "tree",
-                            "metric_value": {
-                                "sum": 3.8301135217818456
-                            }
+                            "content": "tree"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 15.632111153448006
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 6.084727805216874
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "old man",
-                            "metric_value": {
-                                "sum": 19.886909772574622
-                            }
+                            "content": "old man"
                         },
                         {
                             "region_number": 6,
-                            "content": "fell",
-                            "metric_value": {
-                                "sum": 17.542524421330707
-                            }
+                            "content": "fell"
                         },
                         {
                             "region_number": 7,
-                            "content": "cut",
-                            "metric_value": {
-                                "sum": 2.7754236525458746
-                            }
+                            "content": "cut"
                         }
                     ]
                 }
@@ -2177,52 +1379,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 18.09139191964431
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "letter",
-                            "metric_value": {
-                                "sum": 14.269934195390766
-                            }
+                            "content": "letter"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 12.545800758568458
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 5.816007186255717
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "author",
-                            "metric_value": {
-                                "sum": 8.480686238530932
-                            }
+                            "content": "author"
                         },
                         {
                             "region_number": 6,
-                            "content": "wrote",
-                            "metric_value": {
-                                "sum": 3.6288393993340393
-                            }
+                            "content": "wrote"
                         },
                         {
                             "region_number": 7,
-                            "content": "arrived",
-                            "metric_value": {
-                                "sum": 16.48231961851076
-                            }
+                            "content": "arrived"
                         }
                     ]
                 },
@@ -2231,52 +1412,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 1.4616190535321567
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "letter",
-                            "metric_value": {
-                                "sum": 8.182500751106105
-                            }
+                            "content": "letter"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 6.198785883094761
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 11.562884743030478
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "author",
-                            "metric_value": {
-                                "sum": 4.789134615673687
-                            }
+                            "content": "author"
                         },
                         {
                             "region_number": 6,
-                            "content": "arrived",
-                            "metric_value": {
-                                "sum": 7.308542363030768
-                            }
+                            "content": "arrived"
                         },
                         {
                             "region_number": 7,
-                            "content": "wrote",
-                            "metric_value": {
-                                "sum": 18.440166833341117
-                            }
+                            "content": "wrote"
                         }
                     ]
                 }
@@ -2290,52 +1450,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 6.892047904764192
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "glass",
-                            "metric_value": {
-                                "sum": 17.517709918084872
-                            }
+                            "content": "glass"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 3.792033816877642
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 12.160025720105548
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "athlete",
-                            "metric_value": {
-                                "sum": 13.743199581670044
-                            }
+                            "content": "athlete"
                         },
                         {
                             "region_number": 6,
-                            "content": "hit",
-                            "metric_value": {
-                                "sum": 10.68239840790965
-                            }
+                            "content": "hit"
                         },
                         {
                             "region_number": 7,
-                            "content": "cracked",
-                            "metric_value": {
-                                "sum": 12.638821632283296
-                            }
+                            "content": "cracked"
                         }
                     ]
                 },
@@ -2344,52 +1483,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 7.718908584237248
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "glass",
-                            "metric_value": {
-                                "sum": 14.498682564981987
-                            }
+                            "content": "glass"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 12.64847765834102
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 16.36940344394815
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "athlete",
-                            "metric_value": {
-                                "sum": 11.917986793662791
-                            }
+                            "content": "athlete"
                         },
                         {
                             "region_number": 6,
-                            "content": "cracked",
-                            "metric_value": {
-                                "sum": 7.127703168141089
-                            }
+                            "content": "cracked"
                         },
                         {
                             "region_number": 7,
-                            "content": "hit",
-                            "metric_value": {
-                                "sum": 14.168753113758461
-                            }
+                            "content": "hit"
                         }
                     ]
                 }
@@ -2403,52 +1521,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 18.524798814996984
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "bomb",
-                            "metric_value": {
-                                "sum": 15.08560657662835
-                            }
+                            "content": "bomb"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 16.755126195881047
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 14.087843519262641
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "terrorist",
-                            "metric_value": {
-                                "sum": 12.262251032844896
-                            }
+                            "content": "terrorist"
                         },
                         {
                             "region_number": 6,
-                            "content": "built",
-                            "metric_value": {
-                                "sum": 5.491701372862935
-                            }
+                            "content": "built"
                         },
                         {
                             "region_number": 7,
-                            "content": "exploded",
-                            "metric_value": {
-                                "sum": 5.53217731359378
-                            }
+                            "content": "exploded"
                         }
                     ]
                 },
@@ -2457,52 +1554,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 8.617286955579555
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "bomb",
-                            "metric_value": {
-                                "sum": 3.022204839443892
-                            }
+                            "content": "bomb"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 11.174715703286681
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 18.322067065808994
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "terrorist",
-                            "metric_value": {
-                                "sum": 18.111832357579466
-                            }
+                            "content": "terrorist"
                         },
                         {
                             "region_number": 6,
-                            "content": "exploded",
-                            "metric_value": {
-                                "sum": 10.7477232679515
-                            }
+                            "content": "exploded"
                         },
                         {
                             "region_number": 7,
-                            "content": "built",
-                            "metric_value": {
-                                "sum": 1.6707589666653808
-                            }
+                            "content": "built"
                         }
                     ]
                 }
@@ -2516,52 +1592,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 16.97248680936719
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "meat",
-                            "metric_value": {
-                                "sum": 5.79037325117161
-                            }
+                            "content": "meat"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 6.430443170594508
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 18.915031213705827
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "man",
-                            "metric_value": {
-                                "sum": 9.02586983259677
-                            }
+                            "content": "man"
                         },
                         {
                             "region_number": 6,
-                            "content": "cooked",
-                            "metric_value": {
-                                "sum": 6.492660523149497
-                            }
+                            "content": "cooked"
                         },
                         {
                             "region_number": 7,
-                            "content": "burned",
-                            "metric_value": {
-                                "sum": 16.836823219975308
-                            }
+                            "content": "burned"
                         }
                     ]
                 },
@@ -2570,52 +1625,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 6.936652210460512
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "meat",
-                            "metric_value": {
-                                "sum": 7.221458802671182
-                            }
+                            "content": "meat"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 2.7915592009206334
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 6.253098237537779
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "man",
-                            "metric_value": {
-                                "sum": 1.1210533347050218
-                            }
+                            "content": "man"
                         },
                         {
                             "region_number": 6,
-                            "content": "burned",
-                            "metric_value": {
-                                "sum": 12.587257989795802
-                            }
+                            "content": "burned"
                         },
                         {
                             "region_number": 7,
-                            "content": "cooked",
-                            "metric_value": {
-                                "sum": 15.872083894345092
-                            }
+                            "content": "cooked"
                         }
                     ]
                 }
@@ -2629,52 +1663,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 15.396282814580346
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "sugar",
-                            "metric_value": {
-                                "sum": 16.126603417352243
-                            }
+                            "content": "sugar"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 2.0001803801817895
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 7.849423342624536
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "visitor",
-                            "metric_value": {
-                                "sum": 18.27013708997646
-                            }
+                            "content": "visitor"
                         },
                         {
                             "region_number": 6,
-                            "content": "bought",
-                            "metric_value": {
-                                "sum": 15.383950513239464
-                            }
+                            "content": "bought"
                         },
                         {
                             "region_number": 7,
-                            "content": "dissolved",
-                            "metric_value": {
-                                "sum": 12.81762968280803
-                            }
+                            "content": "dissolved"
                         }
                     ]
                 },
@@ -2683,52 +1696,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 16.993625609069845
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "sugar",
-                            "metric_value": {
-                                "sum": 18.596500141696403
-                            }
+                            "content": "sugar"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 8.539706972011597
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 19.238066829203714
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "visitor",
-                            "metric_value": {
-                                "sum": 9.602707308638717
-                            }
+                            "content": "visitor"
                         },
                         {
                             "region_number": 6,
-                            "content": "dissolved",
-                            "metric_value": {
-                                "sum": 6.843466006103892
-                            }
+                            "content": "dissolved"
                         },
                         {
                             "region_number": 7,
-                            "content": "bought",
-                            "metric_value": {
-                                "sum": 15.365978734372405
-                            }
+                            "content": "bought"
                         }
                     ]
                 }
@@ -2742,52 +1734,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 19.738598416659904
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "pants",
-                            "metric_value": {
-                                "sum": 9.72122408092958
-                            }
+                            "content": "pants"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 9.585033936203839
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 13.695442151500176
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "woman",
-                            "metric_value": {
-                                "sum": 14.007146312407041
-                            }
+                            "content": "woman"
                         },
                         {
                             "region_number": 6,
-                            "content": "bought",
-                            "metric_value": {
-                                "sum": 7.406747374776868
-                            }
+                            "content": "bought"
                         },
                         {
                             "region_number": 7,
-                            "content": "ripped",
-                            "metric_value": {
-                                "sum": 17.539872297627763
-                            }
+                            "content": "ripped"
                         }
                     ]
                 },
@@ -2796,52 +1767,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 2.6659685998306437
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "pants",
-                            "metric_value": {
-                                "sum": 3.2767628654847236
-                            }
+                            "content": "pants"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 16.69189079642721
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 7.1377147708660225
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "woman",
-                            "metric_value": {
-                                "sum": 2.5320551370673043
-                            }
+                            "content": "woman"
                         },
                         {
                             "region_number": 6,
-                            "content": "ripped",
-                            "metric_value": {
-                                "sum": 11.091386680407634
-                            }
+                            "content": "ripped"
                         },
                         {
                             "region_number": 7,
-                            "content": "bought",
-                            "metric_value": {
-                                "sum": 11.295325309302065
-                            }
+                            "content": "bought"
                         }
                     ]
                 }
@@ -2855,52 +1805,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 9.410333970439957
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "toilet",
-                            "metric_value": {
-                                "sum": 7.841344527093283
-                            }
+                            "content": "toilet"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 15.778083197281816
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 2.2504066571074133
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "worker",
-                            "metric_value": {
-                                "sum": 19.594300584555118
-                            }
+                            "content": "worker"
                         },
                         {
                             "region_number": 6,
-                            "content": "fixed",
-                            "metric_value": {
-                                "sum": 12.81358691482301
-                            }
+                            "content": "fixed"
                         },
                         {
                             "region_number": 7,
-                            "content": "clogged",
-                            "metric_value": {
-                                "sum": 11.014029680642127
-                            }
+                            "content": "clogged"
                         }
                     ]
                 },
@@ -2909,52 +1838,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 6.781974277495511
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "toilet",
-                            "metric_value": {
-                                "sum": 11.037284215402408
-                            }
+                            "content": "toilet"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 5.106822704266078
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 13.931369576006045
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "worker",
-                            "metric_value": {
-                                "sum": 19.24961263406459
-                            }
+                            "content": "worker"
                         },
                         {
                             "region_number": 6,
-                            "content": "clogged",
-                            "metric_value": {
-                                "sum": 3.22706647163629
-                            }
+                            "content": "clogged"
                         },
                         {
                             "region_number": 7,
-                            "content": "fixed",
-                            "metric_value": {
-                                "sum": 9.956585181256754
-                            }
+                            "content": "fixed"
                         }
                     ]
                 }
@@ -2968,52 +1876,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 9.590066050997315
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "window",
-                            "metric_value": {
-                                "sum": 18.651279284426685
-                            }
+                            "content": "window"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 4.705301556612561
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 11.440011630145309
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "boy",
-                            "metric_value": {
-                                "sum": 8.332160016549045
-                            }
+                            "content": "boy"
                         },
                         {
                             "region_number": 6,
-                            "content": "wiped",
-                            "metric_value": {
-                                "sum": 4.9688583294938145
-                            }
+                            "content": "wiped"
                         },
                         {
                             "region_number": 7,
-                            "content": "shattered",
-                            "metric_value": {
-                                "sum": 6.845149211358036
-                            }
+                            "content": "shattered"
                         }
                     ]
                 },
@@ -3022,52 +1909,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 18.62500412960098
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "window",
-                            "metric_value": {
-                                "sum": 12.548459271347971
-                            }
+                            "content": "window"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 3.133910633027681
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 12.90455268522205
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "boy",
-                            "metric_value": {
-                                "sum": 19.061220082456316
-                            }
+                            "content": "boy"
                         },
                         {
                             "region_number": 6,
-                            "content": "shattered",
-                            "metric_value": {
-                                "sum": 4.958093097100209
-                            }
+                            "content": "shattered"
                         },
                         {
                             "region_number": 7,
-                            "content": "wiped",
-                            "metric_value": {
-                                "sum": 2.104498467247967
-                            }
+                            "content": "wiped"
                         }
                     ]
                 }
@@ -3081,52 +1947,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 14.462262345342934
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "child",
-                            "metric_value": {
-                                "sum": 2.8516693334711505
-                            }
+                            "content": "child"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 18.4017157872862
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 1.5487978669434899
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "shadow",
-                            "metric_value": {
-                                "sum": 10.440609446273571
-                            }
+                            "content": "shadow"
                         },
                         {
                             "region_number": 6,
-                            "content": "frightened",
-                            "metric_value": {
-                                "sum": 13.853627597061948
-                            }
+                            "content": "frightened"
                         },
                         {
                             "region_number": 7,
-                            "content": "yelled",
-                            "metric_value": {
-                                "sum": 17.389164592548116
-                            }
+                            "content": "yelled"
                         }
                     ]
                 },
@@ -3135,52 +1980,31 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The",
-                            "metric_value": {
-                                "sum": 3.7906402040124973
-                            }
+                            "content": "The"
                         },
                         {
                             "region_number": 2,
-                            "content": "child",
-                            "metric_value": {
-                                "sum": 9.754870769697513
-                            }
+                            "content": "child"
                         },
                         {
                             "region_number": 3,
-                            "content": "that",
-                            "metric_value": {
-                                "sum": 8.220396497343044
-                            }
+                            "content": "that"
                         },
                         {
                             "region_number": 4,
-                            "content": "the",
-                            "metric_value": {
-                                "sum": 9.513477105647802
-                            }
+                            "content": "the"
                         },
                         {
                             "region_number": 5,
-                            "content": "shadow",
-                            "metric_value": {
-                                "sum": 6.298196411743926
-                            }
+                            "content": "shadow"
                         },
                         {
                             "region_number": 6,
-                            "content": "yelled",
-                            "metric_value": {
-                                "sum": 14.379365877833518
-                            }
+                            "content": "yelled"
                         },
                         {
                             "region_number": 7,
-                            "content": "frightened",
-                            "metric_value": {
-                                "sum": 5.3521549528845656
-                            }
+                            "content": "frightened"
                         }
                     ]
                 }

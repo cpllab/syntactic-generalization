@@ -28,38 +28,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "As the doctor",
-                            "metric_value": {
-                                "sum": 8.647068376965061
-                            }
+                            "content": "As the doctor"
                         },
                         {
                             "region_number": 2,
-                            "content": "in a long white lab jacket",
-                            "metric_value": {
-                                "sum": 19.237773298178446
-                            }
+                            "content": "in a long white lab jacket"
                         },
                         {
                             "region_number": 3,
-                            "content": "studied the book",
-                            "metric_value": {
-                                "sum": 2.650986917947014
-                            }
+                            "content": "studied the book"
                         },
                         {
                             "region_number": 4,
-                            "content": "about several recent advances in cancer therapy",
-                            "metric_value": {
-                                "sum": 2.6206228405109657
-                            }
+                            "content": "about several recent advances in cancer therapy"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 13.12089457592871
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -68,38 +53,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The doctor",
-                            "metric_value": {
-                                "sum": 15.98040372315085
-                            }
+                            "content": "The doctor"
                         },
                         {
                             "region_number": 2,
-                            "content": "in a long white lab jacket",
-                            "metric_value": {
-                                "sum": 3.18919736926319
-                            }
+                            "content": "in a long white lab jacket"
                         },
                         {
                             "region_number": 3,
-                            "content": "studied the book",
-                            "metric_value": {
-                                "sum": 2.046370219913416
-                            }
+                            "content": "studied the book"
                         },
                         {
                             "region_number": 4,
-                            "content": "about several recent advances in cancer therapy",
-                            "metric_value": {
-                                "sum": 12.78155732923351
-                            }
+                            "content": "about several recent advances in cancer therapy"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 4.5268785558857525
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -108,38 +78,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "As the doctor",
-                            "metric_value": {
-                                "sum": 14.719527991367158
-                            }
+                            "content": "As the doctor"
                         },
                         {
                             "region_number": 2,
-                            "content": "in a long white lab jacket",
-                            "metric_value": {
-                                "sum": 19.422015119795553
-                            }
+                            "content": "in a long white lab jacket"
                         },
                         {
                             "region_number": 3,
-                            "content": "studied the book",
-                            "metric_value": {
-                                "sum": 4.599019792909272
-                            }
+                            "content": "studied the book"
                         },
                         {
                             "region_number": 4,
-                            "content": "about several recent advances in cancer therapy",
-                            "metric_value": {
-                                "sum": 6.574703668144062
-                            }
+                            "content": "about several recent advances in cancer therapy"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the nurse walked into the room .",
-                            "metric_value": {
-                                "sum": 15.525652110027808
-                            }
+                            "content": ", the nurse walked into the room ."
                         }
                     ]
                 },
@@ -148,38 +103,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The doctor",
-                            "metric_value": {
-                                "sum": 12.365223851485405
-                            }
+                            "content": "The doctor"
                         },
                         {
                             "region_number": 2,
-                            "content": "in a long white lab jacket",
-                            "metric_value": {
-                                "sum": 16.161884015726855
-                            }
+                            "content": "in a long white lab jacket"
                         },
                         {
                             "region_number": 3,
-                            "content": "studied the book",
-                            "metric_value": {
-                                "sum": 9.534373291895458
-                            }
+                            "content": "studied the book"
                         },
                         {
                             "region_number": 4,
-                            "content": "about several recent advances in cancer therapy",
-                            "metric_value": {
-                                "sum": 13.840976041171972
-                            }
+                            "content": "about several recent advances in cancer therapy"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the nurse walked into the room .",
-                            "metric_value": {
-                                "sum": 7.645136183723988
-                            }
+                            "content": ", the nurse walked into the room ."
                         }
                     ]
                 }
@@ -193,38 +133,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "After the man",
-                            "metric_value": {
-                                "sum": 1.5547329046525427
-                            }
+                            "content": "After the man"
                         },
                         {
                             "region_number": 2,
-                            "content": "with a very expensive gun",
-                            "metric_value": {
-                                "sum": 13.126701119403165
-                            }
+                            "content": "with a very expensive gun"
                         },
                         {
                             "region_number": 3,
-                            "content": "shot the bird",
-                            "metric_value": {
-                                "sum": 15.685421807366867
-                            }
+                            "content": "shot the bird"
                         },
                         {
                             "region_number": 4,
-                            "content": "on the run for its life",
-                            "metric_value": {
-                                "sum": 19.57280655816382
-                            }
+                            "content": "on the run for its life"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 10.701739327721416
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -233,38 +158,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The man",
-                            "metric_value": {
-                                "sum": 18.448857591580232
-                            }
+                            "content": "The man"
                         },
                         {
                             "region_number": 2,
-                            "content": "with a very expensive gun",
-                            "metric_value": {
-                                "sum": 6.82079862974596
-                            }
+                            "content": "with a very expensive gun"
                         },
                         {
                             "region_number": 3,
-                            "content": "shot the bird",
-                            "metric_value": {
-                                "sum": 6.0062175130935795
-                            }
+                            "content": "shot the bird"
                         },
                         {
                             "region_number": 4,
-                            "content": "on the run for its life",
-                            "metric_value": {
-                                "sum": 1.6760619831945993
-                            }
+                            "content": "on the run for its life"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 12.744000116179501
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -273,38 +183,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "After the man",
-                            "metric_value": {
-                                "sum": 2.3739349688057674
-                            }
+                            "content": "After the man"
                         },
                         {
                             "region_number": 2,
-                            "content": "with a very expensive gun",
-                            "metric_value": {
-                                "sum": 14.033138306950285
-                            }
+                            "content": "with a very expensive gun"
                         },
                         {
                             "region_number": 3,
-                            "content": "shot the bird",
-                            "metric_value": {
-                                "sum": 6.493878718871772
-                            }
+                            "content": "shot the bird"
                         },
                         {
                             "region_number": 4,
-                            "content": "on the run for its life",
-                            "metric_value": {
-                                "sum": 6.357226601163396
-                            }
+                            "content": "on the run for its life"
                         },
                         {
                             "region_number": 5,
-                            "content": ", he loaded his gun .",
-                            "metric_value": {
-                                "sum": 11.81157389474515
-                            }
+                            "content": ", he loaded his gun ."
                         }
                     ]
                 },
@@ -313,38 +208,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The man",
-                            "metric_value": {
-                                "sum": 14.4145634727556
-                            }
+                            "content": "The man"
                         },
                         {
                             "region_number": 2,
-                            "content": "with a very expensive gun",
-                            "metric_value": {
-                                "sum": 3.8995384208554373
-                            }
+                            "content": "with a very expensive gun"
                         },
                         {
                             "region_number": 3,
-                            "content": "shot the bird",
-                            "metric_value": {
-                                "sum": 9.912307098603213
-                            }
+                            "content": "shot the bird"
                         },
                         {
                             "region_number": 4,
-                            "content": "on the run for its life",
-                            "metric_value": {
-                                "sum": 9.317480870955956
-                            }
+                            "content": "on the run for its life"
                         },
                         {
                             "region_number": 5,
-                            "content": ", he loaded his gun .",
-                            "metric_value": {
-                                "sum": 10.202409482247967
-                            }
+                            "content": ", he loaded his gun ."
                         }
                     ]
                 }
@@ -358,38 +238,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Because the students",
-                            "metric_value": {
-                                "sum": 19.01621543652529
-                            }
+                            "content": "Because the students"
                         },
                         {
                             "region_number": 2,
-                            "content": "in the teacher 's third grade class",
-                            "metric_value": {
-                                "sum": 2.174220298029886
-                            }
+                            "content": "in the teacher 's third grade class"
                         },
                         {
                             "region_number": 3,
-                            "content": "did not like the material",
-                            "metric_value": {
-                                "sum": 15.546867886769867
-                            }
+                            "content": "did not like the material"
                         },
                         {
                             "region_number": 4,
-                            "content": "on the evolution of the human skeleton",
-                            "metric_value": {
-                                "sum": 7.404457660994714
-                            }
+                            "content": "on the evolution of the human skeleton"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 12.325162413984387
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -398,38 +263,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The students",
-                            "metric_value": {
-                                "sum": 10.659576963368995
-                            }
+                            "content": "The students"
                         },
                         {
                             "region_number": 2,
-                            "content": "in the teacher 's third grade class",
-                            "metric_value": {
-                                "sum": 16.55774862368399
-                            }
+                            "content": "in the teacher 's third grade class"
                         },
                         {
                             "region_number": 3,
-                            "content": "did not like the material",
-                            "metric_value": {
-                                "sum": 3.048895104898951
-                            }
+                            "content": "did not like the material"
                         },
                         {
                             "region_number": 4,
-                            "content": "on the evolution of the human skeleton",
-                            "metric_value": {
-                                "sum": 12.598755672865446
-                            }
+                            "content": "on the evolution of the human skeleton"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 1.0216611899852701
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -438,38 +288,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Because the students",
-                            "metric_value": {
-                                "sum": 19.403837949924373
-                            }
+                            "content": "Because the students"
                         },
                         {
                             "region_number": 2,
-                            "content": "in the teacher 's third grade class",
-                            "metric_value": {
-                                "sum": 15.498791047020887
-                            }
+                            "content": "in the teacher 's third grade class"
                         },
                         {
                             "region_number": 3,
-                            "content": "did not like the material",
-                            "metric_value": {
-                                "sum": 19.5655183228605
-                            }
+                            "content": "did not like the material"
                         },
                         {
                             "region_number": 4,
-                            "content": "on the evolution of the human skeleton",
-                            "metric_value": {
-                                "sum": 2.973938216371212
-                            }
+                            "content": "on the evolution of the human skeleton"
                         },
                         {
                             "region_number": 5,
-                            "content": ", they complained to the principal .",
-                            "metric_value": {
-                                "sum": 7.9707144646134225
-                            }
+                            "content": ", they complained to the principal ."
                         }
                     ]
                 },
@@ -478,38 +313,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The students",
-                            "metric_value": {
-                                "sum": 10.090092016708772
-                            }
+                            "content": "The students"
                         },
                         {
                             "region_number": 2,
-                            "content": "in the teacher 's third grade class",
-                            "metric_value": {
-                                "sum": 3.8051812224318127
-                            }
+                            "content": "in the teacher 's third grade class"
                         },
                         {
                             "region_number": 3,
-                            "content": "did not like the material",
-                            "metric_value": {
-                                "sum": 5.541906457170279
-                            }
+                            "content": "did not like the material"
                         },
                         {
                             "region_number": 4,
-                            "content": "on the evolution of the human skeleton",
-                            "metric_value": {
-                                "sum": 14.0620801607749
-                            }
+                            "content": "on the evolution of the human skeleton"
                         },
                         {
                             "region_number": 5,
-                            "content": ", they complained to the principal .",
-                            "metric_value": {
-                                "sum": 11.341993902384209
-                            }
+                            "content": ", they complained to the principal ."
                         }
                     ]
                 }
@@ -523,38 +343,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "When the general",
-                            "metric_value": {
-                                "sum": 9.144836465371775
-                            }
+                            "content": "When the general"
                         },
                         {
                             "region_number": 2,
-                            "content": "in the green uniform and black shoes",
-                            "metric_value": {
-                                "sum": 19.732347405279324
-                            }
+                            "content": "in the green uniform and black shoes"
                         },
                         {
                             "region_number": 3,
-                            "content": "entered the camp",
-                            "metric_value": {
-                                "sum": 9.46674662354841
-                            }
+                            "content": "entered the camp"
                         },
                         {
                             "region_number": 4,
-                            "content": "in the middle of the busy camp",
-                            "metric_value": {
-                                "sum": 18.48987178827764
-                            }
+                            "content": "in the middle of the busy camp"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 5.134239791623677
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -563,38 +368,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The general",
-                            "metric_value": {
-                                "sum": 18.239434830761457
-                            }
+                            "content": "The general"
                         },
                         {
                             "region_number": 2,
-                            "content": "in the green uniform and black shoes",
-                            "metric_value": {
-                                "sum": 1.2323731694120477
-                            }
+                            "content": "in the green uniform and black shoes"
                         },
                         {
                             "region_number": 3,
-                            "content": "entered the camp",
-                            "metric_value": {
-                                "sum": 10.390422292550912
-                            }
+                            "content": "entered the camp"
                         },
                         {
                             "region_number": 4,
-                            "content": "in the middle of the busy camp",
-                            "metric_value": {
-                                "sum": 1.969595704977956
-                            }
+                            "content": "in the middle of the busy camp"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 7.63604663770207
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -603,38 +393,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "When the general",
-                            "metric_value": {
-                                "sum": 4.154373693512438
-                            }
+                            "content": "When the general"
                         },
                         {
                             "region_number": 2,
-                            "content": "in the green uniform and black shoes",
-                            "metric_value": {
-                                "sum": 2.553296549194286
-                            }
+                            "content": "in the green uniform and black shoes"
                         },
                         {
                             "region_number": 3,
-                            "content": "entered the camp",
-                            "metric_value": {
-                                "sum": 16.57368183346255
-                            }
+                            "content": "entered the camp"
                         },
                         {
                             "region_number": 4,
-                            "content": "in the middle of the busy camp",
-                            "metric_value": {
-                                "sum": 2.2391428849861748
-                            }
+                            "content": "in the middle of the busy camp"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the soldiers cheered .",
-                            "metric_value": {
-                                "sum": 7.828288907047549
-                            }
+                            "content": ", the soldiers cheered ."
                         }
                     ]
                 },
@@ -643,38 +418,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The general",
-                            "metric_value": {
-                                "sum": 3.7043868625469534
-                            }
+                            "content": "The general"
                         },
                         {
                             "region_number": 2,
-                            "content": "in the green uniform and black shoes",
-                            "metric_value": {
-                                "sum": 11.480386887613378
-                            }
+                            "content": "in the green uniform and black shoes"
                         },
                         {
                             "region_number": 3,
-                            "content": "entered the camp",
-                            "metric_value": {
-                                "sum": 13.227892806645821
-                            }
+                            "content": "entered the camp"
                         },
                         {
                             "region_number": 4,
-                            "content": "in the middle of the busy camp",
-                            "metric_value": {
-                                "sum": 16.084291024806
-                            }
+                            "content": "in the middle of the busy camp"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the soldiers cheered .",
-                            "metric_value": {
-                                "sum": 2.8335949400800415
-                            }
+                            "content": ", the soldiers cheered ."
                         }
                     ]
                 }
@@ -688,38 +448,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "After the delivery man",
-                            "metric_value": {
-                                "sum": 18.65289626150555
-                            }
+                            "content": "After the delivery man"
                         },
                         {
                             "region_number": 2,
-                            "content": "with the friendly face",
-                            "metric_value": {
-                                "sum": 19.871259719312956
-                            }
+                            "content": "with the friendly face"
                         },
                         {
                             "region_number": 3,
-                            "content": "delivered the newspaper",
-                            "metric_value": {
-                                "sum": 18.549146135738166
-                            }
+                            "content": "delivered the newspaper"
                         },
                         {
                             "region_number": 4,
-                            "content": "from a city far away",
-                            "metric_value": {
-                                "sum": 8.74527114111611
-                            }
+                            "content": "from a city far away"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 2.5255459473290847
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -728,38 +473,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The delivery man",
-                            "metric_value": {
-                                "sum": 3.8777245692115256
-                            }
+                            "content": "The delivery man"
                         },
                         {
                             "region_number": 2,
-                            "content": "with the friendly face",
-                            "metric_value": {
-                                "sum": 8.337630142004642
-                            }
+                            "content": "with the friendly face"
                         },
                         {
                             "region_number": 3,
-                            "content": "delivered the newspaper",
-                            "metric_value": {
-                                "sum": 8.968538668767913
-                            }
+                            "content": "delivered the newspaper"
                         },
                         {
                             "region_number": 4,
-                            "content": "from a city far away",
-                            "metric_value": {
-                                "sum": 12.757395314244569
-                            }
+                            "content": "from a city far away"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 5.26131770839549
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -768,38 +498,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "After the delivery man",
-                            "metric_value": {
-                                "sum": 9.943131991080286
-                            }
+                            "content": "After the delivery man"
                         },
                         {
                             "region_number": 2,
-                            "content": "with the friendly face",
-                            "metric_value": {
-                                "sum": 13.236141514083055
-                            }
+                            "content": "with the friendly face"
                         },
                         {
                             "region_number": 3,
-                            "content": "delivered the newspaper",
-                            "metric_value": {
-                                "sum": 2.7393722212414096
-                            }
+                            "content": "delivered the newspaper"
                         },
                         {
                             "region_number": 4,
-                            "content": "from a city far away",
-                            "metric_value": {
-                                "sum": 14.266894986123793
-                            }
+                            "content": "from a city far away"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the dog looked at the door .",
-                            "metric_value": {
-                                "sum": 12.246676111907592
-                            }
+                            "content": ", the dog looked at the door ."
                         }
                     ]
                 },
@@ -808,38 +523,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The delivery man",
-                            "metric_value": {
-                                "sum": 7.133915787746712
-                            }
+                            "content": "The delivery man"
                         },
                         {
                             "region_number": 2,
-                            "content": "with the friendly face",
-                            "metric_value": {
-                                "sum": 17.05443892214576
-                            }
+                            "content": "with the friendly face"
                         },
                         {
                             "region_number": 3,
-                            "content": "delivered the newspaper",
-                            "metric_value": {
-                                "sum": 15.480065987814715
-                            }
+                            "content": "delivered the newspaper"
                         },
                         {
                             "region_number": 4,
-                            "content": "from a city far away",
-                            "metric_value": {
-                                "sum": 13.835114314317407
-                            }
+                            "content": "from a city far away"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the dog looked at the door .",
-                            "metric_value": {
-                                "sum": 12.649660118487416
-                            }
+                            "content": ", the dog looked at the door ."
                         }
                     ]
                 }
@@ -853,38 +553,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "While the lawyers",
-                            "metric_value": {
-                                "sum": 13.180359079400027
-                            }
+                            "content": "While the lawyers"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the city up north",
-                            "metric_value": {
-                                "sum": 4.740449652048466
-                            }
+                            "content": "from the city up north"
                         },
                         {
                             "region_number": 3,
-                            "content": "printed the documents",
-                            "metric_value": {
-                                "sum": 2.029819276161069
-                            }
+                            "content": "printed the documents"
                         },
                         {
                             "region_number": 4,
-                            "content": "on very expensive recycled paper",
-                            "metric_value": {
-                                "sum": 6.225019996193622
-                            }
+                            "content": "on very expensive recycled paper"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 9.087722308672145
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -893,38 +578,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The lawyers",
-                            "metric_value": {
-                                "sum": 13.888894117676998
-                            }
+                            "content": "The lawyers"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the city up north",
-                            "metric_value": {
-                                "sum": 13.57752473596104
-                            }
+                            "content": "from the city up north"
                         },
                         {
                             "region_number": 3,
-                            "content": "printed the documents",
-                            "metric_value": {
-                                "sum": 10.455400687739006
-                            }
+                            "content": "printed the documents"
                         },
                         {
                             "region_number": 4,
-                            "content": "on very expensive recycled paper",
-                            "metric_value": {
-                                "sum": 14.35865467812956
-                            }
+                            "content": "on very expensive recycled paper"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 12.2393468481947
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -933,38 +603,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "While the lawyers",
-                            "metric_value": {
-                                "sum": 4.100125755203805
-                            }
+                            "content": "While the lawyers"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the city up north",
-                            "metric_value": {
-                                "sum": 2.484668820931351
-                            }
+                            "content": "from the city up north"
                         },
                         {
                             "region_number": 3,
-                            "content": "printed the documents",
-                            "metric_value": {
-                                "sum": 17.275473038115894
-                            }
+                            "content": "printed the documents"
                         },
                         {
                             "region_number": 4,
-                            "content": "on very expensive recycled paper",
-                            "metric_value": {
-                                "sum": 10.732263235823337
-                            }
+                            "content": "on very expensive recycled paper"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the aids made coffee .",
-                            "metric_value": {
-                                "sum": 17.631213132096605
-                            }
+                            "content": ", the aids made coffee ."
                         }
                     ]
                 },
@@ -973,38 +628,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The lawyers",
-                            "metric_value": {
-                                "sum": 8.178196760324214
-                            }
+                            "content": "The lawyers"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the city up north",
-                            "metric_value": {
-                                "sum": 17.210933745807786
-                            }
+                            "content": "from the city up north"
                         },
                         {
                             "region_number": 3,
-                            "content": "printed the documents",
-                            "metric_value": {
-                                "sum": 13.936491770993909
-                            }
+                            "content": "printed the documents"
                         },
                         {
                             "region_number": 4,
-                            "content": "on very expensive recycled paper",
-                            "metric_value": {
-                                "sum": 11.620376457936732
-                            }
+                            "content": "on very expensive recycled paper"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the aids made coffee .",
-                            "metric_value": {
-                                "sum": 6.185713049015501
-                            }
+                            "content": ", the aids made coffee ."
                         }
                     ]
                 }
@@ -1018,38 +658,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Because the editor",
-                            "metric_value": {
-                                "sum": 18.2281476369372
-                            }
+                            "content": "Because the editor"
                         },
                         {
                             "region_number": 2,
-                            "content": "with higher standards than anyone",
-                            "metric_value": {
-                                "sum": 6.054276530075826
-                            }
+                            "content": "with higher standards than anyone"
                         },
                         {
                             "region_number": 3,
-                            "content": "liked the draft",
-                            "metric_value": {
-                                "sum": 10.017704780154226
-                            }
+                            "content": "liked the draft"
                         },
                         {
                             "region_number": 4,
-                            "content": "about the failed local politicians",
-                            "metric_value": {
-                                "sum": 19.905311948560012
-                            }
+                            "content": "about the failed local politicians"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 2.529361655562941
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -1058,38 +683,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The editor",
-                            "metric_value": {
-                                "sum": 19.248538032425966
-                            }
+                            "content": "The editor"
                         },
                         {
                             "region_number": 2,
-                            "content": "with higher standards than anyone",
-                            "metric_value": {
-                                "sum": 9.521256023732471
-                            }
+                            "content": "with higher standards than anyone"
                         },
                         {
                             "region_number": 3,
-                            "content": "liked the draft",
-                            "metric_value": {
-                                "sum": 16.927140147683954
-                            }
+                            "content": "liked the draft"
                         },
                         {
                             "region_number": 4,
-                            "content": "about the failed local politicians",
-                            "metric_value": {
-                                "sum": 13.874417225172595
-                            }
+                            "content": "about the failed local politicians"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 16.733473281535865
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -1098,38 +708,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Because the editor",
-                            "metric_value": {
-                                "sum": 18.63587774869336
-                            }
+                            "content": "Because the editor"
                         },
                         {
                             "region_number": 2,
-                            "content": "with higher standards than anyone",
-                            "metric_value": {
-                                "sum": 5.769665142239949
-                            }
+                            "content": "with higher standards than anyone"
                         },
                         {
                             "region_number": 3,
-                            "content": "liked the draft",
-                            "metric_value": {
-                                "sum": 19.557112545625003
-                            }
+                            "content": "liked the draft"
                         },
                         {
                             "region_number": 4,
-                            "content": "about the failed local politicians",
-                            "metric_value": {
-                                "sum": 3.999173246375399
-                            }
+                            "content": "about the failed local politicians"
                         },
                         {
                             "region_number": 5,
-                            "content": ", he published it the next month .",
-                            "metric_value": {
-                                "sum": 13.100090995656291
-                            }
+                            "content": ", he published it the next month ."
                         }
                     ]
                 },
@@ -1138,38 +733,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The editor",
-                            "metric_value": {
-                                "sum": 5.421849709135488
-                            }
+                            "content": "The editor"
                         },
                         {
                             "region_number": 2,
-                            "content": "with higher standards than anyone",
-                            "metric_value": {
-                                "sum": 18.552222495131204
-                            }
+                            "content": "with higher standards than anyone"
                         },
                         {
                             "region_number": 3,
-                            "content": "liked the draft",
-                            "metric_value": {
-                                "sum": 18.98258298518929
-                            }
+                            "content": "liked the draft"
                         },
                         {
                             "region_number": 4,
-                            "content": "about the failed local politicians",
-                            "metric_value": {
-                                "sum": 19.150401069794622
-                            }
+                            "content": "about the failed local politicians"
                         },
                         {
                             "region_number": 5,
-                            "content": ", he published it the next month .",
-                            "metric_value": {
-                                "sum": 8.449144681798442
-                            }
+                            "content": ", he published it the next month ."
                         }
                     ]
                 }
@@ -1183,38 +763,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Since the nurse",
-                            "metric_value": {
-                                "sum": 6.134268741746103
-                            }
+                            "content": "Since the nurse"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the neighboring hospital down the street",
-                            "metric_value": {
-                                "sum": 19.11517727689364
-                            }
+                            "content": "from the neighboring hospital down the street"
                         },
                         {
                             "region_number": 3,
-                            "content": "lost her documents",
-                            "metric_value": {
-                                "sum": 9.586434429033917
-                            }
+                            "content": "lost her documents"
                         },
                         {
                             "region_number": 4,
-                            "content": "from the expensive jewelry store down the street",
-                            "metric_value": {
-                                "sum": 9.89540820516338
-                            }
+                            "content": "from the expensive jewelry store down the street"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 14.415094138133849
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -1223,38 +788,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The nurse",
-                            "metric_value": {
-                                "sum": 5.729026896700169
-                            }
+                            "content": "The nurse"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the neighboring hospital down the street",
-                            "metric_value": {
-                                "sum": 2.7261739071945814
-                            }
+                            "content": "from the neighboring hospital down the street"
                         },
                         {
                             "region_number": 3,
-                            "content": "lost her documents",
-                            "metric_value": {
-                                "sum": 16.627727880021816
-                            }
+                            "content": "lost her documents"
                         },
                         {
                             "region_number": 4,
-                            "content": "from the expensive jewelry store down the street",
-                            "metric_value": {
-                                "sum": 14.508508325921103
-                            }
+                            "content": "from the expensive jewelry store down the street"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 11.590041165989312
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -1263,38 +813,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Since the nurse",
-                            "metric_value": {
-                                "sum": 6.61382475963497
-                            }
+                            "content": "Since the nurse"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the neighboring hospital down the street",
-                            "metric_value": {
-                                "sum": 12.718278997770007
-                            }
+                            "content": "from the neighboring hospital down the street"
                         },
                         {
                             "region_number": 3,
-                            "content": "lost her documents",
-                            "metric_value": {
-                                "sum": 5.66044897038237
-                            }
+                            "content": "lost her documents"
                         },
                         {
                             "region_number": 4,
-                            "content": "from the expensive jewelry store down the street",
-                            "metric_value": {
-                                "sum": 1.5932343384295249
-                            }
+                            "content": "from the expensive jewelry store down the street"
                         },
                         {
                             "region_number": 5,
-                            "content": ", she administered the wrong medicine .",
-                            "metric_value": {
-                                "sum": 1.0452327615350112
-                            }
+                            "content": ", she administered the wrong medicine ."
                         }
                     ]
                 },
@@ -1303,38 +838,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The nurse",
-                            "metric_value": {
-                                "sum": 8.331983232950776
-                            }
+                            "content": "The nurse"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the neighboring hospital down the street",
-                            "metric_value": {
-                                "sum": 1.8538612715363083
-                            }
+                            "content": "from the neighboring hospital down the street"
                         },
                         {
                             "region_number": 3,
-                            "content": "lost her documents",
-                            "metric_value": {
-                                "sum": 5.251297953313598
-                            }
+                            "content": "lost her documents"
                         },
                         {
                             "region_number": 4,
-                            "content": "from the expensive jewelry store down the street",
-                            "metric_value": {
-                                "sum": 13.876644902941587
-                            }
+                            "content": "from the expensive jewelry store down the street"
                         },
                         {
                             "region_number": 5,
-                            "content": ", she administered the wrong medicine .",
-                            "metric_value": {
-                                "sum": 18.914697577562883
-                            }
+                            "content": ", she administered the wrong medicine ."
                         }
                     ]
                 }
@@ -1348,38 +868,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Because the scientist",
-                            "metric_value": {
-                                "sum": 12.848930876957635
-                            }
+                            "content": "Because the scientist"
                         },
                         {
                             "region_number": 2,
-                            "content": "in blue pants and gloves",
-                            "metric_value": {
-                                "sum": 10.44203188624705
-                            }
+                            "content": "in blue pants and gloves"
                         },
                         {
                             "region_number": 3,
-                            "content": "broke the computer",
-                            "metric_value": {
-                                "sum": 2.8816149151874506
-                            }
+                            "content": "broke the computer"
                         },
                         {
                             "region_number": 4,
-                            "content": "in the basement of the office building",
-                            "metric_value": {
-                                "sum": 7.282068782879398
-                            }
+                            "content": "in the basement of the office building"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 5.226317686142823
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -1388,38 +893,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The scientist",
-                            "metric_value": {
-                                "sum": 2.86916023620884
-                            }
+                            "content": "The scientist"
                         },
                         {
                             "region_number": 2,
-                            "content": "in blue pants and gloves",
-                            "metric_value": {
-                                "sum": 8.790867703384745
-                            }
+                            "content": "in blue pants and gloves"
                         },
                         {
                             "region_number": 3,
-                            "content": "broke the computer",
-                            "metric_value": {
-                                "sum": 7.511749519243072
-                            }
+                            "content": "broke the computer"
                         },
                         {
                             "region_number": 4,
-                            "content": "in the basement of the office building",
-                            "metric_value": {
-                                "sum": 1.9899931432001021
-                            }
+                            "content": "in the basement of the office building"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 13.840213640869884
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -1428,38 +918,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Because the scientist",
-                            "metric_value": {
-                                "sum": 9.221858919343907
-                            }
+                            "content": "Because the scientist"
                         },
                         {
                             "region_number": 2,
-                            "content": "in blue pants and gloves",
-                            "metric_value": {
-                                "sum": 15.820505779703147
-                            }
+                            "content": "in blue pants and gloves"
                         },
                         {
                             "region_number": 3,
-                            "content": "broke the computer",
-                            "metric_value": {
-                                "sum": 6.439842304485757
-                            }
+                            "content": "broke the computer"
                         },
                         {
                             "region_number": 4,
-                            "content": "in the basement of the office building",
-                            "metric_value": {
-                                "sum": 3.8855679411668724
-                            }
+                            "content": "in the basement of the office building"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the administrator wrote everything by hand .",
-                            "metric_value": {
-                                "sum": 2.1031750037199046
-                            }
+                            "content": ", the administrator wrote everything by hand ."
                         }
                     ]
                 },
@@ -1468,38 +943,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The scientist",
-                            "metric_value": {
-                                "sum": 5.1590002231936545
-                            }
+                            "content": "The scientist"
                         },
                         {
                             "region_number": 2,
-                            "content": "in blue pants and gloves",
-                            "metric_value": {
-                                "sum": 18.962589076278242
-                            }
+                            "content": "in blue pants and gloves"
                         },
                         {
                             "region_number": 3,
-                            "content": "broke the computer",
-                            "metric_value": {
-                                "sum": 7.429967734756007
-                            }
+                            "content": "broke the computer"
                         },
                         {
                             "region_number": 4,
-                            "content": "in the basement of the office building",
-                            "metric_value": {
-                                "sum": 7.084768086000762
-                            }
+                            "content": "in the basement of the office building"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the administrator wrote everything by hand .",
-                            "metric_value": {
-                                "sum": 16.102231399550412
-                            }
+                            "content": ", the administrator wrote everything by hand ."
                         }
                     ]
                 }
@@ -1513,38 +973,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "After the minister",
-                            "metric_value": {
-                                "sum": 18.781389391047547
-                            }
+                            "content": "After the minister"
                         },
                         {
                             "region_number": 2,
-                            "content": "in the dark suit and white tie",
-                            "metric_value": {
-                                "sum": 16.83570287193571
-                            }
+                            "content": "in the dark suit and white tie"
                         },
                         {
                             "region_number": 3,
-                            "content": "praised the new building",
-                            "metric_value": {
-                                "sum": 12.727028688581019
-                            }
+                            "content": "praised the new building"
                         },
                         {
                             "region_number": 4,
-                            "content": "on the town 's main square",
-                            "metric_value": {
-                                "sum": 15.966194441569865
-                            }
+                            "content": "on the town 's main square"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 5.874356862863561
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -1553,38 +998,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The minister",
-                            "metric_value": {
-                                "sum": 2.5501881117090535
-                            }
+                            "content": "The minister"
                         },
                         {
                             "region_number": 2,
-                            "content": "in the dark suit and white tie",
-                            "metric_value": {
-                                "sum": 3.5676519000693063
-                            }
+                            "content": "in the dark suit and white tie"
                         },
                         {
                             "region_number": 3,
-                            "content": "praised the new building",
-                            "metric_value": {
-                                "sum": 16.0971667273662
-                            }
+                            "content": "praised the new building"
                         },
                         {
                             "region_number": 4,
-                            "content": "on the town 's main square",
-                            "metric_value": {
-                                "sum": 14.380396162996131
-                            }
+                            "content": "on the town 's main square"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 16.308084371199897
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -1593,38 +1023,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "After the minister",
-                            "metric_value": {
-                                "sum": 5.9716949586897226
-                            }
+                            "content": "After the minister"
                         },
                         {
                             "region_number": 2,
-                            "content": "in the dark suit and white tie",
-                            "metric_value": {
-                                "sum": 12.159413294683604
-                            }
+                            "content": "in the dark suit and white tie"
                         },
                         {
                             "region_number": 3,
-                            "content": "praised the new building",
-                            "metric_value": {
-                                "sum": 15.186382903985765
-                            }
+                            "content": "praised the new building"
                         },
                         {
                             "region_number": 4,
-                            "content": "on the town 's main square",
-                            "metric_value": {
-                                "sum": 5.788047263702238
-                            }
+                            "content": "on the town 's main square"
                         },
                         {
                             "region_number": 5,
-                            "content": ", it started to rain .",
-                            "metric_value": {
-                                "sum": 11.617085904798415
-                            }
+                            "content": ", it started to rain ."
                         }
                     ]
                 },
@@ -1633,38 +1048,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The minister",
-                            "metric_value": {
-                                "sum": 19.294825459737677
-                            }
+                            "content": "The minister"
                         },
                         {
                             "region_number": 2,
-                            "content": "in the dark suit and white tie",
-                            "metric_value": {
-                                "sum": 13.786599846342352
-                            }
+                            "content": "in the dark suit and white tie"
                         },
                         {
                             "region_number": 3,
-                            "content": "praised the new building",
-                            "metric_value": {
-                                "sum": 4.248489552078946
-                            }
+                            "content": "praised the new building"
                         },
                         {
                             "region_number": 4,
-                            "content": "on the town 's main square",
-                            "metric_value": {
-                                "sum": 15.2678322635181
-                            }
+                            "content": "on the town 's main square"
                         },
                         {
                             "region_number": 5,
-                            "content": ", it started to rain .",
-                            "metric_value": {
-                                "sum": 1.9556369110417768
-                            }
+                            "content": ", it started to rain ."
                         }
                     ]
                 }
@@ -1678,38 +1078,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Because the architect",
-                            "metric_value": {
-                                "sum": 5.624873174463035
-                            }
+                            "content": "Because the architect"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the rival firm across town",
-                            "metric_value": {
-                                "sum": 16.830208288910264
-                            }
+                            "content": "from the rival firm across town"
                         },
                         {
                             "region_number": 3,
-                            "content": "read the plans",
-                            "metric_value": {
-                                "sum": 19.638251597791967
-                            }
+                            "content": "read the plans"
                         },
                         {
                             "region_number": 4,
-                            "content": "from the local housing authority",
-                            "metric_value": {
-                                "sum": 8.272350400216947
-                            }
+                            "content": "from the local housing authority"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 16.522806324804698
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -1718,38 +1103,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The architect",
-                            "metric_value": {
-                                "sum": 4.581113292389766
-                            }
+                            "content": "The architect"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the rival firm across town",
-                            "metric_value": {
-                                "sum": 11.272089843045578
-                            }
+                            "content": "from the rival firm across town"
                         },
                         {
                             "region_number": 3,
-                            "content": "read the plans",
-                            "metric_value": {
-                                "sum": 4.610029136588871
-                            }
+                            "content": "read the plans"
                         },
                         {
                             "region_number": 4,
-                            "content": "from the local housing authority",
-                            "metric_value": {
-                                "sum": 18.415390038616923
-                            }
+                            "content": "from the local housing authority"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 13.242341757705656
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -1758,38 +1128,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Because the architect",
-                            "metric_value": {
-                                "sum": 9.985287900543565
-                            }
+                            "content": "Because the architect"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the rival firm across town",
-                            "metric_value": {
-                                "sum": 11.597961160158947
-                            }
+                            "content": "from the rival firm across town"
                         },
                         {
                             "region_number": 3,
-                            "content": "read the plans",
-                            "metric_value": {
-                                "sum": 17.412502446955923
-                            }
+                            "content": "read the plans"
                         },
                         {
                             "region_number": 4,
-                            "content": "from the local housing authority",
-                            "metric_value": {
-                                "sum": 14.277887067504091
-                            }
+                            "content": "from the local housing authority"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the house was built correctly .",
-                            "metric_value": {
-                                "sum": 10.621247840514652
-                            }
+                            "content": ", the house was built correctly ."
                         }
                     ]
                 },
@@ -1798,38 +1153,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The architect",
-                            "metric_value": {
-                                "sum": 10.015692571800608
-                            }
+                            "content": "The architect"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the rival firm across town",
-                            "metric_value": {
-                                "sum": 1.4025311473055413
-                            }
+                            "content": "from the rival firm across town"
                         },
                         {
                             "region_number": 3,
-                            "content": "read the plans",
-                            "metric_value": {
-                                "sum": 17.35283171074124
-                            }
+                            "content": "read the plans"
                         },
                         {
                             "region_number": 4,
-                            "content": "from the local housing authority",
-                            "metric_value": {
-                                "sum": 8.056765852055925
-                            }
+                            "content": "from the local housing authority"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the house was built correctly .",
-                            "metric_value": {
-                                "sum": 1.387314115835247
-                            }
+                            "content": ", the house was built correctly ."
                         }
                     ]
                 }
@@ -1843,38 +1183,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Before the actor",
-                            "metric_value": {
-                                "sum": 17.157752825718052
-                            }
+                            "content": "Before the actor"
                         },
                         {
                             "region_number": 2,
-                            "content": "with the loud singing voice",
-                            "metric_value": {
-                                "sum": 8.01273855587208
-                            }
+                            "content": "with the loud singing voice"
                         },
                         {
                             "region_number": 3,
-                            "content": "delivered the speech",
-                            "metric_value": {
-                                "sum": 16.808044511540494
-                            }
+                            "content": "delivered the speech"
                         },
                         {
                             "region_number": 4,
-                            "content": "on the true meaning of life",
-                            "metric_value": {
-                                "sum": 14.584414459153384
-                            }
+                            "content": "on the true meaning of life"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 9.961426398896753
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -1883,38 +1208,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The actor",
-                            "metric_value": {
-                                "sum": 13.320259925500764
-                            }
+                            "content": "The actor"
                         },
                         {
                             "region_number": 2,
-                            "content": "with the loud singing voice",
-                            "metric_value": {
-                                "sum": 17.838290930127616
-                            }
+                            "content": "with the loud singing voice"
                         },
                         {
                             "region_number": 3,
-                            "content": "delivered the speech",
-                            "metric_value": {
-                                "sum": 15.797333365250743
-                            }
+                            "content": "delivered the speech"
                         },
                         {
                             "region_number": 4,
-                            "content": "on the true meaning of life",
-                            "metric_value": {
-                                "sum": 9.384565467621673
-                            }
+                            "content": "on the true meaning of life"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 3.433385315276661
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -1923,38 +1233,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Before the actor",
-                            "metric_value": {
-                                "sum": 6.717982707424836
-                            }
+                            "content": "Before the actor"
                         },
                         {
                             "region_number": 2,
-                            "content": "with the loud singing voice",
-                            "metric_value": {
-                                "sum": 16.640881447851612
-                            }
+                            "content": "with the loud singing voice"
                         },
                         {
                             "region_number": 3,
-                            "content": "delivered the speech",
-                            "metric_value": {
-                                "sum": 1.2140956326992836
-                            }
+                            "content": "delivered the speech"
                         },
                         {
                             "region_number": 4,
-                            "content": "on the true meaning of life",
-                            "metric_value": {
-                                "sum": 6.227191815418801
-                            }
+                            "content": "on the true meaning of life"
                         },
                         {
                             "region_number": 5,
-                            "content": ", she took a deep breath .",
-                            "metric_value": {
-                                "sum": 18.478449973127056
-                            }
+                            "content": ", she took a deep breath ."
                         }
                     ]
                 },
@@ -1963,38 +1258,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The actor",
-                            "metric_value": {
-                                "sum": 6.561063758207197
-                            }
+                            "content": "The actor"
                         },
                         {
                             "region_number": 2,
-                            "content": "with the loud singing voice",
-                            "metric_value": {
-                                "sum": 12.043532782985384
-                            }
+                            "content": "with the loud singing voice"
                         },
                         {
                             "region_number": 3,
-                            "content": "delivered the speech",
-                            "metric_value": {
-                                "sum": 17.75648623861615
-                            }
+                            "content": "delivered the speech"
                         },
                         {
                             "region_number": 4,
-                            "content": "on the true meaning of life",
-                            "metric_value": {
-                                "sum": 1.5959962051438619
-                            }
+                            "content": "on the true meaning of life"
                         },
                         {
                             "region_number": 5,
-                            "content": ", she took a deep breath .",
-                            "metric_value": {
-                                "sum": 18.02996903309964
-                            }
+                            "content": ", she took a deep breath ."
                         }
                     ]
                 }
@@ -2008,38 +1288,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "While the pianist",
-                            "metric_value": {
-                                "sum": 17.939908853764823
-                            }
+                            "content": "While the pianist"
                         },
                         {
                             "region_number": 2,
-                            "content": "with the long fingers",
-                            "metric_value": {
-                                "sum": 8.574211946419194
-                            }
+                            "content": "with the long fingers"
                         },
                         {
                             "region_number": 3,
-                            "content": "practiced the music",
-                            "metric_value": {
-                                "sum": 18.156600948566577
-                            }
+                            "content": "practiced the music"
                         },
                         {
                             "region_number": 4,
-                            "content": "with a difficult time signature",
-                            "metric_value": {
-                                "sum": 17.01853850697401
-                            }
+                            "content": "with a difficult time signature"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 11.361546121046095
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -2048,38 +1313,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The pianist",
-                            "metric_value": {
-                                "sum": 14.652332133911862
-                            }
+                            "content": "The pianist"
                         },
                         {
                             "region_number": 2,
-                            "content": "with the long fingers",
-                            "metric_value": {
-                                "sum": 17.953758647845458
-                            }
+                            "content": "with the long fingers"
                         },
                         {
                             "region_number": 3,
-                            "content": "practiced the music",
-                            "metric_value": {
-                                "sum": 6.886829870438226
-                            }
+                            "content": "practiced the music"
                         },
                         {
                             "region_number": 4,
-                            "content": "with a difficult time signature",
-                            "metric_value": {
-                                "sum": 16.673804821440747
-                            }
+                            "content": "with a difficult time signature"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 6.339057227128591
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -2088,38 +1338,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "While the pianist",
-                            "metric_value": {
-                                "sum": 3.3823391027418244
-                            }
+                            "content": "While the pianist"
                         },
                         {
                             "region_number": 2,
-                            "content": "with the long fingers",
-                            "metric_value": {
-                                "sum": 11.459902853644772
-                            }
+                            "content": "with the long fingers"
                         },
                         {
                             "region_number": 3,
-                            "content": "practiced the music",
-                            "metric_value": {
-                                "sum": 10.586002536757617
-                            }
+                            "content": "practiced the music"
                         },
                         {
                             "region_number": 4,
-                            "content": "with a difficult time signature",
-                            "metric_value": {
-                                "sum": 10.462124242178659
-                            }
+                            "content": "with a difficult time signature"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the conductor stretched his arms .",
-                            "metric_value": {
-                                "sum": 14.291668201375067
-                            }
+                            "content": ", the conductor stretched his arms ."
                         }
                     ]
                 },
@@ -2128,38 +1363,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The pianist",
-                            "metric_value": {
-                                "sum": 6.173589275057848
-                            }
+                            "content": "The pianist"
                         },
                         {
                             "region_number": 2,
-                            "content": "with the long fingers",
-                            "metric_value": {
-                                "sum": 9.861743475085655
-                            }
+                            "content": "with the long fingers"
                         },
                         {
                             "region_number": 3,
-                            "content": "practiced the music",
-                            "metric_value": {
-                                "sum": 11.871045791246866
-                            }
+                            "content": "practiced the music"
                         },
                         {
                             "region_number": 4,
-                            "content": "with a difficult time signature",
-                            "metric_value": {
-                                "sum": 13.636715037973138
-                            }
+                            "content": "with a difficult time signature"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the conductor stretched his arms .",
-                            "metric_value": {
-                                "sum": 8.640942596074968
-                            }
+                            "content": ", the conductor stretched his arms ."
                         }
                     ]
                 }
@@ -2173,38 +1393,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Although the students",
-                            "metric_value": {
-                                "sum": 17.690813138004877
-                            }
+                            "content": "Although the students"
                         },
                         {
                             "region_number": 2,
-                            "content": "in the third year class",
-                            "metric_value": {
-                                "sum": 1.1596007980992715
-                            }
+                            "content": "in the third year class"
                         },
                         {
                             "region_number": 3,
-                            "content": "enjoyed the novel",
-                            "metric_value": {
-                                "sum": 14.079673483268536
-                            }
+                            "content": "enjoyed the novel"
                         },
                         {
                             "region_number": 4,
-                            "content": "about life during the civil war",
-                            "metric_value": {
-                                "sum": 12.60627144601158
-                            }
+                            "content": "about life during the civil war"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 9.586710764969975
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -2213,38 +1418,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The students",
-                            "metric_value": {
-                                "sum": 17.85531347642053
-                            }
+                            "content": "The students"
                         },
                         {
                             "region_number": 2,
-                            "content": "in the third year class",
-                            "metric_value": {
-                                "sum": 10.620535808467539
-                            }
+                            "content": "in the third year class"
                         },
                         {
                             "region_number": 3,
-                            "content": "enjoyed the novel",
-                            "metric_value": {
-                                "sum": 7.6860059695126735
-                            }
+                            "content": "enjoyed the novel"
                         },
                         {
                             "region_number": 4,
-                            "content": "about life during the civil war",
-                            "metric_value": {
-                                "sum": 1.467354212626683
-                            }
+                            "content": "about life during the civil war"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 11.346941307913655
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -2253,38 +1443,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Although the students",
-                            "metric_value": {
-                                "sum": 15.137519895566298
-                            }
+                            "content": "Although the students"
                         },
                         {
                             "region_number": 2,
-                            "content": "in the third year class",
-                            "metric_value": {
-                                "sum": 2.6040355270896294
-                            }
+                            "content": "in the third year class"
                         },
                         {
                             "region_number": 3,
-                            "content": "enjoyed the novel",
-                            "metric_value": {
-                                "sum": 18.042569670634563
-                            }
+                            "content": "enjoyed the novel"
                         },
                         {
                             "region_number": 4,
-                            "content": "about life during the civil war",
-                            "metric_value": {
-                                "sum": 7.618187620878358
-                            }
+                            "content": "about life during the civil war"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the teacher considered it poorly written .",
-                            "metric_value": {
-                                "sum": 7.639878675500025
-                            }
+                            "content": ", the teacher considered it poorly written ."
                         }
                     ]
                 },
@@ -2293,38 +1468,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The students",
-                            "metric_value": {
-                                "sum": 9.437894287098686
-                            }
+                            "content": "The students"
                         },
                         {
                             "region_number": 2,
-                            "content": "in the third year class",
-                            "metric_value": {
-                                "sum": 8.306330467859283
-                            }
+                            "content": "in the third year class"
                         },
                         {
                             "region_number": 3,
-                            "content": "enjoyed the novel",
-                            "metric_value": {
-                                "sum": 3.4222192961161806
-                            }
+                            "content": "enjoyed the novel"
                         },
                         {
                             "region_number": 4,
-                            "content": "about life during the civil war",
-                            "metric_value": {
-                                "sum": 6.0878810206179725
-                            }
+                            "content": "about life during the civil war"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the teacher considered it poorly written .",
-                            "metric_value": {
-                                "sum": 3.053729391267304
-                            }
+                            "content": ", the teacher considered it poorly written ."
                         }
                     ]
                 }
@@ -2338,38 +1498,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "While the maid",
-                            "metric_value": {
-                                "sum": 6.165438626719452
-                            }
+                            "content": "While the maid"
                         },
                         {
                             "region_number": 2,
-                            "content": "with an abrasive and negative attitude",
-                            "metric_value": {
-                                "sum": 4.4428930064423655
-                            }
+                            "content": "with an abrasive and negative attitude"
                         },
                         {
                             "region_number": 3,
-                            "content": "read the magazine",
-                            "metric_value": {
-                                "sum": 13.019689720659116
-                            }
+                            "content": "read the magazine"
                         },
                         {
                             "region_number": 4,
-                            "content": "on home repair and backyard maintenance",
-                            "metric_value": {
-                                "sum": 11.521947321718873
-                            }
+                            "content": "on home repair and backyard maintenance"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 3.0082568740083193
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -2378,38 +1523,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The maid",
-                            "metric_value": {
-                                "sum": 11.462022306224346
-                            }
+                            "content": "The maid"
                         },
                         {
                             "region_number": 2,
-                            "content": "with an abrasive and negative attitude",
-                            "metric_value": {
-                                "sum": 14.536513623855019
-                            }
+                            "content": "with an abrasive and negative attitude"
                         },
                         {
                             "region_number": 3,
-                            "content": "read the magazine",
-                            "metric_value": {
-                                "sum": 19.59567280513425
-                            }
+                            "content": "read the magazine"
                         },
                         {
                             "region_number": 4,
-                            "content": "on home repair and backyard maintenance",
-                            "metric_value": {
-                                "sum": 6.91953909398924
-                            }
+                            "content": "on home repair and backyard maintenance"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 15.740444294458195
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -2418,38 +1548,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "While the maid",
-                            "metric_value": {
-                                "sum": 16.768858292797518
-                            }
+                            "content": "While the maid"
                         },
                         {
                             "region_number": 2,
-                            "content": "with an abrasive and negative attitude",
-                            "metric_value": {
-                                "sum": 9.919061777056346
-                            }
+                            "content": "with an abrasive and negative attitude"
                         },
                         {
                             "region_number": 3,
-                            "content": "read the magazine",
-                            "metric_value": {
-                                "sum": 9.3515927033609
-                            }
+                            "content": "read the magazine"
                         },
                         {
                             "region_number": 4,
-                            "content": "on home repair and backyard maintenance",
-                            "metric_value": {
-                                "sum": 2.644383062102564
-                            }
+                            "content": "on home repair and backyard maintenance"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the customer waited at her table .",
-                            "metric_value": {
-                                "sum": 11.49514456184464
-                            }
+                            "content": ", the customer waited at her table ."
                         }
                     ]
                 },
@@ -2458,38 +1573,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The maid",
-                            "metric_value": {
-                                "sum": 18.58265773326229
-                            }
+                            "content": "The maid"
                         },
                         {
                             "region_number": 2,
-                            "content": "with an abrasive and negative attitude",
-                            "metric_value": {
-                                "sum": 15.846083409172579
-                            }
+                            "content": "with an abrasive and negative attitude"
                         },
                         {
                             "region_number": 3,
-                            "content": "read the magazine",
-                            "metric_value": {
-                                "sum": 18.05741705540985
-                            }
+                            "content": "read the magazine"
                         },
                         {
                             "region_number": 4,
-                            "content": "on home repair and backyard maintenance",
-                            "metric_value": {
-                                "sum": 10.134471752587054
-                            }
+                            "content": "on home repair and backyard maintenance"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the customer waited at her table .",
-                            "metric_value": {
-                                "sum": 16.301776070824197
-                            }
+                            "content": ", the customer waited at her table ."
                         }
                     ]
                 }
@@ -2503,38 +1603,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Before the assistant",
-                            "metric_value": {
-                                "sum": 2.3026027141696175
-                            }
+                            "content": "Before the assistant"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the crowded office down the hall ",
-                            "metric_value": {
-                                "sum": 14.032923127899153
-                            }
+                            "content": "from the crowded office down the hall "
                         },
                         {
                             "region_number": 3,
-                            "content": "wrote the letter",
-                            "metric_value": {
-                                "sum": 2.9949494601798925
-                            }
+                            "content": "wrote the letter"
                         },
                         {
                             "region_number": 4,
-                            "content": "about potential corruption and bribery",
-                            "metric_value": {
-                                "sum": 9.214363006310665
-                            }
+                            "content": "about potential corruption and bribery"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 9.55852783204441
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -2543,38 +1628,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The assistant",
-                            "metric_value": {
-                                "sum": 9.094112800888926
-                            }
+                            "content": "The assistant"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the crowded office down the hall ",
-                            "metric_value": {
-                                "sum": 17.42341734536887
-                            }
+                            "content": "from the crowded office down the hall "
                         },
                         {
                             "region_number": 3,
-                            "content": "wrote the letter",
-                            "metric_value": {
-                                "sum": 13.05497487732325
-                            }
+                            "content": "wrote the letter"
                         },
                         {
                             "region_number": 4,
-                            "content": "about potential corruption and bribery",
-                            "metric_value": {
-                                "sum": 19.492100715862748
-                            }
+                            "content": "about potential corruption and bribery"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 14.821911145061135
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -2583,38 +1653,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Before the assistant",
-                            "metric_value": {
-                                "sum": 4.114052755833022
-                            }
+                            "content": "Before the assistant"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the crowded office down the hall ",
-                            "metric_value": {
-                                "sum": 8.695331002700051
-                            }
+                            "content": "from the crowded office down the hall "
                         },
                         {
                             "region_number": 3,
-                            "content": "wrote the letter",
-                            "metric_value": {
-                                "sum": 16.06144371059018
-                            }
+                            "content": "wrote the letter"
                         },
                         {
                             "region_number": 4,
-                            "content": "about potential corruption and bribery",
-                            "metric_value": {
-                                "sum": 1.18787094551763
-                            }
+                            "content": "about potential corruption and bribery"
                         },
                         {
                             "region_number": 5,
-                            "content": ", she had a cup of coffee .",
-                            "metric_value": {
-                                "sum": 9.612444777786363
-                            }
+                            "content": ", she had a cup of coffee ."
                         }
                     ]
                 },
@@ -2623,38 +1678,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The assistant",
-                            "metric_value": {
-                                "sum": 16.864217951625076
-                            }
+                            "content": "The assistant"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the crowded office down the hall ",
-                            "metric_value": {
-                                "sum": 4.005957810196157
-                            }
+                            "content": "from the crowded office down the hall "
                         },
                         {
                             "region_number": 3,
-                            "content": "wrote the letter",
-                            "metric_value": {
-                                "sum": 1.6628276574699827
-                            }
+                            "content": "wrote the letter"
                         },
                         {
                             "region_number": 4,
-                            "content": "about potential corruption and bribery",
-                            "metric_value": {
-                                "sum": 17.933348709741153
-                            }
+                            "content": "about potential corruption and bribery"
                         },
                         {
                             "region_number": 5,
-                            "content": ", she had a cup of coffee .",
-                            "metric_value": {
-                                "sum": 5.72157388312092
-                            }
+                            "content": ", she had a cup of coffee ."
                         }
                     ]
                 }
@@ -2668,38 +1708,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "After the diplomat",
-                            "metric_value": {
-                                "sum": 15.215865057971914
-                            }
+                            "content": "After the diplomat"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the friendly country in Africa",
-                            "metric_value": {
-                                "sum": 4.987514331267847
-                            }
+                            "content": "from the friendly country in Africa"
                         },
                         {
                             "region_number": 3,
-                            "content": "presented the file",
-                            "metric_value": {
-                                "sum": 3.4963456659678434
-                            }
+                            "content": "presented the file"
                         },
                         {
                             "region_number": 4,
-                            "content": "on international peace and cooperation",
-                            "metric_value": {
-                                "sum": 15.761108224637434
-                            }
+                            "content": "on international peace and cooperation"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 13.01500635431365
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -2708,38 +1733,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The diplomat",
-                            "metric_value": {
-                                "sum": 18.500037608735617
-                            }
+                            "content": "The diplomat"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the friendly country in Africa",
-                            "metric_value": {
-                                "sum": 7.587457542917122
-                            }
+                            "content": "from the friendly country in Africa"
                         },
                         {
                             "region_number": 3,
-                            "content": "presented the file",
-                            "metric_value": {
-                                "sum": 4.136052496144069
-                            }
+                            "content": "presented the file"
                         },
                         {
                             "region_number": 4,
-                            "content": "on international peace and cooperation",
-                            "metric_value": {
-                                "sum": 5.955191230784731
-                            }
+                            "content": "on international peace and cooperation"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 12.248378477560037
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -2748,38 +1758,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "After the diplomat",
-                            "metric_value": {
-                                "sum": 10.717891085345853
-                            }
+                            "content": "After the diplomat"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the friendly country in Africa",
-                            "metric_value": {
-                                "sum": 12.8091555780545
-                            }
+                            "content": "from the friendly country in Africa"
                         },
                         {
                             "region_number": 3,
-                            "content": "presented the file",
-                            "metric_value": {
-                                "sum": 17.430687520702055
-                            }
+                            "content": "presented the file"
                         },
                         {
                             "region_number": 4,
-                            "content": "on international peace and cooperation",
-                            "metric_value": {
-                                "sum": 1.768694394039629
-                            }
+                            "content": "on international peace and cooperation"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the ambassador gave a speech .",
-                            "metric_value": {
-                                "sum": 17.894112693965788
-                            }
+                            "content": ", the ambassador gave a speech ."
                         }
                     ]
                 },
@@ -2788,38 +1783,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The diplomat",
-                            "metric_value": {
-                                "sum": 19.557279180776263
-                            }
+                            "content": "The diplomat"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the friendly country in Africa",
-                            "metric_value": {
-                                "sum": 6.436546415446305
-                            }
+                            "content": "from the friendly country in Africa"
                         },
                         {
                             "region_number": 3,
-                            "content": "presented the file",
-                            "metric_value": {
-                                "sum": 1.4289525681871367
-                            }
+                            "content": "presented the file"
                         },
                         {
                             "region_number": 4,
-                            "content": "on international peace and cooperation",
-                            "metric_value": {
-                                "sum": 11.518785088117031
-                            }
+                            "content": "on international peace and cooperation"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the ambassador gave a speech .",
-                            "metric_value": {
-                                "sum": 14.839170033232211
-                            }
+                            "content": ", the ambassador gave a speech ."
                         }
                     ]
                 }
@@ -2833,38 +1813,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "While the officials",
-                            "metric_value": {
-                                "sum": 17.714231788144065
-                            }
+                            "content": "While the officials"
                         },
                         {
                             "region_number": 2,
-                            "content": "in dark suits and bright ties",
-                            "metric_value": {
-                                "sum": 8.067341391149817
-                            }
+                            "content": "in dark suits and bright ties"
                         },
                         {
                             "region_number": 3,
-                            "content": "reviewed the contract",
-                            "metric_value": {
-                                "sum": 1.8237176122655248
-                            }
+                            "content": "reviewed the contract"
                         },
                         {
                             "region_number": 4,
-                            "content": "for increased salaries and bonuses",
-                            "metric_value": {
-                                "sum": 8.22971754202358
-                            }
+                            "content": "for increased salaries and bonuses"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 13.978197338109299
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -2873,38 +1838,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The officials",
-                            "metric_value": {
-                                "sum": 1.6784646189915289
-                            }
+                            "content": "The officials"
                         },
                         {
                             "region_number": 2,
-                            "content": "in dark suits and bright ties",
-                            "metric_value": {
-                                "sum": 8.065231108952762
-                            }
+                            "content": "in dark suits and bright ties"
                         },
                         {
                             "region_number": 3,
-                            "content": "reviewed the contract",
-                            "metric_value": {
-                                "sum": 19.45652370562353
-                            }
+                            "content": "reviewed the contract"
                         },
                         {
                             "region_number": 4,
-                            "content": "for increased salaries and bonuses",
-                            "metric_value": {
-                                "sum": 2.7906927061419804
-                            }
+                            "content": "for increased salaries and bonuses"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 1.034695674537855
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -2913,38 +1863,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "While the officials",
-                            "metric_value": {
-                                "sum": 18.355425981968455
-                            }
+                            "content": "While the officials"
                         },
                         {
                             "region_number": 2,
-                            "content": "in dark suits and bright ties",
-                            "metric_value": {
-                                "sum": 9.933340822031038
-                            }
+                            "content": "in dark suits and bright ties"
                         },
                         {
                             "region_number": 3,
-                            "content": "reviewed the contract",
-                            "metric_value": {
-                                "sum": 1.9548543569108832
-                            }
+                            "content": "reviewed the contract"
                         },
                         {
                             "region_number": 4,
-                            "content": "for increased salaries and bonuses",
-                            "metric_value": {
-                                "sum": 17.146860534175044
-                            }
+                            "content": "for increased salaries and bonuses"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the players waited nervously .",
-                            "metric_value": {
-                                "sum": 2.650522175032223
-                            }
+                            "content": ", the players waited nervously ."
                         }
                     ]
                 },
@@ -2953,38 +1888,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The officials",
-                            "metric_value": {
-                                "sum": 15.629657503099466
-                            }
+                            "content": "The officials"
                         },
                         {
                             "region_number": 2,
-                            "content": "in dark suits and bright ties",
-                            "metric_value": {
-                                "sum": 4.122335705272072
-                            }
+                            "content": "in dark suits and bright ties"
                         },
                         {
                             "region_number": 3,
-                            "content": "reviewed the contract",
-                            "metric_value": {
-                                "sum": 1.8638429859772776
-                            }
+                            "content": "reviewed the contract"
                         },
                         {
                             "region_number": 4,
-                            "content": "for increased salaries and bonuses",
-                            "metric_value": {
-                                "sum": 12.360868156556766
-                            }
+                            "content": "for increased salaries and bonuses"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the players waited nervously .",
-                            "metric_value": {
-                                "sum": 4.144577434905984
-                            }
+                            "content": ", the players waited nervously ."
                         }
                     ]
                 }
@@ -2998,38 +1918,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Because the clerk",
-                            "metric_value": {
-                                "sum": 1.8204021201893161
-                            }
+                            "content": "Because the clerk"
                         },
                         {
                             "region_number": 2,
-                            "content": "in the New England town ",
-                            "metric_value": {
-                                "sum": 6.997605471861547
-                            }
+                            "content": "in the New England town "
                         },
                         {
                             "region_number": 3,
-                            "content": "lost the plans",
-                            "metric_value": {
-                                "sum": 13.823817240193298
-                            }
+                            "content": "lost the plans"
                         },
                         {
                             "region_number": 4,
-                            "content": "for the broken water system",
-                            "metric_value": {
-                                "sum": 8.894753628246733
-                            }
+                            "content": "for the broken water system"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 5.7990839726122045
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -3038,38 +1943,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The clerk",
-                            "metric_value": {
-                                "sum": 12.566561017564483
-                            }
+                            "content": "The clerk"
                         },
                         {
                             "region_number": 2,
-                            "content": "in the New England town ",
-                            "metric_value": {
-                                "sum": 1.2170393086567244
-                            }
+                            "content": "in the New England town "
                         },
                         {
                             "region_number": 3,
-                            "content": "lost the plans",
-                            "metric_value": {
-                                "sum": 19.417074087399357
-                            }
+                            "content": "lost the plans"
                         },
                         {
                             "region_number": 4,
-                            "content": "for the broken water system",
-                            "metric_value": {
-                                "sum": 17.8329251429087
-                            }
+                            "content": "for the broken water system"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 8.683173388566543
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -3078,38 +1968,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Because the clerk",
-                            "metric_value": {
-                                "sum": 6.739525941854935
-                            }
+                            "content": "Because the clerk"
                         },
                         {
                             "region_number": 2,
-                            "content": "in the New England town ",
-                            "metric_value": {
-                                "sum": 7.9177324468662675
-                            }
+                            "content": "in the New England town "
                         },
                         {
                             "region_number": 3,
-                            "content": "lost the plans",
-                            "metric_value": {
-                                "sum": 19.013409718208685
-                            }
+                            "content": "lost the plans"
                         },
                         {
                             "region_number": 4,
-                            "content": "for the broken water system",
-                            "metric_value": {
-                                "sum": 10.982694735762056
-                            }
+                            "content": "for the broken water system"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the detective looked elsewhere .",
-                            "metric_value": {
-                                "sum": 6.199112933409742
-                            }
+                            "content": ", the detective looked elsewhere ."
                         }
                     ]
                 },
@@ -3118,38 +1993,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The clerk",
-                            "metric_value": {
-                                "sum": 13.398528047353155
-                            }
+                            "content": "The clerk"
                         },
                         {
                             "region_number": 2,
-                            "content": "in the New England town ",
-                            "metric_value": {
-                                "sum": 15.89526735193053
-                            }
+                            "content": "in the New England town "
                         },
                         {
                             "region_number": 3,
-                            "content": "lost the plans",
-                            "metric_value": {
-                                "sum": 14.410166805600873
-                            }
+                            "content": "lost the plans"
                         },
                         {
                             "region_number": 4,
-                            "content": "for the broken water system",
-                            "metric_value": {
-                                "sum": 1.9433063503242707
-                            }
+                            "content": "for the broken water system"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the detective looked elsewhere .",
-                            "metric_value": {
-                                "sum": 2.92756757932358
-                            }
+                            "content": ", the detective looked elsewhere ."
                         }
                     ]
                 }
@@ -3163,38 +2023,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "While the tourists",
-                            "metric_value": {
-                                "sum": 4.99899078969559
-                            }
+                            "content": "While the tourists"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the village far away",
-                            "metric_value": {
-                                "sum": 3.629290125336672
-                            }
+                            "content": "from the village far away"
                         },
                         {
                             "region_number": 3,
-                            "content": "read the guide",
-                            "metric_value": {
-                                "sum": 4.785066829098152
-                            }
+                            "content": "read the guide"
                         },
                         {
                             "region_number": 4,
-                            "content": "on local customs and religious practices",
-                            "metric_value": {
-                                "sum": 9.322885086594294
-                            }
+                            "content": "on local customs and religious practices"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 6.012384967356718
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -3203,38 +2048,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The tourists",
-                            "metric_value": {
-                                "sum": 2.4676327925855626
-                            }
+                            "content": "The tourists"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the village far away",
-                            "metric_value": {
-                                "sum": 2.2105577396856004
-                            }
+                            "content": "from the village far away"
                         },
                         {
                             "region_number": 3,
-                            "content": "read the guide",
-                            "metric_value": {
-                                "sum": 1.6770845237835939
-                            }
+                            "content": "read the guide"
                         },
                         {
                             "region_number": 4,
-                            "content": "on local customs and religious practices",
-                            "metric_value": {
-                                "sum": 10.072579737201966
-                            }
+                            "content": "on local customs and religious practices"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 11.550188500669071
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -3243,38 +2073,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "While the tourists",
-                            "metric_value": {
-                                "sum": 8.647854708893284
-                            }
+                            "content": "While the tourists"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the village far away",
-                            "metric_value": {
-                                "sum": 7.748633898363161
-                            }
+                            "content": "from the village far away"
                         },
                         {
                             "region_number": 3,
-                            "content": "read the guide",
-                            "metric_value": {
-                                "sum": 3.2295587875490575
-                            }
+                            "content": "read the guide"
                         },
                         {
                             "region_number": 4,
-                            "content": "on local customs and religious practices",
-                            "metric_value": {
-                                "sum": 13.302094801712022
-                            }
+                            "content": "on local customs and religious practices"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the children played in the sand .",
-                            "metric_value": {
-                                "sum": 17.672726717100964
-                            }
+                            "content": ", the children played in the sand ."
                         }
                     ]
                 },
@@ -3283,38 +2098,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The tourists",
-                            "metric_value": {
-                                "sum": 5.633358841877444
-                            }
+                            "content": "The tourists"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the village far away",
-                            "metric_value": {
-                                "sum": 5.388423320123002
-                            }
+                            "content": "from the village far away"
                         },
                         {
                             "region_number": 3,
-                            "content": "read the guide",
-                            "metric_value": {
-                                "sum": 18.5015687551108
-                            }
+                            "content": "read the guide"
                         },
                         {
                             "region_number": 4,
-                            "content": "on local customs and religious practices",
-                            "metric_value": {
-                                "sum": 14.255709494593837
-                            }
+                            "content": "on local customs and religious practices"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the children played in the sand .",
-                            "metric_value": {
-                                "sum": 2.495569863145844
-                            }
+                            "content": ", the children played in the sand ."
                         }
                     ]
                 }
@@ -3328,38 +2128,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "When the politicians",
-                            "metric_value": {
-                                "sum": 11.94643949323525
-                            }
+                            "content": "When the politicians"
                         },
                         {
                             "region_number": 2,
-                            "content": "with white hair expensive suits",
-                            "metric_value": {
-                                "sum": 17.074078126845414
-                            }
+                            "content": "with white hair expensive suits"
                         },
                         {
                             "region_number": 3,
-                            "content": "passed the new law",
-                            "metric_value": {
-                                "sum": 12.9047317309553
-                            }
+                            "content": "passed the new law"
                         },
                         {
                             "region_number": 4,
-                            "content": "on tax reform and student debt",
-                            "metric_value": {
-                                "sum": 5.680217751716282
-                            }
+                            "content": "on tax reform and student debt"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 3.3225059187443966
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -3368,38 +2153,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The politicians",
-                            "metric_value": {
-                                "sum": 10.99883712863721
-                            }
+                            "content": "The politicians"
                         },
                         {
                             "region_number": 2,
-                            "content": "with white hair expensive suits",
-                            "metric_value": {
-                                "sum": 14.405466300129811
-                            }
+                            "content": "with white hair expensive suits"
                         },
                         {
                             "region_number": 3,
-                            "content": "passed the new law",
-                            "metric_value": {
-                                "sum": 13.084920943503223
-                            }
+                            "content": "passed the new law"
                         },
                         {
                             "region_number": 4,
-                            "content": "on tax reform and student debt",
-                            "metric_value": {
-                                "sum": 10.248649931723946
-                            }
+                            "content": "on tax reform and student debt"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 8.039871331482743
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -3408,38 +2178,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "When the politicians",
-                            "metric_value": {
-                                "sum": 12.289880043518819
-                            }
+                            "content": "When the politicians"
                         },
                         {
                             "region_number": 2,
-                            "content": "with white hair expensive suits",
-                            "metric_value": {
-                                "sum": 5.805905475315027
-                            }
+                            "content": "with white hair expensive suits"
                         },
                         {
                             "region_number": 3,
-                            "content": "passed the new law",
-                            "metric_value": {
-                                "sum": 14.981782409331423
-                            }
+                            "content": "passed the new law"
                         },
                         {
                             "region_number": 4,
-                            "content": "on tax reform and student debt",
-                            "metric_value": {
-                                "sum": 18.869391528377513
-                            }
+                            "content": "on tax reform and student debt"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the protestors blocked traffic outside .",
-                            "metric_value": {
-                                "sum": 8.743878079423611
-                            }
+                            "content": ", the protestors blocked traffic outside ."
                         }
                     ]
                 },
@@ -3448,38 +2203,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The politicians",
-                            "metric_value": {
-                                "sum": 1.6553079951631622
-                            }
+                            "content": "The politicians"
                         },
                         {
                             "region_number": 2,
-                            "content": "with white hair expensive suits",
-                            "metric_value": {
-                                "sum": 15.497715678190584
-                            }
+                            "content": "with white hair expensive suits"
                         },
                         {
                             "region_number": 3,
-                            "content": "passed the new law",
-                            "metric_value": {
-                                "sum": 17.628327521393086
-                            }
+                            "content": "passed the new law"
                         },
                         {
                             "region_number": 4,
-                            "content": "on tax reform and student debt",
-                            "metric_value": {
-                                "sum": 1.9036503179060316
-                            }
+                            "content": "on tax reform and student debt"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the protestors blocked traffic outside .",
-                            "metric_value": {
-                                "sum": 19.500465907274293
-                            }
+                            "content": ", the protestors blocked traffic outside ."
                         }
                     ]
                 }
@@ -3493,38 +2233,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "When the police",
-                            "metric_value": {
-                                "sum": 11.599403344270666
-                            }
+                            "content": "When the police"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the small town in Alabama",
-                            "metric_value": {
-                                "sum": 7.3818351227080194
-                            }
+                            "content": "from the small town in Alabama"
                         },
                         {
                             "region_number": 3,
-                            "content": "found new evidence",
-                            "metric_value": {
-                                "sum": 9.058281694484082
-                            }
+                            "content": "found new evidence"
                         },
                         {
                             "region_number": 4,
-                            "content": "about the alleged art theft",
-                            "metric_value": {
-                                "sum": 18.962153379499686
-                            }
+                            "content": "about the alleged art theft"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 19.43506939903497
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -3533,38 +2258,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The police",
-                            "metric_value": {
-                                "sum": 8.049673023811112
-                            }
+                            "content": "The police"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the small town in Alabama",
-                            "metric_value": {
-                                "sum": 14.19457998113816
-                            }
+                            "content": "from the small town in Alabama"
                         },
                         {
                             "region_number": 3,
-                            "content": "found new evidence",
-                            "metric_value": {
-                                "sum": 18.87155687225664
-                            }
+                            "content": "found new evidence"
                         },
                         {
                             "region_number": 4,
-                            "content": "about the alleged art theft",
-                            "metric_value": {
-                                "sum": 16.803711392277823
-                            }
+                            "content": "about the alleged art theft"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 6.095118058126442
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -3573,38 +2283,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "When the police",
-                            "metric_value": {
-                                "sum": 10.480298383661554
-                            }
+                            "content": "When the police"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the small town in Alabama",
-                            "metric_value": {
-                                "sum": 8.3462045068894
-                            }
+                            "content": "from the small town in Alabama"
                         },
                         {
                             "region_number": 3,
-                            "content": "found new evidence",
-                            "metric_value": {
-                                "sum": 9.921417020912996
-                            }
+                            "content": "found new evidence"
                         },
                         {
                             "region_number": 4,
-                            "content": "about the alleged art theft",
-                            "metric_value": {
-                                "sum": 2.548261399296488
-                            }
+                            "content": "about the alleged art theft"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the judge declared a mistrial .",
-                            "metric_value": {
-                                "sum": 6.0993768741397165
-                            }
+                            "content": ", the judge declared a mistrial ."
                         }
                     ]
                 },
@@ -3613,38 +2308,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The police",
-                            "metric_value": {
-                                "sum": 16.96832736883973
-                            }
+                            "content": "The police"
                         },
                         {
                             "region_number": 2,
-                            "content": "from the small town in Alabama",
-                            "metric_value": {
-                                "sum": 15.528567321421026
-                            }
+                            "content": "from the small town in Alabama"
                         },
                         {
                             "region_number": 3,
-                            "content": "found new evidence",
-                            "metric_value": {
-                                "sum": 16.564276699079482
-                            }
+                            "content": "found new evidence"
                         },
                         {
                             "region_number": 4,
-                            "content": "about the alleged art theft",
-                            "metric_value": {
-                                "sum": 7.985394443111082
-                            }
+                            "content": "about the alleged art theft"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the judge declared a mistrial .",
-                            "metric_value": {
-                                "sum": 6.935124684033717
-                            }
+                            "content": ", the judge declared a mistrial ."
                         }
                     ]
                 }
@@ -3658,38 +2338,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Before the students",
-                            "metric_value": {
-                                "sum": 1.4420403349202462
-                            }
+                            "content": "Before the students"
                         },
                         {
                             "region_number": 2,
-                            "content": "from foreign countries in Europe",
-                            "metric_value": {
-                                "sum": 15.673061571092923
-                            }
+                            "content": "from foreign countries in Europe"
                         },
                         {
                             "region_number": 3,
-                            "content": "handed in their papers",
-                            "metric_value": {
-                                "sum": 19.385742708323882
-                            }
+                            "content": "handed in their papers"
                         },
                         {
                             "region_number": 4,
-                            "content": "on the modern art world",
-                            "metric_value": {
-                                "sum": 14.379300791589683
-                            }
+                            "content": "on the modern art world"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 19.880256495169824
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -3698,38 +2363,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The students",
-                            "metric_value": {
-                                "sum": 16.795801375159378
-                            }
+                            "content": "The students"
                         },
                         {
                             "region_number": 2,
-                            "content": "from foreign countries in Europe",
-                            "metric_value": {
-                                "sum": 3.84121883494779
-                            }
+                            "content": "from foreign countries in Europe"
                         },
                         {
                             "region_number": 3,
-                            "content": "handed in their papers",
-                            "metric_value": {
-                                "sum": 5.901529843517937
-                            }
+                            "content": "handed in their papers"
                         },
                         {
                             "region_number": 4,
-                            "content": "on the modern art world",
-                            "metric_value": {
-                                "sum": 9.707379315567918
-                            }
+                            "content": "on the modern art world"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 13.617332127650897
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -3738,38 +2388,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Before the students",
-                            "metric_value": {
-                                "sum": 2.727285707093757
-                            }
+                            "content": "Before the students"
                         },
                         {
                             "region_number": 2,
-                            "content": "from foreign countries in Europe",
-                            "metric_value": {
-                                "sum": 10.223633609272037
-                            }
+                            "content": "from foreign countries in Europe"
                         },
                         {
                             "region_number": 3,
-                            "content": "handed in their papers",
-                            "metric_value": {
-                                "sum": 4.993039263441613
-                            }
+                            "content": "handed in their papers"
                         },
                         {
                             "region_number": 4,
-                            "content": "on the modern art world",
-                            "metric_value": {
-                                "sum": 3.9274808833752286
-                            }
+                            "content": "on the modern art world"
                         },
                         {
                             "region_number": 5,
-                            "content": ", they revised them all night long .",
-                            "metric_value": {
-                                "sum": 17.035990822061365
-                            }
+                            "content": ", they revised them all night long ."
                         }
                     ]
                 },
@@ -3778,38 +2413,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The students",
-                            "metric_value": {
-                                "sum": 2.1335687778576675
-                            }
+                            "content": "The students"
                         },
                         {
                             "region_number": 2,
-                            "content": "from foreign countries in Europe",
-                            "metric_value": {
-                                "sum": 9.880806011062138
-                            }
+                            "content": "from foreign countries in Europe"
                         },
                         {
                             "region_number": 3,
-                            "content": "handed in their papers",
-                            "metric_value": {
-                                "sum": 2.3516747797334507
-                            }
+                            "content": "handed in their papers"
                         },
                         {
                             "region_number": 4,
-                            "content": "on the modern art world",
-                            "metric_value": {
-                                "sum": 5.479932249396235
-                            }
+                            "content": "on the modern art world"
                         },
                         {
                             "region_number": 5,
-                            "content": ", they revised them all night long .",
-                            "metric_value": {
-                                "sum": 2.03811717856808
-                            }
+                            "content": ", they revised them all night long ."
                         }
                     ]
                 }

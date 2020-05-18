@@ -28,38 +28,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "As the doctor",
-                            "metric_value": {
-                                "sum": 4.593811046362017
-                            }
+                            "content": "As the doctor"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the administrator had recently hired",
-                            "metric_value": {
-                                "sum": 2.4609361398978384
-                            }
+                            "content": "who the administrator had recently hired"
                         },
                         {
                             "region_number": 3,
-                            "content": "studied the book",
-                            "metric_value": {
-                                "sum": 12.265451503444284
-                            }
+                            "content": "studied the book"
                         },
                         {
                             "region_number": 4,
-                            "content": "that colleagues had written on cancer therapy",
-                            "metric_value": {
-                                "sum": 5.478806924918591
-                            }
+                            "content": "that colleagues had written on cancer therapy"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 1.053791217224249
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -68,38 +53,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The doctor",
-                            "metric_value": {
-                                "sum": 3.3568205436860725
-                            }
+                            "content": "The doctor"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the administrator had recently hired",
-                            "metric_value": {
-                                "sum": 8.688011448517777
-                            }
+                            "content": "who the administrator had recently hired"
                         },
                         {
                             "region_number": 3,
-                            "content": "studied the book",
-                            "metric_value": {
-                                "sum": 4.297868169091879
-                            }
+                            "content": "studied the book"
                         },
                         {
                             "region_number": 4,
-                            "content": "that colleagues had written on cancer therapy",
-                            "metric_value": {
-                                "sum": 8.042107225089303
-                            }
+                            "content": "that colleagues had written on cancer therapy"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 6.475844242650753
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -108,38 +78,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "As the doctor",
-                            "metric_value": {
-                                "sum": 2.1250187925888815
-                            }
+                            "content": "As the doctor"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the administrator had recently hired",
-                            "metric_value": {
-                                "sum": 6.710371232179991
-                            }
+                            "content": "who the administrator had recently hired"
                         },
                         {
                             "region_number": 3,
-                            "content": "studied the book",
-                            "metric_value": {
-                                "sum": 13.888916078887055
-                            }
+                            "content": "studied the book"
                         },
                         {
                             "region_number": 4,
-                            "content": "that colleagues had written on cancer therapy",
-                            "metric_value": {
-                                "sum": 14.735461763600783
-                            }
+                            "content": "that colleagues had written on cancer therapy"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the nurse walked into the room .",
-                            "metric_value": {
-                                "sum": 5.574798788855815
-                            }
+                            "content": ", the nurse walked into the room ."
                         }
                     ]
                 },
@@ -148,38 +103,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The doctor",
-                            "metric_value": {
-                                "sum": 18.840782701126383
-                            }
+                            "content": "The doctor"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the administrator had recently hired",
-                            "metric_value": {
-                                "sum": 18.380812630923504
-                            }
+                            "content": "who the administrator had recently hired"
                         },
                         {
                             "region_number": 3,
-                            "content": "studied the book",
-                            "metric_value": {
-                                "sum": 1.6100918664822235
-                            }
+                            "content": "studied the book"
                         },
                         {
                             "region_number": 4,
-                            "content": "that colleagues had written on cancer therapy",
-                            "metric_value": {
-                                "sum": 19.77740229053666
-                            }
+                            "content": "that colleagues had written on cancer therapy"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the nurse walked into the room .",
-                            "metric_value": {
-                                "sum": 4.066809864245111
-                            }
+                            "content": ", the nurse walked into the room ."
                         }
                     ]
                 }
@@ -193,38 +133,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "After the man",
-                            "metric_value": {
-                                "sum": 14.72219974656355
-                            }
+                            "content": "After the man"
                         },
                         {
                             "region_number": 2,
-                            "content": "who a friend had helped",
-                            "metric_value": {
-                                "sum": 2.572123548962783
-                            }
+                            "content": "who a friend had helped"
                         },
                         {
                             "region_number": 3,
-                            "content": "shot the bird",
-                            "metric_value": {
-                                "sum": 3.0398661584169613
-                            }
+                            "content": "shot the bird"
                         },
                         {
                             "region_number": 4,
-                            "content": "that he had been tracking secretly",
-                            "metric_value": {
-                                "sum": 18.39214594342326
-                            }
+                            "content": "that he had been tracking secretly"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 7.627391923909666
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -233,38 +158,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The man",
-                            "metric_value": {
-                                "sum": 5.216032692284205
-                            }
+                            "content": "The man"
                         },
                         {
                             "region_number": 2,
-                            "content": "who a friend had helped",
-                            "metric_value": {
-                                "sum": 18.143551189282125
-                            }
+                            "content": "who a friend had helped"
                         },
                         {
                             "region_number": 3,
-                            "content": "shot the bird",
-                            "metric_value": {
-                                "sum": 5.004750344094175
-                            }
+                            "content": "shot the bird"
                         },
                         {
                             "region_number": 4,
-                            "content": "that he had been tracking secretly",
-                            "metric_value": {
-                                "sum": 8.235219086832409
-                            }
+                            "content": "that he had been tracking secretly"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 7.7653775274450485
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -273,38 +183,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "After the man",
-                            "metric_value": {
-                                "sum": 2.9408833147291715
-                            }
+                            "content": "After the man"
                         },
                         {
                             "region_number": 2,
-                            "content": "who a friend had helped",
-                            "metric_value": {
-                                "sum": 1.0823516028136422
-                            }
+                            "content": "who a friend had helped"
                         },
                         {
                             "region_number": 3,
-                            "content": "shot the bird",
-                            "metric_value": {
-                                "sum": 4.903375688333133
-                            }
+                            "content": "shot the bird"
                         },
                         {
                             "region_number": 4,
-                            "content": "that he had been tracking secretly",
-                            "metric_value": {
-                                "sum": 4.474063098951224
-                            }
+                            "content": "that he had been tracking secretly"
                         },
                         {
                             "region_number": 5,
-                            "content": ", he loaded his gun .",
-                            "metric_value": {
-                                "sum": 19.889313837352475
-                            }
+                            "content": ", he loaded his gun ."
                         }
                     ]
                 },
@@ -313,38 +208,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The man",
-                            "metric_value": {
-                                "sum": 3.130079115838724
-                            }
+                            "content": "The man"
                         },
                         {
                             "region_number": 2,
-                            "content": "who a friend had helped",
-                            "metric_value": {
-                                "sum": 15.911900621606446
-                            }
+                            "content": "who a friend had helped"
                         },
                         {
                             "region_number": 3,
-                            "content": "shot the bird",
-                            "metric_value": {
-                                "sum": 8.478115598137304
-                            }
+                            "content": "shot the bird"
                         },
                         {
                             "region_number": 4,
-                            "content": "that he had been tracking secretly",
-                            "metric_value": {
-                                "sum": 6.741105683609204
-                            }
+                            "content": "that he had been tracking secretly"
                         },
                         {
                             "region_number": 5,
-                            "content": ", he loaded his gun .",
-                            "metric_value": {
-                                "sum": 11.8236165117777
-                            }
+                            "content": ", he loaded his gun ."
                         }
                     ]
                 }
@@ -358,38 +238,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Because the students",
-                            "metric_value": {
-                                "sum": 3.102676131473956
-                            }
+                            "content": "Because the students"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the teacher had in her class",
-                            "metric_value": {
-                                "sum": 5.394868742765058
-                            }
+                            "content": "who the teacher had in her class"
                         },
                         {
                             "region_number": 3,
-                            "content": "did not like the material",
-                            "metric_value": {
-                                "sum": 9.27248277080976
-                            }
+                            "content": "did not like the material"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the teacher used to cover evolution",
-                            "metric_value": {
-                                "sum": 2.4363826373035535
-                            }
+                            "content": "that the teacher used to cover evolution"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 13.86758847328937
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -398,38 +263,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The students",
-                            "metric_value": {
-                                "sum": 19.43907010833789
-                            }
+                            "content": "The students"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the teacher had in her class",
-                            "metric_value": {
-                                "sum": 13.170579771714047
-                            }
+                            "content": "who the teacher had in her class"
                         },
                         {
                             "region_number": 3,
-                            "content": "did not like the material",
-                            "metric_value": {
-                                "sum": 17.26935727252729
-                            }
+                            "content": "did not like the material"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the teacher used to cover evolution",
-                            "metric_value": {
-                                "sum": 5.024978670117534
-                            }
+                            "content": "that the teacher used to cover evolution"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 9.591092529222477
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -438,38 +288,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Because the students",
-                            "metric_value": {
-                                "sum": 13.689089641094519
-                            }
+                            "content": "Because the students"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the teacher had in her class",
-                            "metric_value": {
-                                "sum": 14.9919315386891
-                            }
+                            "content": "who the teacher had in her class"
                         },
                         {
                             "region_number": 3,
-                            "content": "did not like the material",
-                            "metric_value": {
-                                "sum": 4.768072972011854
-                            }
+                            "content": "did not like the material"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the teacher used to cover evolution",
-                            "metric_value": {
-                                "sum": 9.508834243985294
-                            }
+                            "content": "that the teacher used to cover evolution"
                         },
                         {
                             "region_number": 5,
-                            "content": ", they complained to the principal .",
-                            "metric_value": {
-                                "sum": 2.3399238175852015
-                            }
+                            "content": ", they complained to the principal ."
                         }
                     ]
                 },
@@ -478,38 +313,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The students",
-                            "metric_value": {
-                                "sum": 5.421932564026967
-                            }
+                            "content": "The students"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the teacher had in her class",
-                            "metric_value": {
-                                "sum": 2.7135257429420747
-                            }
+                            "content": "who the teacher had in her class"
                         },
                         {
                             "region_number": 3,
-                            "content": "did not like the material",
-                            "metric_value": {
-                                "sum": 3.0873876468507717
-                            }
+                            "content": "did not like the material"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the teacher used to cover evolution",
-                            "metric_value": {
-                                "sum": 2.946107701619709
-                            }
+                            "content": "that the teacher used to cover evolution"
                         },
                         {
                             "region_number": 5,
-                            "content": ", they complained to the principal .",
-                            "metric_value": {
-                                "sum": 12.08947250863994
-                            }
+                            "content": ", they complained to the principal ."
                         }
                     ]
                 }
@@ -523,38 +343,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "When the general",
-                            "metric_value": {
-                                "sum": 12.249189558902245
-                            }
+                            "content": "When the general"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the officer had given a uniform",
-                            "metric_value": {
-                                "sum": 2.788380110313584
-                            }
+                            "content": "who the officer had given a uniform"
                         },
                         {
                             "region_number": 3,
-                            "content": "entered the camp",
-                            "metric_value": {
-                                "sum": 10.27104223708576
-                            }
+                            "content": "entered the camp"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the colonel constructed two years ago",
-                            "metric_value": {
-                                "sum": 1.6897559291423268
-                            }
+                            "content": "that the colonel constructed two years ago"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 18.855767278727207
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -563,38 +368,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The general",
-                            "metric_value": {
-                                "sum": 1.9924400284021506
-                            }
+                            "content": "The general"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the officer had given a uniform",
-                            "metric_value": {
-                                "sum": 9.398119604314758
-                            }
+                            "content": "who the officer had given a uniform"
                         },
                         {
                             "region_number": 3,
-                            "content": "entered the camp",
-                            "metric_value": {
-                                "sum": 7.427437947753241
-                            }
+                            "content": "entered the camp"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the colonel constructed two years ago",
-                            "metric_value": {
-                                "sum": 10.92575659137588
-                            }
+                            "content": "that the colonel constructed two years ago"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 6.952104175613906
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -603,38 +393,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "When the general",
-                            "metric_value": {
-                                "sum": 6.885465261846814
-                            }
+                            "content": "When the general"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the officer had given a uniform",
-                            "metric_value": {
-                                "sum": 17.35523092082951
-                            }
+                            "content": "who the officer had given a uniform"
                         },
                         {
                             "region_number": 3,
-                            "content": "entered the camp",
-                            "metric_value": {
-                                "sum": 8.974534856418039
-                            }
+                            "content": "entered the camp"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the colonel constructed two years ago",
-                            "metric_value": {
-                                "sum": 8.697317612837796
-                            }
+                            "content": "that the colonel constructed two years ago"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the soldiers cheered .",
-                            "metric_value": {
-                                "sum": 16.857617736422302
-                            }
+                            "content": ", the soldiers cheered ."
                         }
                     ]
                 },
@@ -643,38 +418,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The general",
-                            "metric_value": {
-                                "sum": 14.014275852349913
-                            }
+                            "content": "The general"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the officer had given a uniform",
-                            "metric_value": {
-                                "sum": 11.582017701483796
-                            }
+                            "content": "who the officer had given a uniform"
                         },
                         {
                             "region_number": 3,
-                            "content": "entered the camp",
-                            "metric_value": {
-                                "sum": 17.98972739944866
-                            }
+                            "content": "entered the camp"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the colonel constructed two years ago",
-                            "metric_value": {
-                                "sum": 3.9917892156001753
-                            }
+                            "content": "that the colonel constructed two years ago"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the soldiers cheered .",
-                            "metric_value": {
-                                "sum": 18.485763954515406
-                            }
+                            "content": ", the soldiers cheered ."
                         }
                     ]
                 }
@@ -688,38 +448,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "After the trainer",
-                            "metric_value": {
-                                "sum": 11.255197892297218
-                            }
+                            "content": "After the trainer"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the dog feared",
-                            "metric_value": {
-                                "sum": 4.750765464414268
-                            }
+                            "content": "who the dog feared"
                         },
                         {
                             "region_number": 3,
-                            "content": "delivered the newspaper",
-                            "metric_value": {
-                                "sum": 2.1047283940668886
-                            }
+                            "content": "delivered the newspaper"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the resident had ordered",
-                            "metric_value": {
-                                "sum": 19.322495339571752
-                            }
+                            "content": "that the resident had ordered"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 8.163120090033816
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -728,38 +473,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The trainer",
-                            "metric_value": {
-                                "sum": 6.680287976678185
-                            }
+                            "content": "The trainer"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the dog feared",
-                            "metric_value": {
-                                "sum": 19.65242627585968
-                            }
+                            "content": "who the dog feared"
                         },
                         {
                             "region_number": 3,
-                            "content": "delivered the newspaper",
-                            "metric_value": {
-                                "sum": 5.246480923968591
-                            }
+                            "content": "delivered the newspaper"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the resident had ordered",
-                            "metric_value": {
-                                "sum": 2.8528296190309375
-                            }
+                            "content": "that the resident had ordered"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 17.34071026868623
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -768,38 +498,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "After the trainer",
-                            "metric_value": {
-                                "sum": 9.128017846880887
-                            }
+                            "content": "After the trainer"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the dog feared",
-                            "metric_value": {
-                                "sum": 17.222325357562752
-                            }
+                            "content": "who the dog feared"
                         },
                         {
                             "region_number": 3,
-                            "content": "delivered the newspaper",
-                            "metric_value": {
-                                "sum": 8.845066996009706
-                            }
+                            "content": "delivered the newspaper"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the resident had ordered",
-                            "metric_value": {
-                                "sum": 7.3493576468468635
-                            }
+                            "content": "that the resident had ordered"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the dog looked at the door .",
-                            "metric_value": {
-                                "sum": 13.83399388370367
-                            }
+                            "content": ", the dog looked at the door ."
                         }
                     ]
                 },
@@ -808,38 +523,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The trainer",
-                            "metric_value": {
-                                "sum": 19.19052037580861
-                            }
+                            "content": "The trainer"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the dog feared",
-                            "metric_value": {
-                                "sum": 17.07010031666581
-                            }
+                            "content": "who the dog feared"
                         },
                         {
                             "region_number": 3,
-                            "content": "delivered the newspaper",
-                            "metric_value": {
-                                "sum": 4.426370754736335
-                            }
+                            "content": "delivered the newspaper"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the resident had ordered",
-                            "metric_value": {
-                                "sum": 1.8342183262479326
-                            }
+                            "content": "that the resident had ordered"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the dog looked at the door .",
-                            "metric_value": {
-                                "sum": 2.102528815146847
-                            }
+                            "content": ", the dog looked at the door ."
                         }
                     ]
                 }
@@ -853,38 +553,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "While the lawyers",
-                            "metric_value": {
-                                "sum": 11.355456110740716
-                            }
+                            "content": "While the lawyers"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the client had hired",
-                            "metric_value": {
-                                "sum": 9.538222448188035
-                            }
+                            "content": "who the client had hired"
                         },
                         {
                             "region_number": 3,
-                            "content": "printed the documents",
-                            "metric_value": {
-                                "sum": 11.536918902735854
-                            }
+                            "content": "printed the documents"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the client never requested",
-                            "metric_value": {
-                                "sum": 19.32299461932082
-                            }
+                            "content": "that the client never requested"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 17.67528522650147
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -893,38 +578,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The lawyers",
-                            "metric_value": {
-                                "sum": 3.1125413459309783
-                            }
+                            "content": "The lawyers"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the client had hired",
-                            "metric_value": {
-                                "sum": 7.36512318303815
-                            }
+                            "content": "who the client had hired"
                         },
                         {
                             "region_number": 3,
-                            "content": "printed the documents",
-                            "metric_value": {
-                                "sum": 11.817984351569162
-                            }
+                            "content": "printed the documents"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the client never requested",
-                            "metric_value": {
-                                "sum": 13.451043947208644
-                            }
+                            "content": "that the client never requested"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 17.09759566784818
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -933,38 +603,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "While the lawyers",
-                            "metric_value": {
-                                "sum": 2.564645079118405
-                            }
+                            "content": "While the lawyers"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the client had hired",
-                            "metric_value": {
-                                "sum": 1.8692866870207545
-                            }
+                            "content": "who the client had hired"
                         },
                         {
                             "region_number": 3,
-                            "content": "printed the documents",
-                            "metric_value": {
-                                "sum": 6.4049612986263575
-                            }
+                            "content": "printed the documents"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the client never requested",
-                            "metric_value": {
-                                "sum": 3.7635020207595793
-                            }
+                            "content": "that the client never requested"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the aids made coffee .",
-                            "metric_value": {
-                                "sum": 18.533054381682664
-                            }
+                            "content": ", the aids made coffee ."
                         }
                     ]
                 },
@@ -973,38 +628,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The lawyers",
-                            "metric_value": {
-                                "sum": 5.696037564864823
-                            }
+                            "content": "The lawyers"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the client had hired",
-                            "metric_value": {
-                                "sum": 15.970080442154776
-                            }
+                            "content": "who the client had hired"
                         },
                         {
                             "region_number": 3,
-                            "content": "printed the documents",
-                            "metric_value": {
-                                "sum": 9.809257669683204
-                            }
+                            "content": "printed the documents"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the client never requested",
-                            "metric_value": {
-                                "sum": 17.53045540481573
-                            }
+                            "content": "that the client never requested"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the aids made coffee .",
-                            "metric_value": {
-                                "sum": 5.4732831415192695
-                            }
+                            "content": ", the aids made coffee ."
                         }
                     ]
                 }
@@ -1018,38 +658,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Because the editor",
-                            "metric_value": {
-                                "sum": 9.361844936288467
-                            }
+                            "content": "Because the editor"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the author knew well",
-                            "metric_value": {
-                                "sum": 19.416672056754322
-                            }
+                            "content": "who the author knew well"
                         },
                         {
                             "region_number": 3,
-                            "content": "liked the draft",
-                            "metric_value": {
-                                "sum": 2.414809289655622
-                            }
+                            "content": "liked the draft"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the celebrity had written",
-                            "metric_value": {
-                                "sum": 15.719316042942754
-                            }
+                            "content": "that the celebrity had written"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 9.249095611680488
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -1058,38 +683,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The editor",
-                            "metric_value": {
-                                "sum": 3.2175123464363806
-                            }
+                            "content": "The editor"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the author knew well",
-                            "metric_value": {
-                                "sum": 12.615561519726668
-                            }
+                            "content": "who the author knew well"
                         },
                         {
                             "region_number": 3,
-                            "content": "liked the draft",
-                            "metric_value": {
-                                "sum": 7.838310176489009
-                            }
+                            "content": "liked the draft"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the celebrity had written",
-                            "metric_value": {
-                                "sum": 6.641433586635039
-                            }
+                            "content": "that the celebrity had written"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 13.034036242039631
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -1098,38 +708,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Because the editor",
-                            "metric_value": {
-                                "sum": 5.849595919927644
-                            }
+                            "content": "Because the editor"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the author knew well",
-                            "metric_value": {
-                                "sum": 3.2766394704180772
-                            }
+                            "content": "who the author knew well"
                         },
                         {
                             "region_number": 3,
-                            "content": "liked the draft",
-                            "metric_value": {
-                                "sum": 17.746656295525252
-                            }
+                            "content": "liked the draft"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the celebrity had written",
-                            "metric_value": {
-                                "sum": 16.075534718644143
-                            }
+                            "content": "that the celebrity had written"
                         },
                         {
                             "region_number": 5,
-                            "content": ", he published it the next month .",
-                            "metric_value": {
-                                "sum": 16.69867274821481
-                            }
+                            "content": ", he published it the next month ."
                         }
                     ]
                 },
@@ -1138,38 +733,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The editor",
-                            "metric_value": {
-                                "sum": 15.26771171269394
-                            }
+                            "content": "The editor"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the author knew well",
-                            "metric_value": {
-                                "sum": 2.1100349499135964
-                            }
+                            "content": "who the author knew well"
                         },
                         {
                             "region_number": 3,
-                            "content": "liked the draft",
-                            "metric_value": {
-                                "sum": 5.725586504035773
-                            }
+                            "content": "liked the draft"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the celebrity had written",
-                            "metric_value": {
-                                "sum": 13.788261287420495
-                            }
+                            "content": "that the celebrity had written"
                         },
                         {
                             "region_number": 5,
-                            "content": ", he published it the next month .",
-                            "metric_value": {
-                                "sum": 5.995417438941661
-                            }
+                            "content": ", he published it the next month ."
                         }
                     ]
                 }
@@ -1183,38 +763,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Since the nurse",
-                            "metric_value": {
-                                "sum": 5.281038592787411
-                            }
+                            "content": "Since the nurse"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the doctor had met only once",
-                            "metric_value": {
-                                "sum": 13.192821364082281
-                            }
+                            "content": "who the doctor had met only once"
                         },
                         {
                             "region_number": 3,
-                            "content": "lost her documents",
-                            "metric_value": {
-                                "sum": 10.390867145607434
-                            }
+                            "content": "lost her documents"
                         },
                         {
                             "region_number": 4,
-                            "content": "that she had bought from an expensive store",
-                            "metric_value": {
-                                "sum": 18.203510817213502
-                            }
+                            "content": "that she had bought from an expensive store"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 17.02166748251738
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -1223,38 +788,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The nurse",
-                            "metric_value": {
-                                "sum": 16.09216306103015
-                            }
+                            "content": "The nurse"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the doctor had met only once",
-                            "metric_value": {
-                                "sum": 2.45965541276074
-                            }
+                            "content": "who the doctor had met only once"
                         },
                         {
                             "region_number": 3,
-                            "content": "lost her documents",
-                            "metric_value": {
-                                "sum": 6.107003053924485
-                            }
+                            "content": "lost her documents"
                         },
                         {
                             "region_number": 4,
-                            "content": "that she had bought from an expensive store",
-                            "metric_value": {
-                                "sum": 11.668056531391247
-                            }
+                            "content": "that she had bought from an expensive store"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 4.079336194295141
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -1263,38 +813,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Since the nurse",
-                            "metric_value": {
-                                "sum": 14.296738438358364
-                            }
+                            "content": "Since the nurse"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the doctor had met only once",
-                            "metric_value": {
-                                "sum": 6.8839896996734895
-                            }
+                            "content": "who the doctor had met only once"
                         },
                         {
                             "region_number": 3,
-                            "content": "lost her documents",
-                            "metric_value": {
-                                "sum": 17.18317499154811
-                            }
+                            "content": "lost her documents"
                         },
                         {
                             "region_number": 4,
-                            "content": "that she had bought from an expensive store",
-                            "metric_value": {
-                                "sum": 15.8927070490586
-                            }
+                            "content": "that she had bought from an expensive store"
                         },
                         {
                             "region_number": 5,
-                            "content": ", she administered the wrong medicine .",
-                            "metric_value": {
-                                "sum": 14.094375039816386
-                            }
+                            "content": ", she administered the wrong medicine ."
                         }
                     ]
                 },
@@ -1303,38 +838,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The nurse",
-                            "metric_value": {
-                                "sum": 10.38895679425206
-                            }
+                            "content": "The nurse"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the doctor had met only once",
-                            "metric_value": {
-                                "sum": 1.6166183164207557
-                            }
+                            "content": "who the doctor had met only once"
                         },
                         {
                             "region_number": 3,
-                            "content": "lost her documents",
-                            "metric_value": {
-                                "sum": 9.937896724714108
-                            }
+                            "content": "lost her documents"
                         },
                         {
                             "region_number": 4,
-                            "content": "that she had bought from an expensive store",
-                            "metric_value": {
-                                "sum": 18.720588239389837
-                            }
+                            "content": "that she had bought from an expensive store"
                         },
                         {
                             "region_number": 5,
-                            "content": ", she administered the wrong medicine .",
-                            "metric_value": {
-                                "sum": 2.6700749752169637
-                            }
+                            "content": ", she administered the wrong medicine ."
                         }
                     ]
                 }
@@ -1348,38 +868,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Because the scientist",
-                            "metric_value": {
-                                "sum": 10.216555229216572
-                            }
+                            "content": "Because the scientist"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the contractor had recommended",
-                            "metric_value": {
-                                "sum": 3.7132678794051066
-                            }
+                            "content": "who the contractor had recommended"
                         },
                         {
                             "region_number": 3,
-                            "content": "broke the computer",
-                            "metric_value": {
-                                "sum": 3.272148659478023
-                            }
+                            "content": "broke the computer"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the administrator moved to the basement",
-                            "metric_value": {
-                                "sum": 13.780521508605581
-                            }
+                            "content": "that the administrator moved to the basement"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 3.0693671084159577
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -1388,38 +893,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The scientist",
-                            "metric_value": {
-                                "sum": 1.1266981503574023
-                            }
+                            "content": "The scientist"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the contractor had recommended",
-                            "metric_value": {
-                                "sum": 4.323897062021089
-                            }
+                            "content": "who the contractor had recommended"
                         },
                         {
                             "region_number": 3,
-                            "content": "broke the computer",
-                            "metric_value": {
-                                "sum": 1.139271018553854
-                            }
+                            "content": "broke the computer"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the administrator moved to the basement",
-                            "metric_value": {
-                                "sum": 2.632743169318579
-                            }
+                            "content": "that the administrator moved to the basement"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 7.263845280019444
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -1428,38 +918,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Because the scientist",
-                            "metric_value": {
-                                "sum": 11.919913879329776
-                            }
+                            "content": "Because the scientist"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the contractor had recommended",
-                            "metric_value": {
-                                "sum": 8.429566759819064
-                            }
+                            "content": "who the contractor had recommended"
                         },
                         {
                             "region_number": 3,
-                            "content": "broke the computer",
-                            "metric_value": {
-                                "sum": 7.526487632791268
-                            }
+                            "content": "broke the computer"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the administrator moved to the basement",
-                            "metric_value": {
-                                "sum": 13.195198257292825
-                            }
+                            "content": "that the administrator moved to the basement"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the administrator wrote everything by hand .",
-                            "metric_value": {
-                                "sum": 18.397227365424467
-                            }
+                            "content": ", the administrator wrote everything by hand ."
                         }
                     ]
                 },
@@ -1468,38 +943,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The scientist",
-                            "metric_value": {
-                                "sum": 2.179089414411878
-                            }
+                            "content": "The scientist"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the contractor had recommended",
-                            "metric_value": {
-                                "sum": 19.399318657234872
-                            }
+                            "content": "who the contractor had recommended"
                         },
                         {
                             "region_number": 3,
-                            "content": "broke the computer",
-                            "metric_value": {
-                                "sum": 13.341149568474396
-                            }
+                            "content": "broke the computer"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the administrator moved to the basement",
-                            "metric_value": {
-                                "sum": 3.9624521708039167
-                            }
+                            "content": "that the administrator moved to the basement"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the administrator wrote everything by hand .",
-                            "metric_value": {
-                                "sum": 4.139072096137976
-                            }
+                            "content": ", the administrator wrote everything by hand ."
                         }
                     ]
                 }
@@ -1513,38 +973,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "After the minister",
-                            "metric_value": {
-                                "sum": 3.929726784970199
-                            }
+                            "content": "After the minister"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the mayor had invited",
-                            "metric_value": {
-                                "sum": 18.29406166846435
-                            }
+                            "content": "who the mayor had invited"
                         },
                         {
                             "region_number": 3,
-                            "content": "praised the new building",
-                            "metric_value": {
-                                "sum": 19.981101033167896
-                            }
+                            "content": "praised the new building"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the businessman had built downtown",
-                            "metric_value": {
-                                "sum": 4.53924609622878
-                            }
+                            "content": "that the businessman had built downtown"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 7.952014201085809
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -1553,38 +998,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The minister",
-                            "metric_value": {
-                                "sum": 16.62721114644218
-                            }
+                            "content": "The minister"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the mayor had invited",
-                            "metric_value": {
-                                "sum": 10.916031014946673
-                            }
+                            "content": "who the mayor had invited"
                         },
                         {
                             "region_number": 3,
-                            "content": "praised the new building",
-                            "metric_value": {
-                                "sum": 16.158380943855285
-                            }
+                            "content": "praised the new building"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the businessman had built downtown",
-                            "metric_value": {
-                                "sum": 18.061381411548428
-                            }
+                            "content": "that the businessman had built downtown"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 1.6424222370438433
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -1593,38 +1023,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "After the minister",
-                            "metric_value": {
-                                "sum": 11.324803531100253
-                            }
+                            "content": "After the minister"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the mayor had invited",
-                            "metric_value": {
-                                "sum": 11.432112452950626
-                            }
+                            "content": "who the mayor had invited"
                         },
                         {
                             "region_number": 3,
-                            "content": "praised the new building",
-                            "metric_value": {
-                                "sum": 8.920625907079108
-                            }
+                            "content": "praised the new building"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the businessman had built downtown",
-                            "metric_value": {
-                                "sum": 18.35770130235047
-                            }
+                            "content": "that the businessman had built downtown"
                         },
                         {
                             "region_number": 5,
-                            "content": ", it started to rain .",
-                            "metric_value": {
-                                "sum": 5.385434638838069
-                            }
+                            "content": ", it started to rain ."
                         }
                     ]
                 },
@@ -1633,38 +1048,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The minister",
-                            "metric_value": {
-                                "sum": 1.273383878608497
-                            }
+                            "content": "The minister"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the mayor had invited",
-                            "metric_value": {
-                                "sum": 8.959156907127376
-                            }
+                            "content": "who the mayor had invited"
                         },
                         {
                             "region_number": 3,
-                            "content": "praised the new building",
-                            "metric_value": {
-                                "sum": 17.607195520203714
-                            }
+                            "content": "praised the new building"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the businessman had built downtown",
-                            "metric_value": {
-                                "sum": 3.3513034284060934
-                            }
+                            "content": "that the businessman had built downtown"
                         },
                         {
                             "region_number": 5,
-                            "content": ", it started to rain .",
-                            "metric_value": {
-                                "sum": 4.5887140305516985
-                            }
+                            "content": ", it started to rain ."
                         }
                     ]
                 }
@@ -1678,38 +1078,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Because the architect",
-                            "metric_value": {
-                                "sum": 11.261037007620724
-                            }
+                            "content": "Because the architect"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the mayor respected very much",
-                            "metric_value": {
-                                "sum": 3.075651141424071
-                            }
+                            "content": "who the mayor respected very much"
                         },
                         {
                             "region_number": 3,
-                            "content": "read the proposal",
-                            "metric_value": {
-                                "sum": 7.259018126720617
-                            }
+                            "content": "read the proposal"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the housing authority drafted",
-                            "metric_value": {
-                                "sum": 13.3399308527712
-                            }
+                            "content": "that the housing authority drafted"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 9.284673874696788
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -1718,38 +1103,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The architect",
-                            "metric_value": {
-                                "sum": 8.383213912432138
-                            }
+                            "content": "The architect"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the mayor respected very much",
-                            "metric_value": {
-                                "sum": 8.437360884398178
-                            }
+                            "content": "who the mayor respected very much"
                         },
                         {
                             "region_number": 3,
-                            "content": "read the proposal",
-                            "metric_value": {
-                                "sum": 14.867529879116596
-                            }
+                            "content": "read the proposal"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the housing authority drafted",
-                            "metric_value": {
-                                "sum": 7.598856729577405
-                            }
+                            "content": "that the housing authority drafted"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 13.907544015562676
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -1758,38 +1128,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Because the architect",
-                            "metric_value": {
-                                "sum": 1.8819520446875702
-                            }
+                            "content": "Because the architect"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the mayor respected very much",
-                            "metric_value": {
-                                "sum": 8.431872195025134
-                            }
+                            "content": "who the mayor respected very much"
                         },
                         {
                             "region_number": 3,
-                            "content": "read the proposal",
-                            "metric_value": {
-                                "sum": 16.97992821974615
-                            }
+                            "content": "read the proposal"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the housing authority drafted",
-                            "metric_value": {
-                                "sum": 18.92664586217102
-                            }
+                            "content": "that the housing authority drafted"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the house was built correctly .",
-                            "metric_value": {
-                                "sum": 17.82022324876056
-                            }
+                            "content": ", the house was built correctly ."
                         }
                     ]
                 },
@@ -1798,38 +1153,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The architect",
-                            "metric_value": {
-                                "sum": 19.307281067103386
-                            }
+                            "content": "The architect"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the mayor respected very much",
-                            "metric_value": {
-                                "sum": 13.203346542388477
-                            }
+                            "content": "who the mayor respected very much"
                         },
                         {
                             "region_number": 3,
-                            "content": "read the proposal",
-                            "metric_value": {
-                                "sum": 4.362454168795811
-                            }
+                            "content": "read the proposal"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the housing authority drafted",
-                            "metric_value": {
-                                "sum": 18.022329180768942
-                            }
+                            "content": "that the housing authority drafted"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the house was built correctly .",
-                            "metric_value": {
-                                "sum": 19.286632002669545
-                            }
+                            "content": ", the house was built correctly ."
                         }
                     ]
                 }
@@ -1843,38 +1183,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Before the actor",
-                            "metric_value": {
-                                "sum": 4.56300958406576
-                            }
+                            "content": "Before the actor"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the director praised openly",
-                            "metric_value": {
-                                "sum": 3.8146367149206513
-                            }
+                            "content": "who the director praised openly"
                         },
                         {
                             "region_number": 3,
-                            "content": "delivered the speech",
-                            "metric_value": {
-                                "sum": 5.935880601198974
-                            }
+                            "content": "delivered the speech"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the author had written yesterday",
-                            "metric_value": {
-                                "sum": 10.85645490924743
-                            }
+                            "content": "that the author had written yesterday"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 18.810872842842326
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -1883,38 +1208,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The actor",
-                            "metric_value": {
-                                "sum": 3.2398550633616856
-                            }
+                            "content": "The actor"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the director praised openly",
-                            "metric_value": {
-                                "sum": 13.78177655131926
-                            }
+                            "content": "who the director praised openly"
                         },
                         {
                             "region_number": 3,
-                            "content": "delivered the speech",
-                            "metric_value": {
-                                "sum": 1.70969760160712
-                            }
+                            "content": "delivered the speech"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the author had written yesterday",
-                            "metric_value": {
-                                "sum": 18.890944349905553
-                            }
+                            "content": "that the author had written yesterday"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 12.598988824381593
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -1923,38 +1233,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Before the actor",
-                            "metric_value": {
-                                "sum": 15.4147845279164
-                            }
+                            "content": "Before the actor"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the director praised openly",
-                            "metric_value": {
-                                "sum": 4.505388127681586
-                            }
+                            "content": "who the director praised openly"
                         },
                         {
                             "region_number": 3,
-                            "content": "delivered the speech",
-                            "metric_value": {
-                                "sum": 19.515111478047285
-                            }
+                            "content": "delivered the speech"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the author had written yesterday",
-                            "metric_value": {
-                                "sum": 17.28277906187331
-                            }
+                            "content": "that the author had written yesterday"
                         },
                         {
                             "region_number": 5,
-                            "content": ", she took a deep breath .",
-                            "metric_value": {
-                                "sum": 6.660842647019075
-                            }
+                            "content": ", she took a deep breath ."
                         }
                     ]
                 },
@@ -1963,38 +1258,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The actor",
-                            "metric_value": {
-                                "sum": 3.4198830017268405
-                            }
+                            "content": "The actor"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the director praised openly",
-                            "metric_value": {
-                                "sum": 13.702408838792522
-                            }
+                            "content": "who the director praised openly"
                         },
                         {
                             "region_number": 3,
-                            "content": "delivered the speech",
-                            "metric_value": {
-                                "sum": 5.190495626500645
-                            }
+                            "content": "delivered the speech"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the author had written yesterday",
-                            "metric_value": {
-                                "sum": 6.879961865797425
-                            }
+                            "content": "that the author had written yesterday"
                         },
                         {
                             "region_number": 5,
-                            "content": ", she took a deep breath .",
-                            "metric_value": {
-                                "sum": 18.7383473744179
-                            }
+                            "content": ", she took a deep breath ."
                         }
                     ]
                 }
@@ -2008,38 +1288,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "While the pianist",
-                            "metric_value": {
-                                "sum": 13.945419908495552
-                            }
+                            "content": "While the pianist"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the critic did not like",
-                            "metric_value": {
-                                "sum": 14.844143630495648
-                            }
+                            "content": "who the critic did not like"
                         },
                         {
                             "region_number": 3,
-                            "content": "practiced the music",
-                            "metric_value": {
-                                "sum": 5.946341809896942
-                            }
+                            "content": "practiced the music"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the composer had written",
-                            "metric_value": {
-                                "sum": 9.088958307359361
-                            }
+                            "content": "that the composer had written"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 4.396266805062396
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -2048,38 +1313,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The pianist",
-                            "metric_value": {
-                                "sum": 14.409527498914054
-                            }
+                            "content": "The pianist"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the critic did not like",
-                            "metric_value": {
-                                "sum": 5.259039820840556
-                            }
+                            "content": "who the critic did not like"
                         },
                         {
                             "region_number": 3,
-                            "content": "practiced the music",
-                            "metric_value": {
-                                "sum": 18.865987694344224
-                            }
+                            "content": "practiced the music"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the composer had written",
-                            "metric_value": {
-                                "sum": 11.608215293754771
-                            }
+                            "content": "that the composer had written"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 17.696790936228027
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -2088,38 +1338,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "While the pianist",
-                            "metric_value": {
-                                "sum": 8.655981604312785
-                            }
+                            "content": "While the pianist"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the critic did not like",
-                            "metric_value": {
-                                "sum": 8.313545487131702
-                            }
+                            "content": "who the critic did not like"
                         },
                         {
                             "region_number": 3,
-                            "content": "practiced the music",
-                            "metric_value": {
-                                "sum": 12.785401359521371
-                            }
+                            "content": "practiced the music"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the composer had written",
-                            "metric_value": {
-                                "sum": 1.142575773546981
-                            }
+                            "content": "that the composer had written"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the conductor stretched his arms .",
-                            "metric_value": {
-                                "sum": 19.90103652382486
-                            }
+                            "content": ", the conductor stretched his arms ."
                         }
                     ]
                 },
@@ -2128,38 +1363,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The pianist",
-                            "metric_value": {
-                                "sum": 7.224300288765115
-                            }
+                            "content": "The pianist"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the critic did not like",
-                            "metric_value": {
-                                "sum": 7.21522894029669
-                            }
+                            "content": "who the critic did not like"
                         },
                         {
                             "region_number": 3,
-                            "content": "practiced the music",
-                            "metric_value": {
-                                "sum": 12.594252928267368
-                            }
+                            "content": "practiced the music"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the composer had written",
-                            "metric_value": {
-                                "sum": 1.6341286580530316
-                            }
+                            "content": "that the composer had written"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the conductor stretched his arms .",
-                            "metric_value": {
-                                "sum": 4.404070848322474
-                            }
+                            "content": ", the conductor stretched his arms ."
                         }
                     ]
                 }
@@ -2173,38 +1393,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Although the students",
-                            "metric_value": {
-                                "sum": 5.1999601909628685
-                            }
+                            "content": "Although the students"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the principle had disciplined",
-                            "metric_value": {
-                                "sum": 17.257821921669404
-                            }
+                            "content": "who the principle had disciplined"
                         },
                         {
                             "region_number": 3,
-                            "content": "enjoyed the novel",
-                            "metric_value": {
-                                "sum": 18.065464766002773
-                            }
+                            "content": "enjoyed the novel"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the school administrator had written",
-                            "metric_value": {
-                                "sum": 9.934756297671893
-                            }
+                            "content": "that the school administrator had written"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 3.281545843513957
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -2213,38 +1418,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The students",
-                            "metric_value": {
-                                "sum": 6.283125398483587
-                            }
+                            "content": "The students"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the principle had disciplined",
-                            "metric_value": {
-                                "sum": 4.935021599375027
-                            }
+                            "content": "who the principle had disciplined"
                         },
                         {
                             "region_number": 3,
-                            "content": "enjoyed the novel",
-                            "metric_value": {
-                                "sum": 15.145702724889494
-                            }
+                            "content": "enjoyed the novel"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the school administrator had written",
-                            "metric_value": {
-                                "sum": 4.902822360991517
-                            }
+                            "content": "that the school administrator had written"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 11.958541118061946
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -2253,38 +1443,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Although the students",
-                            "metric_value": {
-                                "sum": 12.07106815140751
-                            }
+                            "content": "Although the students"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the principle had disciplined",
-                            "metric_value": {
-                                "sum": 13.717144048120911
-                            }
+                            "content": "who the principle had disciplined"
                         },
                         {
                             "region_number": 3,
-                            "content": "enjoyed the novel",
-                            "metric_value": {
-                                "sum": 4.9640032701628805
-                            }
+                            "content": "enjoyed the novel"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the school administrator had written",
-                            "metric_value": {
-                                "sum": 8.830122043070329
-                            }
+                            "content": "that the school administrator had written"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the teacher considered it poorly written .",
-                            "metric_value": {
-                                "sum": 8.228188601517257
-                            }
+                            "content": ", the teacher considered it poorly written ."
                         }
                     ]
                 },
@@ -2293,38 +1468,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The students",
-                            "metric_value": {
-                                "sum": 13.426000288413253
-                            }
+                            "content": "The students"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the principle had disciplined",
-                            "metric_value": {
-                                "sum": 5.6307078875128855
-                            }
+                            "content": "who the principle had disciplined"
                         },
                         {
                             "region_number": 3,
-                            "content": "enjoyed the novel",
-                            "metric_value": {
-                                "sum": 17.702326650548223
-                            }
+                            "content": "enjoyed the novel"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the school administrator had written",
-                            "metric_value": {
-                                "sum": 19.625941118926296
-                            }
+                            "content": "that the school administrator had written"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the teacher considered it poorly written .",
-                            "metric_value": {
-                                "sum": 4.082528155594819
-                            }
+                            "content": ", the teacher considered it poorly written ."
                         }
                     ]
                 }
@@ -2338,38 +1498,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "While the maid",
-                            "metric_value": {
-                                "sum": 2.577302307640908
-                            }
+                            "content": "While the maid"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the chef had yelled at",
-                            "metric_value": {
-                                "sum": 4.799734172872047
-                            }
+                            "content": "who the chef had yelled at"
                         },
                         {
                             "region_number": 3,
-                            "content": "read the magazine",
-                            "metric_value": {
-                                "sum": 13.010607292299019
-                            }
+                            "content": "read the magazine"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the shift manager left behind",
-                            "metric_value": {
-                                "sum": 5.38664183172082
-                            }
+                            "content": "that the shift manager left behind"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 12.082704983858783
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -2378,38 +1523,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The maid",
-                            "metric_value": {
-                                "sum": 13.714126606450078
-                            }
+                            "content": "The maid"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the chef had yelled at",
-                            "metric_value": {
-                                "sum": 12.172811810013082
-                            }
+                            "content": "who the chef had yelled at"
                         },
                         {
                             "region_number": 3,
-                            "content": "read the magazine",
-                            "metric_value": {
-                                "sum": 16.871902207660153
-                            }
+                            "content": "read the magazine"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the shift manager left behind",
-                            "metric_value": {
-                                "sum": 5.348966031550792
-                            }
+                            "content": "that the shift manager left behind"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 19.033293406863894
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -2418,38 +1548,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "While the maid",
-                            "metric_value": {
-                                "sum": 12.21221692423256
-                            }
+                            "content": "While the maid"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the chef had yelled at",
-                            "metric_value": {
-                                "sum": 18.016543322915496
-                            }
+                            "content": "who the chef had yelled at"
                         },
                         {
                             "region_number": 3,
-                            "content": "read the magazine",
-                            "metric_value": {
-                                "sum": 16.631606507525007
-                            }
+                            "content": "read the magazine"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the shift manager left behind",
-                            "metric_value": {
-                                "sum": 3.262543564086706
-                            }
+                            "content": "that the shift manager left behind"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the customer waited at her table .",
-                            "metric_value": {
-                                "sum": 2.4963763156048353
-                            }
+                            "content": ", the customer waited at her table ."
                         }
                     ]
                 },
@@ -2458,38 +1573,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The maid",
-                            "metric_value": {
-                                "sum": 8.316991847588515
-                            }
+                            "content": "The maid"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the chef had yelled at",
-                            "metric_value": {
-                                "sum": 5.850602349940141
-                            }
+                            "content": "who the chef had yelled at"
                         },
                         {
                             "region_number": 3,
-                            "content": "read the magazine",
-                            "metric_value": {
-                                "sum": 10.545643955372512
-                            }
+                            "content": "read the magazine"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the shift manager left behind",
-                            "metric_value": {
-                                "sum": 7.555989111882373
-                            }
+                            "content": "that the shift manager left behind"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the customer waited at her table .",
-                            "metric_value": {
-                                "sum": 7.838619342199268
-                            }
+                            "content": ", the customer waited at her table ."
                         }
                     ]
                 }
@@ -2503,38 +1603,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Before the assistant",
-                            "metric_value": {
-                                "sum": 13.137906629377502
-                            }
+                            "content": "Before the assistant"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the boss moved down the hall",
-                            "metric_value": {
-                                "sum": 12.915643088550514
-                            }
+                            "content": "who the boss moved down the hall"
                         },
                         {
                             "region_number": 3,
-                            "content": "wrote the letter",
-                            "metric_value": {
-                                "sum": 2.7277478491155462
-                            }
+                            "content": "wrote the letter"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the lawyer threw away",
-                            "metric_value": {
-                                "sum": 7.268304269635763
-                            }
+                            "content": "that the lawyer threw away"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 1.295531757863464
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -2543,38 +1628,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The assistant",
-                            "metric_value": {
-                                "sum": 1.1401918383430818
-                            }
+                            "content": "The assistant"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the boss moved down the hall",
-                            "metric_value": {
-                                "sum": 17.299624367936943
-                            }
+                            "content": "who the boss moved down the hall"
                         },
                         {
                             "region_number": 3,
-                            "content": "wrote the letter",
-                            "metric_value": {
-                                "sum": 9.017276778311693
-                            }
+                            "content": "wrote the letter"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the lawyer threw away",
-                            "metric_value": {
-                                "sum": 10.508686014649976
-                            }
+                            "content": "that the lawyer threw away"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 16.527558676489427
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -2583,38 +1653,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Before the assistant",
-                            "metric_value": {
-                                "sum": 3.6183476116060125
-                            }
+                            "content": "Before the assistant"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the boss moved down the hall",
-                            "metric_value": {
-                                "sum": 14.418864050732541
-                            }
+                            "content": "who the boss moved down the hall"
                         },
                         {
                             "region_number": 3,
-                            "content": "wrote the letter",
-                            "metric_value": {
-                                "sum": 19.914313491851665
-                            }
+                            "content": "wrote the letter"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the lawyer threw away",
-                            "metric_value": {
-                                "sum": 13.434724061546497
-                            }
+                            "content": "that the lawyer threw away"
                         },
                         {
                             "region_number": 5,
-                            "content": ", she had a cup of coffee .",
-                            "metric_value": {
-                                "sum": 11.061907884524802
-                            }
+                            "content": ", she had a cup of coffee ."
                         }
                     ]
                 },
@@ -2623,38 +1678,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The assistant",
-                            "metric_value": {
-                                "sum": 17.460803167148693
-                            }
+                            "content": "The assistant"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the boss moved down the hall",
-                            "metric_value": {
-                                "sum": 17.064353018565637
-                            }
+                            "content": "who the boss moved down the hall"
                         },
                         {
                             "region_number": 3,
-                            "content": "wrote the letter",
-                            "metric_value": {
-                                "sum": 3.5669558338273566
-                            }
+                            "content": "wrote the letter"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the lawyer threw away",
-                            "metric_value": {
-                                "sum": 2.2028871437210347
-                            }
+                            "content": "that the lawyer threw away"
                         },
                         {
                             "region_number": 5,
-                            "content": ", she had a cup of coffee .",
-                            "metric_value": {
-                                "sum": 17.973759592997894
-                            }
+                            "content": ", she had a cup of coffee ."
                         }
                     ]
                 }
@@ -2668,38 +1708,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "After the diplomat",
-                            "metric_value": {
-                                "sum": 13.305009947369927
-                            }
+                            "content": "After the diplomat"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the spy had contacted repeatedly",
-                            "metric_value": {
-                                "sum": 4.430178380466367
-                            }
+                            "content": "who the spy had contacted repeatedly"
                         },
                         {
                             "region_number": 3,
-                            "content": "presented the file",
-                            "metric_value": {
-                                "sum": 14.811168846960593
-                            }
+                            "content": "presented the file"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the assistant had written",
-                            "metric_value": {
-                                "sum": 15.105856964400768
-                            }
+                            "content": "that the assistant had written"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 18.215845473715767
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -2708,38 +1733,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The diplomat",
-                            "metric_value": {
-                                "sum": 13.835514322185883
-                            }
+                            "content": "The diplomat"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the spy had contacted repeatedly",
-                            "metric_value": {
-                                "sum": 5.582373132679415
-                            }
+                            "content": "who the spy had contacted repeatedly"
                         },
                         {
                             "region_number": 3,
-                            "content": "presented the file",
-                            "metric_value": {
-                                "sum": 4.500358782602287
-                            }
+                            "content": "presented the file"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the assistant had written",
-                            "metric_value": {
-                                "sum": 2.028395931560942
-                            }
+                            "content": "that the assistant had written"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 12.713230172087995
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -2748,38 +1758,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "After the diplomat",
-                            "metric_value": {
-                                "sum": 3.32969425196791
-                            }
+                            "content": "After the diplomat"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the spy had contacted repeatedly",
-                            "metric_value": {
-                                "sum": 18.814139127949794
-                            }
+                            "content": "who the spy had contacted repeatedly"
                         },
                         {
                             "region_number": 3,
-                            "content": "presented the file",
-                            "metric_value": {
-                                "sum": 11.878398698808297
-                            }
+                            "content": "presented the file"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the assistant had written",
-                            "metric_value": {
-                                "sum": 11.971168333626833
-                            }
+                            "content": "that the assistant had written"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the ambassador gave a speech .",
-                            "metric_value": {
-                                "sum": 18.998605304525405
-                            }
+                            "content": ", the ambassador gave a speech ."
                         }
                     ]
                 },
@@ -2788,38 +1783,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The diplomat",
-                            "metric_value": {
-                                "sum": 9.32278971610886
-                            }
+                            "content": "The diplomat"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the spy had contacted repeatedly",
-                            "metric_value": {
-                                "sum": 18.736670236550058
-                            }
+                            "content": "who the spy had contacted repeatedly"
                         },
                         {
                             "region_number": 3,
-                            "content": "presented the file",
-                            "metric_value": {
-                                "sum": 3.2516754071882783
-                            }
+                            "content": "presented the file"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the assistant had written",
-                            "metric_value": {
-                                "sum": 8.311556506826454
-                            }
+                            "content": "that the assistant had written"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the ambassador gave a speech .",
-                            "metric_value": {
-                                "sum": 1.4846790090786701
-                            }
+                            "content": ", the ambassador gave a speech ."
                         }
                     ]
                 }
@@ -2833,38 +1813,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "While the officials",
-                            "metric_value": {
-                                "sum": 12.09008893371527
-                            }
+                            "content": "While the officials"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the coaches had bribed handsomely",
-                            "metric_value": {
-                                "sum": 15.0429054581226
-                            }
+                            "content": "who the coaches had bribed handsomely"
                         },
                         {
                             "region_number": 3,
-                            "content": "reviewed the contract",
-                            "metric_value": {
-                                "sum": 13.479106182213016
-                            }
+                            "content": "reviewed the contract"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the lawyers had written",
-                            "metric_value": {
-                                "sum": 7.1842004559391475
-                            }
+                            "content": "that the lawyers had written"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 11.609146306749691
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -2873,38 +1838,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The officials",
-                            "metric_value": {
-                                "sum": 9.97731630424379
-                            }
+                            "content": "The officials"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the coaches had bribed handsomely",
-                            "metric_value": {
-                                "sum": 7.529256321729709
-                            }
+                            "content": "who the coaches had bribed handsomely"
                         },
                         {
                             "region_number": 3,
-                            "content": "reviewed the contract",
-                            "metric_value": {
-                                "sum": 14.221614180362375
-                            }
+                            "content": "reviewed the contract"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the lawyers had written",
-                            "metric_value": {
-                                "sum": 4.946896187066185
-                            }
+                            "content": "that the lawyers had written"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 13.802496973759972
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -2913,38 +1863,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "While the officials",
-                            "metric_value": {
-                                "sum": 5.9458433425566675
-                            }
+                            "content": "While the officials"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the coaches had bribed handsomely",
-                            "metric_value": {
-                                "sum": 16.81269217595651
-                            }
+                            "content": "who the coaches had bribed handsomely"
                         },
                         {
                             "region_number": 3,
-                            "content": "reviewed the contract",
-                            "metric_value": {
-                                "sum": 18.861037990914856
-                            }
+                            "content": "reviewed the contract"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the lawyers had written",
-                            "metric_value": {
-                                "sum": 19.351692993470877
-                            }
+                            "content": "that the lawyers had written"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the players waited nervously .",
-                            "metric_value": {
-                                "sum": 11.505858773005825
-                            }
+                            "content": ", the players waited nervously ."
                         }
                     ]
                 },
@@ -2953,38 +1888,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The officials",
-                            "metric_value": {
-                                "sum": 3.9729995250395462
-                            }
+                            "content": "The officials"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the coaches had bribed handsomely",
-                            "metric_value": {
-                                "sum": 1.1676949199103175
-                            }
+                            "content": "who the coaches had bribed handsomely"
                         },
                         {
                             "region_number": 3,
-                            "content": "reviewed the contract",
-                            "metric_value": {
-                                "sum": 12.498091484053056
-                            }
+                            "content": "reviewed the contract"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the lawyers had written",
-                            "metric_value": {
-                                "sum": 18.4531450847867
-                            }
+                            "content": "that the lawyers had written"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the players waited nervously .",
-                            "metric_value": {
-                                "sum": 9.321741585016262
-                            }
+                            "content": ", the players waited nervously ."
                         }
                     ]
                 }
@@ -2998,38 +1918,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Because the clerk",
-                            "metric_value": {
-                                "sum": 3.3644768926618474
-                            }
+                            "content": "Because the clerk"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the citizens liked greatly",
-                            "metric_value": {
-                                "sum": 11.578860420049368
-                            }
+                            "content": "who the citizens liked greatly"
                         },
                         {
                             "region_number": 3,
-                            "content": "lost the plans",
-                            "metric_value": {
-                                "sum": 18.597835955235936
-                            }
+                            "content": "lost the plans"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the city planners had drafted",
-                            "metric_value": {
-                                "sum": 4.22386604235105
-                            }
+                            "content": "that the city planners had drafted"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 6.137121336645612
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -3038,38 +1943,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The clerk",
-                            "metric_value": {
-                                "sum": 8.591367254130038
-                            }
+                            "content": "The clerk"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the citizens liked greatly",
-                            "metric_value": {
-                                "sum": 13.334294123052302
-                            }
+                            "content": "who the citizens liked greatly"
                         },
                         {
                             "region_number": 3,
-                            "content": "lost the plans",
-                            "metric_value": {
-                                "sum": 9.796946767148043
-                            }
+                            "content": "lost the plans"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the city planners had drafted",
-                            "metric_value": {
-                                "sum": 6.6123606769638545
-                            }
+                            "content": "that the city planners had drafted"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 2.2393263637588134
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -3078,38 +1968,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Because the clerk",
-                            "metric_value": {
-                                "sum": 14.265085714367235
-                            }
+                            "content": "Because the clerk"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the citizens liked greatly",
-                            "metric_value": {
-                                "sum": 12.001221171058381
-                            }
+                            "content": "who the citizens liked greatly"
                         },
                         {
                             "region_number": 3,
-                            "content": "lost the plans",
-                            "metric_value": {
-                                "sum": 19.474207100434896
-                            }
+                            "content": "lost the plans"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the city planners had drafted",
-                            "metric_value": {
-                                "sum": 9.852195120269903
-                            }
+                            "content": "that the city planners had drafted"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the detective looked elsewhere .",
-                            "metric_value": {
-                                "sum": 14.907246166699512
-                            }
+                            "content": ", the detective looked elsewhere ."
                         }
                     ]
                 },
@@ -3118,38 +1993,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The clerk",
-                            "metric_value": {
-                                "sum": 8.919693059504525
-                            }
+                            "content": "The clerk"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the citizens liked greatly",
-                            "metric_value": {
-                                "sum": 3.816659169014728
-                            }
+                            "content": "who the citizens liked greatly"
                         },
                         {
                             "region_number": 3,
-                            "content": "lost the plans",
-                            "metric_value": {
-                                "sum": 16.773459100201997
-                            }
+                            "content": "lost the plans"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the city planners had drafted",
-                            "metric_value": {
-                                "sum": 14.485186995991233
-                            }
+                            "content": "that the city planners had drafted"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the detective looked elsewhere .",
-                            "metric_value": {
-                                "sum": 18.510305055571127
-                            }
+                            "content": ", the detective looked elsewhere ."
                         }
                     ]
                 }
@@ -3163,38 +2023,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "While the tourists",
-                            "metric_value": {
-                                "sum": 11.359133151139167
-                            }
+                            "content": "While the tourists"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the locals found strange",
-                            "metric_value": {
-                                "sum": 13.985560953794906
-                            }
+                            "content": "who the locals found strange"
                         },
                         {
                             "region_number": 3,
-                            "content": "read the guide",
-                            "metric_value": {
-                                "sum": 1.0102456534016373
-                            }
+                            "content": "read the guide"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the maid had given them",
-                            "metric_value": {
-                                "sum": 18.020436534078538
-                            }
+                            "content": "that the maid had given them"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 11.053536119196366
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -3203,38 +2048,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The tourists",
-                            "metric_value": {
-                                "sum": 10.342418127000272
-                            }
+                            "content": "The tourists"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the locals found strange",
-                            "metric_value": {
-                                "sum": 19.47178060265483
-                            }
+                            "content": "who the locals found strange"
                         },
                         {
                             "region_number": 3,
-                            "content": "read the guide",
-                            "metric_value": {
-                                "sum": 5.294736409069229
-                            }
+                            "content": "read the guide"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the maid had given them",
-                            "metric_value": {
-                                "sum": 18.42436535935577
-                            }
+                            "content": "that the maid had given them"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 13.844559275808715
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -3243,38 +2073,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "While the tourists",
-                            "metric_value": {
-                                "sum": 5.884871819166561
-                            }
+                            "content": "While the tourists"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the locals found strange",
-                            "metric_value": {
-                                "sum": 15.875898821540284
-                            }
+                            "content": "who the locals found strange"
                         },
                         {
                             "region_number": 3,
-                            "content": "read the guide",
-                            "metric_value": {
-                                "sum": 5.774817147923281
-                            }
+                            "content": "read the guide"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the maid had given them",
-                            "metric_value": {
-                                "sum": 16.627854659031165
-                            }
+                            "content": "that the maid had given them"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the children played in the sand .",
-                            "metric_value": {
-                                "sum": 15.447352914067947
-                            }
+                            "content": ", the children played in the sand ."
                         }
                     ]
                 },
@@ -3283,38 +2098,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The tourists",
-                            "metric_value": {
-                                "sum": 6.3968899543873805
-                            }
+                            "content": "The tourists"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the locals found strange",
-                            "metric_value": {
-                                "sum": 14.098296883658804
-                            }
+                            "content": "who the locals found strange"
                         },
                         {
                             "region_number": 3,
-                            "content": "read the guide",
-                            "metric_value": {
-                                "sum": 6.805431968233616
-                            }
+                            "content": "read the guide"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the maid had given them",
-                            "metric_value": {
-                                "sum": 16.832431910588575
-                            }
+                            "content": "that the maid had given them"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the children played in the sand .",
-                            "metric_value": {
-                                "sum": 1.2867834173699106
-                            }
+                            "content": ", the children played in the sand ."
                         }
                     ]
                 }
@@ -3328,38 +2128,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "When the politicians",
-                            "metric_value": {
-                                "sum": 2.098721582843941
-                            }
+                            "content": "When the politicians"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the lobbyists trusted",
-                            "metric_value": {
-                                "sum": 8.459892676032869
-                            }
+                            "content": "who the lobbyists trusted"
                         },
                         {
                             "region_number": 3,
-                            "content": "passed the new law",
-                            "metric_value": {
-                                "sum": 4.316744874976298
-                            }
+                            "content": "passed the new law"
                         },
                         {
                             "region_number": 4,
-                            "content": "that all the shop owners strongly opposed",
-                            "metric_value": {
-                                "sum": 4.759449481811206
-                            }
+                            "content": "that all the shop owners strongly opposed"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 10.240013609229226
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -3368,38 +2153,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The politicians",
-                            "metric_value": {
-                                "sum": 3.3322580869893272
-                            }
+                            "content": "The politicians"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the lobbyists trusted",
-                            "metric_value": {
-                                "sum": 10.695962523212875
-                            }
+                            "content": "who the lobbyists trusted"
                         },
                         {
                             "region_number": 3,
-                            "content": "passed the new law",
-                            "metric_value": {
-                                "sum": 16.577745274849704
-                            }
+                            "content": "passed the new law"
                         },
                         {
                             "region_number": 4,
-                            "content": "that all the shop owners strongly opposed",
-                            "metric_value": {
-                                "sum": 15.466063141544762
-                            }
+                            "content": "that all the shop owners strongly opposed"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 2.6839283764516053
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -3408,38 +2178,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "When the politicians",
-                            "metric_value": {
-                                "sum": 2.9205882665135188
-                            }
+                            "content": "When the politicians"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the lobbyists trusted",
-                            "metric_value": {
-                                "sum": 16.68225244976366
-                            }
+                            "content": "who the lobbyists trusted"
                         },
                         {
                             "region_number": 3,
-                            "content": "passed the new law",
-                            "metric_value": {
-                                "sum": 5.520536906971913
-                            }
+                            "content": "passed the new law"
                         },
                         {
                             "region_number": 4,
-                            "content": "that all the shop owners strongly opposed",
-                            "metric_value": {
-                                "sum": 13.73365118319566
-                            }
+                            "content": "that all the shop owners strongly opposed"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the protestors walked down the street .",
-                            "metric_value": {
-                                "sum": 14.970544199393295
-                            }
+                            "content": ", the protestors walked down the street ."
                         }
                     ]
                 },
@@ -3448,38 +2203,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The politicians",
-                            "metric_value": {
-                                "sum": 7.973138281079228
-                            }
+                            "content": "The politicians"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the lobbyists trusted",
-                            "metric_value": {
-                                "sum": 3.811739153216815
-                            }
+                            "content": "who the lobbyists trusted"
                         },
                         {
                             "region_number": 3,
-                            "content": "passed the new law",
-                            "metric_value": {
-                                "sum": 2.377354795963023
-                            }
+                            "content": "passed the new law"
                         },
                         {
                             "region_number": 4,
-                            "content": "that all the shop owners strongly opposed",
-                            "metric_value": {
-                                "sum": 12.872732903452919
-                            }
+                            "content": "that all the shop owners strongly opposed"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the protestors walked down the street .",
-                            "metric_value": {
-                                "sum": 9.077028569474882
-                            }
+                            "content": ", the protestors walked down the street ."
                         }
                     ]
                 }
@@ -3493,38 +2233,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "When the police",
-                            "metric_value": {
-                                "sum": 8.015640025934431
-                            }
+                            "content": "When the police"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the officer had given pistols",
-                            "metric_value": {
-                                "sum": 13.936911778255231
-                            }
+                            "content": "who the officer had given pistols"
                         },
                         {
                             "region_number": 3,
-                            "content": "found new evidence",
-                            "metric_value": {
-                                "sum": 13.910787745498752
-                            }
+                            "content": "found new evidence"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the suspect had hidden",
-                            "metric_value": {
-                                "sum": 3.0685424402641104
-                            }
+                            "content": "that the suspect had hidden"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 13.86709725944601
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -3533,38 +2258,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The police",
-                            "metric_value": {
-                                "sum": 17.189253322489762
-                            }
+                            "content": "The police"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the officer had given pistols",
-                            "metric_value": {
-                                "sum": 1.0138521843184267
-                            }
+                            "content": "who the officer had given pistols"
                         },
                         {
                             "region_number": 3,
-                            "content": "found new evidence",
-                            "metric_value": {
-                                "sum": 17.837374524234033
-                            }
+                            "content": "found new evidence"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the suspect had hidden",
-                            "metric_value": {
-                                "sum": 10.20867159309712
-                            }
+                            "content": "that the suspect had hidden"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 5.189179100805746
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -3573,38 +2283,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "When the police",
-                            "metric_value": {
-                                "sum": 4.648671177234057
-                            }
+                            "content": "When the police"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the officer had given pistols",
-                            "metric_value": {
-                                "sum": 8.521941112442946
-                            }
+                            "content": "who the officer had given pistols"
                         },
                         {
                             "region_number": 3,
-                            "content": "found new evidence",
-                            "metric_value": {
-                                "sum": 10.59784986317311
-                            }
+                            "content": "found new evidence"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the suspect had hidden",
-                            "metric_value": {
-                                "sum": 18.80654093534362
-                            }
+                            "content": "that the suspect had hidden"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the judge declared a mistrial .",
-                            "metric_value": {
-                                "sum": 2.6278915051233747
-                            }
+                            "content": ", the judge declared a mistrial ."
                         }
                     ]
                 },
@@ -3613,38 +2308,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The police",
-                            "metric_value": {
-                                "sum": 16.78963788171197
-                            }
+                            "content": "The police"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the officer had given pistols",
-                            "metric_value": {
-                                "sum": 7.980459385122006
-                            }
+                            "content": "who the officer had given pistols"
                         },
                         {
                             "region_number": 3,
-                            "content": "found new evidence",
-                            "metric_value": {
-                                "sum": 10.105425829382751
-                            }
+                            "content": "found new evidence"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the suspect had hidden",
-                            "metric_value": {
-                                "sum": 2.759088568863079
-                            }
+                            "content": "that the suspect had hidden"
                         },
                         {
                             "region_number": 5,
-                            "content": ", the judge declared a mistrial .",
-                            "metric_value": {
-                                "sum": 6.474669616120048
-                            }
+                            "content": ", the judge declared a mistrial ."
                         }
                     ]
                 }
@@ -3658,38 +2338,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Before the students",
-                            "metric_value": {
-                                "sum": 10.225919119169408
-                            }
+                            "content": "Before the students"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the committee had praised",
-                            "metric_value": {
-                                "sum": 1.6850643353855879
-                            }
+                            "content": "who the committee had praised"
                         },
                         {
                             "region_number": 3,
-                            "content": "handed in their papers",
-                            "metric_value": {
-                                "sum": 7.35927231911771
-                            }
+                            "content": "handed in their papers"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the teacher assigned them",
-                            "metric_value": {
-                                "sum": 2.1907179411699964
-                            }
+                            "content": "that the teacher assigned them"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 8.105003765562671
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -3698,38 +2363,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The students",
-                            "metric_value": {
-                                "sum": 19.87763543578824
-                            }
+                            "content": "The students"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the committee had praised",
-                            "metric_value": {
-                                "sum": 6.974412454834019
-                            }
+                            "content": "who the committee had praised"
                         },
                         {
                             "region_number": 3,
-                            "content": "handed in their papers",
-                            "metric_value": {
-                                "sum": 4.293508582069634
-                            }
+                            "content": "handed in their papers"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the teacher assigned them",
-                            "metric_value": {
-                                "sum": 16.041214840337133
-                            }
+                            "content": "that the teacher assigned them"
                         },
                         {
                             "region_number": 5,
-                            "content": ".",
-                            "metric_value": {
-                                "sum": 4.690843792272679
-                            }
+                            "content": "."
                         }
                     ]
                 },
@@ -3738,38 +2388,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "Before the students",
-                            "metric_value": {
-                                "sum": 3.158402487563322
-                            }
+                            "content": "Before the students"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the committee had praised",
-                            "metric_value": {
-                                "sum": 10.300095418428505
-                            }
+                            "content": "who the committee had praised"
                         },
                         {
                             "region_number": 3,
-                            "content": "handed in their papers",
-                            "metric_value": {
-                                "sum": 5.107514019989305
-                            }
+                            "content": "handed in their papers"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the teacher assigned them",
-                            "metric_value": {
-                                "sum": 9.778202748411013
-                            }
+                            "content": "that the teacher assigned them"
                         },
                         {
                             "region_number": 5,
-                            "content": ", they revised them all night long .",
-                            "metric_value": {
-                                "sum": 19.352841676927685
-                            }
+                            "content": ", they revised them all night long ."
                         }
                     ]
                 },
@@ -3778,38 +2413,23 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The students",
-                            "metric_value": {
-                                "sum": 13.45779931190487
-                            }
+                            "content": "The students"
                         },
                         {
                             "region_number": 2,
-                            "content": "who the committee had praised",
-                            "metric_value": {
-                                "sum": 8.357524479921327
-                            }
+                            "content": "who the committee had praised"
                         },
                         {
                             "region_number": 3,
-                            "content": "handed in their papers",
-                            "metric_value": {
-                                "sum": 9.622474226975145
-                            }
+                            "content": "handed in their papers"
                         },
                         {
                             "region_number": 4,
-                            "content": "that the teacher assigned them",
-                            "metric_value": {
-                                "sum": 4.980828802921012
-                            }
+                            "content": "that the teacher assigned them"
                         },
                         {
                             "region_number": 5,
-                            "content": ", they revised them all night long .",
-                            "metric_value": {
-                                "sum": 9.598304587902609
-                            }
+                            "content": ", they revised them all night long ."
                         }
                     ]
                 }
