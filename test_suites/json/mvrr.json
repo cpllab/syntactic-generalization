@@ -4852,7 +4852,7 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The ",
+                            "content": "The",
                             "metric_value": {
                                 "sum": 1.6674882241380118
                             }
@@ -4899,7 +4899,7 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The ",
+                            "content": "The",
                             "metric_value": {
                                 "sum": 11.521658606117816
                             }
@@ -4946,7 +4946,7 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The ",
+                            "content": "The",
                             "metric_value": {
                                 "sum": 7.239875489637723
                             }
@@ -4993,7 +4993,7 @@
                     "regions": [
                         {
                             "region_number": 1,
-                            "content": "The ",
+                            "content": "The",
                             "metric_value": {
                                 "sum": 10.352974365340184
                             }
@@ -5127,7 +5127,7 @@
                         },
                         {
                             "region_number": 6,
-                            "content": " ",
+                            "content": "",
                             "metric_value": {
                                 "sum": 6.9805107779474165
                             }
