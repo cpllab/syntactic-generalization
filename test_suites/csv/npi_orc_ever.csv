@@ -1,0 +1,1369 @@
+item_number,condition_name,region_number,region_name,content
+1,neg_pos,1,Licensor,No
+1,neg_pos,2,np,author
+1,neg_pos,3,compl,that
+1,neg_pos,4,rc_dp,the
+1,neg_pos,5,rc_subj,senators
+1,neg_pos,6,rc_verb,liked
+1,neg_pos,7,has,has
+1,neg_pos,8,npi,ever
+1,neg_pos,9,continuation,been popular
+1,neg_neg,1,Licensor,No
+1,neg_neg,2,np,author
+1,neg_neg,3,compl,that
+1,neg_neg,4,rc_dp,no
+1,neg_neg,5,rc_subj,senators
+1,neg_neg,6,rc_verb,liked
+1,neg_neg,7,has,has
+1,neg_neg,8,npi,ever
+1,neg_neg,9,continuation,been popular
+1,pos_pos,1,Licensor,The
+1,pos_pos,2,np,author
+1,pos_pos,3,compl,that
+1,pos_pos,4,rc_dp,the
+1,pos_pos,5,rc_subj,senators
+1,pos_pos,6,rc_verb,liked
+1,pos_pos,7,has,has
+1,pos_pos,8,npi,ever
+1,pos_pos,9,continuation,been popular
+1,pos_neg,1,Licensor,The
+1,pos_neg,2,np,author
+1,pos_neg,3,compl,that
+1,pos_neg,4,rc_dp,no
+1,pos_neg,5,rc_subj,senators
+1,pos_neg,6,rc_verb,liked
+1,pos_neg,7,has,has
+1,pos_neg,8,npi,ever
+1,pos_neg,9,continuation,been popular
+2,neg_pos,1,Licensor,No
+2,neg_pos,2,np,pilot
+2,neg_pos,3,compl,that
+2,neg_pos,4,rc_dp,the
+2,neg_pos,5,rc_subj,consultants
+2,neg_pos,6,rc_verb,met
+2,neg_pos,7,has,has
+2,neg_pos,8,npi,ever
+2,neg_pos,9,continuation,been famous
+2,neg_neg,1,Licensor,No
+2,neg_neg,2,np,pilot
+2,neg_neg,3,compl,that
+2,neg_neg,4,rc_dp,no
+2,neg_neg,5,rc_subj,consultants
+2,neg_neg,6,rc_verb,met
+2,neg_neg,7,has,has
+2,neg_neg,8,npi,ever
+2,neg_neg,9,continuation,been famous
+2,pos_pos,1,Licensor,The
+2,pos_pos,2,np,pilot
+2,pos_pos,3,compl,that
+2,pos_pos,4,rc_dp,the
+2,pos_pos,5,rc_subj,consultants
+2,pos_pos,6,rc_verb,met
+2,pos_pos,7,has,has
+2,pos_pos,8,npi,ever
+2,pos_pos,9,continuation,been famous
+2,pos_neg,1,Licensor,The
+2,pos_neg,2,np,pilot
+2,pos_neg,3,compl,that
+2,pos_neg,4,rc_dp,no
+2,pos_neg,5,rc_subj,consultants
+2,pos_neg,6,rc_verb,met
+2,pos_neg,7,has,has
+2,pos_neg,8,npi,ever
+2,pos_neg,9,continuation,been famous
+3,neg_pos,1,Licensor,No
+3,neg_pos,2,np,doctor
+3,neg_pos,3,compl,that
+3,neg_pos,4,rc_dp,the
+3,neg_pos,5,rc_subj,guards
+3,neg_pos,6,rc_verb,hated
+3,neg_pos,7,has,has
+3,neg_pos,8,npi,ever
+3,neg_pos,9,continuation,had children
+3,neg_neg,1,Licensor,No
+3,neg_neg,2,np,doctor
+3,neg_neg,3,compl,that
+3,neg_neg,4,rc_dp,no
+3,neg_neg,5,rc_subj,guards
+3,neg_neg,6,rc_verb,hated
+3,neg_neg,7,has,has
+3,neg_neg,8,npi,ever
+3,neg_neg,9,continuation,had children
+3,pos_pos,1,Licensor,The
+3,pos_pos,2,np,doctor
+3,pos_pos,3,compl,that
+3,pos_pos,4,rc_dp,the
+3,pos_pos,5,rc_subj,guards
+3,pos_pos,6,rc_verb,hated
+3,pos_pos,7,has,has
+3,pos_pos,8,npi,ever
+3,pos_pos,9,continuation,had children
+3,pos_neg,1,Licensor,The
+3,pos_neg,2,np,doctor
+3,pos_neg,3,compl,that
+3,pos_neg,4,rc_dp,no
+3,pos_neg,5,rc_subj,guards
+3,pos_neg,6,rc_verb,hated
+3,pos_neg,7,has,has
+3,pos_neg,8,npi,ever
+3,pos_neg,9,continuation,had children
+4,neg_pos,1,Licensor,No
+4,neg_pos,2,np,farmer
+4,neg_pos,3,compl,that
+4,neg_pos,4,rc_dp,the
+4,neg_pos,5,rc_subj,clerks
+4,neg_pos,6,rc_verb,discussed
+4,neg_pos,7,has,has
+4,neg_pos,8,npi,ever
+4,neg_pos,9,continuation,been appreciated
+4,neg_neg,1,Licensor,No
+4,neg_neg,2,np,farmer
+4,neg_neg,3,compl,that
+4,neg_neg,4,rc_dp,no
+4,neg_neg,5,rc_subj,clerks
+4,neg_neg,6,rc_verb,discussed
+4,neg_neg,7,has,has
+4,neg_neg,8,npi,ever
+4,neg_neg,9,continuation,been appreciated
+4,pos_pos,1,Licensor,The
+4,pos_pos,2,np,farmer
+4,pos_pos,3,compl,that
+4,pos_pos,4,rc_dp,the
+4,pos_pos,5,rc_subj,clerks
+4,pos_pos,6,rc_verb,discussed
+4,pos_pos,7,has,has
+4,pos_pos,8,npi,ever
+4,pos_pos,9,continuation,been appreciated
+4,pos_neg,1,Licensor,The
+4,pos_neg,2,np,farmer
+4,pos_neg,3,compl,that
+4,pos_neg,4,rc_dp,no
+4,pos_neg,5,rc_subj,clerks
+4,pos_neg,6,rc_verb,discussed
+4,pos_neg,7,has,has
+4,pos_neg,8,npi,ever
+4,pos_neg,9,continuation,been appreciated
+5,neg_pos,1,Licensor,No
+5,neg_pos,2,np,manager
+5,neg_pos,3,compl,that
+5,neg_pos,4,rc_dp,the
+5,neg_pos,5,rc_subj,architects
+5,neg_pos,6,rc_verb,loved
+5,neg_pos,7,has,has
+5,neg_pos,8,npi,ever
+5,neg_pos,9,continuation,been ignored
+5,neg_neg,1,Licensor,No
+5,neg_neg,2,np,manager
+5,neg_neg,3,compl,that
+5,neg_neg,4,rc_dp,no
+5,neg_neg,5,rc_subj,architects
+5,neg_neg,6,rc_verb,loved
+5,neg_neg,7,has,has
+5,neg_neg,8,npi,ever
+5,neg_neg,9,continuation,been ignored
+5,pos_pos,1,Licensor,The
+5,pos_pos,2,np,manager
+5,pos_pos,3,compl,that
+5,pos_pos,4,rc_dp,the
+5,pos_pos,5,rc_subj,architects
+5,pos_pos,6,rc_verb,loved
+5,pos_pos,7,has,has
+5,pos_pos,8,npi,ever
+5,pos_pos,9,continuation,been ignored
+5,pos_neg,1,Licensor,The
+5,pos_neg,2,np,manager
+5,pos_neg,3,compl,that
+5,pos_neg,4,rc_dp,no
+5,pos_neg,5,rc_subj,architects
+5,pos_neg,6,rc_verb,loved
+5,pos_neg,7,has,has
+5,pos_neg,8,npi,ever
+5,pos_neg,9,continuation,been ignored
+6,neg_pos,1,Licensor,No
+6,neg_pos,2,np,customer
+6,neg_pos,3,compl,that
+6,neg_pos,4,rc_dp,the
+6,neg_pos,5,rc_subj,athletes
+6,neg_pos,6,rc_verb,liked
+6,neg_pos,7,has,has
+6,neg_pos,8,npi,ever
+6,neg_pos,9,continuation,gotten old
+6,neg_neg,1,Licensor,No
+6,neg_neg,2,np,customer
+6,neg_neg,3,compl,that
+6,neg_neg,4,rc_dp,no
+6,neg_neg,5,rc_subj,athletes
+6,neg_neg,6,rc_verb,liked
+6,neg_neg,7,has,has
+6,neg_neg,8,npi,ever
+6,neg_neg,9,continuation,gotten old
+6,pos_pos,1,Licensor,The
+6,pos_pos,2,np,customer
+6,pos_pos,3,compl,that
+6,pos_pos,4,rc_dp,the
+6,pos_pos,5,rc_subj,athletes
+6,pos_pos,6,rc_verb,liked
+6,pos_pos,7,has,has
+6,pos_pos,8,npi,ever
+6,pos_pos,9,continuation,gotten old
+6,pos_neg,1,Licensor,The
+6,pos_neg,2,np,customer
+6,pos_neg,3,compl,that
+6,pos_neg,4,rc_dp,no
+6,pos_neg,5,rc_subj,athletes
+6,pos_neg,6,rc_verb,liked
+6,pos_neg,7,has,has
+6,pos_neg,8,npi,ever
+6,pos_neg,9,continuation,gotten old
+7,neg_pos,1,Licensor,No
+7,neg_pos,2,np,officer
+7,neg_pos,3,compl,that
+7,neg_pos,4,rc_dp,the
+7,neg_pos,5,rc_subj,actors
+7,neg_pos,6,rc_verb,met
+7,neg_pos,7,has,has
+7,neg_pos,8,npi,ever
+7,neg_pos,9,continuation,been popular
+7,neg_neg,1,Licensor,No
+7,neg_neg,2,np,officer
+7,neg_neg,3,compl,that
+7,neg_neg,4,rc_dp,no
+7,neg_neg,5,rc_subj,actors
+7,neg_neg,6,rc_verb,met
+7,neg_neg,7,has,has
+7,neg_neg,8,npi,ever
+7,neg_neg,9,continuation,been popular
+7,pos_pos,1,Licensor,The
+7,pos_pos,2,np,officer
+7,pos_pos,3,compl,that
+7,pos_pos,4,rc_dp,the
+7,pos_pos,5,rc_subj,actors
+7,pos_pos,6,rc_verb,met
+7,pos_pos,7,has,has
+7,pos_pos,8,npi,ever
+7,pos_pos,9,continuation,been popular
+7,pos_neg,1,Licensor,The
+7,pos_neg,2,np,officer
+7,pos_neg,3,compl,that
+7,pos_neg,4,rc_dp,no
+7,pos_neg,5,rc_subj,actors
+7,pos_neg,6,rc_verb,met
+7,pos_neg,7,has,has
+7,pos_neg,8,npi,ever
+7,pos_neg,9,continuation,been popular
+8,neg_pos,1,Licensor,No
+8,neg_pos,2,np,teacher
+8,neg_pos,3,compl,that
+8,neg_pos,4,rc_dp,the
+8,neg_pos,5,rc_subj,ministers
+8,neg_pos,6,rc_verb,hated
+8,neg_pos,7,has,has
+8,neg_pos,8,npi,ever
+8,neg_pos,9,continuation,been famous
+8,neg_neg,1,Licensor,No
+8,neg_neg,2,np,teacher
+8,neg_neg,3,compl,that
+8,neg_neg,4,rc_dp,no
+8,neg_neg,5,rc_subj,ministers
+8,neg_neg,6,rc_verb,hated
+8,neg_neg,7,has,has
+8,neg_neg,8,npi,ever
+8,neg_neg,9,continuation,been famous
+8,pos_pos,1,Licensor,The
+8,pos_pos,2,np,teacher
+8,pos_pos,3,compl,that
+8,pos_pos,4,rc_dp,the
+8,pos_pos,5,rc_subj,ministers
+8,pos_pos,6,rc_verb,hated
+8,pos_pos,7,has,has
+8,pos_pos,8,npi,ever
+8,pos_pos,9,continuation,been famous
+8,pos_neg,1,Licensor,The
+8,pos_neg,2,np,teacher
+8,pos_neg,3,compl,that
+8,pos_neg,4,rc_dp,no
+8,pos_neg,5,rc_subj,ministers
+8,pos_neg,6,rc_verb,hated
+8,pos_neg,7,has,has
+8,pos_neg,8,npi,ever
+8,pos_neg,9,continuation,been famous
+9,neg_pos,1,Licensor,No
+9,neg_pos,2,np,senator
+9,neg_pos,3,compl,that
+9,neg_pos,4,rc_dp,the
+9,neg_pos,5,rc_subj,taxi drivers
+9,neg_pos,6,rc_verb,admired
+9,neg_pos,7,has,has
+9,neg_pos,8,npi,ever
+9,neg_pos,9,continuation,had children
+9,neg_neg,1,Licensor,No
+9,neg_neg,2,np,senator
+9,neg_neg,3,compl,that
+9,neg_neg,4,rc_dp,no
+9,neg_neg,5,rc_subj,taxi drivers
+9,neg_neg,6,rc_verb,admired
+9,neg_neg,7,has,has
+9,neg_neg,8,npi,ever
+9,neg_neg,9,continuation,had children
+9,pos_pos,1,Licensor,The
+9,pos_pos,2,np,senator
+9,pos_pos,3,compl,that
+9,pos_pos,4,rc_dp,the
+9,pos_pos,5,rc_subj,taxi drivers
+9,pos_pos,6,rc_verb,admired
+9,pos_pos,7,has,has
+9,pos_pos,8,npi,ever
+9,pos_pos,9,continuation,had children
+9,pos_neg,1,Licensor,The
+9,pos_neg,2,np,senator
+9,pos_neg,3,compl,that
+9,pos_neg,4,rc_dp,no
+9,pos_neg,5,rc_subj,taxi drivers
+9,pos_neg,6,rc_verb,admired
+9,pos_neg,7,has,has
+9,pos_neg,8,npi,ever
+9,pos_neg,9,continuation,had children
+10,neg_pos,1,Licensor,No
+10,neg_pos,2,np,consultant
+10,neg_pos,3,compl,that
+10,neg_pos,4,rc_dp,the
+10,neg_pos,5,rc_subj,secretaries
+10,neg_pos,6,rc_verb,loved
+10,neg_pos,7,has,has
+10,neg_pos,8,npi,ever
+10,neg_pos,9,continuation,been appreciated
+10,neg_neg,1,Licensor,No
+10,neg_neg,2,np,consultant
+10,neg_neg,3,compl,that
+10,neg_neg,4,rc_dp,no
+10,neg_neg,5,rc_subj,secretaries
+10,neg_neg,6,rc_verb,loved
+10,neg_neg,7,has,has
+10,neg_neg,8,npi,ever
+10,neg_neg,9,continuation,been appreciated
+10,pos_pos,1,Licensor,The
+10,pos_pos,2,np,consultant
+10,pos_pos,3,compl,that
+10,pos_pos,4,rc_dp,the
+10,pos_pos,5,rc_subj,secretaries
+10,pos_pos,6,rc_verb,loved
+10,pos_pos,7,has,has
+10,pos_pos,8,npi,ever
+10,pos_pos,9,continuation,been appreciated
+10,pos_neg,1,Licensor,The
+10,pos_neg,2,np,consultant
+10,pos_neg,3,compl,that
+10,pos_neg,4,rc_dp,no
+10,pos_neg,5,rc_subj,secretaries
+10,pos_neg,6,rc_verb,loved
+10,pos_neg,7,has,has
+10,pos_neg,8,npi,ever
+10,pos_neg,9,continuation,been appreciated
+11,neg_pos,1,Licensor,No
+11,neg_pos,2,np,guard
+11,neg_pos,3,compl,that
+11,neg_pos,4,rc_dp,the
+11,neg_pos,5,rc_subj,executives
+11,neg_pos,6,rc_verb,liked
+11,neg_pos,7,has,has
+11,neg_pos,8,npi,ever
+11,neg_pos,9,continuation,been ignored
+11,neg_neg,1,Licensor,No
+11,neg_neg,2,np,guard
+11,neg_neg,3,compl,that
+11,neg_neg,4,rc_dp,no
+11,neg_neg,5,rc_subj,executives
+11,neg_neg,6,rc_verb,liked
+11,neg_neg,7,has,has
+11,neg_neg,8,npi,ever
+11,neg_neg,9,continuation,been ignored
+11,pos_pos,1,Licensor,The
+11,pos_pos,2,np,guard
+11,pos_pos,3,compl,that
+11,pos_pos,4,rc_dp,the
+11,pos_pos,5,rc_subj,executives
+11,pos_pos,6,rc_verb,liked
+11,pos_pos,7,has,has
+11,pos_pos,8,npi,ever
+11,pos_pos,9,continuation,been ignored
+11,pos_neg,1,Licensor,The
+11,pos_neg,2,np,guard
+11,pos_neg,3,compl,that
+11,pos_neg,4,rc_dp,no
+11,pos_neg,5,rc_subj,executives
+11,pos_neg,6,rc_verb,liked
+11,pos_neg,7,has,has
+11,pos_neg,8,npi,ever
+11,pos_neg,9,continuation,been ignored
+12,neg_pos,1,Licensor,No
+12,neg_pos,2,np,clerk
+12,neg_pos,3,compl,that
+12,neg_pos,4,rc_dp,the
+12,neg_pos,5,rc_subj,authors
+12,neg_pos,6,rc_verb,met
+12,neg_pos,7,has,has
+12,neg_pos,8,npi,ever
+12,neg_pos,9,continuation,gotten old
+12,neg_neg,1,Licensor,No
+12,neg_neg,2,np,clerk
+12,neg_neg,3,compl,that
+12,neg_neg,4,rc_dp,no
+12,neg_neg,5,rc_subj,authors
+12,neg_neg,6,rc_verb,met
+12,neg_neg,7,has,has
+12,neg_neg,8,npi,ever
+12,neg_neg,9,continuation,gotten old
+12,pos_pos,1,Licensor,The
+12,pos_pos,2,np,clerk
+12,pos_pos,3,compl,that
+12,pos_pos,4,rc_dp,the
+12,pos_pos,5,rc_subj,authors
+12,pos_pos,6,rc_verb,met
+12,pos_pos,7,has,has
+12,pos_pos,8,npi,ever
+12,pos_pos,9,continuation,gotten old
+12,pos_neg,1,Licensor,The
+12,pos_neg,2,np,clerk
+12,pos_neg,3,compl,that
+12,pos_neg,4,rc_dp,no
+12,pos_neg,5,rc_subj,authors
+12,pos_neg,6,rc_verb,met
+12,pos_neg,7,has,has
+12,pos_neg,8,npi,ever
+12,pos_neg,9,continuation,gotten old
+13,neg_pos,1,Licensor,No
+13,neg_pos,2,np,architect
+13,neg_pos,3,compl,that
+13,neg_pos,4,rc_dp,the
+13,neg_pos,5,rc_subj,pilots
+13,neg_pos,6,rc_verb,hated
+13,neg_pos,7,has,has
+13,neg_pos,8,npi,ever
+13,neg_pos,9,continuation,been popular
+13,neg_neg,1,Licensor,No
+13,neg_neg,2,np,architect
+13,neg_neg,3,compl,that
+13,neg_neg,4,rc_dp,no
+13,neg_neg,5,rc_subj,pilots
+13,neg_neg,6,rc_verb,hated
+13,neg_neg,7,has,has
+13,neg_neg,8,npi,ever
+13,neg_neg,9,continuation,been popular
+13,pos_pos,1,Licensor,The
+13,pos_pos,2,np,architect
+13,pos_pos,3,compl,that
+13,pos_pos,4,rc_dp,the
+13,pos_pos,5,rc_subj,pilots
+13,pos_pos,6,rc_verb,hated
+13,pos_pos,7,has,has
+13,pos_pos,8,npi,ever
+13,pos_pos,9,continuation,been popular
+13,pos_neg,1,Licensor,The
+13,pos_neg,2,np,architect
+13,pos_neg,3,compl,that
+13,pos_neg,4,rc_dp,no
+13,pos_neg,5,rc_subj,pilots
+13,pos_neg,6,rc_verb,hated
+13,pos_neg,7,has,has
+13,pos_neg,8,npi,ever
+13,pos_neg,9,continuation,been popular
+14,neg_pos,1,Licensor,No
+14,neg_pos,2,np,athlete
+14,neg_pos,3,compl,that
+14,neg_pos,4,rc_dp,the
+14,neg_pos,5,rc_subj,doctors
+14,neg_pos,6,rc_verb,helped
+14,neg_pos,7,has,has
+14,neg_pos,8,npi,ever
+14,neg_pos,9,continuation,been famous
+14,neg_neg,1,Licensor,No
+14,neg_neg,2,np,athlete
+14,neg_neg,3,compl,that
+14,neg_neg,4,rc_dp,no
+14,neg_neg,5,rc_subj,doctors
+14,neg_neg,6,rc_verb,helped
+14,neg_neg,7,has,has
+14,neg_neg,8,npi,ever
+14,neg_neg,9,continuation,been famous
+14,pos_pos,1,Licensor,The
+14,pos_pos,2,np,athlete
+14,pos_pos,3,compl,that
+14,pos_pos,4,rc_dp,the
+14,pos_pos,5,rc_subj,doctors
+14,pos_pos,6,rc_verb,helped
+14,pos_pos,7,has,has
+14,pos_pos,8,npi,ever
+14,pos_pos,9,continuation,been famous
+14,pos_neg,1,Licensor,The
+14,pos_neg,2,np,athlete
+14,pos_neg,3,compl,that
+14,pos_neg,4,rc_dp,no
+14,pos_neg,5,rc_subj,doctors
+14,pos_neg,6,rc_verb,helped
+14,pos_neg,7,has,has
+14,pos_neg,8,npi,ever
+14,pos_neg,9,continuation,been famous
+15,neg_pos,1,Licensor,No
+15,neg_pos,2,np,actor
+15,neg_pos,3,compl,that
+15,neg_pos,4,rc_dp,the
+15,neg_pos,5,rc_subj,farmers
+15,neg_pos,6,rc_verb,loved
+15,neg_pos,7,has,has
+15,neg_pos,8,npi,ever
+15,neg_pos,9,continuation,had children
+15,neg_neg,1,Licensor,No
+15,neg_neg,2,np,actor
+15,neg_neg,3,compl,that
+15,neg_neg,4,rc_dp,no
+15,neg_neg,5,rc_subj,farmers
+15,neg_neg,6,rc_verb,loved
+15,neg_neg,7,has,has
+15,neg_neg,8,npi,ever
+15,neg_neg,9,continuation,had children
+15,pos_pos,1,Licensor,The
+15,pos_pos,2,np,actor
+15,pos_pos,3,compl,that
+15,pos_pos,4,rc_dp,the
+15,pos_pos,5,rc_subj,farmers
+15,pos_pos,6,rc_verb,loved
+15,pos_pos,7,has,has
+15,pos_pos,8,npi,ever
+15,pos_pos,9,continuation,had children
+15,pos_neg,1,Licensor,The
+15,pos_neg,2,np,actor
+15,pos_neg,3,compl,that
+15,pos_neg,4,rc_dp,no
+15,pos_neg,5,rc_subj,farmers
+15,pos_neg,6,rc_verb,loved
+15,pos_neg,7,has,has
+15,pos_neg,8,npi,ever
+15,pos_neg,9,continuation,had children
+16,neg_pos,1,Licensor,No
+16,neg_pos,2,np,minister
+16,neg_pos,3,compl,that
+16,neg_pos,4,rc_dp,the
+16,neg_pos,5,rc_subj,managers
+16,neg_pos,6,rc_verb,liked
+16,neg_pos,7,has,has
+16,neg_pos,8,npi,ever
+16,neg_pos,9,continuation,been appreciated
+16,neg_neg,1,Licensor,No
+16,neg_neg,2,np,minister
+16,neg_neg,3,compl,that
+16,neg_neg,4,rc_dp,no
+16,neg_neg,5,rc_subj,managers
+16,neg_neg,6,rc_verb,liked
+16,neg_neg,7,has,has
+16,neg_neg,8,npi,ever
+16,neg_neg,9,continuation,been appreciated
+16,pos_pos,1,Licensor,The
+16,pos_pos,2,np,minister
+16,pos_pos,3,compl,that
+16,pos_pos,4,rc_dp,the
+16,pos_pos,5,rc_subj,managers
+16,pos_pos,6,rc_verb,liked
+16,pos_pos,7,has,has
+16,pos_pos,8,npi,ever
+16,pos_pos,9,continuation,been appreciated
+16,pos_neg,1,Licensor,The
+16,pos_neg,2,np,minister
+16,pos_neg,3,compl,that
+16,pos_neg,4,rc_dp,no
+16,pos_neg,5,rc_subj,managers
+16,pos_neg,6,rc_verb,liked
+16,pos_neg,7,has,has
+16,pos_neg,8,npi,ever
+16,pos_neg,9,continuation,been appreciated
+17,neg_pos,1,Licensor,No
+17,neg_pos,2,np,taxi driver
+17,neg_pos,3,compl,that
+17,neg_pos,4,rc_dp,the
+17,neg_pos,5,rc_subj,customers
+17,neg_pos,6,rc_verb,met
+17,neg_pos,7,has,has
+17,neg_pos,8,npi,ever
+17,neg_pos,9,continuation,been ignored
+17,neg_neg,1,Licensor,No
+17,neg_neg,2,np,taxi driver
+17,neg_neg,3,compl,that
+17,neg_neg,4,rc_dp,no
+17,neg_neg,5,rc_subj,customers
+17,neg_neg,6,rc_verb,met
+17,neg_neg,7,has,has
+17,neg_neg,8,npi,ever
+17,neg_neg,9,continuation,been ignored
+17,pos_pos,1,Licensor,The
+17,pos_pos,2,np,taxi driver
+17,pos_pos,3,compl,that
+17,pos_pos,4,rc_dp,the
+17,pos_pos,5,rc_subj,customers
+17,pos_pos,6,rc_verb,met
+17,pos_pos,7,has,has
+17,pos_pos,8,npi,ever
+17,pos_pos,9,continuation,been ignored
+17,pos_neg,1,Licensor,The
+17,pos_neg,2,np,taxi driver
+17,pos_neg,3,compl,that
+17,pos_neg,4,rc_dp,no
+17,pos_neg,5,rc_subj,customers
+17,pos_neg,6,rc_verb,met
+17,pos_neg,7,has,has
+17,pos_neg,8,npi,ever
+17,pos_neg,9,continuation,been ignored
+18,neg_pos,1,Licensor,No
+18,neg_pos,2,np,secretary
+18,neg_pos,3,compl,that
+18,neg_pos,4,rc_dp,the
+18,neg_pos,5,rc_subj,officers
+18,neg_pos,6,rc_verb,hated
+18,neg_pos,7,has,has
+18,neg_pos,8,npi,ever
+18,neg_pos,9,continuation,gotten old
+18,neg_neg,1,Licensor,No
+18,neg_neg,2,np,secretary
+18,neg_neg,3,compl,that
+18,neg_neg,4,rc_dp,no
+18,neg_neg,5,rc_subj,officers
+18,neg_neg,6,rc_verb,hated
+18,neg_neg,7,has,has
+18,neg_neg,8,npi,ever
+18,neg_neg,9,continuation,gotten old
+18,pos_pos,1,Licensor,The
+18,pos_pos,2,np,secretary
+18,pos_pos,3,compl,that
+18,pos_pos,4,rc_dp,the
+18,pos_pos,5,rc_subj,officers
+18,pos_pos,6,rc_verb,hated
+18,pos_pos,7,has,has
+18,pos_pos,8,npi,ever
+18,pos_pos,9,continuation,gotten old
+18,pos_neg,1,Licensor,The
+18,pos_neg,2,np,secretary
+18,pos_neg,3,compl,that
+18,pos_neg,4,rc_dp,no
+18,pos_neg,5,rc_subj,officers
+18,pos_neg,6,rc_verb,hated
+18,pos_neg,7,has,has
+18,pos_neg,8,npi,ever
+18,pos_neg,9,continuation,gotten old
+19,neg_pos,1,Licensor,No
+19,neg_pos,2,np,executive
+19,neg_pos,3,compl,that
+19,neg_pos,4,rc_dp,the
+19,neg_pos,5,rc_subj,teachers
+19,neg_pos,6,rc_verb,discussed
+19,neg_pos,7,has,has
+19,neg_pos,8,npi,ever
+19,neg_pos,9,continuation,been popular
+19,neg_neg,1,Licensor,No
+19,neg_neg,2,np,executive
+19,neg_neg,3,compl,that
+19,neg_neg,4,rc_dp,no
+19,neg_neg,5,rc_subj,teachers
+19,neg_neg,6,rc_verb,discussed
+19,neg_neg,7,has,has
+19,neg_neg,8,npi,ever
+19,neg_neg,9,continuation,been popular
+19,pos_pos,1,Licensor,The
+19,pos_pos,2,np,executive
+19,pos_pos,3,compl,that
+19,pos_pos,4,rc_dp,the
+19,pos_pos,5,rc_subj,teachers
+19,pos_pos,6,rc_verb,discussed
+19,pos_pos,7,has,has
+19,pos_pos,8,npi,ever
+19,pos_pos,9,continuation,been popular
+19,pos_neg,1,Licensor,The
+19,pos_neg,2,np,executive
+19,pos_neg,3,compl,that
+19,pos_neg,4,rc_dp,no
+19,pos_neg,5,rc_subj,teachers
+19,pos_neg,6,rc_verb,discussed
+19,pos_neg,7,has,has
+19,pos_neg,8,npi,ever
+19,pos_neg,9,continuation,been popular
+20,neg_pos,1,Licensor,No
+20,neg_pos,2,np,authors
+20,neg_pos,3,compl,that
+20,neg_pos,4,rc_dp,the
+20,neg_pos,5,rc_subj,officer
+20,neg_pos,6,rc_verb,loved
+20,neg_pos,7,has,have
+20,neg_pos,8,npi,ever
+20,neg_pos,9,continuation,been famous
+20,neg_neg,1,Licensor,No
+20,neg_neg,2,np,authors
+20,neg_neg,3,compl,that
+20,neg_neg,4,rc_dp,no
+20,neg_neg,5,rc_subj,officer
+20,neg_neg,6,rc_verb,loved
+20,neg_neg,7,has,have
+20,neg_neg,8,npi,ever
+20,neg_neg,9,continuation,been famous
+20,pos_pos,1,Licensor,The
+20,pos_pos,2,np,authors
+20,pos_pos,3,compl,that
+20,pos_pos,4,rc_dp,the
+20,pos_pos,5,rc_subj,officer
+20,pos_pos,6,rc_verb,loved
+20,pos_pos,7,has,have
+20,pos_pos,8,npi,ever
+20,pos_pos,9,continuation,been famous
+20,pos_neg,1,Licensor,The
+20,pos_neg,2,np,authors
+20,pos_neg,3,compl,that
+20,pos_neg,4,rc_dp,no
+20,pos_neg,5,rc_subj,officer
+20,pos_neg,6,rc_verb,loved
+20,pos_neg,7,has,have
+20,pos_neg,8,npi,ever
+20,pos_neg,9,continuation,been famous
+21,neg_pos,1,Licensor,No
+21,neg_pos,2,np,pilots
+21,neg_pos,3,compl,that
+21,neg_pos,4,rc_dp,the
+21,neg_pos,5,rc_subj,teacher
+21,neg_pos,6,rc_verb,liked
+21,neg_pos,7,has,have
+21,neg_pos,8,npi,ever
+21,neg_pos,9,continuation,had children
+21,neg_neg,1,Licensor,No
+21,neg_neg,2,np,pilots
+21,neg_neg,3,compl,that
+21,neg_neg,4,rc_dp,no
+21,neg_neg,5,rc_subj,teacher
+21,neg_neg,6,rc_verb,liked
+21,neg_neg,7,has,have
+21,neg_neg,8,npi,ever
+21,neg_neg,9,continuation,had children
+21,pos_pos,1,Licensor,The
+21,pos_pos,2,np,pilots
+21,pos_pos,3,compl,that
+21,pos_pos,4,rc_dp,the
+21,pos_pos,5,rc_subj,teacher
+21,pos_pos,6,rc_verb,liked
+21,pos_pos,7,has,have
+21,pos_pos,8,npi,ever
+21,pos_pos,9,continuation,had children
+21,pos_neg,1,Licensor,The
+21,pos_neg,2,np,pilots
+21,pos_neg,3,compl,that
+21,pos_neg,4,rc_dp,no
+21,pos_neg,5,rc_subj,teacher
+21,pos_neg,6,rc_verb,liked
+21,pos_neg,7,has,have
+21,pos_neg,8,npi,ever
+21,pos_neg,9,continuation,had children
+22,neg_pos,1,Licensor,No
+22,neg_pos,2,np,doctors
+22,neg_pos,3,compl,that
+22,neg_pos,4,rc_dp,the
+22,neg_pos,5,rc_subj,senator
+22,neg_pos,6,rc_verb,met
+22,neg_pos,7,has,have
+22,neg_pos,8,npi,ever
+22,neg_pos,9,continuation,been appreciated
+22,neg_neg,1,Licensor,No
+22,neg_neg,2,np,doctors
+22,neg_neg,3,compl,that
+22,neg_neg,4,rc_dp,no
+22,neg_neg,5,rc_subj,senator
+22,neg_neg,6,rc_verb,met
+22,neg_neg,7,has,have
+22,neg_neg,8,npi,ever
+22,neg_neg,9,continuation,been appreciated
+22,pos_pos,1,Licensor,The
+22,pos_pos,2,np,doctors
+22,pos_pos,3,compl,that
+22,pos_pos,4,rc_dp,the
+22,pos_pos,5,rc_subj,senator
+22,pos_pos,6,rc_verb,met
+22,pos_pos,7,has,have
+22,pos_pos,8,npi,ever
+22,pos_pos,9,continuation,been appreciated
+22,pos_neg,1,Licensor,The
+22,pos_neg,2,np,doctors
+22,pos_neg,3,compl,that
+22,pos_neg,4,rc_dp,no
+22,pos_neg,5,rc_subj,senator
+22,pos_neg,6,rc_verb,met
+22,pos_neg,7,has,have
+22,pos_neg,8,npi,ever
+22,pos_neg,9,continuation,been appreciated
+23,neg_pos,1,Licensor,No
+23,neg_pos,2,np,farmers
+23,neg_pos,3,compl,that
+23,neg_pos,4,rc_dp,the
+23,neg_pos,5,rc_subj,consultant
+23,neg_pos,6,rc_verb,hated
+23,neg_pos,7,has,have
+23,neg_pos,8,npi,ever
+23,neg_pos,9,continuation,been ignored
+23,neg_neg,1,Licensor,No
+23,neg_neg,2,np,farmers
+23,neg_neg,3,compl,that
+23,neg_neg,4,rc_dp,no
+23,neg_neg,5,rc_subj,consultant
+23,neg_neg,6,rc_verb,hated
+23,neg_neg,7,has,have
+23,neg_neg,8,npi,ever
+23,neg_neg,9,continuation,been ignored
+23,pos_pos,1,Licensor,The
+23,pos_pos,2,np,farmers
+23,pos_pos,3,compl,that
+23,pos_pos,4,rc_dp,the
+23,pos_pos,5,rc_subj,consultant
+23,pos_pos,6,rc_verb,hated
+23,pos_pos,7,has,have
+23,pos_pos,8,npi,ever
+23,pos_pos,9,continuation,been ignored
+23,pos_neg,1,Licensor,The
+23,pos_neg,2,np,farmers
+23,pos_neg,3,compl,that
+23,pos_neg,4,rc_dp,no
+23,pos_neg,5,rc_subj,consultant
+23,pos_neg,6,rc_verb,hated
+23,pos_neg,7,has,have
+23,pos_neg,8,npi,ever
+23,pos_neg,9,continuation,been ignored
+24,neg_pos,1,Licensor,No
+24,neg_pos,2,np,managers
+24,neg_pos,3,compl,that
+24,neg_pos,4,rc_dp,the
+24,neg_pos,5,rc_subj,guard
+24,neg_pos,6,rc_verb,respected
+24,neg_pos,7,has,have
+24,neg_pos,8,npi,ever
+24,neg_pos,9,continuation,gotten old
+24,neg_neg,1,Licensor,No
+24,neg_neg,2,np,managers
+24,neg_neg,3,compl,that
+24,neg_neg,4,rc_dp,no
+24,neg_neg,5,rc_subj,guard
+24,neg_neg,6,rc_verb,respected
+24,neg_neg,7,has,have
+24,neg_neg,8,npi,ever
+24,neg_neg,9,continuation,gotten old
+24,pos_pos,1,Licensor,The
+24,pos_pos,2,np,managers
+24,pos_pos,3,compl,that
+24,pos_pos,4,rc_dp,the
+24,pos_pos,5,rc_subj,guard
+24,pos_pos,6,rc_verb,respected
+24,pos_pos,7,has,have
+24,pos_pos,8,npi,ever
+24,pos_pos,9,continuation,gotten old
+24,pos_neg,1,Licensor,The
+24,pos_neg,2,np,managers
+24,pos_neg,3,compl,that
+24,pos_neg,4,rc_dp,no
+24,pos_neg,5,rc_subj,guard
+24,pos_neg,6,rc_verb,respected
+24,pos_neg,7,has,have
+24,pos_neg,8,npi,ever
+24,pos_neg,9,continuation,gotten old
+25,neg_pos,1,Licensor,No
+25,neg_pos,2,np,customers
+25,neg_pos,3,compl,that
+25,neg_pos,4,rc_dp,the
+25,neg_pos,5,rc_subj,clerk
+25,neg_pos,6,rc_verb,loved
+25,neg_pos,7,has,have
+25,neg_pos,8,npi,ever
+25,neg_pos,9,continuation,been popular
+25,neg_neg,1,Licensor,No
+25,neg_neg,2,np,customers
+25,neg_neg,3,compl,that
+25,neg_neg,4,rc_dp,no
+25,neg_neg,5,rc_subj,clerk
+25,neg_neg,6,rc_verb,loved
+25,neg_neg,7,has,have
+25,neg_neg,8,npi,ever
+25,neg_neg,9,continuation,been popular
+25,pos_pos,1,Licensor,The
+25,pos_pos,2,np,customers
+25,pos_pos,3,compl,that
+25,pos_pos,4,rc_dp,the
+25,pos_pos,5,rc_subj,clerk
+25,pos_pos,6,rc_verb,loved
+25,pos_pos,7,has,have
+25,pos_pos,8,npi,ever
+25,pos_pos,9,continuation,been popular
+25,pos_neg,1,Licensor,The
+25,pos_neg,2,np,customers
+25,pos_neg,3,compl,that
+25,pos_neg,4,rc_dp,no
+25,pos_neg,5,rc_subj,clerk
+25,pos_neg,6,rc_verb,loved
+25,pos_neg,7,has,have
+25,pos_neg,8,npi,ever
+25,pos_neg,9,continuation,been popular
+26,neg_pos,1,Licensor,No
+26,neg_pos,2,np,officers
+26,neg_pos,3,compl,that
+26,neg_pos,4,rc_dp,the
+26,neg_pos,5,rc_subj,architect
+26,neg_pos,6,rc_verb,liked
+26,neg_pos,7,has,have
+26,neg_pos,8,npi,ever
+26,neg_pos,9,continuation,been famous
+26,neg_neg,1,Licensor,No
+26,neg_neg,2,np,officers
+26,neg_neg,3,compl,that
+26,neg_neg,4,rc_dp,no
+26,neg_neg,5,rc_subj,architect
+26,neg_neg,6,rc_verb,liked
+26,neg_neg,7,has,have
+26,neg_neg,8,npi,ever
+26,neg_neg,9,continuation,been famous
+26,pos_pos,1,Licensor,The
+26,pos_pos,2,np,officers
+26,pos_pos,3,compl,that
+26,pos_pos,4,rc_dp,the
+26,pos_pos,5,rc_subj,architect
+26,pos_pos,6,rc_verb,liked
+26,pos_pos,7,has,have
+26,pos_pos,8,npi,ever
+26,pos_pos,9,continuation,been famous
+26,pos_neg,1,Licensor,The
+26,pos_neg,2,np,officers
+26,pos_neg,3,compl,that
+26,pos_neg,4,rc_dp,no
+26,pos_neg,5,rc_subj,architect
+26,pos_neg,6,rc_verb,liked
+26,pos_neg,7,has,have
+26,pos_neg,8,npi,ever
+26,pos_neg,9,continuation,been famous
+27,neg_pos,1,Licensor,No
+27,neg_pos,2,np,teachers
+27,neg_pos,3,compl,that
+27,neg_pos,4,rc_dp,the
+27,neg_pos,5,rc_subj,athlete
+27,neg_pos,6,rc_verb,met
+27,neg_pos,7,has,have
+27,neg_pos,8,npi,ever
+27,neg_pos,9,continuation,had children
+27,neg_neg,1,Licensor,No
+27,neg_neg,2,np,teachers
+27,neg_neg,3,compl,that
+27,neg_neg,4,rc_dp,no
+27,neg_neg,5,rc_subj,athlete
+27,neg_neg,6,rc_verb,met
+27,neg_neg,7,has,have
+27,neg_neg,8,npi,ever
+27,neg_neg,9,continuation,had children
+27,pos_pos,1,Licensor,The
+27,pos_pos,2,np,teachers
+27,pos_pos,3,compl,that
+27,pos_pos,4,rc_dp,the
+27,pos_pos,5,rc_subj,athlete
+27,pos_pos,6,rc_verb,met
+27,pos_pos,7,has,have
+27,pos_pos,8,npi,ever
+27,pos_pos,9,continuation,had children
+27,pos_neg,1,Licensor,The
+27,pos_neg,2,np,teachers
+27,pos_neg,3,compl,that
+27,pos_neg,4,rc_dp,no
+27,pos_neg,5,rc_subj,athlete
+27,pos_neg,6,rc_verb,met
+27,pos_neg,7,has,have
+27,pos_neg,8,npi,ever
+27,pos_neg,9,continuation,had children
+28,neg_pos,1,Licensor,No
+28,neg_pos,2,np,senators
+28,neg_pos,3,compl,that
+28,neg_pos,4,rc_dp,the
+28,neg_pos,5,rc_subj,actor
+28,neg_pos,6,rc_verb,hated
+28,neg_pos,7,has,have
+28,neg_pos,8,npi,ever
+28,neg_pos,9,continuation,been appreciated
+28,neg_neg,1,Licensor,No
+28,neg_neg,2,np,senators
+28,neg_neg,3,compl,that
+28,neg_neg,4,rc_dp,no
+28,neg_neg,5,rc_subj,actor
+28,neg_neg,6,rc_verb,hated
+28,neg_neg,7,has,have
+28,neg_neg,8,npi,ever
+28,neg_neg,9,continuation,been appreciated
+28,pos_pos,1,Licensor,The
+28,pos_pos,2,np,senators
+28,pos_pos,3,compl,that
+28,pos_pos,4,rc_dp,the
+28,pos_pos,5,rc_subj,actor
+28,pos_pos,6,rc_verb,hated
+28,pos_pos,7,has,have
+28,pos_pos,8,npi,ever
+28,pos_pos,9,continuation,been appreciated
+28,pos_neg,1,Licensor,The
+28,pos_neg,2,np,senators
+28,pos_neg,3,compl,that
+28,pos_neg,4,rc_dp,no
+28,pos_neg,5,rc_subj,actor
+28,pos_neg,6,rc_verb,hated
+28,pos_neg,7,has,have
+28,pos_neg,8,npi,ever
+28,pos_neg,9,continuation,been appreciated
+29,neg_pos,1,Licensor,No
+29,neg_pos,2,np,consultants
+29,neg_pos,3,compl,that
+29,neg_pos,4,rc_dp,the
+29,neg_pos,5,rc_subj,minister
+29,neg_pos,6,rc_verb,impressed
+29,neg_pos,7,has,have
+29,neg_pos,8,npi,ever
+29,neg_pos,9,continuation,been ignored
+29,neg_neg,1,Licensor,No
+29,neg_neg,2,np,consultants
+29,neg_neg,3,compl,that
+29,neg_neg,4,rc_dp,no
+29,neg_neg,5,rc_subj,minister
+29,neg_neg,6,rc_verb,impressed
+29,neg_neg,7,has,have
+29,neg_neg,8,npi,ever
+29,neg_neg,9,continuation,been ignored
+29,pos_pos,1,Licensor,The
+29,pos_pos,2,np,consultants
+29,pos_pos,3,compl,that
+29,pos_pos,4,rc_dp,the
+29,pos_pos,5,rc_subj,minister
+29,pos_pos,6,rc_verb,impressed
+29,pos_pos,7,has,have
+29,pos_pos,8,npi,ever
+29,pos_pos,9,continuation,been ignored
+29,pos_neg,1,Licensor,The
+29,pos_neg,2,np,consultants
+29,pos_neg,3,compl,that
+29,pos_neg,4,rc_dp,no
+29,pos_neg,5,rc_subj,minister
+29,pos_neg,6,rc_verb,impressed
+29,pos_neg,7,has,have
+29,pos_neg,8,npi,ever
+29,pos_neg,9,continuation,been ignored
+30,neg_pos,1,Licensor,No
+30,neg_pos,2,np,guards
+30,neg_pos,3,compl,that
+30,neg_pos,4,rc_dp,the
+30,neg_pos,5,rc_subj,taxi driver
+30,neg_pos,6,rc_verb,loved
+30,neg_pos,7,has,have
+30,neg_pos,8,npi,ever
+30,neg_pos,9,continuation,gotten old
+30,neg_neg,1,Licensor,No
+30,neg_neg,2,np,guards
+30,neg_neg,3,compl,that
+30,neg_neg,4,rc_dp,no
+30,neg_neg,5,rc_subj,taxi driver
+30,neg_neg,6,rc_verb,loved
+30,neg_neg,7,has,have
+30,neg_neg,8,npi,ever
+30,neg_neg,9,continuation,gotten old
+30,pos_pos,1,Licensor,The
+30,pos_pos,2,np,guards
+30,pos_pos,3,compl,that
+30,pos_pos,4,rc_dp,the
+30,pos_pos,5,rc_subj,taxi driver
+30,pos_pos,6,rc_verb,loved
+30,pos_pos,7,has,have
+30,pos_pos,8,npi,ever
+30,pos_pos,9,continuation,gotten old
+30,pos_neg,1,Licensor,The
+30,pos_neg,2,np,guards
+30,pos_neg,3,compl,that
+30,pos_neg,4,rc_dp,no
+30,pos_neg,5,rc_subj,taxi driver
+30,pos_neg,6,rc_verb,loved
+30,pos_neg,7,has,have
+30,pos_neg,8,npi,ever
+30,pos_neg,9,continuation,gotten old
+31,neg_pos,1,Licensor,No
+31,neg_pos,2,np,clerks
+31,neg_pos,3,compl,that
+31,neg_pos,4,rc_dp,the
+31,neg_pos,5,rc_subj,secretary
+31,neg_pos,6,rc_verb,liked
+31,neg_pos,7,has,have
+31,neg_pos,8,npi,ever
+31,neg_pos,9,continuation,been popular
+31,neg_neg,1,Licensor,No
+31,neg_neg,2,np,clerks
+31,neg_neg,3,compl,that
+31,neg_neg,4,rc_dp,no
+31,neg_neg,5,rc_subj,secretary
+31,neg_neg,6,rc_verb,liked
+31,neg_neg,7,has,have
+31,neg_neg,8,npi,ever
+31,neg_neg,9,continuation,been popular
+31,pos_pos,1,Licensor,The
+31,pos_pos,2,np,clerks
+31,pos_pos,3,compl,that
+31,pos_pos,4,rc_dp,the
+31,pos_pos,5,rc_subj,secretary
+31,pos_pos,6,rc_verb,liked
+31,pos_pos,7,has,have
+31,pos_pos,8,npi,ever
+31,pos_pos,9,continuation,been popular
+31,pos_neg,1,Licensor,The
+31,pos_neg,2,np,clerks
+31,pos_neg,3,compl,that
+31,pos_neg,4,rc_dp,no
+31,pos_neg,5,rc_subj,secretary
+31,pos_neg,6,rc_verb,liked
+31,pos_neg,7,has,have
+31,pos_neg,8,npi,ever
+31,pos_neg,9,continuation,been popular
+32,neg_pos,1,Licensor,No
+32,neg_pos,2,np,architects
+32,neg_pos,3,compl,that
+32,neg_pos,4,rc_dp,the
+32,neg_pos,5,rc_subj,executive
+32,neg_pos,6,rc_verb,met
+32,neg_pos,7,has,have
+32,neg_pos,8,npi,ever
+32,neg_pos,9,continuation,been famous
+32,neg_neg,1,Licensor,No
+32,neg_neg,2,np,architects
+32,neg_neg,3,compl,that
+32,neg_neg,4,rc_dp,no
+32,neg_neg,5,rc_subj,executive
+32,neg_neg,6,rc_verb,met
+32,neg_neg,7,has,have
+32,neg_neg,8,npi,ever
+32,neg_neg,9,continuation,been famous
+32,pos_pos,1,Licensor,The
+32,pos_pos,2,np,architects
+32,pos_pos,3,compl,that
+32,pos_pos,4,rc_dp,the
+32,pos_pos,5,rc_subj,executive
+32,pos_pos,6,rc_verb,met
+32,pos_pos,7,has,have
+32,pos_pos,8,npi,ever
+32,pos_pos,9,continuation,been famous
+32,pos_neg,1,Licensor,The
+32,pos_neg,2,np,architects
+32,pos_neg,3,compl,that
+32,pos_neg,4,rc_dp,no
+32,pos_neg,5,rc_subj,executive
+32,pos_neg,6,rc_verb,met
+32,pos_neg,7,has,have
+32,pos_neg,8,npi,ever
+32,pos_neg,9,continuation,been famous
+33,neg_pos,1,Licensor,No
+33,neg_pos,2,np,athletes
+33,neg_pos,3,compl,that
+33,neg_pos,4,rc_dp,the
+33,neg_pos,5,rc_subj,pilot
+33,neg_pos,6,rc_verb,hated
+33,neg_pos,7,has,have
+33,neg_pos,8,npi,ever
+33,neg_pos,9,continuation,had children
+33,neg_neg,1,Licensor,No
+33,neg_neg,2,np,athletes
+33,neg_neg,3,compl,that
+33,neg_neg,4,rc_dp,no
+33,neg_neg,5,rc_subj,pilot
+33,neg_neg,6,rc_verb,hated
+33,neg_neg,7,has,have
+33,neg_neg,8,npi,ever
+33,neg_neg,9,continuation,had children
+33,pos_pos,1,Licensor,The
+33,pos_pos,2,np,athletes
+33,pos_pos,3,compl,that
+33,pos_pos,4,rc_dp,the
+33,pos_pos,5,rc_subj,pilot
+33,pos_pos,6,rc_verb,hated
+33,pos_pos,7,has,have
+33,pos_pos,8,npi,ever
+33,pos_pos,9,continuation,had children
+33,pos_neg,1,Licensor,The
+33,pos_neg,2,np,athletes
+33,pos_neg,3,compl,that
+33,pos_neg,4,rc_dp,no
+33,pos_neg,5,rc_subj,pilot
+33,pos_neg,6,rc_verb,hated
+33,pos_neg,7,has,have
+33,pos_neg,8,npi,ever
+33,pos_neg,9,continuation,had children
+34,neg_pos,1,Licensor,No
+34,neg_pos,2,np,journalists
+34,neg_pos,3,compl,that
+34,neg_pos,4,rc_dp,the
+34,neg_pos,5,rc_subj,doctor
+34,neg_pos,6,rc_verb,contacted
+34,neg_pos,7,has,have
+34,neg_pos,8,npi,ever
+34,neg_pos,9,continuation,been appreciated
+34,neg_neg,1,Licensor,No
+34,neg_neg,2,np,journalists
+34,neg_neg,3,compl,that
+34,neg_neg,4,rc_dp,no
+34,neg_neg,5,rc_subj,doctor
+34,neg_neg,6,rc_verb,contacted
+34,neg_neg,7,has,have
+34,neg_neg,8,npi,ever
+34,neg_neg,9,continuation,been appreciated
+34,pos_pos,1,Licensor,The
+34,pos_pos,2,np,journalists
+34,pos_pos,3,compl,that
+34,pos_pos,4,rc_dp,the
+34,pos_pos,5,rc_subj,doctor
+34,pos_pos,6,rc_verb,contacted
+34,pos_pos,7,has,have
+34,pos_pos,8,npi,ever
+34,pos_pos,9,continuation,been appreciated
+34,pos_neg,1,Licensor,The
+34,pos_neg,2,np,journalists
+34,pos_neg,3,compl,that
+34,pos_neg,4,rc_dp,no
+34,pos_neg,5,rc_subj,doctor
+34,pos_neg,6,rc_verb,contacted
+34,pos_neg,7,has,have
+34,pos_neg,8,npi,ever
+34,pos_neg,9,continuation,been appreciated
+35,neg_pos,1,Licensor,No
+35,neg_pos,2,np,ministers
+35,neg_pos,3,compl,that
+35,neg_pos,4,rc_dp,the
+35,neg_pos,5,rc_subj,farmer
+35,neg_pos,6,rc_verb,loved
+35,neg_pos,7,has,have
+35,neg_pos,8,npi,ever
+35,neg_pos,9,continuation,been ignored
+35,neg_neg,1,Licensor,No
+35,neg_neg,2,np,ministers
+35,neg_neg,3,compl,that
+35,neg_neg,4,rc_dp,no
+35,neg_neg,5,rc_subj,farmer
+35,neg_neg,6,rc_verb,loved
+35,neg_neg,7,has,have
+35,neg_neg,8,npi,ever
+35,neg_neg,9,continuation,been ignored
+35,pos_pos,1,Licensor,The
+35,pos_pos,2,np,ministers
+35,pos_pos,3,compl,that
+35,pos_pos,4,rc_dp,the
+35,pos_pos,5,rc_subj,farmer
+35,pos_pos,6,rc_verb,loved
+35,pos_pos,7,has,have
+35,pos_pos,8,npi,ever
+35,pos_pos,9,continuation,been ignored
+35,pos_neg,1,Licensor,The
+35,pos_neg,2,np,ministers
+35,pos_neg,3,compl,that
+35,pos_neg,4,rc_dp,no
+35,pos_neg,5,rc_subj,farmer
+35,pos_neg,6,rc_verb,loved
+35,pos_neg,7,has,have
+35,pos_neg,8,npi,ever
+35,pos_neg,9,continuation,been ignored
+36,neg_pos,1,Licensor,No
+36,neg_pos,2,np,taxi drivers
+36,neg_pos,3,compl,that
+36,neg_pos,4,rc_dp,the
+36,neg_pos,5,rc_subj,manager
+36,neg_pos,6,rc_verb,liked
+36,neg_pos,7,has,have
+36,neg_pos,8,npi,ever
+36,neg_pos,9,continuation,gotten old
+36,neg_neg,1,Licensor,No
+36,neg_neg,2,np,taxi drivers
+36,neg_neg,3,compl,that
+36,neg_neg,4,rc_dp,no
+36,neg_neg,5,rc_subj,manager
+36,neg_neg,6,rc_verb,liked
+36,neg_neg,7,has,have
+36,neg_neg,8,npi,ever
+36,neg_neg,9,continuation,gotten old
+36,pos_pos,1,Licensor,The
+36,pos_pos,2,np,taxi drivers
+36,pos_pos,3,compl,that
+36,pos_pos,4,rc_dp,the
+36,pos_pos,5,rc_subj,manager
+36,pos_pos,6,rc_verb,liked
+36,pos_pos,7,has,have
+36,pos_pos,8,npi,ever
+36,pos_pos,9,continuation,gotten old
+36,pos_neg,1,Licensor,The
+36,pos_neg,2,np,taxi drivers
+36,pos_neg,3,compl,that
+36,pos_neg,4,rc_dp,no
+36,pos_neg,5,rc_subj,manager
+36,pos_neg,6,rc_verb,liked
+36,pos_neg,7,has,have
+36,pos_neg,8,npi,ever
+36,pos_neg,9,continuation,gotten old
+37,neg_pos,1,Licensor,No
+37,neg_pos,2,np,secretaries
+37,neg_pos,3,compl,that
+37,neg_pos,4,rc_dp,the
+37,neg_pos,5,rc_subj,customer
+37,neg_pos,6,rc_verb,met
+37,neg_pos,7,has,have
+37,neg_pos,8,npi,ever
+37,neg_pos,9,continuation,been popular
+37,neg_neg,1,Licensor,No
+37,neg_neg,2,np,secretaries
+37,neg_neg,3,compl,that
+37,neg_neg,4,rc_dp,no
+37,neg_neg,5,rc_subj,customer
+37,neg_neg,6,rc_verb,met
+37,neg_neg,7,has,have
+37,neg_neg,8,npi,ever
+37,neg_neg,9,continuation,been popular
+37,pos_pos,1,Licensor,The
+37,pos_pos,2,np,secretaries
+37,pos_pos,3,compl,that
+37,pos_pos,4,rc_dp,the
+37,pos_pos,5,rc_subj,customer
+37,pos_pos,6,rc_verb,met
+37,pos_pos,7,has,have
+37,pos_pos,8,npi,ever
+37,pos_pos,9,continuation,been popular
+37,pos_neg,1,Licensor,The
+37,pos_neg,2,np,secretaries
+37,pos_neg,3,compl,that
+37,pos_neg,4,rc_dp,no
+37,pos_neg,5,rc_subj,customer
+37,pos_neg,6,rc_verb,met
+37,pos_neg,7,has,have
+37,pos_neg,8,npi,ever
+37,pos_neg,9,continuation,been popular
+38,neg_pos,1,Licensor,No
+38,neg_pos,2,np,executives
+38,neg_pos,3,compl,that
+38,neg_pos,4,rc_dp,the
+38,neg_pos,5,rc_subj,officer
+38,neg_pos,6,rc_verb,hated
+38,neg_pos,7,has,have
+38,neg_pos,8,npi,ever
+38,neg_pos,9,continuation,been famous
+38,neg_neg,1,Licensor,No
+38,neg_neg,2,np,executives
+38,neg_neg,3,compl,that
+38,neg_neg,4,rc_dp,no
+38,neg_neg,5,rc_subj,officer
+38,neg_neg,6,rc_verb,hated
+38,neg_neg,7,has,have
+38,neg_neg,8,npi,ever
+38,neg_neg,9,continuation,been famous
+38,pos_pos,1,Licensor,The
+38,pos_pos,2,np,executives
+38,pos_pos,3,compl,that
+38,pos_pos,4,rc_dp,the
+38,pos_pos,5,rc_subj,officer
+38,pos_pos,6,rc_verb,hated
+38,pos_pos,7,has,have
+38,pos_pos,8,npi,ever
+38,pos_pos,9,continuation,been famous
+38,pos_neg,1,Licensor,The
+38,pos_neg,2,np,executives
+38,pos_neg,3,compl,that
+38,pos_neg,4,rc_dp,no
+38,pos_neg,5,rc_subj,officer
+38,pos_neg,6,rc_verb,hated
+38,pos_neg,7,has,have
+38,pos_neg,8,npi,ever
+38,pos_neg,9,continuation,been famous

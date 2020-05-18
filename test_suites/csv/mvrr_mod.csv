@@ -1,0 +1,785 @@
+item_number,condition_name,region_number,region_name,content
+1,reduced_ambig,1,Start,The
+1,reduced_ambig,2,Noun,woman
+1,reduced_ambig,3,Ambiguous verb,brought
+1,reduced_ambig,4,RC contents,the sandwich from the kitchen
+1,reduced_ambig,5,Intervener,with a new microwave
+1,reduced_ambig,6,Disambiguator,fell
+1,reduced_ambig,7,End,in the dining room
+1,unreduced_ambig,1,Start,The
+1,unreduced_ambig,2,Noun,woman
+1,unreduced_ambig,3,Ambiguous verb,who was brought
+1,unreduced_ambig,4,RC contents,the sandwich from the kitchen
+1,unreduced_ambig,5,Intervener,with a new microwave
+1,unreduced_ambig,6,Disambiguator,fell
+1,unreduced_ambig,7,End,in the dining room
+1,reduced_unambig,1,Start,The
+1,reduced_unambig,2,Noun,woman
+1,reduced_unambig,3,Ambiguous verb,given
+1,reduced_unambig,4,RC contents,the sandwich from the kitchen
+1,reduced_unambig,5,Intervener,with a new microwave
+1,reduced_unambig,6,Disambiguator,fell
+1,reduced_unambig,7,End,in the dining room
+1,unreduced_unambig,1,Start,The
+1,unreduced_unambig,2,Noun,woman
+1,unreduced_unambig,3,Ambiguous verb,who was given
+1,unreduced_unambig,4,RC contents,the sandwich from the kitchen
+1,unreduced_unambig,5,Intervener,with a new microwave
+1,unreduced_unambig,6,Disambiguator,fell
+1,unreduced_unambig,7,End,in the dining room
+2,reduced_ambig,1,Start,The
+2,reduced_ambig,2,Noun,convict
+2,reduced_ambig,3,Ambiguous verb,walked
+2,reduced_ambig,4,RC contents,into the dark cell
+2,reduced_ambig,5,Intervener,in the castle
+2,reduced_ambig,6,Disambiguator,tried
+2,reduced_ambig,7,End,to escape but failed
+2,unreduced_ambig,1,Start,The
+2,unreduced_ambig,2,Noun,convict
+2,unreduced_ambig,3,Ambiguous verb,who was walked
+2,unreduced_ambig,4,RC contents,into the dark cell
+2,unreduced_ambig,5,Intervener,in the castle
+2,unreduced_ambig,6,Disambiguator,tried
+2,unreduced_ambig,7,End,to escape but failed
+2,reduced_unambig,1,Start,The
+2,reduced_unambig,2,Noun,convict
+2,reduced_unambig,3,Ambiguous verb,taken
+2,reduced_unambig,4,RC contents,into the dark cell
+2,reduced_unambig,5,Intervener,in the castle
+2,reduced_unambig,6,Disambiguator,tried
+2,reduced_unambig,7,End,to escape but failed
+2,unreduced_unambig,1,Start,The
+2,unreduced_unambig,2,Noun,convict
+2,unreduced_unambig,3,Ambiguous verb,who was taken
+2,unreduced_unambig,4,RC contents,into the dark cell
+2,unreduced_unambig,5,Intervener,in the castle
+2,unreduced_unambig,6,Disambiguator,tried
+2,unreduced_unambig,7,End,to escape but failed
+3,reduced_ambig,1,Start,The
+3,reduced_ambig,2,Noun,prisoners
+3,reduced_ambig,3,Ambiguous verb,hit
+3,reduced_ambig,4,RC contents,for hours and hours
+3,reduced_ambig,5,Intervener,in the morning
+3,reduced_ambig,6,Disambiguator,confessed
+3,reduced_ambig,7,End,to crimes they never committed
+3,unreduced_ambig,1,Start,The
+3,unreduced_ambig,2,Noun,prisoners
+3,unreduced_ambig,3,Ambiguous verb,who were hit
+3,unreduced_ambig,4,RC contents,for hours and hours
+3,unreduced_ambig,5,Intervener,in the morning
+3,unreduced_ambig,6,Disambiguator,confessed
+3,unreduced_ambig,7,End,to crimes they never committed
+3,reduced_unambig,1,Start,The
+3,reduced_unambig,2,Noun,prisoners
+3,reduced_unambig,3,Ambiguous verb,beaten
+3,reduced_unambig,4,RC contents,for hours and hours
+3,reduced_unambig,5,Intervener,in the morning
+3,reduced_unambig,6,Disambiguator,confessed
+3,reduced_unambig,7,End,to crimes they never committed
+3,unreduced_unambig,1,Start,The
+3,unreduced_unambig,2,Noun,prisoners
+3,unreduced_unambig,3,Ambiguous verb,who were beaten
+3,unreduced_unambig,4,RC contents,for hours and hours
+3,unreduced_unambig,5,Intervener,in the morning
+3,unreduced_unambig,6,Disambiguator,confessed
+3,unreduced_unambig,7,End,to crimes they never committed
+4,reduced_ambig,1,Start,The
+4,reduced_ambig,2,Noun,business
+4,reduced_ambig,3,Ambiguous verb,expanded
+4,reduced_ambig,4,RC contents,into an empire
+4,reduced_ambig,5,Intervener,spanning multiple countries
+4,reduced_ambig,6,Disambiguator,was
+4,reduced_ambig,7,End,sold for billions of dollars
+4,unreduced_ambig,1,Start,The
+4,unreduced_ambig,2,Noun,business
+4,unreduced_ambig,3,Ambiguous verb,that was expanded
+4,unreduced_ambig,4,RC contents,into an empire
+4,unreduced_ambig,5,Intervener,spanning multiple countries
+4,unreduced_ambig,6,Disambiguator,was
+4,unreduced_ambig,7,End,sold for billions of dollars
+4,reduced_unambig,1,Start,The
+4,reduced_unambig,2,Noun,business
+4,reduced_unambig,3,Ambiguous verb,grown
+4,reduced_unambig,4,RC contents,into an empire
+4,reduced_unambig,5,Intervener,spanning multiple countries
+4,reduced_unambig,6,Disambiguator,was
+4,reduced_unambig,7,End,sold for billions of dollars
+4,unreduced_unambig,1,Start,The
+4,unreduced_unambig,2,Noun,business
+4,unreduced_unambig,3,Ambiguous verb,that was grown
+4,unreduced_unambig,4,RC contents,into an empire
+4,unreduced_unambig,5,Intervener,spanning multiple countries
+4,unreduced_unambig,6,Disambiguator,was
+4,unreduced_unambig,7,End,sold for billions of dollars
+5,reduced_ambig,1,Start,The
+5,reduced_ambig,2,Noun,mice
+5,reduced_ambig,3,Ambiguous verb,consumed
+5,reduced_ambig,4,RC contents,rapidly and entirely
+5,reduced_ambig,5,Intervener,due to great hunger
+5,reduced_ambig,6,Disambiguator,were
+5,reduced_ambig,7,End,carrying a rare bacteria
+5,unreduced_ambig,1,Start,The
+5,unreduced_ambig,2,Noun,mice
+5,unreduced_ambig,3,Ambiguous verb,that were consumed
+5,unreduced_ambig,4,RC contents,rapidly and entirely
+5,unreduced_ambig,5,Intervener,due to great hunger
+5,unreduced_ambig,6,Disambiguator,were
+5,unreduced_ambig,7,End,carrying a rare bacteria
+5,reduced_unambig,1,Start,The
+5,reduced_unambig,2,Noun,mice
+5,reduced_unambig,3,Ambiguous verb,consumed
+5,reduced_unambig,4,RC contents,rapidly and entirely
+5,reduced_unambig,5,Intervener,due to great hunger
+5,reduced_unambig,6,Disambiguator,were
+5,reduced_unambig,7,End,carrying a rare bacteria
+5,unreduced_unambig,1,Start,The
+5,unreduced_unambig,2,Noun,mice
+5,unreduced_unambig,3,Ambiguous verb,that were consumed
+5,unreduced_unambig,4,RC contents,rapidly and entirely
+5,unreduced_unambig,5,Intervener,due to great hunger
+5,unreduced_unambig,6,Disambiguator,were
+5,unreduced_unambig,7,End,carrying a rare bacteria
+6,reduced_ambig,1,Start,The
+6,reduced_ambig,2,Noun,lawyer
+6,reduced_ambig,3,Ambiguous verb,pledged
+6,reduced_ambig,4,RC contents,to keep silent
+6,reduced_ambig,5,Intervener,due to security issues
+6,reduced_ambig,6,Disambiguator,was
+6,reduced_ambig,7,End,discovered to have broken his promise
+6,unreduced_ambig,1,Start,The
+6,unreduced_ambig,2,Noun,lawyer
+6,unreduced_ambig,3,Ambiguous verb,that was pledged
+6,unreduced_ambig,4,RC contents,to keep silent
+6,unreduced_ambig,5,Intervener,due to security issues
+6,unreduced_ambig,6,Disambiguator,was
+6,unreduced_ambig,7,End,discovered to have broken his promise
+6,reduced_unambig,1,Start,The
+6,reduced_unambig,2,Noun,lawyer
+6,reduced_unambig,3,Ambiguous verb,committed
+6,reduced_unambig,4,RC contents,to keep silent
+6,reduced_unambig,5,Intervener,due to security issues
+6,reduced_unambig,6,Disambiguator,was
+6,reduced_unambig,7,End,discovered to have broken his promise
+6,unreduced_unambig,1,Start,The
+6,unreduced_unambig,2,Noun,lawyer
+6,unreduced_unambig,3,Ambiguous verb,who was committed
+6,unreduced_unambig,4,RC contents,to keep silent
+6,unreduced_unambig,5,Intervener,due to security issues
+6,unreduced_unambig,6,Disambiguator,was
+6,unreduced_unambig,7,End,discovered to have broken his promise
+7,reduced_ambig,1,Start,The
+7,reduced_ambig,2,Noun,child
+7,reduced_ambig,3,Ambiguous verb,kicked
+7,reduced_ambig,4,RC contents,in the chaos
+7,reduced_ambig,5,Intervener,of the fight
+7,reduced_ambig,6,Disambiguator,found
+7,reduced_ambig,7,End,her way back home
+7,unreduced_ambig,1,Start,The
+7,unreduced_ambig,2,Noun,child
+7,unreduced_ambig,3,Ambiguous verb,who was kicked
+7,unreduced_ambig,4,RC contents,in the chaos
+7,unreduced_ambig,5,Intervener,of the fight
+7,unreduced_ambig,6,Disambiguator,found
+7,unreduced_ambig,7,End,her way back home
+7,reduced_unambig,1,Start,The
+7,reduced_unambig,2,Noun,child
+7,reduced_unambig,3,Ambiguous verb,forgotten
+7,reduced_unambig,4,RC contents,in the chaos
+7,reduced_unambig,5,Intervener,of the fight
+7,reduced_unambig,6,Disambiguator,found
+7,reduced_unambig,7,End,her way back home
+7,unreduced_unambig,1,Start,The
+7,unreduced_unambig,2,Noun,child
+7,unreduced_unambig,3,Ambiguous verb,who was forgotten
+7,unreduced_unambig,4,RC contents,in the chaos
+7,unreduced_unambig,5,Intervener,of the fight
+7,unreduced_unambig,6,Disambiguator,found
+7,unreduced_unambig,7,End,her way back home
+8,reduced_ambig,1,Start,The
+8,reduced_ambig,2,Noun,horses
+8,reduced_ambig,3,Ambiguous verb,raced
+8,reduced_ambig,4,RC contents,past the barn
+8,reduced_ambig,5,Intervener,in the countryside
+8,reduced_ambig,6,Disambiguator,fell
+8,reduced_ambig,7,End,into a swamp
+8,unreduced_ambig,1,Start,The
+8,unreduced_ambig,2,Noun,horses
+8,unreduced_ambig,3,Ambiguous verb,that were raced
+8,unreduced_ambig,4,RC contents,past the barn
+8,unreduced_ambig,5,Intervener,in the countryside
+8,unreduced_ambig,6,Disambiguator,fell
+8,unreduced_ambig,7,End,into a swamp
+8,reduced_unambig,1,Start,The
+8,reduced_unambig,2,Noun,horses
+8,reduced_unambig,3,Ambiguous verb,taken
+8,reduced_unambig,4,RC contents,past the barn
+8,reduced_unambig,5,Intervener,in the countryside
+8,reduced_unambig,6,Disambiguator,fell
+8,reduced_unambig,7,End,into a swamp
+8,unreduced_unambig,1,Start,The
+8,unreduced_unambig,2,Noun,horses
+8,unreduced_unambig,3,Ambiguous verb,that were taken
+8,unreduced_unambig,4,RC contents,past the barn
+8,unreduced_unambig,5,Intervener,in the countryside
+8,unreduced_unambig,6,Disambiguator,fell
+8,unreduced_unambig,7,End,into a swamp
+9,reduced_ambig,1,Start,The
+9,reduced_ambig,2,Noun,artist
+9,reduced_ambig,3,Ambiguous verb,painted
+9,reduced_ambig,4,RC contents,a impressionist portrait
+9,reduced_ambig,5,Intervener,of the woman
+9,reduced_ambig,6,Disambiguator,was
+9,reduced_ambig,7,End,impressed with the work
+9,unreduced_ambig,1,Start,The
+9,unreduced_ambig,2,Noun,artist
+9,unreduced_ambig,3,Ambiguous verb,who was painted
+9,unreduced_ambig,4,RC contents,a impressionist portrait
+9,unreduced_ambig,5,Intervener,of the woman
+9,unreduced_ambig,6,Disambiguator,was
+9,unreduced_ambig,7,End,impressed with the work
+9,reduced_unambig,1,Start,The
+9,reduced_unambig,2,Noun,artist
+9,reduced_unambig,3,Ambiguous verb,drawn
+9,reduced_unambig,4,RC contents,a impressionist portrait
+9,reduced_unambig,5,Intervener,of the woman
+9,reduced_unambig,6,Disambiguator,was
+9,reduced_unambig,7,End,impressed with the work
+9,unreduced_unambig,1,Start,The
+9,unreduced_unambig,2,Noun,artist
+9,unreduced_unambig,3,Ambiguous verb,who was drawn
+9,unreduced_unambig,4,RC contents,a impressionist portrait
+9,unreduced_unambig,5,Intervener,of the woman
+9,unreduced_unambig,6,Disambiguator,was
+9,unreduced_unambig,7,End,impressed with the work
+10,reduced_ambig,1,Start,The
+10,reduced_ambig,2,Noun,car
+10,reduced_ambig,3,Ambiguous verb,steered
+10,reduced_ambig,4,RC contents,into the parking lot
+10,reduced_ambig,5,Intervener,filled with people
+10,reduced_ambig,6,Disambiguator,crashed
+10,reduced_ambig,7,End,into a concrete wall
+10,unreduced_ambig,1,Start,The
+10,unreduced_ambig,2,Noun,car
+10,unreduced_ambig,3,Ambiguous verb,that was steered
+10,unreduced_ambig,4,RC contents,into the parking lot
+10,unreduced_ambig,5,Intervener,filled with people
+10,unreduced_ambig,6,Disambiguator,crashed
+10,unreduced_ambig,7,End,into a concrete wall
+10,reduced_unambig,1,Start,The
+10,reduced_unambig,2,Noun,car
+10,reduced_unambig,3,Ambiguous verb,driven
+10,reduced_unambig,4,RC contents,into the parking lot
+10,reduced_unambig,5,Intervener,filled with people
+10,reduced_unambig,6,Disambiguator,crashed
+10,reduced_unambig,7,End,into a concrete wall
+10,unreduced_unambig,1,Start,The
+10,unreduced_unambig,2,Noun,car
+10,unreduced_unambig,3,Ambiguous verb,that was driven
+10,unreduced_unambig,4,RC contents,into the parking lot
+10,unreduced_unambig,5,Intervener,filled with people
+10,unreduced_unambig,6,Disambiguator,crashed
+10,unreduced_unambig,7,End,into a concrete wall
+11,reduced_ambig,1,Start,The
+11,reduced_ambig,2,Noun,campaign
+11,reduced_ambig,3,Ambiguous verb,intended
+11,reduced_ambig,4,RC contents,to be very popular
+11,reduced_ambig,5,Intervener,among the masses
+11,reduced_ambig,6,Disambiguator,was
+11,reduced_ambig,7,End,still unsuccessful
+11,unreduced_ambig,1,Start,The
+11,unreduced_ambig,2,Noun,campaign
+11,unreduced_ambig,3,Ambiguous verb,that was intended
+11,unreduced_ambig,4,RC contents,to be very popular
+11,unreduced_ambig,5,Intervener,among the masses
+11,unreduced_ambig,6,Disambiguator,was
+11,unreduced_ambig,7,End,still unsuccessful
+11,reduced_unambig,1,Start,The
+11,reduced_unambig,2,Noun,campaign
+11,reduced_unambig,3,Ambiguous verb,known
+11,reduced_unambig,4,RC contents,to be very popular
+11,reduced_unambig,5,Intervener,among the masses
+11,reduced_unambig,6,Disambiguator,was
+11,reduced_unambig,7,End,still unsuccessful
+11,unreduced_unambig,1,Start,The
+11,unreduced_unambig,2,Noun,campaign
+11,unreduced_unambig,3,Ambiguous verb,that was known
+11,unreduced_unambig,4,RC contents,to be very popular
+11,unreduced_unambig,5,Intervener,among the masses
+11,unreduced_unambig,6,Disambiguator,was
+11,unreduced_unambig,7,End,still unsuccessful
+12,reduced_ambig,1,Start,The
+12,reduced_ambig,2,Noun,student
+12,reduced_ambig,3,Ambiguous verb,composed
+12,reduced_ambig,4,RC contents,a carefully worded excuse
+12,reduced_ambig,5,Intervener,filled with lies
+12,reduced_ambig,6,Disambiguator,forgot
+12,reduced_ambig,7,End,to give it to the teacher
+12,unreduced_ambig,1,Start,The
+12,unreduced_ambig,2,Noun,student
+12,unreduced_ambig,3,Ambiguous verb,who was composed
+12,unreduced_ambig,4,RC contents,a carefully worded excuse
+12,unreduced_ambig,5,Intervener,filled with lies
+12,unreduced_ambig,6,Disambiguator,forgot
+12,unreduced_ambig,7,End,to give it to the teacher
+12,reduced_unambig,1,Start,The
+12,reduced_unambig,2,Noun,student
+12,reduced_unambig,3,Ambiguous verb,written
+12,reduced_unambig,4,RC contents,a carefully worded excuse
+12,reduced_unambig,5,Intervener,filled with lies
+12,reduced_unambig,6,Disambiguator,forgot
+12,reduced_unambig,7,End,to give it to the teacher
+12,unreduced_unambig,1,Start,The
+12,unreduced_unambig,2,Noun,student
+12,unreduced_unambig,3,Ambiguous verb,who was written
+12,unreduced_unambig,4,RC contents,a carefully worded excuse
+12,unreduced_unambig,5,Intervener,filled with lies
+12,unreduced_unambig,6,Disambiguator,forgot
+12,unreduced_unambig,7,End,to give it to the teacher
+13,reduced_ambig,1,Start,The
+13,reduced_ambig,2,Noun,television show
+13,reduced_ambig,3,Ambiguous verb,started
+13,reduced_ambig,4,RC contents,three weeks ago
+13,reduced_ambig,5,Intervener,on a cable channel
+13,reduced_ambig,6,Disambiguator,was
+13,reduced_ambig,7,End,canceled immediately
+13,unreduced_ambig,1,Start,The
+13,unreduced_ambig,2,Noun,television show
+13,unreduced_ambig,3,Ambiguous verb,that was started
+13,unreduced_ambig,4,RC contents,three weeks ago
+13,unreduced_ambig,5,Intervener,on a cable channel
+13,unreduced_ambig,6,Disambiguator,was
+13,unreduced_ambig,7,End,canceled immediately
+13,reduced_unambig,1,Start,The
+13,reduced_unambig,2,Noun,television show
+13,reduced_unambig,3,Ambiguous verb,begun
+13,reduced_unambig,4,RC contents,three weeks ago
+13,reduced_unambig,5,Intervener,on a cable channel
+13,reduced_unambig,6,Disambiguator,was
+13,reduced_unambig,7,End,canceled immediately
+13,unreduced_unambig,1,Start,The
+13,unreduced_unambig,2,Noun,television show
+13,unreduced_unambig,3,Ambiguous verb,that was begun
+13,unreduced_unambig,4,RC contents,three weeks ago
+13,unreduced_unambig,5,Intervener,on a cable channel
+13,unreduced_unambig,6,Disambiguator,was
+13,unreduced_unambig,7,End,canceled immediately
+14,reduced_ambig,1,Start,The
+14,reduced_ambig,2,Noun,boys
+14,reduced_ambig,3,Ambiguous verb,performed
+14,reduced_ambig,4,RC contents,an unsolicited favor
+14,reduced_ambig,5,Intervener,for no good reason
+14,reduced_ambig,6,Disambiguator,appreciated
+14,reduced_ambig,7,End,the person who helped them
+14,unreduced_ambig,1,Start,The
+14,unreduced_ambig,2,Noun,boys
+14,unreduced_ambig,3,Ambiguous verb,who were performed
+14,unreduced_ambig,4,RC contents,an unsolicited favor
+14,unreduced_ambig,5,Intervener,for no good reason
+14,unreduced_ambig,6,Disambiguator,appreciated
+14,unreduced_ambig,7,End,the person who helped them
+14,reduced_unambig,1,Start,The
+14,reduced_unambig,2,Noun,boys
+14,reduced_unambig,3,Ambiguous verb,done
+14,reduced_unambig,4,RC contents,an unsolicited favor
+14,reduced_unambig,5,Intervener,for no good reason
+14,reduced_unambig,6,Disambiguator,appreciated
+14,reduced_unambig,7,End,the person who helped them
+14,unreduced_unambig,1,Start,The
+14,unreduced_unambig,2,Noun,boys
+14,unreduced_unambig,3,Ambiguous verb,who were done
+14,unreduced_unambig,4,RC contents,an unsolicited favor
+14,unreduced_unambig,5,Intervener,for no good reason
+14,unreduced_unambig,6,Disambiguator,appreciated
+14,unreduced_unambig,7,End,the person who helped them
+15,reduced_ambig,1,Start,The
+15,reduced_ambig,2,Noun,player
+15,reduced_ambig,3,Ambiguous verb,tossed
+15,reduced_ambig,4,RC contents,the baseball
+15,reduced_ambig,5,Intervener,during the game
+15,reduced_ambig,6,Disambiguator,dropped
+15,reduced_ambig,7,End,it on the ground
+15,unreduced_ambig,1,Start,The
+15,unreduced_ambig,2,Noun,player
+15,unreduced_ambig,3,Ambiguous verb,who was tossed
+15,unreduced_ambig,4,RC contents,the baseball
+15,unreduced_ambig,5,Intervener,during the game
+15,unreduced_ambig,6,Disambiguator,dropped
+15,unreduced_ambig,7,End,it on the ground
+15,reduced_unambig,1,Start,The
+15,reduced_unambig,2,Noun,player
+15,reduced_unambig,3,Ambiguous verb,thrown
+15,reduced_unambig,4,RC contents,the baseball
+15,reduced_unambig,5,Intervener,during the game
+15,reduced_unambig,6,Disambiguator,dropped
+15,reduced_unambig,7,End,it on the ground
+15,unreduced_unambig,1,Start,The
+15,unreduced_unambig,2,Noun,player
+15,unreduced_unambig,3,Ambiguous verb,who was thrown
+15,unreduced_unambig,4,RC contents,the baseball
+15,unreduced_unambig,5,Intervener,during the game
+15,unreduced_unambig,6,Disambiguator,dropped
+15,unreduced_unambig,7,End,it on the ground
+16,reduced_ambig,1,Start,The
+16,reduced_ambig,2,Noun,men
+16,reduced_ambig,3,Ambiguous verb,discussed
+16,reduced_ambig,4,RC contents,in the neighborhood
+16,reduced_ambig,5,Intervener,by most of the residents
+16,reduced_ambig,6,Disambiguator,died
+16,reduced_ambig,7,End,from cancer
+16,unreduced_ambig,1,Start,The
+16,unreduced_ambig,2,Noun,men
+16,unreduced_ambig,3,Ambiguous verb,who were discussed
+16,unreduced_ambig,4,RC contents,in the neighborhood
+16,unreduced_ambig,5,Intervener,by most of the residents
+16,unreduced_ambig,6,Disambiguator,died
+16,unreduced_ambig,7,End,from cancer
+16,reduced_unambig,1,Start,The
+16,reduced_unambig,2,Noun,man
+16,reduced_unambig,3,Ambiguous verb,known
+16,reduced_unambig,4,RC contents,in the neighborhood
+16,reduced_unambig,5,Intervener,by most of the residents
+16,reduced_unambig,6,Disambiguator,died
+16,reduced_unambig,7,End,from cancer
+16,unreduced_unambig,1,Start,The
+16,unreduced_unambig,2,Noun,man
+16,unreduced_unambig,3,Ambiguous verb,who was known
+16,unreduced_unambig,4,RC contents,in the neighborhood
+16,unreduced_unambig,5,Intervener,by most of the residents
+16,unreduced_unambig,6,Disambiguator,died
+16,unreduced_unambig,7,End,from cancer
+17,reduced_ambig,1,Start,The
+17,reduced_ambig,2,Noun,child
+17,reduced_ambig,3,Ambiguous verb,jumped
+17,reduced_ambig,4,RC contents,past the swings
+17,reduced_ambig,5,Intervener,in the park
+17,reduced_ambig,6,Disambiguator,was
+17,reduced_ambig,7,End,upset about it
+17,unreduced_ambig,1,Start,The
+17,unreduced_ambig,2,Noun,child
+17,unreduced_ambig,3,Ambiguous verb,who was jumped
+17,unreduced_ambig,4,RC contents,past the swings
+17,unreduced_ambig,5,Intervener,in the park
+17,unreduced_ambig,6,Disambiguator,was
+17,unreduced_ambig,7,End,upset about it
+17,reduced_unambig,1,Start,The
+17,reduced_unambig,2,Noun,child
+17,reduced_unambig,3,Ambiguous verb,led
+17,reduced_unambig,4,RC contents,past the swings
+17,reduced_unambig,5,Intervener,in the park
+17,reduced_unambig,6,Disambiguator,was
+17,reduced_unambig,7,End,upset about it
+17,unreduced_unambig,1,Start,The
+17,unreduced_unambig,2,Noun,child
+17,unreduced_unambig,3,Ambiguous verb,who was led
+17,unreduced_unambig,4,RC contents,past the swings
+17,unreduced_unambig,5,Intervener,in the park
+17,unreduced_unambig,6,Disambiguator,was
+17,unreduced_unambig,7,End,upset about it
+18,reduced_ambig,1,Start,The
+18,reduced_ambig,2,Noun,students
+18,reduced_ambig,3,Ambiguous verb,prepared
+18,reduced_ambig,4,RC contents,a fancy dinner
+18,reduced_ambig,5,Intervener,for the holidays
+18,reduced_ambig,6,Disambiguator,ate
+18,reduced_ambig,7,End,the meal quickly
+18,unreduced_ambig,1,Start,The
+18,unreduced_ambig,2,Noun,students
+18,unreduced_ambig,3,Ambiguous verb,who were prepared
+18,unreduced_ambig,4,RC contents,a fancy dinner
+18,unreduced_ambig,5,Intervener,for the holidays
+18,unreduced_ambig,6,Disambiguator,ate
+18,unreduced_ambig,7,End,the meal quickly
+18,reduced_unambig,1,Start,The
+18,reduced_unambig,2,Noun,students
+18,reduced_unambig,3,Ambiguous verb,gotten
+18,reduced_unambig,4,RC contents,a fancy dinner
+18,reduced_unambig,5,Intervener,for the holidays
+18,reduced_unambig,6,Disambiguator,ate
+18,reduced_unambig,7,End,the meal quickly
+18,unreduced_unambig,1,Start,The
+18,unreduced_unambig,2,Noun,students
+18,unreduced_unambig,3,Ambiguous verb,who were gotten
+18,unreduced_unambig,4,RC contents,a fancy dinner
+18,unreduced_unambig,5,Intervener,for the holidays
+18,unreduced_unambig,6,Disambiguator,ate
+18,unreduced_unambig,7,End,the meal quickly
+19,reduced_ambig,1,Start,The
+19,reduced_ambig,2,Noun,infant
+19,reduced_ambig,3,Ambiguous verb,fed
+19,reduced_ambig,4,RC contents,during the night
+19,reduced_ambig,5,Intervener,in the middle of winter
+19,reduced_ambig,6,Disambiguator,yelled
+19,reduced_ambig,7,End,intensely
+19,unreduced_ambig,1,Start,The
+19,unreduced_ambig,2,Noun,infant
+19,unreduced_ambig,3,Ambiguous verb,that was fed
+19,unreduced_ambig,4,RC contents,during the night
+19,unreduced_ambig,5,Intervener,in the middle of winter
+19,unreduced_ambig,6,Disambiguator,yelled
+19,unreduced_ambig,7,End,intensely
+19,reduced_unambig,1,Start,The
+19,reduced_unambig,2,Noun,infant
+19,reduced_unambig,3,Ambiguous verb,aroused
+19,reduced_unambig,4,RC contents,during the night
+19,reduced_unambig,5,Intervener,in the middle of winter
+19,reduced_unambig,6,Disambiguator,yelled
+19,reduced_unambig,7,End,intensely
+19,unreduced_unambig,1,Start,The
+19,unreduced_unambig,2,Noun,infant
+19,unreduced_unambig,3,Ambiguous verb,that was aroused
+19,unreduced_unambig,4,RC contents,during the night
+19,unreduced_unambig,5,Intervener,in the middle of winter
+19,unreduced_unambig,6,Disambiguator,yelled
+19,unreduced_unambig,7,End,intensely
+20,reduced_ambig,1,Start,The
+20,reduced_ambig,2,Noun,refugee
+20,reduced_ambig,3,Ambiguous verb,sheltered
+20,reduced_ambig,4,RC contents,in the basement
+20,reduced_ambig,5,Intervener,filled with mold
+20,reduced_ambig,6,Disambiguator,departed
+20,reduced_ambig,7,End,during the night
+20,unreduced_ambig,1,Start,The
+20,unreduced_ambig,2,Noun,refugee
+20,unreduced_ambig,3,Ambiguous verb,who was sheltered
+20,unreduced_ambig,4,RC contents,in the basement
+20,unreduced_ambig,5,Intervener,filled with mold
+20,unreduced_ambig,6,Disambiguator,departed
+20,unreduced_ambig,7,End,during the night
+20,reduced_unambig,1,Start,The
+20,reduced_unambig,2,Noun,refugee
+20,reduced_unambig,3,Ambiguous verb,hidden
+20,reduced_unambig,4,RC contents,in the basement
+20,reduced_unambig,5,Intervener,filled with mold
+20,reduced_unambig,6,Disambiguator,departed
+20,reduced_unambig,7,End,during the night
+20,unreduced_unambig,1,Start,The
+20,unreduced_unambig,2,Noun,refugee
+20,unreduced_unambig,3,Ambiguous verb,who was hidden
+20,unreduced_unambig,4,RC contents,in the basement
+20,unreduced_unambig,5,Intervener,filled with mold
+20,unreduced_unambig,6,Disambiguator,departed
+20,unreduced_unambig,7,End,during the night
+21,reduced_ambig,1,Start,The
+21,reduced_ambig,2,Noun,dog
+21,reduced_ambig,3,Ambiguous verb,walked
+21,reduced_ambig,4,RC contents,on the beach
+21,reduced_ambig,5,Intervener,by the sea
+21,reduced_ambig,6,Disambiguator,chased
+21,reduced_ambig,7,End,after a bird
+21,unreduced_ambig,1,Start,The
+21,unreduced_ambig,2,Noun,dog
+21,unreduced_ambig,3,Ambiguous verb,that was walked
+21,unreduced_ambig,4,RC contents,on the beach
+21,unreduced_ambig,5,Intervener,by the sea
+21,unreduced_ambig,6,Disambiguator,chased
+21,unreduced_ambig,7,End,after a bird
+21,reduced_unambig,1,Start,The
+21,reduced_unambig,2,Noun,dog
+21,reduced_unambig,3,Ambiguous verb,seen
+21,reduced_unambig,4,RC contents,on the beach
+21,reduced_unambig,5,Intervener,by the sea
+21,reduced_unambig,6,Disambiguator,chased
+21,reduced_unambig,7,End,after a bird
+21,unreduced_unambig,1,Start,The
+21,unreduced_unambig,2,Noun,dog
+21,unreduced_unambig,3,Ambiguous verb,that was seen
+21,unreduced_unambig,4,RC contents,on the beach
+21,unreduced_unambig,5,Intervener,by the sea
+21,unreduced_unambig,6,Disambiguator,chased
+21,unreduced_unambig,7,End,after a bird
+22,reduced_ambig,1,Start,The
+22,reduced_ambig,2,Noun,ship
+22,reduced_ambig,3,Ambiguous verb,steered
+22,reduced_ambig,4,RC contents,off course
+22,reduced_ambig,5,Intervener,in the Pacific Ocean
+22,reduced_ambig,6,Disambiguator,sank
+22,reduced_ambig,7,End,in the storm
+22,unreduced_ambig,1,Start,The
+22,unreduced_ambig,2,Noun,ship
+22,unreduced_ambig,3,Ambiguous verb,that was steered
+22,unreduced_ambig,4,RC contents,off course
+22,unreduced_ambig,5,Intervener,in the Pacific Ocean
+22,unreduced_ambig,6,Disambiguator,sank
+22,unreduced_ambig,7,End,in the storm
+22,reduced_unambig,1,Start,The
+22,reduced_unambig,2,Noun,ship
+22,reduced_unambig,3,Ambiguous verb,blown
+22,reduced_unambig,4,RC contents,off course
+22,reduced_unambig,5,Intervener,in the Pacific Ocean
+22,reduced_unambig,6,Disambiguator,sank
+22,reduced_unambig,7,End,in the storm
+22,unreduced_unambig,1,Start,The
+22,unreduced_unambig,2,Noun,ship
+22,unreduced_unambig,3,Ambiguous verb,that was blown
+22,unreduced_unambig,4,RC contents,off course
+22,unreduced_unambig,5,Intervener,in the Pacific Ocean
+22,unreduced_unambig,6,Disambiguator,sank
+22,unreduced_unambig,7,End,in the storm
+23,reduced_ambig,1,Start,The
+23,reduced_ambig,2,Noun,fans
+23,reduced_ambig,3,Ambiguous verb,cheered
+23,reduced_ambig,4,RC contents,at the concert
+23,reduced_ambig,5,Intervener,by the performers
+23,reduced_ambig,6,Disambiguator,took
+23,reduced_ambig,7,End,photos with their phones
+23,unreduced_ambig,1,Start,The
+23,unreduced_ambig,2,Noun,fans
+23,unreduced_ambig,3,Ambiguous verb,that were cheered
+23,unreduced_ambig,4,RC contents,at the concert
+23,unreduced_ambig,5,Intervener,by the performers
+23,unreduced_ambig,6,Disambiguator,took
+23,unreduced_ambig,7,End,photos with their phones
+23,reduced_unambig,1,Start,The
+23,reduced_unambig,2,Noun,fans
+23,reduced_unambig,3,Ambiguous verb,emboldened
+23,reduced_unambig,4,RC contents,at the concert
+23,reduced_unambig,5,Intervener,by the performers
+23,reduced_unambig,6,Disambiguator,took
+23,reduced_unambig,7,End,photos with their phones
+23,unreduced_unambig,1,Start,The
+23,unreduced_unambig,2,Noun,fans
+23,unreduced_unambig,3,Ambiguous verb,that were emboldened
+23,unreduced_unambig,4,RC contents,at the concert
+23,unreduced_unambig,5,Intervener,by the performers
+23,unreduced_unambig,6,Disambiguator,took
+23,unreduced_unambig,7,End,photos with their phones
+24,reduced_ambig,1,Start,The
+24,reduced_ambig,2,Noun,boat
+24,reduced_ambig,3,Ambiguous verb,steered
+24,reduced_ambig,4,RC contents,to the sea
+24,reduced_ambig,5,Intervener,filled with fish
+24,reduced_ambig,6,Disambiguator,disappeared
+24,reduced_ambig,7,End,in the storm
+24,unreduced_ambig,1,Start,The
+24,unreduced_ambig,2,Noun,boat
+24,unreduced_ambig,3,Ambiguous verb,that was steered
+24,unreduced_ambig,4,RC contents,in the sea
+24,unreduced_ambig,5,Intervener,filled with fish
+24,unreduced_ambig,6,Disambiguator,disappeared
+24,unreduced_ambig,7,End,in the storm
+24,reduced_unambig,1,Start,The
+24,reduced_unambig,2,Noun,boat
+24,reduced_unambig,3,Ambiguous verb,sunk
+24,reduced_unambig,4,RC contents,in the sea
+24,reduced_unambig,5,Intervener,filled with fish
+24,reduced_unambig,6,Disambiguator,disappeared
+24,reduced_unambig,7,End,in the storm
+24,unreduced_unambig,1,Start,The
+24,unreduced_unambig,2,Noun,boat
+24,unreduced_unambig,3,Ambiguous verb,that was sunk
+24,unreduced_unambig,4,RC contents,in the sea
+24,unreduced_unambig,5,Intervener,filled with fish
+24,unreduced_unambig,6,Disambiguator,disappeared
+24,unreduced_unambig,7,End,in the storm
+25,reduced_ambig,1,Start,The
+25,reduced_ambig,2,Noun,couple
+25,reduced_ambig,3,Ambiguous verb,bought
+25,reduced_ambig,4,RC contents,the apartment
+25,reduced_ambig,5,Intervener,with new wood floors
+25,reduced_ambig,6,Disambiguator,moved
+25,reduced_ambig,7,End,to a different city
+25,unreduced_ambig,1,Start,The
+25,unreduced_ambig,2,Noun,couple
+25,unreduced_ambig,3,Ambiguous verb,that was bought
+25,unreduced_ambig,4,RC contents,the apartment
+25,unreduced_ambig,5,Intervener,with new wood floors
+25,unreduced_ambig,6,Disambiguator,moved
+25,unreduced_ambig,7,End,to a different city
+25,reduced_unambig,1,Start,The
+25,reduced_unambig,2,Noun,couple
+25,reduced_unambig,3,Ambiguous verb,shown
+25,reduced_unambig,4,RC contents,the apartment
+25,reduced_unambig,5,Intervener,with new wood floors
+25,reduced_unambig,6,Disambiguator,moved
+25,reduced_unambig,7,End,to a different city
+25,unreduced_unambig,1,Start,The
+25,unreduced_unambig,2,Noun,couple
+25,unreduced_unambig,3,Ambiguous verb,that was shown
+25,unreduced_unambig,4,RC contents,the apartment
+25,unreduced_unambig,5,Intervener,with new wood floors
+25,unreduced_unambig,6,Disambiguator,moved
+25,unreduced_unambig,7,End,to a different city
+26,reduced_ambig,1,Start,The
+26,reduced_ambig,2,Noun,girl
+26,reduced_ambig,3,Ambiguous verb,made
+26,reduced_ambig,4,RC contents,a new blanket
+26,reduced_ambig,5,Intervener,out of expensive material
+26,reduced_ambig,6,Disambiguator,lost
+26,reduced_ambig,7,End,it during the trip
+26,unreduced_ambig,1,Start,The
+26,unreduced_ambig,2,Noun,girl
+26,unreduced_ambig,3,Ambiguous verb,who was made
+26,unreduced_ambig,4,RC contents,a new blanket
+26,unreduced_ambig,5,Intervener,out of expensive material
+26,unreduced_ambig,6,Disambiguator,lost
+26,unreduced_ambig,7,End,it during the trip
+26,reduced_unambig,1,Start,The
+26,reduced_unambig,2,Noun,girl
+26,reduced_unambig,3,Ambiguous verb,given
+26,reduced_unambig,4,RC contents,a new blanket
+26,reduced_unambig,5,Intervener,out of expensive material
+26,reduced_unambig,6,Disambiguator,lost
+26,reduced_unambig,7,End,it during the trip
+26,unreduced_unambig,1,Start,The
+26,unreduced_unambig,2,Noun,girl
+26,unreduced_unambig,3,Ambiguous verb,who was given
+26,unreduced_unambig,4,RC contents,a new blanket
+26,unreduced_unambig,5,Intervener,out of expensive material
+26,unreduced_unambig,6,Disambiguator,lost
+26,unreduced_unambig,7,End,it during the trip
+27,reduced_ambig,1,Start,The
+27,reduced_ambig,2,Noun,airplane
+27,reduced_ambig,3,Ambiguous verb,landed
+27,reduced_ambig,4,RC contents,in the mountains
+27,reduced_ambig,5,Intervener,in the winter
+27,reduced_ambig,6,Disambiguator,broke down
+27,reduced_ambig,7,End,during the ice storm
+27,unreduced_ambig,1,Start,The
+27,unreduced_ambig,2,Noun,airplane
+27,unreduced_ambig,3,Ambiguous verb,that was landed
+27,unreduced_ambig,4,RC contents,in the mountains
+27,unreduced_ambig,5,Intervener,in the winter
+27,unreduced_ambig,6,Disambiguator,broke down
+27,unreduced_ambig,7,End,
+27,reduced_unambig,1,Start,The
+27,reduced_unambig,2,Noun,airplane
+27,reduced_unambig,3,Ambiguous verb,flown
+27,reduced_unambig,4,RC contents,in the mountains
+27,reduced_unambig,5,Intervener,in the winter
+27,reduced_unambig,6,Disambiguator,broke down
+27,reduced_unambig,7,End,during the ice storm
+27,unreduced_unambig,1,Start,The
+27,unreduced_unambig,2,Noun,airplane
+27,unreduced_unambig,3,Ambiguous verb,that was flown
+27,unreduced_unambig,4,RC contents,in the mountains
+27,unreduced_unambig,5,Intervener,in the winter
+27,unreduced_unambig,6,Disambiguator,broke down
+27,unreduced_unambig,7,End,during the ice storm
+28,reduced_ambig,1,Start,The
+28,reduced_ambig,2,Noun,child
+28,reduced_ambig,3,Ambiguous verb,carried
+28,reduced_ambig,4,RC contents,down the hall
+28,reduced_ambig,5,Intervener,of the school
+28,reduced_ambig,6,Disambiguator,yelled
+28,reduced_ambig,7,End,at the top of his lungs
+28,unreduced_ambig,1,Start,The
+28,unreduced_ambig,2,Noun,child
+28,unreduced_ambig,3,Ambiguous verb,that was carried
+28,unreduced_ambig,4,RC contents,down the hall
+28,unreduced_ambig,5,Intervener,of the school
+28,unreduced_ambig,6,Disambiguator,yelled
+28,unreduced_ambig,7,End,at the top of his lungs
+28,reduced_unambig,1,Start,The
+28,reduced_unambig,2,Noun,child
+28,reduced_unambig,3,Ambiguous verb,borne
+28,reduced_unambig,4,RC contents,down the hall
+28,reduced_unambig,5,Intervener,of the school
+28,reduced_unambig,6,Disambiguator,yelled
+28,reduced_unambig,7,End,at the top of his lungs
+28,unreduced_unambig,1,Start,The
+28,unreduced_unambig,2,Noun,child
+28,unreduced_unambig,3,Ambiguous verb,that was borne
+28,unreduced_unambig,4,RC contents,down the hall
+28,unreduced_unambig,5,Intervener,of the school
+28,unreduced_unambig,6,Disambiguator,yelled
+28,unreduced_unambig,7,End,at the top of his lungs

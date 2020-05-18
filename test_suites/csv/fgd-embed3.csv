@@ -1,0 +1,589 @@
+item_number,condition_name,region_number,region_name,content
+1,what_gap,1,prefix,I know
+1,what_gap,2,comp,what
+1,what_gap,3,embedding,our mother said her friend remarked that the park attendant reported
+1,what_gap,4,subj,your friend
+1,what_gap,5,verb,threw
+1,what_gap,6,Unnamed: 7,
+1,what_gap,7,continuation,into the trash can
+1,that_gap,1,prefix,I know
+1,that_gap,2,comp,that
+1,that_gap,3,embedding,our mother said her friend remarked that the park attendant reported
+1,that_gap,4,subj,your friend
+1,that_gap,5,verb,threw
+1,that_gap,6,Unnamed: 7,
+1,that_gap,7,continuation,into the trash can
+1,what_no-gap,1,prefix,I know
+1,what_no-gap,2,comp,what
+1,what_no-gap,3,embedding,our mother said her friend remarked that the park attendant reported
+1,what_no-gap,4,subj,your friend
+1,what_no-gap,5,verb,threw
+1,what_no-gap,6,Unnamed: 7,the plastic
+1,what_no-gap,7,continuation,into the trash can
+1,that_no-gap,1,prefix,I know
+1,that_no-gap,2,comp,that
+1,that_no-gap,3,embedding,our mother said her friend remarked that the park attendant reported
+1,that_no-gap,4,subj,your friend
+1,that_no-gap,5,verb,threw
+1,that_no-gap,6,Unnamed: 7,the plastic
+1,that_no-gap,7,continuation,into the trash can
+2,what_gap,1,prefix,The accountant knew
+2,what_gap,2,comp,who
+2,what_gap,3,embedding,the security guard believed his friend knew the assistant reported
+2,what_gap,4,subj,the secretary
+2,what_gap,5,verb,introduced
+2,what_gap,6,Unnamed: 7,
+2,what_gap,7,continuation,to her friend
+2,that_gap,1,prefix,The accountant knew
+2,that_gap,2,comp,that
+2,that_gap,3,embedding,the security guard believed his friend knew the assistant reported
+2,that_gap,4,subj,the secretary
+2,that_gap,5,verb,introduced
+2,that_gap,6,Unnamed: 7,
+2,that_gap,7,continuation,to her friend
+2,what_no-gap,1,prefix,The accountant knew
+2,what_no-gap,2,comp,who
+2,what_no-gap,3,embedding,the security guard believed his friend knew the assistant reported
+2,what_no-gap,4,subj,the secretary
+2,what_no-gap,5,verb,introduced
+2,what_no-gap,6,Unnamed: 7,the new woman
+2,what_no-gap,7,continuation,to her friend
+2,that_no-gap,1,prefix,The accountant knew
+2,that_no-gap,2,comp,that
+2,that_no-gap,3,embedding,the security guard believed his friend knew the assistant reported
+2,that_no-gap,4,subj,the secretary
+2,that_no-gap,5,verb,introduced
+2,that_no-gap,6,Unnamed: 7,the new woman
+2,that_no-gap,7,continuation,to her friend
+3,what_gap,1,prefix,The assistant told me
+3,what_gap,2,comp,what
+3,what_gap,3,embedding,the man knew his friend recalled the woman said
+3,what_gap,4,subj,the pilot
+3,what_gap,5,verb,sent
+3,what_gap,6,Unnamed: 7,
+3,what_gap,7,continuation,to his family
+3,that_gap,1,prefix,The assistant told me
+3,that_gap,2,comp,that
+3,that_gap,3,embedding,the man knew his friend recalled the woman said
+3,that_gap,4,subj,the pilot
+3,that_gap,5,verb,sent
+3,that_gap,6,Unnamed: 7,
+3,that_gap,7,continuation,to his family
+3,what_no-gap,1,prefix,The assistant told me
+3,what_no-gap,2,comp,what
+3,what_no-gap,3,embedding,the man knew his friend recalled the woman said
+3,what_no-gap,4,subj,the pilot
+3,what_no-gap,5,verb,sent
+3,what_no-gap,6,Unnamed: 7,the package
+3,what_no-gap,7,continuation,to his family
+3,that_no-gap,1,prefix,The assistant told me
+3,that_no-gap,2,comp,that
+3,that_no-gap,3,embedding,the man knew his friend recalled the woman said
+3,that_no-gap,4,subj,the pilot
+3,that_no-gap,5,verb,sent
+3,that_no-gap,6,Unnamed: 7,the package
+3,that_no-gap,7,continuation,to his family
+4,what_gap,1,prefix,We discovered
+4,what_gap,2,comp,what
+4,what_gap,3,embedding,the delivery boy remarked that the worker said that the gardener knew
+4,what_gap,4,subj,the funny actor
+4,what_gap,5,verb,told
+4,what_gap,6,Unnamed: 7,
+4,what_gap,7,continuation,about the woman
+4,that_gap,1,prefix,We discovered
+4,that_gap,2,comp,that
+4,that_gap,3,embedding,the delivery boy remarked that the worker said that the gardener knew
+4,that_gap,4,subj,the funny actor
+4,that_gap,5,verb,told
+4,that_gap,6,Unnamed: 7,
+4,that_gap,7,continuation,about the woman
+4,what_no-gap,1,prefix,We discovered
+4,what_no-gap,2,comp,what
+4,what_no-gap,3,embedding,the delivery boy remarked that the worker said that the gardener knew
+4,what_no-gap,4,subj,the funny actor
+4,what_no-gap,5,verb,told
+4,what_no-gap,6,Unnamed: 7,a story
+4,what_no-gap,7,continuation,about the woman
+4,that_no-gap,1,prefix,We discovered
+4,that_no-gap,2,comp,that
+4,that_no-gap,3,embedding,the delivery boy remarked that the worker said that the gardener knew
+4,that_no-gap,4,subj,the funny actor
+4,that_no-gap,5,verb,told
+4,that_no-gap,6,Unnamed: 7,a story
+4,that_no-gap,7,continuation,about the woman
+5,what_gap,1,prefix,The neighbors found out
+5,what_gap,2,comp,what
+5,what_gap,3,embedding,her mother heard the newspaper reported the mayor said
+5,what_gap,4,subj,the young woman
+5,what_gap,5,verb,bought
+5,what_gap,6,Unnamed: 7,
+5,what_gap,7,continuation,for her parents
+5,that_gap,1,prefix,The neighbors found out
+5,that_gap,2,comp,that
+5,that_gap,3,embedding,her mother heard the newspaper reported the mayor said
+5,that_gap,4,subj,the young woman
+5,that_gap,5,verb,bought
+5,that_gap,6,Unnamed: 7,
+5,that_gap,7,continuation,for her parents
+5,what_no-gap,1,prefix,The neighbors found out
+5,what_no-gap,2,comp,what
+5,what_no-gap,3,embedding,her mother heard the newspaper reported the mayor said
+5,what_no-gap,4,subj,the young woman
+5,what_no-gap,5,verb,bought
+5,what_no-gap,6,Unnamed: 7,a gift
+5,what_no-gap,7,continuation,for her parents
+5,that_no-gap,1,prefix,The neighbors found out
+5,that_no-gap,2,comp,that
+5,that_no-gap,3,embedding,her mother heard the newspaper reported the mayor said
+5,that_no-gap,4,subj,the young woman
+5,that_no-gap,5,verb,bought
+5,that_no-gap,6,Unnamed: 7,a gift
+5,that_no-gap,7,continuation,for her parents
+6,what_gap,1,prefix,My friend knows
+6,what_gap,2,comp,what
+6,what_gap,3,embedding,the judge thought the cop said the man testified
+6,what_gap,4,subj,the successful architect
+6,what_gap,5,verb,handed
+6,what_gap,6,Unnamed: 7,
+6,what_gap,7,continuation,for her mother
+6,that_gap,1,prefix,My friend knows
+6,that_gap,2,comp,that
+6,that_gap,3,embedding,the judge thought the cop said the man testified
+6,that_gap,4,subj,the successful architect
+6,that_gap,5,verb,handed
+6,that_gap,6,Unnamed: 7,
+6,that_gap,7,continuation,for her mother
+6,what_no-gap,1,prefix,My friend knows
+6,what_no-gap,2,comp,what
+6,what_no-gap,3,embedding,the judge thought the cop said the man testified
+6,what_no-gap,4,subj,the successful architect
+6,what_no-gap,5,verb,handed
+6,what_no-gap,6,Unnamed: 7,an award
+6,what_no-gap,7,continuation,for her mother
+6,that_no-gap,1,prefix,My friend knows
+6,that_no-gap,2,comp,that
+6,that_no-gap,3,embedding,the judge thought the cop said the man testified
+6,that_no-gap,4,subj,the successful architect
+6,that_no-gap,5,verb,handed
+6,that_no-gap,6,Unnamed: 7,an award
+6,that_no-gap,7,continuation,for her mother
+7,what_gap,1,prefix,The commissioner discovered
+7,what_gap,2,comp,what
+7,what_gap,3,embedding,the report stated the television host thought the man reported
+7,what_gap,4,subj,the police detective
+7,what_gap,5,verb,lent
+7,what_gap,6,Unnamed: 7,
+7,what_gap,7,continuation,to the man
+7,that_gap,1,prefix,The commissioner discovered
+7,that_gap,2,comp,that
+7,that_gap,3,embedding,the report stated the television host thought the man reported
+7,that_gap,4,subj,the police detective
+7,that_gap,5,verb,lent
+7,that_gap,6,Unnamed: 7,
+7,that_gap,7,continuation,to the man
+7,what_no-gap,1,prefix,The commissioner discovered
+7,what_no-gap,2,comp,what
+7,what_no-gap,3,embedding,the report stated the television host thought the man reported
+7,what_no-gap,4,subj,the police detective
+7,what_no-gap,5,verb,lent
+7,what_no-gap,6,Unnamed: 7,some money
+7,what_no-gap,7,continuation,to the man
+7,that_no-gap,1,prefix,The commissioner discovered
+7,that_no-gap,2,comp,that
+7,that_no-gap,3,embedding,the report stated the television host thought the man reported
+7,that_no-gap,4,subj,the police detective
+7,that_no-gap,5,verb,lent
+7,that_no-gap,6,Unnamed: 7,some money
+7,that_no-gap,7,continuation,to the man
+8,what_gap,1,prefix,We all know
+8,what_gap,2,comp,what
+8,what_gap,3,embedding,the accountant said his colleague recalled the partners knew
+8,what_gap,4,subj,the investor
+8,what_gap,5,verb,repaid
+8,what_gap,6,Unnamed: 7,
+8,what_gap,7,continuation,to the criminal kingpin 
+8,that_gap,1,prefix,We all know
+8,that_gap,2,comp,that
+8,that_gap,3,embedding,the accountant said his colleague recalled the partners knew
+8,that_gap,4,subj,the investor
+8,that_gap,5,verb,repaid
+8,that_gap,6,Unnamed: 7,
+8,that_gap,7,continuation,to the criminal kingpin
+8,what_no-gap,1,prefix,We all know
+8,what_no-gap,2,comp,what
+8,what_no-gap,3,embedding,the accountant said his colleague recalled the partners knew
+8,what_no-gap,4,subj,the investor
+8,what_no-gap,5,verb,repaid
+8,what_no-gap,6,Unnamed: 7,his debt
+8,what_no-gap,7,continuation,to the criminal kingpin 
+8,that_no-gap,1,prefix,We all know
+8,that_no-gap,2,comp,that
+8,that_no-gap,3,embedding,the accountant said his colleague recalled the partners knew
+8,that_no-gap,4,subj,the investor
+8,that_no-gap,5,verb,repaid
+8,that_no-gap,6,Unnamed: 7,his debt
+8,that_no-gap,7,continuation,to the criminal kingpin
+9,what_gap,1,prefix,I know
+9,what_gap,2,comp,what
+9,what_gap,3,embedding,the secretary said the journalist remarked that the workers decided
+9,what_gap,4,subj,the business man
+9,what_gap,5,verb,promised
+9,what_gap,6,Unnamed: 7,
+9,what_gap,7,continuation,to the factory workers
+9,that_gap,1,prefix,I know
+9,that_gap,2,comp,that
+9,that_gap,3,embedding,the secretary said the journalist remarked that the workers decided
+9,that_gap,4,subj,the business man
+9,that_gap,5,verb,promised
+9,that_gap,6,Unnamed: 7,
+9,that_gap,7,continuation,to the factory workers
+9,what_no-gap,1,prefix,I know
+9,what_no-gap,2,comp,what
+9,what_no-gap,3,embedding,the secretary said the journalist remarked that the workers decided
+9,what_no-gap,4,subj,the business man
+9,what_no-gap,5,verb,promised
+9,what_no-gap,6,Unnamed: 7,a raise
+9,what_no-gap,7,continuation,to the factory workers
+9,that_no-gap,1,prefix,I know
+9,that_no-gap,2,comp,that
+9,that_no-gap,3,embedding,the secretary said the journalist remarked that the workers decided
+9,that_no-gap,4,subj,the business man
+9,that_no-gap,5,verb,promised
+9,that_no-gap,6,Unnamed: 7,a raise
+9,that_no-gap,7,continuation,to the factory workers
+10,what_gap,1,prefix,The newspaper reported
+10,what_gap,2,comp,what
+10,what_gap,3,embedding,the investigator thought the businessman believed the banker said
+10,what_gap,4,subj,the boss
+10,what_gap,5,verb,sold
+10,what_gap,6,Unnamed: 7,
+10,what_gap,7,continuation,to his friend
+10,that_gap,1,prefix,The newspaper reported
+10,that_gap,2,comp,that
+10,that_gap,3,embedding,the investigator thought the businessman believed the banker said
+10,that_gap,4,subj,the boss
+10,that_gap,5,verb,sold
+10,that_gap,6,Unnamed: 7,
+10,that_gap,7,continuation,to his friend
+10,what_no-gap,1,prefix,The newspaper reported
+10,what_no-gap,2,comp,what
+10,what_no-gap,3,embedding,the investigator thought the businessman believed the banker said
+10,what_no-gap,4,subj,the boss
+10,what_no-gap,5,verb,sold
+10,what_no-gap,6,Unnamed: 7,a car
+10,what_no-gap,7,continuation,to his friend
+10,that_no-gap,1,prefix,The newspaper reported
+10,that_no-gap,2,comp,that
+10,that_no-gap,3,embedding,the investigator thought the businessman believed the banker said
+10,that_no-gap,4,subj,the boss
+10,that_no-gap,5,verb,sold
+10,that_no-gap,6,Unnamed: 7,a car
+10,that_no-gap,7,continuation,to his friend
+11,what_gap,1,prefix,Her friend found out
+11,what_gap,2,comp,what
+11,what_gap,3,embedding,my friend believes the professor said his colleague noticed
+11,what_gap,4,subj,the visitor
+11,what_gap,5,verb,told
+11,what_gap,6,Unnamed: 7,
+11,what_gap,7,continuation,to the guests
+11,that_gap,1,prefix,Her friend found out
+11,that_gap,2,comp,that
+11,that_gap,3,embedding,my friend believes the professor said his colleague noticed
+11,that_gap,4,subj,the visitor
+11,that_gap,5,verb,told
+11,that_gap,6,Unnamed: 7,
+11,that_gap,7,continuation,to the guests
+11,what_no-gap,1,prefix,Her friend found out
+11,what_no-gap,2,comp,what
+11,what_no-gap,3,embedding,my friend believes the professor said his colleague noticed
+11,what_no-gap,4,subj,the visitor
+11,what_no-gap,5,verb,told
+11,what_no-gap,6,Unnamed: 7,a story
+11,what_no-gap,7,continuation,to the guests
+11,that_no-gap,1,prefix,Her friend found out
+11,that_no-gap,2,comp,that
+11,that_no-gap,3,embedding,my friend believes the professor said his colleague noticed
+11,that_no-gap,4,subj,the visitor
+11,that_no-gap,5,verb,told
+11,that_no-gap,6,Unnamed: 7,a story
+11,that_no-gap,7,continuation,to the guests
+12,what_gap,1,prefix,I realized
+12,what_gap,2,comp,what
+12,what_gap,3,embedding,the painter believed his rival suspected the colonel said
+12,what_gap,4,subj,the suffering artist
+12,what_gap,5,verb,saw
+12,what_gap,6,Unnamed: 7,
+12,what_gap,7,continuation,at the museum
+12,that_gap,1,prefix,I realized
+12,that_gap,2,comp,that
+12,that_gap,3,embedding,the painter believed his rival suspected the colonel said
+12,that_gap,4,subj,the suffering artist
+12,that_gap,5,verb,saw
+12,that_gap,6,Unnamed: 7,
+12,that_gap,7,continuation,at the museum
+12,what_no-gap,1,prefix,I realized
+12,what_no-gap,2,comp,what
+12,what_no-gap,3,embedding,the painter believed his rival suspected the colonel said
+12,what_no-gap,4,subj,the suffering artist
+12,what_no-gap,5,verb,saw
+12,what_no-gap,6,Unnamed: 7,a painting
+12,what_no-gap,7,continuation,at the museum
+12,that_no-gap,1,prefix,I realized
+12,that_no-gap,2,comp,that
+12,that_no-gap,3,embedding,the painter believed his rival suspected the colonel said
+12,that_no-gap,4,subj,the suffering artist
+12,that_no-gap,5,verb,saw
+12,that_no-gap,6,Unnamed: 7,a painting
+12,that_no-gap,7,continuation,at the museum
+13,what_gap,1,prefix,The novel revealed
+13,what_gap,2,comp,what
+13,what_gap,3,embedding,our friend thought the reporter knows her contact said
+13,what_gap,4,subj,the young politician
+13,what_gap,5,verb,said
+13,what_gap,6,Unnamed: 7,
+13,what_gap,7,continuation,to his donors
+13,that_gap,1,prefix,The novel revealed
+13,that_gap,2,comp,that
+13,that_gap,3,embedding,our friend thought the reporter knows her contact said
+13,that_gap,4,subj,the young politician
+13,that_gap,5,verb,said
+13,that_gap,6,Unnamed: 7,
+13,that_gap,7,continuation,to his donors
+13,what_no-gap,1,prefix,The novel revealed
+13,what_no-gap,2,comp,what
+13,what_no-gap,3,embedding,our friend thought the reporter knows her contact said
+13,what_no-gap,4,subj,the young politician
+13,what_no-gap,5,verb,said
+13,what_no-gap,6,Unnamed: 7,something
+13,what_no-gap,7,continuation,to his donors
+13,that_no-gap,1,prefix,The novel revealed
+13,that_no-gap,2,comp,that
+13,that_no-gap,3,embedding,our friend thought the reporter knows her contact said
+13,that_no-gap,4,subj,the young politician
+13,that_no-gap,5,verb,said
+13,that_no-gap,6,Unnamed: 7,something
+13,that_no-gap,7,continuation,to his donors
+14,what_gap,1,prefix,We all know
+14,what_gap,2,comp,what
+14,what_gap,3,embedding,my neighbor said her associate knew a mutual friend stated
+14,what_gap,4,subj,the young professional
+14,what_gap,5,verb,assembled
+14,what_gap,6,Unnamed: 7,
+14,what_gap,7,continuation,for his parents
+14,that_gap,1,prefix,We all know
+14,that_gap,2,comp,that
+14,that_gap,3,embedding,my neighbor said her associate knew a mutual friend stated
+14,that_gap,4,subj,the young professional
+14,that_gap,5,verb,assembled
+14,that_gap,6,Unnamed: 7,
+14,that_gap,7,continuation,for his parents
+14,what_no-gap,1,prefix,We all know
+14,what_no-gap,2,comp,what
+14,what_no-gap,3,embedding,my neighbor said her associate knew a mutual friend stated
+14,what_no-gap,4,subj,the young professional
+14,what_no-gap,5,verb,assembled
+14,what_no-gap,6,Unnamed: 7,the bed
+14,what_no-gap,7,continuation,for his parents
+14,that_no-gap,1,prefix,We all know
+14,that_no-gap,2,comp,that
+14,that_no-gap,3,embedding,my neighbor said her associate knew a mutual friend stated
+14,that_no-gap,4,subj,the young professional
+14,that_no-gap,5,verb,assembled
+14,that_no-gap,6,Unnamed: 7,the bed
+14,that_no-gap,7,continuation,for his parents
+15,what_gap,1,prefix,I know
+15,what_gap,2,comp,what
+15,what_gap,3,embedding,their friend said the secretary believed the worker thinks
+15,what_gap,4,subj,the elderly lady
+15,what_gap,5,verb,found
+15,what_gap,6,Unnamed: 7,
+15,what_gap,7,continuation,on the bus
+15,that_gap,1,prefix,I know
+15,that_gap,2,comp,that
+15,that_gap,3,embedding,their friend said the secretary believed the worker thinks
+15,that_gap,4,subj,the elderly lady
+15,that_gap,5,verb,found
+15,that_gap,6,Unnamed: 7,
+15,that_gap,7,continuation,on the bus
+15,what_no-gap,1,prefix,I know
+15,what_no-gap,2,comp,what
+15,what_no-gap,3,embedding,their friend said the secretary believed the worker thinks
+15,what_no-gap,4,subj,the elderly lady
+15,what_no-gap,5,verb,found
+15,what_no-gap,6,Unnamed: 7,a quarter
+15,what_no-gap,7,continuation,on the bus
+15,that_no-gap,1,prefix,I know
+15,that_no-gap,2,comp,that
+15,that_no-gap,3,embedding,their friend said the secretary believed the worker thinks
+15,that_no-gap,4,subj,the elderly lady
+15,that_no-gap,5,verb,found
+15,that_no-gap,6,Unnamed: 7,a quarter
+15,that_no-gap,7,continuation,on the bus
+16,what_gap,1,prefix,My friends all know
+16,what_gap,2,comp,what
+16,what_gap,3,embedding,her friend knew the delivery man believed the cop believes
+16,what_gap,4,subj,the single mother
+16,what_gap,5,verb,described
+16,what_gap,6,Unnamed: 7,
+16,what_gap,7,continuation,to her friends
+16,that_gap,1,prefix,My friends all know
+16,that_gap,2,comp,that
+16,that_gap,3,embedding,her friend knew the delivery man believed the cop believes
+16,that_gap,4,subj,the single mother
+16,that_gap,5,verb,described
+16,that_gap,6,Unnamed: 7,
+16,that_gap,7,continuation,to her friends
+16,what_no-gap,1,prefix,My friends all know
+16,what_no-gap,2,comp,what
+16,what_no-gap,3,embedding,her friend knew the delivery man believed the cop believes
+16,what_no-gap,4,subj,the single mother
+16,what_no-gap,5,verb,described
+16,what_no-gap,6,Unnamed: 7,her woes
+16,what_no-gap,7,continuation,to her friends
+16,that_no-gap,1,prefix,My friends all know
+16,that_no-gap,2,comp,that
+16,that_no-gap,3,embedding,her friend knew the delivery man believed the cop believes
+16,that_no-gap,4,subj,the single mother
+16,that_no-gap,5,verb,described
+16,that_no-gap,6,Unnamed: 7,her woes
+16,that_no-gap,7,continuation,to her friends
+17,what_gap,1,prefix,The visitor said
+17,what_gap,2,comp,who
+17,what_gap,3,embedding,my friend said her mother knew the minister stated
+17,what_gap,4,subj,the human resources officer
+17,what_gap,5,verb,talked with
+17,what_gap,6,Unnamed: 7,
+17,what_gap,7,continuation,in her office
+17,that_gap,1,prefix,The visitor said
+17,that_gap,2,comp,that
+17,that_gap,3,embedding,my friend said her mother knew the minister stated
+17,that_gap,4,subj,the human resources officer
+17,that_gap,5,verb,talked with
+17,that_gap,6,Unnamed: 7,
+17,that_gap,7,continuation,in her office
+17,what_no-gap,1,prefix,The visitor said
+17,what_no-gap,2,comp,who
+17,what_no-gap,3,embedding,my friend said her mother knew the minister stated
+17,what_no-gap,4,subj,the human resources officer
+17,what_no-gap,5,verb,talked with
+17,what_no-gap,6,Unnamed: 7,the new manager
+17,what_no-gap,7,continuation,in her office
+17,that_no-gap,1,prefix,The visitor said
+17,that_no-gap,2,comp,that
+17,that_no-gap,3,embedding,my friend said her mother knew the minister stated
+17,that_no-gap,4,subj,the human resources officer
+17,that_no-gap,5,verb,talked with
+17,that_no-gap,6,Unnamed: 7,the new manager
+17,that_no-gap,7,continuation,in her office
+18,what_gap,1,prefix,I know
+18,what_gap,2,comp,what
+18,what_gap,3,embedding,the woman believed the secretary said her friend recalled
+18,what_gap,4,subj,the five star general
+18,what_gap,5,verb,found
+18,what_gap,6,Unnamed: 7,
+18,what_gap,7,continuation,in the office
+18,that_gap,1,prefix,I know
+18,that_gap,2,comp,that
+18,that_gap,3,embedding,the woman believed the secretary said her friend recalled
+18,that_gap,4,subj,the five star general
+18,that_gap,5,verb,found
+18,that_gap,6,Unnamed: 7,
+18,that_gap,7,continuation,in the office
+18,what_no-gap,1,prefix,I know
+18,what_no-gap,2,comp,what
+18,what_no-gap,3,embedding,the woman believed the secretary said her friend recalled
+18,what_no-gap,4,subj,the five star general
+18,what_no-gap,5,verb,found
+18,what_no-gap,6,Unnamed: 7,a gun
+18,what_no-gap,7,continuation,in the office
+18,that_no-gap,1,prefix,I know
+18,that_no-gap,2,comp,that
+18,that_no-gap,3,embedding,the woman believed the secretary said her friend recalled
+18,that_no-gap,4,subj,the five star general
+18,that_no-gap,5,verb,found
+18,that_no-gap,6,Unnamed: 7,a gun
+18,that_no-gap,7,continuation,in the office
+19,what_gap,1,prefix,The colleagues realized
+19,what_gap,2,comp,what
+19,what_gap,3,embedding,her mother stated a friend said her husband knew
+19,what_gap,4,subj,the journalist
+19,what_gap,5,verb,discovered
+19,what_gap,6,Unnamed: 7,
+19,what_gap,7,continuation,two weeks ago
+19,that_gap,1,prefix,The colleagues realized
+19,that_gap,2,comp,that
+19,that_gap,3,embedding,her mother stated a friend said her husband knew
+19,that_gap,4,subj,the journalist
+19,that_gap,5,verb,discovered
+19,that_gap,6,Unnamed: 7,
+19,that_gap,7,continuation,two weeks ago
+19,what_no-gap,1,prefix,The colleagues realized
+19,what_no-gap,2,comp,what
+19,what_no-gap,3,embedding,her mother stated a friend said her husband knew
+19,what_no-gap,4,subj,the journalist
+19,what_no-gap,5,verb,discovered
+19,what_no-gap,6,Unnamed: 7,the bribery
+19,what_no-gap,7,continuation,two weeks ago
+19,that_no-gap,1,prefix,The colleagues realized
+19,that_no-gap,2,comp,that
+19,that_no-gap,3,embedding,her mother stated a friend said her husband knew
+19,that_no-gap,4,subj,the journalist
+19,that_no-gap,5,verb,discovered
+19,that_no-gap,6,Unnamed: 7,the bribery
+19,that_no-gap,7,continuation,two weeks ago
+20,what_gap,1,prefix,She said
+20,what_gap,2,comp,what
+20,what_gap,3,embedding,the politician stated his press secretary said the chief of staff thought
+20,what_gap,4,subj,the reporter
+20,what_gap,5,verb,put
+20,what_gap,6,Unnamed: 7,
+20,what_gap,7,continuation,on the table
+20,that_gap,1,prefix,She said
+20,that_gap,2,comp,that
+20,that_gap,3,embedding,the politician stated his press secretary said the chief of staff thought
+20,that_gap,4,subj,the reporter
+20,that_gap,5,verb,put
+20,that_gap,6,Unnamed: 7,
+20,that_gap,7,continuation,on the table
+20,what_no-gap,1,prefix,She said
+20,what_no-gap,2,comp,what
+20,what_no-gap,3,embedding,the politician stated his press secretary said the chief of staff thought
+20,what_no-gap,4,subj,the reporter
+20,what_no-gap,5,verb,put
+20,what_no-gap,6,Unnamed: 7,the microphone
+20,what_no-gap,7,continuation,on the table
+20,that_no-gap,1,prefix,She said
+20,that_no-gap,2,comp,that
+20,that_no-gap,3,embedding,the politician stated his press secretary said the chief of staff thought
+20,that_no-gap,4,subj,the reporter
+20,that_no-gap,5,verb,put
+20,that_no-gap,6,Unnamed: 7,the microphone
+20,that_no-gap,7,continuation,on the table
+21,what_gap,1,prefix,We all know
+21,what_gap,2,comp,what
+21,what_gap,3,embedding,the old man thinks the woman knows the young boy said
+21,what_gap,4,subj,the teacher
+21,what_gap,5,verb,gave
+21,what_gap,6,Unnamed: 7,
+21,what_gap,7,continuation,to her students
+21,that_gap,1,prefix,We all know
+21,that_gap,2,comp,that
+21,that_gap,3,embedding,the old man thinks the woman knows the young boy said
+21,that_gap,4,subj,the teacher
+21,that_gap,5,verb,gave
+21,that_gap,6,Unnamed: 7,
+21,that_gap,7,continuation,to her students
+21,what_no-gap,1,prefix,We all know
+21,what_no-gap,2,comp,what
+21,what_no-gap,3,embedding,the old man thinks the woman knows the young boy said
+21,what_no-gap,4,subj,the teacher
+21,what_no-gap,5,verb,gave
+21,what_no-gap,6,Unnamed: 7,a test
+21,what_no-gap,7,continuation,to her students
+21,that_no-gap,1,prefix,We all know
+21,that_no-gap,2,comp,that
+21,that_no-gap,3,embedding,the old man thinks the woman knows the young boy said
+21,that_no-gap,4,subj,the teacher
+21,that_no-gap,5,verb,gave
+21,that_no-gap,6,Unnamed: 7,a test
+21,that_no-gap,7,continuation,to her students

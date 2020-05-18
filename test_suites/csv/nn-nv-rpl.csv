@@ -1,0 +1,21 @@
+item_number,condition_name,region_number,region_name,content
+1,nn_ambig,1,det,The
+1,nn_ambig,2,n,company
+1,nn_ambig,3,nv,supplies
+1,nn_ambig,4,resolution,were
+1,nn_ambig,5,rest,all gone
+1,nn_unambig,1,det,The
+1,nn_unambig,2,n,company's
+1,nn_unambig,3,nv,supplies
+1,nn_unambig,4,resolution,were
+1,nn_unambig,5,rest,all gone
+1,nv_ambig,1,det,The
+1,nv_ambig,2,n,company
+1,nv_ambig,3,nv,supplies
+1,nv_ambig,4,resolution,the
+1,nv_ambig,5,rest,services we need
+1,nv_unambig,1,det,The
+1,nv_unambig,2,n,company
+1,nv_unambig,3,nv,supplied
+1,nv_unambig,4,resolution,the
+1,nv_unambig,5,rest,services we need

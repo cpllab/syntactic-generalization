@@ -1,0 +1,577 @@
+item_number,condition_name,region_number,region_name,content
+1,no-obj_no-comma,1,Start,As the criminal
+1,no-obj_no-comma,2,Transitive Verb, shot
+1,no-obj_no-comma,3,Comma,
+1,no-obj_no-comma,4,NP/Z, the woman
+1,no-obj_no-comma,5,Verb,yelled
+1,no-obj_no-comma,6,Continuation,at the top of her lungs
+1,obj_no-comma,1,Start,As the criminal
+1,obj_no-comma,2,Transitive Verb, shot his gun
+1,obj_no-comma,3,Comma,
+1,obj_no-comma,4,NP/Z, the woman
+1,obj_no-comma,5,Verb,yelled
+1,obj_no-comma,6,Continuation,at the top of her lungs
+1,no-obj_comma,1,Start,As the criminal
+1,no-obj_comma,2,Transitive Verb, shot
+1,no-obj_comma,3,Comma,","
+1,no-obj_comma,4,NP/Z, the woman
+1,no-obj_comma,5,Verb,yelled
+1,no-obj_comma,6,Continuation,at the top of her lungs
+1,obj_comma,1,Start,As the criminal
+1,obj_comma,2,Transitive Verb, shot his gun
+1,obj_comma,3,Comma,","
+1,obj_comma,4,NP/Z, the woman
+1,obj_comma,5,Verb,yelled
+1,obj_comma,6,Continuation,at the top of her lungs
+2,no-obj_no-comma,1,Start,When the dog
+2,no-obj_no-comma,2,Transitive Verb, bit
+2,no-obj_no-comma,3,Comma,
+2,no-obj_no-comma,4,NP/Z, the doctor
+2,no-obj_no-comma,5,Verb, took off
+2,no-obj_no-comma,6,Continuation, the restraint
+2,obj_no-comma,1,Start,When the dog
+2,obj_no-comma,2,Transitive Verb, bit his owner
+2,obj_no-comma,3,Comma,
+2,obj_no-comma,4,NP/Z, the doctor
+2,obj_no-comma,5,Verb, took off
+2,obj_no-comma,6,Continuation, the restraint
+2,no-obj_comma,1,Start,When the dog
+2,no-obj_comma,2,Transitive Verb, bit
+2,no-obj_comma,3,Comma,","
+2,no-obj_comma,4,NP/Z, the doctor
+2,no-obj_comma,5,Verb, took off
+2,no-obj_comma,6,Continuation, the restraint
+2,obj_comma,1,Start,When the dog
+2,obj_comma,2,Transitive Verb, bit his owner
+2,obj_comma,3,Comma,","
+2,obj_comma,4,NP/Z, the doctor
+2,obj_comma,5,Verb, took off
+2,obj_comma,6,Continuation, the restraint
+3,no-obj_no-comma,1,Start,As the ship
+3,no-obj_no-comma,2,Transitive Verb, crossed
+3,no-obj_no-comma,3,Comma,
+3,no-obj_no-comma,4,NP/Z, the waters
+3,no-obj_no-comma,5,Verb, remained
+3,no-obj_no-comma,6,Continuation, blue and calm
+3,obj_no-comma,1,Start,As the ship
+3,obj_no-comma,2,Transitive Verb, crossed the sea
+3,obj_no-comma,3,Comma,
+3,obj_no-comma,4,NP/Z, the waters
+3,obj_no-comma,5,Verb, remained
+3,obj_no-comma,6,Continuation, blue and calm
+3,no-obj_comma,1,Start,As the ship
+3,no-obj_comma,2,Transitive Verb, crossed
+3,no-obj_comma,3,Comma,","
+3,no-obj_comma,4,NP/Z, the waters
+3,no-obj_comma,5,Verb, remained
+3,no-obj_comma,6,Continuation, blue and calm
+3,obj_comma,1,Start,As the ship
+3,obj_comma,2,Transitive Verb, crossed the sea
+3,obj_comma,3,Comma,","
+3,obj_comma,4,NP/Z, the waters
+3,obj_comma,5,Verb, remained
+3,obj_comma,6,Continuation, blue and calm
+4,no-obj_no-comma,1,Start,After the newcomers
+4,no-obj_no-comma,2,Transitive Verb, discussed
+4,no-obj_no-comma,3,Comma,
+4,no-obj_no-comma,4,NP/Z, the soldiers
+4,no-obj_no-comma,5,Verb,shared
+4,no-obj_no-comma,6,Continuation, a cigarette
+4,obj_no-comma,1,Start,After the newcomers
+4,obj_no-comma,2,Transitive Verb, discussed the situation
+4,obj_no-comma,3,Comma,
+4,obj_no-comma,4,NP/Z, the soldiers
+4,obj_no-comma,5,Verb,shared
+4,obj_no-comma,6,Continuation, a cigarette
+4,no-obj_comma,1,Start,After the newcomers
+4,no-obj_comma,2,Transitive Verb, discussed
+4,no-obj_comma,3,Comma,","
+4,no-obj_comma,4,NP/Z, the soldiers
+4,no-obj_comma,5,Verb,shared
+4,no-obj_comma,6,Continuation, a cigarette
+4,obj_comma,1,Start,After the newcomers
+4,obj_comma,2,Transitive Verb, discussed the situation
+4,obj_comma,3,Comma,","
+4,obj_comma,4,NP/Z, the soldiers
+4,obj_comma,5,Verb,shared
+4,obj_comma,6,Continuation, a cigarette
+5,no-obj_no-comma,1,Start,Though the athlete
+5,no-obj_no-comma,2,Transitive Verb, telephoned
+5,no-obj_no-comma,3,Comma,
+5,no-obj_no-comma,4,NP/Z, the coach
+5,no-obj_no-comma,5,Verb, refused
+5,no-obj_no-comma,6,Continuation, to praise him
+5,obj_no-comma,1,Start,Though the athlete
+5,obj_no-comma,2,Transitive Verb, telephoned his manager
+5,obj_no-comma,3,Comma,
+5,obj_no-comma,4,NP/Z, the coach
+5,obj_no-comma,5,Verb, refused
+5,obj_no-comma,6,Continuation, to praise him
+5,no-obj_comma,1,Start,Though the athlete
+5,no-obj_comma,2,Transitive Verb, telephoned
+5,no-obj_comma,3,Comma,","
+5,no-obj_comma,4,NP/Z, the coach
+5,no-obj_comma,5,Verb, refused
+5,no-obj_comma,6,Continuation, to praise him
+5,obj_comma,1,Start,Though the athlete
+5,obj_comma,2,Transitive Verb, telephoned his manager
+5,obj_comma,3,Comma,","
+5,obj_comma,4,NP/Z, the coach
+5,obj_comma,5,Verb, refused
+5,obj_comma,6,Continuation, to praise him
+6,no-obj_no-comma,1,Start,While the crowd
+6,no-obj_no-comma,2,Transitive Verb, applauded
+6,no-obj_no-comma,3,Comma,
+6,no-obj_no-comma,4,NP/Z, the actor
+6,no-obj_no-comma,5,Verb, relaxed
+6,no-obj_no-comma,6,Continuation,on a chair
+6,obj_no-comma,1,Start,While the crowd
+6,obj_no-comma,2,Transitive Verb, applauded the cast
+6,obj_no-comma,3,Comma,
+6,obj_no-comma,4,NP/Z, the actor
+6,obj_no-comma,5,Verb, relaxed
+6,obj_no-comma,6,Continuation,on a chair
+6,no-obj_comma,1,Start,While the crowd
+6,no-obj_comma,2,Transitive Verb, applauded
+6,no-obj_comma,3,Comma,","
+6,no-obj_comma,4,NP/Z, the actor
+6,no-obj_comma,5,Verb, relaxed
+6,no-obj_comma,6,Continuation,on a chair
+6,obj_comma,1,Start,While the crowd
+6,obj_comma,2,Transitive Verb, applauded the cast
+6,obj_comma,3,Comma,","
+6,obj_comma,4,NP/Z, the actor
+6,obj_comma,5,Verb, relaxed
+6,obj_comma,6,Continuation,on a chair
+7,no-obj_no-comma,1,Start,While the audience
+7,no-obj_no-comma,2,Transitive Verb, cheered
+7,no-obj_no-comma,3,Comma,
+7,no-obj_no-comma,4,NP/Z, the actor
+7,no-obj_no-comma,5,Verb,delivered
+7,no-obj_no-comma,6,Continuation,his speech
+7,obj_no-comma,1,Start,While the audience
+7,obj_no-comma,2,Transitive Verb, cheered the show
+7,obj_no-comma,3,Comma,
+7,obj_no-comma,4,NP/Z, the actor
+7,obj_no-comma,5,Verb,delivered
+7,obj_no-comma,6,Continuation,his speech
+7,no-obj_comma,1,Start,While the audience
+7,no-obj_comma,2,Transitive Verb, cheered
+7,no-obj_comma,3,Comma,","
+7,no-obj_comma,4,NP/Z, the actor
+7,no-obj_comma,5,Verb,delivered
+7,no-obj_comma,6,Continuation,his speech
+7,obj_comma,1,Start,While the audience
+7,obj_comma,2,Transitive Verb, cheered the show
+7,obj_comma,3,Comma,","
+7,obj_comma,4,NP/Z, the actor
+7,obj_comma,5,Verb,delivered
+7,obj_comma,6,Continuation,his speech
+8,no-obj_no-comma,1,Start,While the students
+8,no-obj_no-comma,2,Transitive Verb, ate
+8,no-obj_no-comma,3,Comma,
+8,no-obj_no-comma,4,NP/Z, the coffee
+8,no-obj_no-comma,5,Verb, was
+8,no-obj_no-comma,6,Continuation, removed
+8,obj_no-comma,1,Start,While the students
+8,obj_no-comma,2,Transitive Verb, ate the food
+8,obj_no-comma,3,Comma,
+8,obj_no-comma,4,NP/Z, the coffee
+8,obj_no-comma,5,Verb, was
+8,obj_no-comma,6,Continuation, removed
+8,no-obj_comma,1,Start,While the students
+8,no-obj_comma,2,Transitive Verb,ate
+8,no-obj_comma,3,Comma,","
+8,no-obj_comma,4,NP/Z, the coffee
+8,no-obj_comma,5,Verb, was
+8,no-obj_comma,6,Continuation, removed
+8,obj_comma,1,Start,While the students
+8,obj_comma,2,Transitive Verb, ate the food
+8,obj_comma,3,Comma,","
+8,obj_comma,4,NP/Z, the coffee
+8,obj_comma,5,Verb, was
+8,obj_comma,6,Continuation, removed
+9,no-obj_no-comma,1,Start,When the professor
+9,no-obj_no-comma,2,Transitive Verb, taught
+9,no-obj_no-comma,3,Comma,
+9,no-obj_no-comma,4,NP/Z, the visitors
+9,no-obj_no-comma,5,Verb, lost
+9,no-obj_no-comma,6,Continuation, interest
+9,obj_no-comma,1,Start,When the professor
+9,obj_no-comma,2,Transitive Verb, taught the students
+9,obj_no-comma,3,Comma,
+9,obj_no-comma,4,NP/Z, the visitors
+9,obj_no-comma,5,Verb, lost
+9,obj_no-comma,6,Continuation, interest
+9,no-obj_comma,1,Start,When the professor
+9,no-obj_comma,2,Transitive Verb, taught
+9,no-obj_comma,3,Comma,","
+9,no-obj_comma,4,NP/Z, the visitors
+9,no-obj_comma,5,Verb, lost
+9,no-obj_comma,6,Continuation, interest
+9,obj_comma,1,Start,When the professor
+9,obj_comma,2,Transitive Verb, taught the students
+9,obj_comma,3,Comma,","
+9,obj_comma,4,NP/Z, the visitors
+9,obj_comma,5,Verb, lost
+9,obj_comma,6,Continuation, interest
+10,no-obj_no-comma,1,Start,Because the baby
+10,no-obj_no-comma,2,Transitive Verb,grabbed
+10,no-obj_no-comma,3,Comma,
+10,no-obj_no-comma,4,NP/Z, the woman
+10,no-obj_no-comma,5,Verb, stayed
+10,no-obj_no-comma,6,Continuation, until the end
+10,obj_no-comma,1,Start,Because the baby
+10,obj_no-comma,2,Transitive Verb, grabbed the blanket
+10,obj_no-comma,3,Comma,
+10,obj_no-comma,4,NP/Z, the woman
+10,obj_no-comma,5,Verb, stayed
+10,obj_no-comma,6,Continuation, until the end
+10,no-obj_comma,1,Start,Because the baby
+10,no-obj_comma,2,Transitive Verb, grabbed
+10,no-obj_comma,3,Comma,","
+10,no-obj_comma,4,NP/Z, the woman
+10,no-obj_comma,5,Verb, stayed
+10,no-obj_comma,6,Continuation, until the end
+10,obj_comma,1,Start,Because the baby
+10,obj_comma,2,Transitive Verb, grabbed the blanket
+10,obj_comma,3,Comma,","
+10,obj_comma,4,NP/Z, the woman
+10,obj_comma,5,Verb, stayed
+10,obj_comma,6,Continuation, until the end
+11,no-obj_no-comma,1,Start,Because the manager
+11,no-obj_no-comma,2,Transitive Verb,cheered
+11,no-obj_no-comma,3,Comma,
+11,no-obj_no-comma,4,NP/Z, the comedian
+11,no-obj_no-comma,5,Verb, began
+11,no-obj_no-comma,6,Continuation, his act
+11,obj_no-comma,1,Start,Because the manager
+11,obj_no-comma,2,Transitive Verb, cheered the first act
+11,obj_no-comma,3,Comma,
+11,obj_no-comma,4,NP/Z, the comedian
+11,obj_no-comma,5,Verb, began
+11,obj_no-comma,6,Continuation, his act
+11,no-obj_comma,1,Start,Because the manager
+11,no-obj_comma,2,Transitive Verb, cheered
+11,no-obj_comma,3,Comma,","
+11,no-obj_comma,4,NP/Z, the comedian
+11,no-obj_comma,5,Verb, began
+11,no-obj_comma,6,Continuation, his act
+11,obj_comma,1,Start,Because the manager
+11,obj_comma,2,Transitive Verb, cheered the first act
+11,obj_comma,3,Comma,","
+11,obj_comma,4,NP/Z, the comedian
+11,obj_comma,5,Verb, began
+11,obj_comma,6,Continuation, his act
+12,no-obj_no-comma,1,Start,After the patient
+12,no-obj_no-comma,2,Transitive Verb, asked
+12,no-obj_no-comma,3,Comma,
+12,no-obj_no-comma,4,NP/Z, the nurse
+12,no-obj_no-comma,5,Verb, told
+12,no-obj_no-comma,6,Continuation, her the news
+12,obj_no-comma,1,Start,After the patient
+12,obj_no-comma,2,Transitive Verb, asked for medicine
+12,obj_no-comma,3,Comma,
+12,obj_no-comma,4,NP/Z, the nurse
+12,obj_no-comma,5,Verb, told
+12,obj_no-comma,6,Continuation, her the news
+12,no-obj_comma,1,Start,After the patient
+12,no-obj_comma,2,Transitive Verb, asked
+12,no-obj_comma,3,Comma,","
+12,no-obj_comma,4,NP/Z, the nurse
+12,no-obj_comma,5,Verb, told
+12,no-obj_comma,6,Continuation, her the news
+12,obj_comma,1,Start,After the patient
+12,obj_comma,2,Transitive Verb, asked for medicine
+12,obj_comma,3,Comma,","
+12,obj_comma,4,NP/Z, the nurse
+12,obj_comma,5,Verb, told
+12,obj_comma,6,Continuation, her the news
+13,no-obj_no-comma,1,Start,After the guard
+13,no-obj_no-comma,2,Transitive Verb, visited
+13,no-obj_no-comma,3,Comma,
+13,no-obj_no-comma,4,NP/Z, the children
+13,no-obj_no-comma,5,Verb, jumped
+13,no-obj_no-comma,6,Continuation, into the pool
+13,obj_no-comma,1,Start,After the guard
+13,obj_no-comma,2,Transitive Verb, visited the children
+13,obj_no-comma,3,Comma,
+13,obj_no-comma,4,NP/Z, the children
+13,obj_no-comma,5,Verb, jumped
+13,obj_no-comma,6,Continuation, into the pool
+13,no-obj_comma,1,Start,After the guard
+13,no-obj_comma,2,Transitive Verb, visited
+13,no-obj_comma,3,Comma,","
+13,no-obj_comma,4,NP/Z, the children
+13,no-obj_comma,5,Verb, jumped
+13,no-obj_comma,6,Continuation, into the pool
+13,obj_comma,1,Start,After the guard
+13,obj_comma,2,Transitive Verb, visited the children
+13,obj_comma,3,Comma,","
+13,obj_comma,4,NP/Z, the children
+13,obj_comma,5,Verb, jumped
+13,obj_comma,6,Continuation, into the pool
+14,no-obj_no-comma,1,Start,After the dog
+14,no-obj_no-comma,2,Transitive Verb, signaled
+14,no-obj_no-comma,3,Comma,
+14,no-obj_no-comma,4,NP/Z, the farmer
+14,no-obj_no-comma,5,Verb, went
+14,no-obj_no-comma,6,Continuation,into the field
+14,obj_no-comma,1,Start,After the dog
+14,obj_no-comma,2,Transitive Verb, signaled the family
+14,obj_no-comma,3,Comma,
+14,obj_no-comma,4,NP/Z, the farmer
+14,obj_no-comma,5,Verb, went
+14,obj_no-comma,6,Continuation,into the field
+14,no-obj_comma,1,Start,After the dog
+14,no-obj_comma,2,Transitive Verb, signaled
+14,no-obj_comma,3,Comma,","
+14,no-obj_comma,4,NP/Z, the farmer
+14,no-obj_comma,5,Verb, went
+14,no-obj_comma,6,Continuation,into the field
+14,obj_comma,1,Start,After the dog
+14,obj_comma,2,Transitive Verb, signaled the family
+14,obj_comma,3,Comma,","
+14,obj_comma,4,NP/Z, the farmer
+14,obj_comma,5,Verb, went
+14,obj_comma,6,Continuation,into the field
+15,no-obj_no-comma,1,Start,As the class
+15,no-obj_no-comma,2,Transitive Verb, considered
+15,no-obj_no-comma,3,Comma,
+15,no-obj_no-comma,4,NP/Z, the teacher
+15,no-obj_no-comma,5,Verb, asked
+15,no-obj_no-comma,6,Continuation, a question
+15,obj_no-comma,1,Start,As the class
+15,obj_no-comma,2,Transitive Verb, considered the problem
+15,obj_no-comma,3,Comma,
+15,obj_no-comma,4,NP/Z, the teacher
+15,obj_no-comma,5,Verb, asked
+15,obj_no-comma,6,Continuation, a question
+15,no-obj_comma,1,Start,As the class
+15,no-obj_comma,2,Transitive Verb, considered
+15,no-obj_comma,3,Comma,","
+15,no-obj_comma,4,NP/Z, the teacher
+15,no-obj_comma,5,Verb, asked
+15,no-obj_comma,6,Continuation, a question
+15,obj_comma,1,Start,As the class
+15,obj_comma,2,Transitive Verb, considered the problem
+15,obj_comma,3,Comma,","
+15,obj_comma,4,NP/Z, the teacher
+15,obj_comma,5,Verb, asked
+15,obj_comma,6,Continuation, a question
+16,no-obj_no-comma,1,Start,While the woman
+16,no-obj_no-comma,2,Transitive Verb, decorated
+16,no-obj_no-comma,3,Comma,
+16,no-obj_no-comma,4,NP/Z, the pot
+16,no-obj_no-comma,5,Verb, sat
+16,no-obj_no-comma,6,Continuation, on the counter
+16,obj_no-comma,1,Start,While the woman
+16,obj_no-comma,2,Transitive Verb, decorated the kitchen
+16,obj_no-comma,3,Comma,
+16,obj_no-comma,4,NP/Z, the pot
+16,obj_no-comma,5,Verb, sat
+16,obj_no-comma,6,Continuation, on the counter
+16,no-obj_comma,1,Start,While the woman
+16,no-obj_comma,2,Transitive Verb, decorated
+16,no-obj_comma,3,Comma,","
+16,no-obj_comma,4,NP/Z, the pot
+16,no-obj_comma,5,Verb, sat
+16,no-obj_comma,6,Continuation, on the counter
+16,obj_comma,1,Start,While the woman
+16,obj_comma,2,Transitive Verb, decorated the kitchen
+16,obj_comma,3,Comma,","
+16,obj_comma,4,NP/Z, the pot
+16,obj_comma,5,Verb, sat
+16,obj_comma,6,Continuation, on the counter
+17,no-obj_no-comma,1,Start,When the customer
+17,no-obj_no-comma,2,Transitive Verb, interrupted
+17,no-obj_no-comma,3,Comma,
+17,no-obj_no-comma,4,NP/Z, the manager
+17,no-obj_no-comma,5,Verb, changed
+17,no-obj_no-comma,6,Continuation, the advertisement
+17,obj_no-comma,1,Start,When the customer
+17,obj_no-comma,2,Transitive Verb, interrupted the clerk
+17,obj_no-comma,3,Comma,
+17,obj_no-comma,4,NP/Z, the manager
+17,obj_no-comma,5,Verb, changed
+17,obj_no-comma,6,Continuation, the advertisement
+17,no-obj_comma,1,Start,When the customer
+17,no-obj_comma,2,Transitive Verb, interrupted
+17,no-obj_comma,3,Comma,","
+17,no-obj_comma,4,NP/Z, the manager
+17,no-obj_comma,5,Verb, changed
+17,no-obj_comma,6,Continuation, the advertisement
+17,obj_comma,1,Start,When the customer
+17,obj_comma,2,Transitive Verb, interrupted the clerk
+17,obj_comma,3,Comma,","
+17,obj_comma,4,NP/Z, the manager
+17,obj_comma,5,Verb, changed
+17,obj_comma,6,Continuation, the advertisement
+18,no-obj_no-comma,1,Start,As the young man
+18,no-obj_no-comma,2,Transitive Verb, wiped
+18,no-obj_no-comma,3,Comma,
+18,no-obj_no-comma,4,NP/Z, the pipe
+18,no-obj_no-comma,5,Verb, fell
+18,no-obj_no-comma,6,Continuation, to the floor
+18,obj_no-comma,1,Start,As the young man
+18,obj_no-comma,2,Transitive Verb,wiped the windows
+18,obj_no-comma,3,Comma,
+18,obj_no-comma,4,NP/Z, the pipe
+18,obj_no-comma,5,Verb, fell
+18,obj_no-comma,6,Continuation, to the floor
+18,no-obj_comma,1,Start,As the young man
+18,no-obj_comma,2,Transitive Verb, wiped
+18,no-obj_comma,3,Comma,","
+18,no-obj_comma,4,NP/Z, the pipe
+18,no-obj_comma,5,Verb, fell
+18,no-obj_comma,6,Continuation, to the floor
+18,obj_comma,1,Start,As the young man
+18,obj_comma,2,Transitive Verb,wiped the windows
+18,obj_comma,3,Comma,","
+18,obj_comma,4,NP/Z, the pipe
+18,obj_comma,5,Verb, fell
+18,obj_comma,6,Continuation, to the floor
+19,no-obj_no-comma,1,Start,While the prisoners
+19,no-obj_no-comma,2,Transitive Verb, attacked
+19,no-obj_no-comma,3,Comma,
+19,no-obj_no-comma,4,NP/Z, the guards
+19,no-obj_no-comma,5,Verb, refused
+19,no-obj_no-comma,6,Continuation, to negotiate
+19,obj_no-comma,1,Start,While the prisoners
+19,obj_no-comma,2,Transitive Verb, attacked the manager
+19,obj_no-comma,3,Comma,
+19,obj_no-comma,4,NP/Z, the guards
+19,obj_no-comma,5,Verb, refused
+19,obj_no-comma,6,Continuation, to negotiate
+19,no-obj_comma,1,Start,While the prisoners
+19,no-obj_comma,2,Transitive Verb, attacked
+19,no-obj_comma,3,Comma,","
+19,no-obj_comma,4,NP/Z, the guards
+19,no-obj_comma,5,Verb, refused
+19,no-obj_comma,6,Continuation, to negotiate
+19,obj_comma,1,Start,While the prisoners
+19,obj_comma,2,Transitive Verb, attacked the manager
+19,obj_comma,3,Comma,","
+19,obj_comma,4,NP/Z, the guards
+19,obj_comma,5,Verb, refused
+19,obj_comma,6,Continuation, to negotiate
+20,no-obj_no-comma,1,Start,As long as the king
+20,no-obj_no-comma,2,Transitive Verb, governed
+20,no-obj_no-comma,3,Comma,
+20,no-obj_no-comma,4,NP/Z, his subjects
+20,no-obj_no-comma,5,Verb, feared
+20,no-obj_no-comma,6,Continuation, his anger
+20,obj_no-comma,1,Start,As long as the king
+20,obj_no-comma,2,Transitive Verb, governed his lands
+20,obj_no-comma,3,Comma,
+20,obj_no-comma,4,NP/Z, his subjects
+20,obj_no-comma,5,Verb, feared
+20,obj_no-comma,6,Continuation, his anger
+20,no-obj_comma,1,Start,As long as the king
+20,no-obj_comma,2,Transitive Verb, governed
+20,no-obj_comma,3,Comma,","
+20,no-obj_comma,4,NP/Z, his subjects
+20,no-obj_comma,5,Verb, feared
+20,no-obj_comma,6,Continuation, his anger
+20,obj_comma,1,Start,As long as the king
+20,obj_comma,2,Transitive Verb, governed his lands
+20,obj_comma,3,Comma,","
+20,obj_comma,4,NP/Z, his subjects
+20,obj_comma,5,Verb, feared
+20,obj_comma,6,Continuation, his anger
+21,no-obj_no-comma,1,Start,After the host
+21,no-obj_no-comma,2,Transitive Verb, interrupted
+21,no-obj_no-comma,3,Comma,
+21,no-obj_no-comma,4,NP/Z, the discussion
+21,no-obj_no-comma,5,Verb, became
+21,no-obj_no-comma,6,Continuation, more interesting
+21,obj_no-comma,1,Start,After the host
+21,obj_no-comma,2,Transitive Verb, interrupted the speaker
+21,obj_no-comma,3,Comma,
+21,obj_no-comma,4,NP/Z, the discussion
+21,obj_no-comma,5,Verb, became
+21,obj_no-comma,6,Continuation, more interesting
+21,no-obj_comma,1,Start,After the host
+21,no-obj_comma,2,Transitive Verb, interrupted
+21,no-obj_comma,3,Comma,","
+21,no-obj_comma,4,NP/Z, the discussion
+21,no-obj_comma,5,Verb, became
+21,no-obj_comma,6,Continuation, more interesting
+21,obj_comma,1,Start,After the host
+21,obj_comma,2,Transitive Verb, interrupted the speaker
+21,obj_comma,3,Comma,","
+21,obj_comma,4,NP/Z, the discussion
+21,obj_comma,5,Verb, became
+21,obj_comma,6,Continuation, more interesting
+22,no-obj_no-comma,1,Start,After the woman
+22,no-obj_no-comma,2,Transitive Verb, dressed
+22,no-obj_no-comma,3,Comma,
+22,no-obj_no-comma,4,NP/Z, her children
+22,no-obj_no-comma,5,Verb, thought
+22,no-obj_no-comma,6,Continuation, she looked lovely
+22,obj_no-comma,1,Start,After the woman
+22,obj_no-comma,2,Transitive Verb, dressed herself
+22,obj_no-comma,3,Comma,
+22,obj_no-comma,4,NP/Z, her children
+22,obj_no-comma,5,Verb, thought
+22,obj_no-comma,6,Continuation, she looked lovely
+22,no-obj_comma,1,Start,After the woman
+22,no-obj_comma,2,Transitive Verb, dressed
+22,no-obj_comma,3,Comma,","
+22,no-obj_comma,4,NP/Z, her children
+22,no-obj_comma,5,Verb, thought
+22,no-obj_comma,6,Continuation, she looked lovely
+22,obj_comma,1,Start,After the woman
+22,obj_comma,2,Transitive Verb, dressed herself
+22,obj_comma,3,Comma,","
+22,obj_comma,4,NP/Z, her children
+22,obj_comma,5,Verb, thought
+22,obj_comma,6,Continuation, she looked lovely
+23,no-obj_no-comma,1,Start,After the soldier
+23,no-obj_no-comma,2,Transitive Verb,signaled
+23,no-obj_no-comma,3,Comma,
+23,no-obj_no-comma,4,NP/Z, the doctor
+23,no-obj_no-comma,5,Verb, ordered
+23,no-obj_no-comma,6,Continuation, it to stop
+23,obj_no-comma,1,Start,After the soldier
+23,obj_no-comma,2,Transitive Verb,signaled to the general
+23,obj_no-comma,3,Comma,
+23,obj_no-comma,4,NP/Z, the doctor
+23,obj_no-comma,5,Verb, ordered
+23,obj_no-comma,6,Continuation, it to stop
+23,no-obj_comma,1,Start,After the soldier
+23,no-obj_comma,2,Transitive Verb,signaled
+23,no-obj_comma,3,Comma,","
+23,no-obj_comma,4,NP/Z, the doctor
+23,no-obj_comma,5,Verb, ordered
+23,no-obj_comma,6,Continuation, it to stop
+23,obj_comma,1,Start,After the soldier
+23,obj_comma,2,Transitive Verb,signaled to the general
+23,obj_comma,3,Comma,","
+23,obj_comma,4,NP/Z, the doctor
+23,obj_comma,5,Verb, ordered
+23,obj_comma,6,Continuation, it to stop
+24,no-obj_no-comma,1,Start,As the guard
+24,no-obj_no-comma,2,Transitive Verb, stopped
+24,no-obj_no-comma,3,Comma,
+24,no-obj_no-comma,4,NP/Z, the thieves
+24,no-obj_no-comma,5,Verb, grabbed
+24,no-obj_no-comma,6,Continuation, the money
+24,obj_no-comma,1,Start,As the guard
+24,obj_no-comma,2,Transitive Verb, stopped the alarm
+24,obj_no-comma,3,Comma,
+24,obj_no-comma,4,NP/Z, the thieves
+24,obj_no-comma,5,Verb, grabbed
+24,obj_no-comma,6,Continuation, the money
+24,no-obj_comma,1,Start,As the guard
+24,no-obj_comma,2,Transitive Verb, stopped
+24,no-obj_comma,3,Comma,","
+24,no-obj_comma,4,NP/Z, the thieves
+24,no-obj_comma,5,Verb, grabbed
+24,no-obj_comma,6,Continuation, the money
+24,obj_comma,1,Start,As the guard
+24,obj_comma,2,Transitive Verb, stopped the alarm
+24,obj_comma,3,Comma,","
+24,obj_comma,4,NP/Z, the thieves
+24,obj_comma,5,Verb, grabbed
+24,obj_comma,6,Continuation, the money

@@ -1,0 +1,769 @@
+item_number,condition_name,region_number,region_name,content
+1,what_nogap,1,prefix,I know
+1,what_nogap,2,comp,who
+1,what_nogap,3,np1,our uncle
+1,what_nogap,4,verb,grabbed
+1,what_nogap,5,np2,the food
+1,what_nogap,6,prep,in front of
+1,what_nogap,7,np3,the guests
+1,what_nogap,8,end,at the holiday party
+1,that_nogap,1,prefix,I know
+1,that_nogap,2,comp,that
+1,that_nogap,3,np1,our uncle
+1,that_nogap,4,verb,grabbed
+1,that_nogap,5,np2,the food
+1,that_nogap,6,prep,in front of
+1,that_nogap,7,np3,the guests
+1,that_nogap,8,end,at the holiday party
+1,what_gap,1,prefix,I know
+1,what_gap,2,comp,who
+1,what_gap,3,np1,
+1,what_gap,4,verb,grabbed
+1,what_gap,5,np2,the food
+1,what_gap,6,prep,in front of
+1,what_gap,7,np3,the guests
+1,what_gap,8,end,at the holiday party
+1,that_gap,1,prefix,I know
+1,that_gap,2,comp,that
+1,that_gap,3,np1,
+1,that_gap,4,verb,grabbed
+1,that_gap,5,np2,the food
+1,that_gap,6,prep,in front of
+1,that_gap,7,np3,the guests
+1,that_gap,8,end,at the holiday party
+2,what_nogap,1,prefix,My neighbor told me
+2,what_nogap,2,comp,what
+2,what_nogap,3,np1,the dog
+2,what_nogap,4,verb,caught
+2,what_nogap,5,np2,the mouse
+2,what_nogap,6,prep,in full view of
+2,what_nogap,7,np3,the neighbors
+2,what_nogap,8,end,yesterday
+2,that_nogap,1,prefix,My neighbor told me
+2,that_nogap,2,comp,that
+2,that_nogap,3,np1,the dog
+2,that_nogap,4,verb,caught
+2,that_nogap,5,np2,the mouse
+2,that_nogap,6,prep,in full view of
+2,that_nogap,7,np3,the neighbors
+2,that_nogap,8,end,yesterday
+2,what_gap,1,prefix,My neighbor told me
+2,what_gap,2,comp,what
+2,what_gap,3,np1,
+2,what_gap,4,verb,caught
+2,what_gap,5,np2,the mouse
+2,what_gap,6,prep,in full view of
+2,what_gap,7,np3,the neighbors
+2,what_gap,8,end,yesterday
+2,that_gap,1,prefix,My neighbor told me
+2,that_gap,2,comp,that
+2,that_gap,3,np1,
+2,that_gap,4,verb,caught
+2,that_gap,5,np2,the mouse
+2,that_gap,6,prep,in full view of
+2,that_gap,7,np3,the neighbors
+2,that_gap,8,end,yesterday
+3,what_nogap,1,prefix,I know
+3,what_nogap,2,comp,who
+3,what_nogap,3,np1,the committee
+3,what_nogap,4,verb,delivered
+3,what_nogap,5,np2,the report
+3,what_nogap,6,prep,to
+3,what_nogap,7,np3,the president
+3,what_nogap,8,end,by the deadline
+3,that_nogap,1,prefix,I know
+3,that_nogap,2,comp,that
+3,that_nogap,3,np1,the committee
+3,that_nogap,4,verb,delivered
+3,that_nogap,5,np2,the report
+3,that_nogap,6,prep,to
+3,that_nogap,7,np3,the president
+3,that_nogap,8,end,by the deadline
+3,what_gap,1,prefix,I know
+3,what_gap,2,comp,who
+3,what_gap,3,np1,
+3,what_gap,4,verb,delivered
+3,what_gap,5,np2,the report
+3,what_gap,6,prep,to
+3,what_gap,7,np3,the president
+3,what_gap,8,end,by the deadline
+3,that_gap,1,prefix,I know
+3,that_gap,2,comp,that
+3,that_gap,3,np1,
+3,that_gap,4,verb,delivered
+3,that_gap,5,np2,the report
+3,that_gap,6,prep,to
+3,that_gap,7,np3,the president
+3,that_gap,8,end,by the deadline
+4,what_nogap,1,prefix,You remember
+4,what_nogap,2,comp,who
+4,what_nogap,3,np1,the businessman
+4,what_nogap,4,verb,showed
+4,what_nogap,5,np2,the presentation
+4,what_nogap,6,prep,to
+4,what_nogap,7,np3,the visitors
+4,what_nogap,8,end,after lunch
+4,that_nogap,1,prefix,You remember
+4,that_nogap,2,comp,that
+4,that_nogap,3,np1,the businessman
+4,that_nogap,4,verb,showed
+4,that_nogap,5,np2,the presentation
+4,that_nogap,6,prep,to
+4,that_nogap,7,np3,the visitors
+4,that_nogap,8,end,after lunch
+4,what_gap,1,prefix,You remember
+4,what_gap,2,comp,who
+4,what_gap,3,np1,
+4,what_gap,4,verb,showed
+4,what_gap,5,np2,the presentation
+4,what_gap,6,prep,to
+4,what_gap,7,np3,the visitors
+4,what_gap,8,end,after lunch
+4,that_gap,1,prefix,You remember
+4,that_gap,2,comp,that
+4,that_gap,3,np1,
+4,that_gap,4,verb,showed
+4,that_gap,5,np2,the presentation
+4,that_gap,6,prep,to
+4,that_gap,7,np3,the visitors
+4,that_gap,8,end,after lunch
+5,what_nogap,1,prefix,She told me
+5,what_nogap,2,comp,who
+5,what_nogap,3,np1,the star student
+5,what_nogap,4,verb,stole
+5,what_nogap,5,np2,answers to the test
+5,what_nogap,6,prep,from
+5,what_nogap,7,np3,the history teacher
+5,what_nogap,8,end,last year
+5,that_nogap,1,prefix,She told me
+5,that_nogap,2,comp,that
+5,that_nogap,3,np1,the star student
+5,that_nogap,4,verb,stole
+5,that_nogap,5,np2,answers to the test
+5,that_nogap,6,prep,from
+5,that_nogap,7,np3,the history teacher
+5,that_nogap,8,end,last year
+5,what_gap,1,prefix,She told me
+5,what_gap,2,comp,who
+5,what_gap,3,np1,
+5,what_gap,4,verb,stole
+5,what_gap,5,np2,answers to the test
+5,what_gap,6,prep,from
+5,what_gap,7,np3,the history teacher
+5,what_gap,8,end,last year
+5,that_gap,1,prefix,She told me
+5,that_gap,2,comp,that
+5,that_gap,3,np1,
+5,that_gap,4,verb,stole
+5,that_gap,5,np2,answers to the test
+5,that_gap,6,prep,from
+5,that_gap,7,np3,the history teacher
+5,that_gap,8,end,last year
+6,what_nogap,1,prefix,She knows
+6,what_nogap,2,comp,who
+6,what_nogap,3,np1,the collector
+6,what_nogap,4,verb,forged
+6,what_nogap,5,np2,the painting
+6,what_nogap,6,prep,with the help of
+6,what_nogap,7,np3,a new technology
+6,what_nogap,8,end,a short while ago
+6,that_nogap,1,prefix,She knows
+6,that_nogap,2,comp,that
+6,that_nogap,3,np1,the collector
+6,that_nogap,4,verb,forged
+6,that_nogap,5,np2,the painting
+6,that_nogap,6,prep,with the help of
+6,that_nogap,7,np3,a new technology
+6,that_nogap,8,end,a short while ago
+6,what_gap,1,prefix,She knows
+6,what_gap,2,comp,who
+6,what_gap,3,np1,
+6,what_gap,4,verb,forged
+6,what_gap,5,np2,the painting
+6,what_gap,6,prep,with the help of
+6,what_gap,7,np3,a new technology
+6,what_gap,8,end,a short while ago
+6,that_gap,1,prefix,She knows
+6,that_gap,2,comp,that
+6,that_gap,3,np1,
+6,that_gap,4,verb,forged
+6,that_gap,5,np2,the painting
+6,that_gap,6,prep,with the help of
+6,that_gap,7,np3,a new technology
+6,that_gap,8,end,a short while ago
+7,what_nogap,1,prefix,We all remember
+7,what_nogap,2,comp,who
+7,what_nogap,3,np1,the convict
+7,what_nogap,4,verb,brought
+7,what_nogap,5,np2,a gun
+7,what_nogap,6,prep,into
+7,what_nogap,7,np3,the prison
+7,what_nogap,8,end,two weeks ago
+7,that_nogap,1,prefix,We all remember
+7,that_nogap,2,comp,that
+7,that_nogap,3,np1,the convict
+7,that_nogap,4,verb,brought
+7,that_nogap,5,np2,a gun
+7,that_nogap,6,prep,into
+7,that_nogap,7,np3,the prison
+7,that_nogap,8,end,two weeks ago
+7,what_gap,1,prefix,We all remember
+7,what_gap,2,comp,who
+7,what_gap,3,np1,
+7,what_gap,4,verb,brought
+7,what_gap,5,np2,a gun
+7,what_gap,6,prep,into
+7,what_gap,7,np3,the prison
+7,what_gap,8,end,two weeks ago
+7,that_gap,1,prefix,We all remember
+7,that_gap,2,comp,that
+7,that_gap,3,np1,
+7,that_gap,4,verb,brought
+7,that_gap,5,np2,a gun
+7,that_gap,6,prep,into
+7,that_gap,7,np3,the prison
+7,that_gap,8,end,two weeks ago
+8,what_nogap,1,prefix,My friend reported
+8,what_nogap,2,comp,what
+8,what_nogap,3,np1,the company
+8,what_nogap,4,verb,will sell
+8,what_nogap,5,np2,multiple assets
+8,what_nogap,6,prep,to benefit
+8,what_nogap,7,np3,stock holders
+8,what_nogap,8,end,over the subsequent quarter
+8,that_nogap,1,prefix,My friend reported
+8,that_nogap,2,comp,that
+8,that_nogap,3,np1,the company
+8,that_nogap,4,verb,will sell
+8,that_nogap,5,np2,multiple assets
+8,that_nogap,6,prep,to benefit
+8,that_nogap,7,np3,stock holders
+8,that_nogap,8,end,over the subsequent quarter
+8,what_gap,1,prefix,My friend reported
+8,what_gap,2,comp,what
+8,what_gap,3,np1,
+8,what_gap,4,verb,will sell
+8,what_gap,5,np2,multiple assets
+8,what_gap,6,prep,to benefit
+8,what_gap,7,np3,stock holders
+8,what_gap,8,end,over the subsequent quarter
+8,that_gap,1,prefix,My friend reported
+8,that_gap,2,comp,that
+8,that_gap,3,np1,
+8,that_gap,4,verb,will sell
+8,that_gap,5,np2,multiple assets
+8,that_gap,6,prep,to benefit
+8,that_gap,7,np3,stock holders
+8,that_gap,8,end,over the subsequent quarter
+9,what_nogap,1,prefix,I do not know
+9,what_nogap,2,comp,who
+9,what_nogap,3,np1,her rival
+9,what_nogap,4,verb,derailed
+9,what_nogap,5,np2,the performance
+9,what_nogap,6,prep,with
+9,what_nogap,7,np3,a cruel plan
+9,what_nogap,8,end,last week
+9,that_nogap,1,prefix,I do not know
+9,that_nogap,2,comp,that
+9,that_nogap,3,np1,her rival
+9,that_nogap,4,verb,derailed
+9,that_nogap,5,np2,the performance
+9,that_nogap,6,prep,with
+9,that_nogap,7,np3,a cruel plan
+9,that_nogap,8,end,last week
+9,what_gap,1,prefix,I do not know
+9,what_gap,2,comp,who
+9,what_gap,3,np1,
+9,what_gap,4,verb,derailed
+9,what_gap,5,np2,the performance
+9,what_gap,6,prep,with
+9,what_gap,7,np3,a cruel plan
+9,what_gap,8,end,last week
+9,that_gap,1,prefix,I do not know
+9,that_gap,2,comp,that
+9,that_gap,3,np1,
+9,that_gap,4,verb,derailed
+9,that_gap,5,np2,the performance
+9,that_gap,6,prep,with
+9,that_gap,7,np3,a cruel plan
+9,that_gap,8,end,last week
+10,what_nogap,1,prefix,She can guess
+10,what_nogap,2,comp,who
+10,what_nogap,3,np1,the movie star
+10,what_nogap,4,verb,will be awarded
+10,what_nogap,5,np2,a prize
+10,what_nogap,6,prep,for
+10,what_nogap,7,np3,her hard work
+10,what_nogap,8,end,during the award ceremony
+10,that_nogap,1,prefix,She can guess
+10,that_nogap,2,comp,that
+10,that_nogap,3,np1,the movie star
+10,that_nogap,4,verb,will be awarded
+10,that_nogap,5,np2,a prize
+10,that_nogap,6,prep,for
+10,that_nogap,7,np3,her hard work
+10,that_nogap,8,end,during the award ceremony
+10,what_gap,1,prefix,She can guess
+10,what_gap,2,comp,who
+10,what_gap,3,np1,
+10,what_gap,4,verb,will be awarded
+10,what_gap,5,np2,a prize
+10,what_gap,6,prep,for
+10,what_gap,7,np3,her hard work
+10,what_gap,8,end,during the award ceremony
+10,that_gap,1,prefix,She can guess
+10,that_gap,2,comp,that
+10,that_gap,3,np1,
+10,that_gap,4,verb,will be awarded
+10,that_gap,5,np2,a prize
+10,that_gap,6,prep,for
+10,that_gap,7,np3,her hard work
+10,that_gap,8,end,during the award ceremony
+11,what_nogap,1,prefix,The newspaper reported
+11,what_nogap,2,comp,who
+11,what_nogap,3,np1,the suspect
+11,what_nogap,4,verb,killed
+11,what_nogap,5,np2,the witness
+11,what_nogap,6,prep,with
+11,what_nogap,7,np3,a gun
+11,what_nogap,8,end,in the middle of the night
+11,that_nogap,1,prefix,The newspaper reported
+11,that_nogap,2,comp,that
+11,that_nogap,3,np1,the suspect
+11,that_nogap,4,verb,killed
+11,that_nogap,5,np2,the witness
+11,that_nogap,6,prep,with
+11,that_nogap,7,np3,a gun
+11,that_nogap,8,end,in the middle of the night
+11,what_gap,1,prefix,The newspaper reported
+11,what_gap,2,comp,who
+11,what_gap,3,np1,
+11,what_gap,4,verb,killed
+11,what_gap,5,np2,the witness
+11,what_gap,6,prep,with
+11,what_gap,7,np3,a gun
+11,what_gap,8,end,in the middle of the night
+11,that_gap,1,prefix,The newspaper reported
+11,that_gap,2,comp,that
+11,that_gap,3,np1,
+11,that_gap,4,verb,killed
+11,that_gap,5,np2,the witness
+11,that_gap,6,prep,with
+11,that_gap,7,np3,a gun
+11,that_gap,8,end,in the middle of the night
+12,what_nogap,1,prefix,We recall
+12,what_nogap,2,comp,who
+12,what_nogap,3,np1,the man
+12,what_nogap,4,verb,placed
+12,what_nogap,5,np2,a delicate plate
+12,what_nogap,6,prep,next to
+12,what_nogap,7,np3,the open fire
+12,what_nogap,8,end,over an hour ago
+12,that_nogap,1,prefix,We recall
+12,that_nogap,2,comp,that
+12,that_nogap,3,np1,the man
+12,that_nogap,4,verb,placed
+12,that_nogap,5,np2,a delicate plate
+12,that_nogap,6,prep,next to
+12,that_nogap,7,np3,the open fire
+12,that_nogap,8,end,over an hour ago
+12,what_gap,1,prefix,We recall
+12,what_gap,2,comp,who
+12,what_gap,3,np1,
+12,what_gap,4,verb,placed
+12,what_gap,5,np2,a delicate plate
+12,what_gap,6,prep,next to
+12,what_gap,7,np3,the open fire
+12,what_gap,8,end,over an hour ago
+12,that_gap,1,prefix,We recall
+12,that_gap,2,comp,that
+12,that_gap,3,np1,
+12,that_gap,4,verb,placed
+12,that_gap,5,np2,a delicate plate
+12,that_gap,6,prep,next to
+12,that_gap,7,np3,the open fire
+12,that_gap,8,end,over an hour ago
+13,what_nogap,1,prefix,I remember
+13,what_nogap,2,comp,who
+13,what_nogap,3,np1,the nurse
+13,what_nogap,4,verb,should administer
+13,what_nogap,5,np2,the new medicine
+13,what_nogap,6,prep,to
+13,what_nogap,7,np3,the sick patient
+13,what_nogap,8,end,without any delay
+13,that_nogap,1,prefix,I remember
+13,that_nogap,2,comp,that
+13,that_nogap,3,np1,the nurse
+13,that_nogap,4,verb,should administer
+13,that_nogap,5,np2,the new medicine
+13,that_nogap,6,prep,to
+13,that_nogap,7,np3,the sick patient
+13,that_nogap,8,end,without any delay
+13,what_gap,1,prefix,I remember
+13,what_gap,2,comp,who
+13,what_gap,3,np1,
+13,what_gap,4,verb,should administer
+13,what_gap,5,np2,the new medicine
+13,what_gap,6,prep,to
+13,what_gap,7,np3,the sick patient
+13,what_gap,8,end,without any delay
+13,that_gap,1,prefix,I remember
+13,that_gap,2,comp,that
+13,that_gap,3,np1,
+13,that_gap,4,verb,should administer
+13,that_gap,5,np2,the new medicine
+13,that_gap,6,prep,to
+13,that_gap,7,np3,the sick patient
+13,that_gap,8,end,without any delay
+14,what_nogap,1,prefix,Our friend knew
+14,what_nogap,2,comp,what
+14,what_nogap,3,np1,the gossip column
+14,what_nogap,4,verb,revealed
+14,what_nogap,5,np2,family secrets
+14,what_nogap,6,prep,to
+14,what_nogap,7,np3,the whole town
+14,what_nogap,8,end,yesterday
+14,that_nogap,1,prefix,Our friend knew
+14,that_nogap,2,comp,that
+14,that_nogap,3,np1,the gossip column
+14,that_nogap,4,verb,revealed
+14,that_nogap,5,np2,family secrets
+14,that_nogap,6,prep,to
+14,that_nogap,7,np3,the whole town
+14,that_nogap,8,end,yesterday
+14,what_gap,1,prefix,Our friend knew
+14,what_gap,2,comp,what
+14,what_gap,3,np1,
+14,what_gap,4,verb,revealed
+14,what_gap,5,np2,family secrets
+14,what_gap,6,prep,to
+14,what_gap,7,np3,the whole town
+14,what_gap,8,end,yesterday
+14,that_gap,1,prefix,Our friend knew
+14,that_gap,2,comp,that
+14,that_gap,3,np1,
+14,that_gap,4,verb,revealed
+14,that_gap,5,np2,family secrets
+14,that_gap,6,prep,to
+14,that_gap,7,np3,the whole town
+14,that_gap,8,end,yesterday
+15,what_nogap,1,prefix,The mayor told me
+15,what_nogap,2,comp,who
+15,what_nogap,3,np1,the authorities
+15,what_nogap,4,verb,repaired
+15,what_nogap,5,np2,the parking lot
+15,what_nogap,6,prep,for
+15,what_nogap,7,np3,a wealthy businessman
+15,what_nogap,8,end,over the summer
+15,that_nogap,1,prefix,The mayor told me
+15,that_nogap,2,comp,that
+15,that_nogap,3,np1,the authorities
+15,that_nogap,4,verb,repaired
+15,that_nogap,5,np2,the parking lot
+15,that_nogap,6,prep,for
+15,that_nogap,7,np3,a wealthy businessman
+15,that_nogap,8,end,over the summer
+15,what_gap,1,prefix,The mayor told me
+15,what_gap,2,comp,who
+15,what_gap,3,np1,
+15,what_gap,4,verb,repaired
+15,what_gap,5,np2,the parking lot
+15,what_gap,6,prep,for
+15,what_gap,7,np3,a wealthy businessman
+15,what_gap,8,end,over the summer
+15,that_gap,1,prefix,The mayor told me
+15,that_gap,2,comp,that
+15,that_gap,3,np1,
+15,that_gap,4,verb,repaired
+15,that_gap,5,np2,the parking lot
+15,that_gap,6,prep,for
+15,that_gap,7,np3,a wealthy businessman
+15,that_gap,8,end,over the summer
+16,what_nogap,1,prefix,My friend remembers
+16,what_nogap,2,comp,what
+16,what_nogap,3,np1,the government
+16,what_nogap,4,verb,collected
+16,what_nogap,5,np2,sensitive data
+16,what_nogap,6,prep,about
+16,what_nogap,7,np3,foreign threats
+16,what_nogap,8,end,using illegal methods
+16,that_nogap,1,prefix,My friend remembers
+16,that_nogap,2,comp,that
+16,that_nogap,3,np1,the government
+16,that_nogap,4,verb,collected
+16,that_nogap,5,np2,sensitive data
+16,that_nogap,6,prep,about
+16,that_nogap,7,np3,foreign threats
+16,that_nogap,8,end,using illegal methods
+16,what_gap,1,prefix,My friend remembers
+16,what_gap,2,comp,what
+16,what_gap,3,np1,
+16,what_gap,4,verb,collected
+16,what_gap,5,np2,sensitive data
+16,what_gap,6,prep,about
+16,what_gap,7,np3,foreign threats
+16,what_gap,8,end,using illegal methods
+16,that_gap,1,prefix,My friend remembers
+16,that_gap,2,comp,that
+16,that_gap,3,np1,
+16,that_gap,4,verb,collected
+16,that_gap,5,np2,sensitive data
+16,that_gap,6,prep,about
+16,that_gap,7,np3,foreign threats
+16,that_gap,8,end,using illegal methods
+17,what_nogap,1,prefix,The newspaper said
+17,what_nogap,2,comp,who
+17,what_nogap,3,np1,the neighbors
+17,what_nogap,4,verb,sold
+17,what_nogap,5,np2,a convertible
+17,what_nogap,6,prep,to
+17,what_nogap,7,np3,the new couple
+17,what_nogap,8,end,last month
+17,that_nogap,1,prefix,The newspaper said
+17,that_nogap,2,comp,that
+17,that_nogap,3,np1,the neighbors
+17,that_nogap,4,verb,sold
+17,that_nogap,5,np2,a convertible
+17,that_nogap,6,prep,to
+17,that_nogap,7,np3,the new couple
+17,that_nogap,8,end,last month
+17,what_gap,1,prefix,The newspaper said
+17,what_gap,2,comp,who
+17,what_gap,3,np1,
+17,what_gap,4,verb,sold
+17,what_gap,5,np2,a convertible
+17,what_gap,6,prep,to
+17,what_gap,7,np3,the new couple
+17,what_gap,8,end,last month
+17,that_gap,1,prefix,The newspaper said
+17,that_gap,2,comp,that
+17,that_gap,3,np1,
+17,that_gap,4,verb,sold
+17,that_gap,5,np2,a convertible
+17,that_gap,6,prep,to
+17,that_gap,7,np3,the new couple
+17,that_gap,8,end,last month
+18,what_nogap,1,prefix,Our neighbor said
+18,what_nogap,2,comp,who
+18,what_nogap,3,np1,the student
+18,what_nogap,4,verb,sent
+18,what_nogap,5,np2,a package
+18,what_nogap,6,prep,to
+18,what_nogap,7,np3,her mother
+18,what_nogap,8,end,over a week ago
+18,that_nogap,1,prefix,Our neighbor said
+18,that_nogap,2,comp,that
+18,that_nogap,3,np1,the student
+18,that_nogap,4,verb,sent
+18,that_nogap,5,np2,a package
+18,that_nogap,6,prep,to
+18,that_nogap,7,np3,her mother
+18,that_nogap,8,end,over a week ago
+18,what_gap,1,prefix,Our neighbor said
+18,what_gap,2,comp,who
+18,what_gap,3,np1,
+18,what_gap,4,verb,sent
+18,what_gap,5,np2,a package
+18,what_gap,6,prep,to
+18,what_gap,7,np3,her mother
+18,what_gap,8,end,over a week ago
+18,that_gap,1,prefix,Our neighbor said
+18,that_gap,2,comp,that
+18,that_gap,3,np1,
+18,that_gap,4,verb,sent
+18,that_gap,5,np2,a package
+18,that_gap,6,prep,to
+18,that_gap,7,np3,her mother
+18,that_gap,8,end,over a week ago
+19,what_nogap,1,prefix,My friend told me
+19,what_nogap,2,comp,what
+19,what_nogap,3,np1,the university
+19,what_nogap,4,verb,hired
+19,what_nogap,5,np2,a new administrator
+19,what_nogap,6,prep,to help with
+19,what_nogap,7,np3,increased enrollment
+19,what_nogap,8,end,for the following year
+19,that_nogap,1,prefix,My friend told me
+19,that_nogap,2,comp,that
+19,that_nogap,3,np1,the university
+19,that_nogap,4,verb,hired
+19,that_nogap,5,np2,a new administrator
+19,that_nogap,6,prep,to help with
+19,that_nogap,7,np3,increased enrollment
+19,that_nogap,8,end,for the following year
+19,what_gap,1,prefix,My friend told me
+19,what_gap,2,comp,what
+19,what_gap,3,np1,
+19,what_gap,4,verb,hired
+19,what_gap,5,np2,a new administrator
+19,what_gap,6,prep,to help with
+19,what_gap,7,np3,increased enrollment
+19,what_gap,8,end,for the following year
+19,that_gap,1,prefix,My friend told me
+19,that_gap,2,comp,that
+19,that_gap,3,np1,
+19,that_gap,4,verb,hired
+19,that_gap,5,np2,a new administrator
+19,that_gap,6,prep,to help with
+19,that_gap,7,np3,increased enrollment
+19,that_gap,8,end,for the following year
+20,what_nogap,1,prefix,She can not believe
+20,what_nogap,2,comp,who
+20,what_nogap,3,np1,my good friend
+20,what_nogap,4,verb,stole
+20,what_nogap,5,np2,a candy bar
+20,what_nogap,6,prep,from
+20,what_nogap,7,np3,the store
+20,what_nogap,8,end,when he was young
+20,that_nogap,1,prefix,She can not believe
+20,that_nogap,2,comp,that
+20,that_nogap,3,np1,my good friend
+20,that_nogap,4,verb,stole
+20,that_nogap,5,np2,a candy bar
+20,that_nogap,6,prep,from
+20,that_nogap,7,np3,the store
+20,that_nogap,8,end,when he was young
+20,what_gap,1,prefix,She can not believe
+20,what_gap,2,comp,who
+20,what_gap,3,np1,
+20,what_gap,4,verb,stole
+20,what_gap,5,np2,a candy bar
+20,what_gap,6,prep,from
+20,what_gap,7,np3,the store
+20,what_gap,8,end,when he was young
+20,that_gap,1,prefix,She can not believe
+20,that_gap,2,comp,that
+20,that_gap,3,np1,
+20,that_gap,4,verb,stole
+20,that_gap,5,np2,a candy bar
+20,that_gap,6,prep,from
+20,that_gap,7,np3,the store
+20,that_gap,8,end,when he was young
+21,what_nogap,1,prefix,Our neighbor reminded us
+21,what_nogap,2,comp,what
+21,what_nogap,3,np1,the truck
+21,what_nogap,4,verb,dragged
+21,what_nogap,5,np2,the car
+21,what_nogap,6,prep,out of
+21,what_nogap,7,np3,the swamp
+21,what_nogap,8,end,last spring
+21,that_nogap,1,prefix,Our neighbor reminded us
+21,that_nogap,2,comp,that
+21,that_nogap,3,np1,the truck
+21,that_nogap,4,verb,dragged
+21,that_nogap,5,np2,the car
+21,that_nogap,6,prep,out of
+21,that_nogap,7,np3,the swamp
+21,that_nogap,8,end,last spring
+21,what_gap,1,prefix,Our neighbor reminded us
+21,what_gap,2,comp,what
+21,what_gap,3,np1,
+21,what_gap,4,verb,dragged
+21,what_gap,5,np2,the car
+21,what_gap,6,prep,out of
+21,what_gap,7,np3,the swamp
+21,what_gap,8,end,last spring
+21,that_gap,1,prefix,Our neighbor reminded us
+21,that_gap,2,comp,that
+21,that_gap,3,np1,
+21,that_gap,4,verb,dragged
+21,that_gap,5,np2,the car
+21,that_gap,6,prep,out of
+21,that_gap,7,np3,the swamp
+21,that_gap,8,end,last spring
+22,what_nogap,1,prefix,The shop owner told me
+22,what_nogap,2,comp,what
+22,what_nogap,3,np1,the restaurant
+22,what_nogap,4,verb,prepared
+22,what_nogap,5,np2,a great meal
+22,what_nogap,6,prep,for
+22,what_nogap,7,np3,their favorite guests
+22,what_nogap,8,end,yesterday evening
+22,that_nogap,1,prefix,The shop owner told me
+22,that_nogap,2,comp,that
+22,that_nogap,3,np1,the restaurant
+22,that_nogap,4,verb,prepared
+22,that_nogap,5,np2,a great meal
+22,that_nogap,6,prep,for
+22,that_nogap,7,np3,their favorite guests
+22,that_nogap,8,end,yesterday evening
+22,what_gap,1,prefix,The shop owner told me
+22,what_gap,2,comp,what
+22,what_gap,3,np1,
+22,what_gap,4,verb,prepared
+22,what_gap,5,np2,a great meal
+22,what_gap,6,prep,for
+22,what_gap,7,np3,their favorite guests
+22,what_gap,8,end,yesterday evening
+22,that_gap,1,prefix,The shop owner told me
+22,that_gap,2,comp,that
+22,that_gap,3,np1,
+22,that_gap,4,verb,prepared
+22,that_gap,5,np2,a great meal
+22,that_gap,6,prep,for
+22,that_gap,7,np3,their favorite guests
+22,that_gap,8,end,yesterday evening
+23,what_nogap,1,prefix,My sister told me
+23,what_nogap,2,comp,what
+23,what_nogap,3,np1,the newspaper
+23,what_nogap,4,verb,published
+23,what_nogap,5,np2,a long story
+23,what_nogap,6,prep,about
+23,what_nogap,7,np3,the mayor
+23,what_nogap,8,end,last month
+23,that_nogap,1,prefix,My sister told me
+23,that_nogap,2,comp,that
+23,that_nogap,3,np1,the newspaper
+23,that_nogap,4,verb,published
+23,that_nogap,5,np2,a long story
+23,that_nogap,6,prep,about
+23,that_nogap,7,np3,the mayor
+23,that_nogap,8,end,last month
+23,what_gap,1,prefix,My sister told me
+23,what_gap,2,comp,what
+23,what_gap,3,np1,
+23,what_gap,4,verb,published
+23,what_gap,5,np2,a long story
+23,what_gap,6,prep,about
+23,what_gap,7,np3,the mayor
+23,what_gap,8,end,last month
+23,that_gap,1,prefix,My sister told me
+23,that_gap,2,comp,that
+23,that_gap,3,np1,
+23,that_gap,4,verb,published
+23,that_gap,5,np2,a long story
+23,that_gap,6,prep,about
+23,that_gap,7,np3,the mayor
+23,that_gap,8,end,last month
+24,what_nogap,1,prefix,We remember
+24,what_nogap,2,comp,who
+24,what_nogap,3,np1,our new friend
+24,what_nogap,4,verb,brought
+24,what_nogap,5,np2,a large present
+24,what_nogap,6,prep,to
+24,what_nogap,7,np3,the birthday party
+24,what_nogap,8,end,last weekend
+24,that_nogap,1,prefix,We remember
+24,that_nogap,2,comp,that
+24,that_nogap,3,np1,our new friend
+24,that_nogap,4,verb,brought
+24,that_nogap,5,np2,a large present
+24,that_nogap,6,prep,to
+24,that_nogap,7,np3,the birthday party
+24,that_nogap,8,end,last weekend
+24,what_gap,1,prefix,We remember
+24,what_gap,2,comp,who
+24,what_gap,3,np1,
+24,what_gap,4,verb,brought
+24,what_gap,5,np2,a large present
+24,what_gap,6,prep,to
+24,what_gap,7,np3,the birthday party
+24,what_gap,8,end,last weekend
+24,that_gap,1,prefix,We remember
+24,that_gap,2,comp,that
+24,that_gap,3,np1,
+24,that_gap,4,verb,brought
+24,that_gap,5,np2,a large present
+24,that_gap,6,prep,to
+24,that_gap,7,np3,the birthday party
+24,that_gap,8,end,last weekend

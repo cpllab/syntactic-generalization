@@ -1,0 +1,1121 @@
+item_number,condition_name,region_number,region_name,content
+1,np_mismatch,1,intro,What
+1,np_mismatch,2,subj,he
+1,np_mismatch,3,verb,did
+1,np_mismatch,4,modifier,after the ingredients had been bought from the store
+1,np_mismatch,5,passive,was
+1,np_mismatch,6,verb.1,
+1,np_mismatch,7,matrix_v,the meal
+1,np_match,1,intro,What
+1,np_match,2,subj,he
+1,np_match,3,verb,ate
+1,np_match,4,modifier,after the ingredients had been bought from the store
+1,np_match,5,passive,was
+1,np_match,6,verb.1,
+1,np_match,7,matrix_v,the meal
+1,vp_match,1,intro,What
+1,vp_match,2,subj,he
+1,vp_match,3,verb,did
+1,vp_match,4,modifier,after the ingredients had been bought from the store
+1,vp_match,5,passive,was
+1,vp_match,6,verb.1,prepare
+1,vp_match,7,matrix_v,the meal
+1,vp_mismatch,1,intro,What
+1,vp_mismatch,2,subj,he
+1,vp_mismatch,3,verb,ate
+1,vp_mismatch,4,modifier,after the ingredients had been bought from the store
+1,vp_mismatch,5,passive,was
+1,vp_mismatch,6,verb.1,prepare
+1,vp_mismatch,7,matrix_v,the meal
+2,np_mismatch,1,intro,What
+2,np_mismatch,2,subj,the young man
+2,np_mismatch,3,verb,did
+2,np_mismatch,4,modifier,when the weather turned warm in the spring
+2,np_mismatch,5,passive,was
+2,np_mismatch,6,verb.1,
+2,np_mismatch,7,matrix_v,the crops
+2,np_match,1,intro,What
+2,np_match,2,subj,the young man
+2,np_match,3,verb,planted
+2,np_match,4,modifier,when the weather turned warm in the spring
+2,np_match,5,passive,was
+2,np_match,6,verb.1,
+2,np_match,7,matrix_v,the crops
+2,vp_match,1,intro,What
+2,vp_match,2,subj,the young man
+2,vp_match,3,verb,did
+2,vp_match,4,modifier,when the weather turned warm in the spring
+2,vp_match,5,passive,was
+2,vp_match,6,verb.1,plant
+2,vp_match,7,matrix_v,the crops
+2,vp_mismatch,1,intro,What
+2,vp_mismatch,2,subj,the young man
+2,vp_mismatch,3,verb,planted
+2,vp_mismatch,4,modifier,when the weather turned warm in the spring
+2,vp_mismatch,5,passive,was
+2,vp_mismatch,6,verb.1,plant
+2,vp_mismatch,7,matrix_v,the crops
+3,np_mismatch,1,intro,What
+3,np_mismatch,2,subj,the worker
+3,np_mismatch,3,verb,did
+3,np_mismatch,4,modifier,after the gate agent made the final announcement about the flight
+3,np_mismatch,5,passive,was
+3,np_mismatch,6,verb.1,
+3,np_mismatch,7,matrix_v,the plane
+3,np_match,1,intro,What
+3,np_match,2,subj,the worker
+3,np_match,3,verb,repaired
+3,np_match,4,modifier,after the gate agent made the final announcement about the flight
+3,np_match,5,passive,was
+3,np_match,6,verb.1,
+3,np_match,7,matrix_v,the plane
+3,vp_match,1,intro,What
+3,vp_match,2,subj,the worker
+3,vp_match,3,verb,did
+3,vp_match,4,modifier,after the gate agent made the final announcement about the flight
+3,vp_match,5,passive,was
+3,vp_match,6,verb.1,board
+3,vp_match,7,matrix_v,the plane
+3,vp_mismatch,1,intro,What
+3,vp_mismatch,2,subj,the worker
+3,vp_mismatch,3,verb,repaired
+3,vp_mismatch,4,modifier,after the gate agent made the final announcement about the flight
+3,vp_mismatch,5,passive,was
+3,vp_mismatch,6,verb.1,board
+3,vp_mismatch,7,matrix_v,the plane
+4,np_mismatch,1,intro,What
+4,np_mismatch,2,subj,the fan
+4,np_mismatch,3,verb,did
+4,np_mismatch,4,modifier,when his favorite team made it to the championship
+4,np_mismatch,5,passive,was
+4,np_mismatch,6,verb.1,
+4,np_mismatch,7,matrix_v,the tickets
+4,np_match,1,intro,What
+4,np_match,2,subj,the fan
+4,np_match,3,verb,sold
+4,np_match,4,modifier,when his favorite team made it to the championship
+4,np_match,5,passive,was
+4,np_match,6,verb.1,
+4,np_match,7,matrix_v,the tickets
+4,vp_match,1,intro,What
+4,vp_match,2,subj,the fan
+4,vp_match,3,verb,did
+4,vp_match,4,modifier,when his favorite team made it to the championship
+4,vp_match,5,passive,was
+4,vp_match,6,verb.1,buy
+4,vp_match,7,matrix_v,the tickets
+4,vp_mismatch,1,intro,What
+4,vp_mismatch,2,subj,the fan
+4,vp_mismatch,3,verb,sold
+4,vp_mismatch,4,modifier,when his favorite team made it to the championship
+4,vp_mismatch,5,passive,was
+4,vp_mismatch,6,verb.1,buy
+4,vp_mismatch,7,matrix_v,the tickets
+5,np_mismatch,1,intro,What
+5,np_mismatch,2,subj,the young woman
+5,np_mismatch,3,verb,did
+5,np_mismatch,4,modifier,when she was finished cleaning the sink
+5,np_mismatch,5,passive,was
+5,np_mismatch,6,verb.1,
+5,np_mismatch,7,matrix_v,the toilet
+5,np_match,1,intro,What
+5,np_match,2,subj,the young woman
+5,np_match,3,verb,wiped
+5,np_match,4,modifier,when she was finished cleaning the sink
+5,np_match,5,passive,was
+5,np_match,6,verb.1,
+5,np_match,7,matrix_v,the toilet
+5,vp_match,1,intro,What
+5,vp_match,2,subj,the young woman
+5,vp_match,3,verb,did
+5,vp_match,4,modifier,when she was finished cleaning the sink
+5,vp_match,5,passive,was
+5,vp_match,6,verb.1,flush
+5,vp_match,7,matrix_v,the toilet
+5,vp_mismatch,1,intro,What
+5,vp_mismatch,2,subj,the young woman
+5,vp_mismatch,3,verb,wiped
+5,vp_mismatch,4,modifier,when she was finished cleaning the sink
+5,vp_mismatch,5,passive,was
+5,vp_mismatch,6,verb.1,flush
+5,vp_mismatch,7,matrix_v,the toilet
+6,np_mismatch,1,intro,What
+6,np_mismatch,2,subj,the fans
+6,np_mismatch,3,verb,did
+6,np_mismatch,4,modifier,when their team played against the rival team
+6,np_mismatch,5,passive,was
+6,np_mismatch,6,verb.1,
+6,np_mismatch,7,matrix_v,the game
+6,np_match,1,intro,What
+6,np_match,2,subj,the fans
+6,np_match,3,verb,watched
+6,np_match,4,modifier,when their team played against the rival team
+6,np_match,5,passive,was
+6,np_match,6,verb.1,
+6,np_match,7,matrix_v,the game
+6,vp_match,1,intro,What
+6,vp_match,2,subj,the fans
+6,vp_match,3,verb,did
+6,vp_match,4,modifier,when their team played against the rival team
+6,vp_match,5,passive,was
+6,vp_match,6,verb.1,lose
+6,vp_match,7,matrix_v,the game
+6,vp_mismatch,1,intro,What
+6,vp_mismatch,2,subj,the fans
+6,vp_mismatch,3,verb,watched
+6,vp_mismatch,4,modifier,when their team played against the rival team
+6,vp_mismatch,5,passive,was
+6,vp_mismatch,6,verb.1,lose
+6,vp_mismatch,7,matrix_v,the game
+7,np_mismatch,1,intro,What
+7,np_mismatch,2,subj,the gardener
+7,np_mismatch,3,verb,did
+7,np_mismatch,4,modifier,before the other vegetables had been planted
+7,np_mismatch,5,passive,was
+7,np_mismatch,6,verb.1,
+7,np_mismatch,7,matrix_v,the tree
+7,np_match,1,intro,What
+7,np_match,2,subj,the gardener
+7,np_match,3,verb,trimmed
+7,np_match,4,modifier,before the other vegetables had been planted
+7,np_match,5,passive,was
+7,np_match,6,verb.1,
+7,np_match,7,matrix_v,the tree
+7,vp_match,1,intro,What
+7,vp_match,2,subj,the gardener
+7,vp_match,3,verb,did
+7,vp_match,4,modifier,before the other vegetables had been planted
+7,vp_match,5,passive,was
+7,vp_match,6,verb.1,plant
+7,vp_match,7,matrix_v,the tree
+7,vp_mismatch,1,intro,What
+7,vp_mismatch,2,subj,the gardener
+7,vp_mismatch,3,verb,trimmed
+7,vp_mismatch,4,modifier,before the other vegetables had been planted
+7,vp_mismatch,5,passive,was
+7,vp_mismatch,6,verb.1,plant
+7,vp_mismatch,7,matrix_v,the tree
+8,np_mismatch,1,intro,What
+8,np_mismatch,2,subj,the old man
+8,np_mismatch,3,verb,did
+8,np_mismatch,4,modifier,every morning before leaving for work
+8,np_mismatch,5,passive,was
+8,np_mismatch,6,verb.1,
+8,np_mismatch,7,matrix_v,the flag
+8,np_match,1,intro,What
+8,np_match,2,subj,the old man
+8,np_match,3,verb,bought
+8,np_match,4,modifier,every morning before leaving for work
+8,np_match,5,passive,was
+8,np_match,6,verb.1,
+8,np_match,7,matrix_v,the flag
+8,vp_match,1,intro,What
+8,vp_match,2,subj,the old man
+8,vp_match,3,verb,did
+8,vp_match,4,modifier,every morning before leaving for work
+8,vp_match,5,passive,was
+8,vp_match,6,verb.1,raise
+8,vp_match,7,matrix_v,the flag
+8,vp_mismatch,1,intro,What
+8,vp_mismatch,2,subj,the old man
+8,vp_mismatch,3,verb,bought
+8,vp_mismatch,4,modifier,every morning before leaving for work
+8,vp_mismatch,5,passive,was
+8,vp_mismatch,6,verb.1,raise
+8,vp_mismatch,7,matrix_v,the flag
+9,np_mismatch,1,intro,What
+9,np_mismatch,2,subj,the old man
+9,np_mismatch,3,verb,did
+9,np_mismatch,4,modifier,after he had walked across the field and the forest
+9,np_mismatch,5,passive,was
+9,np_mismatch,6,verb.1,
+9,np_mismatch,7,matrix_v,the chicken
+9,np_match,1,intro,What
+9,np_match,2,subj,the old man
+9,np_match,3,verb,cooked
+9,np_match,4,modifier,after he had walked across the field and the forest
+9,np_match,5,passive,was
+9,np_match,6,verb.1,
+9,np_match,7,matrix_v,the chicken
+9,vp_match,1,intro,What
+9,vp_match,2,subj,the old man
+9,vp_match,3,verb,did
+9,vp_match,4,modifier,after he had walked across the field and the forest
+9,vp_match,5,passive,was
+9,vp_match,6,verb.1,hunt
+9,vp_match,7,matrix_v,the chicken
+9,vp_mismatch,1,intro,What
+9,vp_mismatch,2,subj,the old man
+9,vp_mismatch,3,verb,cooked
+9,vp_mismatch,4,modifier,after he had walked across the field and the forest
+9,vp_mismatch,5,passive,was
+9,vp_mismatch,6,verb.1,hunt
+9,vp_mismatch,7,matrix_v,the chicken
+10,np_mismatch,1,intro,What
+10,np_mismatch,2,subj,the workers
+10,np_mismatch,3,verb,did
+10,np_mismatch,4,modifier,after they signed a contract with the city government
+10,np_mismatch,5,passive,was
+10,np_mismatch,6,verb.1,
+10,np_mismatch,7,matrix_v,the sidewalk
+10,np_match,1,intro,What
+10,np_match,2,subj,the workers
+10,np_match,3,verb,walked down
+10,np_match,4,modifier,after they signed a contract with the city government
+10,np_match,5,passive,was
+10,np_match,6,verb.1,
+10,np_match,7,matrix_v,the sidewalk
+10,vp_match,1,intro,What
+10,vp_match,2,subj,the workers
+10,vp_match,3,verb,did
+10,vp_match,4,modifier,after they signed a contract with the city government
+10,vp_match,5,passive,was
+10,vp_match,6,verb.1,pave
+10,vp_match,7,matrix_v,the sidewalk
+10,vp_mismatch,1,intro,What
+10,vp_mismatch,2,subj,the workers
+10,vp_mismatch,3,verb,walked down
+10,vp_mismatch,4,modifier,after they signed a contract with the city government
+10,vp_mismatch,5,passive,was
+10,vp_mismatch,6,verb.1,pave
+10,vp_mismatch,7,matrix_v,the sidewalk
+11,np_mismatch,1,intro,Who
+11,np_mismatch,2,subj,the mother
+11,np_mismatch,3,verb,did
+11,np_mismatch,4,modifier,after she got home from a long journey
+11,np_mismatch,5,passive,was
+11,np_mismatch,6,verb.1,
+11,np_mismatch,7,matrix_v,the baby
+11,np_match,1,intro,Who
+11,np_match,2,subj,the mother
+11,np_match,3,verb,fed
+11,np_match,4,modifier,after she got home from a long journey
+11,np_match,5,passive,was
+11,np_match,6,verb.1,
+11,np_match,7,matrix_v,the baby
+11,vp_match,1,intro,Who
+11,vp_match,2,subj,the mother
+11,vp_match,3,verb,did
+11,vp_match,4,modifier,after she got home from a long journey
+11,vp_match,5,passive,was
+11,vp_match,6,verb.1,hug
+11,vp_match,7,matrix_v,the baby
+11,vp_mismatch,1,intro,Who
+11,vp_mismatch,2,subj,the mother
+11,vp_mismatch,3,verb,fed
+11,vp_mismatch,4,modifier,after she got home from a long journey
+11,vp_mismatch,5,passive,was
+11,vp_mismatch,6,verb.1,hug
+11,vp_mismatch,7,matrix_v,the baby
+12,np_mismatch,1,intro,What
+12,np_mismatch,2,subj,the old woman
+12,np_mismatch,3,verb,did
+12,np_mismatch,4,modifier,after she received the letter at the end of the month
+12,np_mismatch,5,passive,was
+12,np_mismatch,6,verb.1,
+12,np_mismatch,7,matrix_v,the apartment
+12,np_match,1,intro,What
+12,np_match,2,subj,the old woman
+12,np_match,3,verb,bought
+12,np_match,4,modifier,after she received the letter at the end of the month
+12,np_match,5,passive,was
+12,np_match,6,verb.1,
+12,np_match,7,matrix_v,the apartment
+12,vp_match,1,intro,What
+12,vp_match,2,subj,the old woman
+12,vp_match,3,verb,did
+12,vp_match,4,modifier,after she received the letter at the end of the month
+12,vp_match,5,passive,was
+12,vp_match,6,verb.1,furnish
+12,vp_match,7,matrix_v,the apartment
+12,vp_mismatch,1,intro,What
+12,vp_mismatch,2,subj,the old woman
+12,vp_mismatch,3,verb,bought
+12,vp_mismatch,4,modifier,after she received the letter at the end of the month
+12,vp_mismatch,5,passive,was
+12,vp_mismatch,6,verb.1,furnish
+12,vp_mismatch,7,matrix_v,the apartment
+13,np_mismatch,1,intro,What
+13,np_mismatch,2,subj,the guards
+13,np_mismatch,3,verb,did
+13,np_mismatch,4,modifier,after they discovered the evidence hidden behind the wall
+13,np_mismatch,5,passive,was
+13,np_mismatch,6,verb.1,
+13,np_mismatch,7,matrix_v,the plot
+13,np_match,1,intro,What
+13,np_match,2,subj,the guards
+13,np_match,3,verb,concocted
+13,np_match,4,modifier,after they discovered the evidence hidden behind the wall
+13,np_match,5,passive,was
+13,np_match,6,verb.1,
+13,np_match,7,matrix_v,the plot
+13,vp_match,1,intro,What
+13,vp_match,2,subj,the guards
+13,vp_match,3,verb,did
+13,vp_match,4,modifier,after they discovered the evidence hidden behind the wall
+13,vp_match,5,passive,was
+13,vp_match,6,verb.1,thwart
+13,vp_match,7,matrix_v,the plot
+13,vp_mismatch,1,intro,What
+13,vp_mismatch,2,subj,the guards
+13,vp_mismatch,3,verb,concocted
+13,vp_mismatch,4,modifier,after they discovered the evidence hidden behind the wall
+13,vp_mismatch,5,passive,was
+13,vp_mismatch,6,verb.1,thwart
+13,vp_mismatch,7,matrix_v,the plot
+14,np_mismatch,1,intro,What
+14,np_mismatch,2,subj,the senator
+14,np_mismatch,3,verb,did
+14,np_mismatch,4,modifier,after she talked with her colleague from the opposition party
+14,np_mismatch,5,passive,was
+14,np_mismatch,6,verb.1,
+14,np_mismatch,7,matrix_v,the bill
+14,np_match,1,intro,What
+14,np_match,2,subj,the senator
+14,np_match,3,verb,sponsored
+14,np_match,4,modifier,after she talked with her colleague from the opposition party
+14,np_match,5,passive,was
+14,np_match,6,verb.1,
+14,np_match,7,matrix_v,the bill
+14,vp_match,1,intro,What
+14,vp_match,2,subj,the senator
+14,vp_match,3,verb,did
+14,vp_match,4,modifier,after she talked with her colleague from the opposition party
+14,vp_match,5,passive,was
+14,vp_match,6,verb.1,veto
+14,vp_match,7,matrix_v,the bill
+14,vp_mismatch,1,intro,What
+14,vp_mismatch,2,subj,the senator
+14,vp_mismatch,3,verb,sponsored
+14,vp_mismatch,4,modifier,after she talked with her colleague from the opposition party
+14,vp_mismatch,5,passive,was
+14,vp_mismatch,6,verb.1,veto
+14,vp_mismatch,7,matrix_v,the bill
+15,np_mismatch,1,intro,What
+15,np_mismatch,2,subj,the representatives
+15,np_mismatch,3,verb,did
+15,np_mismatch,4,modifier,before talking to the journalists
+15,np_mismatch,5,passive,was
+15,np_mismatch,6,verb.1,
+15,np_mismatch,7,matrix_v,the law
+15,np_match,1,intro,What
+15,np_match,2,subj,the representatives
+15,np_match,3,verb,wrote
+15,np_match,4,modifier,before talking to the journalists
+15,np_match,5,passive,was
+15,np_match,6,verb.1,
+15,np_match,7,matrix_v,the law
+15,vp_match,1,intro,What
+15,vp_match,2,subj,the representatives
+15,vp_match,3,verb,did
+15,vp_match,4,modifier,before talking to the journalists
+15,vp_match,5,passive,was
+15,vp_match,6,verb.1,repeal
+15,vp_match,7,matrix_v,the law
+15,vp_mismatch,1,intro,What
+15,vp_mismatch,2,subj,the representatives
+15,vp_mismatch,3,verb,wrote
+15,vp_mismatch,4,modifier,before talking to the journalists
+15,vp_mismatch,5,passive,was
+15,vp_mismatch,6,verb.1,repeal
+15,vp_mismatch,7,matrix_v,the law
+16,np_mismatch,1,intro,What
+16,np_mismatch,2,subj,the old woman
+16,np_mismatch,3,verb,did
+16,np_mismatch,4,modifier,after she got home from having dinner with a friend
+16,np_mismatch,5,passive,was
+16,np_mismatch,6,verb.1,
+16,np_mismatch,7,matrix_v,the cats
+16,np_match,1,intro,What
+16,np_match,2,subj,the old woman
+16,np_match,3,verb,fed
+16,np_match,4,modifier,after she got home from having dinner with a friend
+16,np_match,5,passive,was
+16,np_match,6,verb.1,
+16,np_match,7,matrix_v,the cats
+16,vp_match,1,intro,What
+16,vp_match,2,subj,the old woman
+16,vp_match,3,verb,did
+16,vp_match,4,modifier,after she got home from having dinner with a friend
+16,vp_match,5,passive,was
+16,vp_match,6,verb.1,stroke
+16,vp_match,7,matrix_v,the cats
+16,vp_mismatch,1,intro,What
+16,vp_mismatch,2,subj,the old woman
+16,vp_mismatch,3,verb,fed
+16,vp_mismatch,4,modifier,after she got home from having dinner with a friend
+16,vp_mismatch,5,passive,was
+16,vp_mismatch,6,verb.1,stroke
+16,vp_mismatch,7,matrix_v,the cats
+17,np_mismatch,1,intro,What
+17,np_mismatch,2,subj,the army
+17,np_mismatch,3,verb,did
+17,np_mismatch,4,modifier,after going through basic training and listening to propaganda
+17,np_mismatch,5,passive,was
+17,np_mismatch,6,verb.1,
+17,np_mismatch,7,matrix_v,the country
+17,np_match,1,intro,What
+17,np_match,2,subj,the army
+17,np_match,3,verb,loved
+17,np_match,4,modifier,after going through basic training and listening to propaganda
+17,np_match,5,passive,was
+17,np_match,6,verb.1,
+17,np_match,7,matrix_v,the country
+17,vp_match,1,intro,What
+17,vp_match,2,subj,the army
+17,vp_match,3,verb,did
+17,vp_match,4,modifier,after going through basic training and listening to propaganda
+17,vp_match,5,passive,was
+17,vp_match,6,verb.1,invade
+17,vp_match,7,matrix_v,the country
+17,vp_mismatch,1,intro,What
+17,vp_mismatch,2,subj,the army
+17,vp_mismatch,3,verb,loved
+17,vp_mismatch,4,modifier,after going through basic training and listening to propaganda
+17,vp_mismatch,5,passive,was
+17,vp_mismatch,6,verb.1,invade
+17,vp_mismatch,7,matrix_v,the country
+18,np_mismatch,1,intro,Who
+18,np_mismatch,2,subj,the soldier
+18,np_mismatch,3,verb,did
+18,np_mismatch,4,modifier,when he discovered that he was the only fighter left alive
+18,np_mismatch,5,passive,was
+18,np_mismatch,6,verb.1,
+18,np_mismatch,7,matrix_v,the enemy
+18,np_match,1,intro,Who
+18,np_match,2,subj,the soldier
+18,np_match,3,verb,battled
+18,np_match,4,modifier,when he discovered that he was the only fighter left alive
+18,np_match,5,passive,was
+18,np_match,6,verb.1,
+18,np_match,7,matrix_v,the enemy
+18,vp_match,1,intro,Who
+18,vp_match,2,subj,the soldier
+18,vp_match,3,verb,did
+18,vp_match,4,modifier,when he discovered that he was the only fighter left alive
+18,vp_match,5,passive,was
+18,vp_match,6,verb.1,attack
+18,vp_match,7,matrix_v,the enemy
+18,vp_mismatch,1,intro,Who
+18,vp_mismatch,2,subj,the soldier
+18,vp_mismatch,3,verb,battled
+18,vp_mismatch,4,modifier,when he discovered that he was the only fighter left alive
+18,vp_mismatch,5,passive,was
+18,vp_mismatch,6,verb.1,attack
+18,vp_mismatch,7,matrix_v,the enemy
+19,np_mismatch,1,intro,What
+19,np_mismatch,2,subj,the novelist
+19,np_mismatch,3,verb,did
+19,np_mismatch,4,modifier,before she received the big prize
+19,np_mismatch,5,passive,was
+19,np_mismatch,6,verb.1,
+19,np_mismatch,7,matrix_v,the book
+19,np_match,1,intro,What
+19,np_match,2,subj,the novelist
+19,np_match,3,verb,wrote
+19,np_match,4,modifier,before she received the big prize
+19,np_match,5,passive,was
+19,np_match,6,verb.1,
+19,np_match,7,matrix_v,the book
+19,vp_match,1,intro,What
+19,vp_match,2,subj,the novelist
+19,vp_match,3,verb,did
+19,vp_match,4,modifier,before she received the big prize
+19,vp_match,5,passive,was
+19,vp_match,6,verb.1,borrow
+19,vp_match,7,matrix_v,the book
+19,vp_mismatch,1,intro,What
+19,vp_mismatch,2,subj,the novelist
+19,vp_mismatch,3,verb,wrote
+19,vp_mismatch,4,modifier,before she received the big prize
+19,vp_mismatch,5,passive,was
+19,vp_mismatch,6,verb.1,borrow
+19,vp_mismatch,7,matrix_v,the book
+20,np_mismatch,1,intro,What
+20,np_mismatch,2,subj,the worker
+20,np_mismatch,3,verb,did
+20,np_mismatch,4,modifier,after entering the job site
+20,np_mismatch,5,passive,was
+20,np_mismatch,6,verb.1,
+20,np_mismatch,7,matrix_v,the door
+20,np_match,1,intro,What
+20,np_match,2,subj,the worker
+20,np_match,3,verb,installed
+20,np_match,4,modifier,after entering the job site
+20,np_match,5,passive,was
+20,np_match,6,verb.1,
+20,np_match,7,matrix_v,the door
+20,vp_match,1,intro,What
+20,vp_match,2,subj,the worker
+20,vp_match,3,verb,did
+20,vp_match,4,modifier,after entering the job site
+20,vp_match,5,passive,was
+20,vp_match,6,verb.1,lock
+20,vp_match,7,matrix_v,the door
+20,vp_mismatch,1,intro,What
+20,vp_mismatch,2,subj,the worker
+20,vp_mismatch,3,verb,installed
+20,vp_mismatch,4,modifier,after entering the job site
+20,vp_mismatch,5,passive,was
+20,vp_mismatch,6,verb.1,lock
+20,vp_mismatch,7,matrix_v,the door
+21,np_mismatch,1,intro,What
+21,np_mismatch,2,subj,the workers
+21,np_mismatch,3,verb,did
+21,np_mismatch,4,modifier,two weeks ago when the job had only just begun
+21,np_mismatch,5,passive,was
+21,np_mismatch,6,verb.1,
+21,np_mismatch,7,matrix_v,the wall
+21,np_match,1,intro,What
+21,np_match,2,subj,the workers
+21,np_match,3,verb,painted
+21,np_match,4,modifier,two weeks ago when the job had only just begun
+21,np_match,5,passive,was
+21,np_match,6,verb.1,
+21,np_match,7,matrix_v,the wall
+21,vp_match,1,intro,What
+21,vp_match,2,subj,the workers
+21,vp_match,3,verb,did
+21,vp_match,4,modifier,two weeks ago when the job had only just begun
+21,vp_match,5,passive,was
+21,vp_match,6,verb.1,reinforce
+21,vp_match,7,matrix_v,the wall
+21,vp_mismatch,1,intro,What
+21,vp_mismatch,2,subj,the workers
+21,vp_mismatch,3,verb,painted
+21,vp_mismatch,4,modifier,two weeks ago when the job had only just begun
+21,vp_mismatch,5,passive,was
+21,vp_mismatch,6,verb.1,reinforce
+21,vp_mismatch,7,matrix_v,the wall
+22,np_mismatch,1,intro,What
+22,np_mismatch,2,subj,the actor
+22,np_mismatch,3,verb,did
+22,np_mismatch,4,modifier,when he found himself out of money
+22,np_mismatch,5,passive,was
+22,np_mismatch,6,verb.1,
+22,np_mismatch,7,matrix_v,the story
+22,np_match,1,intro,What
+22,np_match,2,subj,the actor
+22,np_match,3,verb,wrote
+22,np_match,4,modifier,when he found himself out of money
+22,np_match,5,passive,was
+22,np_match,6,verb.1,
+22,np_match,7,matrix_v,the story
+22,vp_match,1,intro,What
+22,vp_match,2,subj,the actor
+22,vp_match,3,verb,did
+22,vp_match,4,modifier,when he found himself out of money
+22,vp_match,5,passive,was
+22,vp_match,6,verb.1,tell
+22,vp_match,7,matrix_v,the story
+22,vp_mismatch,1,intro,What
+22,vp_mismatch,2,subj,the actor
+22,vp_mismatch,3,verb,wrote
+22,vp_mismatch,4,modifier,when he found himself out of money
+22,vp_mismatch,5,passive,was
+22,vp_mismatch,6,verb.1,tell
+22,vp_mismatch,7,matrix_v,the story
+23,np_mismatch,1,intro,What
+23,np_mismatch,2,subj,the tourists
+23,np_mismatch,3,verb,did
+23,np_mismatch,4,modifier,after finally landing in the foreign country
+23,np_mismatch,5,passive,was
+23,np_mismatch,6,verb.1,
+23,np_mismatch,7,matrix_v,the destination
+23,np_match,1,intro,What
+23,np_match,2,subj,the tourists
+23,np_match,3,verb,traveled towards
+23,np_match,4,modifier,after finally landing in the foreign country
+23,np_match,5,passive,was
+23,np_match,6,verb.1,
+23,np_match,7,matrix_v,the destination
+23,vp_match,1,intro,What
+23,vp_match,2,subj,the tourists
+23,vp_match,3,verb,did
+23,vp_match,4,modifier,after finally landing in the foreign country
+23,vp_match,5,passive,was
+23,vp_match,6,verb.1,reach
+23,vp_match,7,matrix_v,the destination
+23,vp_mismatch,1,intro,What
+23,vp_mismatch,2,subj,the tourists
+23,vp_mismatch,3,verb,traveled towards
+23,vp_mismatch,4,modifier,after finally landing in the foreign country
+23,vp_mismatch,5,passive,was
+23,vp_mismatch,6,verb.1,reach
+23,vp_mismatch,7,matrix_v,the destination
+24,np_mismatch,1,intro,What
+24,np_mismatch,2,subj,the men
+24,np_mismatch,3,verb,did
+24,np_mismatch,4,modifier,after they received shipments of supplies from their allies
+24,np_mismatch,5,passive,was
+24,np_mismatch,6,verb.1,
+24,np_mismatch,7,matrix_v,the city
+24,np_match,1,intro,What
+24,np_match,2,subj,the men
+24,np_match,3,verb,repaired
+24,np_match,4,modifier,after they received shipments of supplies from their allies
+24,np_match,5,passive,was
+24,np_match,6,verb.1,
+24,np_match,7,matrix_v,the city
+24,vp_match,1,intro,What
+24,vp_match,2,subj,the men
+24,vp_match,3,verb,did
+24,vp_match,4,modifier,after they received shipments of supplies from their allies
+24,vp_match,5,passive,was
+24,vp_match,6,verb.1,defend
+24,vp_match,7,matrix_v,the city
+24,vp_mismatch,1,intro,What
+24,vp_mismatch,2,subj,the men
+24,vp_mismatch,3,verb,repaired
+24,vp_mismatch,4,modifier,after they received shipments of supplies from their allies
+24,vp_mismatch,5,passive,was
+24,vp_mismatch,6,verb.1,defend
+24,vp_mismatch,7,matrix_v,the city
+25,np_mismatch,1,intro,What
+25,np_mismatch,2,subj,he
+25,np_mismatch,3,verb,did
+25,np_mismatch,4,modifier,before driving to the next town
+25,np_mismatch,5,passive,was
+25,np_mismatch,6,verb.1,
+25,np_mismatch,7,matrix_v,the package
+25,np_match,1,intro,What
+25,np_match,2,subj,he
+25,np_match,3,verb,sent
+25,np_match,4,modifier,before driving to the next town
+25,np_match,5,passive,was
+25,np_match,6,verb.1,
+25,np_match,7,matrix_v,the package
+25,vp_match,1,intro,What
+25,vp_match,2,subj,he
+25,vp_match,3,verb,did
+25,vp_match,4,modifier,before driving to the next town
+25,vp_match,5,passive,was
+25,vp_match,6,verb.1,deliver
+25,vp_match,7,matrix_v,the package
+25,vp_mismatch,1,intro,What
+25,vp_mismatch,2,subj,he
+25,vp_mismatch,3,verb,sent
+25,vp_mismatch,4,modifier,before driving to the next town
+25,vp_mismatch,5,passive,was
+25,vp_mismatch,6,verb.1,deliver
+25,vp_mismatch,7,matrix_v,the package
+26,np_mismatch,1,intro,What
+26,np_mismatch,2,subj,she
+26,np_mismatch,3,verb,did
+26,np_mismatch,4,modifier,after talking to her lawyers about the situation
+26,np_mismatch,5,passive,was
+26,np_mismatch,6,verb.1,
+26,np_mismatch,7,matrix_v,the contract
+26,np_match,1,intro,What
+26,np_match,2,subj,she
+26,np_match,3,verb,wrote
+26,np_match,4,modifier,after talking to her lawyers about the situation
+26,np_match,5,passive,was
+26,np_match,6,verb.1,
+26,np_match,7,matrix_v,the contract
+26,vp_match,1,intro,What
+26,vp_match,2,subj,she
+26,vp_match,3,verb,did
+26,vp_match,4,modifier,after talking to her lawyers about the situation
+26,vp_match,5,passive,was
+26,vp_match,6,verb.1,renew
+26,vp_match,7,matrix_v,the contract
+26,vp_mismatch,1,intro,What
+26,vp_mismatch,2,subj,she
+26,vp_mismatch,3,verb,wrote
+26,vp_mismatch,4,modifier,after talking to her lawyers about the situation
+26,vp_mismatch,5,passive,was
+26,vp_mismatch,6,verb.1,renew
+26,vp_mismatch,7,matrix_v,the contract
+27,np_mismatch,1,intro,What
+27,np_mismatch,2,subj,he
+27,np_mismatch,3,verb,did
+27,np_mismatch,4,modifier,when he found out that many people were asking similar questions
+27,np_mismatch,5,passive,was
+27,np_mismatch,6,verb.1,
+27,np_mismatch,7,matrix_v,the rumor
+27,np_match,1,intro,What
+27,np_match,2,subj,he
+27,np_match,3,verb,spread
+27,np_match,4,modifier,when he found out that many people were asking similar questions
+27,np_match,5,passive,was
+27,np_match,6,verb.1,
+27,np_match,7,matrix_v,the rumor
+27,vp_match,1,intro,What
+27,vp_match,2,subj,he
+27,vp_match,3,verb,did
+27,vp_match,4,modifier,when he found out that many people were asking similar questions
+27,vp_match,5,passive,was
+27,vp_match,6,verb.1,confirm
+27,vp_match,7,matrix_v,the rumor
+27,vp_mismatch,1,intro,What
+27,vp_mismatch,2,subj,he
+27,vp_mismatch,3,verb,spread
+27,vp_mismatch,4,modifier,when he found out that many people were asking similar questions
+27,vp_mismatch,5,passive,was
+27,vp_mismatch,6,verb.1,confirm
+27,vp_mismatch,7,matrix_v,the rumor
+28,np_mismatch,1,intro,Who
+28,np_mismatch,2,subj,they
+28,np_mismatch,3,verb,did
+28,np_mismatch,4,modifier,when they felt that no other options were available to them
+28,np_mismatch,5,passive,was
+28,np_mismatch,6,verb.1,
+28,np_mismatch,7,matrix_v,the politician
+28,np_match,1,intro,Who
+28,np_match,2,subj,they
+28,np_match,3,verb,rebuked
+28,np_match,4,modifier,when they felt that no other options were available to them
+28,np_match,5,passive,was
+28,np_match,6,verb.1,
+28,np_match,7,matrix_v,the politician
+28,vp_match,1,intro,Who
+28,vp_match,2,subj,they
+28,vp_match,3,verb,did
+28,vp_match,4,modifier,when they felt that no other options were available to them
+28,vp_match,5,passive,was
+28,vp_match,6,verb.1,murder
+28,vp_match,7,matrix_v,the politician
+28,vp_mismatch,1,intro,Who
+28,vp_mismatch,2,subj,they
+28,vp_mismatch,3,verb,rebuked
+28,vp_mismatch,4,modifier,when they felt that no other options were available to them
+28,vp_mismatch,5,passive,was
+28,vp_mismatch,6,verb.1,murder
+28,vp_mismatch,7,matrix_v,the politician
+29,np_mismatch,1,intro,Who
+29,np_mismatch,2,subj,the police
+29,np_mismatch,3,verb,did
+29,np_mismatch,4,modifier,between the trial and the sentencing
+29,np_mismatch,5,passive,was
+29,np_mismatch,6,verb.1,
+29,np_mismatch,7,matrix_v,the suspect
+29,np_match,1,intro,Who
+29,np_match,2,subj,the police
+29,np_match,3,verb,caught
+29,np_match,4,modifier,between the trial and the sentencing
+29,np_match,5,passive,was
+29,np_match,6,verb.1,
+29,np_match,7,matrix_v,the suspect
+29,vp_match,1,intro,Who
+29,vp_match,2,subj,the police
+29,vp_match,3,verb,did
+29,vp_match,4,modifier,between the trial and the sentencing
+29,vp_match,5,passive,was
+29,vp_match,6,verb.1,monitor
+29,vp_match,7,matrix_v,the suspect
+29,vp_mismatch,1,intro,Who
+29,vp_mismatch,2,subj,the police
+29,vp_mismatch,3,verb,caught
+29,vp_mismatch,4,modifier,between the trial and the sentencing
+29,vp_mismatch,5,passive,was
+29,vp_mismatch,6,verb.1,monitor
+29,vp_mismatch,7,matrix_v,the suspect
+30,np_mismatch,1,intro,What
+30,np_mismatch,2,subj,the people
+30,np_mismatch,3,verb,did
+30,np_mismatch,4,modifier,every Thursday morning before work
+30,np_mismatch,5,passive,was
+30,np_mismatch,6,verb.1,
+30,np_mismatch,7,matrix_v,the trash
+30,np_match,1,intro,What
+30,np_match,2,subj,the people
+30,np_match,3,verb,collected
+30,np_match,4,modifier,every Thursday morning before work
+30,np_match,5,passive,was
+30,np_match,6,verb.1,
+30,np_match,7,matrix_v,the trash
+30,vp_match,1,intro,What
+30,vp_match,2,subj,the people
+30,vp_match,3,verb,did
+30,vp_match,4,modifier,every Thursday morning before work
+30,vp_match,5,passive,was
+30,vp_match,6,verb.1,remove
+30,vp_match,7,matrix_v,the trash
+30,vp_mismatch,1,intro,What
+30,vp_mismatch,2,subj,the people
+30,vp_mismatch,3,verb,collected
+30,vp_mismatch,4,modifier,every Thursday morning before work
+30,vp_mismatch,5,passive,was
+30,vp_mismatch,6,verb.1,remove
+30,vp_mismatch,7,matrix_v,the trash
+31,np_mismatch,1,intro,What
+31,np_mismatch,2,subj,the teacher
+31,np_mismatch,3,verb,did
+31,np_mismatch,4,modifier,after school during the summer
+31,np_mismatch,5,passive,was
+31,np_mismatch,6,verb.1,
+31,np_mismatch,7,matrix_v,the subject
+31,np_match,1,intro,What
+31,np_match,2,subj,the teacher
+31,np_match,3,verb,taught
+31,np_match,4,modifier,after school during the summer
+31,np_match,5,passive,was
+31,np_match,6,verb.1,
+31,np_match,7,matrix_v,the subject
+31,vp_match,1,intro,What
+31,vp_match,2,subj,the teacher
+31,vp_match,3,verb,did
+31,vp_match,4,modifier,after school during the summer
+31,vp_match,5,passive,was
+31,vp_match,6,verb.1,write about
+31,vp_match,7,matrix_v,the subject
+31,vp_mismatch,1,intro,What
+31,vp_mismatch,2,subj,the teacher
+31,vp_mismatch,3,verb,taught
+31,vp_mismatch,4,modifier,after school during the summer
+31,vp_mismatch,5,passive,was
+31,vp_mismatch,6,verb.1,write about
+31,vp_mismatch,7,matrix_v,the subject
+32,np_mismatch,1,intro,What
+32,np_mismatch,2,subj,they
+32,np_mismatch,3,verb,did
+32,np_mismatch,4,modifier,in the middle of the night
+32,np_mismatch,5,passive,was
+32,np_mismatch,6,verb.1,
+32,np_mismatch,7,matrix_v,the drugs
+32,np_match,1,intro,What
+32,np_match,2,subj,they
+32,np_match,3,verb,bought
+32,np_match,4,modifier,in the middle of the night
+32,np_match,5,passive,was
+32,np_match,6,verb.1,
+32,np_match,7,matrix_v,the drugs
+32,vp_match,1,intro,What
+32,vp_match,2,subj,they
+32,vp_match,3,verb,did
+32,vp_match,4,modifier,in the middle of the night
+32,vp_match,5,passive,was
+32,vp_match,6,verb.1,transport
+32,vp_match,7,matrix_v,the drugs
+32,vp_mismatch,1,intro,What
+32,vp_mismatch,2,subj,they
+32,vp_mismatch,3,verb,bought
+32,vp_mismatch,4,modifier,in the middle of the night
+32,vp_mismatch,5,passive,was
+32,vp_mismatch,6,verb.1,transport
+32,vp_mismatch,7,matrix_v,the drugs
+33,np_mismatch,1,intro,Who
+33,np_mismatch,2,subj,he
+33,np_mismatch,3,verb,did
+33,np_mismatch,4,modifier,after he found out the horrible news
+33,np_mismatch,5,passive,was
+33,np_mismatch,6,verb.1,
+33,np_mismatch,7,matrix_v,his friend
+33,np_match,1,intro,Who
+33,np_match,2,subj,he
+33,np_match,3,verb,called
+33,np_match,4,modifier,after he found out the horrible news
+33,np_match,5,passive,was
+33,np_match,6,verb.1,
+33,np_match,7,matrix_v,his friend
+33,vp_match,1,intro,Who
+33,vp_match,2,subj,he
+33,vp_match,3,verb,did
+33,vp_match,4,modifier,after he found out the horrible news
+33,vp_match,5,passive,was
+33,vp_match,6,verb.1,hug
+33,vp_match,7,matrix_v,his friend
+33,vp_mismatch,1,intro,Who
+33,vp_mismatch,2,subj,he
+33,vp_mismatch,3,verb,called
+33,vp_mismatch,4,modifier,after he found out the horrible news
+33,vp_mismatch,5,passive,was
+33,vp_mismatch,6,verb.1,hug
+33,vp_mismatch,7,matrix_v,his friend
+34,np_mismatch,1,intro,What
+34,np_mismatch,2,subj,she
+34,np_mismatch,3,verb,did
+34,np_mismatch,4,modifier,when she received the contract that had been signed by all the parties
+34,np_mismatch,5,passive,was
+34,np_mismatch,6,verb.1,
+34,np_mismatch,7,matrix_v,the shipment
+34,np_match,1,intro,What
+34,np_match,2,subj,she
+34,np_match,3,verb,bought
+34,np_match,4,modifier,when she received the contract that had been signed by all the parties
+34,np_match,5,passive,was
+34,np_match,6,verb.1,
+34,np_match,7,matrix_v,the shipment
+34,vp_match,1,intro,What
+34,vp_match,2,subj,she
+34,vp_match,3,verb,did
+34,vp_match,4,modifier,when she received the contract that had been signed by all the parties
+34,vp_match,5,passive,was
+34,vp_match,6,verb.1,transport
+34,vp_match,7,matrix_v,the shipment
+34,vp_mismatch,1,intro,What
+34,vp_mismatch,2,subj,she
+34,vp_mismatch,3,verb,bought
+34,vp_mismatch,4,modifier,when she received the contract that had been signed by all the parties
+34,vp_mismatch,5,passive,was
+34,vp_mismatch,6,verb.1,transport
+34,vp_mismatch,7,matrix_v,the shipment
+35,np_mismatch,1,intro,What
+35,np_mismatch,2,subj,we
+35,np_mismatch,3,verb,did
+35,np_mismatch,4,modifier,after we graduated from law school
+35,np_mismatch,5,passive,was
+35,np_mismatch,6,verb.1,
+35,np_mismatch,7,matrix_v,the argument
+35,np_match,1,intro,What
+35,np_match,2,subj,we
+35,np_match,3,verb,won
+35,np_match,4,modifier,after we graduated from law school
+35,np_match,5,passive,was
+35,np_match,6,verb.1,
+35,np_match,7,matrix_v,the argument
+35,vp_match,1,intro,What
+35,vp_match,2,subj,we
+35,vp_match,3,verb,did
+35,vp_match,4,modifier,after we graduated from law school
+35,vp_match,5,passive,was
+35,vp_match,6,verb.1,make
+35,vp_match,7,matrix_v,the argument
+35,vp_mismatch,1,intro,What
+35,vp_mismatch,2,subj,we
+35,vp_mismatch,3,verb,won
+35,vp_mismatch,4,modifier,after we graduated from law school
+35,vp_mismatch,5,passive,was
+35,vp_mismatch,6,verb.1,make
+35,vp_mismatch,7,matrix_v,the argument
+36,np_mismatch,1,intro,Who
+36,np_mismatch,2,subj,you
+36,np_mismatch,3,verb,did
+36,np_mismatch,4,modifier,when you heard that the building was going to be destroyed
+36,np_mismatch,5,passive,was
+36,np_mismatch,6,verb.1,
+36,np_mismatch,7,matrix_v,the worker
+36,np_match,1,intro,Who
+36,np_match,2,subj,you
+36,np_match,3,verb,contracted
+36,np_match,4,modifier,when you heard that the building was going to be destroyed
+36,np_match,5,passive,was
+36,np_match,6,verb.1,
+36,np_match,7,matrix_v,the worker
+36,vp_match,1,intro,Who
+36,vp_match,2,subj,you
+36,vp_match,3,verb,did
+36,vp_match,4,modifier,when you heard that the building was going to be destroyed
+36,vp_match,5,passive,was
+36,vp_match,6,verb.1,hire
+36,vp_match,7,matrix_v,the worker
+36,vp_mismatch,1,intro,Who
+36,vp_mismatch,2,subj,you
+36,vp_mismatch,3,verb,contracted
+36,vp_mismatch,4,modifier,when you heard that the building was going to be destroyed
+36,vp_mismatch,5,passive,was
+36,vp_mismatch,6,verb.1,hire
+36,vp_mismatch,7,matrix_v,the worker
+37,np_mismatch,1,intro,What
+37,np_mismatch,2,subj,he
+37,np_mismatch,3,verb,did
+37,np_mismatch,4,modifier,in his spare time
+37,np_mismatch,5,passive,was
+37,np_mismatch,6,verb.1,
+37,np_mismatch,7,matrix_v,a painting
+37,np_match,1,intro,What
+37,np_match,2,subj,he
+37,np_match,3,verb,created
+37,np_match,4,modifier,in his spare time
+37,np_match,5,passive,was
+37,np_match,6,verb.1,
+37,np_match,7,matrix_v,a painting
+37,vp_match,1,intro,What
+37,vp_match,2,subj,he
+37,vp_match,3,verb,did
+37,vp_match,4,modifier,in his spare time
+37,vp_match,5,passive,was
+37,vp_match,6,verb.1,paint
+37,vp_match,7,matrix_v,a painting
+37,vp_mismatch,1,intro,What
+37,vp_mismatch,2,subj,he
+37,vp_mismatch,3,verb,created
+37,vp_mismatch,4,modifier,in his spare time
+37,vp_mismatch,5,passive,was
+37,vp_mismatch,6,verb.1,paint
+37,vp_mismatch,7,matrix_v,a painting
+38,np_mismatch,1,intro,What
+38,np_mismatch,2,subj,the woman
+38,np_mismatch,3,verb,did
+38,np_mismatch,4,modifier,after hearing the troubling news
+38,np_mismatch,5,passive,was
+38,np_mismatch,6,verb.1,
+38,np_mismatch,7,matrix_v,the letter
+38,np_match,1,intro,What
+38,np_match,2,subj,the woman
+38,np_match,3,verb,wrote
+38,np_match,4,modifier,after hearing the troubling news
+38,np_match,5,passive,was
+38,np_match,6,verb.1,
+38,np_match,7,matrix_v,the letter
+38,vp_match,1,intro,What
+38,vp_match,2,subj,the woman
+38,vp_match,3,verb,did
+38,vp_match,4,modifier,after hearing the troubling news
+38,vp_match,5,passive,was
+38,vp_match,6,verb.1,mail
+38,vp_match,7,matrix_v,the letter
+38,vp_mismatch,1,intro,What
+38,vp_mismatch,2,subj,the woman
+38,vp_mismatch,3,verb,wrote
+38,vp_mismatch,4,modifier,after hearing the troubling news
+38,vp_mismatch,5,passive,was
+38,vp_mismatch,6,verb.1,mail
+38,vp_mismatch,7,matrix_v,the letter
+39,np_mismatch,1,intro,What
+39,np_mismatch,2,subj,the maid
+39,np_mismatch,3,verb,did
+39,np_mismatch,4,modifier,after he cleared the table
+39,np_mismatch,5,passive,was
+39,np_mismatch,6,verb.1,
+39,np_mismatch,7,matrix_v,the glass
+39,np_match,1,intro,What
+39,np_match,2,subj,the maid
+39,np_match,3,verb,broke
+39,np_match,4,modifier,after he cleared the table
+39,np_match,5,passive,was
+39,np_match,6,verb.1,
+39,np_match,7,matrix_v,the glass
+39,vp_match,1,intro,What
+39,vp_match,2,subj,the maid
+39,vp_match,3,verb,did
+39,vp_match,4,modifier,after he cleared the table
+39,vp_match,5,passive,was
+39,vp_match,6,verb.1,empty
+39,vp_match,7,matrix_v,the glass
+39,vp_mismatch,1,intro,What
+39,vp_mismatch,2,subj,the maid
+39,vp_mismatch,3,verb,broke
+39,vp_mismatch,4,modifier,after he cleared the table
+39,vp_mismatch,5,passive,was
+39,vp_mismatch,6,verb.1,empty
+39,vp_mismatch,7,matrix_v,the glass
+40,np_mismatch,1,intro,Who
+40,np_mismatch,2,subj,the judge
+40,np_mismatch,3,verb,did
+40,np_mismatch,4,modifier,after he heard all the arguments from both legal teams
+40,np_mismatch,5,passive,was
+40,np_mismatch,6,verb.1,
+40,np_mismatch,7,matrix_v,the criminal
+40,np_match,1,intro,Who
+40,np_match,2,subj,the judge
+40,np_match,3,verb,accused
+40,np_match,4,modifier,after he heard all the arguments from both legal teams
+40,np_match,5,passive,was
+40,np_match,6,verb.1,
+40,np_match,7,matrix_v,the criminal
+40,vp_match,1,intro,Who
+40,vp_match,2,subj,the judge
+40,vp_match,3,verb,did
+40,vp_match,4,modifier,after he heard all the arguments from both legal teams
+40,vp_match,5,passive,was
+40,vp_match,6,verb.1,sentence
+40,vp_match,7,matrix_v,the criminal
+40,vp_mismatch,1,intro,Who
+40,vp_mismatch,2,subj,the judge
+40,vp_mismatch,3,verb,accused
+40,vp_mismatch,4,modifier,after he heard all the arguments from both legal teams
+40,vp_mismatch,5,passive,was
+40,vp_mismatch,6,verb.1,sentence
+40,vp_mismatch,7,matrix_v,the criminal

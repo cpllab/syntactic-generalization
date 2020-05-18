@@ -1,0 +1,1297 @@
+item_number,condition_name,region_number,region_name,content
+1,what_nogap,1,prefix,The fact that
+1,what_nogap,2,subj_subj,my brother said
+1,what_nogap,3,subj_wh,who
+1,what_nogap,4,subj_embed,his friend trusted
+1,what_nogap,5,subject_gap,our uncle
+1,what_nogap,6,filler,at the party
+1,what_nogap,7,matrix_verb,surprised
+1,what_nogap,8,matrix_gap,my daughter
+1,what_nogap,9,continuation,yesterday afternoon
+1,that_nogap,1,prefix,The fact that
+1,that_nogap,2,subj_subj,my brother said
+1,that_nogap,3,subj_wh,that
+1,that_nogap,4,subj_embed,his friend trusted
+1,that_nogap,5,subject_gap,our uncle
+1,that_nogap,6,filler,at the party
+1,that_nogap,7,matrix_verb,surprised
+1,that_nogap,8,matrix_gap,my daughter
+1,that_nogap,9,continuation,yesterday afternoon
+1,what_subjgap,1,prefix,The fact that
+1,what_subjgap,2,subj_subj,my brother said
+1,what_subjgap,3,subj_wh,who
+1,what_subjgap,4,subj_embed,his friend trusted
+1,what_subjgap,5,subject_gap,
+1,what_subjgap,6,filler,at the party
+1,what_subjgap,7,matrix_verb,surprised
+1,what_subjgap,8,matrix_gap,my daughter
+1,what_subjgap,9,continuation,yesterday afternoon
+1,that_subjgap,1,prefix,The fact that
+1,that_subjgap,2,subj_subj,my brother said
+1,that_subjgap,3,subj_wh,that
+1,that_subjgap,4,subj_embed,his friend trusted
+1,that_subjgap,5,subject_gap,
+1,that_subjgap,6,filler,at the party
+1,that_subjgap,7,matrix_verb,surprised
+1,that_subjgap,8,matrix_gap,my daughter
+1,that_subjgap,9,continuation,yesterday afternoon
+1,what_matrixgap,1,prefix,The fact that
+1,what_matrixgap,2,subj_subj,my brother said
+1,what_matrixgap,3,subj_wh,who
+1,what_matrixgap,4,subj_embed,his friend trusted
+1,what_matrixgap,5,subject_gap,our uncle
+1,what_matrixgap,6,filler,at the party
+1,what_matrixgap,7,matrix_verb,surprised
+1,what_matrixgap,8,matrix_gap,
+1,what_matrixgap,9,continuation,yesterday afternoon
+1,that_matrixgap,1,prefix,The fact that
+1,that_matrixgap,2,subj_subj,my brother said
+1,that_matrixgap,3,subj_wh,that
+1,that_matrixgap,4,subj_embed,his friend trusted
+1,that_matrixgap,5,subject_gap,our uncle
+1,that_matrixgap,6,filler,at the party
+1,that_matrixgap,7,matrix_verb,surprised
+1,that_matrixgap,8,matrix_gap,
+1,that_matrixgap,9,continuation,yesterday afternoon
+2,what_nogap,1,prefix,The fact that
+2,what_nogap,2,subj_subj,the cop knows
+2,what_nogap,3,subj_wh,who
+2,what_nogap,4,subj_embed,the criminal shot
+2,what_nogap,5,subject_gap,the old widow
+2,what_nogap,6,filler,with a gun
+2,what_nogap,7,matrix_verb,pleased
+2,what_nogap,8,matrix_gap,the mayor
+2,what_nogap,9,continuation,last year
+2,that_nogap,1,prefix,The fact that
+2,that_nogap,2,subj_subj,the cop knows
+2,that_nogap,3,subj_wh,that
+2,that_nogap,4,subj_embed,the criminal shot
+2,that_nogap,5,subject_gap,the old widow
+2,that_nogap,6,filler,with a gun
+2,that_nogap,7,matrix_verb,pleased
+2,that_nogap,8,matrix_gap,the mayor
+2,that_nogap,9,continuation,last year
+2,what_subjgap,1,prefix,The fact that
+2,what_subjgap,2,subj_subj,the cop knows
+2,what_subjgap,3,subj_wh,who
+2,what_subjgap,4,subj_embed,the criminal shot
+2,what_subjgap,5,subject_gap,
+2,what_subjgap,6,filler,with a gun
+2,what_subjgap,7,matrix_verb,pleased
+2,what_subjgap,8,matrix_gap,the mayor
+2,what_subjgap,9,continuation,last year
+2,that_subjgap,1,prefix,The fact that
+2,that_subjgap,2,subj_subj,the cop knows
+2,that_subjgap,3,subj_wh,that
+2,that_subjgap,4,subj_embed,the criminal shot
+2,that_subjgap,5,subject_gap,
+2,that_subjgap,6,filler,with a gun
+2,that_subjgap,7,matrix_verb,pleased
+2,that_subjgap,8,matrix_gap,the mayor
+2,that_subjgap,9,continuation,last year
+2,what_matrixgap,1,prefix,The fact that
+2,what_matrixgap,2,subj_subj,the cop knows
+2,what_matrixgap,3,subj_wh,who
+2,what_matrixgap,4,subj_embed,the criminal shot
+2,what_matrixgap,5,subject_gap,the old widow
+2,what_matrixgap,6,filler,with a gun
+2,what_matrixgap,7,matrix_verb,pleased
+2,what_matrixgap,8,matrix_gap,
+2,what_matrixgap,9,continuation,last year
+2,that_matrixgap,1,prefix,The fact that
+2,that_matrixgap,2,subj_subj,the cop knows
+2,that_matrixgap,3,subj_wh,that
+2,that_matrixgap,4,subj_embed,the criminal shot
+2,that_matrixgap,5,subject_gap,the old widow
+2,that_matrixgap,6,filler,with a gun
+2,that_matrixgap,7,matrix_verb,pleased
+2,that_matrixgap,8,matrix_gap,
+2,that_matrixgap,9,continuation,last year
+3,what_nogap,1,prefix,The fact that
+3,what_nogap,2,subj_subj,the guard said
+3,what_nogap,3,subj_wh,who
+3,what_nogap,4,subj_embed,the convict kicked
+3,what_nogap,5,subject_gap,his enemy
+3,what_nogap,6,filler,during breakfast
+3,what_nogap,7,matrix_verb,surprised
+3,what_nogap,8,matrix_gap,the guard
+3,what_nogap,9,continuation,last week
+3,that_nogap,1,prefix,The fact that
+3,that_nogap,2,subj_subj,the guard said
+3,that_nogap,3,subj_wh,that
+3,that_nogap,4,subj_embed,the convict kicked
+3,that_nogap,5,subject_gap,his enemy
+3,that_nogap,6,filler,during breakfast
+3,that_nogap,7,matrix_verb,surprised
+3,that_nogap,8,matrix_gap,the guard
+3,that_nogap,9,continuation,last week
+3,what_subjgap,1,prefix,The fact that
+3,what_subjgap,2,subj_subj,the guard said
+3,what_subjgap,3,subj_wh,who
+3,what_subjgap,4,subj_embed,the convict kicked
+3,what_subjgap,5,subject_gap,
+3,what_subjgap,6,filler,during breakfast
+3,what_subjgap,7,matrix_verb,surprised
+3,what_subjgap,8,matrix_gap,the guard
+3,what_subjgap,9,continuation,last week
+3,that_subjgap,1,prefix,The fact that
+3,that_subjgap,2,subj_subj,the guard said
+3,that_subjgap,3,subj_wh,that
+3,that_subjgap,4,subj_embed,the convict kicked
+3,that_subjgap,5,subject_gap,
+3,that_subjgap,6,filler,during breakfast
+3,that_subjgap,7,matrix_verb,surprised
+3,that_subjgap,8,matrix_gap,the guard
+3,that_subjgap,9,continuation,last week
+3,what_matrixgap,1,prefix,The fact that
+3,what_matrixgap,2,subj_subj,the guard said
+3,what_matrixgap,3,subj_wh,who
+3,what_matrixgap,4,subj_embed,the convict kicked
+3,what_matrixgap,5,subject_gap,his enemy
+3,what_matrixgap,6,filler,during breakfast
+3,what_matrixgap,7,matrix_verb,surprised
+3,what_matrixgap,8,matrix_gap,
+3,what_matrixgap,9,continuation,last week
+3,that_matrixgap,1,prefix,The fact that
+3,that_matrixgap,2,subj_subj,the guard said
+3,that_matrixgap,3,subj_wh,that
+3,that_matrixgap,4,subj_embed,the convict kicked
+3,that_matrixgap,5,subject_gap,his enemy
+3,that_matrixgap,6,filler,during breakfast
+3,that_matrixgap,7,matrix_verb,surprised
+3,that_matrixgap,8,matrix_gap,
+3,that_matrixgap,9,continuation,last week
+4,what_nogap,1,prefix,The fact that
+4,what_nogap,2,subj_subj,the real estate agent knew
+4,what_nogap,3,subj_wh,who
+4,what_nogap,4,subj_embed,the old couple saw
+4,what_nogap,5,subject_gap,their friends
+4,what_nogap,6,filler,at the club
+4,what_nogap,7,matrix_verb,shocked
+4,what_nogap,8,matrix_gap,his friends
+4,what_nogap,9,continuation,over the weekend
+4,that_nogap,1,prefix,The fact that
+4,that_nogap,2,subj_subj,the real estate agent knew
+4,that_nogap,3,subj_wh,that
+4,that_nogap,4,subj_embed,the old couple saw
+4,that_nogap,5,subject_gap,their friends
+4,that_nogap,6,filler,at the club
+4,that_nogap,7,matrix_verb,shocked
+4,that_nogap,8,matrix_gap,his friends
+4,that_nogap,9,continuation,over the weekend
+4,what_subjgap,1,prefix,The fact that
+4,what_subjgap,2,subj_subj,the real estate agent knew
+4,what_subjgap,3,subj_wh,who
+4,what_subjgap,4,subj_embed,the old couple saw
+4,what_subjgap,5,subject_gap,
+4,what_subjgap,6,filler,at the club
+4,what_subjgap,7,matrix_verb,shocked
+4,what_subjgap,8,matrix_gap,his friends
+4,what_subjgap,9,continuation,over the weekend
+4,that_subjgap,1,prefix,The fact that
+4,that_subjgap,2,subj_subj,the real estate agent knew
+4,that_subjgap,3,subj_wh,that
+4,that_subjgap,4,subj_embed,the old couple saw
+4,that_subjgap,5,subject_gap,
+4,that_subjgap,6,filler,at the club
+4,that_subjgap,7,matrix_verb,shocked
+4,that_subjgap,8,matrix_gap,his friends
+4,that_subjgap,9,continuation,over the weekend
+4,what_matrixgap,1,prefix,The fact that
+4,what_matrixgap,2,subj_subj,the real estate agent knew
+4,what_matrixgap,3,subj_wh,who
+4,what_matrixgap,4,subj_embed,the old couple saw
+4,what_matrixgap,5,subject_gap,their friends
+4,what_matrixgap,6,filler,at the club
+4,what_matrixgap,7,matrix_verb,shocked
+4,what_matrixgap,8,matrix_gap,
+4,what_matrixgap,9,continuation,over the weekend
+4,that_matrixgap,1,prefix,The fact that
+4,that_matrixgap,2,subj_subj,the real estate agent knew
+4,that_matrixgap,3,subj_wh,that
+4,that_matrixgap,4,subj_embed,the old couple saw
+4,that_matrixgap,5,subject_gap,their friends
+4,that_matrixgap,6,filler,at the club
+4,that_matrixgap,7,matrix_verb,shocked
+4,that_matrixgap,8,matrix_gap,
+4,that_matrixgap,9,continuation,over the weekend
+5,what_nogap,1,prefix,The fact that
+5,what_nogap,2,subj_subj,the journalist stated
+5,what_nogap,3,subj_wh,who
+5,what_nogap,4,subj_embed,the president fired
+5,what_nogap,5,subject_gap,his secretary
+5,what_nogap,6,filler,without warning
+5,what_nogap,7,matrix_verb,surprised
+5,what_nogap,8,matrix_gap,the editor
+5,what_nogap,9,continuation,when the article was published
+5,that_nogap,1,prefix,The fact that
+5,that_nogap,2,subj_subj,the journalist stated
+5,that_nogap,3,subj_wh,that
+5,that_nogap,4,subj_embed,the president fired
+5,that_nogap,5,subject_gap,his secretary
+5,that_nogap,6,filler,without warning
+5,that_nogap,7,matrix_verb,surprised
+5,that_nogap,8,matrix_gap,the editor
+5,that_nogap,9,continuation,when the article was published
+5,what_subjgap,1,prefix,The fact that
+5,what_subjgap,2,subj_subj,the journalist stated
+5,what_subjgap,3,subj_wh,who
+5,what_subjgap,4,subj_embed,the president fired
+5,what_subjgap,5,subject_gap,
+5,what_subjgap,6,filler,without warning
+5,what_subjgap,7,matrix_verb,surprised
+5,what_subjgap,8,matrix_gap,the editor
+5,what_subjgap,9,continuation,when the article was published
+5,that_subjgap,1,prefix,The fact that
+5,that_subjgap,2,subj_subj,the journalist stated
+5,that_subjgap,3,subj_wh,that
+5,that_subjgap,4,subj_embed,the president fired
+5,that_subjgap,5,subject_gap,
+5,that_subjgap,6,filler,without warning
+5,that_subjgap,7,matrix_verb,surprised
+5,that_subjgap,8,matrix_gap,the editor
+5,that_subjgap,9,continuation,when the article was published
+5,what_matrixgap,1,prefix,The fact that
+5,what_matrixgap,2,subj_subj,the journalist stated
+5,what_matrixgap,3,subj_wh,who
+5,what_matrixgap,4,subj_embed,the president fired
+5,what_matrixgap,5,subject_gap,his secretary
+5,what_matrixgap,6,filler,without warning
+5,what_matrixgap,7,matrix_verb,surprised
+5,what_matrixgap,8,matrix_gap,
+5,what_matrixgap,9,continuation,when the article was published
+5,that_matrixgap,1,prefix,The fact that
+5,that_matrixgap,2,subj_subj,the journalist stated
+5,that_matrixgap,3,subj_wh,that
+5,that_matrixgap,4,subj_embed,the president fired
+5,that_matrixgap,5,subject_gap,his secretary
+5,that_matrixgap,6,filler,without warning
+5,that_matrixgap,7,matrix_verb,surprised
+5,that_matrixgap,8,matrix_gap,
+5,that_matrixgap,9,continuation,when the article was published
+6,what_nogap,1,prefix,The fact that
+6,what_nogap,2,subj_subj,our mother does not know
+6,what_nogap,3,subj_wh,who
+6,what_nogap,4,subj_embed,her friend trusts
+6,what_nogap,5,subject_gap,her sister
+6,what_nogap,6,filler,with her will
+6,what_nogap,7,matrix_verb,surprised
+6,what_nogap,8,matrix_gap,us
+6,what_nogap,9,continuation,when they found out
+6,that_nogap,1,prefix,The fact that
+6,that_nogap,2,subj_subj,our mother does not know
+6,that_nogap,3,subj_wh,that
+6,that_nogap,4,subj_embed,her friend trusts
+6,that_nogap,5,subject_gap,her sister
+6,that_nogap,6,filler,with her will
+6,that_nogap,7,matrix_verb,surprised
+6,that_nogap,8,matrix_gap,us
+6,that_nogap,9,continuation,when they found out
+6,what_subjgap,1,prefix,The fact that
+6,what_subjgap,2,subj_subj,our mother does not know
+6,what_subjgap,3,subj_wh,who
+6,what_subjgap,4,subj_embed,her friend trusts
+6,what_subjgap,5,subject_gap,
+6,what_subjgap,6,filler,with her will
+6,what_subjgap,7,matrix_verb,surprised
+6,what_subjgap,8,matrix_gap,us
+6,what_subjgap,9,continuation,when they found out
+6,that_subjgap,1,prefix,The fact that
+6,that_subjgap,2,subj_subj,our mother does not know
+6,that_subjgap,3,subj_wh,that
+6,that_subjgap,4,subj_embed,her friend trusts
+6,that_subjgap,5,subject_gap,
+6,that_subjgap,6,filler,with her will
+6,that_subjgap,7,matrix_verb,surprised
+6,that_subjgap,8,matrix_gap,us
+6,that_subjgap,9,continuation,when they found out
+6,what_matrixgap,1,prefix,The fact that
+6,what_matrixgap,2,subj_subj,our mother does not know
+6,what_matrixgap,3,subj_wh,who
+6,what_matrixgap,4,subj_embed,her friend trusts
+6,what_matrixgap,5,subject_gap,her sister
+6,what_matrixgap,6,filler,with her will
+6,what_matrixgap,7,matrix_verb,surprised
+6,what_matrixgap,8,matrix_gap,
+6,what_matrixgap,9,continuation,when they found out
+6,that_matrixgap,1,prefix,The fact that
+6,that_matrixgap,2,subj_subj,our mother does not know
+6,that_matrixgap,3,subj_wh,that
+6,that_matrixgap,4,subj_embed,her friend trusts
+6,that_matrixgap,5,subject_gap,her sister
+6,that_matrixgap,6,filler,with her will
+6,that_matrixgap,7,matrix_verb,surprised
+6,that_matrixgap,8,matrix_gap,
+6,that_matrixgap,9,continuation,when they found out
+7,what_nogap,1,prefix,The fact that
+7,what_nogap,2,subj_subj,the lawyers acknowledged
+7,what_nogap,3,subj_wh,who
+7,what_nogap,4,subj_embed,their client represented
+7,what_nogap,5,subject_gap,the businessman
+7,what_nogap,6,filler,without difficulty
+7,what_nogap,7,matrix_verb,worried
+7,what_nogap,8,matrix_gap,the judge
+7,what_nogap,9,continuation,over the weekend
+7,that_nogap,1,prefix,The fact that
+7,that_nogap,2,subj_subj,the lawyers acknowledged
+7,that_nogap,3,subj_wh,that
+7,that_nogap,4,subj_embed,their client represented
+7,that_nogap,5,subject_gap,the businessman
+7,that_nogap,6,filler,without difficulty
+7,that_nogap,7,matrix_verb,worried
+7,that_nogap,8,matrix_gap,the judge
+7,that_nogap,9,continuation,over the weekend
+7,what_subjgap,1,prefix,The fact that
+7,what_subjgap,2,subj_subj,the lawyers acknowledged
+7,what_subjgap,3,subj_wh,who
+7,what_subjgap,4,subj_embed,their client represented
+7,what_subjgap,5,subject_gap,
+7,what_subjgap,6,filler,without difficulty
+7,what_subjgap,7,matrix_verb,worried
+7,what_subjgap,8,matrix_gap,the judge
+7,what_subjgap,9,continuation,over the weekend
+7,that_subjgap,1,prefix,The fact that
+7,that_subjgap,2,subj_subj,the lawyers acknowledged
+7,that_subjgap,3,subj_wh,that
+7,that_subjgap,4,subj_embed,their client represented
+7,that_subjgap,5,subject_gap,
+7,that_subjgap,6,filler,without difficulty
+7,that_subjgap,7,matrix_verb,worried
+7,that_subjgap,8,matrix_gap,the judge
+7,that_subjgap,9,continuation,over the weekend
+7,what_matrixgap,1,prefix,The fact that
+7,what_matrixgap,2,subj_subj,the lawyers acknowledged
+7,what_matrixgap,3,subj_wh,who
+7,what_matrixgap,4,subj_embed,their client represented
+7,what_matrixgap,5,subject_gap,the businessman
+7,what_matrixgap,6,filler,without difficulty
+7,what_matrixgap,7,matrix_verb,worried
+7,what_matrixgap,8,matrix_gap,
+7,what_matrixgap,9,continuation,over the weekend
+7,that_matrixgap,1,prefix,The fact that
+7,that_matrixgap,2,subj_subj,the lawyers acknowledged
+7,that_matrixgap,3,subj_wh,that
+7,that_matrixgap,4,subj_embed,their client represented
+7,that_matrixgap,5,subject_gap,the businessman
+7,that_matrixgap,6,filler,without difficulty
+7,that_matrixgap,7,matrix_verb,worried
+7,that_matrixgap,8,matrix_gap,
+7,that_matrixgap,9,continuation,over the weekend
+8,what_nogap,1,prefix,The fact that
+8,what_nogap,2,subj_subj,the chef knew
+8,what_nogap,3,subj_wh,who
+8,what_nogap,4,subj_embed,his assistant cut
+8,what_nogap,5,subject_gap,the chef
+8,what_nogap,6,filler,by accident
+8,what_nogap,7,matrix_verb,surprised
+8,what_nogap,8,matrix_gap,the customers
+8,what_nogap,9,continuation,yesterday evening
+8,that_nogap,1,prefix,The fact that
+8,that_nogap,2,subj_subj,the chef knew
+8,that_nogap,3,subj_wh,that
+8,that_nogap,4,subj_embed,his assistant cut
+8,that_nogap,5,subject_gap,the chef
+8,that_nogap,6,filler,by accident
+8,that_nogap,7,matrix_verb,surprised
+8,that_nogap,8,matrix_gap,the customers
+8,that_nogap,9,continuation,yesterday evening
+8,what_subjgap,1,prefix,The fact that
+8,what_subjgap,2,subj_subj,the chef knew
+8,what_subjgap,3,subj_wh,who
+8,what_subjgap,4,subj_embed,his assistant cut
+8,what_subjgap,5,subject_gap,
+8,what_subjgap,6,filler,by accident
+8,what_subjgap,7,matrix_verb,surprised
+8,what_subjgap,8,matrix_gap,the customers
+8,what_subjgap,9,continuation,yesterday evening
+8,that_subjgap,1,prefix,The fact that
+8,that_subjgap,2,subj_subj,the chef knew
+8,that_subjgap,3,subj_wh,that
+8,that_subjgap,4,subj_embed,his assistant cut
+8,that_subjgap,5,subject_gap,
+8,that_subjgap,6,filler,by accident
+8,that_subjgap,7,matrix_verb,surprised
+8,that_subjgap,8,matrix_gap,the customers
+8,that_subjgap,9,continuation,yesterday evening
+8,what_matrixgap,1,prefix,The fact that
+8,what_matrixgap,2,subj_subj,the chef knew
+8,what_matrixgap,3,subj_wh,who
+8,what_matrixgap,4,subj_embed,his assistant cut
+8,what_matrixgap,5,subject_gap,the chef
+8,what_matrixgap,6,filler,by accident
+8,what_matrixgap,7,matrix_verb,surprised
+8,what_matrixgap,8,matrix_gap,
+8,what_matrixgap,9,continuation,yesterday evening
+8,that_matrixgap,1,prefix,The fact that
+8,that_matrixgap,2,subj_subj,the chef knew
+8,that_matrixgap,3,subj_wh,that
+8,that_matrixgap,4,subj_embed,his assistant cut
+8,that_matrixgap,5,subject_gap,the chef
+8,that_matrixgap,6,filler,by accident
+8,that_matrixgap,7,matrix_verb,surprised
+8,that_matrixgap,8,matrix_gap,
+8,that_matrixgap,9,continuation,yesterday evening
+9,what_nogap,1,prefix,The fact that
+9,what_nogap,2,subj_subj,the journalist disclosed
+9,what_nogap,3,subj_wh,who
+9,what_nogap,4,subj_embed,the mayor talked with
+9,what_nogap,5,subject_gap,his rival
+9,what_nogap,6,filler,last night
+9,what_nogap,7,matrix_verb,shocked
+9,what_nogap,8,matrix_gap,the donors
+9,what_nogap,9,continuation,when they found out
+9,that_nogap,1,prefix,The fact that
+9,that_nogap,2,subj_subj,the journalist disclosed
+9,that_nogap,3,subj_wh,that
+9,that_nogap,4,subj_embed,the mayor talked with
+9,that_nogap,5,subject_gap,his rival
+9,that_nogap,6,filler,last night
+9,that_nogap,7,matrix_verb,shocked
+9,that_nogap,8,matrix_gap,the donors
+9,that_nogap,9,continuation,when they found out
+9,what_subjgap,1,prefix,The fact that
+9,what_subjgap,2,subj_subj,the journalist disclosed
+9,what_subjgap,3,subj_wh,who
+9,what_subjgap,4,subj_embed,the mayor talked with
+9,what_subjgap,5,subject_gap,
+9,what_subjgap,6,filler,last night
+9,what_subjgap,7,matrix_verb,shocked
+9,what_subjgap,8,matrix_gap,the donors
+9,what_subjgap,9,continuation,when they found out
+9,that_subjgap,1,prefix,The fact that
+9,that_subjgap,2,subj_subj,the journalist disclosed
+9,that_subjgap,3,subj_wh,that
+9,that_subjgap,4,subj_embed,the mayor talked with
+9,that_subjgap,5,subject_gap,
+9,that_subjgap,6,filler,last night
+9,that_subjgap,7,matrix_verb,shocked
+9,that_subjgap,8,matrix_gap,the donors
+9,that_subjgap,9,continuation,when they found out
+9,what_matrixgap,1,prefix,The fact that
+9,what_matrixgap,2,subj_subj,the journalist disclosed
+9,what_matrixgap,3,subj_wh,who
+9,what_matrixgap,4,subj_embed,the mayor talked with
+9,what_matrixgap,5,subject_gap,his rival
+9,what_matrixgap,6,filler,last night
+9,what_matrixgap,7,matrix_verb,shocked
+9,what_matrixgap,8,matrix_gap,
+9,what_matrixgap,9,continuation,when they found out
+9,that_matrixgap,1,prefix,The fact that
+9,that_matrixgap,2,subj_subj,the journalist disclosed
+9,that_matrixgap,3,subj_wh,that
+9,that_matrixgap,4,subj_embed,the mayor talked with
+9,that_matrixgap,5,subject_gap,his rival
+9,that_matrixgap,6,filler,last night
+9,that_matrixgap,7,matrix_verb,shocked
+9,that_matrixgap,8,matrix_gap,
+9,that_matrixgap,9,continuation,when they found out
+10,what_nogap,1,prefix,The fact that
+10,what_nogap,2,subj_subj,the assistant signaled
+10,what_nogap,3,subj_wh,who
+10,what_nogap,4,subj_embed,the police observed
+10,what_nogap,5,subject_gap,the activist
+10,what_nogap,6,filler,through a telescope
+10,what_nogap,7,matrix_verb,confused
+10,what_nogap,8,matrix_gap,the inspectors
+10,what_nogap,9,continuation,last month
+10,that_nogap,1,prefix,The fact that
+10,that_nogap,2,subj_subj,the assistant signaled
+10,that_nogap,3,subj_wh,that
+10,that_nogap,4,subj_embed,the police observed
+10,that_nogap,5,subject_gap,the activist
+10,that_nogap,6,filler,through a telescope
+10,that_nogap,7,matrix_verb,confused
+10,that_nogap,8,matrix_gap,the inspectors
+10,that_nogap,9,continuation,last month
+10,what_subjgap,1,prefix,The fact that
+10,what_subjgap,2,subj_subj,the assistant signaled
+10,what_subjgap,3,subj_wh,who
+10,what_subjgap,4,subj_embed,the police observed
+10,what_subjgap,5,subject_gap,
+10,what_subjgap,6,filler,through a telescope
+10,what_subjgap,7,matrix_verb,confused
+10,what_subjgap,8,matrix_gap,the inspectors
+10,what_subjgap,9,continuation,last month
+10,that_subjgap,1,prefix,The fact that
+10,that_subjgap,2,subj_subj,the assistant signaled
+10,that_subjgap,3,subj_wh,that
+10,that_subjgap,4,subj_embed,the police observed
+10,that_subjgap,5,subject_gap,
+10,that_subjgap,6,filler,through a telescope
+10,that_subjgap,7,matrix_verb,confused
+10,that_subjgap,8,matrix_gap,the inspectors
+10,that_subjgap,9,continuation,last month
+10,what_matrixgap,1,prefix,The fact that
+10,what_matrixgap,2,subj_subj,the assistant signaled
+10,what_matrixgap,3,subj_wh,who
+10,what_matrixgap,4,subj_embed,the police observed
+10,what_matrixgap,5,subject_gap,the activist
+10,what_matrixgap,6,filler,through a telescope
+10,what_matrixgap,7,matrix_verb,confused
+10,what_matrixgap,8,matrix_gap,
+10,what_matrixgap,9,continuation,last month
+10,that_matrixgap,1,prefix,The fact that
+10,that_matrixgap,2,subj_subj,the assistant signaled
+10,that_matrixgap,3,subj_wh,that
+10,that_matrixgap,4,subj_embed,the police observed
+10,that_matrixgap,5,subject_gap,the activist
+10,that_matrixgap,6,filler,through a telescope
+10,that_matrixgap,7,matrix_verb,confused
+10,that_matrixgap,8,matrix_gap,
+10,that_matrixgap,9,continuation,last month
+11,what_nogap,1,prefix,The fact that
+11,what_nogap,2,subj_subj,the guard knew
+11,what_nogap,3,subj_wh,who
+11,what_nogap,4,subj_embed,the man shot
+11,what_nogap,5,subject_gap,the senator
+11,what_nogap,6,filler,last week
+11,what_nogap,7,matrix_verb,worried
+11,what_nogap,8,matrix_gap,the spy
+11,what_nogap,9,continuation,when he found out
+11,that_nogap,1,prefix,The fact that
+11,that_nogap,2,subj_subj,the guard knew
+11,that_nogap,3,subj_wh,that
+11,that_nogap,4,subj_embed,the man shot
+11,that_nogap,5,subject_gap,the senator
+11,that_nogap,6,filler,last week
+11,that_nogap,7,matrix_verb,worried
+11,that_nogap,8,matrix_gap,the spy
+11,that_nogap,9,continuation,when he found out
+11,what_subjgap,1,prefix,The fact that
+11,what_subjgap,2,subj_subj,the guard knew
+11,what_subjgap,3,subj_wh,who
+11,what_subjgap,4,subj_embed,the man shot
+11,what_subjgap,5,subject_gap,
+11,what_subjgap,6,filler,last week
+11,what_subjgap,7,matrix_verb,worried
+11,what_subjgap,8,matrix_gap,the spy
+11,what_subjgap,9,continuation,when he found out
+11,that_subjgap,1,prefix,The fact that
+11,that_subjgap,2,subj_subj,the guard knew
+11,that_subjgap,3,subj_wh,that
+11,that_subjgap,4,subj_embed,the man shot
+11,that_subjgap,5,subject_gap,
+11,that_subjgap,6,filler,last week
+11,that_subjgap,7,matrix_verb,worried
+11,that_subjgap,8,matrix_gap,the spy
+11,that_subjgap,9,continuation,when he found out
+11,what_matrixgap,1,prefix,The fact that
+11,what_matrixgap,2,subj_subj,the guard knew
+11,what_matrixgap,3,subj_wh,who
+11,what_matrixgap,4,subj_embed,the man shot
+11,what_matrixgap,5,subject_gap,the senator
+11,what_matrixgap,6,filler,last week
+11,what_matrixgap,7,matrix_verb,worried
+11,what_matrixgap,8,matrix_gap,
+11,what_matrixgap,9,continuation,when he found out
+11,that_matrixgap,1,prefix,The fact that
+11,that_matrixgap,2,subj_subj,the guard knew
+11,that_matrixgap,3,subj_wh,that
+11,that_matrixgap,4,subj_embed,the man shot
+11,that_matrixgap,5,subject_gap,the senator
+11,that_matrixgap,6,filler,last week
+11,that_matrixgap,7,matrix_verb,worried
+11,that_matrixgap,8,matrix_gap,
+11,that_matrixgap,9,continuation,when he found out
+12,what_nogap,1,prefix,The fact that
+12,what_nogap,2,subj_subj,the reporter said
+12,what_nogap,3,subj_wh,who
+12,what_nogap,4,subj_embed,the witness identified
+12,what_nogap,5,subject_gap,the suspect
+12,what_nogap,6,filler,during the trial
+12,what_nogap,7,matrix_verb,worried
+12,what_nogap,8,matrix_gap,the official
+12,what_nogap,9,continuation,overseeing the case
+12,that_nogap,1,prefix,The fact that
+12,that_nogap,2,subj_subj,the reporter said
+12,that_nogap,3,subj_wh,that
+12,that_nogap,4,subj_embed,the witness identified
+12,that_nogap,5,subject_gap,
+12,that_nogap,6,filler,during the trial
+12,that_nogap,7,matrix_verb,worried
+12,that_nogap,8,matrix_gap,the official
+12,that_nogap,9,continuation,overseeing the case
+12,what_subjgap,1,prefix,The fact that
+12,what_subjgap,2,subj_subj,the reporter said
+12,what_subjgap,3,subj_wh,who
+12,what_subjgap,4,subj_embed,the witness identified
+12,what_subjgap,5,subject_gap,
+12,what_subjgap,6,filler,during the trial
+12,what_subjgap,7,matrix_verb,worried
+12,what_subjgap,8,matrix_gap,the official
+12,what_subjgap,9,continuation,overseeing the case
+12,that_subjgap,1,prefix,The fact that
+12,that_subjgap,2,subj_subj,the reporter said
+12,that_subjgap,3,subj_wh,that
+12,that_subjgap,4,subj_embed,the witness identified
+12,that_subjgap,5,subject_gap,the suspect
+12,that_subjgap,6,filler,during the trial
+12,that_subjgap,7,matrix_verb,worried
+12,that_subjgap,8,matrix_gap,the official
+12,that_subjgap,9,continuation,overseeing the case
+12,what_matrixgap,1,prefix,The fact that
+12,what_matrixgap,2,subj_subj,the reporter said
+12,what_matrixgap,3,subj_wh,who
+12,what_matrixgap,4,subj_embed,the witness identified
+12,what_matrixgap,5,subject_gap,the suspect
+12,what_matrixgap,6,filler,during the trial
+12,what_matrixgap,7,matrix_verb,worried
+12,what_matrixgap,8,matrix_gap,
+12,what_matrixgap,9,continuation,overseeing the case
+12,that_matrixgap,1,prefix,The fact that
+12,that_matrixgap,2,subj_subj,the reporter said
+12,that_matrixgap,3,subj_wh,that
+12,that_matrixgap,4,subj_embed,the witness identified
+12,that_matrixgap,5,subject_gap,the suspect
+12,that_matrixgap,6,filler,during the trial
+12,that_matrixgap,7,matrix_verb,worried
+12,that_matrixgap,8,matrix_gap,
+12,that_matrixgap,9,continuation,overseeing the case
+13,what_nogap,1,prefix,The fact that
+13,what_nogap,2,subj_subj,the newspaper stated
+13,what_nogap,3,subj_wh,who
+13,what_nogap,4,subj_embed,the congressman bribed
+13,what_nogap,5,subject_gap,the commissioner
+13,what_nogap,6,filler,two years ago
+13,what_nogap,7,matrix_verb,surprised
+13,what_nogap,8,matrix_gap,his daughter
+13,what_nogap,9,continuation,when it was published
+13,that_nogap,1,prefix,The fact that
+13,that_nogap,2,subj_subj,the newspaper stated
+13,that_nogap,3,subj_wh,that
+13,that_nogap,4,subj_embed,the congressman bribed
+13,that_nogap,5,subject_gap,the commissioner
+13,that_nogap,6,filler,two years ago
+13,that_nogap,7,matrix_verb,surprised
+13,that_nogap,8,matrix_gap,his daughter
+13,that_nogap,9,continuation,when it was published
+13,what_subjgap,1,prefix,The fact that
+13,what_subjgap,2,subj_subj,the newspaper stated
+13,what_subjgap,3,subj_wh,who
+13,what_subjgap,4,subj_embed,the congressman bribed
+13,what_subjgap,5,subject_gap,
+13,what_subjgap,6,filler,two years ago
+13,what_subjgap,7,matrix_verb,surprised
+13,what_subjgap,8,matrix_gap,his daughter
+13,what_subjgap,9,continuation,when it was published
+13,that_subjgap,1,prefix,The fact that
+13,that_subjgap,2,subj_subj,the newspaper stated
+13,that_subjgap,3,subj_wh,that
+13,that_subjgap,4,subj_embed,the congressman bribed
+13,that_subjgap,5,subject_gap,
+13,that_subjgap,6,filler,two years ago
+13,that_subjgap,7,matrix_verb,surprised
+13,that_subjgap,8,matrix_gap,his daughter
+13,that_subjgap,9,continuation,when it was published
+13,what_matrixgap,1,prefix,The fact that
+13,what_matrixgap,2,subj_subj,the newspaper stated
+13,what_matrixgap,3,subj_wh,who
+13,what_matrixgap,4,subj_embed,the congressman bribed
+13,what_matrixgap,5,subject_gap,the commissioner
+13,what_matrixgap,6,filler,two years ago
+13,what_matrixgap,7,matrix_verb,surprised
+13,what_matrixgap,8,matrix_gap,
+13,what_matrixgap,9,continuation,when it was published
+13,that_matrixgap,1,prefix,The fact that
+13,that_matrixgap,2,subj_subj,the newspaper stated
+13,that_matrixgap,3,subj_wh,that
+13,that_matrixgap,4,subj_embed,the congressman bribed
+13,that_matrixgap,5,subject_gap,the commissioner
+13,that_matrixgap,6,filler,two years ago
+13,that_matrixgap,7,matrix_verb,surprised
+13,that_matrixgap,8,matrix_gap,
+13,that_matrixgap,9,continuation,when it was published
+14,what_nogap,1,prefix,The fact that
+14,what_nogap,2,subj_subj,the article stated
+14,what_nogap,3,subj_wh,who
+14,what_nogap,4,subj_embed,the author liked
+14,what_nogap,5,subject_gap,the film director
+14,what_nogap,6,filler,in his youth
+14,what_nogap,7,matrix_verb,delighted
+14,what_nogap,8,matrix_gap,the literary critics
+14,what_nogap,9,continuation,last year
+14,that_nogap,1,prefix,The fact that
+14,that_nogap,2,subj_subj,the article stated
+14,that_nogap,3,subj_wh,that
+14,that_nogap,4,subj_embed,the author liked
+14,that_nogap,5,subject_gap,the film director
+14,that_nogap,6,filler,in his youth
+14,that_nogap,7,matrix_verb,delighted
+14,that_nogap,8,matrix_gap,the literary critics
+14,that_nogap,9,continuation,last year
+14,what_subjgap,1,prefix,The fact that
+14,what_subjgap,2,subj_subj,the article stated
+14,what_subjgap,3,subj_wh,who
+14,what_subjgap,4,subj_embed,the author liked
+14,what_subjgap,5,subject_gap,
+14,what_subjgap,6,filler,in his youth
+14,what_subjgap,7,matrix_verb,delighted
+14,what_subjgap,8,matrix_gap,the literary critics
+14,what_subjgap,9,continuation,last year
+14,that_subjgap,1,prefix,The fact that
+14,that_subjgap,2,subj_subj,the article stated
+14,that_subjgap,3,subj_wh,that
+14,that_subjgap,4,subj_embed,the author liked
+14,that_subjgap,5,subject_gap,
+14,that_subjgap,6,filler,in his youth
+14,that_subjgap,7,matrix_verb,delighted
+14,that_subjgap,8,matrix_gap,the literary critics
+14,that_subjgap,9,continuation,last year
+14,what_matrixgap,1,prefix,The fact that
+14,what_matrixgap,2,subj_subj,the article stated
+14,what_matrixgap,3,subj_wh,who
+14,what_matrixgap,4,subj_embed,the author liked
+14,what_matrixgap,5,subject_gap,the film director
+14,what_matrixgap,6,filler,in his youth
+14,what_matrixgap,7,matrix_verb,delighted
+14,what_matrixgap,8,matrix_gap,
+14,what_matrixgap,9,continuation,last year
+14,that_matrixgap,1,prefix,The fact that
+14,that_matrixgap,2,subj_subj,the article stated
+14,that_matrixgap,3,subj_wh,that
+14,that_matrixgap,4,subj_embed,the author liked
+14,that_matrixgap,5,subject_gap,the film director
+14,that_matrixgap,6,filler,in his youth
+14,that_matrixgap,7,matrix_verb,delighted
+14,that_matrixgap,8,matrix_gap,
+14,that_matrixgap,9,continuation,last year
+15,what_nogap,1,prefix,The fact that
+15,what_nogap,2,subj_subj,the banker found out
+15,what_nogap,3,subj_wh,who
+15,what_nogap,4,subj_embed,the senator will nominate
+15,what_nogap,5,subject_gap,his son
+15,what_nogap,6,filler,tomorrow
+15,what_nogap,7,matrix_verb,surprised
+15,what_nogap,8,matrix_gap,the stock trader
+15,what_nogap,9,continuation,when he found out about it
+15,that_nogap,1,prefix,The fact that
+15,that_nogap,2,subj_subj,the banker found out
+15,that_nogap,3,subj_wh,that
+15,that_nogap,4,subj_embed,the senator will nominate
+15,that_nogap,5,subject_gap,his son
+15,that_nogap,6,filler,tomorrow
+15,that_nogap,7,matrix_verb,surprised
+15,that_nogap,8,matrix_gap,the stock trader
+15,that_nogap,9,continuation,when he found out about it
+15,what_subjgap,1,prefix,The fact that
+15,what_subjgap,2,subj_subj,the banker found out
+15,what_subjgap,3,subj_wh,who
+15,what_subjgap,4,subj_embed,the senator will nominate
+15,what_subjgap,5,subject_gap,
+15,what_subjgap,6,filler,tomorrow
+15,what_subjgap,7,matrix_verb,surprised
+15,what_subjgap,8,matrix_gap,the stock trader
+15,what_subjgap,9,continuation,when he found out about it
+15,that_subjgap,1,prefix,The fact that
+15,that_subjgap,2,subj_subj,the banker found out
+15,that_subjgap,3,subj_wh,that
+15,that_subjgap,4,subj_embed,the senator will nominate
+15,that_subjgap,5,subject_gap,
+15,that_subjgap,6,filler,tomorrow
+15,that_subjgap,7,matrix_verb,surprised
+15,that_subjgap,8,matrix_gap,the stock trader
+15,that_subjgap,9,continuation,when he found out about it
+15,what_matrixgap,1,prefix,The fact that
+15,what_matrixgap,2,subj_subj,the banker found out
+15,what_matrixgap,3,subj_wh,who
+15,what_matrixgap,4,subj_embed,the senator will nominate
+15,what_matrixgap,5,subject_gap,his son
+15,what_matrixgap,6,filler,tomorrow
+15,what_matrixgap,7,matrix_verb,surprised
+15,what_matrixgap,8,matrix_gap,
+15,what_matrixgap,9,continuation,when he found out about it
+15,that_matrixgap,1,prefix,The fact that
+15,that_matrixgap,2,subj_subj,the banker found out
+15,that_matrixgap,3,subj_wh,that
+15,that_matrixgap,4,subj_embed,the senator will nominate
+15,that_matrixgap,5,subject_gap,his son
+15,that_matrixgap,6,filler,tomorrow
+15,that_matrixgap,7,matrix_verb,surprised
+15,that_matrixgap,8,matrix_gap,
+15,that_matrixgap,9,continuation,when he found out about it
+16,what_nogap,1,prefix,The fact that
+16,what_nogap,2,subj_subj,the social worker forgot
+16,what_nogap,3,subj_wh,who
+16,what_nogap,4,subj_embed,her client does not like
+16,what_nogap,5,subject_gap,her father
+16,what_nogap,6,filler,with great passion
+16,what_nogap,7,matrix_verb,delighted
+16,what_nogap,8,matrix_gap,her friends
+16,what_nogap,9,continuation,last week
+16,that_nogap,1,prefix,The fact that
+16,that_nogap,2,subj_subj,the social worker forgot
+16,that_nogap,3,subj_wh,that
+16,that_nogap,4,subj_embed,her client does not like
+16,that_nogap,5,subject_gap,her father
+16,that_nogap,6,filler,with great passion
+16,that_nogap,7,matrix_verb,delighted
+16,that_nogap,8,matrix_gap,her friends
+16,that_nogap,9,continuation,last week
+16,what_subjgap,1,prefix,The fact that
+16,what_subjgap,2,subj_subj,the social worker forgot
+16,what_subjgap,3,subj_wh,who
+16,what_subjgap,4,subj_embed,her client does not like
+16,what_subjgap,5,subject_gap,
+16,what_subjgap,6,filler,with great passion
+16,what_subjgap,7,matrix_verb,delighted
+16,what_subjgap,8,matrix_gap,her friends
+16,what_subjgap,9,continuation,last week
+16,that_subjgap,1,prefix,The fact that
+16,that_subjgap,2,subj_subj,the social worker forgot
+16,that_subjgap,3,subj_wh,that
+16,that_subjgap,4,subj_embed,her client does not like
+16,that_subjgap,5,subject_gap,
+16,that_subjgap,6,filler,with great passion
+16,that_subjgap,7,matrix_verb,delighted
+16,that_subjgap,8,matrix_gap,her friends
+16,that_subjgap,9,continuation,last week
+16,what_matrixgap,1,prefix,The fact that
+16,what_matrixgap,2,subj_subj,the social worker forgot
+16,what_matrixgap,3,subj_wh,who
+16,what_matrixgap,4,subj_embed,her client does not like
+16,what_matrixgap,5,subject_gap,her father
+16,what_matrixgap,6,filler,with great passion
+16,what_matrixgap,7,matrix_verb,delighted
+16,what_matrixgap,8,matrix_gap,
+16,what_matrixgap,9,continuation,last week
+16,that_matrixgap,1,prefix,The fact that
+16,that_matrixgap,2,subj_subj,the social worker forgot
+16,that_matrixgap,3,subj_wh,that
+16,that_matrixgap,4,subj_embed,her client does not like
+16,that_matrixgap,5,subject_gap,her father
+16,that_matrixgap,6,filler,with great passion
+16,that_matrixgap,7,matrix_verb,delighted
+16,that_matrixgap,8,matrix_gap,
+16,that_matrixgap,9,continuation,last week
+17,what_nogap,1,prefix,The fact that
+17,what_nogap,2,subj_subj,the clerk indicated
+17,what_nogap,3,subj_wh,who
+17,what_nogap,4,subj_embed,her colleague recommended
+17,what_nogap,5,subject_gap,the man
+17,what_nogap,6,filler,to the board
+17,what_nogap,7,matrix_verb,worried
+17,what_nogap,8,matrix_gap,the town clerk
+17,what_nogap,9,continuation,last month
+17,that_nogap,1,prefix,The fact that
+17,that_nogap,2,subj_subj,the clerk indicated
+17,that_nogap,3,subj_wh,that
+17,that_nogap,4,subj_embed,her colleague recommended
+17,that_nogap,5,subject_gap,the man
+17,that_nogap,6,filler,to the board
+17,that_nogap,7,matrix_verb,worried
+17,that_nogap,8,matrix_gap,the town clerk
+17,that_nogap,9,continuation,last month
+17,what_subjgap,1,prefix,The fact that
+17,what_subjgap,2,subj_subj,the clerk indicated
+17,what_subjgap,3,subj_wh,who
+17,what_subjgap,4,subj_embed,her colleague recommended
+17,what_subjgap,5,subject_gap,
+17,what_subjgap,6,filler,to the board
+17,what_subjgap,7,matrix_verb,worried
+17,what_subjgap,8,matrix_gap,the town clerk
+17,what_subjgap,9,continuation,last month
+17,that_subjgap,1,prefix,The fact that
+17,that_subjgap,2,subj_subj,the clerk indicated
+17,that_subjgap,3,subj_wh,that
+17,that_subjgap,4,subj_embed,her colleague recommended
+17,that_subjgap,5,subject_gap,
+17,that_subjgap,6,filler,to the board
+17,that_subjgap,7,matrix_verb,worried
+17,that_subjgap,8,matrix_gap,the town clerk
+17,that_subjgap,9,continuation,last month
+17,what_matrixgap,1,prefix,The fact that
+17,what_matrixgap,2,subj_subj,the clerk indicated
+17,what_matrixgap,3,subj_wh,who
+17,what_matrixgap,4,subj_embed,her colleague recommended
+17,what_matrixgap,5,subject_gap,the man
+17,what_matrixgap,6,filler,to the board
+17,what_matrixgap,7,matrix_verb,worried
+17,what_matrixgap,8,matrix_gap,
+17,what_matrixgap,9,continuation,last month
+17,that_matrixgap,1,prefix,The fact that
+17,that_matrixgap,2,subj_subj,the clerk indicated
+17,that_matrixgap,3,subj_wh,that
+17,that_matrixgap,4,subj_embed,her colleague recommended
+17,that_matrixgap,5,subject_gap,the man
+17,that_matrixgap,6,filler,to the board
+17,that_matrixgap,7,matrix_verb,worried
+17,that_matrixgap,8,matrix_gap,
+17,that_matrixgap,9,continuation,last month
+18,what_nogap,1,prefix,The fact that
+18,what_nogap,2,subj_subj,the soldier recalled
+18,what_nogap,3,subj_wh,who
+18,what_nogap,4,subj_embed,the officer talked with
+18,what_nogap,5,subject_gap,the private
+18,what_nogap,6,filler,during training
+18,what_nogap,7,matrix_verb,annoyed
+18,what_nogap,8,matrix_gap,the captain
+18,what_nogap,9,continuation,yesterday night
+18,that_nogap,1,prefix,The fact that
+18,that_nogap,2,subj_subj,the soldier recalled
+18,that_nogap,3,subj_wh,that
+18,that_nogap,4,subj_embed,the officer talked with
+18,that_nogap,5,subject_gap,the private
+18,that_nogap,6,filler,during training
+18,that_nogap,7,matrix_verb,annoyed
+18,that_nogap,8,matrix_gap,the captain
+18,that_nogap,9,continuation,yesterday night
+18,what_subjgap,1,prefix,The fact that
+18,what_subjgap,2,subj_subj,the soldier recalled
+18,what_subjgap,3,subj_wh,who
+18,what_subjgap,4,subj_embed,the officer talked with
+18,what_subjgap,5,subject_gap,
+18,what_subjgap,6,filler,during training
+18,what_subjgap,7,matrix_verb,annoyed
+18,what_subjgap,8,matrix_gap,the captain
+18,what_subjgap,9,continuation,yesterday night
+18,that_subjgap,1,prefix,The fact that
+18,that_subjgap,2,subj_subj,the soldier recalled
+18,that_subjgap,3,subj_wh,that
+18,that_subjgap,4,subj_embed,the officer talked with
+18,that_subjgap,5,subject_gap,
+18,that_subjgap,6,filler,during training
+18,that_subjgap,7,matrix_verb,annoyed
+18,that_subjgap,8,matrix_gap,the captain
+18,that_subjgap,9,continuation,yesterday night
+18,what_matrixgap,1,prefix,The fact that
+18,what_matrixgap,2,subj_subj,the soldier recalled
+18,what_matrixgap,3,subj_wh,who
+18,what_matrixgap,4,subj_embed,the officer talked with
+18,what_matrixgap,5,subject_gap,the private
+18,what_matrixgap,6,filler,during training
+18,what_matrixgap,7,matrix_verb,annoyed
+18,what_matrixgap,8,matrix_gap,
+18,what_matrixgap,9,continuation,yesterday night
+18,that_matrixgap,1,prefix,The fact that
+18,that_matrixgap,2,subj_subj,the soldier recalled
+18,that_matrixgap,3,subj_wh,that
+18,that_matrixgap,4,subj_embed,the officer talked with
+18,that_matrixgap,5,subject_gap,the private
+18,that_matrixgap,6,filler,during training
+18,that_matrixgap,7,matrix_verb,annoyed
+18,that_matrixgap,8,matrix_gap,
+18,that_matrixgap,9,continuation,yesterday night
+19,what_nogap,1,prefix,The fact that
+19,what_nogap,2,subj_subj,our father knew
+19,what_nogap,3,subj_wh,who
+19,what_nogap,4,subj_embed,my brother would wed
+19,what_nogap,5,subject_gap,his high school girlfriend
+19,what_nogap,6,filler,two years ago
+19,what_nogap,7,matrix_verb,worried
+19,what_nogap,8,matrix_gap,his relatives
+19,what_nogap,9,continuation,when they found out
+19,that_nogap,1,prefix,The fact that
+19,that_nogap,2,subj_subj,our father knew
+19,that_nogap,3,subj_wh,that
+19,that_nogap,4,subj_embed,my brother would wed
+19,that_nogap,5,subject_gap,his high school girlfriend
+19,that_nogap,6,filler,two years ago
+19,that_nogap,7,matrix_verb,worried
+19,that_nogap,8,matrix_gap,his relatives
+19,that_nogap,9,continuation,when they found out
+19,what_subjgap,1,prefix,The fact that
+19,what_subjgap,2,subj_subj,our father knew
+19,what_subjgap,3,subj_wh,who
+19,what_subjgap,4,subj_embed,my brother would wed
+19,what_subjgap,5,subject_gap,
+19,what_subjgap,6,filler,two years ago
+19,what_subjgap,7,matrix_verb,worried
+19,what_subjgap,8,matrix_gap,his relatives
+19,what_subjgap,9,continuation,when they found out
+19,that_subjgap,1,prefix,The fact that
+19,that_subjgap,2,subj_subj,our father knew
+19,that_subjgap,3,subj_wh,that
+19,that_subjgap,4,subj_embed,my brother would wed
+19,that_subjgap,5,subject_gap,
+19,that_subjgap,6,filler,two years ago
+19,that_subjgap,7,matrix_verb,worried
+19,that_subjgap,8,matrix_gap,his relatives
+19,that_subjgap,9,continuation,when they found out
+19,what_matrixgap,1,prefix,The fact that
+19,what_matrixgap,2,subj_subj,our father knew
+19,what_matrixgap,3,subj_wh,who
+19,what_matrixgap,4,subj_embed,my brother would wed
+19,what_matrixgap,5,subject_gap,his high school girlfriend
+19,what_matrixgap,6,filler,two years ago
+19,what_matrixgap,7,matrix_verb,worried
+19,what_matrixgap,8,matrix_gap,
+19,what_matrixgap,9,continuation,when they found out
+19,that_matrixgap,1,prefix,The fact that
+19,that_matrixgap,2,subj_subj,our father knew
+19,that_matrixgap,3,subj_wh,that
+19,that_matrixgap,4,subj_embed,my brother would wed
+19,that_matrixgap,5,subject_gap,his high school girlfriend
+19,that_matrixgap,6,filler,two years ago
+19,that_matrixgap,7,matrix_verb,worried
+19,that_matrixgap,8,matrix_gap,
+19,that_matrixgap,9,continuation,when they found out
+20,what_nogap,1,prefix,The fact that
+20,what_nogap,2,subj_subj,we confirmed
+20,what_nogap,3,subj_wh,who
+20,what_nogap,4,subj_embed,our friend does not like
+20,what_nogap,5,subject_gap,his professor
+20,what_nogap,6,filler,greatly
+20,what_nogap,7,matrix_verb,surprised
+20,what_nogap,8,matrix_gap,my mother
+20,what_nogap,9,continuation,many years ago
+20,that_nogap,1,prefix,The fact that
+20,that_nogap,2,subj_subj,we confirmed
+20,that_nogap,3,subj_wh,that
+20,that_nogap,4,subj_embed,our friend does not like
+20,that_nogap,5,subject_gap,his professor
+20,that_nogap,6,filler,greatly
+20,that_nogap,7,matrix_verb,surprised
+20,that_nogap,8,matrix_gap,my mother
+20,that_nogap,9,continuation,many years ago
+20,what_subjgap,1,prefix,The fact that
+20,what_subjgap,2,subj_subj,we confirmed
+20,what_subjgap,3,subj_wh,who
+20,what_subjgap,4,subj_embed,our friend does not like
+20,what_subjgap,5,subject_gap,
+20,what_subjgap,6,filler,greatly
+20,what_subjgap,7,matrix_verb,surprised
+20,what_subjgap,8,matrix_gap,my mother
+20,what_subjgap,9,continuation,many years ago
+20,that_subjgap,1,prefix,The fact that
+20,that_subjgap,2,subj_subj,we confirmed
+20,that_subjgap,3,subj_wh,that
+20,that_subjgap,4,subj_embed,our friend does not like
+20,that_subjgap,5,subject_gap,
+20,that_subjgap,6,filler,greatly
+20,that_subjgap,7,matrix_verb,surprised
+20,that_subjgap,8,matrix_gap,my mother
+20,that_subjgap,9,continuation,many years ago
+20,what_matrixgap,1,prefix,The fact that
+20,what_matrixgap,2,subj_subj,we confirmed
+20,what_matrixgap,3,subj_wh,who
+20,what_matrixgap,4,subj_embed,our friend does not like
+20,what_matrixgap,5,subject_gap,his professor
+20,what_matrixgap,6,filler,greatly
+20,what_matrixgap,7,matrix_verb,surprised
+20,what_matrixgap,8,matrix_gap,
+20,what_matrixgap,9,continuation,many years ago
+20,that_matrixgap,1,prefix,The fact that
+20,that_matrixgap,2,subj_subj,we confirmed
+20,that_matrixgap,3,subj_wh,that
+20,that_matrixgap,4,subj_embed,our friend does not like
+20,that_matrixgap,5,subject_gap,his professor
+20,that_matrixgap,6,filler,greatly
+20,that_matrixgap,7,matrix_verb,surprised
+20,that_matrixgap,8,matrix_gap,
+20,that_matrixgap,9,continuation,many years ago
+21,what_nogap,1,prefix,The fact that
+21,what_nogap,2,subj_subj,the detective knew
+21,what_nogap,3,subj_wh,who
+21,what_nogap,4,subj_embed,the suspect followed
+21,what_nogap,5,subject_gap,the drug dealer
+21,what_nogap,6,filler,around town
+21,what_nogap,7,matrix_verb,surprised
+21,what_nogap,8,matrix_gap,his assistant
+21,what_nogap,9,continuation,when she found out
+21,that_nogap,1,prefix,The fact that
+21,that_nogap,2,subj_subj,the detective knew
+21,that_nogap,3,subj_wh,that
+21,that_nogap,4,subj_embed,the suspect followed
+21,that_nogap,5,subject_gap,the drug dealer
+21,that_nogap,6,filler,around town
+21,that_nogap,7,matrix_verb,surprised
+21,that_nogap,8,matrix_gap,his assistant
+21,that_nogap,9,continuation,when she found out
+21,what_subjgap,1,prefix,The fact that
+21,what_subjgap,2,subj_subj,the detective knew
+21,what_subjgap,3,subj_wh,who
+21,what_subjgap,4,subj_embed,the suspect followed
+21,what_subjgap,5,subject_gap,
+21,what_subjgap,6,filler,around town
+21,what_subjgap,7,matrix_verb,surprised
+21,what_subjgap,8,matrix_gap,his assistant
+21,what_subjgap,9,continuation,when she found out
+21,that_subjgap,1,prefix,The fact that
+21,that_subjgap,2,subj_subj,the detective knew
+21,that_subjgap,3,subj_wh,that
+21,that_subjgap,4,subj_embed,the suspect followed
+21,that_subjgap,5,subject_gap,
+21,that_subjgap,6,filler,around town
+21,that_subjgap,7,matrix_verb,surprised
+21,that_subjgap,8,matrix_gap,his assistant
+21,that_subjgap,9,continuation,when she found out
+21,what_matrixgap,1,prefix,The fact that
+21,what_matrixgap,2,subj_subj,the detective knew
+21,what_matrixgap,3,subj_wh,who
+21,what_matrixgap,4,subj_embed,the suspect followed
+21,what_matrixgap,5,subject_gap,the drug dealer
+21,what_matrixgap,6,filler,around town
+21,what_matrixgap,7,matrix_verb,surprised
+21,what_matrixgap,8,matrix_gap,
+21,what_matrixgap,9,continuation,when she found out
+21,that_matrixgap,1,prefix,The fact that
+21,that_matrixgap,2,subj_subj,the detective knew
+21,that_matrixgap,3,subj_wh,that
+21,that_matrixgap,4,subj_embed,the suspect followed
+21,that_matrixgap,5,subject_gap,the drug dealer
+21,that_matrixgap,6,filler,around town
+21,that_matrixgap,7,matrix_verb,surprised
+21,that_matrixgap,8,matrix_gap,
+21,that_matrixgap,9,continuation,when she found out
+22,what_nogap,1,prefix,The fact that
+22,what_nogap,2,subj_subj,the man said
+22,what_nogap,3,subj_wh,who
+22,what_nogap,4,subj_embed,the old woman hit
+22,what_nogap,5,subject_gap,the boy
+22,what_nogap,6,filler,during Sunday school
+22,what_nogap,7,matrix_verb,annoyed
+22,what_nogap,8,matrix_gap,the people
+22,what_nogap,9,continuation,yesterday evening
+22,that_nogap,1,prefix,The fact that
+22,that_nogap,2,subj_subj,the man said
+22,that_nogap,3,subj_wh,that
+22,that_nogap,4,subj_embed,the old woman hit
+22,that_nogap,5,subject_gap,the boy
+22,that_nogap,6,filler,during Sunday school
+22,that_nogap,7,matrix_verb,annoyed
+22,that_nogap,8,matrix_gap,the people
+22,that_nogap,9,continuation,yesterday evening
+22,what_subjgap,1,prefix,The fact that
+22,what_subjgap,2,subj_subj,the man said
+22,what_subjgap,3,subj_wh,who
+22,what_subjgap,4,subj_embed,the old woman hit
+22,what_subjgap,5,subject_gap,
+22,what_subjgap,6,filler,during Sunday school
+22,what_subjgap,7,matrix_verb,annoyed
+22,what_subjgap,8,matrix_gap,the people
+22,what_subjgap,9,continuation,yesterday evening
+22,that_subjgap,1,prefix,The fact that
+22,that_subjgap,2,subj_subj,the man said
+22,that_subjgap,3,subj_wh,that
+22,that_subjgap,4,subj_embed,the old woman hit
+22,that_subjgap,5,subject_gap,
+22,that_subjgap,6,filler,during Sunday school
+22,that_subjgap,7,matrix_verb,annoyed
+22,that_subjgap,8,matrix_gap,the people
+22,that_subjgap,9,continuation,yesterday evening
+22,what_matrixgap,1,prefix,The fact that
+22,what_matrixgap,2,subj_subj,the man said
+22,what_matrixgap,3,subj_wh,who
+22,what_matrixgap,4,subj_embed,the old woman hit
+22,what_matrixgap,5,subject_gap,the boy
+22,what_matrixgap,6,filler,during Sunday school
+22,what_matrixgap,7,matrix_verb,annoyed
+22,what_matrixgap,8,matrix_gap,
+22,what_matrixgap,9,continuation,yesterday evening
+22,that_matrixgap,1,prefix,The fact that
+22,that_matrixgap,2,subj_subj,the man said
+22,that_matrixgap,3,subj_wh,that
+22,that_matrixgap,4,subj_embed,the old woman hit
+22,that_matrixgap,5,subject_gap,the boy
+22,that_matrixgap,6,filler,during Sunday school
+22,that_matrixgap,7,matrix_verb,annoyed
+22,that_matrixgap,8,matrix_gap,
+22,that_matrixgap,9,continuation,yesterday evening
+23,what_nogap,1,prefix,The fact that
+23,what_nogap,2,subj_subj,my friend knew
+23,what_nogap,3,subj_wh,who
+23,what_nogap,4,subj_embed,the cop saved
+23,what_nogap,5,subject_gap,the old man
+23,what_nogap,6,filler,during the flood
+23,what_nogap,7,matrix_verb,pleased
+23,what_nogap,8,matrix_gap,his teacher
+23,what_nogap,9,continuation,last weekend
+23,that_nogap,1,prefix,The fact that
+23,that_nogap,2,subj_subj,my friend knew
+23,that_nogap,3,subj_wh,that
+23,that_nogap,4,subj_embed,the cop saved
+23,that_nogap,5,subject_gap,the old man
+23,that_nogap,6,filler,during the flood
+23,that_nogap,7,matrix_verb,pleased
+23,that_nogap,8,matrix_gap,his teacher
+23,that_nogap,9,continuation,last weekend
+23,what_subjgap,1,prefix,The fact that
+23,what_subjgap,2,subj_subj,my friend knew
+23,what_subjgap,3,subj_wh,who
+23,what_subjgap,4,subj_embed,the cop saved
+23,what_subjgap,5,subject_gap,
+23,what_subjgap,6,filler,during the flood
+23,what_subjgap,7,matrix_verb,pleased
+23,what_subjgap,8,matrix_gap,his teacher
+23,what_subjgap,9,continuation,last weekend
+23,that_subjgap,1,prefix,The fact that
+23,that_subjgap,2,subj_subj,my friend knew
+23,that_subjgap,3,subj_wh,that
+23,that_subjgap,4,subj_embed,the cop saved
+23,that_subjgap,5,subject_gap,
+23,that_subjgap,6,filler,during the flood
+23,that_subjgap,7,matrix_verb,pleased
+23,that_subjgap,8,matrix_gap,his teacher
+23,that_subjgap,9,continuation,last weekend
+23,what_matrixgap,1,prefix,The fact that
+23,what_matrixgap,2,subj_subj,my friend knew
+23,what_matrixgap,3,subj_wh,who
+23,what_matrixgap,4,subj_embed,the cop saved
+23,what_matrixgap,5,subject_gap,the old man
+23,what_matrixgap,6,filler,during the flood
+23,what_matrixgap,7,matrix_verb,pleased
+23,what_matrixgap,8,matrix_gap,
+23,what_matrixgap,9,continuation,last weekend
+23,that_matrixgap,1,prefix,The fact that
+23,that_matrixgap,2,subj_subj,my friend knew
+23,that_matrixgap,3,subj_wh,that
+23,that_matrixgap,4,subj_embed,the cop saved
+23,that_matrixgap,5,subject_gap,the old man
+23,that_matrixgap,6,filler,during the flood
+23,that_matrixgap,7,matrix_verb,pleased
+23,that_matrixgap,8,matrix_gap,
+23,that_matrixgap,9,continuation,last weekend
+24,what_nogap,1,prefix,The fact that
+24,what_nogap,2,subj_subj,the doctor recalled
+24,what_nogap,3,subj_wh,who
+24,what_nogap,4,subj_embed,the patient likes
+24,what_nogap,5,subject_gap,the football star
+24,what_nogap,6,filler,very much
+24,what_nogap,7,matrix_verb,delighted
+24,what_nogap,8,matrix_gap,his parents
+24,what_nogap,9,continuation,at the hospital
+24,that_nogap,1,prefix,The fact that
+24,that_nogap,2,subj_subj,the doctor recalled
+24,that_nogap,3,subj_wh,that
+24,that_nogap,4,subj_embed,the patient likes
+24,that_nogap,5,subject_gap,the football star
+24,that_nogap,6,filler,very much
+24,that_nogap,7,matrix_verb,delighted
+24,that_nogap,8,matrix_gap,his parents
+24,that_nogap,9,continuation,at the hospital
+24,what_subjgap,1,prefix,The fact that
+24,what_subjgap,2,subj_subj,the doctor recalled
+24,what_subjgap,3,subj_wh,who
+24,what_subjgap,4,subj_embed,the patient likes
+24,what_subjgap,5,subject_gap,
+24,what_subjgap,6,filler,very much
+24,what_subjgap,7,matrix_verb,delighted
+24,what_subjgap,8,matrix_gap,his parents
+24,what_subjgap,9,continuation,at the hospital
+24,that_subjgap,1,prefix,The fact that
+24,that_subjgap,2,subj_subj,the doctor recalled
+24,that_subjgap,3,subj_wh,that
+24,that_subjgap,4,subj_embed,the patient likes
+24,that_subjgap,5,subject_gap,
+24,that_subjgap,6,filler,very much
+24,that_subjgap,7,matrix_verb,delighted
+24,that_subjgap,8,matrix_gap,his parents
+24,that_subjgap,9,continuation,at the hospital
+24,what_matrixgap,1,prefix,The fact that
+24,what_matrixgap,2,subj_subj,the doctor recalled
+24,what_matrixgap,3,subj_wh,who
+24,what_matrixgap,4,subj_embed,the patient likes
+24,what_matrixgap,5,subject_gap,the football star
+24,what_matrixgap,6,filler,very much
+24,what_matrixgap,7,matrix_verb,delighted
+24,what_matrixgap,8,matrix_gap,
+24,what_matrixgap,9,continuation,at the hospital
+24,that_matrixgap,1,prefix,The fact that
+24,that_matrixgap,2,subj_subj,the doctor recalled
+24,that_matrixgap,3,subj_wh,that
+24,that_matrixgap,4,subj_embed,the patient likes
+24,that_matrixgap,5,subject_gap,the football star
+24,that_matrixgap,6,filler,very much
+24,that_matrixgap,7,matrix_verb,delighted
+24,that_matrixgap,8,matrix_gap,
+24,that_matrixgap,9,continuation,at the hospital

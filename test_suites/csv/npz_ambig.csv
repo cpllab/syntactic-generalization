@@ -1,0 +1,577 @@
+item_number,condition_name,region_number,region_name,content
+1,ambig_nocomma,1,Start,As the criminal
+1,ambig_nocomma,2,Transitive Verb,shot
+1,ambig_nocomma,3,Comma,
+1,ambig_nocomma,4,NP/Z, the woman
+1,ambig_nocomma,5,Verb,yelled
+1,ambig_nocomma,6,Continuation,at the top of her lungs
+1,unambig_nocomma,1,Start,As the criminal
+1,unambig_nocomma,2,Transitive Verb,fled
+1,unambig_nocomma,3,Comma,
+1,unambig_nocomma,4,NP/Z, the woman
+1,unambig_nocomma,5,Verb,yelled
+1,unambig_nocomma,6,Continuation,at the top of her lungs
+1,ambig_comma,1,Start,As the criminal
+1,ambig_comma,2,Transitive Verb,shot
+1,ambig_comma,3,Comma,","
+1,ambig_comma,4,NP/Z, the woman
+1,ambig_comma,5,Verb,yelled
+1,ambig_comma,6,Continuation,at the top of her lungs
+1,unambig_comma,1,Start,As the criminal
+1,unambig_comma,2,Transitive Verb,fled
+1,unambig_comma,3,Comma,","
+1,unambig_comma,4,NP/Z, the woman
+1,unambig_comma,5,Verb,yelled
+1,unambig_comma,6,Continuation,at the top of her lungs
+2,ambig_nocomma,1,Start,When the dog
+2,ambig_nocomma,2,Transitive Verb,bit
+2,ambig_nocomma,3,Comma,
+2,ambig_nocomma,4,NP/Z, the doctor
+2,ambig_nocomma,5,Verb, took off
+2,ambig_nocomma,6,Continuation, the restraint
+2,unambig_nocomma,1,Start,When the dog
+2,unambig_nocomma,2,Transitive Verb,struggled
+2,unambig_nocomma,3,Comma,
+2,unambig_nocomma,4,NP/Z, the doctor
+2,unambig_nocomma,5,Verb, took off
+2,unambig_nocomma,6,Continuation, the restraint
+2,ambig_comma,1,Start,When the dog
+2,ambig_comma,2,Transitive Verb,bit
+2,ambig_comma,3,Comma,","
+2,ambig_comma,4,NP/Z, the doctor
+2,ambig_comma,5,Verb, took off
+2,ambig_comma,6,Continuation, the restraint
+2,unambig_comma,1,Start,When the dog
+2,unambig_comma,2,Transitive Verb,struggled
+2,unambig_comma,3,Comma,","
+2,unambig_comma,4,NP/Z, the doctor
+2,unambig_comma,5,Verb, took off
+2,unambig_comma,6,Continuation, the restraint
+3,ambig_nocomma,1,Start,As the ship
+3,ambig_nocomma,2,Transitive Verb,crossed
+3,ambig_nocomma,3,Comma,
+3,ambig_nocomma,4,NP/Z, the waters
+3,ambig_nocomma,5,Verb, remained
+3,ambig_nocomma,6,Continuation, blue and calm
+3,unambig_nocomma,1,Start,As the ship
+3,unambig_nocomma,2,Transitive Verb,drifted
+3,unambig_nocomma,3,Comma,
+3,unambig_nocomma,4,NP/Z, the waters
+3,unambig_nocomma,5,Verb, remained
+3,unambig_nocomma,6,Continuation, blue and calm
+3,ambig_comma,1,Start,As the ship
+3,ambig_comma,2,Transitive Verb,crossed
+3,ambig_comma,3,Comma,","
+3,ambig_comma,4,NP/Z, the waters
+3,ambig_comma,5,Verb, remained
+3,ambig_comma,6,Continuation, blue and calm
+3,unambig_comma,1,Start,As the ship
+3,unambig_comma,2,Transitive Verb,drifted
+3,unambig_comma,3,Comma,","
+3,unambig_comma,4,NP/Z, the waters
+3,unambig_comma,5,Verb, remained
+3,unambig_comma,6,Continuation, blue and calm
+4,ambig_nocomma,1,Start,After the newcomers
+4,ambig_nocomma,2,Transitive Verb,asked
+4,ambig_nocomma,3,Comma,
+4,ambig_nocomma,4,NP/Z, the soldiers
+4,ambig_nocomma,5,Verb,shared
+4,ambig_nocomma,6,Continuation,a cigarette
+4,unambig_nocomma,1,Start,After the newcomers
+4,unambig_nocomma,2,Transitive Verb,negotiated
+4,unambig_nocomma,3,Comma,
+4,unambig_nocomma,4,NP/Z, the soldiers
+4,unambig_nocomma,5,Verb,shared
+4,unambig_nocomma,6,Continuation,a cigarette
+4,ambig_comma,1,Start,After the newcomers
+4,ambig_comma,2,Transitive Verb,asked
+4,ambig_comma,3,Comma,","
+4,ambig_comma,4,NP/Z, the soldiers
+4,ambig_comma,5,Verb,shared
+4,ambig_comma,6,Continuation,a cigarette
+4,unambig_comma,1,Start,After the newcomers
+4,unambig_comma,2,Transitive Verb,negotiated
+4,unambig_comma,3,Comma,","
+4,unambig_comma,4,NP/Z, the soldiers
+4,unambig_comma,5,Verb,shared
+4,unambig_comma,6,Continuation,a cigarette
+5,ambig_nocomma,1,Start,Though the athlete
+5,ambig_nocomma,2,Transitive Verb,telephoned
+5,ambig_nocomma,3,Comma,
+5,ambig_nocomma,4,NP/Z, the coach
+5,ambig_nocomma,5,Verb, refused
+5,ambig_nocomma,6,Continuation, to praise him
+5,unambig_nocomma,1,Start,Though the athlete
+5,unambig_nocomma,2,Transitive Verb,complained
+5,unambig_nocomma,3,Comma,
+5,unambig_nocomma,4,NP/Z, the coach
+5,unambig_nocomma,5,Verb, refused
+5,unambig_nocomma,6,Continuation, to praise him
+5,ambig_comma,1,Start,Though the athlete
+5,ambig_comma,2,Transitive Verb,telephoned
+5,ambig_comma,3,Comma,","
+5,ambig_comma,4,NP/Z, the coach
+5,ambig_comma,5,Verb, refused
+5,ambig_comma,6,Continuation, to praise him
+5,unambig_comma,1,Start,Though the athlete
+5,unambig_comma,2,Transitive Verb,complained
+5,unambig_comma,3,Comma,","
+5,unambig_comma,4,NP/Z, the coach
+5,unambig_comma,5,Verb, refused
+5,unambig_comma,6,Continuation, to praise him
+6,ambig_nocomma,1,Start,While the crowd
+6,ambig_nocomma,2,Transitive Verb,applauded
+6,ambig_nocomma,3,Comma,
+6,ambig_nocomma,4,NP/Z, the actor
+6,ambig_nocomma,5,Verb, relaxed
+6,ambig_nocomma,6,Continuation,on a chair
+6,unambig_nocomma,1,Start,While the crowd
+6,unambig_nocomma,2,Transitive Verb,yelled
+6,unambig_nocomma,3,Comma,
+6,unambig_nocomma,4,NP/Z, the actor
+6,unambig_nocomma,5,Verb, relaxed
+6,unambig_nocomma,6,Continuation,on a chair
+6,ambig_comma,1,Start,While the crowd
+6,ambig_comma,2,Transitive Verb,applauded
+6,ambig_comma,3,Comma,","
+6,ambig_comma,4,NP/Z, the actor
+6,ambig_comma,5,Verb, relaxed
+6,ambig_comma,6,Continuation,on a chair
+6,unambig_comma,1,Start,While the crowd
+6,unambig_comma,2,Transitive Verb,yelled
+6,unambig_comma,3,Comma,","
+6,unambig_comma,4,NP/Z, the actor
+6,unambig_comma,5,Verb, relaxed
+6,unambig_comma,6,Continuation,on a chair
+7,ambig_nocomma,1,Start,While the audience
+7,ambig_nocomma,2,Transitive Verb,cheered
+7,ambig_nocomma,3,Comma,
+7,ambig_nocomma,4,NP/Z, the actor
+7,ambig_nocomma,5,Verb,delivered
+7,ambig_nocomma,6,Continuation,his speech
+7,unambig_nocomma,1,Start,While the audience
+7,unambig_nocomma,2,Transitive Verb,arrived
+7,unambig_nocomma,3,Comma,
+7,unambig_nocomma,4,NP/Z, the actor
+7,unambig_nocomma,5,Verb,delivered
+7,unambig_nocomma,6,Continuation,his speech
+7,ambig_comma,1,Start,While the audience
+7,ambig_comma,2,Transitive Verb,cheered
+7,ambig_comma,3,Comma,","
+7,ambig_comma,4,NP/Z, the actor
+7,ambig_comma,5,Verb,delivered
+7,ambig_comma,6,Continuation,his speech
+7,unambig_comma,1,Start,While the audience
+7,unambig_comma,2,Transitive Verb,arrived
+7,unambig_comma,3,Comma,","
+7,unambig_comma,4,NP/Z, the actor
+7,unambig_comma,5,Verb,delivered
+7,unambig_comma,6,Continuation,his speech
+8,ambig_nocomma,1,Start,While the students
+8,ambig_nocomma,2,Transitive Verb,ate
+8,ambig_nocomma,3,Comma,
+8,ambig_nocomma,4,NP/Z, the food
+8,ambig_nocomma,5,Verb, was
+8,ambig_nocomma,6,Continuation, removed
+8,unambig_nocomma,1,Start,While the students
+8,unambig_nocomma,2,Transitive Verb,talked
+8,unambig_nocomma,3,Comma,
+8,unambig_nocomma,4,NP/Z, the food
+8,unambig_nocomma,5,Verb, was
+8,unambig_nocomma,6,Continuation, removed
+8,ambig_comma,1,Start,While the students
+8,ambig_comma,2,Transitive Verb,ate
+8,ambig_comma,3,Comma,","
+8,ambig_comma,4,NP/Z, the food
+8,ambig_comma,5,Verb, was
+8,ambig_comma,6,Continuation, removed
+8,unambig_comma,1,Start,While the students
+8,unambig_comma,2,Transitive Verb,talked
+8,unambig_comma,3,Comma,","
+8,unambig_comma,4,NP/Z, the food
+8,unambig_comma,5,Verb, was
+8,unambig_comma,6,Continuation, removed
+9,ambig_nocomma,1,Start,When the professor
+9,ambig_nocomma,2,Transitive Verb,taught
+9,ambig_nocomma,3,Comma,
+9,ambig_nocomma,4,NP/Z, the visitors
+9,ambig_nocomma,5,Verb, lost
+9,ambig_nocomma,6,Continuation, interest
+9,unambig_nocomma,1,Start,When the professor
+9,unambig_nocomma,2,Transitive Verb,talked
+9,unambig_nocomma,3,Comma,
+9,unambig_nocomma,4,NP/Z, the visitors
+9,unambig_nocomma,5,Verb, lost
+9,unambig_nocomma,6,Continuation, interest
+9,ambig_comma,1,Start,When the professor
+9,ambig_comma,2,Transitive Verb,taught
+9,ambig_comma,3,Comma,","
+9,ambig_comma,4,NP/Z, the visitors
+9,ambig_comma,5,Verb, lost
+9,ambig_comma,6,Continuation, interest
+9,unambig_comma,1,Start,When the professor
+9,unambig_comma,2,Transitive Verb,talked
+9,unambig_comma,3,Comma,","
+9,unambig_comma,4,NP/Z, the visitors
+9,unambig_comma,5,Verb, lost
+9,unambig_comma,6,Continuation, interest
+10,ambig_nocomma,1,Start,Because the baby
+10,ambig_nocomma,2,Transitive Verb,grabbed
+10,ambig_nocomma,3,Comma,
+10,ambig_nocomma,4,NP/Z, the woman
+10,ambig_nocomma,5,Verb, stayed
+10,ambig_nocomma,6,Continuation, until the end
+10,unambig_nocomma,1,Start,Because the baby
+10,unambig_nocomma,2,Transitive Verb,yelled
+10,unambig_nocomma,3,Comma,
+10,unambig_nocomma,4,NP/Z, the woman
+10,unambig_nocomma,5,Verb, stayed
+10,unambig_nocomma,6,Continuation, until the end
+10,ambig_comma,1,Start,Because the baby
+10,ambig_comma,2,Transitive Verb,grabbed
+10,ambig_comma,3,Comma,","
+10,ambig_comma,4,NP/Z, the woman
+10,ambig_comma,5,Verb, stayed
+10,ambig_comma,6,Continuation, until the end
+10,unambig_comma,1,Start,Because the baby
+10,unambig_comma,2,Transitive Verb,yelled
+10,unambig_comma,3,Comma,","
+10,unambig_comma,4,NP/Z, the woman
+10,unambig_comma,5,Verb, stayed
+10,unambig_comma,6,Continuation, until the end
+11,ambig_nocomma,1,Start,Because the manager
+11,ambig_nocomma,2,Transitive Verb,applauded
+11,ambig_nocomma,3,Comma,
+11,ambig_nocomma,4,NP/Z, the comedian
+11,ambig_nocomma,5,Verb, began
+11,ambig_nocomma,6,Continuation, his act
+11,unambig_nocomma,1,Start,Because the manager
+11,unambig_nocomma,2,Transitive Verb,departed
+11,unambig_nocomma,3,Comma,
+11,unambig_nocomma,4,NP/Z, the comedian
+11,unambig_nocomma,5,Verb, began
+11,unambig_nocomma,6,Continuation, his act
+11,ambig_comma,1,Start,Because the manager
+11,ambig_comma,2,Transitive Verb,applauded
+11,ambig_comma,3,Comma,","
+11,ambig_comma,4,NP/Z, the comedian
+11,ambig_comma,5,Verb, began
+11,ambig_comma,6,Continuation, his act
+11,unambig_comma,1,Start,Because the manager
+11,unambig_comma,2,Transitive Verb,departed
+11,unambig_comma,3,Comma,","
+11,unambig_comma,4,NP/Z, the comedian
+11,unambig_comma,5,Verb, began
+11,unambig_comma,6,Continuation, his act
+12,ambig_nocomma,1,Start,After the patient
+12,ambig_nocomma,2,Transitive Verb,asked
+12,ambig_nocomma,3,Comma,
+12,ambig_nocomma,4,NP/Z, the nurse
+12,ambig_nocomma,5,Verb, told
+12,ambig_nocomma,6,Continuation, her the news
+12,unambig_nocomma,1,Start,After the patient
+12,unambig_nocomma,2,Transitive Verb,arrived
+12,unambig_nocomma,3,Comma,
+12,unambig_nocomma,4,NP/Z, the nurse
+12,unambig_nocomma,5,Verb, told
+12,unambig_nocomma,6,Continuation, her the news
+12,ambig_comma,1,Start,After the patient
+12,ambig_comma,2,Transitive Verb,asked
+12,ambig_comma,3,Comma,","
+12,ambig_comma,4,NP/Z, the nurse
+12,ambig_comma,5,Verb, told
+12,ambig_comma,6,Continuation, her the news
+12,unambig_comma,1,Start,After the patient
+12,unambig_comma,2,Transitive Verb,arrived
+12,unambig_comma,3,Comma,","
+12,unambig_comma,4,NP/Z, the nurse
+12,unambig_comma,5,Verb, told
+12,unambig_comma,6,Continuation, her the news
+13,ambig_nocomma,1,Start,After the guard
+13,ambig_nocomma,2,Transitive Verb,visited
+13,ambig_nocomma,3,Comma,
+13,ambig_nocomma,4,NP/Z, the children
+13,ambig_nocomma,5,Verb, jumped
+13,ambig_nocomma,6,Continuation, into the pool
+13,unambig_nocomma,1,Start,After the guard
+13,unambig_nocomma,2,Transitive Verb,departed
+13,unambig_nocomma,3,Comma,
+13,unambig_nocomma,4,NP/Z, the children
+13,unambig_nocomma,5,Verb, jumped
+13,unambig_nocomma,6,Continuation, into the pool
+13,ambig_comma,1,Start,After the guard
+13,ambig_comma,2,Transitive Verb,visited
+13,ambig_comma,3,Comma,","
+13,ambig_comma,4,NP/Z, the children
+13,ambig_comma,5,Verb, jumped
+13,ambig_comma,6,Continuation, into the pool
+13,unambig_comma,1,Start,After the guard
+13,unambig_comma,2,Transitive Verb,departed
+13,unambig_comma,3,Comma,","
+13,unambig_comma,4,NP/Z, the children
+13,unambig_comma,5,Verb, jumped
+13,unambig_comma,6,Continuation, into the pool
+14,ambig_nocomma,1,Start,After the dog
+14,ambig_nocomma,2,Transitive Verb,signaled
+14,ambig_nocomma,3,Comma,
+14,ambig_nocomma,4,NP/Z, the farmer
+14,ambig_nocomma,5,Verb, went
+14,ambig_nocomma,6,Continuation,into the field
+14,unambig_nocomma,1,Start,After the dog
+14,unambig_nocomma,2,Transitive Verb,went out
+14,unambig_nocomma,3,Comma,
+14,unambig_nocomma,4,NP/Z, the farmer
+14,unambig_nocomma,5,Verb, went
+14,unambig_nocomma,6,Continuation,into the field
+14,ambig_comma,1,Start,After the dog
+14,ambig_comma,2,Transitive Verb,signaled
+14,ambig_comma,3,Comma,","
+14,ambig_comma,4,NP/Z, the farmer
+14,ambig_comma,5,Verb, went
+14,ambig_comma,6,Continuation,into the field
+14,unambig_comma,1,Start,After the dog
+14,unambig_comma,2,Transitive Verb,went out
+14,unambig_comma,3,Comma,","
+14,unambig_comma,4,NP/Z, the farmer
+14,unambig_comma,5,Verb, went
+14,unambig_comma,6,Continuation,into the field
+15,ambig_nocomma,1,Start,As the students
+15,ambig_nocomma,2,Transitive Verb,considered
+15,ambig_nocomma,3,Comma,
+15,ambig_nocomma,4,NP/Z, the teacher
+15,ambig_nocomma,5,Verb, asked
+15,ambig_nocomma,6,Continuation, a question
+15,unambig_nocomma,1,Start,As the students
+15,unambig_nocomma,2,Transitive Verb,slept
+15,unambig_nocomma,3,Comma,
+15,unambig_nocomma,4,NP/Z, the teacher
+15,unambig_nocomma,5,Verb, asked
+15,unambig_nocomma,6,Continuation, a question
+15,ambig_comma,1,Start,As the students
+15,ambig_comma,2,Transitive Verb,considered
+15,ambig_comma,3,Comma,","
+15,ambig_comma,4,NP/Z, the teacher
+15,ambig_comma,5,Verb, asked
+15,ambig_comma,6,Continuation, a question
+15,unambig_comma,1,Start,As the students
+15,unambig_comma,2,Transitive Verb,slept
+15,unambig_comma,3,Comma,","
+15,unambig_comma,4,NP/Z, the teacher
+15,unambig_comma,5,Verb, asked
+15,unambig_comma,6,Continuation, a question
+16,ambig_nocomma,1,Start,While the woman
+16,ambig_nocomma,2,Transitive Verb,decorated
+16,ambig_nocomma,3,Comma,
+16,ambig_nocomma,4,NP/Z, the pot
+16,ambig_nocomma,5,Verb, sat
+16,ambig_nocomma,6,Continuation, on the counter
+16,unambig_nocomma,1,Start,While the woman
+16,unambig_nocomma,2,Transitive Verb,slept
+16,unambig_nocomma,3,Comma,
+16,unambig_nocomma,4,NP/Z, the pot
+16,unambig_nocomma,5,Verb, sat
+16,unambig_nocomma,6,Continuation, on the counter
+16,ambig_comma,1,Start,While the woman
+16,ambig_comma,2,Transitive Verb,decorated
+16,ambig_comma,3,Comma,","
+16,ambig_comma,4,NP/Z, the pot
+16,ambig_comma,5,Verb, sat
+16,ambig_comma,6,Continuation, on the counter
+16,unambig_comma,1,Start,While the woman
+16,unambig_comma,2,Transitive Verb,slept
+16,unambig_comma,3,Comma,","
+16,unambig_comma,4,NP/Z, the pot
+16,unambig_comma,5,Verb, sat
+16,unambig_comma,6,Continuation, on the counter
+17,ambig_nocomma,1,Start,When the customer
+17,ambig_nocomma,2,Transitive Verb,interrupted
+17,ambig_nocomma,3,Comma,
+17,ambig_nocomma,4,NP/Z, the manager
+17,ambig_nocomma,5,Verb, changed
+17,ambig_nocomma,6,Continuation, the advertisement
+17,unambig_nocomma,1,Start,When the customer
+17,unambig_nocomma,2,Transitive Verb,complained
+17,unambig_nocomma,3,Comma,
+17,unambig_nocomma,4,NP/Z, the manager
+17,unambig_nocomma,5,Verb, changed
+17,unambig_nocomma,6,Continuation, the advertisement
+17,ambig_comma,1,Start,When the customer
+17,ambig_comma,2,Transitive Verb,interrupted
+17,ambig_comma,3,Comma,","
+17,ambig_comma,4,NP/Z, the manager
+17,ambig_comma,5,Verb, changed
+17,ambig_comma,6,Continuation, the advertisement
+17,unambig_comma,1,Start,When the customer
+17,unambig_comma,2,Transitive Verb,complained
+17,unambig_comma,3,Comma,","
+17,unambig_comma,4,NP/Z, the manager
+17,unambig_comma,5,Verb, changed
+17,unambig_comma,6,Continuation, the advertisement
+18,ambig_nocomma,1,Start,As the young man
+18,ambig_nocomma,2,Transitive Verb,wiped
+18,ambig_nocomma,3,Comma,
+18,ambig_nocomma,4,NP/Z, the pipe
+18,ambig_nocomma,5,Verb, fell
+18,ambig_nocomma,6,Continuation, to the floor
+18,unambig_nocomma,1,Start,As the young man
+18,unambig_nocomma,2,Transitive Verb,slept
+18,unambig_nocomma,3,Comma,
+18,unambig_nocomma,4,NP/Z, the pipe
+18,unambig_nocomma,5,Verb, fell
+18,unambig_nocomma,6,Continuation, to the floor
+18,ambig_comma,1,Start,As the young man
+18,ambig_comma,2,Transitive Verb,wiped
+18,ambig_comma,3,Comma,","
+18,ambig_comma,4,NP/Z, the pipe
+18,ambig_comma,5,Verb, fell
+18,ambig_comma,6,Continuation, to the floor
+18,unambig_comma,1,Start,As the young man
+18,unambig_comma,2,Transitive Verb,slept
+18,unambig_comma,3,Comma,","
+18,unambig_comma,4,NP/Z, the pipe
+18,unambig_comma,5,Verb, fell
+18,unambig_comma,6,Continuation, to the floor
+19,ambig_nocomma,1,Start,While the prisoners
+19,ambig_nocomma,2,Transitive Verb,watched
+19,ambig_nocomma,3,Comma,
+19,ambig_nocomma,4,NP/Z, the guards
+19,ambig_nocomma,5,Verb, refused
+19,ambig_nocomma,6,Continuation, to negotiate
+19,unambig_nocomma,1,Start,While the prisoners
+19,unambig_nocomma,2,Transitive Verb,looked
+19,unambig_nocomma,3,Comma,
+19,unambig_nocomma,4,NP/Z, the guards
+19,unambig_nocomma,5,Verb, refused
+19,unambig_nocomma,6,Continuation, to negotiate
+19,ambig_comma,1,Start,While the prisoners
+19,ambig_comma,2,Transitive Verb,watched
+19,ambig_comma,3,Comma,","
+19,ambig_comma,4,NP/Z, the guards
+19,ambig_comma,5,Verb, refused
+19,ambig_comma,6,Continuation, to negotiate
+19,unambig_comma,1,Start,While the prisoners
+19,unambig_comma,2,Transitive Verb,looked
+19,unambig_comma,3,Comma,","
+19,unambig_comma,4,NP/Z, the guards
+19,unambig_comma,5,Verb, refused
+19,unambig_comma,6,Continuation, to negotiate
+20,ambig_nocomma,1,Start,As long as the king
+20,ambig_nocomma,2,Transitive Verb,governed
+20,ambig_nocomma,3,Comma,
+20,ambig_nocomma,4,NP/Z, his subjects
+20,ambig_nocomma,5,Verb, feared
+20,ambig_nocomma,6,Continuation, his anger
+20,unambig_nocomma,1,Start,As long as the king
+20,unambig_nocomma,2,Transitive Verb,yelled
+20,unambig_nocomma,3,Comma,
+20,unambig_nocomma,4,NP/Z, his subjects
+20,unambig_nocomma,5,Verb, feared
+20,unambig_nocomma,6,Continuation, his anger
+20,ambig_comma,1,Start,As long as the king
+20,ambig_comma,2,Transitive Verb,governed
+20,ambig_comma,3,Comma,","
+20,ambig_comma,4,NP/Z, his subjects
+20,ambig_comma,5,Verb, feared
+20,ambig_comma,6,Continuation, his anger
+20,unambig_comma,1,Start,As long as the king
+20,unambig_comma,2,Transitive Verb,yelled
+20,unambig_comma,3,Comma,","
+20,unambig_comma,4,NP/Z, his subjects
+20,unambig_comma,5,Verb, feared
+20,unambig_comma,6,Continuation, his anger
+21,ambig_nocomma,1,Start,After the host
+21,ambig_nocomma,2,Transitive Verb,interrupted
+21,ambig_nocomma,3,Comma,
+21,ambig_nocomma,4,NP/Z, the discussion
+21,ambig_nocomma,5,Verb, became
+21,ambig_nocomma,6,Continuation, more interesting
+21,unambig_nocomma,1,Start,After the host
+21,unambig_nocomma,2,Transitive Verb,yelled
+21,unambig_nocomma,3,Comma,
+21,unambig_nocomma,4,NP/Z, the discussion
+21,unambig_nocomma,5,Verb, became
+21,unambig_nocomma,6,Continuation, more interesting
+21,ambig_comma,1,Start,After the host
+21,ambig_comma,2,Transitive Verb,interrupted
+21,ambig_comma,3,Comma,","
+21,ambig_comma,4,NP/Z, the discussion
+21,ambig_comma,5,Verb, became
+21,ambig_comma,6,Continuation, more interesting
+21,unambig_comma,1,Start,After the host
+21,unambig_comma,2,Transitive Verb,yelled
+21,unambig_comma,3,Comma,","
+21,unambig_comma,4,NP/Z, the discussion
+21,unambig_comma,5,Verb, became
+21,unambig_comma,6,Continuation, more interesting
+22,ambig_nocomma,1,Start,After the woman
+22,ambig_nocomma,2,Transitive Verb,dressed
+22,ambig_nocomma,3,Comma,
+22,ambig_nocomma,4,NP/Z, her children
+22,ambig_nocomma,5,Verb, thought
+22,ambig_nocomma,6,Continuation, she looked lovely
+22,unambig_nocomma,1,Start,After the woman
+22,unambig_nocomma,2,Transitive Verb,departed
+22,unambig_nocomma,3,Comma,
+22,unambig_nocomma,4,NP/Z, her children
+22,unambig_nocomma,5,Verb, thought
+22,unambig_nocomma,6,Continuation, she looked lovely
+22,ambig_comma,1,Start,After the woman
+22,ambig_comma,2,Transitive Verb,dressed
+22,ambig_comma,3,Comma,","
+22,ambig_comma,4,NP/Z, her children
+22,ambig_comma,5,Verb, thought
+22,ambig_comma,6,Continuation, she looked lovely
+22,unambig_comma,1,Start,After the woman
+22,unambig_comma,2,Transitive Verb,departed
+22,unambig_comma,3,Comma,","
+22,unambig_comma,4,NP/Z, her children
+22,unambig_comma,5,Verb, thought
+22,unambig_comma,6,Continuation, she looked lovely
+23,ambig_nocomma,1,Start,After the soldier
+23,ambig_nocomma,2,Transitive Verb,signaled
+23,ambig_nocomma,3,Comma,
+23,ambig_nocomma,4,NP/Z, the doctor
+23,ambig_nocomma,5,Verb, ordered
+23,ambig_nocomma,6,Continuation, it to stop
+23,unambig_nocomma,1,Start,After the soldier
+23,unambig_nocomma,2,Transitive Verb,complained
+23,unambig_nocomma,3,Comma,
+23,unambig_nocomma,4,NP/Z, the doctor
+23,unambig_nocomma,5,Verb, ordered
+23,unambig_nocomma,6,Continuation, it to stop
+23,ambig_comma,1,Start,After the soldier
+23,ambig_comma,2,Transitive Verb,signaled
+23,ambig_comma,3,Comma,","
+23,ambig_comma,4,NP/Z, the doctor
+23,ambig_comma,5,Verb, ordered
+23,ambig_comma,6,Continuation, it to stop
+23,unambig_comma,1,Start,After the soldier
+23,unambig_comma,2,Transitive Verb,complained
+23,unambig_comma,3,Comma,","
+23,unambig_comma,4,NP/Z, the doctor
+23,unambig_comma,5,Verb, ordered
+23,unambig_comma,6,Continuation, it to stop
+24,ambig_nocomma,1,Start,As the guard
+24,ambig_nocomma,2,Transitive Verb,stopped
+24,ambig_nocomma,3,Comma,
+24,ambig_nocomma,4,NP/Z, the thieves
+24,ambig_nocomma,5,Verb, grabbed
+24,ambig_nocomma,6,Continuation, the money
+24,unambig_nocomma,1,Start,As the guard
+24,unambig_nocomma,2,Transitive Verb,slept
+24,unambig_nocomma,3,Comma,
+24,unambig_nocomma,4,NP/Z, the thieves
+24,unambig_nocomma,5,Verb, grabbed
+24,unambig_nocomma,6,Continuation, the money
+24,ambig_comma,1,Start,As the guard
+24,ambig_comma,2,Transitive Verb,stopped
+24,ambig_comma,3,Comma,","
+24,ambig_comma,4,NP/Z, the thieves
+24,ambig_comma,5,Verb, grabbed
+24,ambig_comma,6,Continuation, the money
+24,unambig_comma,1,Start,As the guard
+24,unambig_comma,2,Transitive Verb,slept
+24,unambig_comma,3,Comma,","
+24,unambig_comma,4,NP/Z, the thieves
+24,unambig_comma,5,Verb, grabbed
+24,unambig_comma,6,Continuation, the money

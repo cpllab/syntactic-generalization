@@ -1,0 +1,461 @@
+item_number,condition_name,region_number,region_name,content
+1,sub_no-matrix,1,Subordinate clause 1,As the doctor
+1,sub_no-matrix,2,subj_modifier,in a long white lab jacket
+1,sub_no-matrix,3,Subordinate clause 2,studied the book
+1,sub_no-matrix,4,obj_modifier,about several recent advances in cancer therapy
+1,sub_no-matrix,5,Main clause,.
+1,no-sub_no-matrix,1,Subordinate clause 1,The doctor
+1,no-sub_no-matrix,2,subj_modifier,in a long white lab jacket
+1,no-sub_no-matrix,3,Subordinate clause 2,studied the book
+1,no-sub_no-matrix,4,obj_modifier,about several recent advances in cancer therapy
+1,no-sub_no-matrix,5,Main clause,.
+1,sub_matrix,1,Subordinate clause 1,As the doctor
+1,sub_matrix,2,subj_modifier,in a long white lab jacket
+1,sub_matrix,3,Subordinate clause 2,studied the book
+1,sub_matrix,4,obj_modifier,about several recent advances in cancer therapy
+1,sub_matrix,5,Main clause,", the nurse walked into the room ."
+1,no-sub_matrix,1,Subordinate clause 1,The doctor
+1,no-sub_matrix,2,subj_modifier,in a long white lab jacket
+1,no-sub_matrix,3,Subordinate clause 2,studied the book
+1,no-sub_matrix,4,obj_modifier,about several recent advances in cancer therapy
+1,no-sub_matrix,5,Main clause,", the nurse walked into the room ."
+2,sub_no-matrix,1,Subordinate clause 1,After the man
+2,sub_no-matrix,2,subj_modifier,with a very expensive gun
+2,sub_no-matrix,3,Subordinate clause 2,shot the bird
+2,sub_no-matrix,4,obj_modifier,on the run for its life
+2,sub_no-matrix,5,Main clause,.
+2,no-sub_no-matrix,1,Subordinate clause 1,The man
+2,no-sub_no-matrix,2,subj_modifier,with a very expensive gun
+2,no-sub_no-matrix,3,Subordinate clause 2,shot the bird
+2,no-sub_no-matrix,4,obj_modifier,on the run for its life
+2,no-sub_no-matrix,5,Main clause,.
+2,sub_matrix,1,Subordinate clause 1,After the man
+2,sub_matrix,2,subj_modifier,with a very expensive gun
+2,sub_matrix,3,Subordinate clause 2,shot the bird
+2,sub_matrix,4,obj_modifier,on the run for its life
+2,sub_matrix,5,Main clause,", he loaded his gun ."
+2,no-sub_matrix,1,Subordinate clause 1,The man
+2,no-sub_matrix,2,subj_modifier,with a very expensive gun
+2,no-sub_matrix,3,Subordinate clause 2,shot the bird
+2,no-sub_matrix,4,obj_modifier,on the run for its life
+2,no-sub_matrix,5,Main clause,", he loaded his gun ."
+3,sub_no-matrix,1,Subordinate clause 1,Because the students
+3,sub_no-matrix,2,subj_modifier,in the teacher 's third grade class
+3,sub_no-matrix,3,Subordinate clause 2,did not like the material
+3,sub_no-matrix,4,obj_modifier,on the evolution of the human skeleton
+3,sub_no-matrix,5,Main clause,.
+3,no-sub_no-matrix,1,Subordinate clause 1,The students
+3,no-sub_no-matrix,2,subj_modifier,in the teacher 's third grade class
+3,no-sub_no-matrix,3,Subordinate clause 2,did not like the material
+3,no-sub_no-matrix,4,obj_modifier,on the evolution of the human skeleton
+3,no-sub_no-matrix,5,Main clause,.
+3,sub_matrix,1,Subordinate clause 1,Because the students
+3,sub_matrix,2,subj_modifier,in the teacher 's third grade class
+3,sub_matrix,3,Subordinate clause 2,did not like the material
+3,sub_matrix,4,obj_modifier,on the evolution of the human skeleton
+3,sub_matrix,5,Main clause,", they complained to the principal ."
+3,no-sub_matrix,1,Subordinate clause 1,The students
+3,no-sub_matrix,2,subj_modifier,in the teacher 's third grade class
+3,no-sub_matrix,3,Subordinate clause 2,did not like the material
+3,no-sub_matrix,4,obj_modifier,on the evolution of the human skeleton
+3,no-sub_matrix,5,Main clause,", they complained to the principal ."
+4,sub_no-matrix,1,Subordinate clause 1,When the general
+4,sub_no-matrix,2,subj_modifier,in the green uniform and black shoes
+4,sub_no-matrix,3,Subordinate clause 2,entered the camp
+4,sub_no-matrix,4,obj_modifier,in the middle of the busy camp
+4,sub_no-matrix,5,Main clause,.
+4,no-sub_no-matrix,1,Subordinate clause 1,The general
+4,no-sub_no-matrix,2,subj_modifier,in the green uniform and black shoes
+4,no-sub_no-matrix,3,Subordinate clause 2,entered the camp
+4,no-sub_no-matrix,4,obj_modifier,in the middle of the busy camp
+4,no-sub_no-matrix,5,Main clause,.
+4,sub_matrix,1,Subordinate clause 1,When the general
+4,sub_matrix,2,subj_modifier,in the green uniform and black shoes
+4,sub_matrix,3,Subordinate clause 2,entered the camp
+4,sub_matrix,4,obj_modifier,in the middle of the busy camp
+4,sub_matrix,5,Main clause,", the soldiers cheered ."
+4,no-sub_matrix,1,Subordinate clause 1,The general
+4,no-sub_matrix,2,subj_modifier,in the green uniform and black shoes
+4,no-sub_matrix,3,Subordinate clause 2,entered the camp
+4,no-sub_matrix,4,obj_modifier,in the middle of the busy camp
+4,no-sub_matrix,5,Main clause,", the soldiers cheered ."
+5,sub_no-matrix,1,Subordinate clause 1,After the delivery man
+5,sub_no-matrix,2,subj_modifier,with the friendly face
+5,sub_no-matrix,3,Subordinate clause 2,delivered the newspaper
+5,sub_no-matrix,4,obj_modifier,from a city far away
+5,sub_no-matrix,5,Main clause,.
+5,no-sub_no-matrix,1,Subordinate clause 1,The delivery man
+5,no-sub_no-matrix,2,subj_modifier,with the friendly face
+5,no-sub_no-matrix,3,Subordinate clause 2,delivered the newspaper
+5,no-sub_no-matrix,4,obj_modifier,from a city far away
+5,no-sub_no-matrix,5,Main clause,.
+5,sub_matrix,1,Subordinate clause 1,After the delivery man
+5,sub_matrix,2,subj_modifier,with the friendly face
+5,sub_matrix,3,Subordinate clause 2,delivered the newspaper
+5,sub_matrix,4,obj_modifier,from a city far away
+5,sub_matrix,5,Main clause,", the dog looked at the door ."
+5,no-sub_matrix,1,Subordinate clause 1,The delivery man
+5,no-sub_matrix,2,subj_modifier,with the friendly face
+5,no-sub_matrix,3,Subordinate clause 2,delivered the newspaper
+5,no-sub_matrix,4,obj_modifier,from a city far away
+5,no-sub_matrix,5,Main clause,", the dog looked at the door ."
+6,sub_no-matrix,1,Subordinate clause 1,While the lawyers
+6,sub_no-matrix,2,subj_modifier,from the city up north
+6,sub_no-matrix,3,Subordinate clause 2,printed the documents
+6,sub_no-matrix,4,obj_modifier,on very expensive recycled paper
+6,sub_no-matrix,5,Main clause,.
+6,no-sub_no-matrix,1,Subordinate clause 1,The lawyers
+6,no-sub_no-matrix,2,subj_modifier,from the city up north
+6,no-sub_no-matrix,3,Subordinate clause 2,printed the documents
+6,no-sub_no-matrix,4,obj_modifier,on very expensive recycled paper
+6,no-sub_no-matrix,5,Main clause,.
+6,sub_matrix,1,Subordinate clause 1,While the lawyers
+6,sub_matrix,2,subj_modifier,from the city up north
+6,sub_matrix,3,Subordinate clause 2,printed the documents
+6,sub_matrix,4,obj_modifier,on very expensive recycled paper
+6,sub_matrix,5,Main clause,", the aids made coffee ."
+6,no-sub_matrix,1,Subordinate clause 1,The lawyers
+6,no-sub_matrix,2,subj_modifier,from the city up north
+6,no-sub_matrix,3,Subordinate clause 2,printed the documents
+6,no-sub_matrix,4,obj_modifier,on very expensive recycled paper
+6,no-sub_matrix,5,Main clause,", the aids made coffee ."
+7,sub_no-matrix,1,Subordinate clause 1,Because the editor
+7,sub_no-matrix,2,subj_modifier,with higher standards than anyone
+7,sub_no-matrix,3,Subordinate clause 2,liked the draft
+7,sub_no-matrix,4,obj_modifier,about the failed local politicians
+7,sub_no-matrix,5,Main clause,.
+7,no-sub_no-matrix,1,Subordinate clause 1,The editor
+7,no-sub_no-matrix,2,subj_modifier,with higher standards than anyone
+7,no-sub_no-matrix,3,Subordinate clause 2,liked the draft
+7,no-sub_no-matrix,4,obj_modifier,about the failed local politicians
+7,no-sub_no-matrix,5,Main clause,.
+7,sub_matrix,1,Subordinate clause 1,Because the editor
+7,sub_matrix,2,subj_modifier,with higher standards than anyone
+7,sub_matrix,3,Subordinate clause 2,liked the draft
+7,sub_matrix,4,obj_modifier,about the failed local politicians
+7,sub_matrix,5,Main clause,", he published it the next month ."
+7,no-sub_matrix,1,Subordinate clause 1,The editor
+7,no-sub_matrix,2,subj_modifier,with higher standards than anyone
+7,no-sub_matrix,3,Subordinate clause 2,liked the draft
+7,no-sub_matrix,4,obj_modifier,about the failed local politicians
+7,no-sub_matrix,5,Main clause,", he published it the next month ."
+8,sub_no-matrix,1,Subordinate clause 1,Since the nurse
+8,sub_no-matrix,2,subj_modifier,from the neighboring hospital down the street
+8,sub_no-matrix,3,Subordinate clause 2,lost her documents
+8,sub_no-matrix,4,obj_modifier,from the expensive jewelry store down the street
+8,sub_no-matrix,5,Main clause,.
+8,no-sub_no-matrix,1,Subordinate clause 1,The nurse
+8,no-sub_no-matrix,2,subj_modifier,from the neighboring hospital down the street
+8,no-sub_no-matrix,3,Subordinate clause 2,lost her documents
+8,no-sub_no-matrix,4,obj_modifier,from the expensive jewelry store down the street
+8,no-sub_no-matrix,5,Main clause,.
+8,sub_matrix,1,Subordinate clause 1,Since the nurse
+8,sub_matrix,2,subj_modifier,from the neighboring hospital down the street
+8,sub_matrix,3,Subordinate clause 2,lost her documents
+8,sub_matrix,4,obj_modifier,from the expensive jewelry store down the street
+8,sub_matrix,5,Main clause,", she administered the wrong medicine ."
+8,no-sub_matrix,1,Subordinate clause 1,The nurse
+8,no-sub_matrix,2,subj_modifier,from the neighboring hospital down the street
+8,no-sub_matrix,3,Subordinate clause 2,lost her documents
+8,no-sub_matrix,4,obj_modifier,from the expensive jewelry store down the street
+8,no-sub_matrix,5,Main clause,", she administered the wrong medicine ."
+9,sub_no-matrix,1,Subordinate clause 1,Because the scientist
+9,sub_no-matrix,2,subj_modifier,in blue pants and gloves
+9,sub_no-matrix,3,Subordinate clause 2,broke the computer
+9,sub_no-matrix,4,obj_modifier,in the basement of the office building
+9,sub_no-matrix,5,Main clause,.
+9,no-sub_no-matrix,1,Subordinate clause 1,The scientist
+9,no-sub_no-matrix,2,subj_modifier,in blue pants and gloves
+9,no-sub_no-matrix,3,Subordinate clause 2,broke the computer
+9,no-sub_no-matrix,4,obj_modifier,in the basement of the office building
+9,no-sub_no-matrix,5,Main clause,.
+9,sub_matrix,1,Subordinate clause 1,Because the scientist
+9,sub_matrix,2,subj_modifier,in blue pants and gloves
+9,sub_matrix,3,Subordinate clause 2,broke the computer
+9,sub_matrix,4,obj_modifier,in the basement of the office building
+9,sub_matrix,5,Main clause,", the administrator wrote everything by hand ."
+9,no-sub_matrix,1,Subordinate clause 1,The scientist
+9,no-sub_matrix,2,subj_modifier,in blue pants and gloves
+9,no-sub_matrix,3,Subordinate clause 2,broke the computer
+9,no-sub_matrix,4,obj_modifier,in the basement of the office building
+9,no-sub_matrix,5,Main clause,", the administrator wrote everything by hand ."
+10,sub_no-matrix,1,Subordinate clause 1,After the minister
+10,sub_no-matrix,2,subj_modifier,in the dark suit and white tie
+10,sub_no-matrix,3,Subordinate clause 2,praised the new building
+10,sub_no-matrix,4,obj_modifier,on the town 's main square
+10,sub_no-matrix,5,Main clause,.
+10,no-sub_no-matrix,1,Subordinate clause 1,The minister
+10,no-sub_no-matrix,2,subj_modifier,in the dark suit and white tie
+10,no-sub_no-matrix,3,Subordinate clause 2,praised the new building
+10,no-sub_no-matrix,4,obj_modifier,on the town 's main square
+10,no-sub_no-matrix,5,Main clause,.
+10,sub_matrix,1,Subordinate clause 1,After the minister
+10,sub_matrix,2,subj_modifier,in the dark suit and white tie
+10,sub_matrix,3,Subordinate clause 2,praised the new building
+10,sub_matrix,4,obj_modifier,on the town 's main square
+10,sub_matrix,5,Main clause,", it started to rain ."
+10,no-sub_matrix,1,Subordinate clause 1,The minister
+10,no-sub_matrix,2,subj_modifier,in the dark suit and white tie
+10,no-sub_matrix,3,Subordinate clause 2,praised the new building
+10,no-sub_matrix,4,obj_modifier,on the town 's main square
+10,no-sub_matrix,5,Main clause,", it started to rain ."
+11,sub_no-matrix,1,Subordinate clause 1,Because the architect
+11,sub_no-matrix,2,subj_modifier,from the rival firm across town
+11,sub_no-matrix,3,Subordinate clause 2,read the plans
+11,sub_no-matrix,4,obj_modifier,from the local housing authority
+11,sub_no-matrix,5,Main clause,.
+11,no-sub_no-matrix,1,Subordinate clause 1,The architect
+11,no-sub_no-matrix,2,subj_modifier,from the rival firm across town
+11,no-sub_no-matrix,3,Subordinate clause 2,read the plans
+11,no-sub_no-matrix,4,obj_modifier,from the local housing authority
+11,no-sub_no-matrix,5,Main clause,.
+11,sub_matrix,1,Subordinate clause 1,Because the architect
+11,sub_matrix,2,subj_modifier,from the rival firm across town
+11,sub_matrix,3,Subordinate clause 2,read the plans
+11,sub_matrix,4,obj_modifier,from the local housing authority
+11,sub_matrix,5,Main clause,", the house was built correctly ."
+11,no-sub_matrix,1,Subordinate clause 1,The architect
+11,no-sub_matrix,2,subj_modifier,from the rival firm across town
+11,no-sub_matrix,3,Subordinate clause 2,read the plans
+11,no-sub_matrix,4,obj_modifier,from the local housing authority
+11,no-sub_matrix,5,Main clause,", the house was built correctly ."
+12,sub_no-matrix,1,Subordinate clause 1,Before the actor
+12,sub_no-matrix,2,subj_modifier,with the loud singing voice
+12,sub_no-matrix,3,Subordinate clause 2,delivered the speech
+12,sub_no-matrix,4,obj_modifier,on the true meaning of life
+12,sub_no-matrix,5,Main clause,.
+12,no-sub_no-matrix,1,Subordinate clause 1,The actor
+12,no-sub_no-matrix,2,subj_modifier,with the loud singing voice
+12,no-sub_no-matrix,3,Subordinate clause 2,delivered the speech
+12,no-sub_no-matrix,4,obj_modifier,on the true meaning of life
+12,no-sub_no-matrix,5,Main clause,.
+12,sub_matrix,1,Subordinate clause 1,Before the actor
+12,sub_matrix,2,subj_modifier,with the loud singing voice
+12,sub_matrix,3,Subordinate clause 2,delivered the speech
+12,sub_matrix,4,obj_modifier,on the true meaning of life
+12,sub_matrix,5,Main clause,", she took a deep breath ."
+12,no-sub_matrix,1,Subordinate clause 1,The actor
+12,no-sub_matrix,2,subj_modifier,with the loud singing voice
+12,no-sub_matrix,3,Subordinate clause 2,delivered the speech
+12,no-sub_matrix,4,obj_modifier,on the true meaning of life
+12,no-sub_matrix,5,Main clause,", she took a deep breath ."
+13,sub_no-matrix,1,Subordinate clause 1,While the pianist
+13,sub_no-matrix,2,subj_modifier,with the long fingers
+13,sub_no-matrix,3,Subordinate clause 2,practiced the music
+13,sub_no-matrix,4,obj_modifier,with a difficult time signature
+13,sub_no-matrix,5,Main clause,.
+13,no-sub_no-matrix,1,Subordinate clause 1,The pianist
+13,no-sub_no-matrix,2,subj_modifier,with the long fingers
+13,no-sub_no-matrix,3,Subordinate clause 2,practiced the music
+13,no-sub_no-matrix,4,obj_modifier,with a difficult time signature
+13,no-sub_no-matrix,5,Main clause,.
+13,sub_matrix,1,Subordinate clause 1,While the pianist
+13,sub_matrix,2,subj_modifier,with the long fingers
+13,sub_matrix,3,Subordinate clause 2,practiced the music
+13,sub_matrix,4,obj_modifier,with a difficult time signature
+13,sub_matrix,5,Main clause,", the conductor stretched his arms ."
+13,no-sub_matrix,1,Subordinate clause 1,The pianist
+13,no-sub_matrix,2,subj_modifier,with the long fingers
+13,no-sub_matrix,3,Subordinate clause 2,practiced the music
+13,no-sub_matrix,4,obj_modifier,with a difficult time signature
+13,no-sub_matrix,5,Main clause,", the conductor stretched his arms ."
+14,sub_no-matrix,1,Subordinate clause 1,Although the students
+14,sub_no-matrix,2,subj_modifier,in the third year class
+14,sub_no-matrix,3,Subordinate clause 2,enjoyed the novel
+14,sub_no-matrix,4,obj_modifier,about life during the civil war
+14,sub_no-matrix,5,Main clause,.
+14,no-sub_no-matrix,1,Subordinate clause 1,The students
+14,no-sub_no-matrix,2,subj_modifier,in the third year class
+14,no-sub_no-matrix,3,Subordinate clause 2,enjoyed the novel
+14,no-sub_no-matrix,4,obj_modifier,about life during the civil war
+14,no-sub_no-matrix,5,Main clause,.
+14,sub_matrix,1,Subordinate clause 1,Although the students
+14,sub_matrix,2,subj_modifier,in the third year class
+14,sub_matrix,3,Subordinate clause 2,enjoyed the novel
+14,sub_matrix,4,obj_modifier,about life during the civil war
+14,sub_matrix,5,Main clause,", the teacher considered it poorly written ."
+14,no-sub_matrix,1,Subordinate clause 1,The students
+14,no-sub_matrix,2,subj_modifier,in the third year class
+14,no-sub_matrix,3,Subordinate clause 2,enjoyed the novel
+14,no-sub_matrix,4,obj_modifier,about life during the civil war
+14,no-sub_matrix,5,Main clause,", the teacher considered it poorly written ."
+15,sub_no-matrix,1,Subordinate clause 1,While the maid
+15,sub_no-matrix,2,subj_modifier,with an abrasive and negative attitude
+15,sub_no-matrix,3,Subordinate clause 2,read the magazine
+15,sub_no-matrix,4,obj_modifier,on home repair and backyard maintenance
+15,sub_no-matrix,5,Main clause,.
+15,no-sub_no-matrix,1,Subordinate clause 1,The maid
+15,no-sub_no-matrix,2,subj_modifier,with an abrasive and negative attitude
+15,no-sub_no-matrix,3,Subordinate clause 2,read the magazine
+15,no-sub_no-matrix,4,obj_modifier,on home repair and backyard maintenance
+15,no-sub_no-matrix,5,Main clause,.
+15,sub_matrix,1,Subordinate clause 1,While the maid
+15,sub_matrix,2,subj_modifier,with an abrasive and negative attitude
+15,sub_matrix,3,Subordinate clause 2,read the magazine
+15,sub_matrix,4,obj_modifier,on home repair and backyard maintenance
+15,sub_matrix,5,Main clause,", the customer waited at her table ."
+15,no-sub_matrix,1,Subordinate clause 1,The maid
+15,no-sub_matrix,2,subj_modifier,with an abrasive and negative attitude
+15,no-sub_matrix,3,Subordinate clause 2,read the magazine
+15,no-sub_matrix,4,obj_modifier,on home repair and backyard maintenance
+15,no-sub_matrix,5,Main clause,", the customer waited at her table ."
+16,sub_no-matrix,1,Subordinate clause 1,Before the assistant
+16,sub_no-matrix,2,subj_modifier,from the crowded office down the hall 
+16,sub_no-matrix,3,Subordinate clause 2,wrote the letter
+16,sub_no-matrix,4,obj_modifier,about potential corruption and bribery
+16,sub_no-matrix,5,Main clause,.
+16,no-sub_no-matrix,1,Subordinate clause 1,The assistant
+16,no-sub_no-matrix,2,subj_modifier,from the crowded office down the hall 
+16,no-sub_no-matrix,3,Subordinate clause 2,wrote the letter
+16,no-sub_no-matrix,4,obj_modifier,about potential corruption and bribery
+16,no-sub_no-matrix,5,Main clause,.
+16,sub_matrix,1,Subordinate clause 1,Before the assistant
+16,sub_matrix,2,subj_modifier,from the crowded office down the hall 
+16,sub_matrix,3,Subordinate clause 2,wrote the letter
+16,sub_matrix,4,obj_modifier,about potential corruption and bribery
+16,sub_matrix,5,Main clause,", she had a cup of coffee ."
+16,no-sub_matrix,1,Subordinate clause 1,The assistant
+16,no-sub_matrix,2,subj_modifier,from the crowded office down the hall 
+16,no-sub_matrix,3,Subordinate clause 2,wrote the letter
+16,no-sub_matrix,4,obj_modifier,about potential corruption and bribery
+16,no-sub_matrix,5,Main clause,", she had a cup of coffee ."
+17,sub_no-matrix,1,Subordinate clause 1,After the diplomat
+17,sub_no-matrix,2,subj_modifier,from the friendly country in Africa
+17,sub_no-matrix,3,Subordinate clause 2,presented the file
+17,sub_no-matrix,4,obj_modifier,on international peace and cooperation
+17,sub_no-matrix,5,Main clause,.
+17,no-sub_no-matrix,1,Subordinate clause 1,The diplomat
+17,no-sub_no-matrix,2,subj_modifier,from the friendly country in Africa
+17,no-sub_no-matrix,3,Subordinate clause 2,presented the file
+17,no-sub_no-matrix,4,obj_modifier,on international peace and cooperation
+17,no-sub_no-matrix,5,Main clause,.
+17,sub_matrix,1,Subordinate clause 1,After the diplomat
+17,sub_matrix,2,subj_modifier,from the friendly country in Africa
+17,sub_matrix,3,Subordinate clause 2,presented the file
+17,sub_matrix,4,obj_modifier,on international peace and cooperation
+17,sub_matrix,5,Main clause,", the ambassador gave a speech ."
+17,no-sub_matrix,1,Subordinate clause 1,The diplomat
+17,no-sub_matrix,2,subj_modifier,from the friendly country in Africa
+17,no-sub_matrix,3,Subordinate clause 2,presented the file
+17,no-sub_matrix,4,obj_modifier,on international peace and cooperation
+17,no-sub_matrix,5,Main clause,", the ambassador gave a speech ."
+18,sub_no-matrix,1,Subordinate clause 1,While the officials
+18,sub_no-matrix,2,subj_modifier,in dark suits and bright ties
+18,sub_no-matrix,3,Subordinate clause 2,reviewed the contract
+18,sub_no-matrix,4,obj_modifier,for increased salaries and bonuses
+18,sub_no-matrix,5,Main clause,.
+18,no-sub_no-matrix,1,Subordinate clause 1,The officials
+18,no-sub_no-matrix,2,subj_modifier,in dark suits and bright ties
+18,no-sub_no-matrix,3,Subordinate clause 2,reviewed the contract
+18,no-sub_no-matrix,4,obj_modifier,for increased salaries and bonuses
+18,no-sub_no-matrix,5,Main clause,.
+18,sub_matrix,1,Subordinate clause 1,While the officials
+18,sub_matrix,2,subj_modifier,in dark suits and bright ties
+18,sub_matrix,3,Subordinate clause 2,reviewed the contract
+18,sub_matrix,4,obj_modifier,for increased salaries and bonuses
+18,sub_matrix,5,Main clause,", the players waited nervously ."
+18,no-sub_matrix,1,Subordinate clause 1,The officials
+18,no-sub_matrix,2,subj_modifier,in dark suits and bright ties
+18,no-sub_matrix,3,Subordinate clause 2,reviewed the contract
+18,no-sub_matrix,4,obj_modifier,for increased salaries and bonuses
+18,no-sub_matrix,5,Main clause,", the players waited nervously ."
+19,sub_no-matrix,1,Subordinate clause 1,Because the clerk
+19,sub_no-matrix,2,subj_modifier,in the New England town 
+19,sub_no-matrix,3,Subordinate clause 2,lost the plans
+19,sub_no-matrix,4,obj_modifier,for the broken water system
+19,sub_no-matrix,5,Main clause,.
+19,no-sub_no-matrix,1,Subordinate clause 1,The clerk
+19,no-sub_no-matrix,2,subj_modifier,in the New England town 
+19,no-sub_no-matrix,3,Subordinate clause 2,lost the plans
+19,no-sub_no-matrix,4,obj_modifier,for the broken water system
+19,no-sub_no-matrix,5,Main clause,.
+19,sub_matrix,1,Subordinate clause 1,Because the clerk
+19,sub_matrix,2,subj_modifier,in the New England town 
+19,sub_matrix,3,Subordinate clause 2,lost the plans
+19,sub_matrix,4,obj_modifier,for the broken water system
+19,sub_matrix,5,Main clause,", the detective looked elsewhere ."
+19,no-sub_matrix,1,Subordinate clause 1,The clerk
+19,no-sub_matrix,2,subj_modifier,in the New England town 
+19,no-sub_matrix,3,Subordinate clause 2,lost the plans
+19,no-sub_matrix,4,obj_modifier,for the broken water system
+19,no-sub_matrix,5,Main clause,", the detective looked elsewhere ."
+20,sub_no-matrix,1,Subordinate clause 1,While the tourists
+20,sub_no-matrix,2,subj_modifier,from the village far away
+20,sub_no-matrix,3,Subordinate clause 2,read the guide
+20,sub_no-matrix,4,obj_modifier,on local customs and religious practices
+20,sub_no-matrix,5,Main clause,.
+20,no-sub_no-matrix,1,Subordinate clause 1,The tourists
+20,no-sub_no-matrix,2,subj_modifier,from the village far away
+20,no-sub_no-matrix,3,Subordinate clause 2,read the guide
+20,no-sub_no-matrix,4,obj_modifier,on local customs and religious practices
+20,no-sub_no-matrix,5,Main clause,.
+20,sub_matrix,1,Subordinate clause 1,While the tourists
+20,sub_matrix,2,subj_modifier,from the village far away
+20,sub_matrix,3,Subordinate clause 2,read the guide
+20,sub_matrix,4,obj_modifier,on local customs and religious practices
+20,sub_matrix,5,Main clause,", the children played in the sand ."
+20,no-sub_matrix,1,Subordinate clause 1,The tourists
+20,no-sub_matrix,2,subj_modifier,from the village far away
+20,no-sub_matrix,3,Subordinate clause 2,read the guide
+20,no-sub_matrix,4,obj_modifier,on local customs and religious practices
+20,no-sub_matrix,5,Main clause,", the children played in the sand ."
+21,sub_no-matrix,1,Subordinate clause 1,When the politicians
+21,sub_no-matrix,2,subj_modifier,with white hair expensive suits
+21,sub_no-matrix,3,Subordinate clause 2,passed the new law
+21,sub_no-matrix,4,obj_modifier,on tax reform and student debt
+21,sub_no-matrix,5,Main clause,.
+21,no-sub_no-matrix,1,Subordinate clause 1,The politicians
+21,no-sub_no-matrix,2,subj_modifier,with white hair expensive suits
+21,no-sub_no-matrix,3,Subordinate clause 2,passed the new law
+21,no-sub_no-matrix,4,obj_modifier,on tax reform and student debt
+21,no-sub_no-matrix,5,Main clause,.
+21,sub_matrix,1,Subordinate clause 1,When the politicians
+21,sub_matrix,2,subj_modifier,with white hair expensive suits
+21,sub_matrix,3,Subordinate clause 2,passed the new law
+21,sub_matrix,4,obj_modifier,on tax reform and student debt
+21,sub_matrix,5,Main clause,", the protestors blocked traffic outside ."
+21,no-sub_matrix,1,Subordinate clause 1,The politicians
+21,no-sub_matrix,2,subj_modifier,with white hair expensive suits
+21,no-sub_matrix,3,Subordinate clause 2,passed the new law
+21,no-sub_matrix,4,obj_modifier,on tax reform and student debt
+21,no-sub_matrix,5,Main clause,", the protestors blocked traffic outside ."
+22,sub_no-matrix,1,Subordinate clause 1,When the police
+22,sub_no-matrix,2,subj_modifier,from the small town in Alabama
+22,sub_no-matrix,3,Subordinate clause 2,found new evidence
+22,sub_no-matrix,4,obj_modifier,about the alleged art theft
+22,sub_no-matrix,5,Main clause,.
+22,no-sub_no-matrix,1,Subordinate clause 1,The police
+22,no-sub_no-matrix,2,subj_modifier,from the small town in Alabama
+22,no-sub_no-matrix,3,Subordinate clause 2,found new evidence
+22,no-sub_no-matrix,4,obj_modifier,about the alleged art theft
+22,no-sub_no-matrix,5,Main clause,.
+22,sub_matrix,1,Subordinate clause 1,When the police
+22,sub_matrix,2,subj_modifier,from the small town in Alabama
+22,sub_matrix,3,Subordinate clause 2,found new evidence
+22,sub_matrix,4,obj_modifier,about the alleged art theft
+22,sub_matrix,5,Main clause,", the judge declared a mistrial ."
+22,no-sub_matrix,1,Subordinate clause 1,The police
+22,no-sub_matrix,2,subj_modifier,from the small town in Alabama
+22,no-sub_matrix,3,Subordinate clause 2,found new evidence
+22,no-sub_matrix,4,obj_modifier,about the alleged art theft
+22,no-sub_matrix,5,Main clause,", the judge declared a mistrial ."
+23,sub_no-matrix,1,Subordinate clause 1,Before the students
+23,sub_no-matrix,2,subj_modifier,from foreign countries in Europe
+23,sub_no-matrix,3,Subordinate clause 2,handed in their papers
+23,sub_no-matrix,4,obj_modifier,on the modern art world
+23,sub_no-matrix,5,Main clause,.
+23,no-sub_no-matrix,1,Subordinate clause 1,The students
+23,no-sub_no-matrix,2,subj_modifier,from foreign countries in Europe
+23,no-sub_no-matrix,3,Subordinate clause 2,handed in their papers
+23,no-sub_no-matrix,4,obj_modifier,on the modern art world
+23,no-sub_no-matrix,5,Main clause,.
+23,sub_matrix,1,Subordinate clause 1,Before the students
+23,sub_matrix,2,subj_modifier,from foreign countries in Europe
+23,sub_matrix,3,Subordinate clause 2,handed in their papers
+23,sub_matrix,4,obj_modifier,on the modern art world
+23,sub_matrix,5,Main clause,", they revised them all night long ."
+23,no-sub_matrix,1,Subordinate clause 1,The students
+23,no-sub_matrix,2,subj_modifier,from foreign countries in Europe
+23,no-sub_matrix,3,Subordinate clause 2,handed in their papers
+23,no-sub_matrix,4,obj_modifier,on the modern art world
+23,no-sub_matrix,5,Main clause,", they revised them all night long ."
