@@ -4,10 +4,7 @@
         "metric": "sum",
         "comment": "",
         "reference": "",
-        "author": "",
-        "string_predictions": [
-            "[ (8;%match_sing%) < (8;%mismatch_sing%) ] & [ (8;%match_plural%) < (8;%mismatch_plural%) ]"
-        ]
+        "author": ""
     },
     "region_meta": {
         "1": "intro",
@@ -19,7 +16,12 @@
         "7": "matrix_v",
         "8": "reflexive"
     },
-    "predictions": [],
+    "predictions": [
+        {
+            "type": "formula",
+            "formula": "[ (8;%match_sing%) < (8;%mismatch_sing%) ] & [ (8;%match_plural%) < (8;%mismatch_plural%) ]"
+        }
+    ],
     "items": [
         {
             "item_number": 1,

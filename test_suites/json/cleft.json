@@ -4,10 +4,7 @@
         "metric": "sum",
         "comment": "The below prediction is relatively EASY (getting the interaction right) The below prediction is relatively HARD (each mismatch condition has to be more surprising than the corresponding match condition) #Prediction [(6;%np_mismatch%)>(6;%np_match%)]&[[(5;%vp_mismatch%)+(6;%vp_mismatch%)]>[(5;%vp_match%)+(6;%vp_match%)]]",
         "reference": "",
-        "author": "",
-        "string_predictions": [
-            "[(6;%np_mismatch%)-(6;%np_match%)]+[[(5;%vp_mismatch%)+(6;%vp_mismatch%)]-[(5;%vp_match%)+(6;%vp_match%)]]>0"
-        ]
+        "author": ""
     },
     "region_meta": {
         "1": "intro",
@@ -17,7 +14,12 @@
         "5": "verb.1",
         "6": "matrix_v"
     },
-    "predictions": [],
+    "predictions": [
+        {
+            "type": "formula",
+            "formula": "[(6;%np_mismatch%)-(6;%np_match%)]+[[(5;%vp_mismatch%)+(6;%vp_mismatch%)]-[(5;%vp_match%)+(6;%vp_match%)]]>0"
+        }
+    ],
     "items": [
         {
             "item_number": 1,

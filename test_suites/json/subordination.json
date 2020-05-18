@@ -4,17 +4,19 @@
         "metric": "sum",
         "comment": "Below is the prediction of an interaction (a lower bar). #Prediction [(3;%sub_no-matrix%) - (3;%no-sub_no-matrix%) ] - [(3;%sub_matrix%) - (3;%no-sub_matrix%) ] > 0 Below is Ethan's original prediction -- a higher bar.",
         "reference": "",
-        "author": "",
-        "string_predictions": [
-            "[(3;%sub_no-matrix%) > (3;%no-sub_no-matrix%) ] & [(3;%sub_matrix%) < (3;%no-sub_matrix%) ]"
-        ]
+        "author": ""
     },
     "region_meta": {
         "1": "Subordinate clause 1",
         "2": "Subordinate clause 2",
         "3": "Main clause"
     },
-    "predictions": [],
+    "predictions": [
+        {
+            "type": "formula",
+            "formula": "[(3;%sub_no-matrix%) > (3;%no-sub_no-matrix%) ] & [(3;%sub_matrix%) < (3;%no-sub_matrix%) ]"
+        }
+    ],
     "items": [
         {
             "item_number": 1,

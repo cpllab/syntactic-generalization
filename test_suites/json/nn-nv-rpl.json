@@ -4,11 +4,7 @@
         "metric": "sum",
         "comment": "Simple NN/NV ambiguity",
         "reference": "MacDonald 1993",
-        "author": "Roger Levy",
-        "string_predictions": [
-            "(5;%nn_ambig%)>(5;%nn_unambig%)",
-            "(5;%nv_ambig%)>(5;%nv_unambig%)"
-        ]
+        "author": "Roger Levy"
     },
     "region_meta": {
         "1": "det",
@@ -17,7 +13,16 @@
         "4": "resolution",
         "5": "rest"
     },
-    "predictions": [],
+    "predictions": [
+        {
+            "type": "formula",
+            "formula": "(5;%nn_ambig%)>(5;%nn_unambig%)"
+        },
+        {
+            "type": "formula",
+            "formula": "(5;%nv_ambig%)>(5;%nv_unambig%)"
+        }
+    ],
     "items": [
         {
             "item_number": 1,

@@ -4,10 +4,7 @@
         "metric": "sum",
         "comment": "The below prediction is about the OBJECT position",
         "reference": "",
-        "author": "",
-        "string_predictions": [
-            "[(5;%what_nogap%) > (5;%that_nogap%) ] & [(6;%what_gap%) < (6;%that_gap%) ] "
-        ]
+        "author": ""
     },
     "region_meta": {
         "1": "prefix",
@@ -19,7 +16,12 @@
         "7": "np3",
         "8": "end"
     },
-    "predictions": [],
+    "predictions": [
+        {
+            "type": "formula",
+            "formula": "[(5;%what_nogap%) > (5;%that_nogap%) ] & [(6;%what_gap%) < (6;%that_gap%) ] "
+        }
+    ],
     "items": [
         {
             "item_number": 1,

@@ -4,10 +4,7 @@
         "metric": "sum",
         "comment": "Below is the basic garden-path effect (in the ambiguous condition) #Prediction (6;%reduced_ambig%) > (6;%unreduced_ambig%) Below is the basic garden-path effect (in the ambiguous condition) plus an effect of reduction #Prediction [(6;%reduced_ambig%) > (6;%unreduced_ambig%)] & [(6;%reduced_ambig%) > (6;%reduced_unambig%)] Below is the basic garden-path effect (in the ambiguous condition) plus an effect of reduction plus an interaction so that unambiguous reduces the effect Below is the highest bar for evaluation: complete elimination of GP effect from morphologically ambiguous verb #Prediction [(6;%reduced_ambig%) > (6;%unreduced_ambig%) ] & [(6;%reduced_unambig%) = (6;%unreduced_unambig%)] Below is what Ethan had but Roger doesn't think it's what we want #Prediction [(6;%reduced_ambig%) > (6;%reduced_unambig%) ] & [(6;%unreduced_ambig%) = (6;%unreduced_unambig%)] \"\"\"sunk\"\" is sometimes used as a past-tense mv  but it's sufficiently infrequent relative to \"\"sank\"\" that we should be OK\"",
         "reference": "",
-        "author": "",
-        "string_predictions": [
-            "[(6;%reduced_ambig%) > (6;%unreduced_ambig%)] & [(6;%reduced_ambig%) > (6;%reduced_unambig%)] & [[(6;%reduced_ambig%) - (6;%unreduced_ambig%)] > [(6;%reduced_unambig%) - (6;%unreduced_unambig%)]]"
-        ]
+        "author": ""
     },
     "region_meta": {
         "1": "Start",
@@ -18,7 +15,12 @@
         "6": "Disambiguator",
         "7": "End"
     },
-    "predictions": [],
+    "predictions": [
+        {
+            "type": "formula",
+            "formula": "[(6;%reduced_ambig%) > (6;%unreduced_ambig%)] & [(6;%reduced_ambig%) > (6;%reduced_unambig%)] & [[(6;%reduced_ambig%) - (6;%unreduced_ambig%)] > [(6;%reduced_unambig%) - (6;%unreduced_unambig%)]]"
+        }
+    ],
     "items": [
         {
             "item_number": 1,

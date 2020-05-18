@@ -4,10 +4,7 @@
         "metric": "sum",
         "comment": "",
         "reference": "",
-        "author": "",
-        "string_predictions": [
-            "[(3;%what_nogap%) > (3;%that_nogap%) ] & [(4;%what_gap%) < (4;%that_gap%) ] "
-        ]
+        "author": ""
     },
     "region_meta": {
         "1": "prefix",
@@ -19,7 +16,12 @@
         "7": "np3",
         "8": "end"
     },
-    "predictions": [],
+    "predictions": [
+        {
+            "type": "formula",
+            "formula": "[(3;%what_nogap%) > (3;%that_nogap%) ] & [(4;%what_gap%) < (4;%that_gap%) ] "
+        }
+    ],
     "items": [
         {
             "item_number": 1,

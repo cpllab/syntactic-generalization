@@ -4,11 +4,7 @@
         "metric": "sum",
         "comment": "",
         "reference": "",
-        "author": "",
-        "string_predictions": [
-            "[(6;%what_nogap%) >  (6;%that_nogap%)] & [(6;%what_subjgap%) <  (6;%that_subjgap%)]",
-            "[(9;%what_nogap%) =  (9;%that_nogap%)]& [(6;%what_subjgap%) =  (6;%that_subjgap%)] "
-        ]
+        "author": ""
     },
     "region_meta": {
         "1": "prefix",
@@ -21,7 +17,16 @@
         "8": "matrix_gap",
         "9": "continuation"
     },
-    "predictions": [],
+    "predictions": [
+        {
+            "type": "formula",
+            "formula": "[(6;%what_nogap%) >  (6;%that_nogap%)] & [(6;%what_subjgap%) <  (6;%that_subjgap%)]"
+        },
+        {
+            "type": "formula",
+            "formula": "[(9;%what_nogap%) =  (9;%that_nogap%)]& [(6;%what_subjgap%) =  (6;%that_subjgap%)] "
+        }
+    ],
     "items": [
         {
             "item_number": 1,

@@ -4,10 +4,7 @@
         "metric": "sum",
         "comment": "",
         "reference": "",
-        "author": "",
-        "string_predictions": [
-            "[ (7;%plaus%) + (8;%plaus%) ] < [ (7;%implaus%) + (8;%implaus%) ]"
-        ]
+        "author": ""
     },
     "region_meta": {
         "1": "intro",
@@ -19,7 +16,12 @@
         "7": "verb1",
         "8": "verb2"
     },
-    "predictions": [],
+    "predictions": [
+        {
+            "type": "formula",
+            "formula": "[ (7;%plaus%) + (8;%plaus%) ] < [ (7;%implaus%) + (8;%implaus%) ]"
+        }
+    ],
     "items": [
         {
             "item_number": 1,

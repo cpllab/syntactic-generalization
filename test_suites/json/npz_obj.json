@@ -4,10 +4,7 @@
         "metric": "sum",
         "comment": "Below is a simple two-criterion GP prediction. #Prediction [(5;%no-obj_no-comma%) > (5;%no-obj_comma%) ] &  [(5;%no-obj_no-comma%) > (5;%obj_no-comma%) ] Below is the more stringent prediction of the interaction. Below is Ethan's original prediction #Prediction [(5;%no-obj_no-comma%) > (5;%no-obj_comma%) ] & [(5;%no-obj_comma%) = (5;%obj_comma%) ]",
         "reference": "",
-        "author": "",
-        "string_predictions": [
-            "[(5;%no-obj_no-comma%) > (5;%no-obj_comma%) ] &  [(5;%no-obj_no-comma%) > (5;%obj_no-comma%) ] & [[(5;%no-obj_no-comma%) - (5;%no-obj_comma%) ] > [(5;%obj_no-comma%) - (5;%obj_comma%) ]]"
-        ]
+        "author": ""
     },
     "region_meta": {
         "1": "Start",
@@ -17,7 +14,12 @@
         "5": "Verb",
         "6": "Continuation"
     },
-    "predictions": [],
+    "predictions": [
+        {
+            "type": "formula",
+            "formula": "[(5;%no-obj_no-comma%) > (5;%no-obj_comma%) ] &  [(5;%no-obj_no-comma%) > (5;%obj_no-comma%) ] & [[(5;%no-obj_no-comma%) - (5;%no-obj_comma%) ] > [(5;%obj_no-comma%) - (5;%obj_comma%) ]]"
+        }
+    ],
     "items": [
         {
             "item_number": 1,

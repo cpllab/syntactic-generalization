@@ -4,10 +4,7 @@
         "metric": "sum",
         "comment": "The following prediction should be relatively EASY (getting the differences-of-differences interaction in the right direction) #Prediction [(6;%what_no-gap%)-(6;%that_no-gap%)] + [(7;%that_gap%)-(7;%what_gap%)]>0  The following prediction should be relatively HARD (getting the direction of the that vs. what contrast right in both the gap and no-gap conditions)",
         "reference": "Wilcox et al. 2018",
-        "author": "Ethan Wilcox",
-        "string_predictions": [
-            "[(6;%what_no-gap%)>(6;%that_no-gap%)] & [(7;%what_gap%)<(7;%that_gap%)]"
-        ]
+        "author": "Ethan Wilcox"
     },
     "region_meta": {
         "1": "prefix",
@@ -18,7 +15,12 @@
         "6": "Unnamed: 7",
         "7": "continuation"
     },
-    "predictions": [],
+    "predictions": [
+        {
+            "type": "formula",
+            "formula": "[(6;%what_no-gap%)>(6;%that_no-gap%)] & [(7;%what_gap%)<(7;%that_gap%)]"
+        }
+    ],
     "items": [
         {
             "item_number": 1,
