@@ -35,7 +35,7 @@ m.log <- lmer(performance ~ log(numwords) + architecture + (log(numwords) + arch
 #m0.lin <- lmer(performance ~ architecture + (numwords + architecture | suite) + (1|instance),data=dat.by_suite,REML=F,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=200000) ))
 m0.log <- lmer(performance ~ architecture + (log(numwords) + architecture | suite) + (1|instance),data=dat.by_suite,REML=F,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=200000) ))
 #m0.arch.lin <- lmer(performance ~ numwords + (numwords + architecture | suite) + (1|instance),data=dat.by_suite,REML=F,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=200000) ))
-m0.arch.log <- lmer(performance ~ numwords + (log(numwords) + architecture | suite) + (1|instance),data=dat.by_suite,REML=F,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=200000) ))
+m0.arch.log <- lmer(performance ~ log(numwords) + (log(numwords) + architecture | suite) + (1|instance),data=dat.by_suite,REML=F,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=200000) ))
 
 #summary(m.lin)
 summary(m.log)

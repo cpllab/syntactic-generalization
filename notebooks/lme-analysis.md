@@ -16,14 +16,14 @@ AIC results that go into the paper, search for
     ##   method            from
     ##   read_xml.response xml2
 
-    ## ── Attaching packages ─────────────────────────────────────────────────────────────────────────────────── tidyverse 1.2.1 ──
+    ## ── Attaching packages ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse 1.2.1 ──
 
     ## ✔ ggplot2 3.1.1       ✔ purrr   0.3.2  
     ## ✔ tibble  2.1.1       ✔ dplyr   0.8.0.1
     ## ✔ tidyr   0.8.3       ✔ stringr 1.4.0  
     ## ✔ readr   1.3.1       ✔ forcats 0.4.0
 
-    ## ── Conflicts ────────────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+    ## ── Conflicts ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
     ## ✖ dplyr::filter() masks stats::filter()
     ## ✖ dplyr::lag()    masks stats::lag()
 
@@ -99,7 +99,7 @@ AIC results that go into the paper, search for
     #m0.lin <- lmer(performance ~ architecture + (numwords + architecture | suite) + (1|instance),data=dat.by_suite,REML=F,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=200000) ))
     m0.log <- lmer(performance ~ architecture + (log(numwords) + architecture | suite) + (1|instance),data=dat.by_suite,REML=F,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=200000) ))
     #m0.arch.lin <- lmer(performance ~ numwords + (numwords + architecture | suite) + (1|instance),data=dat.by_suite,REML=F,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=200000) ))
-    m0.arch.log <- lmer(performance ~ numwords + (log(numwords) + architecture | suite) + (1|instance),data=dat.by_suite,REML=F,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=200000) ))
+    m0.arch.log <- lmer(performance ~ log(numwords) + (log(numwords) + architecture | suite) + (1|instance),data=dat.by_suite,REML=F,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=200000) ))
 
     #summary(m.lin)
     summary(m.log)
@@ -175,13 +175,13 @@ AIC results that go into the paper, search for
 
     ## Data: dat.by_suite
     ## Models:
-    ## m0.arch.log: performance ~ numwords + (log(numwords) + architecture | suite) + 
-    ## m0.arch.log:     (1 | instance)
+    ## m0.arch.log: performance ~ log(numwords) + (log(numwords) + architecture | 
+    ## m0.arch.log:     suite) + (1 | instance)
     ## m.log: performance ~ log(numwords) + architecture + (log(numwords) + 
     ## m.log:     architecture | suite) + (1 | instance)
     ##             Df     AIC     BIC logLik deviance  Chisq Chi Df Pr(>Chisq)
-    ## m0.arch.log 25 -571.55 -442.86 310.77  -621.55                         
-    ## m.log       29 -589.90 -440.62 323.95  -647.90 26.357      4  2.681e-05
+    ## m0.arch.log 25 -573.59 -444.90 311.79  -623.59                         
+    ## m.log       29 -589.90 -440.62 323.95  -647.90 24.317      4  6.901e-05
     ##                
     ## m0.arch.log    
     ## m.log       ***
