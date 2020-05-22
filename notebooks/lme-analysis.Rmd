@@ -1,0 +1,65 @@
+---
+  title: Linear Mixed Effects Analysis for Hu et al. 2020 "A Systematic Assessment of Syntactic Generalization in Neural Language Models"
+  output: md_document
+---
+
+Use the command `R -e "rmarkdown::render('lme-analysis.Rmd',output_file='lme-analysis.md')"` to auto-generate the `.md` file from the `.Rmd` file.  To easily find the AIC results that go into the paper, search for `#****this line for section 4.` in the `.md` version of the file.
+ 
+```{r setup}  
+library(tidyverse)
+library(tidyr)
+library(lme4)
+library(brms)
+
+corpus_sizes <- c("xs"=1,"sm"=4.8,"md"=14,"lg"=42)
+```
+
+```{r read_and_preprocess_data}
+dat <- read_csv("../data/suites_df.csv") %>%
+  mutate(architecture=model_name,size=gsub("^.*(xs|sm|md|lg).*$","\\1",corpus),performance=correct) 
+
+dat.by_suite <- dat %>%
+  group_by(size,architecture,seed,suite,circuit) %>%
+  summarise(performance=mean(correct)) %>%
+  mutate(instance=paste(architecture,size,seed,sep="-")) %>%
+  mutate(numwords=corpus_sizes[size])
+```
+
+```{r corpus_size_effects}
+## Ideally we would impose inequality constraints on the "size" effects, but I don't think we can do this with lme4.
+## So, the analysis below uses number of words in the corpus (either raw or log) as a numeric predictor.
+## note that the bobyqa optimizer helps us get model convergence.
+
+#m.lin <- lmer(performance ~ numwords + architecture + (numwords + architecture | suite) + (1|instance),data=dat.by_suite,REML=F,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=200000) ))
+m.log <- lmer(performance ~ log(numwords) + architecture + (log(numwords) + architecture | suite) + (1|instance),data=dat.by_suite,REML=F,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=200000) ))
+#m0.lin <- lmer(performance ~ architecture + (numwords + architecture | suite) + (1|instance),data=dat.by_suite,REML=F,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=200000) ))
+m0.log <- lmer(performance ~ architecture + (log(numwords) + architecture | suite) + (1|instance),data=dat.by_suite,REML=F,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=200000) ))
+#m0.arch.lin <- lmer(performance ~ numwords + (numwords + architecture | suite) + (1|instance),data=dat.by_suite,REML=F,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=200000) ))
+m0.arch.log <- lmer(performance ~ numwords + (log(numwords) + architecture | suite) + (1|instance),data=dat.by_suite,REML=F,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=200000) ))
+
+#summary(m.lin)
+summary(m.log)
+#anova(m0.lin,m.lin)
+anova(m0.log,m.log) # ****this line for section 4.2
+#anova(m0.arch.lin,m.lin)
+anova(m0.arch.log,m.log) #****this line for section 4.2
+```
+
+```{r Bayesian_analysis_confirms_lme4_analysis, eval=FALSE}
+m.brm.log <- brm(performance ~ log(numwords) + architecture + (log(numwords) + architecture | suite) + (1|instance),data=dat.by_suite,iter=5000,warmup=1000)
+summary(m.brm.log)
+dat.by_suite <- mutate(dat.by_suite,w=numwords/100) # to help make the effect size easily visible in brms' summary()
+m.brm.lin <- brm(performance ~ w + architecture + (w + architecture | suite) + (1|instance),data=dat.by_suite,iter=5000,warmup=1000)
+summary(m.brm.lin)
+```
+
+
+```{r interactions_with_circuit}
+m <- lmer(performance ~ log(numwords)*circuit + architecture*circuit + (log(numwords) + architecture | suite) + (1|instance),data=dat.by_suite,REML=F,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=200000) ))
+m0.size_circuit <- lmer(performance ~ log(numwords) + architecture*circuit + (log(numwords) + architecture | suite) + (1|instance),data=dat.by_suite,REML=F,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=200000) ))
+m0.architecture_circuit <- lmer(performance ~ log(numwords)*circuit + architecture + (log(numwords) + architecture | suite) + (1|instance),data=dat.by_suite,REML=F,control=lmerControl(optimizer="bobyqa",optCtrl=list(maxfun=200000) ))
+summary(m)
+#summary(m0.size_circuit)
+anova(m0.size_circuit,m) #****this line for section 4.3
+anova(m0.architecture_circuit,m) #****this line for section 4.3
+```
