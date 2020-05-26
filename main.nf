@@ -72,3 +72,42 @@ process evaluateSuite {
         > ${tag_name}.csv
     """
 }
+
+
+// Drop metadata
+csv_results.map { it[4] }.into { csv_results_simple }
+
+
+process concatenateResults {
+    publishDir "${params.outdir}"
+
+    input:
+    file(csv_files) from csv_results_simple.collect()
+
+    output:
+    file("all_results.tsv")
+
+    """
+    #!/usr/bin/env python
+    from pathlib import Path
+    import re
+
+    import pandas as pd
+
+    all_dfs = []
+    for path in Path(".").glob("*.csv"):
+        match = re.match(r"([-\\w_]+)_(\\w+)_([-\\w]+)_(\\d+).csv", path.name)
+        test_suite, model_name, corpus, seed = match.groups()
+
+        df = pd.read_csv(path, delim_whitespace=True)
+        df["model_name"] = model_name
+        df["corpus"] = corpus
+        df["seed"] = seed
+        all_dfs.append(df)
+
+    all_dfs = pd.concat(all_dfs).set_index(["model_name", "corpus", "seed",
+                                            "suite", "item_number",
+                                            "prediction_id"])
+    all_dfs.to_csv("all_results.tsv", sep="\\t")
+    """
+}

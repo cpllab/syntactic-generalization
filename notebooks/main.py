@@ -58,7 +58,7 @@ def format_pretrained(model_name):
 PRETTY_COLUMN_MAPS = [
     ("model_name",
      {
-        "vanilla": "LSTM",
+        "tinylstm": "LSTM",
         "ordered-neurons": "ON-LSTM",
         "rnng": "RNNG",
         "ngram": "n-gram",
@@ -92,8 +92,8 @@ ngram_models = ["1gram", "ngram", "ngram-single"]
 baseline_models = ["random"]
 
 # Models for which we designed a controlled training regime
-controlled_models = ["ngram", "ordered-neurons", "vanilla", "rnng", "gpt-2"]
-controlled_nonbpe_models = ["ngram", "ordered-neurons", "vanilla", "rnng"]
+controlled_models = ["ngram", "ordered-neurons", "tinylstm", "rnng", "gpt-2"]
+controlled_nonbpe_models = ["ngram", "ordered-neurons", "tinylstm", "rnng"]
 
 
 # ### Load
@@ -101,8 +101,14 @@ controlled_nonbpe_models = ["ngram", "ordered-neurons", "vanilla", "rnng"]
 # In[ ]:
 
 
+
+
+
+# In[ ]:
+
+
 ppl_data_path = Path("../data/raw/perplexity.csv")
-test_suite_results_path = Path("../data/raw/sg_results")
+test_suite_results_path = Path("../output/all_results.tsv")
 
 
 # In[ ]:
@@ -111,12 +117,9 @@ test_suite_results_path = Path("../data/raw/sg_results")
 perplexity_df = pd.read_csv(ppl_data_path, index_col=["model", "corpus", "seed"])
 perplexity_df.index.set_names("model_name", level=0, inplace=True)
 
-results_df = pd.concat([pd.read_csv(f) for f in test_suite_results_path.glob("*.csv")])
-
-# Split model_id into constituent parts
-model_ids = results_df.model.str.split("_", expand=True).rename(columns={0: "model_name", 1: "corpus", 2: "seed"})
-results_df = pd.concat([results_df, model_ids], axis=1).drop(columns=["model"])
+results_df = pd.read_csv(test_suite_results_path, delim_whitespace=True)
 results_df["seed"] = results_df.seed.fillna("0").astype(int)
+results_df = results_df.rename(columns=dict(item_number="item", result="correct"))
 
 # Add tags
 results_df["tag"] = results_df.suite.transform(lambda s: re.split(r"[-_0-9]", s)[0])
@@ -353,7 +356,7 @@ CORPUS_MARKERS = {
     "BLLIP-SM-GPTBPE": "P",
     "BLLIP-XS-GPTBPE": "X"
 }
-p = sns.color_palette()[:len(joined_data.model_name.unique())]
+p = sns.color_palette()#[:len(joined_data.model_name.unique())]
 MODEL_COLORS = {
     "GPT-2": p[0],
     "LSTM": p[1],
@@ -571,14 +574,17 @@ if RENDER_FINAL:
 # In[ ]:
 
 
-ax_ratio = 8
-f, (ax1,ax2) = plt.subplots(1,2,sharey=False,figsize=(18, 20),gridspec_kw={'width_ratios': [ax_ratio, 1]})
+# Set limits for broken x-axis to  determine proper scaling (ratio of widths).
+ax1max = 250
+ax2min, ax2max = 520, 540
+ax_ratio = ax1max / (ax2max - ax2min)
+f, (ax1,ax2) = plt.subplots(1,2,sharey=False,figsize=(19, 20),gridspec_kw={'width_ratios': [ax_ratio, 1]})
 
 sns.despine()
 palette = sns.cubehelix_palette(4, reverse=True)
 
 markers = {
-    "GPT-2": "o",
+    "GPT-2": "s",
     "RNNG" : "X",
     "ON-LSTM" : "v",
     "LSTM" : "*",
@@ -591,7 +597,7 @@ for m in joined_data.pretty_model_name.unique():
 for ax in [ax1,ax2]:
     sns.scatterplot(data=joined_data, x="test_ppl", y="correct", hue="corpus_size", hue_order=corpus_size_order,
                     markers=markers, palette=palette, style_order=model_order,
-                    s=2000, style="pretty_model_name", ax=ax, zorder=2, alpha=0.8)
+                    s=2300, style="pretty_model_name", ax=ax, zorder=2, alpha=0.8)
     ax.set_xlabel("")
     ax.tick_params(axis='x', which='major', pad=15)
 
@@ -610,11 +616,11 @@ plt.subplots_adjust(wspace=0.2)
 ax1.get_legend().remove()
 ax1.set_ylabel(SG_ABSOLUTE_LABEL)
 ax2.set_ylabel("")
-plt.xlabel(PERPLEXITY_LABEL, labelpad=10, position=(-1.2,0))
+plt.xlabel(PERPLEXITY_LABEL, labelpad=10, position=(-6,0))
 
 # Add break in x-axis
-ax1.set_xlim(0,250)
-ax2.set_xlim(520,540)
+ax1.set_xlim(0,ax1max)
+ax2.set_xlim(ax2min,ax2max)
 # hide the spines between ax1 and ax2
 ax1.spines['right'].set_visible(False)
 ax2.spines['left'].set_visible(False)
@@ -656,7 +662,7 @@ for i, (l, h) in enumerate(zip(labels, handles)):
              handles[i] = Line2D([0], [0], marker=markers[l], color='k', mew=3, lw=0,
                           markerfacecolor='w', markersize=27)
 
-plt.legend(handles, labels, bbox_to_anchor=(-10.25,-0.22), ncol=5, loc="center left", columnspacing=0.5, handletextpad=0.05)
+plt.legend(handles, labels, bbox_to_anchor=(-16.4,-0.18), ncol=5, loc="center left", columnspacing=0.5, handletextpad=0.05)
 
 if RENDER_FINAL:
     # Can't use render_final function because of some spine issues.
