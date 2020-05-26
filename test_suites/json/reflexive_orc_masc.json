@@ -19,7 +19,7 @@
     "predictions": [
         {
             "type": "formula",
-            "formula": "[ (8;%match_sing%) < (8;%mismatch_sing%) ] & [ (8;%match_plural%) < (8;%mismatch_plural%) ]"
+            "formula": "( (8;%match_sing%) < (8;%mismatch_sing%) ) & ( (8;%match_plural%) < (8;%mismatch_plural%) )"
         }
     ],
     "items": [

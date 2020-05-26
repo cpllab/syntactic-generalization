@@ -14,7 +14,7 @@
     "predictions": [
         {
             "type": "formula",
-            "formula": "[(3;%sub_no-matrix%) > (3;%no-sub_no-matrix%) ] & [(3;%sub_matrix%) < (3;%no-sub_matrix%) ]"
+            "formula": "((3;%sub_no-matrix%) > (3;%no-sub_no-matrix%) ) & ((3;%sub_matrix%) < (3;%no-sub_matrix%) )"
         }
     ],
     "items": [

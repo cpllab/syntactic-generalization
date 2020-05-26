@@ -18,7 +18,7 @@
     "predictions": [
         {
             "type": "formula",
-            "formula": "[(6;%ambig_nocomma%) > (6;%ambig_comma%) ] &  [(6;%ambig_nocomma%) > (6;%unambig_nocomma%) ]  & [[(6;%ambig_nocomma%) - (6;%ambig_comma%) ] > [(6;%unambig_nocomma%) - (6;%unambig_comma%) ]]"
+            "formula": "((6;%ambig_nocomma%) > (6;%ambig_comma%) ) &  ((6;%ambig_nocomma%) > (6;%unambig_nocomma%) )  & (((6;%ambig_nocomma%) - (6;%ambig_comma%) ) > ((6;%unambig_nocomma%) - (6;%unambig_comma%) ))"
         }
     ],
     "items": [

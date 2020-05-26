@@ -20,7 +20,7 @@
     "predictions": [
         {
             "type": "formula",
-            "formula": "[ (8;%neg_pos%) < (8;%pos_pos%) ] & [ (8;%neg_neg%) < (8;%pos_neg%) ] & [ (8;%neg_pos%) < (8;%pos_neg%) ]"
+            "formula": "( (8;%neg_pos%) < (8;%pos_pos%) ) & ( (8;%neg_neg%) < (8;%pos_neg%) ) & ( (8;%neg_pos%) < (8;%pos_neg%) )"
         }
     ],
     "items": [

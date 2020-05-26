@@ -19,7 +19,7 @@
     "predictions": [
         {
             "type": "formula",
-            "formula": "[(3;%what_nogap%) > (3;%that_nogap%) ] & [(4;%what_gap%) < (4;%that_gap%) ] "
+            "formula": "((3;%what_nogap%) > (3;%that_nogap%) ) & ((4;%what_gap%) < (4;%that_gap%) ) "
         }
     ],
     "items": [

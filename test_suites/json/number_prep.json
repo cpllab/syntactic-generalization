@@ -18,7 +18,7 @@
     "predictions": [
         {
             "type": "formula",
-            "formula": "[(6;%match_sing%) < (6;%mismatch_sing%)] & [(6;%match_plural%) < (6;%mismatch_plural%)]"
+            "formula": "((6;%match_sing%) < (6;%mismatch_sing%)) & ((6;%match_plural%) < (6;%mismatch_plural%))"
         }
     ],
     "items": [

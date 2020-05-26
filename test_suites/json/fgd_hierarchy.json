@@ -20,11 +20,11 @@
     "predictions": [
         {
             "type": "formula",
-            "formula": "[(6;%what_nogap%) >  (6;%that_nogap%)] & [(6;%what_subjgap%) <  (6;%that_subjgap%)]"
+            "formula": "((6;%what_nogap%) >  (6;%that_nogap%)) & ((6;%what_subjgap%) <  (6;%that_subjgap%))"
         },
         {
             "type": "formula",
-            "formula": "[(9;%what_nogap%) =  (9;%that_nogap%)]& [(6;%what_subjgap%) =  (6;%that_subjgap%)] "
+            "formula": "((9;%what_nogap%) =  (9;%that_nogap%))& ((6;%what_subjgap%) =  (6;%that_subjgap%)) "
         }
     ],
     "items": [

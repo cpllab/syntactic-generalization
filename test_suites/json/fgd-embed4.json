@@ -18,7 +18,7 @@
     "predictions": [
         {
             "type": "formula",
-            "formula": "[(6;%what_no-gap%)>(6;%that_no-gap%)] & [(7;%what_gap%)<(7;%that_gap%)]"
+            "formula": "((6;%what_no-gap%)>(6;%that_no-gap%)) & ((7;%what_gap%)<(7;%that_gap%))"
         }
     ],
     "items": [
