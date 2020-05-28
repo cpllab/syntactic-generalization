@@ -1,0 +1,34 @@
+{
+    "name": "ordered-neurons",
+    "ref_url": "https://github.com/yikangshen/Ordered-Neurons",
+
+    "image": {
+        "maintainer": "jon@gauthiers.net",
+        "version": "<image.sha1>",
+        "checksum": "<image.files_sha1>",
+        "datetime": "<image.datetime>",
+        "supported_features": {
+            "tokenize": true,
+            "unkify": true,
+            "get_surprisals": true,
+            "get_predictions": false,
+            "mount_checkpoint": true
+        },
+        "gpu": {
+            "required": false,
+            "supported": false
+        }
+    },
+
+    "vocabulary": {
+        "unk_types": ["UNK", "UNK-CAPS", "UNK-CAPS-DASH", "UNK-CAPS-DASH-s", "UNK-CAPS-NUM", "UNK-CAPS-NUM-DASH", "UNK-CAPS-NUM-DASH-s", "UNK-CAPS-al", "UNK-CAPS-ed", "UNK-CAPS-er", "UNK-CAPS-est", "UNK-CAPS-ing", "UNK-CAPS-ion", "UNK-CAPS-ity", "UNK-CAPS-ly", "UNK-CAPS-s", "UNK-CAPS-y", "UNK-INITC", "UNK-INITC-DASH", "UNK-INITC-DASH-s", "UNK-INITC-KNOWNLC", "UNK-INITC-KNOWNLC-DASH", "UNK-INITC-KNOWNLC-DASH-s", "UNK-INITC-KNOWNLC-al", "UNK-INITC-KNOWNLC-ed", "UNK-INITC-KNOWNLC-er", "UNK-INITC-KNOWNLC-est", "UNK-INITC-KNOWNLC-ing", "UNK-INITC-KNOWNLC-ion", "UNK-INITC-KNOWNLC-ity", "UNK-INITC-KNOWNLC-ly", "UNK-INITC-KNOWNLC-s", "UNK-INITC-KNOWNLC-y", "UNK-INITC-NUM", "UNK-INITC-NUM-DASH", "UNK-INITC-NUM-DASH-s", "UNK-INITC-NUM-s", "UNK-INITC-al", "UNK-INITC-ed", "UNK-INITC-er", "UNK-INITC-est", "UNK-INITC-ing", "UNK-INITC-ion", "UNK-INITC-ity", "UNK-INITC-ly", "UNK-INITC-s", "UNK-INITC-y", "UNK-LC", "UNK-LC-DASH", "UNK-LC-DASH-s", "UNK-LC-NUM", "UNK-LC-NUM-DASH", "UNK-LC-NUM-DASH-s", "UNK-LC-NUM-s", "UNK-LC-al", "UNK-LC-ed", "UNK-LC-er", "UNK-LC-est", "UNK-LC-ing", "UNK-LC-ion", "UNK-LC-ity", "UNK-LC-ly", "UNK-LC-s", "UNK-LC-y", "UNK-NUM", "UNK-NUM-DASH"],
+        "prefix_types": [],
+        "suffix_types": ["<eos>"],
+        "special_types": []
+    },
+
+    "tokenizer": {
+        "type": "word",
+        "cased": true
+    }
+}
