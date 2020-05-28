@@ -2,11 +2,11 @@
 params.outdir = "output"
 
 def checkpoints_to_reference = [
-//    "tinylstm": "singularity://${workflow.launchDir}/models/tinylstm.sif",
-//   "rnng": "singularity://${workflow.launchDir}/models/rnng.sif",
-//    "ngram": "singularity://${workflow.launchDir}/models/ngram.sif",
+    "tinylstm": "singularity://${workflow.launchDir}/models/tinylstm.sif",
+    "rnng": "singularity://${workflow.launchDir}/models/rnng.sif",
+    "ngram": "singularity://${workflow.launchDir}/models/ngram.sif",
     "ordered-neurons": "singularity://${workflow.launchDir}/models/ordered-neurons.sif",
-//   "gpt2": "singularity://${workflow.launchDir}/models/gpt2.sif",
+    "gpt2": "singularity://${workflow.launchDir}/models/gpt2.sif",
 ]
 
 def model_requires_gpu = ["gpt2",]
