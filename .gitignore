@@ -1,1 +1,14 @@
+# inputs
+models/*.sif
+checkpoints
+
+# notebook outputs
+data/suites_df.csv
 .ipynb_checkpoints
+
+# nextflow outputs
+.nextflow*
+report.html*
+reports
+work
+output
