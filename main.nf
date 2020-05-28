@@ -2,7 +2,11 @@
 params.outdir = "output"
 
 def checkpoints_to_reference = [
-    "tinylstm": "docker://cpllab/language-models:tinylstm",
+//    "tinylstm": "singularity://${workflow.launchDir}/models/tinylstm.sif",
+//   "rnng": "singularity://${workflow.launchDir}/models/rnng.sif",
+//    "ngram": "singularity://${workflow.launchDir}/models/ngram.sif",
+    "ordered-neurons": "singularity://${workflow.launchDir}/models/ordered-neurons.sif",
+//   "gpt2": "singularity://${workflow.launchDir}/models/gpt2.sif",
 ]
 
 checkpoints = Channel.fromPath("checkpoints/*/*", type: "dir").map { f ->
@@ -16,12 +20,16 @@ suites = Channel.fromPath("test_suites/json/*.json")
 
 
 process computeSuiteSurprisals {
+    conda "environment.yml"
     publishDir "${params.outdir}/json"
 
     input:
     set file(checkpoint_dir), val(model_name), val(corpus), val(seed), \
         file(test_suite) \
         from checkpoints.combine(suites)
+
+    when:
+    checkpoints_to_reference.containsKey(model_name)
 
     output:
     set model_name, corpus, seed, suite_name, file("${tag_name}.json") \
@@ -37,10 +45,10 @@ process computeSuiteSurprisals {
 
     """
     /usr/bin/env bash
-    source /home/jon/.local/share/virtualenvs/cli-dcBL6M9Q/bin/activate
-    export PYTHONPATH=/home/jon/Projects/syntaxgym/cli:/home/jon/Projects/lm-zoo
-    export PATH="/home/jon/Projects/syntaxgym/cli/bin:\$PATH"
-    syntaxgym -v compute-surprisals \
+#   source /home/jon/.local/share/virtualenvs/cli-dcBL6M9Q/bin/activate
+#   export PYTHONPATH=/home/jon/Projects/syntaxgym/cli:/home/jon/Projects/lm-zoo
+#   export PATH="/home/jon/Projects/syntaxgym/cli/bin:\$PATH"
+    python \$(which syntaxgym) -v compute-surprisals \
         ${model_ref} ${test_suite} \
         --checkpoint ${checkpoint_dir} \
         > ${tag_name}.json
@@ -49,6 +57,7 @@ process computeSuiteSurprisals {
 
 
 process evaluateSuite {
+    conda "environment.yml"
     publishDir "${params.outdir}/csv"
 
     input:
@@ -65,10 +74,10 @@ process evaluateSuite {
 
     """
     /usr/bin/env bash
-    source /home/jon/.local/share/virtualenvs/cli-dcBL6M9Q/bin/activate
-    export PYTHONPATH=/home/jon/Projects/syntaxgym/cli:/home/jon/Projects/lm-zoo
-    export PATH="/home/jon/Projects/syntaxgym/cli/bin:\$PATH"
-    syntaxgym -v evaluate ${results_json} \
+#   source /home/jon/.local/share/virtualenvs/cli-dcBL6M9Q/bin/activate
+#   export PYTHONPATH=/home/jon/Projects/syntaxgym/cli:/home/jon/Projects/lm-zoo
+#   export PATH="/home/jon/Projects/syntaxgym/cli/bin:\$PATH"
+    python \$(which syntaxgym) -v evaluate ${results_json} \
         > ${tag_name}.csv
     """
 }
@@ -79,6 +88,7 @@ csv_results.map { it[4] }.into { csv_results_simple }
 
 
 process concatenateResults {
+    conda "environment.yml"
     publishDir "${params.outdir}"
 
     input:

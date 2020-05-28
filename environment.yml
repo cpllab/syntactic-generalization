@@ -1,0 +1,6 @@
+name: syntaxgym-acl
+dependencies:
+    - python>=3.6
+    - pip:
+        - syntaxgym>=0.3
+        - lm-zoo>=1.1.1
