@@ -9,6 +9,8 @@ def checkpoints_to_reference = [
 //   "gpt2": "singularity://${workflow.launchDir}/models/gpt2.sif",
 ]
 
+def model_requires_gpu = ["gpt2",]
+
 checkpoints = Channel.fromPath("checkpoints/*/*", type: "dir").map { f ->
     // yields (path, (model, corpus, seed)) tuples
     def match = (f.toString() =~ /checkpoints\/(.+)\/(.+)_(.+)$/)[0]
@@ -22,6 +24,12 @@ suites = Channel.fromPath("test_suites/json/*.json")
 process computeSuiteSurprisals {
     conda "environment.yml"
     publishDir "${params.outdir}/json"
+
+    label {
+       model_requires_gpu.contains(model_name)
+          ? "slurm_gpu"
+          : "slurm_cpu"
+    }
 
     input:
     set file(checkpoint_dir), val(model_name), val(corpus), val(seed), \
@@ -45,9 +53,6 @@ process computeSuiteSurprisals {
 
     """
     /usr/bin/env bash
-#   source /home/jon/.local/share/virtualenvs/cli-dcBL6M9Q/bin/activate
-#   export PYTHONPATH=/home/jon/Projects/syntaxgym/cli:/home/jon/Projects/lm-zoo
-#   export PATH="/home/jon/Projects/syntaxgym/cli/bin:\$PATH"
     python \$(which syntaxgym) -v compute-surprisals \
         ${model_ref} ${test_suite} \
         --checkpoint ${checkpoint_dir} \
@@ -59,6 +64,12 @@ process computeSuiteSurprisals {
 process evaluateSuite {
     conda "environment.yml"
     publishDir "${params.outdir}/csv"
+
+    label {
+       model_requires_gpu.contains(model_name)
+          ? "slurm_gpu"
+          : "slurm_cpu"
+    }
 
     input:
     set val(model_name), val(corpus), val(seed), val(test_suite), file(results_json) \
@@ -74,9 +85,6 @@ process evaluateSuite {
 
     """
     /usr/bin/env bash
-#   source /home/jon/.local/share/virtualenvs/cli-dcBL6M9Q/bin/activate
-#   export PYTHONPATH=/home/jon/Projects/syntaxgym/cli:/home/jon/Projects/lm-zoo
-#   export PATH="/home/jon/Projects/syntaxgym/cli/bin:\$PATH"
     python \$(which syntaxgym) -v evaluate ${results_json} \
         > ${tag_name}.csv
     """
