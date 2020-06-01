@@ -163,7 +163,7 @@ process concatenateResults {
 
     all_dfs = []
     for path in Path(".").glob("*.csv"):
-        match = re.match(r"([-\\w_]+)_(\\w+)_([-\\w]+)_(\\d+).csv", path.name)
+        match = re.match(r"([-\\w\\d_]+)_([-\\w]+)_([-\\w]+)_(\\d+).csv", path.name)
         test_suite, model_name, corpus, seed = match.groups()
 
         df = pd.read_csv(path, delim_whitespace=True)
