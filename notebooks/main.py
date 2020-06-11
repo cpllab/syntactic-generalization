@@ -66,7 +66,7 @@ PRETTY_COLUMN_MAPS = [
          
         "gpt-2-pretrained": format_pretrained("GPT-2"),
         "gpt-2-xl-pretrained": format_pretrained("GPT-2-XL"),
-        "gpt-2": "GPT-2",
+        "gpt2": "GPT-2",
         "transformer-xl": format_pretrained("Transformer-XL"),
         "grnn": format_pretrained("GRNN"),
         "jrnn": format_pretrained("JRNN"),
@@ -92,7 +92,7 @@ ngram_models = ["1gram", "ngram", "ngram-single"]
 baseline_models = ["random"]
 
 # Models for which we designed a controlled training regime
-controlled_models = ["ngram", "ordered-neurons", "tinylstm", "rnng", "gpt-2"]
+controlled_models = ["ngram", "ordered-neurons", "tinylstm", "rnng", "gpt2"]
 controlled_nonbpe_models = ["ngram", "ordered-neurons", "tinylstm", "rnng"]
 
 
@@ -603,14 +603,14 @@ for ax in [ax1,ax2]:
 
     # Add horizontal lines for models without ppl estimates.
     no_ppl_data = joined_data[joined_data.test_ppl.isna()]
-    for model_name, rows in no_ppl_data.groupby("pretty_model_name"):
-        y = rows.correct.mean()
-        ax.axhline(y, zorder=1, linewidth=3, **BASELINE_LINESTYLE) 
-        if "GRNN" in model_name: # custom spacing tweaking
-            y_offset = -0.03
-        else:
-            y_offset = 0.006
-        ax2.text(540, y + y_offset, model_name, fontdict={"size": 38}, ha='right')
+#     for model_name, rows in no_ppl_data.groupby("pretty_model_name"):
+#         y = rows.correct.mean()
+#         ax.axhline(y, zorder=1, linewidth=3, **BASELINE_LINESTYLE) 
+#         if "GRNN" in model_name: # custom spacing tweaking
+#             y_offset = -0.03
+#         else:
+#             y_offset = 0.006
+#         ax2.text(540, y + y_offset, model_name, fontdict={"size": 38}, ha='right')
     
 plt.subplots_adjust(wspace=0.2)
 ax1.get_legend().remove()
@@ -639,7 +639,11 @@ legend_title_map = {"pretty_model_name": "Model",
                     "corpus_bpe": "Tokenization"}
 # Re-map some labels.
 # labels = [legend_title_map.get(l, l) for l in labels]
-drop_indices = [i for i,l in enumerate(labels) if l in legend_title_map.keys() or l in no_ppl_data.pretty_model_name.values]
+drop_indices = [i for i,l in enumerate(labels) if l in legend_title_map.keys()]
+    # This condition is relevant only when plotting pretrained models, which have no PPL data at all.
+    # As implemented, it breaks when some models have partial PPL data reported.
+    # or l in no_ppl_data.pretty_model_name.values]
+    
 handles = [h for i,h in enumerate(handles) if i not in drop_indices]
 labels = [l for i,l in enumerate(labels) if i not in drop_indices]
 labels = [l if l not in joined_data.corpus_size.unique() else "BLLIP-%s" % l.upper() for l in labels]
