@@ -3,5 +3,5 @@ dependencies:
     - python>=3.6
     - pip:
         - syntaxgym>=0.4
-        - git+https://github.com/cpllab/lm-zoo.git@403bea19f9284d37e372bf428f3f00e0ad317f63
+        - git+https://github.com/cpllab/lm-zoo.git@d1edc4813c3e44b17bdfbbe775ecf5df08a30c26
         # - lm-zoo>=1.1.1
