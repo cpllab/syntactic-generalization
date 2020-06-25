@@ -2,6 +2,6 @@ name: syntaxgym-acl
 dependencies:
     - python>=3.6
     - pip:
-        - syntaxgym>=0.4
+        - syntaxgym==0.5.1
         - git+https://github.com/cpllab/lm-zoo.git@d1edc4813c3e44b17bdfbbe775ecf5df08a30c26
         # - lm-zoo>=1.1.1
