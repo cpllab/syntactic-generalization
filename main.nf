@@ -1,6 +1,9 @@
 
 params.outdir = "output"
 
+// TODO document where to find Singularity models and checkpoints (it's in the
+// dropbox)
+
 def checkpoints_to_reference = [
     "tinylstm": "singularity://${workflow.launchDir}/models/tinylstm.sif",
     "rnng": "singularity://${workflow.launchDir}/models/rnng.sif",
