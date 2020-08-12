@@ -101,14 +101,9 @@ controlled_nonbpe_models = ["ngram", "ordered-neurons", "tinylstm", "rnng"]
 # In[ ]:
 
 
-
-
-
-# In[ ]:
-
-
 ppl_data_path = Path("../data/raw/perplexity.csv")
 test_suite_results_path = Path("../output/all_results.tsv")
+pretrained_results_dir = Path("../data/raw/pretrained_results")
 
 
 # In[ ]:
@@ -118,15 +113,42 @@ perplexity_df = pd.read_csv(ppl_data_path, index_col=["model", "corpus", "seed"]
 perplexity_df.index.set_names("model_name", level=0, inplace=True)
 
 results_df = pd.read_csv(test_suite_results_path, delim_whitespace=True)
+
+pretrained_results_df = pd.concat([pd.read_csv(path)
+                                   for path in pretrained_results_dir.glob("*.csv")])
+
+
+# In[ ]:
+
+
+results_df.head()
+
+
+# In[ ]:
+
+
+# Parse out model metadata from pretrainet results df
+pretrained_meta = pretrained_results_df.model.str.split("_", expand=True).rename(columns={0: "model_name", 1: "corpus", 2: "seed"})
+pretrained_results_df = pd.concat([pretrained_results_df, pretrained_meta], axis=1).drop("model", axis=1)
+
+# 1-indexed items; prediction = 0
+pretrained_results_df["item"] += 1
+pretrained_results_df["prediction_id"] = 0
+
+
+# In[ ]:
+
+
+# Clean up results_df.
 results_df["seed"] = results_df.seed.fillna("0").astype(int)
 results_df = results_df.rename(columns=dict(item_number="item", result="correct"))
 
-# Add tags
-results_df["tag"] = results_df.suite.transform(lambda s: re.split(r"[-_0-9]", s)[0])
-results_df["circuit"] = results_df.tag.map(tag_to_circuit)
-tags_missing_circuit = set(results_df.tag.unique()) - set(tag_to_circuit.keys())
-if tags_missing_circuit:
-    print("Tags missing circuit: ", ", ".join(tags_missing_circuit))
+
+# In[ ]:
+
+
+# Merge.
+results_df = pd.concat([results_df, pretrained_results_df], axis=0, sort=True)
 
 
 # In[ ]:
@@ -151,6 +173,17 @@ results_df = results_df[~exclude_filter]
 # Exclude GPT-2 with word-level or SentencePieceBPE tokenization
 exclude_filter = ((results_df.model_name=="gpt-2") & ~(results_df.corpus.str.endswith("gptbpe")))
 results_df = results_df[~exclude_filter]
+
+
+# In[ ]:
+
+
+# Add tags
+results_df["tag"] = results_df.suite.transform(lambda s: re.split(r"[-_0-9]", s)[0])
+results_df["circuit"] = results_df.tag.map(tag_to_circuit)
+tags_missing_circuit = set(results_df.tag.unique()) - set(tag_to_circuit.keys())
+if tags_missing_circuit:
+    print("Tags missing circuit: ", ", ".join(tags_missing_circuit))
 
 
 # In[ ]:
@@ -574,6 +607,12 @@ if RENDER_FINAL:
 # In[ ]:
 
 
+no_ppl_data[no_ppl_data.model_name != "random"]
+
+
+# In[ ]:
+
+
 # Set limits for broken x-axis to  determine proper scaling (ratio of widths).
 ax1max = 250
 ax2min, ax2max = 520, 540
@@ -603,14 +642,14 @@ for ax in [ax1,ax2]:
 
     # Add horizontal lines for models without ppl estimates.
     no_ppl_data = joined_data[joined_data.test_ppl.isna()]
-#     for model_name, rows in no_ppl_data.groupby("pretty_model_name"):
-#         y = rows.correct.mean()
-#         ax.axhline(y, zorder=1, linewidth=3, **BASELINE_LINESTYLE) 
-#         if "GRNN" in model_name: # custom spacing tweaking
-#             y_offset = -0.03
-#         else:
-#             y_offset = 0.006
-#         ax2.text(540, y + y_offset, model_name, fontdict={"size": 38}, ha='right')
+    for model_name, rows in no_ppl_data.groupby("pretty_model_name"):
+        y = rows.correct.mean()
+        ax.axhline(y, zorder=1, linewidth=3, **BASELINE_LINESTYLE) 
+        if "GRNN" in model_name: # custom spacing tweaking
+            y_offset = -0.03
+        else:
+            y_offset = 0.006
+        ax2.text(540, y + y_offset, model_name, fontdict={"size": 38}, ha='right')
     
 plt.subplots_adjust(wspace=0.2)
 ax1.get_legend().remove()
