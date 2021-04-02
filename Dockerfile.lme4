@@ -1,0 +1,2 @@
+# Dockerfile for running the lme4/brms model analyses
+FROM asachet/rocker-stan:latest
