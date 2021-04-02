@@ -81,7 +81,7 @@ PRETTY_COLUMNS = ["pretty_%s" % col for col, _ in PRETTY_COLUMN_MAPS]
 
 
 # Exclusions
-exclude_suite_re = re.compile(r"^fgd-embed[34]|^gardenpath|^nn-nv")
+exclude_suite_re = re.compile(r"^gardenpath|^nn-nv")
 exclude_models = ["1gram", "ngram-no-rand"] # "ngram", 
 
 
@@ -124,6 +124,16 @@ results_df["circuit"] = results_df.tag.map(tag_to_circuit)
 tags_missing_circuit = set(results_df.tag.unique()) - set(tag_to_circuit.keys())
 if tags_missing_circuit:
     print("Tags missing circuit: ", ", ".join(tags_missing_circuit))
+
+
+# In[ ]:
+
+
+# DEV: Drop inaccurate md/lg GPT2 results.
+# TODO once results are clear / when merging back to master, just remove the bad result data from the repo.
+to_drop = (results_df.model_name == "gpt-2") & (results_df.seed < 1600000000) & (results_df.corpus.isin(("bllip-lg-gptbpe", "bllip-md-gptbpe")))
+print("Dropping %i inaccurate previous GPT results" % to_drop.sum())
+results_df = results_df[~to_drop]
 
 
 # In[ ]:
@@ -571,14 +581,17 @@ if RENDER_FINAL:
 # In[ ]:
 
 
-ax_ratio = 8
-f, (ax1,ax2) = plt.subplots(1,2,sharey=False,figsize=(18, 20),gridspec_kw={'width_ratios': [ax_ratio, 1]})
+# Set limits for broken x-axis to  determine proper scaling (ratio of widths).
+ax1max = 250
+ax2min, ax2max = 520, 540
+ax_ratio = ax1max / (ax2max - ax2min)
+f, (ax1,ax2) = plt.subplots(1,2,sharey=False,figsize=(19, 20),gridspec_kw={'width_ratios': [ax_ratio, 1]})
 
 sns.despine()
 palette = sns.cubehelix_palette(4, reverse=True)
 
 markers = {
-    "GPT-2": "o",
+    "GPT-2": "s",
     "RNNG" : "X",
     "ON-LSTM" : "v",
     "LSTM" : "*",
@@ -591,7 +604,7 @@ for m in joined_data.pretty_model_name.unique():
 for ax in [ax1,ax2]:
     sns.scatterplot(data=joined_data, x="test_ppl", y="correct", hue="corpus_size", hue_order=corpus_size_order,
                     markers=markers, palette=palette, style_order=model_order,
-                    s=2000, style="pretty_model_name", ax=ax, zorder=2, alpha=0.8)
+                    s=2300, style="pretty_model_name", ax=ax, zorder=2, alpha=0.8)
     ax.set_xlabel("")
     ax.tick_params(axis='x', which='major', pad=15)
 
@@ -605,16 +618,18 @@ for ax in [ax1,ax2]:
         else:
             y_offset = 0.006
         ax2.text(540, y + y_offset, model_name, fontdict={"size": 38}, ha='right')
-    
+
+no_ppl_data = no_ppl_data[no_ppl_data.model_name != 'gpt-2']
+        
 plt.subplots_adjust(wspace=0.2)
 ax1.get_legend().remove()
 ax1.set_ylabel(SG_ABSOLUTE_LABEL)
 ax2.set_ylabel("")
-plt.xlabel(PERPLEXITY_LABEL, labelpad=10, position=(-1.2,0))
+plt.xlabel(PERPLEXITY_LABEL, labelpad=10, position=(-6,0))
 
 # Add break in x-axis
-ax1.set_xlim(0,250)
-ax2.set_xlim(520,540)
+ax1.set_xlim(0,ax1max)
+ax2.set_xlim(ax2min,ax2max)
 # hide the spines between ax1 and ax2
 ax1.spines['right'].set_visible(False)
 ax2.spines['left'].set_visible(False)
@@ -637,6 +652,7 @@ drop_indices = [i for i,l in enumerate(labels) if l in legend_title_map.keys() o
 handles = [h for i,h in enumerate(handles) if i not in drop_indices]
 labels = [l for i,l in enumerate(labels) if i not in drop_indices]
 labels = [l if l not in joined_data.corpus_size.unique() else "BLLIP-%s" % l.upper() for l in labels]
+print(labels)
 
 # Add empty handle for legend spacing.
 handles.insert(4, mpatches.Patch(facecolor="white"))
@@ -656,15 +672,42 @@ for i, (l, h) in enumerate(zip(labels, handles)):
              handles[i] = Line2D([0], [0], marker=markers[l], color='k', mew=3, lw=0,
                           markerfacecolor='w', markersize=27)
 
-plt.legend(handles, labels, bbox_to_anchor=(-10.25,-0.22), ncol=5, loc="center left", columnspacing=0.5, handletextpad=0.05)
+plt.legend(handles, labels, bbox_to_anchor=(-16.4,-0.18), ncol=5, loc="center left", columnspacing=0.5, handletextpad=0.05)
 
 if RENDER_FINAL:
     # Can't use render_final function because of some spine issues.
     plt.savefig(figure_path / "perplexity.pdf", bbox_inches="tight")
 
 
+# ## Circuit--circuit correlation
+
 # In[ ]:
 
 
+# Exclude some models from circuit correlation analysis.
+EXCLUDE_FROM_CIRCUIT_ANALYSIS = ["random", "ngram", "1gram", "ngram-single"]
 
+
+# In[ ]:
+
+
+f, axs = plt.subplots(len(circuit_order), len(circuit_order), figsize=(75, 75))
+plt.subplots_adjust(hspace=0.5, wspace=0.3)
+
+source_df = suites_df[~suites_df.model_name.isin(EXCLUDE_FROM_CIRCUIT_ANALYSIS)]
+
+for c1, row in zip(circuit_order, axs):
+    for c2, ax in zip(circuit_order, row):
+        if c1 <= c2:
+            ax.axis("off")
+            continue
+            
+        xs = source_df[source_df.circuit == c1].groupby(["model_name", "corpus", "seed"]).correct.agg(**{c1: "mean"})
+        ys = source_df[source_df.circuit == c2].groupby(["model_name", "corpus", "seed"]).correct.agg(**{c2: "mean"})
+        df = pd.concat([xs, ys], axis=1)
+        ax.set_title("%s /\n %s" % (c1, c2))
+        sns.regplot(data=df, x=c1, y=c2, ax=ax, line_kws=dict(linewidth=10), scatter_kws=dict(s=200, alpha=0.7))
+        
+if RENDER_FINAL:
+    render_final(figure_path / "all-correlations.pdf")
 
