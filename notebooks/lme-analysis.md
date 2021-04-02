@@ -6,26 +6,16 @@ AIC results that go into the paper, search for
 
     library(tidyverse)
 
-    ## Registered S3 methods overwritten by 'ggplot2':
-    ##   method         from 
-    ##   [.quosures     rlang
-    ##   c.quosures     rlang
-    ##   print.quosures rlang
+    ## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──
 
-    ## Registered S3 method overwritten by 'rvest':
-    ##   method            from
-    ##   read_xml.response xml2
+    ## ✓ ggplot2 3.3.3     ✓ purrr   0.3.4
+    ## ✓ tibble  3.0.6     ✓ dplyr   1.0.4
+    ## ✓ tidyr   1.1.2     ✓ stringr 1.4.0
+    ## ✓ readr   1.4.0     ✓ forcats 0.5.1
 
-    ## ── Attaching packages ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse 1.2.1 ──
-
-    ## ✔ ggplot2 3.1.1       ✔ purrr   0.3.2  
-    ## ✔ tibble  2.1.1       ✔ dplyr   0.8.0.1
-    ## ✔ tidyr   0.8.3       ✔ stringr 1.4.0  
-    ## ✔ readr   1.3.1       ✔ forcats 0.4.0
-
-    ## ── Conflicts ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
-    ## ✖ dplyr::filter() masks stats::filter()
-    ## ✖ dplyr::lag()    masks stats::lag()
+    ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+    ## x dplyr::filter() masks stats::filter()
+    ## x dplyr::lag()    masks stats::lag()
 
     library(tidyr)
     library(lme4)
@@ -35,19 +25,15 @@ AIC results that go into the paper, search for
     ## 
     ## Attaching package: 'Matrix'
 
-    ## The following object is masked from 'package:tidyr':
+    ## The following objects are masked from 'package:tidyr':
     ## 
-    ##     expand
+    ##     expand, pack, unpack
 
     library(brms)
 
     ## Loading required package: Rcpp
 
-    ## Registered S3 method overwritten by 'xts':
-    ##   method     from
-    ##   as.zoo.xts zoo
-
-    ## Loading 'brms' package (version 2.12.0). Useful instructions
+    ## Loading 'brms' package (version 2.14.4). Useful instructions
     ## can be found by typing help('brms'). A more detailed introduction
     ## to the package is available through vignette('brms_overview').
 
@@ -69,7 +55,8 @@ AIC results that go into the paper, search for
 
     ## Warning: Missing column names filled in: 'X1' [1]
 
-    ## Parsed with column specification:
+    ## 
+    ## ── Column specification ────────────────────────────────────────────────────────
     ## cols(
     ##   X1 = col_double(),
     ##   model_name = col_character(),
@@ -89,6 +76,8 @@ AIC results that go into the paper, search for
       summarise(performance=mean(correct)) %>%
       mutate(instance=paste(architecture,size,seed,sep="-")) %>%
       mutate(numwords=corpus_sizes[size])
+
+    ## `summarise()` has grouped output by 'size', 'architecture', 'seed', 'suite'. You can override using the `.groups` argument.
 
     ## Ideally we would impose inequality constraints on the "size" effects, but I don't think we can do this with lme4.
     ## So, the analysis below uses number of words in the corpus (either raw or log) as a numeric predictor.
@@ -111,49 +100,49 @@ AIC results that go into the paper, search for
     ## Control: lmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e+05))
     ## 
     ##      AIC      BIC   logLik deviance df.resid 
-    ##   -589.9   -440.6    324.0   -647.9     1242 
+    ##   -752.6   -602.3    405.3   -810.6     1291 
     ## 
     ## Scaled residuals: 
     ##     Min      1Q  Median      3Q     Max 
-    ## -4.4689 -0.4527 -0.0280  0.4422  4.7727 
+    ## -4.5129 -0.4203 -0.0628  0.4160  4.8301 
     ## 
     ## Random effects:
     ##  Groups   Name                        Variance  Std.Dev. Corr             
-    ##  instance (Intercept)                 0.0065703 0.08106                   
-    ##  suite    (Intercept)                 0.0344967 0.18573                   
-    ##           log(numwords)               0.0005966 0.02443  -0.12            
-    ##           architecturengram           0.0556973 0.23600  -0.21 -0.48      
-    ##           architectureordered-neurons 0.0646542 0.25427   0.08  0.35 -0.23
-    ##           architecturernng            0.0545865 0.23364   0.03  0.51 -0.16
-    ##           architecturevanilla         0.0301742 0.17371   0.23 -0.42  0.22
-    ##  Residual                             0.0244510 0.15637                   
+    ##  instance (Intercept)                 0.0004507 0.02123                   
+    ##  suite    (Intercept)                 0.0497953 0.22315                   
+    ##           log(numwords)               0.0004846 0.02201  -0.17            
+    ##           architecturengram           0.0598971 0.24474  -0.37 -0.36      
+    ##           architectureordered-neurons 0.0481272 0.21938   0.01  0.72 -0.38
+    ##           architecturernng            0.0523651 0.22883  -0.17  0.72 -0.10
+    ##           architecturevanilla         0.0090947 0.09537   0.27 -0.08  0.02
+    ##  Residual                             0.0233421 0.15278                   
     ##             
     ##             
     ##             
     ##             
     ##             
     ##             
-    ##   0.87      
-    ##   0.58  0.49
+    ##   0.84      
+    ##   0.38  0.45
     ##             
-    ## Number of obs: 1271, groups:  instance, 41; suite, 31
+    ## Number of obs: 1320, groups:  instance, 40; suite, 33
     ## 
     ## Fixed effects:
     ##                              Estimate Std. Error t value
-    ## (Intercept)                  0.474348   0.054815   8.654
-    ## log(numwords)                0.037631   0.010630   3.540
-    ## architecturengram           -0.316112   0.071483  -4.422
-    ## architectureordered-neurons -0.051501   0.066393  -0.776
-    ## architecturernng            -0.001798   0.062546  -0.029
-    ## architecturevanilla         -0.195286   0.055317  -3.530
+    ## (Intercept)                  0.238438   0.043092   5.533
+    ## log(numwords)                0.023046   0.005431   4.243
+    ## architecturengram           -0.065352   0.048929  -1.336
+    ## architectureordered-neurons  0.218265   0.043356   5.034
+    ## architecturernng             0.261404   0.044522   5.871
+    ## architecturevanilla          0.074366   0.025722   2.891
     ## 
     ## Correlation of Fixed Effects:
     ##             (Intr) lg(nm) archtctrn archt- archtctrr
-    ## log(nmwrds) -0.370                                  
-    ## archtctrngr -0.457 -0.103                           
-    ## archtctrrd- -0.402  0.179  0.219                    
-    ## archtctrrnn -0.436  0.189  0.266     0.761          
-    ## archtctrvnl -0.415 -0.077  0.447     0.626  0.612
+    ## log(nmwrds) -0.233                                  
+    ## archtctrngr -0.429 -0.224                           
+    ## archtctrrd- -0.153  0.476 -0.153                    
+    ## archtctrrnn -0.295  0.469  0.058     0.811          
+    ## archtctrvnl -0.103 -0.036  0.240     0.473  0.513
 
     #anova(m0.lin,m.lin)
     anova(m0.log,m.log) # ****this line for section 4.2
@@ -164,9 +153,9 @@ AIC results that go into the paper, search for
     ## m0.log:     suite) + (1 | instance)
     ## m.log: performance ~ log(numwords) + architecture + (log(numwords) + 
     ## m.log:     architecture | suite) + (1 | instance)
-    ##        Df     AIC     BIC logLik deviance  Chisq Chi Df Pr(>Chisq)    
-    ## m0.log 28 -580.71 -436.57 318.35  -636.71                             
-    ## m.log  29 -589.90 -440.62 323.95  -647.90 11.198      1  0.0008187 ***
+    ##        npar     AIC     BIC logLik deviance  Chisq Df Pr(>Chisq)    
+    ## m0.log   28 -739.77 -594.58 397.88  -795.77                         
+    ## m.log    29 -752.64 -602.26 405.32  -810.64 14.872  1  0.0001151 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
@@ -179,12 +168,9 @@ AIC results that go into the paper, search for
     ## m0.arch.log:     suite) + (1 | instance)
     ## m.log: performance ~ log(numwords) + architecture + (log(numwords) + 
     ## m.log:     architecture | suite) + (1 | instance)
-    ##             Df     AIC     BIC logLik deviance  Chisq Chi Df Pr(>Chisq)
-    ## m0.arch.log 25 -573.59 -444.90 311.79  -623.59                         
-    ## m.log       29 -589.90 -440.62 323.95  -647.90 24.317      4  6.901e-05
-    ##                
-    ## m0.arch.log    
-    ## m.log       ***
+    ##             npar     AIC     BIC logLik deviance  Chisq Df Pr(>Chisq)    
+    ## m0.arch.log   25 -735.09 -605.45 392.54  -785.09                         
+    ## m.log         29 -752.64 -602.26 405.32  -810.64 25.553  4  3.893e-05 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
@@ -215,152 +201,152 @@ AIC results that go into the paper, search for
     ## Control: lmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 2e+05))
     ## 
     ##      AIC      BIC   logLik deviance df.resid 
-    ##   -673.7   -370.0    395.9   -791.7     1212 
+    ##   -858.9   -552.9    488.4   -976.9     1261 
     ## 
     ## Scaled residuals: 
     ##     Min      1Q  Median      3Q     Max 
-    ## -4.6035 -0.4502 -0.0200  0.4589  4.4993 
+    ## -4.6380 -0.4234 -0.0604  0.4277  4.8559 
     ## 
     ## Random effects:
-    ##  Groups   Name                        Variance Std.Dev. Corr             
-    ##  instance (Intercept)                 0.006432 0.08020                   
-    ##  suite    (Intercept)                 0.019469 0.13953                   
-    ##           log(numwords)               0.000118 0.01086  -0.26            
-    ##           architecturengram           0.023279 0.15257  -0.20 -0.53      
-    ##           architectureordered-neurons 0.026871 0.16392  -0.48  0.13 -0.02
-    ##           architecturernng            0.017655 0.13287  -0.50  0.01 -0.02
-    ##           architecturevanilla         0.015470 0.12438  -0.31 -0.39  0.04
-    ##  Residual                             0.024078 0.15517                   
+    ##  Groups   Name                        Variance  Std.Dev. Corr             
+    ##  instance (Intercept)                 0.0004304 0.020747                  
+    ##  suite    (Intercept)                 0.0172046 0.131166                  
+    ##           log(numwords)               0.0000890 0.009434 -0.69            
+    ##           architecturengram           0.0174797 0.132211  0.04 -0.37      
+    ##           architectureordered-neurons 0.0141149 0.118806 -0.31  0.87 -0.63
+    ##           architecturernng            0.0123181 0.110987 -0.41  0.52 -0.38
+    ##           architecturevanilla         0.0044081 0.066394  0.11  0.14 -0.75
+    ##  Residual                             0.0229785 0.151587                  
     ##             
     ##             
     ##             
     ##             
     ##             
     ##             
-    ##   0.79      
-    ##   0.80  0.82
+    ##   0.64      
+    ##   0.51  0.74
     ##             
-    ## Number of obs: 1271, groups:  instance, 41; suite, 31
+    ## Number of obs: 1320, groups:  instance, 40; suite, 33
     ## 
     ## Fixed effects:
-    ##                                                                Estimate
-    ## (Intercept)                                                    0.254130
-    ## log(numwords)                                                  0.098744
-    ## circuitCenter Embedding                                        0.459898
-    ## circuitGarden-Path Effects                                     0.242841
-    ## circuitGross Syntactic State                                   0.309802
-    ## circuitLicensing                                               0.113404
-    ## circuitLong-Distance Dependencies                              0.346113
-    ## architecturengram                                             -0.441496
-    ## architectureordered-neurons                                   -0.149316
-    ## architecturernng                                               0.044952
-    ## architecturevanilla                                           -0.432724
-    ## log(numwords):circuitCenter Embedding                         -0.073315
-    ## log(numwords):circuitGarden-Path Effects                      -0.054291
-    ## log(numwords):circuitGross Syntactic State                    -0.044735
-    ## log(numwords):circuitLicensing                                -0.085396
-    ## log(numwords):circuitLong-Distance Dependencies               -0.064872
-    ## circuitCenter Embedding:architecturengram                      0.060887
-    ## circuitGarden-Path Effects:architecturengram                   0.373588
-    ## circuitGross Syntactic State:architecturengram                -0.229715
-    ## circuitLicensing:architecturengram                             0.204028
-    ## circuitLong-Distance Dependencies:architecturengram            0.067028
-    ## circuitCenter Embedding:architectureordered-neurons           -0.004274
-    ## circuitGarden-Path Effects:architectureordered-neurons         0.253112
-    ## circuitGross Syntactic State:architectureordered-neurons       0.436617
-    ## circuitLicensing:architectureordered-neurons                  -0.123948
-    ## circuitLong-Distance Dependencies:architectureordered-neurons  0.169191
-    ## circuitCenter Embedding:architecturernng                      -0.068965
-    ## circuitGarden-Path Effects:architecturernng                    0.170423
-    ## circuitGross Syntactic State:architecturernng                  0.228539
-    ## circuitLicensing:architecturernng                             -0.281040
-    ## circuitLong-Distance Dependencies:architecturernng            -0.072933
-    ## circuitCenter Embedding:architecturevanilla                    0.325924
-    ## circuitGarden-Path Effects:architecturevanilla                 0.367627
-    ## circuitGross Syntactic State:architecturevanilla               0.162781
-    ## circuitLicensing:architecturevanilla                           0.162799
-    ## circuitLong-Distance Dependencies:architecturevanilla          0.370641
+    ##                                                               Estimate
+    ## (Intercept)                                                   -0.11080
+    ## log(numwords)                                                  0.07565
+    ## circuitCenter Embedding                                        0.70352
+    ## circuitGarden-Path Effects                                     0.35359
+    ## circuitGross Syntactic State                                   0.41751
+    ## circuitLicensing                                               0.20515
+    ## circuitLong-Distance Dependencies                              0.53433
+    ## architecturengram                                             -0.03070
+    ## architectureordered-neurons                                    0.25082
+    ## architecturernng                                               0.45108
+    ## architecturevanilla                                           -0.02193
+    ## log(numwords):circuitCenter Embedding                         -0.05940
+    ## log(numwords):circuitGarden-Path Effects                      -0.04718
+    ## log(numwords):circuitGross Syntactic State                    -0.03854
+    ## log(numwords):circuitLicensing                                -0.07976
+    ## log(numwords):circuitLong-Distance Dependencies               -0.04779
+    ## circuitCenter Embedding:architecturengram                     -0.21037
+    ## circuitGarden-Path Effects:architecturengram                   0.24871
+    ## circuitGross Syntactic State:architecturengram                -0.34973
+    ## circuitLicensing:architecturengram                             0.10110
+    ## circuitLong-Distance Dependencies:architecturengram           -0.22838
+    ## circuitCenter Embedding:architectureordered-neurons           -0.26911
+    ## circuitGarden-Path Effects:architectureordered-neurons         0.13152
+    ## circuitGross Syntactic State:architectureordered-neurons       0.31946
+    ## circuitLicensing:architectureordered-neurons                  -0.22428
+    ## circuitLong-Distance Dependencies:architectureordered-neurons -0.04501
+    ## circuitCenter Embedding:architecturernng                      -0.33741
+    ## circuitGarden-Path Effects:architecturernng                    0.04698
+    ## circuitGross Syntactic State:architecturernng                  0.10977
+    ## circuitLicensing:architecturernng                             -0.38283
+    ## circuitLong-Distance Dependencies:architecturernng            -0.30965
+    ## circuitCenter Embedding:architecturevanilla                    0.05467
+    ## circuitGarden-Path Effects:architecturevanilla                 0.24275
+    ## circuitGross Syntactic State:architecturevanilla               0.04276
+    ## circuitLicensing:architecturevanilla                           0.05987
+    ## circuitLong-Distance Dependencies:architecturevanilla          0.10528
     ##                                                               Std. Error
-    ## (Intercept)                                                     0.101028
-    ## log(numwords)                                                   0.014950
-    ## circuitCenter Embedding                                         0.146228
-    ## circuitGarden-Path Effects                                      0.113267
-    ## circuitGross Syntactic State                                    0.122343
-    ## circuitLicensing                                                0.105446
-    ## circuitLong-Distance Dependencies                               0.113267
-    ## architecturengram                                               0.119453
-    ## architectureordered-neurons                                     0.116274
-    ## architecturernng                                                0.100555
-    ## architecturevanilla                                             0.096210
-    ## log(numwords):circuitCenter Embedding                           0.018812
-    ## log(numwords):circuitGarden-Path Effects                        0.014572
-    ## log(numwords):circuitGross Syntactic State                      0.015739
-    ## log(numwords):circuitLicensing                                  0.013566
-    ## log(numwords):circuitLong-Distance Dependencies                 0.014572
-    ## circuitCenter Embedding:architecturengram                       0.168621
-    ## circuitGarden-Path Effects:architecturengram                    0.130613
-    ## circuitGross Syntactic State:architecturengram                  0.141078
-    ## circuitLicensing:architecturengram                              0.121594
-    ## circuitLong-Distance Dependencies:architecturengram             0.130613
-    ## circuitCenter Embedding:architectureordered-neurons             0.169483
-    ## circuitGarden-Path Effects:architectureordered-neurons          0.131281
-    ## circuitGross Syntactic State:architectureordered-neurons        0.141800
-    ## circuitLicensing:architectureordered-neurons                    0.122216
-    ## circuitLong-Distance Dependencies:architectureordered-neurons   0.131281
-    ## circuitCenter Embedding:architecturernng                        0.143449
-    ## circuitGarden-Path Effects:architecturernng                     0.111115
-    ## circuitGross Syntactic State:architecturernng                   0.120018
-    ## circuitLicensing:architecturernng                               0.103442
-    ## circuitLong-Distance Dependencies:architecturernng              0.111115
-    ## circuitCenter Embedding:architecturevanilla                     0.136312
-    ## circuitGarden-Path Effects:architecturevanilla                  0.105587
-    ## circuitGross Syntactic State:architecturevanilla                0.114047
-    ## circuitLicensing:architecturevanilla                            0.098296
-    ## circuitLong-Distance Dependencies:architecturevanilla           0.105587
+    ## (Intercept)                                                      0.09036
+    ## log(numwords)                                                    0.01154
+    ## circuitCenter Embedding                                          0.14174
+    ## circuitGarden-Path Effects                                       0.10979
+    ## circuitGross Syntactic State                                     0.11859
+    ## circuitLicensing                                                 0.10221
+    ## circuitLong-Distance Dependencies                                0.10512
+    ## architecturengram                                                0.09936
+    ## architectureordered-neurons                                      0.08746
+    ## architecturernng                                                 0.08287
+    ## architecturevanilla                                              0.06454
+    ## log(numwords):circuitCenter Embedding                            0.01786
+    ## log(numwords):circuitGarden-Path Effects                         0.01384
+    ## log(numwords):circuitGross Syntactic State                       0.01495
+    ## log(numwords):circuitLicensing                                   0.01288
+    ## log(numwords):circuitLong-Distance Dependencies                  0.01325
+    ## circuitCenter Embedding:architecturengram                        0.15537
+    ## circuitGarden-Path Effects:architecturengram                     0.12035
+    ## circuitGross Syntactic State:architecturengram                   0.12999
+    ## circuitLicensing:architecturengram                               0.11204
+    ## circuitLong-Distance Dependencies:architecturengram              0.11523
+    ## circuitCenter Embedding:architectureordered-neurons              0.13686
+    ## circuitGarden-Path Effects:architectureordered-neurons           0.10601
+    ## circuitGross Syntactic State:architectureordered-neurons         0.11450
+    ## circuitLicensing:architectureordered-neurons                     0.09869
+    ## circuitLong-Distance Dependencies:architectureordered-neurons    0.10149
+    ## circuitCenter Embedding:architecturernng                         0.12963
+    ## circuitGarden-Path Effects:architecturernng                      0.10041
+    ## circuitGross Syntactic State:architecturernng                    0.10845
+    ## circuitLicensing:architecturernng                                0.09348
+    ## circuitLong-Distance Dependencies:architecturernng               0.09613
+    ## circuitCenter Embedding:architecturevanilla                      0.10028
+    ## circuitGarden-Path Effects:architecturevanilla                   0.07768
+    ## circuitGross Syntactic State:architecturevanilla                 0.08390
+    ## circuitLicensing:architecturevanilla                             0.07231
+    ## circuitLong-Distance Dependencies:architecturevanilla            0.07437
     ##                                                               t value
-    ## (Intercept)                                                     2.515
-    ## log(numwords)                                                   6.605
-    ## circuitCenter Embedding                                         3.145
-    ## circuitGarden-Path Effects                                      2.144
-    ## circuitGross Syntactic State                                    2.532
-    ## circuitLicensing                                                1.075
-    ## circuitLong-Distance Dependencies                               3.056
-    ## architecturengram                                              -3.696
-    ## architectureordered-neurons                                    -1.284
-    ## architecturernng                                                0.447
-    ## architecturevanilla                                            -4.498
-    ## log(numwords):circuitCenter Embedding                          -3.897
-    ## log(numwords):circuitGarden-Path Effects                       -3.726
-    ## log(numwords):circuitGross Syntactic State                     -2.842
-    ## log(numwords):circuitLicensing                                 -6.295
-    ## log(numwords):circuitLong-Distance Dependencies                -4.452
-    ## circuitCenter Embedding:architecturengram                       0.361
-    ## circuitGarden-Path Effects:architecturengram                    2.860
-    ## circuitGross Syntactic State:architecturengram                 -1.628
-    ## circuitLicensing:architecturengram                              1.678
-    ## circuitLong-Distance Dependencies:architecturengram             0.513
-    ## circuitCenter Embedding:architectureordered-neurons            -0.025
-    ## circuitGarden-Path Effects:architectureordered-neurons          1.928
-    ## circuitGross Syntactic State:architectureordered-neurons        3.079
-    ## circuitLicensing:architectureordered-neurons                   -1.014
-    ## circuitLong-Distance Dependencies:architectureordered-neurons   1.289
-    ## circuitCenter Embedding:architecturernng                       -0.481
-    ## circuitGarden-Path Effects:architecturernng                     1.534
-    ## circuitGross Syntactic State:architecturernng                   1.904
-    ## circuitLicensing:architecturernng                              -2.717
-    ## circuitLong-Distance Dependencies:architecturernng             -0.656
-    ## circuitCenter Embedding:architecturevanilla                     2.391
-    ## circuitGarden-Path Effects:architecturevanilla                  3.482
-    ## circuitGross Syntactic State:architecturevanilla                1.427
-    ## circuitLicensing:architecturevanilla                            1.656
-    ## circuitLong-Distance Dependencies:architecturevanilla           3.510
+    ## (Intercept)                                                    -1.226
+    ## log(numwords)                                                   6.556
+    ## circuitCenter Embedding                                         4.963
+    ## circuitGarden-Path Effects                                      3.221
+    ## circuitGross Syntactic State                                    3.521
+    ## circuitLicensing                                                2.007
+    ## circuitLong-Distance Dependencies                               5.083
+    ## architecturengram                                              -0.309
+    ## architectureordered-neurons                                     2.868
+    ## architecturernng                                                5.443
+    ## architecturevanilla                                            -0.340
+    ## log(numwords):circuitCenter Embedding                          -3.325
+    ## log(numwords):circuitGarden-Path Effects                       -3.409
+    ## log(numwords):circuitGross Syntactic State                     -2.578
+    ## log(numwords):circuitLicensing                                 -6.192
+    ## log(numwords):circuitLong-Distance Dependencies                -3.607
+    ## circuitCenter Embedding:architecturengram                      -1.354
+    ## circuitGarden-Path Effects:architecturengram                    2.067
+    ## circuitGross Syntactic State:architecturengram                 -2.690
+    ## circuitLicensing:architecturengram                              0.902
+    ## circuitLong-Distance Dependencies:architecturengram            -1.982
+    ## circuitCenter Embedding:architectureordered-neurons            -1.966
+    ## circuitGarden-Path Effects:architectureordered-neurons          1.241
+    ## circuitGross Syntactic State:architectureordered-neurons        2.790
+    ## circuitLicensing:architectureordered-neurons                   -2.273
+    ## circuitLong-Distance Dependencies:architectureordered-neurons  -0.444
+    ## circuitCenter Embedding:architecturernng                       -2.603
+    ## circuitGarden-Path Effects:architecturernng                     0.468
+    ## circuitGross Syntactic State:architecturernng                   1.012
+    ## circuitLicensing:architecturernng                              -4.096
+    ## circuitLong-Distance Dependencies:architecturernng             -3.221
+    ## circuitCenter Embedding:architecturevanilla                     0.545
+    ## circuitGarden-Path Effects:architecturevanilla                  3.125
+    ## circuitGross Syntactic State:architecturevanilla                0.510
+    ## circuitLicensing:architecturevanilla                            0.828
+    ## circuitLong-Distance Dependencies:architecturevanilla           1.416
 
     ## 
     ## Correlation matrix not shown by default, as p = 36 > 12.
     ## Use print(x, correlation=TRUE)  or
     ##     vcov(x)        if you need it
 
-    ## convergence code: 0
+    ## optimizer (bobyqa) convergence code: 0 (OK)
     ## boundary (singular) fit: see ?isSingular
 
     #summary(m0.size_circuit)
@@ -372,12 +358,9 @@ AIC results that go into the paper, search for
     ## m0.size_circuit:     architecture | suite) + (1 | instance)
     ## m: performance ~ log(numwords) * circuit + architecture * circuit + 
     ## m:     (log(numwords) + architecture | suite) + (1 | instance)
-    ##                 Df     AIC     BIC logLik deviance  Chisq Chi Df
-    ## m0.size_circuit 54 -654.08 -376.11 381.04  -762.08              
-    ## m               59 -673.72 -370.01 395.86  -791.72 29.636      5
-    ##                 Pr(>Chisq)    
-    ## m0.size_circuit               
-    ## m                1.739e-05 ***
+    ##                 npar     AIC     BIC logLik deviance  Chisq Df Pr(>Chisq)    
+    ## m0.size_circuit   54 -837.86 -557.85 472.93  -945.86                         
+    ## m                 59 -858.87 -552.93 488.43  -976.87 31.009  5  9.329e-06 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
@@ -389,11 +372,11 @@ AIC results that go into the paper, search for
     ## m0.architecture_circuit:     architecture | suite) + (1 | instance)
     ## m: performance ~ log(numwords) * circuit + architecture * circuit + 
     ## m:     (log(numwords) + architecture | suite) + (1 | instance)
-    ##                         Df     AIC     BIC logLik deviance  Chisq Chi Df
-    ## m0.architecture_circuit 39 -622.70 -421.95 350.35  -700.70              
-    ## m                       59 -673.72 -370.01 395.86  -791.72 91.017     20
+    ##                         npar     AIC     BIC logLik deviance  Chisq Df
+    ## m0.architecture_circuit   39 -795.56 -593.33 436.78  -873.56          
+    ## m                         59 -858.87 -552.93 488.43  -976.87 103.31 20
     ##                         Pr(>Chisq)    
     ## m0.architecture_circuit               
-    ## m                         4.92e-11 ***
+    ## m                        3.212e-13 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
