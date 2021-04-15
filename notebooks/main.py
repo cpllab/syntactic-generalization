@@ -711,3 +711,11 @@ for c1, row in zip(circuit_order, axs):
 if RENDER_FINAL:
     render_final(figure_path / "all-correlations.pdf")
 
+
+# ----------
+
+# In[ ]:
+
+
+joined_data[joined_data.model_name == "gpt-2"]
+
