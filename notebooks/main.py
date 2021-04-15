@@ -470,8 +470,12 @@ for i, ax in enumerate(axes):
         ax.set_xlabel("Model", labelpad=16)
         ax.set_ylabel(SG_DELTA_LABEL)
     elif i == 1:
+        # Collapse BPE/non-BPE distinction.
+        to_plot = controlled_suites_df.copy()
+        to_plot["pretty_corpus"] = to_plot.pretty_corpus.str.replace("-GPTBPE", "")
+        
+        kwargs = dict(data=to_plot.reset_index(), x="pretty_corpus", y="correct_delta", order=nobpe_corpus_order, ax=ax)
         # Estimate error intervals with a structured bootstrap: resampling units = model
-        kwargs = dict(data=controlled_suites_df.reset_index(), x="pretty_corpus", y="correct_delta", order=nobpe_corpus_order, ax=ax)
         sns.barplot(**kwargs, color="Gray", units="pretty_model_name")
         sns.swarmplot(**kwargs, hue="pretty_model_name",  hue_order=controlled_model_order, palette=MODEL_COLORS, size=9, alpha=0.5)
 
